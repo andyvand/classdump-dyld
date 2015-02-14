@@ -1,0 +1,9 @@
+#import <finish_installation/TerminationListener.h>
+#import <finish_installation/SUHost.h>
+#import <finish_installation/SUInstaller.h>
+#import <finish_installation/SUStatusController.h>
+#import <finish_installation/SUPlainInstaller.h>
+#import <finish_installation/SUStandardVersionComparator.h>
+#import <finish_installation/SUSystemProfiler.h>
+#import <finish_installation/SUPackageInstaller.h>
+#import <finish_installation/SUWindowController.h>

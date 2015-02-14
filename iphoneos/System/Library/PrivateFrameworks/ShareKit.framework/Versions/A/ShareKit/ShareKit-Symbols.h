@@ -1,0 +1,2851 @@
+-[SHKBlockUUIDTuple initWithBlock:UUID:]
+-[SHKBlockUUIDTuple description]
+-[SHKBlockUUIDTuple block]
+-[SHKBlockUUIDTuple uuid]
+-[SHKBlockUUIDTuple .cxx_destruct]
+-[SHKBlockQueue init]
+-[SHKBlockQueue initWithMaxSize:]
+-[SHKBlockQueue initWithQueue:]
+-[SHKBlockQueue initWithMaxSize:queue:]
+-[SHKBlockQueue size]
+-[SHKBlockQueue addBlock:]
+-[SHKBlockQueue removeBlock]
+-[SHKBlockQueue addBlock:uuid:]
+-[SHKBlockQueue removeBlockWithUUID:]
+-[SHKBlockQueue removeAndExecuteBlock]
+-[SHKBlockQueue removeAndExecuteBlockWithCompletionBlock:]
+-[SHKBlockQueue removeAndExecuteBlockWithUUID:completionBlock:]
+-[SHKBlockQueue removeAndExecuteBlockWithUUID:size:completionBlock:]
+-[SHKBlockQueue removeAndExecuteBlockWithUUID:size:useSizeParameter:completionBlock:]
+___85-[SHKBlockQueue removeAndExecuteBlockWithUUID:size:useSizeParameter:completionBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKBlockQueue description]
+-[SHKBlockQueue maxSize]
+-[SHKBlockQueue setMaxSize:]
+-[SHKBlockQueue .cxx_destruct]
++[NSSharingAccountDelegate accountTypeIdentifier]
++[NSSharingAccountDelegate sessionClass]
++[NSSharingAccountDelegate accountStore]
+___40+[NSSharingAccountDelegate accountStore]_block_invoke
++[NSSharingAccountDelegate allAccounts]
++[NSSharingAccountDelegate defaultAccountForExtensionContext:]
++[NSSharingAccountDelegate playTweetSound]
++[NSSharingAccountDelegate playSendSound]
+-[NSSharingNoUIExtensionProvider beginRequestWithExtensionContext:]
+-[NSItemProvider(ShareKit) SHK_url]
+-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:]
+_SHK_representationForItemProvider
+___53-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:]_block_invoke
+___53-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_14
+___destroy_helper_block_15
+-[NSItemProvider(ShareKit) SHK_image]
+___37-[NSItemProvider(ShareKit) SHK_image]_block_invoke
+___37-[NSItemProvider(ShareKit) SHK_image]_block_invoke_2
+___37-[NSItemProvider(ShareKit) SHK_image]_block_invoke_3
+___copy_helper_block_22
+___destroy_helper_block_23
+___copy_helper_block_26
+___destroy_helper_block_27
+___copy_helper_block_30
+___destroy_helper_block_31
+-[NSItemProvider(ShareKit) SHK_attributedString]
+-[NSItemProvider(ShareKit) SHK_string]
+___38-[NSItemProvider(ShareKit) SHK_string]_block_invoke
+___38-[NSItemProvider(ShareKit) SHK_string]_block_invoke_2
+___copy_helper_block_38
+___destroy_helper_block_39
+___copy_helper_block_42
+___destroy_helper_block_43
+-[NSItemProvider(ShareKit) SHK_data]
+___36-[NSItemProvider(ShareKit) SHK_data]_block_invoke
+___36-[NSItemProvider(ShareKit) SHK_data]_block_invoke_2
+___copy_helper_block_45
+___destroy_helper_block_46
+___copy_helper_block_48
+___destroy_helper_block_49
+-[NSItemProvider(ShareKit) SHK_urlwithCompletionHandler:]
+-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:withCompletionHandler:]
+_SHK_asyncRepresentationForItemProvider
+___75-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:withCompletionHandler:]_block_invoke
+___75-[NSItemProvider(ShareKit) SHK_urlForTypeIdentifier:withCompletionHandler:]_block_invoke_2
+___copy_helper_block_53
+___destroy_helper_block_54
+___copy_helper_block_56
+___destroy_helper_block_57
+-[NSItemProvider(ShareKit) SHK_stringwithCompletionHandler:]
+___60-[NSItemProvider(ShareKit) SHK_stringwithCompletionHandler:]_block_invoke
+___60-[NSItemProvider(ShareKit) SHK_stringwithCompletionHandler:]_block_invoke_2
+___copy_helper_block_59
+___destroy_helper_block_60
+___copy_helper_block_62
+___destroy_helper_block_63
+-[NSItemProvider(ShareKit) SHK_attributedStringwithCompletionHandler:]
+___70-[NSItemProvider(ShareKit) SHK_attributedStringwithCompletionHandler:]_block_invoke
+___copy_helper_block_65
+___destroy_helper_block_66
+-[NSItemProvider(ShareKit) SHK_imagewithCompletionHandler:]
+___59-[NSItemProvider(ShareKit) SHK_imagewithCompletionHandler:]_block_invoke
+___59-[NSItemProvider(ShareKit) SHK_imagewithCompletionHandler:]_block_invoke_2
+___copy_helper_block_71
+___destroy_helper_block_72
+___copy_helper_block_74
+___destroy_helper_block_75
+___59-[NSItemProvider(ShareKit) SHK_imagewithCompletionHandler:]_block_invoke77
+___59-[NSItemProvider(ShareKit) SHK_imagewithCompletionHandler:]_block_invoke_278
+___copy_helper_block_79
+___destroy_helper_block_80
+___copy_helper_block_85
+___destroy_helper_block_86
+-[NSItemProvider(ShareKit) SHK_datawithCompletionHandler:]
+___58-[NSItemProvider(ShareKit) SHK_datawithCompletionHandler:]_block_invoke
+___58-[NSItemProvider(ShareKit) SHK_datawithCompletionHandler:]_block_invoke_2
+___copy_helper_block_89
+___destroy_helper_block_90
+___copy_helper_block_92
+___destroy_helper_block_93
+-[NSItemProvider(ShareKit) SHK_imageDatawithCompletionHandler:]
+___63-[NSItemProvider(ShareKit) SHK_imageDatawithCompletionHandler:]_block_invoke
+___63-[NSItemProvider(ShareKit) SHK_imageDatawithCompletionHandler:]_block_invoke_2
+___copy_helper_block_95
+___destroy_helper_block_96
+___copy_helper_block_98
+___destroy_helper_block_99
+-[NSItemProvider(ShareKit) animationInfoDict]
+-[NSItemProvider(ShareKit) imageURL]
+-[NSItemProvider(ShareKit) setImageURL:]
+-[NSItemProvider(ShareKit) getImageForKeyPointer:]
+-[NSItemProvider(ShareKit) setImage:forKeyPointer:]
+-[NSItemProvider(ShareKit) shareImage]
+-[NSItemProvider(ShareKit) setShareImage:]
+-[NSItemProvider(ShareKit) shareImageContentRect]
+-[NSItemProvider(ShareKit) setShareImageContentRect:]
+-[NSItemProvider(ShareKit) sourceImage]
+-[NSItemProvider(ShareKit) setSourceImage:]
+-[NSItemProvider(ShareKit) sourceImageContentRect]
+-[NSItemProvider(ShareKit) setSourceImageContentRect:]
+___SHK_asyncRepresentationForItemProvider_block_invoke
+___copy_helper_block_187
+___destroy_helper_block_188
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___SHK_representationForItemProvider_block_invoke
+___copy_helper_block_191
+___destroy_helper_block_192
++[NSSharingAudience audienceWithIdentifier:title:icon:]
+-[NSSharingAudience identifier]
+-[NSSharingAudience setIdentifier:]
+-[NSSharingAudience title]
+-[NSSharingAudience setTitle:]
+-[NSSharingAudience icon]
+-[NSSharingAudience setIcon:]
+-[NSSharingAudience .cxx_destruct]
+-[NSSharingPlugInComposeViewService dealloc]
+-[NSSharingPlugInComposeViewService startUserConfiguration]
+-[NSSharingPlugInComposeViewService composeViewController]
++[NSSharingPlugInComposeViewService accountDelegateClass]
+-[NSSharingPlugInComposeViewService message]
+-[NSSharingPlugInComposeViewService prepareViewController]
+-[NSSharingPlugInComposeViewService validateActionButtonWithCompletionHandler:]
+___79-[NSSharingPlugInComposeViewService validateActionButtonWithCompletionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSSharingPlugInComposeViewService setStatus:]
+-[NSSharingPlugInComposeViewService textContentDidChange]
+-[NSSharingPlugInComposeViewService canSendMediaWithNoText]
+-[NSSharingPlugInComposeViewService supportsLocation]
+-[NSSharingPlugInComposeViewService locationController]
+-[NSSharingPlugInComposeViewService startUpdatingLocation]
+-[NSSharingPlugInComposeViewService locationManager:didUpdateToLocation:fromLocation:]
+___86-[NSSharingPlugInComposeViewService locationManager:didUpdateToLocation:fromLocation:]_block_invoke
+___copy_helper_block_180
+___destroy_helper_block_181
+-[NSSharingPlugInComposeViewService stopUpdatingLocation]
+-[NSSharingPlugInComposeViewService placemark]
+-[NSSharingPlugInComposeViewService locationController:displayNameForLocation:]
+-[NSSharingPlugInComposeViewService noConfiguredAccountImage]
+-[NSSharingPlugInComposeViewService controlTextDidChange:]
+-[NSSharingPlugInComposeViewService setupSession]
+-[NSSharingPlugInComposeViewService tearDownSession]
+-[NSSharingPlugInComposeViewService alertCharacterThreshold]
+-[NSSharingPlugInComposeViewService maxCharacterCount]
+-[NSSharingPlugInComposeViewService constantCharacterCountForObjectType:]
+-[NSSharingPlugInComposeViewService startCompletingText:inRange:]
+-[NSSharingPlugInComposeViewService renewSession]
+-[NSSharingPlugInComposeViewService closeServiceWindowWithSuccess:completion:]
+-[NSSharingPlugInComposeViewService session]
+-[NSSharingPlugInComposeViewService serviceNeedsUserConfiguration]
+-[NSSharingPlugInComposeViewService characterCountForString:]
+-[NSSharingPlugInComposeViewService remainingCharactersCountWithCompletionHandler:]
+___83-[NSSharingPlugInComposeViewService remainingCharactersCountWithCompletionHandler:]_block_invoke
+___copy_helper_block_241
+___destroy_helper_block_242
+___83-[NSSharingPlugInComposeViewService remainingCharactersCountWithCompletionHandler:]_block_invoke247
+___copy_helper_block_250
+___destroy_helper_block_251
+-[NSSharingPlugInComposeViewService audiences]
+-[NSSharingPlugInComposeViewService accountStore]
+___49-[NSSharingPlugInComposeViewService accountStore]_block_invoke
+-[NSSharingPlugInComposeViewService selectedAccount]
+-[NSSharingPlugInComposeViewService dictionaryFromJSONString:]
+-[NSSharingPlugInComposeViewService errorStringFromJSONResponse:]
+-[NSSharingPlugInComposeViewService canAutoCompleteFromSelectionRange:inMessage:tentativeCompletion:tentativeRange:]
+-[NSSharingPlugInComposeViewService cancelAsyncFetchImageOperations]
+-[NSSharingPlugInComposeViewService asyncFetchImageAtURL:forCompletionItem:]
+___76-[NSSharingPlugInComposeViewService asyncFetchImageAtURL:forCompletionItem:]_block_invoke
+___76-[NSSharingPlugInComposeViewService asyncFetchImageAtURL:forCompletionItem:]_block_invoke_2
+___copy_helper_block_315
+___destroy_helper_block_316
+___copy_helper_block_318
+___destroy_helper_block_319
+-[NSSharingPlugInComposeViewService foundCompletionResults:forText:]
+___68-[NSSharingPlugInComposeViewService foundCompletionResults:forText:]_block_invoke
+___copy_helper_block_327
+___destroy_helper_block_328
+-[NSSharingPlugInComposeViewService setSelectedAccount:]
+-[NSSharingPlugInComposeViewService selectedAudienceIdentifier]
+-[NSSharingPlugInComposeViewService setSelectedAudienceIdentifier:]
+-[NSSharingPlugInComposeViewService .cxx_destruct]
+-[NSExtensionItem(ShareKit) SHK_firstWebArchiveItemProviderWithCompletionHandler:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___Block_byref_object_copy_3
+___Block_byref_object_dispose_4
+___82-[NSExtensionItem(ShareKit) SHK_firstWebArchiveItemProviderWithCompletionHandler:]_block_invoke
+___82-[NSExtensionItem(ShareKit) SHK_firstWebArchiveItemProviderWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_16
+___destroy_helper_block_17
+___82-[NSExtensionItem(ShareKit) SHK_firstWebArchiveItemProviderWithCompletionHandler:]_block_invoke22
+___copy_helper_block_23
+___destroy_helper_block_24
++[NSSharingExtensionContext _extensionAuxiliaryHostProtocol]
+___60+[NSSharingExtensionContext _extensionAuxiliaryHostProtocol]_block_invoke
++[NSSharingExtensionContext _extensionAuxiliaryVendorProtocol]
+___62+[NSSharingExtensionContext _extensionAuxiliaryVendorProtocol]_block_invoke
++[NSSharingExtensionContext load]
+___33+[NSSharingExtensionContext load]_block_invoke
++[NSSharingExtensionContext assertBundleInformationIsComplete]
+-[NSSharingExtensionContext initWithInputItems:listenerEndpoint:contextUUID:]
+___77-[NSSharingExtensionContext initWithInputItems:listenerEndpoint:contextUUID:]_block_invoke
+-[NSSharingExtensionContext handleSharingOptions:]
+-[NSSharingExtensionContext performServiceWithOptionsDictionaryData:completion:]
+-[NSSharingExtensionContext parameters]
+-[NSSharingExtensionContext storeParameterValue:forKey:]
+-[NSSharingExtensionContext clientAppIsBackgroundOnly]
+-[NSSharingExtensionContext sharingContentScope]
+-[NSSharingExtensionContext sourceWindowFrame]
+-[NSSharingExtensionContext hasSourceWindow]
+-[NSSharingExtensionContext sourceWindowIsFullscreen]
+-[NSSharingExtensionContext serviceDictionary]
+-[NSSharingExtensionContext clientAppID]
+-[NSSharingExtensionContext setStatus:]
+-[NSSharingExtensionContext status]
+-[NSSharingExtensionContext setSessionCompletionDelegate:]
+-[NSSharingExtensionContext sessionCompletionDelegate]
+-[NSSharingExtensionContext performService]
+-[NSSharingExtensionContext cancelServiceUI]
+-[NSSharingExtensionContext SHK_invalidate]
+-[NSSharingExtensionContext completeRequestReturningItems:completionHandler:]
+-[NSSharingExtensionContext cancelRequestWithError:]
+-[NSSharingExtensionContext closeServiceWindowWithSuccess:completion:]
+-[NSSharingExtensionContext serviceDidCompleteWithSuccess:error:items:completionHandler:]
+___89-[NSSharingExtensionContext serviceDidCompleteWithSuccess:error:items:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSSharingExtensionContext startSessionTeardownByCallingContinuationBlock:]
+-[NSSharingExtensionContext setProgress:]
+-[NSSharingExtensionContext progress]
+-[NSSharingExtensionContext startProgress]
+-[NSSharingExtensionContext stopProgressImmediately:]
+___53-[NSSharingExtensionContext stopProgressImmediately:]_block_invoke
+___copy_helper_block_290
+___destroy_helper_block_291
+-[NSSharingExtensionContext extensionItem]
+-[NSSharingExtensionContext displayState]
+-[NSSharingExtensionContext setDisplayState:]
+-[NSSharingExtensionContext options]
+-[NSSharingExtensionContext setOptions:]
+-[NSSharingExtensionContext host]
+-[NSSharingExtensionContext setHost:]
+-[NSSharingExtensionContext .cxx_destruct]
+-[NSSharingContainerViewController init]
+-[NSSharingContainerViewController beginRequestWithExtensionContext:]
+___69-[NSSharingContainerViewController beginRequestWithExtensionContext:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSSharingContainerViewController loadView]
+-[NSSharingContainerViewController configurationViewController]
+-[NSSharingContainerViewController setConfigurationViewController:]
+-[NSSharingContainerViewController shareViewController]
+-[NSSharingContainerViewController setShareViewController:]
+-[NSSharingContainerViewController .cxx_destruct]
+-[NSSharingAccountConfigurationViewController loadView]
+-[NSSharingAccountConfigurationViewController nibName]
+-[NSSharingAccountConfigurationViewController nibBundle]
+-[NSSharingAccountConfigurationViewController serviceNotConfiguredError]
+-[NSSharingAccountConfigurationViewController attemptRecoveryFromError:optionIndex:]
+-[NSSharingAccountConfigurationViewController close:]
+-[NSSharingAccountConfigurationViewController closeAndConfigure:]
+-[NSSharingAccountConfigurationViewController logoImageView]
+-[NSSharingAccountConfigurationViewController iconImageView]
+-[NSSharingAccountConfigurationViewController setupTextField]
+-[NSSharingAccountConfigurationViewController cancelButton]
+-[NSSharingAccountConfigurationViewController configureButton]
+-[NSSharingAccountConfigurationViewController .cxx_destruct]
+__SHKDebugLayout
+-[SHKMarkupAnimationMaskedItemImageView _updateLayerMaskFromView]
+-[SHKAutoLayoutConstraintPair initWithFirstConstraint:secondConstraint:]
+-[SHKAutoLayoutConstraintPair constraints]
+-[SHKAutoLayoutConstraintPair firstConstraint]
+-[SHKAutoLayoutConstraintPair secondConstraint]
+-[SHKAutoLayoutConstraintPair .cxx_destruct]
+-[SHKDraggableContainerView mouseDown:]
+-[SHKDraggableContainerView delegate]
+-[SHKDraggableContainerView setDelegate:]
+-[SHKDraggableContainerView .cxx_destruct]
+-[SHKSharingViewService exportedInterface]
+-[SHKSharingViewService exportedObject]
+-[SHKSharingViewService loadView]
+-[SHKSharingViewService sourceWindowFrame]
+-[SHKSharingViewService sourceWindowScreenVisibleFrame]
+-[SHKSharingViewService sourceWindowContentRect]
+-[SHKSharingViewService singleItemSourceFrameForEditorService]
+-[SHKSharingViewService singleItemSourceImage]
+-[SHKSharingViewService neededRemoteViewFrame]
+-[SHKSharingViewService positionServiceViewInRemoteViewFrame:]
+-[SHKSharingViewService remoteViewControllerInterface]
+-[SHKSharingViewService _setServiceWindowFrame:animation:completion:]
+-[SHKSharingViewService _setServiceWindowFrame:withClientWindowSync:animation:completion:]
+___90-[SHKSharingViewService _setServiceWindowFrame:withClientWindowSync:animation:completion:]_block_invoke
+___90-[SHKSharingViewService _setServiceWindowFrame:withClientWindowSync:animation:completion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___90-[SHKSharingViewService _setServiceWindowFrame:withClientWindowSync:animation:completion:]_block_invoke259
+___90-[SHKSharingViewService _setServiceWindowFrame:withClientWindowSync:animation:completion:]_block_invoke_2260
+___copy_helper_block_261
+___destroy_helper_block_262
+___copy_helper_block_264
+___destroy_helper_block_265
+___copy_helper_block_272
+___destroy_helper_block_273
+-[SHKSharingViewService performQueuedAnimationActionsWithCompletionBlock:]
+___74-[SHKSharingViewService performQueuedAnimationActionsWithCompletionBlock:]_block_invoke
+___copy_helper_block_276
+___destroy_helper_block_277
+-[SHKSharingViewService performQueuedCompletionActions]
+-[SHKSharingViewService requestResizeToNeededRemoteViewFrameThenDo:]
+___68-[SHKSharingViewService requestResizeToNeededRemoteViewFrameThenDo:]_block_invoke
+___copy_helper_block_287
+___destroy_helper_block_288
+___68-[SHKSharingViewService requestResizeToNeededRemoteViewFrameThenDo:]_block_invoke290
+___copy_helper_block_291
+___destroy_helper_block_292
+-[SHKSharingViewService serviceViewScreenFrame]
+-[SHKSharingViewService remoteViewSizeChanged:transaction:]
+-[SHKSharingViewService awakeFromRemoteView]
+-[SHKSharingViewService observeValueForKeyPath:ofObject:change:context:]
+-[SHKSharingViewService setupWithOptionsDictionary:]
+-[SHKSharingViewService setupWithSourceWindowFrame:]
+___52-[SHKSharingViewService setupWithSourceWindowFrame:]_block_invoke
+___copy_helper_block_371
+___destroy_helper_block_372
+-[SHKSharingViewService _effectiveSourceItemView]
+_FindDescendantViewOfKind
+-[SHKSharingViewService setupEditorServiceWithView:]
+_SHKViewTreeHasAutoLayoutConstraints
+___52-[SHKSharingViewService setupEditorServiceWithView:]_block_invoke
+___copy_helper_block_393
+___destroy_helper_block_394
+_SHKConstraintForViewDimension
+___52-[SHKSharingViewService setupEditorServiceWithView:]_block_invoke415
+___52-[SHKSharingViewService setupEditorServiceWithView:]_block_invoke_2
+___copy_helper_block_421
+___destroy_helper_block_422
+___copy_helper_block_426
+___destroy_helper_block_427
+-[SHKSharingViewService viewControllerView]
+-[SHKSharingViewService sameCenterConstraintsForView:]
+-[SHKSharingViewService fixedDimensionsConstraintsForView:]
+-[SHKSharingViewService fixedDimensionsConstraintsForView:size:]
+-[SHKSharingViewService setup]
+___30-[SHKSharingViewService setup]_block_invoke
+___copy_helper_block_496
+___destroy_helper_block_497
+___30-[SHKSharingViewService setup]_block_invoke499
+___copy_helper_block_500
+___destroy_helper_block_501
+-[SHKSharingViewService serviceWindowDidShow]
+-[SHKSharingViewService moveClientWindowWithEvent:]
+___51-[SHKSharingViewService moveClientWindowWithEvent:]_block_invoke
+___copy_helper_block_519
+___destroy_helper_block_520
+-[SHKSharingViewService draggable]
+-[SHKSharingViewService setDraggable:]
+-[SHKSharingViewService preferredContentSizeDidChangeForViewController:]
+___72-[SHKSharingViewService preferredContentSizeDidChangeForViewController:]_block_invoke
+___72-[SHKSharingViewService preferredContentSizeDidChangeForViewController:]_block_invoke_2
+___copy_helper_block_535
+___destroy_helper_block_536
+-[SHKSharingViewService changeViewControllerViewToSize:transactionUUID:]
+___72-[SHKSharingViewService changeViewControllerViewToSize:transactionUUID:]_block_invoke
+-[SHKSharingViewService viewController]
+-[SHKSharingViewService affineTransformToHideRect:behindRect:]
+-[SHKSharingViewService prepareForEditorServiceIntroduction]
+___60-[SHKSharingViewService prepareForEditorServiceIntroduction]_block_invoke
+___copy_helper_block_623
+___destroy_helper_block_624
+-[SHKSharingViewService proceedWithMarkupTransitionIn]
+___54-[SHKSharingViewService proceedWithMarkupTransitionIn]_block_invoke
+___copy_helper_block_632
+___destroy_helper_block_633
+-[SHKSharingViewService proceedWithInstantTransitionIn]
+-[SHKSharingViewService animateClosingOfEditorServiceWithSuccess:finishedBlock:]
+-[SHKSharingViewService proceedWithMarkupTransitionOut]
+-[SHKSharingViewService proceedWithInstantTransitionOut]
+-[SHKSharingViewService viewControllerSupportsAnimation:]
+-[SHKSharingViewService prepareForShareSheetIntroduction]
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke
+___copy_helper_block_790
+___destroy_helper_block_791
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke805
+___copy_helper_block_806
+___destroy_helper_block_807
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke811
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke_2
+___copy_helper_block_812
+___destroy_helper_block_813
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke815
+___copy_helper_block_816
+___destroy_helper_block_817
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke819
+___copy_helper_block_820
+___destroy_helper_block_821
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke823
+___copy_helper_block_825
+___destroy_helper_block_826
+___copy_helper_block_828
+___destroy_helper_block_829
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke831
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke_2832
+___copy_helper_block_844
+___destroy_helper_block_845
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke847
+___copy_helper_block_852
+___destroy_helper_block_853
+___copy_helper_block_855
+___destroy_helper_block_856
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke858
+___copy_helper_block_859
+___destroy_helper_block_860
+___57-[SHKSharingViewService prepareForShareSheetIntroduction]_block_invoke862
+___copy_helper_block_863
+___destroy_helper_block_864
+-[SHKSharingViewService addFirstImageSubviewAnimationsToQueuedAnimationsForImageViews:]
+_SHKPositionAndBoundsGroupAnimations
+-[SHKSharingViewService symmetricalRectFromRect:aroundPoint:]
+-[SHKSharingViewService bumpedRectFromRect:oldContainerFrameRect:newContainerFrameRect:]
+-[SHKSharingViewService proceedWithSharingTransitionIn]
+-[SHKSharingViewService sourceFrameForViewControllerView:]
+-[SHKSharingViewService initialWindowFrameForSourceFrameForWindow:forWindowFrame:]
+-[SHKSharingViewService finalImageFrameForSharingItemProvider:imageContentFrame:bloggingController:transitionFrame:]
+-[SHKSharingViewService animatingItemsAndSetHasAtLeastOneFinalImage:]
+-[SHKSharingViewService animateClosingWithSuccess:finishedBlock:]
+-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]
+___77-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]_block_invoke
+___77-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]_block_invoke_2
+___copy_helper_block_881
+___destroy_helper_block_882
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___77-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]_block_invoke884
+___copy_helper_block_885
+___destroy_helper_block_886
+___77-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]_block_invoke888
+___copy_helper_block_893
+___destroy_helper_block_894
+___77-[SHKSharingViewService proceedWithSharingTransitionOutWithSuccess:duration:]_block_invoke896
+___copy_helper_block_897
+___destroy_helper_block_898
+___copy_helper_block_900
+___destroy_helper_block_901
+-[SHKSharingViewService isInNotificationCenter]
+-[SHKSharingViewService clientHasSourceWindow]
+-[SHKSharingViewService invalidate]
+___35-[SHKSharingViewService invalidate]_block_invoke
+___copy_helper_block_915
+___destroy_helper_block_916
+-[SHKSharingViewService serviceMask]
+-[SHKSharingViewService setServiceMask:]
+-[SHKSharingViewService containerView]
+-[SHKSharingViewService setContainerView:]
+-[SHKSharingViewService backgroundView]
+-[SHKSharingViewService setBackgroundView:]
+-[SHKSharingViewService window]
+-[SHKSharingViewService setWindow:]
+-[SHKSharingViewService uuid]
+-[SHKSharingViewService setUuid:]
+-[SHKSharingViewService extensionContext]
+-[SHKSharingViewService setExtensionContext:]
+-[SHKSharingViewService originOffset]
+-[SHKSharingViewService setOriginOffset:]
+-[SHKSharingViewService animatesLikeMarkup]
+-[SHKSharingViewService setAnimatesLikeMarkup:]
+-[SHKSharingViewService animateMarkupWithoutImageCopy]
+-[SHKSharingViewService setAnimateMarkupWithoutImageCopy:]
+-[SHKSharingViewService serviceUsesAutoLayout]
+-[SHKSharingViewService setServiceUsesAutoLayout:]
+-[SHKSharingViewService itemImageView]
+-[SHKSharingViewService setItemImageView:]
+-[SHKSharingViewService itemBorderView]
+-[SHKSharingViewService setItemBorderView:]
+-[SHKSharingViewService queuedSharingAnimations]
+-[SHKSharingViewService setQueuedSharingAnimations:]
+-[SHKSharingViewService closingFinishedBlock]
+-[SHKSharingViewService setClosingFinishedBlock:]
+-[SHKSharingViewService animationBlockQueue]
+-[SHKSharingViewService setAnimationBlockQueue:]
+-[SHKSharingViewService completionBlockQueue]
+-[SHKSharingViewService setCompletionBlockQueue:]
+-[SHKSharingViewService sameCenterConstraints]
+-[SHKSharingViewService setSameCenterConstraints:]
+-[SHKSharingViewService fixedDimensionsContainerConstraints]
+-[SHKSharingViewService setFixedDimensionsContainerConstraints:]
+-[SHKSharingViewService fixedDimensionsBackgroundConstraints]
+-[SHKSharingViewService setFixedDimensionsBackgroundConstraints:]
+-[SHKSharingViewService .cxx_destruct]
++[NSSharingAddressBookNameExtractor extractorWithString:]
+-[NSSharingAddressBookNameExtractor appearsToBeAnInitial]
+-[NSSharingAddressBookNameExtractor uncommentedAddress]
+-[NSSharingAddressBookNameExtractor uncommentedAddressRespectingGroups]
+-[NSSharingAddressBookNameExtractor addressComment]
+-[NSSharingAddressBookNameExtractor firstNameShouldBeFirst]
+-[NSSharingAddressBookNameExtractor firstName:middleName:lastName:extension:]
++[NSSharingAddressBookNameExtractor nameExtensions]
++[NSSharingAddressBookNameExtractor nameExtensionsThatDoNotNeedCommas]
++[NSSharingAddressBookNameExtractor partialSurnames]
++[NSSharingAddressBookNameExtractor formattedAddressWithName:email:useQuotes:]
++[NSSharingAddressBookNameExtractor formattedPhoneNumbersForPerson:]
++[NSSharingAddressBookNameExtractor formattedAddressesForPerson:useSimpleDescriptionForPrimaryAddress:]
+-[NSSharingAddressBookNameExtractor addressList]
+-[NSSharingAddressBookNameExtractor componentsSeparatedByCommaRespectingQuotesAndParens]
+-[NSSharingAddressBookNameExtractor componentsSeparatedByCharactersRespectingQuotesAndParens:]
+-[NSSharingAddressBookNameExtractor searchStringComponents]
+-[NSSharingAddressBookNameExtractor addressDomain]
+-[NSSharingAddressBookNameExtractor _matchingPersonsBestMatchOnly:]
+___67-[NSSharingAddressBookNameExtractor _matchingPersonsBestMatchOnly:]_block_invoke
+-[NSSharingAddressBookNameExtractor bestMatchingPerson]
+-[NSSharingAddressBookNameExtractor matchingPersons]
+-[NSSharingAddressBookNameExtractor matchingPersonsWithEmailAddress]
+-[NSSharingAddressBookNameExtractor matchingPersonsWithEmailAddressOrPhoneNumbers]
+-[NSSharingAddressBookNameExtractor .cxx_destruct]
+-[NSString(SHKExtensions) shk_trimCommasSpacesQuotes]
+-[NSObject(ShareKitExtension) shareItemType]
+-[NSObject(ShareKitExtension) shareItemData]
+-[NSObject(ShareKitExtension) shareItemImage]
+-[NSObject(ShareKitExtension) shareItemURL]
+-[NSObject(ShareKitExtension) shareItemString]
++[SHKRecentServiceManager saveRecentServicesListToDefaults:]
++[SHKRecentServiceManager fetchRecentServicesListFromDefaults]
++[SHKRecentServiceManager listItemFromSharingService:]
++[SHKRecentServiceManager addRecentEmailServiceToDefaultsWithSubject:recipients:]
++[SHKRecentServiceManager addRecentServiceToDefaults:]
++[SHKRecentServiceManager recentServicesForAllowedServiceIdentifiers:serviceWithRecipientsOnly:]
++[SHKRecentServiceManager decoratedTitleForRecentServiceItem:]
+-[SHKPlugInObservingCache init]
+-[SHKPlugInObservingCache dealloc]
+-[SHKPlugInObservingCache setBundle:forURL:]
+-[SHKPlugInObservingCache bundleForURL:]
+-[SHKPlugInObservingCache pluginsDidInstall:]
+-[SHKPlugInObservingCache pluginsDidUninstall:]
+-[SHKPlugInObservingCache .cxx_destruct]
++[SHKHostExtensionContext _extensionAuxiliaryHostProtocol]
+___58+[SHKHostExtensionContext _extensionAuxiliaryHostProtocol]_block_invoke
++[SHKHostExtensionContext _extensionAuxiliaryVendorProtocol]
+___60+[SHKHostExtensionContext _extensionAuxiliaryVendorProtocol]_block_invoke
+-[SHKHostExtensionContext remote]
+___33-[SHKHostExtensionContext remote]_block_invoke
+-[SHKHostExtensionContext cancelServiceUI]
+-[SHKHostExtensionContext sendOptionsDictionaryToRemote:completion:]
+-[SHKHostExtensionContext animateRemoteWithCompletionHandler:]
+-[SHKHostExtensionContext startSessionTeardownByCallingContinuationBlock:]
+-[SHKHostExtensionContext invalidateRemoteWindowControllerWithCompletionBlock:]
+-[SHKHostExtensionContext service]
+-[SHKHostExtensionContext setService:]
+-[SHKHostExtensionContext .cxx_destruct]
++[SHKSharingService sharingServiceNamed:]
++[SHKSharingService sharingServiceWithTitle:image:alternateImage:handler:]
++[SHKSharingService sharingServiceWithIdentifier:provider:title:image:alternateImage:]
+-[SHKSharingService setDelegate:]
+-[SHKSharingService init]
+-[SHKSharingService initWithExtension:description:]
+-[SHKSharingService plugIn]
+-[SHKSharingService isEqual:]
+-[SHKSharingService hash]
++[SHKSharingService attributesForItems:]
++[SHKSharingService registerBundlePlugIns]
+___42+[SHKSharingService registerBundlePlugIns]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[SHKSharingService activePlugInForIdentifier:]
++[SHKSharingService overridesForServiceIdentifier:supportsSharingAttachments:body:]
++[SHKSharingService matchingDictionary:isSupportedByServiceIdentifier:]
++[SHKSharingService addServicesFromDescriptions:toServices:withExtension:]
++[SHKSharingService serviceIsEnabledForSharingServiceDict:]
++[SHKSharingService imageForBundlePath:]
++[SHKSharingService descriptionForSharingServiceDict:bundle:itemAttributes:]
+___76+[SHKSharingService descriptionForSharingServiceDict:bundle:itemAttributes:]_block_invoke
++[SHKSharingService populateDescription:withAttributes:forAppIdentifier:]
++[SHKSharingService serviceIdentifierWithBundle:serviceDictionary:multiplexed:]
++[SHKSharingService serviceDictionariesFromBundle:matchingUserDict:]
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:]
+___59+[SHKSharingService shouldAutoEnableServiceWithIdentifier:]_block_invoke
++[SHKSharingService reorderdListOfExtensions:getLegacyPlugInDict:]
+___66+[SHKSharingService reorderdListOfExtensions:getLegacyPlugInDict:]_block_invoke
++[SHKSharingService addServicesFromPlugIns:compatibleWithUserDict:toServices:]
++[SHKSharingService sharingServicesWithIdentifier:attributes:itemTypes:matchingDictionary:itemAttributes:]
+___106+[SHKSharingService sharingServicesWithIdentifier:attributes:itemTypes:matchingDictionary:itemAttributes:]_block_invoke
++[SHKSharingService sharingServicesForItems:mask:]
++[SHKSharingService sortedServicesForServices:mask:]
++[SHKSharingService _sortedServicesForServices:displayOrderDictionary:]
++[SHKSharingService saveDefaultDisplayOrder:domain:]
++[SHKSharingService sharingServicesForItems:]
++[SHKSharingService _newServicesCountForExtensions:consumeCount:cacheInvalidated:]
++[SHKSharingService _newServicesCount]
+-[SHKSharingService compare:]
+-[SHKSharingService registerPotentially]
+___40-[SHKSharingService registerPotentially]_block_invoke
+-[SHKSharingService unregisterPotentiallyAndRemoveReferenceToCustomDelegate:]
+-[SHKSharingService unregisterPotentially]
+-[SHKSharingService debugRunningServices]
+-[SHKSharingService registerWithItems:]
+___39-[SHKSharingService registerWithItems:]_block_invoke
+___39-[SHKSharingService registerWithItems:]_block_invoke_2
+___copy_helper_block_666
+___destroy_helper_block_667
+-[SHKSharingService unregister]
+-[SHKSharingService isRegistered]
+-[SHKSharingService name]
+-[SHKSharingService disableServiceWindowPresentation]
+-[SHKSharingService hasNarrowLayout]
+-[SHKSharingService isInNotificationCenter]
+-[SHKSharingService parameters]
+-[SHKSharingService plugInURL]
+-[SHKSharingService preProcessingJavaScriptURL]
+-[SHKSharingService canPerformWithItems:]
+-[SHKSharingService _runActionBlockWithItems:]
+-[SHKSharingService nsSharingItemFromSHKSharingItem:fromItems:delegate:]
+-[SHKSharingService appID]
++[SHKSharingService isShareKitPlugInService]
+___44+[SHKSharingService isShareKitPlugInService]_block_invoke
+-[SHKSharingService executeHandler:onTimeoutInSeconds:]
+___55-[SHKSharingService executeHandler:onTimeoutInSeconds:]_block_invoke
+___copy_helper_block_743
+___destroy_helper_block_744
+___55-[SHKSharingService executeHandler:onTimeoutInSeconds:]_block_invoke746
+___copy_helper_block_747
+___destroy_helper_block_748
+___55-[SHKSharingService executeHandler:onTimeoutInSeconds:]_block_invoke750
+___copy_helper_block_751
+___destroy_helper_block_752
+-[SHKSharingService executeHandler:onQueue:onTimeoutInSeconds:]
+___63-[SHKSharingService executeHandler:onQueue:onTimeoutInSeconds:]_block_invoke
+___copy_helper_block_754
+___destroy_helper_block_755
+-[SHKSharingService killExtensionIfNoResponseWithTimeout:]
+___58-[SHKSharingService killExtensionIfNoResponseWithTimeout:]_block_invoke
+___58-[SHKSharingService killExtensionIfNoResponseWithTimeout:]_block_invoke_2
+___copy_helper_block_765
+___destroy_helper_block_766
+___copy_helper_block_770
+___destroy_helper_block_771
+-[SHKSharingService cancelExtensionKillTimer]
+___45-[SHKSharingService cancelExtensionKillTimer]_block_invoke
+___copy_helper_block_773
+___destroy_helper_block_774
+-[SHKSharingService observeAllAncestorWindowForSomethingThatWillCancelSharingWithSourceWindow:]
+-[SHKSharingService performWithItems:]
+___38-[SHKSharingService performWithItems:]_block_invoke
+___copy_helper_block_846
+___destroy_helper_block_847
+___38-[SHKSharingService performWithItems:]_block_invoke883
+___38-[SHKSharingService performWithItems:]_block_invoke_2
+___copy_helper_block_888
+___destroy_helper_block_889
+___copy_helper_block_891
+___destroy_helper_block_892
+___38-[SHKSharingService performWithItems:]_block_invoke896
+___38-[SHKSharingService performWithItems:]_block_invoke_2899
+___copy_helper_block_903
+___destroy_helper_block_904
+___copy_helper_block_908
+___destroy_helper_block_909
+___38-[SHKSharingService performWithItems:]_block_invoke914
+___copy_helper_block_917
+___destroy_helper_block_918
+___38-[SHKSharingService performWithItems:]_block_invoke923
+___copy_helper_block_924
+___destroy_helper_block_925
+___38-[SHKSharingService performWithItems:]_block_invoke930
+___copy_helper_block_947
+___destroy_helper_block_948
+___38-[SHKSharingService performWithItems:]_block_invoke953
+___copy_helper_block_956
+___destroy_helper_block_957
+___38-[SHKSharingService performWithItems:]_block_invoke961
+___38-[SHKSharingService performWithItems:]_block_invoke_2962
+___38-[SHKSharingService performWithItems:]_block_invoke_3
+___38-[SHKSharingService performWithItems:]_block_invoke_4
+___copy_helper_block_1050
+___destroy_helper_block_1051
+___copy_helper_block_1053
+___destroy_helper_block_1054
+___copy_helper_block_1057
+___destroy_helper_block_1058
+___copy_helper_block_1060
+___destroy_helper_block_1061
+-[SHKSharingService isCustomService]
+-[SHKSharingService cancelRemoteServiceUI]
+-[SHKSharingService invalidateRemoteWindowControllerWithCompletionBlock:]
+___73-[SHKSharingService invalidateRemoteWindowControllerWithCompletionBlock:]_block_invoke
+___copy_helper_block_1071
+___destroy_helper_block_1072
+-[SHKSharingService invalidateRemoteWindowController]
+-[SHKSharingService hideView]
+-[SHKSharingService _windowWillDoSomethingThatShouldCancelCurrentSharing:]
+-[SHKSharingService _plugInDeactivated]
+-[SHKSharingService requestCompletedWithItems:completion:]
+-[SHKSharingService serviceDoneWithStatus:error:parameters:outputItems:]
+-[SHKSharingService serviceDoneWithStatus:error:parameters:outputItems:completion:]
+___83-[SHKSharingService serviceDoneWithStatus:error:parameters:outputItems:completion:]_block_invoke
+___copy_helper_block_1106
+___destroy_helper_block_1107
+-[SHKSharingService _addObjects:toArray:]
+-[SHKSharingService description]
++[SHKSharingService extensionForSharingServiceName:]
++[SHKSharingService electPlugInForSharingServiceName:]
+-[SHKSharingService bundle]
++[SHKSharingService addRecentEmailServiceToDefaultsWithSubject:recipients:]
+-[SHKSharingService dealloc]
+-[SHKSharingService serviceDescription]
+-[SHKSharingService setServiceDescription:]
+-[SHKSharingService delegate]
+-[SHKSharingService plugInIdentifier]
+-[SHKSharingService setPlugInIdentifier:]
+-[SHKSharingService identifier]
+-[SHKSharingService setIdentifier:]
+-[SHKSharingService title]
+-[SHKSharingService setTitle:]
+-[SHKSharingService subtitle]
+-[SHKSharingService setSubtitle:]
+-[SHKSharingService image]
+-[SHKSharingService setImage:]
+-[SHKSharingService alternateImage]
+-[SHKSharingService setAlternateImage:]
+-[SHKSharingService block]
+-[SHKSharingService setBlock:]
+-[SHKSharingService isEnabled]
+-[SHKSharingService setEnabled:]
+-[SHKSharingService shouldDimSourceWindow]
+-[SHKSharingService setShouldDimSourceWindow:]
+-[SHKSharingService viewBased]
+-[SHKSharingService setViewBased:]
+-[SHKSharingService setParameters:]
+-[SHKSharingService mask]
+-[SHKSharingService setMask:]
+-[SHKSharingService customDelegate]
+-[SHKSharingService setCustomDelegate:]
+-[SHKSharingService customInternalDelegate]
+-[SHKSharingService setCustomInternalDelegate:]
+-[SHKSharingService extension]
+-[SHKSharingService setExtension:]
+-[SHKSharingService extensionContext]
+-[SHKSharingService setExtensionContext:]
+-[SHKSharingService remoteCID]
+-[SHKSharingService setRemoteCID:]
+-[SHKSharingService uuid]
+-[SHKSharingService setUuid:]
+-[SHKSharingService sharedItems]
+-[SHKSharingService setSharedItems:]
+-[SHKSharingService restoreWindowStateBlock]
+-[SHKSharingService setRestoreWindowStateBlock:]
+-[SHKSharingService _cancelExtensionKillTimer]
+-[SHKSharingService set_cancelExtensionKillTimer:]
+-[SHKSharingService sourceWindow]
+-[SHKSharingService setSourceWindow:]
+-[SHKSharingService .cxx_destruct]
+-[SHKSharingServicePicker initWithItems:]
+-[SHKSharingServicePicker setItems:]
+-[SHKSharingServicePicker items]
+-[SHKSharingServicePicker _shareServicesWithMask:]
+-[SHKSharingServicePicker _performService:]
+-[SHKSharingServicePicker notifyDidChooseSharingService:]
+-[SHKSharingServicePicker _representedObjectForService:alternateItemIdentifier:]
+-[SHKSharingServicePicker _serviceFromRepresentedObject:]
+-[SHKSharingServicePicker _alternateItemIdentifierFromRepresentedObject:]
+-[SHKSharingServicePicker emptyMenuImage]
+___41-[SHKSharingServicePicker emptyMenuImage]_block_invoke
+-[SHKSharingServicePicker moreButtonImage]
+___42-[SHKSharingServicePicker moreButtonImage]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKSharingServicePicker tintedImageFromImage:]
+-[SHKSharingServicePicker userMenuImage]
+-[SHKSharingServicePicker _titleAttributes]
+___43-[SHKSharingServicePicker _titleAttributes]_block_invoke
+-[SHKSharingServicePicker _subtitleAttributes]
+___46-[SHKSharingServicePicker _subtitleAttributes]_block_invoke
+-[SHKSharingServicePicker _delimiterAttributes]
+___47-[SHKSharingServicePicker _delimiterAttributes]_block_invoke
+-[SHKSharingServicePicker menuItemFromService:]
+-[SHKSharingServicePicker _populateNSMenu]
+-[SHKSharingServicePicker openAppExtensionsPrefpane]
+-[SHKSharingServicePicker menu]
+-[SHKSharingServicePicker _shareServiceSelected:]
+-[SHKSharingServicePicker cleanUpMenu]
+-[SHKSharingServicePicker showRelativeToRect:ofView:preferredEdge:]
+-[SHKSharingServicePicker worksWhenModal]
+-[SHKSharingServicePicker delegate]
+-[SHKSharingServicePicker setDelegate:]
+-[SHKSharingServicePicker .cxx_destruct]
++[NSSharingItem supportsSecureCoding]
+-[NSSharingItem initWithShareItem:]
+-[NSSharingItem initWithCoder:]
+-[NSSharingItem copyWithZone:]
+-[NSSharingItem encodeWithCoder:]
+___33-[NSSharingItem encodeWithCoder:]_block_invoke
+___33-[NSSharingItem encodeWithCoder:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_98
+___destroy_helper_block_99
+-[NSSharingItem image]
+-[NSSharingItem setUrl:]
+-[NSSharingItem uncoordinatedURL]
+-[NSSharingItem url]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___20-[NSSharingItem url]_block_invoke
+___copy_helper_block_120
+___destroy_helper_block_121
+-[NSSharingItem description]
+-[NSSharingItem shareItemURL]
+-[NSSharingItem shareItemString]
+-[NSSharingItem shareItemImage]
+-[NSSharingItem shareItemData]
+-[NSSharingItem type]
+-[NSSharingItem setType:]
+-[NSSharingItem string]
+-[NSSharingItem setString:]
+-[NSSharingItem data]
+-[NSSharingItem setData:]
+-[NSSharingItem coordinatedReadURL]
+-[NSSharingItem setCoordinatedReadURL:]
+-[NSSharingItem sourceFrame]
+-[NSSharingItem setSourceFrame:]
+-[NSSharingItem sourceImage]
+-[NSSharingItem setSourceImage:]
+-[NSSharingItem sourceImageContentRect]
+-[NSSharingItem setSourceImageContentRect:]
+-[NSSharingItem shareImage]
+-[NSSharingItem setShareImage:]
+-[NSSharingItem shareImageContentRect]
+-[NSSharingItem setShareImageContentRect:]
+-[NSSharingItem .cxx_destruct]
++[NSSharingMachPortWrapper wrapperForPort:]
++[NSSharingMachPortWrapper supportsSecureCoding]
+-[NSSharingMachPortWrapper dealloc]
+-[NSSharingMachPortWrapper port]
+-[NSSharingMachPortWrapper initWithCoder:]
+-[NSSharingMachPortWrapper encodeWithCoder:]
+-[SHKShareImageView allowsVibrancy]
+-[SHKShareImageView initWithFrame:images:]
+-[SHKShareImageView images]
+-[SHKShareImageView setImages:]
+-[SHKShareImageView setImage:]
+-[SHKShareImageView _setImage:updateImages:]
+-[SHKShareImageView decoratedImage]
+-[SHKShareImageView contentFrame]
+-[SHKShareImageView drawRect:]
+-[SHKShareImageView borderWidth]
+-[SHKShareImageView mainImageWithBorderFrameForCellBounds:]
+-[SHKShareImageView imageRectForBounds:]
+-[SHKShareImageView drawWithFrame:]
+-[SHKShareImageView contentRect]
+-[SHKShareImageView setContentRect:]
+-[SHKShareImageView imageStyle]
+-[SHKShareImageView setImageStyle:]
+-[SHKShareImageView .cxx_destruct]
+-[NSSharingComposeViewController nibName]
+-[NSSharingComposeViewController nibBundle]
+-[NSSharingComposeViewController composeService]
+-[NSSharingComposeViewController setTextureStyle:]
+-[NSSharingComposeViewController textureStyle]
+-[NSSharingComposeViewController activateFirstResponder]
+-[NSSharingComposeViewController loadView]
+___42-[NSSharingComposeViewController loadView]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSSharingComposeViewController messageTextViewDidScroll:]
+-[NSSharingComposeViewController viewWillAppear]
+-[NSSharingComposeViewController viewDidAppear]
+-[NSSharingComposeViewController viewWillDisappear]
+-[NSSharingComposeViewController setMessage:]
+-[NSSharingComposeViewController message]
+-[NSSharingComposeViewController displayState]
+-[NSSharingComposeViewController setDisplayState:]
+-[NSSharingComposeViewController showsRemainingCharactersCounter]
+-[NSSharingComposeViewController setShowsRemainingCharactersCounter:]
+-[NSSharingComposeViewController _validateSendButton]
+___53-[NSSharingComposeViewController _validateSendButton]_block_invoke
+___copy_helper_block_147
+___destroy_helper_block_148
+-[NSSharingComposeViewController _updateCharactersCountField]
+___61-[NSSharingComposeViewController _updateCharactersCountField]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+-[NSSharingComposeViewController _validateUI]
+-[NSSharingComposeViewController title]
+-[NSSharingComposeViewController _setupUI]
+-[NSSharingComposeViewController accountsPopUpChanged:]
+-[NSSharingComposeViewController audiencePopUpChanged:]
+-[NSSharingComposeViewController showsLocationPin]
+-[NSSharingComposeViewController setShowsLocationPin:]
+-[NSSharingComposeViewController makeUIBusy:]
+___45-[NSSharingComposeViewController makeUIBusy:]_block_invoke
+___copy_helper_block_228
+___destroy_helper_block_229
+-[NSSharingComposeViewController displayErrorString:]
+-[NSSharingComposeViewController _updateSpaceBetweenImageAndPopUp]
+-[NSSharingComposeViewController showsProgressIndicator]
+-[NSSharingComposeViewController setShowsProgressIndicator:]
+-[NSSharingComposeViewController showsAccountsPopUp]
+-[NSSharingComposeViewController setShowsAccountsPopUp:]
+-[NSSharingComposeViewController showsAudiencePopUp]
+-[NSSharingComposeViewController setShowsAudiencePopUp:]
+-[NSSharingComposeViewController _imageFrame]
+-[NSSharingComposeViewController _visibleView]
+-[NSSharingComposeViewController getLeadingSpaceFromSuperviewForView:constraints:markedConstraints:]
+-[NSSharingComposeViewController adjustTextFrame]
+-[NSSharingComposeViewController adjustAccountsPopUpFrame]
+-[NSSharingComposeViewController adjustAudiencePopUpFrame]
+-[NSSharingComposeViewController setPreviewImage:]
+-[NSSharingComposeViewController previewImage]
+-[NSSharingComposeViewController imageView]
++[NSSharingComposeViewController keyPathsForValuesAffectingImage]
+-[NSSharingComposeViewController mainItemProvider]
+-[NSSharingComposeViewController image]
+-[NSSharingComposeViewController decoratedImage]
+-[NSSharingComposeViewController imageFrame]
+-[NSSharingComposeViewController imageContentFrame]
+-[NSSharingComposeViewController imageForItemProvider:]
+-[NSSharingComposeViewController imageFrameForItemProvider:]
+-[NSSharingComposeViewController imageContentFrameForItemProvider:]
+-[NSSharingComposeViewController setPreviewImageVisible:]
+-[NSSharingComposeViewController isPreviewImageVisible]
+-[NSSharingComposeViewController previewImageLayer]
+-[NSSharingComposeViewController cancel:]
+-[NSSharingComposeViewController send:]
+-[NSSharingComposeViewController startAccountSetupAndClose:]
+-[NSSharingComposeViewController viewDidDisappear]
+-[NSSharingComposeViewController contentDidChange]
+-[NSSharingComposeViewController textViewDidChangeSelection:]
+-[NSSharingComposeViewController textView:willShowSharingServicePicker:forItems:]
+-[NSSharingComposeViewController _validateCompletionPopUpInMessage]
+-[NSSharingComposeViewController _insertCompletion:]
+-[NSSharingComposeViewController textView:doCommandBySelector:]
+-[NSSharingComposeViewController completionPopUpController:didSelectCompletionItem:]
+-[NSSharingComposeViewController setCompletions:forText:]
+-[NSSharingComposeViewController showsCompletionPopUpInMessage]
+-[NSSharingComposeViewController setShowsCompletionPopUpInMessage:]
+-[NSSharingComposeViewController cancelButton]
+-[NSSharingComposeViewController sendButton]
+-[NSSharingComposeViewController accountsPopUpButton]
+-[NSSharingComposeViewController audiencePopUpButton]
+-[NSSharingComposeViewController messageTextView]
+-[NSSharingComposeViewController locationController]
+-[NSSharingComposeViewController mainItemIndex]
+-[NSSharingComposeViewController setMainItemIndex:]
+-[NSSharingComposeViewController .cxx_destruct]
+-[SHKShareTextView drawInsertionPointInRect:color:turnedOn:]
+-[SHKNCShareTextView font]
+-[SHKNCShareTextView awakeFromNib]
+___34-[SHKNCShareTextView awakeFromNib]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKNCShareTextView textContainerOrigin]
+-[SHKNCShareTextView textContainerInset]
+-[SHKImageCellNoAccessibility accessibilityIsIgnored]
++[SHKImageViewNoAccessibility cellClass]
+-[SHKShareCounterFieldCell drawInteriorWithFrame:inView:]
+-[SHKShareBox accessibilityIsIgnored]
+-[SHKShareBox drawRect:]
+-[SHKShareWindow canBecomeKeyWindow]
+-[SHKShareWindow canBecomeMainWindow]
+-[SHKShareWindow isMovableByWindowBackground]
+-[SHKShareWindow hidesOnDeactivate]
+-[SHKShareWindow display]
+-[SHKShareWindow displayIfNeeded]
+-[SHKShareWindow _close]
+-[SHKShareWindow isClosing]
+-[SHKShareWindow setIsClosing:]
+-[NSView(ShareKitWindowAdditions) _shk_backgroundView]
+-[NSView(ShareKitWindowAdditions) _shk_textureStyle]
+-[SHKShareWindowBackgroundView initWithCoder:]
+-[SHKShareWindowBackgroundView initWithFrame:]
+-[SHKShareWindowBackgroundView commonInit]
+-[SHKShareWindowBackgroundView SHKBackgroundFillColor]
+-[SHKShareWindowBackgroundView textureStyle]
+-[SHKShareWindowBackgroundView setTextureStyle:]
+-[SHKShareWindowBackgroundView backgroundFillColor]
+-[SHKShareWindowBackgroundView setBackgroundFillColor:]
++[SHKShareWindowBackgroundView defaultAnimationForKey:]
+-[SHKShareWindowBackgroundView _bezierPath]
+-[SHKShareWindowBackgroundView _beginClip]
+-[SHKShareWindowBackgroundView _endClip]
+-[SHKShareWindowBackgroundView drawTexture]
+-[SHKShareWindowBackgroundView drawHorizontalSeparationLineAtHeight:]
+-[SHKShareWindowBackgroundView drawGrid]
+-[SHKShareWindowBackgroundView drawScalableImage:scaleTopLeft:scaleBottomRight:inFrame:]
+-[SHKShareWindowBackgroundView drawBevel]
+-[SHKShareWindowBackgroundView drawBevelInRect:]
+-[SHKShareWindowBackgroundView isInNotificationCenter]
+-[SHKShareWindowBackgroundView drawRect:]
+-[SHKShareWindowBackgroundView .cxx_destruct]
+-[SHKShareNCBackgroundView isInNotificationCenter]
+-[SHKShareNCBackgroundView drawHorizontalSeparationLineAtHeight:]
+-[SHKShareNCBackgroundView SHKBackgroundFillColor]
+-[SHKButtonContainerView drawRect:]
+-[SHKButtonContainerView drawVerticalSeparationLineAtWidth:]
+-[SHKSharingService(NSSharingService) nsSharingService]
+-[NSSharingService(SHKNSBridge) setName:]
+-[NSSharingService(SHKNSBridge) description]
+-[NSSharingService(SHKNSBridge) isEqual:]
+-[NSSharingService(SHKNSBridge) sharingService:sharedItemsFromProposedItems:]
+-[NSSharingService(SHKNSBridge) sharingService:willShareItems:]
+-[NSSharingService(SHKNSBridge) sharingService:didFailToShareItems:error:]
+-[NSSharingService(SHKNSBridge) sharingService:didShareItems:]
+-[NSSharingService(SHKNSBridge) sharingService:imageForShareItem:size:contentRect:]
+-[NSSharingService(SHKNSBridge) sharingService:sourceFrameOnScreenForShareItem:]
+-[NSSharingService(SHKNSBridge) sharingService:transitionImageForShareItem:contentRect:]
+-[NSSharingService(SHKNSBridge) sharingService:sourceWindowForShareItems:sharingContentScope:]
+-[NSSharingService(SHKNSBridge) sharingService:sourceFrameOnScreenForShareItem:transitionImage:]
+-[NSSharingService(SHKNSBridge) sharingServiceSourceWindow:contentRect:]
+-[NSSharingService(SHKNSBridge) sharingService:optionsForItems:]
+-[NSSharingService(SHKNSBridge) sharingService:prepareAlternateItemsWithIdentifier:forItems:block:]
+-[NSSharingServicePicker(SHKNSBridge) sharingServicePicker:sharingServicesForItems:mask:proposedSharingServices:]
+-[NSSharingServicePicker(SHKNSBridge) sharingServicePicker:recentSharingServicesForItems:proposedSharingServices:]
+-[NSSharingServicePicker(SHKNSBridge) sharingServicePicker:sharingServicesForItems:proposedSharingServices:]
+-[NSSharingServicePicker(SHKNSBridge) sharingServicePicker:delegateForSharingService:]
+-[NSSharingServicePicker(SHKNSBridge) sharingServicePicker:didChooseSharingService:]
++[NSProgress(NSSharingAdditions) keyPathsForValuesAffectingIsInProgress]
++[NSProgress(NSSharingAdditions) keyPathsForValuesAffectingHasSomethingToCancel]
++[NSProgress(NSSharingAdditions) keyPathsForValuesAffectingHasSomethingToReveal]
+-[NSProgress(NSSharingAdditions) isInProgress]
+-[NSProgress(NSSharingAdditions) hasSomethingToCancel]
+-[NSProgress(NSSharingAdditions) hasSomethingToReveal]
+-[NSProgress(NSSharingAdditions) icon]
+-[NSProgress(NSSharingAdditions) setIcon:]
+-[NSProgress(NSSharingAdditions) title]
+-[NSProgress(NSSharingAdditions) setTitle:]
+-[NSProgress(NSSharingAdditions) subtitle]
+-[NSProgress(NSSharingAdditions) setSubtitle:]
+-[NSProgress(NSSharingAdditions) revealBlock]
+-[NSProgress(NSSharingAdditions) setRevealBlock:]
+-[NSProgress(NSSharingAdditions) setProgressValue:]
+-[NSProgress(NSSharingAdditions) progressValue]
+___SHK_matchingDictionaryForSHKSharingItems_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___computeThumbnail_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___computeThumbnail_block_invoke182
+___copy_helper_block_183
+___destroy_helper_block_184
+-[SHKNCShareButtonCell drawTitle:withFrame:inView:]
+-[SHKSharePopUpButtonCell _textAttributes]
+-[SHKSharePopUpButtonCell titleWidth]
+-[SHKSharePopUpButtonCell drawTitle:withFrame:inView:]
+-[SHKSharePopUpButtonCell isBordered]
+-[SHKShareNCPopUpButtonCell titleRectForBounds:]
+-[SHKShareNCPopUpButtonCell _indicatorFrameForCellFrame:inView:]
+-[SHKShareNCPopUpButtonCell _indicatorImage]
+___44-[SHKShareNCPopUpButtonCell _indicatorImage]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKShareNCPopUpButtonCell _textAttributes]
+-[SHKLocationPinButtonCell drawTitle:withFrame:inView:]
+-[SHKLocationPinButtonCell needsToDisplaySpaceForRTL]
+-[SHKLocationPinButtonCell setNeedsToDisplaySpaceForRTL:]
++[SHKSandbox canAccessURL:processWithPID:]
++[SHKSandbox filteredItemsFromAttributedString:processWithPID:]
++[SHKSandbox filteredItemsFromAttributedString:processWithPID:textView:]
+___72+[SHKSandbox filteredItemsFromAttributedString:processWithPID:textView:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[SHKSandbox filteredItemsFromSingleItem:processWithPID:]
++[SHKSandbox filteredItemsFromItems:processWithPID:]
++[SHKSandbox safeClassNamesForArchiving]
++[SHKSandbox safeUnarchiveObjectWithData:]
+-[SHKServiceCompletionInfo initWithError:]
+-[SHKServiceCompletionInfo initWithItems:completionHandler:]
+-[SHKServiceCompletionInfo success]
+-[SHKServiceCompletionInfo error]
+-[SHKServiceCompletionInfo setError:]
+-[SHKServiceCompletionInfo items]
+-[SHKServiceCompletionInfo setItems:]
+-[SHKServiceCompletionInfo completionHandler]
+-[SHKServiceCompletionInfo setCompletionHandler:]
+-[SHKServiceCompletionInfo viewServiceHasAnimated]
+-[SHKServiceCompletionInfo setViewServiceHasAnimated:]
+-[SHKServiceCompletionInfo .cxx_destruct]
++[NSSharingUIExtensionContext shouldDimSourceWindow]
+-[NSSharingUIExtensionContext accountDelegateClass]
+-[NSSharingUIExtensionContext viewController]
+-[NSSharingUIExtensionContext setViewController:]
+-[NSSharingUIExtensionContext displayState]
+-[NSSharingUIExtensionContext setDisplayState:]
+-[NSSharingUIExtensionContext startUserConfiguration]
+-[NSSharingUIExtensionContext serviceNeedsUserConfiguration]
+-[NSSharingUIExtensionContext hasNarrowLayout]
+-[NSSharingUIExtensionContext disableWindowPresentation]
+-[NSSharingUIExtensionContext isInNotificationCenter]
+-[NSSharingUIExtensionContext title]
+-[NSSharingUIExtensionContext performServiceWithOptionsDictionaryData:completion:]
+___82-[NSSharingUIExtensionContext performServiceWithOptionsDictionaryData:completion:]_block_invoke
+___82-[NSSharingUIExtensionContext performServiceWithOptionsDictionaryData:completion:]_block_invoke_2
+___82-[NSSharingUIExtensionContext performServiceWithOptionsDictionaryData:completion:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_119
+___destroy_helper_block_120
+___copy_helper_block_124
+___destroy_helper_block_125
+-[NSSharingUIExtensionContext prepareUIWithCompletionBlock:]
+___60-[NSSharingUIExtensionContext prepareUIWithCompletionBlock:]_block_invoke
+___60-[NSSharingUIExtensionContext prepareUIWithCompletionBlock:]_block_invoke_2
+___copy_helper_block_147
+___destroy_helper_block_148
+___copy_helper_block_150
+___destroy_helper_block_151
+___60-[NSSharingUIExtensionContext prepareUIWithCompletionBlock:]_block_invoke154
+___copy_helper_block_155
+___destroy_helper_block_156
+___60-[NSSharingUIExtensionContext prepareUIWithCompletionBlock:]_block_invoke159
+___copy_helper_block_160
+___destroy_helper_block_161
+-[NSSharingUIExtensionContext _endServicePrematurely]
+-[NSSharingUIExtensionContext _endServicePrematurelyWithViewService:]
+-[NSSharingUIExtensionContext _serviceWindowDidShowWithViewService:]
+___68-[NSSharingUIExtensionContext _serviceWindowDidShowWithViewService:]_block_invoke
+___copy_helper_block_180
+___destroy_helper_block_181
+-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke_2
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke_3
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke_4
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke_5
+___copy_helper_block_187
+___destroy_helper_block_188
+___copy_helper_block_192
+___destroy_helper_block_193
+___copy_helper_block_195
+___destroy_helper_block_196
+___copy_helper_block_203
+___destroy_helper_block_204
+___copy_helper_block_206
+___destroy_helper_block_207
+___72-[NSSharingUIExtensionContext closeServiceWindowWithSuccess:completion:]_block_invoke216
+___copy_helper_block_217
+___destroy_helper_block_218
+-[NSSharingUIExtensionContext completionInfo]
+-[NSSharingUIExtensionContext setCompletionInfo:]
+-[NSSharingUIExtensionContext completeRequestReturningItems:completionHandler:]
+___79-[NSSharingUIExtensionContext completeRequestReturningItems:completionHandler:]_block_invoke
+___copy_helper_block_222
+___destroy_helper_block_223
+-[NSSharingUIExtensionContext _reallyCompleteRequestReturningItems:completionHandler:]
+___86-[NSSharingUIExtensionContext _reallyCompleteRequestReturningItems:completionHandler:]_block_invoke
+___copy_helper_block_233
+___destroy_helper_block_234
+-[NSSharingUIExtensionContext cancelRequestWithError:]
+___54-[NSSharingUIExtensionContext cancelRequestWithError:]_block_invoke
+___copy_helper_block_240
+___destroy_helper_block_241
+-[NSSharingUIExtensionContext _reallyCancelRequestWithError:]
+___61-[NSSharingUIExtensionContext _reallyCancelRequestWithError:]_block_invoke
+___copy_helper_block_244
+___destroy_helper_block_245
+-[NSSharingUIExtensionContext cancel]
+-[NSSharingUIExtensionContext cancelServiceUI]
+-[NSSharingUIExtensionContext previewItemSupportedTypes]
+-[NSSharingUIExtensionContext imageForItem:]
+-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_2
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_3
+___copy_helper_block_289
+___destroy_helper_block_290
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke295
+___copy_helper_block_296
+___destroy_helper_block_297
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke299
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_2304
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_3305
+___copy_helper_block_306
+___destroy_helper_block_307
+___copy_helper_block_312
+___destroy_helper_block_313
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke316
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_2317
+___copy_helper_block_318
+___destroy_helper_block_319
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke321
+___copy_helper_block_322
+___destroy_helper_block_323
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke326
+___80-[NSSharingUIExtensionContext getPreviewImageForAttachments:block:timeoutBlock:]_block_invoke_2327
+___copy_helper_block_328
+___destroy_helper_block_329
+___copy_helper_block_332
+___destroy_helper_block_333
+___copy_helper_block_335
+___destroy_helper_block_336
+___copy_helper_block_339
+___destroy_helper_block_340
+___copy_helper_block_344
+___destroy_helper_block_345
+-[NSSharingUIExtensionContext _fadesOutSuccessfulClosingAnimation]
+-[NSSharingUIExtensionContext viewService]
+-[NSSharingUIExtensionContext setViewService:]
+-[NSSharingUIExtensionContext .cxx_destruct]
++[NSScreen(ShareKitExtensions) _shk_screenContainingPoint:]
++[CAAnimationGroup(SHK_CAAnimationGroupExtras) groupAnimationWithAnimations:]
+-[CAAnimation(SHKAnimationConstraints) _SHK_assertConstrainedToAMaxOf1Node]
+-[CAAnimation(SHKAnimationConstraints) SHK_constrainAnimation:toConstraintList:]
+-[CAAnimation(SHKAnimationConstraints) SHK_allSiblingsWithMarkedSet:]
+-[CAAnimation(SHKAnimationConstraints) SHK_allSiblings]
+-[CAAnimation(SHKAnimationConstraints) _SHK_setParentNodes]
+-[CAAnimation(SHKAnimationConstraints) _SHK_assertPostParentSetNodeCorrectness]
+-[CAAnimation(SHKAnimationConstraints) SHK_synchronizeSubEffects]
+-[CAAnimation(SHKAnimationConstraints) _SHK_synchronizeSubEffects]
+-[CAAnimation(SHKAnimationConstraints) SHK_startWith:]
+-[CAAnimation(SHKAnimationConstraints) SHK_startAfter:]
+-[CAAnimation(SHKAnimationConstraints) SHK_setSubEffects:]
+-[CAAnimation(SHKAnimationConstraints) SHK_listForKey:]
+-[CAAnimation(SHKAnimationConstraints) SHK_startWithList]
+-[CAAnimation(SHKAnimationConstraints) setSHK_startWithList:]
+-[CAAnimation(SHKAnimationConstraints) SHK_startAfterList]
+-[CAAnimation(SHKAnimationConstraints) setSHK_startAfterList:]
+-[CAAnimation(SHKAnimationConstraints) SHK_subEffectList]
+-[CAAnimation(SHKAnimationConstraints) setSHK_subEffectList:]
+-[CAAnimation(SHKAnimationConstraints) SHK_parentNode]
+-[CAAnimation(SHKAnimationConstraints) setSHK_parentNode:]
+-[CAAnimation(SHKAnimationConstraints) SHK_constrainedToSubEffectNode]
+-[CAAnimation(SHKAnimationConstraints) setSHK_constrainedToSubEffectNode:]
+-[CAAnimation(SHKAnimationConstraints) SHK_constrainedToStartWithNode]
+-[CAAnimation(SHKAnimationConstraints) setSHK_constrainedToStartWithNode:]
+-[CAAnimation(SHKAnimationConstraints) SHK_cleanup]
+-[CAAnimation(SHKAdditions) SHK_animate]
+-[CAAnimation(SHKAdditions) SHK_setInternalDelegate]
+-[CAAnimation(SHKAdditions) SHK_targetLayer]
+-[CAAnimation(SHKAdditions) setSHK_targetLayer:]
+-[CAAnimation(SHKAdditions) SHK_preparationBlock]
+-[CAAnimation(SHKAdditions) setSHK_preparationBlock:]
+-[CAAnimation(SHKAdditions) SHK_completionBlock]
+-[CAAnimation(SHKAdditions) setSHK_completionBlock:]
++[CAAnimation(SHKAdditions) SHK_viewFrameAnimationFromRect:toRect:deltaY:]
++[CAAnimation(SHKAdditions) SHK_viewFrameAnimationFromRect:toRect:]
++[CAAnimation(SHKAdditions) SHK_viewFrameAnimationFromRect:toRect:deltaY:delegate:]
++[CAAnimation(SHKAdditions) SHK_viewFrameAnimationFromRect:toRect:delegate:]
++[CAAnimation(SHKAdditions) SHK_fadeAnimationToValue:]
++[CAAnimation(SHKAdditions) SHK_fadeAnimationFromValue:toValue:]
++[CAAnimation(SHKAdditions) SHK_appearanceAnimation]
++[CAAnimation(SHKAdditions) SHK_appearanceAnimationStartingWithAnimation:]
++[CAAnimation(SHKAdditions) SHK_disappearanceAnimation]
++[CAAnimation(SHKAdditions) SHK_boundsAnimationFromRect:toRect:]
++[CAAnimation(SHKAdditions) SHK_positionAnimationFromRect:toRect:]
++[CAAnimation(SHKAdditions) SHK_keyFramAnimationFromRect:toRect:deltaY:]
++[CAAnimation(SHKAdditions) SHK_firstSubViewBoundsAnimationForView:fromBounds:toBounds:]
++[CAMediaTimingFunction(SHKSharingViewServiceAdditions) SHK_HardEaseOutFunction]
++[CAMediaTimingFunction(SHKSharingViewServiceAdditions) SHK_EaseInEaseOutFunction]
++[SHK_CAAnimationDelegate sharedDelegate]
+___41+[SHK_CAAnimationDelegate sharedDelegate]_block_invoke
+-[SHK_CAAnimationDelegate animationDidStart:]
+-[SHK_CAAnimationDelegate animationDidStop:finished:]
++[SHKProgressController sharedController]
++[SHKProgressController sharedControllerForDebug]
+-[SHKProgressController init]
+-[SHKProgressController windowController]
+-[SHKProgressController allProgressItems]
+-[SHKProgressController addProgressItem:]
+-[SHKProgressController updateProgress:]
+-[SHKProgressController removeProgressItem:]
+-[SHKProgressController observeValueForKeyPath:ofObject:change:context:]
+___72-[SHKProgressController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKProgressController .cxx_destruct]
++[NSSharingPlugInHelper _serviceBundle]
++[NSSharingPlugInHelper computeAlternateImageFromImage:]
++[NSSharingPlugInHelper frameworkLastModificationDate]
++[NSSharingPlugInHelper frameworkModificationDateIsEqual:]
++[NSSharingPlugInHelper attributedStringByTrimmingCharactersInSet:inAttributedString:]
++[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke78
+___copy_helper_block_79
+___destroy_helper_block_80
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke85
+___copy_helper_block_86
+___destroy_helper_block_87
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke91
+___copy_helper_block_92
+___destroy_helper_block_93
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke95
+___copy_helper_block_96
+___destroy_helper_block_97
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke101
+___copy_helper_block_102
+___destroy_helper_block_103
+___162+[NSSharingPlugInHelper _asyncExtractFromExtensionItem:wantsTextItems:wantsFileURLItems:wantsDistantURLs:wantsImages:treatImagesAsFileURLItems:completionHandler:]_block_invoke108
+___copy_helper_block_109
+___destroy_helper_block_110
++[NSSharingPlugInHelper _extractFromExtensionItem:getTextItems:getFileURLItems:getDistantURLs:getUrlToItemProvider:getImageItems:treatImagesAsFileURLItems:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___156+[NSSharingPlugInHelper _extractFromExtensionItem:getTextItems:getFileURLItems:getDistantURLs:getUrlToItemProvider:getImageItems:treatImagesAsFileURLItems:]_block_invoke
+___copy_helper_block_113
+___destroy_helper_block_114
++[NSSharingPlugInHelper extractFromExtensionItem:getTextItems:getFileURLItems:getDistantURLItems:getImageItems:treatImagesAsFileURLItems:]
++[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke
+___copy_helper_block_133
+___destroy_helper_block_134
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke136
+___copy_helper_block_137
+___destroy_helper_block_138
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke140
+___copy_helper_block_149
+___destroy_helper_block_150
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke152
+___copy_helper_block_155
+___destroy_helper_block_156
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke158
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke_2
+___copy_helper_block_161
+___destroy_helper_block_162
+___copy_helper_block_167
+___destroy_helper_block_168
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke170
+___copy_helper_block_171
+___destroy_helper_block_172
+___161+[NSSharingPlugInHelper _asyncParseExtensionItem:wantsBodyMessage:wantsDistantURLs:wantsImages:includeURLsInBodyMessage:writeImagesAsFileURLs:completionHandler:]_block_invoke174
+___copy_helper_block_175
+___destroy_helper_block_176
++[NSSharingPlugInHelper parseExtensionItem:getBodyMessage:includeURLsInBodyMessage:getFileURLs:getDistantURLs:getImages:getImageCount:writeImagesAsFileURLs:]
+___157+[NSSharingPlugInHelper parseExtensionItem:getBodyMessage:includeURLsInBodyMessage:getFileURLs:getDistantURLs:getImages:getImageCount:writeImagesAsFileURLs:]_block_invoke
+___copy_helper_block_178
+___destroy_helper_block_179
++[NSSharingPlugInHelper parseExtensionItem:getBodyMessage:includeURLsInBodyMessage:getFileURLs:getDistantURLs:getImages:writeImagesAsFileURLs:]
++[NSSharingPlugInHelper temporaryImageFileName]
++[NSSharingPlugInHelper writeImage:]
++[NSSharingPlugInHelper imageURLForItemProvider:writeIfNeeded:completionHandler:]
+___81+[NSSharingPlugInHelper imageURLForItemProvider:writeIfNeeded:completionHandler:]_block_invoke
+___81+[NSSharingPlugInHelper imageURLForItemProvider:writeIfNeeded:completionHandler:]_block_invoke_2
+___81+[NSSharingPlugInHelper imageURLForItemProvider:writeIfNeeded:completionHandler:]_block_invoke_3
+___copy_helper_block_257
+___destroy_helper_block_258
+___copy_helper_block_260
+___destroy_helper_block_261
++[NSSharingPlugInHelper imageByScalingImage:proportionallyToSize:]
++[NSSharingPlugInHelper imagesByScalingImages:proportionallyToSize:]
++[NSSharingPlugInHelper movieURLForShareProxyItem:]
++[NSSharingPlugInHelper startAccountSetupInMCCForPluginID:]
++[NSSharingPlugInHelper userDefaults]
++[NSSharingPlugInHelper plugInIdentifier]
++[NSSharingPlugInHelper imageNamed:]
+-[SHKProgressWindow awakeFromNib]
+-[SHKProgressContentView mouseDownCanMoveWindow]
+-[NSWindow(NSWindow_SHKWindowDisablingUtilities) buttonStatuses]
+-[NSWindow(NSWindow_SHKWindowDisablingUtilities) disableButtons]
+-[NSWindow(NSWindow_SHKWindowDisablingUtilities) setButtonsToStatuses:]
+-[SHKRemoteView initWithOptionsDictionary:]
+-[SHKRemoteView viewShouldDragOldestAncestorWindow:]
+-[SHKRemoteView viewDidAdvanceToRunPhase:]
+-[SHKRemoteView view:shouldResize:]
+-[SHKRemoteView serviceViewControllerInterface]
+-[SHKRemoteView exportedInterface]
+-[SHKRemoteView exportedObject]
+-[SHKRemoteView synchronizeAnimationsInActions:]
+-[SHKRemoteView invalidate]
+-[SHKRemoteView cancelServiceUI]
+___32-[SHKRemoteView cancelServiceUI]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SHKRemoteView remoteWindowController]
+-[SHKRemoteView setRemoteWindowController:]
+-[SHKRemoteView uuidString]
+-[SHKRemoteView setUuidString:]
+-[SHKRemoteView parentWindow]
+-[SHKRemoteView setParentWindow:]
+-[SHKRemoteView sourceWindowFrame]
+-[SHKRemoteView setSourceWindowFrame:]
+-[SHKRemoteView sourceWindowScreenVisibleFrame]
+-[SHKRemoteView setSourceWindowScreenVisibleFrame:]
+-[SHKRemoteView sourceWindowContentRect]
+-[SHKRemoteView setSourceWindowContentRect:]
+-[SHKRemoteView preferredContentSize]
+-[SHKRemoteView setPreferredContentSize:]
+-[SHKRemoteView shouldDimSourceWindow]
+-[SHKRemoteView setShouldDimSourceWindow:]
+-[SHKRemoteView isInNotificationCenter]
+-[SHKRemoteView setIsInNotificationCenter:]
+-[SHKRemoteView .cxx_destruct]
+-[SHKProgressWindowController initWithWindow:]
+-[SHKProgressWindowController windowNibName]
+-[SHKProgressWindowController windowDidLoad]
+-[SHKProgressWindowController adjustWindowHeightToDisplayNumberOfRows:]
+-[SHKProgressWindowController windowWillResize:toSize:]
+-[SHKProgressWindowController checkIfWeNeedToHideTheWindow]
+-[SHKProgressWindowController checkIfWeNeedToShowTheWindow]
+-[SHKProgressWindowController reloadData]
+-[SHKProgressWindowController updateStatus]
+-[SHKProgressWindowController windowShouldClose:]
+-[SHKProgressWindowController allProgressItems]
+-[SHKProgressWindowController numberOfRowsInTableView:]
+-[SHKProgressWindowController tableView:objectValueForTableColumn:row:]
+-[SHKProgressWindowController tableView:didAddRowView:forRow:]
+-[SHKProgressWindowController tableView:didRemoveRowView:forRow:]
+-[SHKProgressWindowController tableView:shouldSelectRow:]
+-[SHKProgressWindowController tableView:shouldTrackCell:forTableColumn:row:]
+-[SHKProgressWindowController cancelProgressItem:]
+-[SHKProgressWindowController revealProgressItem:]
+-[SHKProgressWindowController progressController]
+-[SHKProgressWindowController setProgressController:]
+-[SHKProgressWindowController .cxx_destruct]
+-[SHKProgressIndicator setDoubleValue:]
+-[SHKProgressItemView mouseDownCanMoveWindow]
+-[SHKProgressItemView updateLayout]
+-[SHKProgressItemView viewWasAddedToTableView:]
+-[SHKProgressItemView viewWasRemovedFromTableView:]
+-[SHKProgressItemView subtitleField]
+-[SHKProgressItemView .cxx_destruct]
+-[SHKProgressTableView mouseDown:]
++[SHKMessageTracer logStatsForClientIdentifier:clientVersion:serviceIdentifier:sharedItems:serviceStatus:lastError:]
+-[SHKBackgroundView drawRect:]
+-[SHKBackgroundView acceptsFirstMouse:]
+-[SHKBackgroundView mouseDown:]
+-[SHKBackgroundView delegate]
+-[SHKBackgroundView setDelegate:]
+-[SHKBackgroundView .cxx_destruct]
+-[SHKDurationFormatter stringForTimeInterval:]
+-[SHKDurationFormatter stringForObjectValue:]
+-[SHKRemoteWindowController initWithWindow:clientWindow:remoteView:noSourceWindow:disableServiceWindowPresentation:isInNotificationCenter:service:]
+-[SHKRemoteWindowController advanceToRunPhaseIfNeeded]
+-[SHKRemoteWindowController readyToShowWindow]
+-[SHKRemoteWindowController invalidate]
+-[SHKRemoteWindowController performBlockOnAnotherMainQueueRunloopIteration:]
+-[SHKRemoteWindowController setHostWindowFrame:withClientWindowSync:blurAndShadowSync:]
+___87-[SHKRemoteWindowController setHostWindowFrame:withClientWindowSync:blurAndShadowSync:]_block_invoke
+___87-[SHKRemoteWindowController setHostWindowFrame:withClientWindowSync:blurAndShadowSync:]_block_invoke_2
+___87-[SHKRemoteWindowController setHostWindowFrame:withClientWindowSync:blurAndShadowSync:]_block_invoke_3
+___87-[SHKRemoteWindowController setHostWindowFrame:withClientWindowSync:blurAndShadowSync:]_block_invoke_4
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_118
+___destroy_helper_block_119
+___copy_helper_block_123
+___destroy_helper_block_124
+___copy_helper_block_128
+___destroy_helper_block_129
+-[SHKRemoteWindowController requestClientWindowFrameWithCompletionBlock:]
+-[SHKRemoteWindowController viewControllerWantsToChangeViewToSize:containerViewScreenFrame:currentViewFrame:transactionUUID:]
+___125-[SHKRemoteWindowController viewControllerWantsToChangeViewToSize:containerViewScreenFrame:currentViewFrame:transactionUUID:]_block_invoke
+___copy_helper_block_145
+___destroy_helper_block_146
+-[SHKRemoteWindowController startMarkupTransitionInWithServiceScreenFrame:initialLayerTransform:dimmingScreenFrame:]
+___116-[SHKRemoteWindowController startMarkupTransitionInWithServiceScreenFrame:initialLayerTransform:dimmingScreenFrame:]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+-[SHKRemoteWindowController startInstantTransitionInWithServiceScreenFrame:dimmingScreenFrame:]
+___95-[SHKRemoteWindowController startInstantTransitionInWithServiceScreenFrame:dimmingScreenFrame:]_block_invoke
+___copy_helper_block_175
+___destroy_helper_block_176
+-[SHKRemoteWindowController startSharingTransitionInWithServiceScreenFrame:initialLayerTransform:dimmingScreenFrame:delay:duration:currentMediaTime:]
+___149-[SHKRemoteWindowController startSharingTransitionInWithServiceScreenFrame:initialLayerTransform:dimmingScreenFrame:delay:duration:currentMediaTime:]_block_invoke
+___copy_helper_block_191
+___destroy_helper_block_192
+-[SHKRemoteWindowController startMarkupTransitionOut]
+___53-[SHKRemoteWindowController startMarkupTransitionOut]_block_invoke
+___copy_helper_block_198
+___destroy_helper_block_199
+-[SHKRemoteWindowController startInstantTransitionOut]
+___54-[SHKRemoteWindowController startInstantTransitionOut]_block_invoke
+___copy_helper_block_203
+___destroy_helper_block_204
+-[SHKRemoteWindowController startSharingTransitionOutWithSuccess:duration:]
+___75-[SHKRemoteWindowController startSharingTransitionOutWithSuccess:duration:]_block_invoke
+___copy_helper_block_208
+___destroy_helper_block_209
+-[SHKRemoteWindowController setAnimatesDimAndBlur:]
+-[SHKRemoteWindowController clientWindowBecameKey]
+-[SHKRemoteWindowController windowDidBecomeKey:]
+-[SHKRemoteWindowController windowDidResignKey:]
+-[SHKRemoteWindowController blurFrame]
+-[SHKRemoteWindowController setBlurFrame:]
+-[SHKRemoteWindowController remoteView]
+-[SHKRemoteWindowController setRemoteView:]
+-[SHKRemoteWindowController service]
+-[SHKRemoteWindowController setService:]
+-[SHKRemoteWindowController clientWindow]
+-[SHKRemoteWindowController setClientWindow:]
+-[SHKRemoteWindowController dimFrame]
+-[SHKRemoteWindowController setDimFrame:]
+-[SHKRemoteWindowController dimAndShadowWindow]
+-[SHKRemoteWindowController setDimAndShadowWindow:]
+-[SHKRemoteWindowController blurWindow]
+-[SHKRemoteWindowController setBlurWindow:]
+-[SHKRemoteWindowController disableServiceWindowPresentation]
+-[SHKRemoteWindowController setDisableServiceWindowPresentation:]
+-[SHKRemoteWindowController isInNotificationCenter]
+-[SHKRemoteWindowController setIsInNotificationCenter:]
+-[SHKRemoteWindowController noSourceWindow]
+-[SHKRemoteWindowController setNoSourceWindow:]
+-[SHKRemoteWindowController .cxx_destruct]
+-[SHKTransparentWindow canBecomeKeyWindow]
+-[SHKTransparentWindow isOpaque]
+-[SHKTransparentWindow backgroundColor]
+-[SHKRemoteViewContainerWindow constrainFrameRect:toScreen:]
+-[SHKBorderlessEffectWindow initWithFrame:noSourceWindow:]
+-[SHKBorderlessEffectWindow noSourceWindow]
+-[SHKBorderlessEffectWindow setNoSourceWindow:]
+-[SHKDimAndShadowWindow initWithFrame:noSourceWindow:]
+-[SHKDimAndShadowWindow startTransitionInWithDimFrame:serviceScreenFrame:initialLayerTransform:]
+-[SHKDimAndShadowWindow continueTransitionInWithIdentityLayerTransformAfterDelay:animate:]
+-[SHKDimAndShadowWindow continueTransitionInWithIdentityLayerTransformAfterDelay:animate:currentMediaTime:]
+-[SHKDimAndShadowWindow startTransitionOut]
+-[SHKDimAndShadowWindow animateLayersToFrame:oldFrame:]
+_SHK_translatedAndScaledTransform
+-[SHKDimAndShadowWindow updateShadowFrame:]
+-[SHKDimAndShadowWindow animatesTransitions]
+-[SHKDimAndShadowWindow setAnimatesTransitions:]
+-[SHKDimAndShadowWindow remoteWindow]
+-[SHKDimAndShadowWindow setRemoteWindow:]
+-[SHKDimAndShadowWindow sourceWindow]
+-[SHKDimAndShadowWindow setSourceWindow:]
+-[SHKDimAndShadowWindow .cxx_destruct]
+-[SHKBlurWindow initWithFrame:noSourceWindow:]
+-[SHKBlurWindow blurFrame]
+-[SHKBlurWindow setBlurFrame:]
+-[SHKBlurWindow startBlurWithServiceScreenFrame:initialLayerTransform:]
+-[SHKBlurWindow continueBlurWithIdentityLayerTransformAfterDelay:animate:]
+-[SHKBlurWindow continueBlurWithIdentityLayerTransformAfterDelay:animate:currentMediaTime:]
+-[SHKBlurWindow startTransitionOut]
+-[SHKBlurWindow animateBlurLayerToFrame:oldFrame:]
+-[SHKBlurWindow animatesTransitions]
+-[SHKBlurWindow setAnimatesTransitions:]
+-[SHKBlurWindow serviceMask]
+-[SHKBlurWindow setServiceMask:]
+-[SHKBlurWindow .cxx_destruct]
+-[SHKDimAndShadowWindowContentView mouseDown:]
+-[SHKCompletionPopUpController initWithTextView:]
+-[SHKCompletionPopUpController dealloc]
+-[SHKCompletionPopUpController _updateCompletionWindowFrameOnScreen:]
+-[SHKCompletionPopUpController showOnWindow:]
+-[SHKCompletionPopUpController hide]
+-[SHKCompletionPopUpController isVisible]
+-[SHKCompletionPopUpController doCommandBySelector:]
+-[SHKCompletionPopUpController selectedCompletionItem]
+-[SHKCompletionPopUpController defaultCompletionItem]
+-[SHKCompletionPopUpController setCompletions:]
+-[SHKCompletionPopUpController completions]
+-[SHKCompletionPopUpController observeValueForKeyPath:ofObject:change:context:]
+-[SHKCompletionPopUpController numberOfRowsInTableView:]
+-[SHKCompletionPopUpController tableView:objectValueForTableColumn:row:]
+-[SHKCompletionPopUpController tableView:willDisplayCell:forTableColumn:row:]
+-[SHKCompletionPopUpController tableView:toolTipForCell:rect:tableColumn:row:mouseLocation:]
+-[SHKCompletionPopUpController tableView:shouldShowCellExpansionForTableColumn:row:]
+-[SHKCompletionPopUpController completionTableView:mouseUpInRow:event:]
+-[SHKCompletionPopUpController delegate]
+-[SHKCompletionPopUpController setDelegate:]
+-[SHKCompletionPopUpController tentativeCompletion]
+-[SHKCompletionPopUpController setTentativeCompletion:]
+-[SHKCompletionPopUpController tentativeRange]
+-[SHKCompletionPopUpController setTentativeRange:]
+-[SHKCompletionPopUpController .cxx_destruct]
+-[SHKCompletionPopUpWindow initWithContentRect:styleMask:backing:defer:]
+-[SHKCompletionPopUpWindow wantsScrollWheelEvent:]
+-[SHKCompletionPopUpWindow canBecomeKeyWindow]
+-[SHKCompletionPopUpWindow canBecomeMainWindow]
+-[SHKCompletionPopUpWindow accessibilityIsIgnored]
+-[SHKCompletionBackgroundView drawRect:]
+-[SHKCompletionScrollView accessibilityIsIgnored]
+-[SHKCompletionTableView initWithFrame:]
+-[SHKCompletionTableView mouseMoved:]
+-[SHKCompletionTableView mouseExited:]
+-[SHKCompletionTableView mouseDown:]
+-[SHKCompletionTableView _performClickForCell:]
+-[SHKCompletionTableView _performCancelForCell:]
+-[SHKCompletionTableView _rowFromMouseEvent:]
+-[SHKCompletionTableView drawRow:clipRect:]
+-[SHKCompletionTextFieldCell copyWithZone:]
+-[SHKCompletionTextFieldCell highlightColorWithFrame:inView:]
+-[SHKCompletionTextFieldCell drawingRectForBounds:]
+-[SHKCompletionTextFieldCell _adjustFrameToVerticallyCenterText:inView:]
+-[SHKCompletionTextFieldCell drawInteriorWithFrame:inView:]
+-[SHKCompletionTextFieldCell expansionFrameWithFrame:inView:]
+-[SHKCompletionTextFieldCell beforeMargin]
+-[SHKCompletionTextFieldCell setBeforeMargin:]
+-[SHKCompletionTextFieldCell afterMargin]
+-[SHKCompletionTextFieldCell setAfterMargin:]
+-[SHKCompletionTextFieldCell completion]
+-[SHKCompletionTextFieldCell setCompletion:]
+-[SHKCompletionTextFieldCell .cxx_destruct]
++[SHKCompletionItem completionWithValue:title:subtitle:image:range:]
+-[SHKCompletionItem value]
+-[SHKCompletionItem setValue:]
+-[SHKCompletionItem title]
+-[SHKCompletionItem setTitle:]
+-[SHKCompletionItem subtitle]
+-[SHKCompletionItem setSubtitle:]
+-[SHKCompletionItem image]
+-[SHKCompletionItem setImage:]
+-[SHKCompletionItem range]
+-[SHKCompletionItem setRange:]
+-[SHKCompletionItem .cxx_destruct]
+-[NSImage(ShareKitAdditions) SHKFlippedImageHorizontally:accountForBackingScale:]
+-[NSWindow(ShareKitAdditions) SHKConvertPointToScreen:]
+-[NSWindow(ShareKitAdditions) SHKConvertPointFromScreen:]
++[NSSharingServiceDescription serviceDescription]
++[NSSharingServiceDescription supportsSecureCoding]
+-[NSSharingServiceDescription imageFromCoder:]
+-[NSSharingServiceDescription encodeImage:withCoder:]
+-[NSSharingServiceDescription initWithCoder:]
+-[NSSharingServiceDescription encodeWithCoder:]
+-[NSSharingServiceDescription description]
+-[NSSharingServiceDescription identifier]
+-[NSSharingServiceDescription setIdentifier:]
+-[NSSharingServiceDescription title]
+-[NSSharingServiceDescription setTitle:]
+-[NSSharingServiceDescription image]
+-[NSSharingServiceDescription setImage:]
+-[NSSharingServiceDescription plugInIdentifier]
+-[NSSharingServiceDescription setPlugInIdentifier:]
+-[NSSharingServiceDescription plugInURL]
+-[NSSharingServiceDescription setPlugInURL:]
+-[NSSharingServiceDescription parameters]
+-[NSSharingServiceDescription setParameters:]
+-[NSSharingServiceDescription order]
+-[NSSharingServiceDescription setOrder:]
+-[NSSharingServiceDescription shouldDimSourceWindow]
+-[NSSharingServiceDescription setShouldDimSourceWindow:]
+-[NSSharingServiceDescription viewBased]
+-[NSSharingServiceDescription setViewBased:]
+-[NSSharingServiceDescription mask]
+-[NSSharingServiceDescription setMask:]
+-[NSSharingServiceDescription enabled]
+-[NSSharingServiceDescription setEnabled:]
+-[NSSharingServiceDescription serviceDictionary]
+-[NSSharingServiceDescription setServiceDictionary:]
+-[NSSharingServiceDescription .cxx_destruct]
+-[SHKShareLocationPopUpButtonCell _menuLocationForEvent:inCellFrame:ofView:]
+-[SHKShareLocationController isTextDirectionRTL]
+-[SHKShareLocationController initWithParentView:]
+-[SHKShareLocationController invalidate]
+-[SHKShareLocationController _titleForLocation:]
+-[SHKShareLocationController _updateLocationsPopup]
+-[SHKShareLocationController _updateLocationsPopupWidth]
+-[SHKShareLocationController setEnabled:]
+-[SHKShareLocationController enabled]
+-[SHKShareLocationController _addTrackingAreaForButton]
+-[SHKShareLocationController _removeTrackingAreaForButton]
+-[SHKShareLocationController imageForLocationButtonState:]
+___58-[SHKShareLocationController imageForLocationButtonState:]_block_invoke
+-[SHKShareLocationController _showAndUpdateArrowImage]
+-[SHKShareLocationController _showRemoveImage]
+-[SHKShareLocationController mouseEntered:]
+-[SHKShareLocationController mouseExited:]
+-[SHKShareLocationController setStatus:]
+-[SHKShareLocationController status]
+-[SHKShareLocationController updateFailedAndIsUnavailable:]
+-[SHKShareLocationController setLocations:]
+-[SHKShareLocationController locations]
++[SHKShareLocationController keyPathsForValuesAffectingCurrentLocation]
+-[SHKShareLocationController currentLocation]
++[SHKShareLocationController keyPathsForValuesAffectingCurrentLocationDisplayName]
+-[SHKShareLocationController currentLocationDisplayName]
+-[SHKShareLocationController locationClicked:]
+-[SHKShareLocationController locationPopupChanged:]
+-[SHKShareLocationController currentLocationIndex]
+-[SHKShareLocationController setCurrentLocationIndex:]
+-[SHKShareLocationController updateLocationsBlock]
+-[SHKShareLocationController setUpdateLocationsBlock:]
+-[SHKShareLocationController delegate]
+-[SHKShareLocationController setDelegate:]
+-[SHKShareLocationController .cxx_destruct]
+GCC_except_table2
+GCC_except_table39
+GCC_except_table44
+GCC_except_table55
+GCC_except_table0
+GCC_except_table5
+GCC_except_table41
+GCC_except_table53
+GCC_except_table59
+GCC_except_table75
+GCC_except_table89
+GCC_except_table111
+GCC_except_table118
+GCC_except_table158
+GCC_except_table159
+GCC_except_table10
+GCC_except_table18
+GCC_except_table0
+GCC_except_table5
+GCC_except_table56
+GCC_except_table66
+GCC_except_table112
+GCC_except_table122
+GCC_except_table143
+GCC_except_table153
+GCC_except_table14
+GCC_except_table6
+GCC_except_table2
+GCC_except_table3
+GCC_except_table55
+GCC_except_table27
+GCC_except_table59
+GCC_except_table69
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp17
+___block_descriptor_tmp25
+___block_descriptor_tmp29
+___block_descriptor_tmp32
+___block_descriptor_tmp41
+___block_descriptor_tmp44
+___block_descriptor_tmp47
+___block_descriptor_tmp50
+___block_descriptor_tmp55
+___block_descriptor_tmp58
+___block_descriptor_tmp61
+___block_descriptor_tmp64
+___block_descriptor_tmp68
+___block_descriptor_tmp73
+___block_descriptor_tmp76
+___block_descriptor_tmp82
+___block_descriptor_tmp88
+___block_descriptor_tmp91
+___block_descriptor_tmp94
+___block_descriptor_tmp97
+___block_descriptor_tmp100
+___block_descriptor_tmp190
+___block_descriptor_tmp193
+___block_descriptor_tmp
+___block_descriptor_tmp183
+___block_descriptor_tmp244
+___block_descriptor_tmp253
+___block_descriptor_tmp256
+___block_literal_global
+___block_descriptor_tmp317
+___block_descriptor_tmp320
+___block_descriptor_tmp329
+___block_descriptor_tmp
+___block_descriptor_tmp19
+___block_descriptor_tmp26
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp83
+___block_literal_global84
+___block_descriptor_tmp88
+___block_literal_global89
+___block_descriptor_tmp149
+___block_literal_global150
+___block_descriptor_tmp256
+___block_descriptor_tmp292
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp263
+___block_descriptor_tmp266
+___block_descriptor_tmp274
+___block_descriptor_tmp278
+___block_descriptor_tmp289
+___block_descriptor_tmp294
+___block_descriptor_tmp373
+___block_descriptor_tmp396
+___block_descriptor_tmp423
+___block_descriptor_tmp428
+___block_descriptor_tmp498
+___block_descriptor_tmp502
+___block_descriptor_tmp522
+___block_descriptor_tmp528
+___block_literal_global
+___block_descriptor_tmp538
+___block_descriptor_tmp544
+___block_literal_global545
+___block_descriptor_tmp625
+___block_descriptor_tmp634
+___block_descriptor_tmp792
+___block_descriptor_tmp808
+___block_descriptor_tmp814
+___block_descriptor_tmp818
+___block_descriptor_tmp822
+___block_descriptor_tmp827
+___block_descriptor_tmp830
+___block_descriptor_tmp846
+___block_descriptor_tmp854
+___block_descriptor_tmp857
+___block_descriptor_tmp861
+___block_descriptor_tmp865
+___block_descriptor_tmp883
+___block_descriptor_tmp887
+___block_descriptor_tmp895
+___block_descriptor_tmp899
+___block_descriptor_tmp902
+___block_descriptor_tmp917
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp108
+___block_literal_global109
+___block_descriptor_tmp114
+___block_literal_global115
+___block_descriptor_tmp265
+___block_descriptor_tmp355
+___block_literal_global356
+___block_descriptor_tmp474
+___block_literal_global475
+___block_descriptor_tmp476
+___block_literal_global477
+___block_descriptor_tmp522
+___block_literal_global523
+___block_descriptor_tmp625
+___block_literal_global626
+___block_descriptor_tmp645
+___block_literal_global646
+___block_descriptor_tmp668
+___block_descriptor_tmp738
+___block_literal_global739
+___block_descriptor_tmp745
+___block_descriptor_tmp749
+___block_descriptor_tmp753
+___block_descriptor_tmp756
+___block_descriptor_tmp767
+___block_descriptor_tmp772
+___block_descriptor_tmp775
+___block_descriptor_tmp848
+___block_descriptor_tmp890
+___block_descriptor_tmp893
+___block_descriptor_tmp905
+___block_descriptor_tmp911
+___block_descriptor_tmp920
+___block_descriptor_tmp927
+___block_descriptor_tmp950
+___block_descriptor_tmp958
+___block_descriptor_tmp1052
+___block_descriptor_tmp1055
+___block_descriptor_tmp1059
+___block_descriptor_tmp1062
+___block_descriptor_tmp1073
+___block_descriptor_tmp1108
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp54
+___block_descriptor_tmp71
+___block_literal_global72
+___block_descriptor_tmp75
+___block_literal_global76
+___block_descriptor_tmp77
+___block_literal_global78
+___block_descriptor_tmp
+___block_descriptor_tmp101
+___block_descriptor_tmp123
+___block_descriptor_tmp
+___block_descriptor_tmp149
+___block_descriptor_tmp171
+___block_descriptor_tmp231
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp181
+___block_descriptor_tmp185
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp121
+___block_descriptor_tmp126
+___block_descriptor_tmp149
+___block_descriptor_tmp153
+___block_descriptor_tmp158
+___block_descriptor_tmp162
+___block_descriptor_tmp182
+___block_descriptor_tmp189
+___block_descriptor_tmp194
+___block_descriptor_tmp197
+___block_descriptor_tmp205
+___block_descriptor_tmp208
+___block_descriptor_tmp219
+___block_descriptor_tmp224
+___block_descriptor_tmp235
+___block_descriptor_tmp242
+___block_descriptor_tmp246
+___block_descriptor_tmp282
+___block_literal_global
+___block_descriptor_tmp292
+___block_descriptor_tmp298
+___block_descriptor_tmp309
+___block_descriptor_tmp315
+___block_descriptor_tmp320
+___block_descriptor_tmp325
+___block_descriptor_tmp331
+___block_descriptor_tmp334
+___block_descriptor_tmp338
+___block_descriptor_tmp341
+___block_descriptor_tmp347
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp82
+___block_descriptor_tmp88
+___block_descriptor_tmp94
+___block_descriptor_tmp98
+___block_descriptor_tmp105
+___block_descriptor_tmp112
+___block_descriptor_tmp116
+___block_descriptor_tmp135
+___block_descriptor_tmp139
+___block_descriptor_tmp151
+___block_descriptor_tmp157
+___block_descriptor_tmp164
+___block_descriptor_tmp169
+___block_descriptor_tmp173
+___block_descriptor_tmp177
+___block_descriptor_tmp181
+___block_descriptor_tmp246
+___block_literal_global
+___block_descriptor_tmp259
+___block_descriptor_tmp262
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp120
+___block_descriptor_tmp125
+___block_descriptor_tmp130
+___block_descriptor_tmp147
+___block_descriptor_tmp170
+___block_descriptor_tmp177
+___block_descriptor_tmp193
+___block_descriptor_tmp200
+___block_descriptor_tmp205
+___block_descriptor_tmp210
+___block_descriptor_tmp
+_OBJC_IVAR_$_SHKBlockUUIDTuple._block
+_OBJC_IVAR_$_SHKBlockUUIDTuple._uuid
+_OBJC_IVAR_$_SHKBlockQueue._blockUUIDTuples
+_OBJC_IVAR_$_SHKBlockQueue._maxSize
+_OBJC_IVAR_$_SHKBlockQueue._queue
+_OBJC_IVAR_$_NSSharingAudience._identifier
+_OBJC_IVAR_$_NSSharingAudience._title
+_OBJC_IVAR_$_NSSharingAudience._icon
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._locationManager
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._session
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._cachedCharacterCountForImplicitContent
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._imageFetchOperationQueue
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._selectedAccount
+_OBJC_IVAR_$_NSSharingPlugInComposeViewService._selectedAudienceIdentifier
+_OBJC_IVAR_$_NSSharingExtensionContext._parameters
+_OBJC_IVAR_$_NSSharingExtensionContext._status
+_OBJC_IVAR_$_NSSharingExtensionContext._sessionCompletionDelegate
+_OBJC_IVAR_$_NSSharingExtensionContext._progress
+_OBJC_IVAR_$_NSSharingExtensionContext._options
+_OBJC_IVAR_$_NSSharingExtensionContext._host
+_OBJC_IVAR_$_NSSharingContainerViewController._configurationViewController
+_OBJC_IVAR_$_NSSharingContainerViewController._shareViewController
+_OBJC_IVAR_$_NSSharingAccountConfigurationViewController.logoImageView
+_OBJC_IVAR_$_NSSharingAccountConfigurationViewController.iconImageView
+_OBJC_IVAR_$_NSSharingAccountConfigurationViewController.setupTextField
+_OBJC_IVAR_$_NSSharingAccountConfigurationViewController.cancelButton
+_OBJC_IVAR_$_NSSharingAccountConfigurationViewController.configureButton
+_OBJC_IVAR_$_SHKAutoLayoutConstraintPair._firstConstraint
+_OBJC_IVAR_$_SHKAutoLayoutConstraintPair._secondConstraint
+_OBJC_IVAR_$_SHKDraggableContainerView._delegate
+_OBJC_IVAR_$_SHKSharingViewService._draggable
+_OBJC_IVAR_$_SHKSharingViewService._serviceMask
+_OBJC_IVAR_$_SHKSharingViewService._containerView
+_OBJC_IVAR_$_SHKSharingViewService._backgroundView
+_OBJC_IVAR_$_SHKSharingViewService._window
+_OBJC_IVAR_$_SHKSharingViewService._uuid
+_OBJC_IVAR_$_SHKSharingViewService._extensionContext
+_OBJC_IVAR_$_SHKSharingViewService._originOffset
+_OBJC_IVAR_$_SHKSharingViewService._animatesLikeMarkup
+_OBJC_IVAR_$_SHKSharingViewService._animateMarkupWithoutImageCopy
+_OBJC_IVAR_$_SHKSharingViewService._serviceUsesAutoLayout
+_OBJC_IVAR_$_SHKSharingViewService._itemImageView
+_OBJC_IVAR_$_SHKSharingViewService._itemBorderView
+_OBJC_IVAR_$_SHKSharingViewService._queuedSharingAnimations
+_OBJC_IVAR_$_SHKSharingViewService._closingFinishedBlock
+_OBJC_IVAR_$_SHKSharingViewService._animationBlockQueue
+_OBJC_IVAR_$_SHKSharingViewService._completionBlockQueue
+_OBJC_IVAR_$_SHKSharingViewService._sameCenterConstraints
+_OBJC_IVAR_$_SHKSharingViewService._fixedDimensionsContainerConstraints
+_OBJC_IVAR_$_SHKSharingViewService._fixedDimensionsBackgroundConstraints
+_OBJC_IVAR_$_SHKHostExtensionContext._remote
+_OBJC_IVAR_$_SHKHostExtensionContext._service
+_OBJC_IVAR_$_SHKSharingService._delegate
+_OBJC_IVAR_$_SHKSharingService._debugProgressItem
+_OBJC_IVAR_$_SHKSharingService._identifier
+_OBJC_IVAR_$_SHKSharingService._parameters
+_OBJC_IVAR_$_SHKSharingService._block
+_OBJC_IVAR_$_SHKSharingService._remoteWindowController
+_OBJC_IVAR_$_SHKSharingService._title
+_OBJC_IVAR_$_SHKSharingService._enabled
+_OBJC_IVAR_$_SHKSharingService._serviceDescription
+_OBJC_IVAR_$_SHKSharingService._plugInIdentifier
+_OBJC_IVAR_$_SHKSharingService._subtitle
+_OBJC_IVAR_$_SHKSharingService._image
+_OBJC_IVAR_$_SHKSharingService._alternateImage
+_OBJC_IVAR_$_SHKSharingService._shouldDimSourceWindow
+_OBJC_IVAR_$_SHKSharingService._viewBased
+_OBJC_IVAR_$_SHKSharingService._mask
+_OBJC_IVAR_$_SHKSharingService._customDelegate
+_OBJC_IVAR_$_SHKSharingService._customInternalDelegate
+_OBJC_IVAR_$_SHKSharingService._extension
+_OBJC_IVAR_$_SHKSharingService._extensionContext
+_OBJC_IVAR_$_SHKSharingService._remoteCID
+_OBJC_IVAR_$_SHKSharingService._uuid
+_OBJC_IVAR_$_SHKSharingService._sharedItems
+_OBJC_IVAR_$_SHKSharingService._restoreWindowStateBlock
+_OBJC_IVAR_$_SHKSharingService.__cancelExtensionKillTimer
+_OBJC_IVAR_$_SHKSharingService._sourceWindow
+_OBJC_IVAR_$_SHKSharingService._identifierToProvider
+_OBJC_IVAR_$_SHKSharingServicePicker._items
+_OBJC_IVAR_$_SHKSharingServicePicker._menu
+_OBJC_IVAR_$_SHKSharingServicePicker._delegate
+_OBJC_IVAR_$_SHKSharingServicePicker._sharingServices
+_OBJC_IVAR_$_NSSharingItem._sourceImage
+_OBJC_IVAR_$_NSSharingItem._sourceImageContentRect
+_OBJC_IVAR_$_NSSharingItem._shareImage
+_OBJC_IVAR_$_NSSharingItem._shareImageContentRect
+_OBJC_IVAR_$_NSSharingItem._string
+_OBJC_IVAR_$_NSSharingItem._sourceFrame
+_OBJC_IVAR_$_NSSharingItem._url
+_OBJC_IVAR_$_NSSharingItem._coordinatedReadURL
+_OBJC_IVAR_$_NSSharingItem._type
+_OBJC_IVAR_$_NSSharingItem._data
+_OBJC_IVAR_$_NSSharingMachPortWrapper._port
+_OBJC_IVAR_$_SHKShareImageView._images
+_OBJC_IVAR_$_SHKShareImageView._contentRect
+_OBJC_IVAR_$_SHKShareImageView._imageStyle
+_OBJC_IVAR_$_NSSharingComposeViewController._backgroundView
+_OBJC_IVAR_$_NSSharingComposeViewController._messageTextView
+_OBJC_IVAR_$_NSSharingComposeViewController._progressIndicator
+_OBJC_IVAR_$_NSSharingComposeViewController._completionPopUpController
+_OBJC_IVAR_$_NSSharingComposeViewController._locationContainerView
+_OBJC_IVAR_$_NSSharingComposeViewController._locationController
+_OBJC_IVAR_$_NSSharingComposeViewController._titleImageView
+_OBJC_IVAR_$_NSSharingComposeViewController._characterCountTextField
+_OBJC_IVAR_$_NSSharingComposeViewController._sendButton
+_OBJC_IVAR_$_NSSharingComposeViewController._titleTextField
+_OBJC_IVAR_$_NSSharingComposeViewController._accountsPopUpButton
+_OBJC_IVAR_$_NSSharingComposeViewController._audiencePopUpButton
+_OBJC_IVAR_$_NSSharingComposeViewController._errorTextField
+_OBJC_IVAR_$_NSSharingComposeViewController._accountsFromTextField
+_OBJC_IVAR_$_NSSharingComposeViewController._audienceTextField
+_OBJC_IVAR_$_NSSharingComposeViewController._imageView
+_OBJC_IVAR_$_NSSharingComposeViewController._mainItemIndex
+_OBJC_IVAR_$_NSSharingComposeViewController._showsCompletionPopUpInMessage
+_OBJC_IVAR_$_NSSharingComposeViewController._cancelButton
+_OBJC_IVAR_$_NSSharingComposeViewController._service
+_OBJC_IVAR_$_NSSharingComposeViewController._minWindowHeight
+_OBJC_IVAR_$_NSSharingComposeViewController._baseWindowHeight
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._backgroundFillColor
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._textureStyle
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._partsSeparatorTopView
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._partsSeparatorBottomView
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._messageTextView
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._charactersCountTextField
+_OBJC_IVAR_$_SHKShareWindowBackgroundView._hasLinesOfNonDefaultHeight
+_OBJC_IVAR_$_SHKServiceCompletionInfo._success
+_OBJC_IVAR_$_SHKServiceCompletionInfo._error
+_OBJC_IVAR_$_SHKServiceCompletionInfo._items
+_OBJC_IVAR_$_SHKServiceCompletionInfo._completionHandler
+_OBJC_IVAR_$_SHKServiceCompletionInfo._viewServiceHasAnimated
+_OBJC_IVAR_$_NSSharingUIExtensionContext._viewController
+_OBJC_IVAR_$_NSSharingUIExtensionContext._completionInfo
+_OBJC_IVAR_$_NSSharingUIExtensionContext._viewService
+_OBJC_IVAR_$_SHKProgressController._currentProgressItems
+_OBJC_IVAR_$_SHKProgressController._windowController
+_OBJC_IVAR_$_SHKRemoteView._remoteWindowController
+_OBJC_IVAR_$_SHKRemoteView._uuidString
+_OBJC_IVAR_$_SHKRemoteView._parentWindow
+_OBJC_IVAR_$_SHKRemoteView._sourceWindowFrame
+_OBJC_IVAR_$_SHKRemoteView._sourceWindowScreenVisibleFrame
+_OBJC_IVAR_$_SHKRemoteView._sourceWindowContentRect
+_OBJC_IVAR_$_SHKRemoteView._preferredContentSize
+_OBJC_IVAR_$_SHKRemoteView._shouldDimSourceWindow
+_OBJC_IVAR_$_SHKRemoteView._isInNotificationCenter
+_OBJC_IVAR_$_SHKProgressWindowController._wasManuallyResized
+_OBJC_IVAR_$_SHKProgressWindowController._tableView
+_OBJC_IVAR_$_SHKProgressWindowController._previousItemCount
+_OBJC_IVAR_$_SHKProgressWindowController._progressController
+_OBJC_IVAR_$_SHKProgressItemView._awake
+_OBJC_IVAR_$_SHKProgressItemView.progressIndicator
+_OBJC_IVAR_$_SHKProgressItemView.subtitleField
+_OBJC_IVAR_$_SHKProgressItemView.titleField
+_OBJC_IVAR_$_SHKProgressItemView.revealButton
+_OBJC_IVAR_$_SHKProgressItemView.cancelButton
+_OBJC_IVAR_$_SHKBackgroundView._delegate
+_OBJC_IVAR_$_SHKRemoteWindowController._remoteView
+_OBJC_IVAR_$_SHKRemoteWindowController._service
+_OBJC_IVAR_$_SHKRemoteWindowController._clientWindow
+_OBJC_IVAR_$_SHKRemoteWindowController._dimFrame
+_OBJC_IVAR_$_SHKRemoteWindowController._dimAndShadowWindow
+_OBJC_IVAR_$_SHKRemoteWindowController._blurWindow
+_OBJC_IVAR_$_SHKRemoteWindowController._disableServiceWindowPresentation
+_OBJC_IVAR_$_SHKRemoteWindowController._isInNotificationCenter
+_OBJC_IVAR_$_SHKRemoteWindowController._noSourceWindow
+_OBJC_IVAR_$_SHKDimAndShadowWindow._remoteWindow
+_OBJC_IVAR_$_SHKDimAndShadowWindow._sourceWindow
+_OBJC_IVAR_$_SHKBlurWindow.animatesTransitions
+_OBJC_IVAR_$_SHKBlurWindow._serviceMask
+_OBJC_IVAR_$_SHKCompletionPopUpController._tentativeRange
+_OBJC_IVAR_$_SHKCompletionPopUpController._textView
+_OBJC_IVAR_$_SHKCompletionPopUpController._completionTableView
+_OBJC_IVAR_$_SHKCompletionPopUpController._window
+_OBJC_IVAR_$_SHKCompletionPopUpController._completions
+_OBJC_IVAR_$_SHKCompletionPopUpController._delegate
+_OBJC_IVAR_$_SHKCompletionPopUpController._tentativeCompletion
+_OBJC_IVAR_$_NSSharingServiceDescription._identifier
+_OBJC_IVAR_$_NSSharingServiceDescription._title
+_OBJC_IVAR_$_NSSharingServiceDescription._image
+_OBJC_IVAR_$_NSSharingServiceDescription._plugInIdentifier
+_OBJC_IVAR_$_NSSharingServiceDescription._plugInURL
+_OBJC_IVAR_$_NSSharingServiceDescription._parameters
+_OBJC_IVAR_$_NSSharingServiceDescription._order
+_OBJC_IVAR_$_NSSharingServiceDescription._shouldDimSourceWindow
+_OBJC_IVAR_$_NSSharingServiceDescription._viewBased
+_OBJC_IVAR_$_NSSharingServiceDescription._mask
+_OBJC_IVAR_$_NSSharingServiceDescription._enabled
+_OBJC_IVAR_$_NSSharingServiceDescription._serviceDictionary
+_OBJC_IVAR_$_SHKShareLocationController.locationsPopupButton
+_OBJC_IVAR_$_SHKShareLocationController.locationButton
+_OBJC_IVAR_$_SHKShareLocationController._delegate
+_OBJC_IVAR_$_SHKShareLocationController._buttonTrackingArea
+_OBJC_IVAR_$_SHKShareLocationController._status
+_OBJC_IVAR_$_SHKShareLocationController._locations
+_OBJC_IVAR_$_SHKShareLocationController._currentLocationIndex
+_OBJC_IVAR_$_SHKShareLocationController._updateLocationsBlock
++[NSSharingAccountDelegate accountStore].sAccountsStore
++[NSSharingAccountDelegate accountStore].onceToken
+-[NSSharingPlugInComposeViewService accountStore].sAccountsStore
+-[NSSharingPlugInComposeViewService accountStore].onceToken
+-[NSSharingPlugInComposeViewService asyncFetchImageAtURL:forCompletionItem:].imageCache
++[NSSharingExtensionContext _extensionAuxiliaryHostProtocol].onceToken
++[NSSharingExtensionContext _extensionAuxiliaryHostProtocol].__interface
++[NSSharingExtensionContext _extensionAuxiliaryVendorProtocol].onceToken
++[NSSharingExtensionContext _extensionAuxiliaryVendorProtocol].__interface
++[NSSharingExtensionContext load].onceToken
++[NSSharingAddressBookNameExtractor nameExtensions].nameExtensions
++[NSSharingAddressBookNameExtractor nameExtensionsThatDoNotNeedCommas].nameExtensionsThatDoNotNeedCommas
++[NSSharingAddressBookNameExtractor partialSurnames].partialSurnames
++[NSSharingAddressBookNameExtractor formattedAddressWithName:email:useQuotes:].requiresQuotes
+-[NSSharingAddressBookNameExtractor componentsSeparatedByCommaRespectingQuotesAndParens].addressCharacterSet
+-[NSSharingAddressBookNameExtractor _matchingPersonsBestMatchOnly:].onceToken
++[SHKHostExtensionContext _extensionAuxiliaryHostProtocol].onceToken
++[SHKHostExtensionContext _extensionAuxiliaryHostProtocol].__interface
++[SHKHostExtensionContext _extensionAuxiliaryVendorProtocol].onceToken
++[SHKHostExtensionContext _extensionAuxiliaryVendorProtocol].__interface
++[SHKSharingService registerBundlePlugIns].registeredBundlePlugins
++[SHKSharingService descriptionForSharingServiceDict:bundle:itemAttributes:].iconCache
++[SHKSharingService descriptionForSharingServiceDict:bundle:itemAttributes:].onceToken
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:].onceToken
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:].sChineseServiceIndentifiers
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:].sNotAvailableInChinaServiceIndentifiers
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:].sCurrentRegionAllowsChineseServices
++[SHKSharingService shouldAutoEnableServiceWithIdentifier:].sCurrentRegionAllowsNonChineseServices
++[SHKSharingService reorderdListOfExtensions:getLegacyPlugInDict:].legacyServicesIdentifiers
++[SHKSharingService reorderdListOfExtensions:getLegacyPlugInDict:].onceToken
++[SHKSharingService addServicesFromPlugIns:compatibleWithUserDict:toServices:].s_cachedBundlesByURLs
++[SHKSharingService sharingServicesWithIdentifier:attributes:itemTypes:matchingDictionary:itemAttributes:].sLastDiscoveryTime
++[SHKSharingService sharingServicesWithIdentifier:attributes:itemTypes:matchingDictionary:itemAttributes:].plugInCache
++[SHKSharingService sharingServicesWithIdentifier:attributes:itemTypes:matchingDictionary:itemAttributes:].onceToken
++[SHKSharingService _newServicesCountForExtensions:consumeCount:cacheInvalidated:].newServicesCount
+_potentiallyRegisteredServices
+-[SHKSharingService registerPotentially].onceToken
+_registeredServices
+-[SHKSharingService registerWithItems:].onceToken
++[SHKSharingService isShareKitPlugInService].isShareKitPlugInService
++[SHKSharingService isShareKitPlugInService].onceToken
+-[SHKSharingService executeHandler:onTimeoutInSeconds:].utilityConcurrentQueue
+-[SHKSharingService executeHandler:onTimeoutInSeconds:].onceToken
+-[SHKSharingServicePicker emptyMenuImage].emptyIcon
+-[SHKSharingServicePicker emptyMenuImage].onceToken
+-[SHKSharingServicePicker moreButtonImage].moreButtonImage
+-[SHKSharingServicePicker moreButtonImage].onceToken
+-[SHKSharingServicePicker _titleAttributes].attributes
+-[SHKSharingServicePicker _titleAttributes].onceToken
+-[SHKSharingServicePicker _subtitleAttributes].attributes
+-[SHKSharingServicePicker _subtitleAttributes].onceToken
+-[SHKSharingServicePicker _delimiterAttributes].attributes
+-[SHKSharingServicePicker _delimiterAttributes].onceToken
+_isClosingAShareWindow
+-[SHKShareWindowBackgroundView drawBevelInRect:].bevelImage
+-[SHKShareNCPopUpButtonCell _indicatorImage].buttonImageForPopupArrows
++[SHK_CAAnimationDelegate sharedDelegate].sharedDelegate
++[SHK_CAAnimationDelegate sharedDelegate].onceToken
+_progressController
+_progressControllerForDebug
++[NSSharingPlugInHelper temporaryImageFileName].sPreviousString
++[NSSharingPlugInHelper temporaryImageFileName].sImageNameSalt
++[NSSharingPlugInHelper imageNamed:].sServiceImageDictionary
+-[SHKCompletionPopUpController tableView:willDisplayCell:forTableColumn:row:].itemFont
+-[SHKCompletionPopUpController tableView:willDisplayCell:forTableColumn:row:].itemColor
+-[SHKCompletionTextFieldCell drawInteriorWithFrame:inView:].paragraphStyle
+-[NSSharingServiceDescription imageFromCoder:].sImageDictionary
+-[SHKShareLocationController imageForLocationButtonState:].SHK_locationPdfImageRep
+_NSSharingPlugInServiceOptionAppIDKey
+_NSSharingPlugInServiceOptionAppIsBackgroundOnlyKey
+_NSSharingPlugInServiceOptionAuditSessionKey
+_NSSharingPlugInServiceOptionBuildDateKey
+_NSSharingPlugInServiceOptionLastErrorUserInfoWasNil
+_NSSharingPlugInServiceOptionLastErrorWasNil
+_NSSharingPlugInServiceOptionOutputItemsWereNil
+_NSSharingPlugInServiceOptionParametersData
+_NSSharingPlugInServiceOptionParametersKey
+_NSSharingPlugInServiceOptionServiceDictionaryKey
+_NSSharingPlugInServiceOptionSharingContentScopeKey
+_NSSharingPlugInServiceOptionSharingStatus
+_NSSharingPlugInServiceOptionSourceWindowFrameKey
+_NSSharingPlugInServiceOptionSourceWindowFullscreenKey
+_NSSharingPlugInServiceOptionUIDKey
+_OBJC_CLASS_$_NSSharingAccountConfigurationViewController
+_OBJC_CLASS_$_NSSharingAccountDelegate
+_OBJC_CLASS_$_NSSharingAddressBookNameExtractor
+_OBJC_CLASS_$_NSSharingAudience
+_OBJC_CLASS_$_NSSharingComposeViewController
+_OBJC_CLASS_$_NSSharingContainerViewController
+_OBJC_CLASS_$_NSSharingExtensionContext
+_OBJC_CLASS_$_NSSharingItem
+_OBJC_CLASS_$_NSSharingMachPortWrapper
+_OBJC_CLASS_$_NSSharingNoUIExtensionProvider
+_OBJC_CLASS_$_NSSharingPlugInComposeViewService
+_OBJC_CLASS_$_NSSharingPlugInHelper
+_OBJC_CLASS_$_NSSharingServiceDescription
+_OBJC_CLASS_$_NSSharingUIExtensionContext
+_OBJC_CLASS_$_SHKAutoLayoutConstraintPair
+_OBJC_CLASS_$_SHKBackgroundView
+_OBJC_CLASS_$_SHKBlockQueue
+_OBJC_CLASS_$_SHKBlockUUIDTuple
+_OBJC_CLASS_$_SHKBlurWindow
+_OBJC_CLASS_$_SHKBorderlessEffectWindow
+_OBJC_CLASS_$_SHKButtonContainerView
+_OBJC_CLASS_$_SHKCompletionBackgroundView
+_OBJC_CLASS_$_SHKCompletionItem
+_OBJC_CLASS_$_SHKCompletionPopUpController
+_OBJC_CLASS_$_SHKCompletionPopUpWindow
+_OBJC_CLASS_$_SHKCompletionScrollView
+_OBJC_CLASS_$_SHKCompletionTableView
+_OBJC_CLASS_$_SHKCompletionTextFieldCell
+_OBJC_CLASS_$_SHKDimAndShadowWindow
+_OBJC_CLASS_$_SHKDimAndShadowWindowContentView
+_OBJC_CLASS_$_SHKDraggableContainerView
+_OBJC_CLASS_$_SHKDurationFormatter
+_OBJC_CLASS_$_SHKHostExtensionContext
+_OBJC_CLASS_$_SHKImageCellNoAccessibility
+_OBJC_CLASS_$_SHKImageViewNoAccessibility
+_OBJC_CLASS_$_SHKLocationPinButtonCell
+_OBJC_CLASS_$_SHKMarkupAnimationMaskedItemImageView
+_OBJC_CLASS_$_SHKMessageTracer
+_OBJC_CLASS_$_SHKNCShareButtonCell
+_OBJC_CLASS_$_SHKNCShareTextView
+_OBJC_CLASS_$_SHKPlugInObservingCache
+_OBJC_CLASS_$_SHKProgressContentView
+_OBJC_CLASS_$_SHKProgressController
+_OBJC_CLASS_$_SHKProgressIndicator
+_OBJC_CLASS_$_SHKProgressItemView
+_OBJC_CLASS_$_SHKProgressStatusTextFieldCell
+_OBJC_CLASS_$_SHKProgressTableView
+_OBJC_CLASS_$_SHKProgressWindow
+_OBJC_CLASS_$_SHKProgressWindowController
+_OBJC_CLASS_$_SHKRecentServiceManager
+_OBJC_CLASS_$_SHKRemoteView
+_OBJC_CLASS_$_SHKRemoteViewContainerWindow
+_OBJC_CLASS_$_SHKRemoteWindowController
+_OBJC_CLASS_$_SHKSandbox
+_OBJC_CLASS_$_SHKServiceCompletionInfo
+_OBJC_CLASS_$_SHKShareBox
+_OBJC_CLASS_$_SHKShareCounterFieldCell
+_OBJC_CLASS_$_SHKShareImageView
+_OBJC_CLASS_$_SHKShareLocationController
+_OBJC_CLASS_$_SHKShareLocationPopUpButtonCell
+_OBJC_CLASS_$_SHKShareNCBackgroundView
+_OBJC_CLASS_$_SHKShareNCPopUpButtonCell
+_OBJC_CLASS_$_SHKSharePopUpButtonCell
+_OBJC_CLASS_$_SHKShareSmallTextFieldCell
+_OBJC_CLASS_$_SHKShareTextView
+_OBJC_CLASS_$_SHKShareTitleFieldCell
+_OBJC_CLASS_$_SHKShareWindow
+_OBJC_CLASS_$_SHKShareWindowBackgroundView
+_OBJC_CLASS_$_SHKSharingService
+_OBJC_CLASS_$_SHKSharingServicePicker
+_OBJC_CLASS_$_SHKSharingViewService
+_OBJC_CLASS_$_SHKTokenField
+_OBJC_CLASS_$_SHKTransparentWindow
+_OBJC_CLASS_$_SHK_CAAnimationDelegate
+_OBJC_IVAR_$_NSSharingAddressBookNameExtractor._storageString
+_OBJC_IVAR_$_NSSharingComposeViewController._NCconstraintForAccountsPopUpWidth
+_OBJC_IVAR_$_NSSharingComposeViewController._NCconstraintForAudiencePopUpWidth
+_OBJC_IVAR_$_NSSharingComposeViewController._NCconstraintForTextViewLeadingSpace
+_OBJC_IVAR_$_NSSharingComposeViewController._constraintForAccountsPopUpWidth
+_OBJC_IVAR_$_NSSharingComposeViewController._constraintForAudiencePopUpWidth
+_OBJC_IVAR_$_NSSharingComposeViewController._constraintForImagePreviewWidth
+_OBJC_IVAR_$_SHKBlurWindow.blurLayer
+_OBJC_IVAR_$_SHKBorderlessEffectWindow.noSourceWindow
+_OBJC_IVAR_$_SHKCompletionItem._image
+_OBJC_IVAR_$_SHKCompletionItem._range
+_OBJC_IVAR_$_SHKCompletionItem._subtitle
+_OBJC_IVAR_$_SHKCompletionItem._title
+_OBJC_IVAR_$_SHKCompletionItem._value
+_OBJC_IVAR_$_SHKCompletionTableView._lastMousePositionWasOverList
+_OBJC_IVAR_$_SHKCompletionTextFieldCell._afterMargin
+_OBJC_IVAR_$_SHKCompletionTextFieldCell._beforeMargin
+_OBJC_IVAR_$_SHKCompletionTextFieldCell._completion
+_OBJC_IVAR_$_SHKDimAndShadowWindow.animatesTransitions
+_OBJC_IVAR_$_SHKDimAndShadowWindow.dimLayer
+_OBJC_IVAR_$_SHKDimAndShadowWindow.shadowCenterKnockoutLayer
+_OBJC_IVAR_$_SHKDimAndShadowWindow.shadowLayer
+_OBJC_IVAR_$_SHKLocationPinButtonCell._needsToDisplaySpaceForRTL
+_OBJC_IVAR_$_SHKPlugInObservingCache._dictionary
+_OBJC_IVAR_$_SHKShareWindow._isClosing
+_OBJC_METACLASS_$_NSSharingAccountConfigurationViewController
+_OBJC_METACLASS_$_NSSharingAccountDelegate
+_OBJC_METACLASS_$_NSSharingAddressBookNameExtractor
+_OBJC_METACLASS_$_NSSharingAudience
+_OBJC_METACLASS_$_NSSharingComposeViewController
+_OBJC_METACLASS_$_NSSharingContainerViewController
+_OBJC_METACLASS_$_NSSharingExtensionContext
+_OBJC_METACLASS_$_NSSharingItem
+_OBJC_METACLASS_$_NSSharingMachPortWrapper
+_OBJC_METACLASS_$_NSSharingNoUIExtensionProvider
+_OBJC_METACLASS_$_NSSharingPlugInComposeViewService
+_OBJC_METACLASS_$_NSSharingPlugInHelper
+_OBJC_METACLASS_$_NSSharingServiceDescription
+_OBJC_METACLASS_$_NSSharingUIExtensionContext
+_OBJC_METACLASS_$_SHKAutoLayoutConstraintPair
+_OBJC_METACLASS_$_SHKBackgroundView
+_OBJC_METACLASS_$_SHKBlockQueue
+_OBJC_METACLASS_$_SHKBlockUUIDTuple
+_OBJC_METACLASS_$_SHKBlurWindow
+_OBJC_METACLASS_$_SHKBorderlessEffectWindow
+_OBJC_METACLASS_$_SHKButtonContainerView
+_OBJC_METACLASS_$_SHKCompletionBackgroundView
+_OBJC_METACLASS_$_SHKCompletionItem
+_OBJC_METACLASS_$_SHKCompletionPopUpController
+_OBJC_METACLASS_$_SHKCompletionPopUpWindow
+_OBJC_METACLASS_$_SHKCompletionScrollView
+_OBJC_METACLASS_$_SHKCompletionTableView
+_OBJC_METACLASS_$_SHKCompletionTextFieldCell
+_OBJC_METACLASS_$_SHKDimAndShadowWindow
+_OBJC_METACLASS_$_SHKDimAndShadowWindowContentView
+_OBJC_METACLASS_$_SHKDraggableContainerView
+_OBJC_METACLASS_$_SHKDurationFormatter
+_OBJC_METACLASS_$_SHKHostExtensionContext
+_OBJC_METACLASS_$_SHKImageCellNoAccessibility
+_OBJC_METACLASS_$_SHKImageViewNoAccessibility
+_OBJC_METACLASS_$_SHKLocationPinButtonCell
+_OBJC_METACLASS_$_SHKMarkupAnimationMaskedItemImageView
+_OBJC_METACLASS_$_SHKMessageTracer
+_OBJC_METACLASS_$_SHKNCShareButtonCell
+_OBJC_METACLASS_$_SHKNCShareTextView
+_OBJC_METACLASS_$_SHKPlugInObservingCache
+_OBJC_METACLASS_$_SHKProgressContentView
+_OBJC_METACLASS_$_SHKProgressController
+_OBJC_METACLASS_$_SHKProgressIndicator
+_OBJC_METACLASS_$_SHKProgressItemView
+_OBJC_METACLASS_$_SHKProgressStatusTextFieldCell
+_OBJC_METACLASS_$_SHKProgressTableView
+_OBJC_METACLASS_$_SHKProgressWindow
+_OBJC_METACLASS_$_SHKProgressWindowController
+_OBJC_METACLASS_$_SHKRecentServiceManager
+_OBJC_METACLASS_$_SHKRemoteView
+_OBJC_METACLASS_$_SHKRemoteViewContainerWindow
+_OBJC_METACLASS_$_SHKRemoteWindowController
+_OBJC_METACLASS_$_SHKSandbox
+_OBJC_METACLASS_$_SHKServiceCompletionInfo
+_OBJC_METACLASS_$_SHKShareBox
+_OBJC_METACLASS_$_SHKShareCounterFieldCell
+_OBJC_METACLASS_$_SHKShareImageView
+_OBJC_METACLASS_$_SHKShareLocationController
+_OBJC_METACLASS_$_SHKShareLocationPopUpButtonCell
+_OBJC_METACLASS_$_SHKShareNCBackgroundView
+_OBJC_METACLASS_$_SHKShareNCPopUpButtonCell
+_OBJC_METACLASS_$_SHKSharePopUpButtonCell
+_OBJC_METACLASS_$_SHKShareSmallTextFieldCell
+_OBJC_METACLASS_$_SHKShareTextView
+_OBJC_METACLASS_$_SHKShareTitleFieldCell
+_OBJC_METACLASS_$_SHKShareWindow
+_OBJC_METACLASS_$_SHKShareWindowBackgroundView
+_OBJC_METACLASS_$_SHKSharingService
+_OBJC_METACLASS_$_SHKSharingServicePicker
+_OBJC_METACLASS_$_SHKSharingViewService
+_OBJC_METACLASS_$_SHKTokenField
+_OBJC_METACLASS_$_SHKTransparentWindow
+_OBJC_METACLASS_$_SHK_CAAnimationDelegate
+_SHKExtractInformationFromText
+_SHK_NSSharingAccountConfigurationViewControllerClass
+_SHK_NSSharingViewControllerClass
+_SHK_anyAncestorWindowIsFullscreen
+_SHK_convertSharingItemsToExtensionItem
+_SHK_defaultMailApplicationBundle
+_SHK_defaultMailApplicationBundleIdentifier
+_SHK_defaultMailApplicationIsMailApp
+_SHK_defaultMailApplicationSupportsSpecialAppleEvent
+_SHK_defaultMailApplicationSupportsWebPageMailing
+_SHK_defaultMailApplicationURL
+_SHK_extractParametersFromAttributes
+_SHK_internetRegionIsChina
+_SHK_kAnimationInfo
+_SHK_kImageURL
+_SHK_kIsInNotificationCenter
+_SHK_kServiceName
+_SHK_kServiceSubclassName
+_SHK_kShareImage
+_SHK_kShareImageContentRect
+_SHK_kSourceImage
+_SHK_kSourceImageContentRect
+_SHK_locationInClientWindow
+_SHK_matchingDictionaryForSHKSharingItems
+_SHK_messagesAppIcon
+_SHK_mouseDownEventCaught
+_SHK_sharingCancelledError
+_computeThumbnail
+_AECreateDesc
+_CACurrentMediaTime
+_CATransform3DConcat
+_CATransform3DIdentity
+_CATransform3DMakeScale
+_CATransform3DMakeTranslation
+_CFAbsoluteTimeGetCurrent
+_CFAutorelease
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFGetTypeID
+_CFNotificationCenterGetDistributedCenter
+_CFNotificationCenterPostNotification
+_CFPreferencesCopyValue
+_CFPreferencesSetValue
+_CFPreferencesSynchronize
+_CFPropertyListCreateData
+_CFRelease
+_CFRunLoopGetCurrent
+_CFRunLoopGetMain
+_CFRunLoopRunInMode
+_CFStringCreateWithBytes
+_CFStringGetCStringPtr
+_CFStringGetCharacters
+_CFStringGetCharactersPtr
+_CFStringGetTypeID
+_CGAffineTransformIdentity
+_CGAffineTransformMakeTranslation
+_CGAffineTransformScale
+_CGAffineTransformTranslate
+_CGBitmapContextCreate
+_CGBitmapContextCreateImage
+_CGColorSpaceCreateDeviceRGB
+_CGColorSpaceRelease
+_CGContextBeginTransparencyLayer
+_CGContextBeginTransparencyLayerWithRect
+_CGContextClipToMask
+_CGContextDrawImage
+_CGContextEndTransparencyLayer
+_CGContextFillRect
+_CGContextRelease
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextSetBlendMode
+_CGContextSetRGBFillColor
+_CGImageGetHeight
+_CGImageGetWidth
+_CGImageRelease
+_CGPointZero
+_CGRectZero
+_CGSWindowSetBackdropBackgroundBleed
+_CGWindowLevelForKey
+_CLLocationCoordinate2DIsValid
+_HIShapeGetBounds
+_HIThemeDrawMenuBackground
+_HIThemeDrawMenuItem
+_HIThemeGetMenuBackgroundShape
+_LSOpenFromURLSpec
+_MDItemCopyAttribute
+_MDItemCopyAttributes
+_MDItemCreateWithURL
+_NSAccessibilityDescriptionAttribute
+_NSAccessibilityMenuButtonRole
+_NSAccessibilitySystemDialogSubrole
+_NSApp
+_NSAppearanceNameVibrantLight
+_NSAttachmentAttributeName
+_NSBeep
+_NSCalibratedRGBColorSpace
+_NSClassFromString
+_NSCocoaErrorDomain
+_NSContainsRect
+_NSDisableScreenUpdates
+_NSDivideRect
+_NSDrawNinePartImage
+_NSEnableScreenUpdates
+_NSEqualPoints
+_NSEqualRects
+_NSEqualSizes
+_NSExtensionErrorDomain
+_NSExtensionItemAttributedContentTextKey
+_NSFontAttributeName
+_NSForegroundColorAttributeName
+_NSFrameRectWithWidthUsingOperation
+_NSImageCompressionFactor
+_NSImageEXIFData
+_NSImageNameMultipleDocuments
+_NSImageNameStopProgressFreestandingTemplate
+_NSImageNameUser
+_NSInsetRect
+_NSIntegralRect
+_NSIntegralRectWithOptions
+_NSIntersectionRect
+_NSIntersectsRect
+_NSIsEmptyRect
+_NSItemProviderOptionsDispatchModeAsynchronous
+_NSItemProviderOptionsDispatchModeKey
+_NSKeyValueChangeNewKey
+_NSKeyValueChangeOldKey
+_NSLinkAttributeName
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSLocalizedRecoverySuggestionErrorKey
+_NSLog
+_NSParagraphStyleAttributeName
+_NSPointInRect
+_NSProgressFileIconKey
+_NSRectFill
+_NSRectFillUsingOperation
+_NSRectFromString
+_NSShadowAttributeName
+_NSSharingServiceNameAddToAperture
+_NSSharingServiceNameAddToIPhoto
+_NSSharingServiceNameComposeEmail
+_NSSharingServiceNamePostImageOnFlickr
+_NSSharingServiceNamePostOnFacebook
+_NSSharingServiceNamePostOnLinkedIn
+_NSSharingServiceNamePostOnSinaWeibo
+_NSSharingServiceNamePostOnTencentWeibo
+_NSSharingServiceNamePostOnTwitter
+_NSSharingServiceNamePostVideoOnFacebook
+_NSSharingServiceNamePostVideoOnTudou
+_NSSharingServiceNamePostVideoOnVimeo
+_NSSharingServiceNamePostVideoOnYouku
+_NSSharingServiceNameSendViaAirDrop
+_NSSharingServiceNameUseAsFacebookProfileImage
+_NSSharingServiceNameUseAsLinkedInProfileImage
+_NSSharingServiceNameUseAsTwitterProfileImage
+_NSSharingServiceParametersAccountNameKey
+_NSSharingServiceParametersDefaultRecipientsKey
+_NSSharingServiceParametersDefaultSubjectKey
+_NSSharingServiceParametersMenuItemCustomTitleKey
+_NSSharingServiceParametersMenuItemIsAlternateKey
+_NSSharingServiceParametersMenuItemKeyEquivalentKey
+_NSSharingServiceParametersMenuItemKeyEquivalentModifierMaskKey
+_NSSharingServiceParametersRecipientsKey
+_NSSizeFromString
+_NSStringFromClass
+_NSStringFromRect
+_NSStringFromSelector
+_NSStringFromSize
+_NSTemporaryDirectory
+_NSURLTypeIdentifierKey
+_NSUnionRect
+_NSViewBoundsDidChangeNotification
+_NSWindowDidBecomeKeyNotification
+_NSWindowWillEnterFullScreenNotification
+_NSWindowWillEnterVersionBrowserNotification
+_NSWindowWillExitFullScreenNotification
+_NSZeroPoint
+_NSZeroRect
+_NSZeroSize
+_NSZoneFree
+_NSZoneMalloc
+_OBJC_CLASS_$_ABAddressBook
+_OBJC_CLASS_$_ABPerson
+_OBJC_CLASS_$_ABSearchElement
+_OBJC_CLASS_$_CAAnimation
+_OBJC_CLASS_$_CAAnimationGroup
+_OBJC_CLASS_$_CABasicAnimation
+_OBJC_CLASS_$_CAKeyframeAnimation
+_OBJC_CLASS_$_CALayer
+_OBJC_CLASS_$_CAMediaTimingFunction
+_OBJC_CLASS_$_CAProxyLayer
+_OBJC_CLASS_$_CATransaction
+_OBJC_CLASS_$_CLGeocoder
+_OBJC_CLASS_$_CLLocationManager
+_OBJC_CLASS_$_LSApplicationWorkspace
+_OBJC_CLASS_$_NSAffineTransform
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSAnimationContext
+_OBJC_CLASS_$_NSAppearance
+_OBJC_CLASS_$_NSAppleEventDescriptor
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSBezierPath
+_OBJC_CLASS_$_NSBitmapImageRep
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSBox
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSButtonCell
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSExtension
+_OBJC_CLASS_$_NSExtensionContext
+_OBJC_CLASS_$_NSExtensionItem
+_OBJC_CLASS_$_NSFileCoordinator
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSFont
+_OBJC_CLASS_$_NSFormatter
+_OBJC_CLASS_$_NSGradient
+_OBJC_CLASS_$_NSGraphicsContext
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSImageCell
+_OBJC_CLASS_$_NSImageView
+_OBJC_CLASS_$_NSIndexSet
+_OBJC_CLASS_$_NSItemProvider
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLayerCentricRemoteView
+_OBJC_CLASS_$_NSLayoutConstraint
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMenu
+_OBJC_CLASS_$_NSMenuItem
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableAttributedString
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableParagraphStyle
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSOrderedSet
+_OBJC_CLASS_$_NSPDFImageRep
+_OBJC_CLASS_$_NSPanel
+_OBJC_CLASS_$_NSPasteboard
+_OBJC_CLASS_$_NSPopUpButtonCell
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSProgress
+_OBJC_CLASS_$_NSProgressIndicator
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSScreen
+_OBJC_CLASS_$_NSScrollView
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSSharingService
+_OBJC_CLASS_$_NSSharingServicePicker
+_OBJC_CLASS_$_NSSound
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTableCellView
+_OBJC_CLASS_$_NSTableColumn
+_OBJC_CLASS_$_NSTableView
+_OBJC_CLASS_$_NSTextFieldCell
+_OBJC_CLASS_$_NSTextView
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTokenField
+_OBJC_CLASS_$_NSTrackingArea
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSView
+_OBJC_CLASS_$_NSViewController
+_OBJC_CLASS_$_NSViewService
+_OBJC_CLASS_$_NSVisualEffectView
+_OBJC_CLASS_$_NSWindow
+_OBJC_CLASS_$_NSWindowController
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_CLASS_$_NSXPCCoder
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_CLASS_$_PKHost
+_OBJC_CLASS_$_PKManager
+_OBJC_CLASS_$_PKService
+_OBJC_CLASS_$__NSExtensionContextVendor
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSBox
+_OBJC_METACLASS_$_NSButtonCell
+_OBJC_METACLASS_$_NSExtensionContext
+_OBJC_METACLASS_$_NSFormatter
+_OBJC_METACLASS_$_NSImageCell
+_OBJC_METACLASS_$_NSImageView
+_OBJC_METACLASS_$_NSLayerCentricRemoteView
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSPanel
+_OBJC_METACLASS_$_NSPopUpButtonCell
+_OBJC_METACLASS_$_NSProgressIndicator
+_OBJC_METACLASS_$_NSScrollView
+_OBJC_METACLASS_$_NSTableCellView
+_OBJC_METACLASS_$_NSTableView
+_OBJC_METACLASS_$_NSTextFieldCell
+_OBJC_METACLASS_$_NSTextView
+_OBJC_METACLASS_$_NSTokenField
+_OBJC_METACLASS_$_NSView
+_OBJC_METACLASS_$_NSViewController
+_OBJC_METACLASS_$_NSViewService
+_OBJC_METACLASS_$_NSWindow
+_OBJC_METACLASS_$_NSWindowController
+_QLAdaptSizeToRect
+_QLScaleRect
+_QLThumbnailCopyImage
+_QLThumbnailCreate
+_QLThumbnailGetContentRect
+_UTTypeConformsTo
+__Block_object_assign
+__Block_object_dispose
+__CSDeviceSupportsAirDrop
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__ScreenReaderIsRunning
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___maskrune
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_queue_attr_concurrent
+__dispatch_source_type_timer
+__kCFBundleDisplayNameKey
+__kCFBundleIconFileKey
+__objc_empty_cache
+_arc4random
+_audit_session_join
+_ceil
+_class_getSuperclass
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_notify
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_time
+_floor
+_floorf
+_getpid
+_kABEmailProperty
+_kABFirstNameProperty
+_kABLastNameProperty
+_kABOrganizationProperty
+_kABPhoneProperty
+_kCAAnimationCubic
+_kCAFillModeBackwards
+_kCAFillModeBoth
+_kCAFillModeForwards
+_kCAFilterClear
+_kCAFilterLinear
+_kCAMediaTimingFunctionEaseOut
+_kCAProxyLayerActive
+_kCAProxyLayerBlendMode
+_kCAProxyLayerLevel
+_kCAProxyLayerMaterial
+_kCFAllocatorDefault
+_kCFBundleIdentifierKey
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kCFRunLoopDefaultMode
+_kMDItemWhereFroms
+_kQLThumbnailOptionIconModeKey
+_kUTTypeData
+_kUTTypeFileURL
+_kUTTypeImage
+_kUTTypeItem
+_kUTTypeMovie
+_kUTTypePlainText
+_kUTTypeRTF
+_kUTTypeText
+_kUTTypeURL
+_mach_port_deallocate
+_mach_port_mod_refs
+_mach_task_self_
+_msgtracer_log_with_keys
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyStruct
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_moveWeak
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSendSuper2_stret
+_objc_msgSend_stret
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_powf
+_round
+_sandbox_check
+_srandom
+_strlen
+_time
+_xpc_mach_send_copy_right
+_xpc_mach_send_create
+dyld_stub_binder

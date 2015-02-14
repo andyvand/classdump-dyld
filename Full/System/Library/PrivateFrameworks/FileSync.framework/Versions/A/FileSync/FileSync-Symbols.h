@@ -1,0 +1,465 @@
+__InitNotifyPort
+__SFServerMessagePortInvalidationCallBack
+__startedCallback
+__InitCallbackPort
+__StatusMessagePortCallback
+__Package2CFTypes
+__SFMirrorPairDeregisterStatusCallbackProper
+__agentIsRunning
++[SFBase accessInstanceVariablesDirectly]
++[SFBase classForRefString:]
+-[SFBase sendAsynchronousIPCPropertyList:]
+-[SFBase sendSynchronousIPCPropertyList:]
+-[SFBase setValue:forUndefinedKey:]
+-[SFBase valueForUndefinedKey:]
+-[SFBase description]
+-[SFBase priv]
+-[SFBase setPriv:]
++[SFFileSyncManager accessInstanceVariablesDirectly]
++[SFFileSyncManager initialize]
++[SFFileSyncManager deregisterUIApp]
++[SFFileSyncManager registerUIAppCallbackTarget:selector:]
+__uiUpdateCallback
++[SFFileSyncManager sharedFileSyncManager]
+__syncSetListChanged
+-[SFFileSyncManager agentIsRunning]
+-[SFFileSyncManager createPHDSyncSetWithName:remoteXMLSpec:mountSuffixPath:]
+-[SFFileSyncManager createPHDSyncSetWithName:localHomePath:remoteXMLSpec:mountSuffixPath:]
+-[SFFileSyncManager createSyncSetWithName:]
+-[SFFileSyncManager findSyncSetByName:]
+-[SFFileSyncManager findSyncSetByRef:]
+-[SFFileSyncManager printStateTreeAtPath:verbosity:toPath:]
+-[SFFileSyncManager phdSyncSet]
+-[SFFileSyncManager syncSetsList]
+-[SFFileSyncManager willNotPerformLogoutSync]
+-[SFFileSyncManager willNotPerformLoginSync]
+-[SFFileSyncManager willNotPerformPHDLoginSyncForSyncSetNamed:]
+-[SFFileSyncManager willNotPerformPHDLogoutSyncForSyncSetNamed:]
+-[SFFileSyncManager willPerformLoginSync]
+-[SFFileSyncManager willPerformLoginSync:]
+-[SFFileSyncManager willPerformPHDLoginSyncForSyncSetNamed:withLocalHomePath:]
+-[SFFileSyncManager willPerformLogoutSync]
+-[SFFileSyncManager willPerformLogoutSync:]
+-[SFFileSyncManager willPerformPHDLogoutSyncForSyncSetNamed:withLocalHomePath:]
++[SFSyncSet accessInstanceVariablesDirectly]
++[SFSyncSet automaticallyNotifiesObserversForKey:]
+-[SFSyncSet init]
+-[SFSyncSet dealloc]
+__statusCallbackProc
+-[SFSyncSet finalize]
+-[SFSyncSet addObserver:forKeyPath:options:context:]
+-[SFSyncSet removeObserver:forKeyPath:]
+-[SFSyncSet automaticSyncInterval]
+-[SFSyncSet completedBytes]
+-[SFSyncSet completedItems]
+-[SFSyncSet currentItemName]
+-[SFSyncSet currentItemPath]
+-[SFSyncSet currentPass]
+-[SFSyncSet info]
+-[SFSyncSet isAutomaticallySyncing]
+-[SFSyncSet hasActiveUI]
+-[SFSyncSet lastSyncResult]
+-[SFSyncSet lastSuccessfulSyncTime]
+-[SFSyncSet name]
+-[SFSyncSet nextSyncTime]
+-[SFSyncSet progress]
+-[SFSyncSet state]
+-[SFSyncSet statusCallbackDelegate]
+-[SFSyncSet statusCallbackSelector]
+-[SFSyncSet syncSetRef]
+-[SFSyncSet totalBytes]
+-[SFSyncSet totalItems]
+-[SFSyncSet totalPasses]
+-[SFSyncSet unresolvedConflictCount]
+-[SFSyncSet unresolvedErrorCount]
+-[SFSyncSet setAllPeers:]
+-[SFSyncSet setInfo:]
+-[SFSyncSet setStatusCallbackDelegate:]
+-[SFSyncSet setStatusCallbackSelector:]
+-[SFSyncSet registerForCallbacks]
+-[SFSyncSet statusCallback:]
+-[SFSyncSet _setInfoPrivate:forwardToFSA:]
++[SFPeer accessInstanceVariablesDirectly]
+-[SFPeer peerRef]
+-[SFSyncSetPrivates dealloc]
+-[SFSyncSetPrivates delegate]
+-[SFSyncSetPrivates setDelegate:]
+-[SFSyncSetPrivates observerCount]
+-[SFSyncSetPrivates setObserverCount:]
+-[SFSyncSetPrivates registered]
+-[SFSyncSetPrivates setRegistered:]
+-[SFSyncSetPrivates selector]
+-[SFSyncSetPrivates setSelector:]
+__ipc_dbprintf
+__dbprintf
+__doThrow
+__last_path_comp
+__nserror
+_ipc_dbtimestamp
+_IsUnsupportedType
+_MethodDescriptionForSelector
+_NSNumberForScalar
++[IPCProxyObject initialize]
++[IPCProxyObject classForRef:]
++[IPCProxyObject classForRefString:]
++[IPCProxyObject convertCollectionElements:convertStrings:]
++[IPCProxyObject isConvertableCollection:]
++[IPCProxyObject newWithRef:]
++[IPCProxyObject newWithRefString:]
++[IPCProxyObject receivedRemoteIPCPropertyList:]
++[IPCProxyObject registerSubclass:]
+-[IPCProxyObject dealloc]
+-[IPCProxyObject forwardInvocation:]
+-[IPCProxyObject methodSignatureForSelector:]
+-[IPCProxyObject ipcRef]
+-[IPCProxyObject respondsToSelector:]
++[IPCProxyObject objectForRefString:]
+-[IPCProxyObject sendAsynchronousIPCPropertyList:]
+-[IPCProxyObject sendSynchronousIPCPropertyList:]
+-[IPCProxyObject setIpcRef:]
++[IPCReturnedException returnedExceptionWithException:]
++[IPCObjectRef initialize]
++[IPCObjectRef newDefaultRefForObject:]
++[IPCObjectRef refFromString:]
+-[IPCObjectRef dealloc]
+-[IPCObjectRef initWithCoder:]
+-[IPCObjectRef encodeWithCoder:]
+-[IPCObjectRef refAsString]
+-[IPCObjectRef description]
++[NSError(FileSyncAdditions) errorMessageFromCFRunLoopRunError:]
++[NSError(FileSyncAdditions) errorMessageFromCocoaError:]
++[NSError(FileSyncAdditions) errorMessageFromErrorCode:domain:]
++[NSError(FileSyncAdditions) errorMessageFromOSStatus:]
++[NSError(FileSyncAdditions) errorMessageFromPOSIXError:]
++[NSError(FileSyncAdditions) errorMessageFromUnknownError:]
+-[NSError(FileSyncAdditions) errorMessage]
+-[NSError(FileSyncAdditions) isDiskFullError]
+-[NSError(FileSyncAdditions) isFatalCoreDataError]
+-[NSError(FileSyncAdditions) isFileNotFoundError]
+-[NSError(FileSyncAdditions) isHardError]
+-[NSError(FileSyncAdditions) isIOError]
+-[NSError(FileSyncAdditions) isNSVError]
+-[NSError(FileSyncAdditions) isPermissionsError]
+-[NSError(FileSyncAdditions) isTimeoutError]
+-[NSException(FileSync_Additions) error]
+-[NSException(FileSync_Additions) errorCode]
+-[NSException(FileSync_Additions) errorMessage]
+-[NSException(FileSync_Additions) isAbortException]
+-[NSException(FileSync_Additions) isDiskFullException]
+-[NSException(FileSync_Additions) isFatalCoreDataException]
+-[NSException(FileSync_Additions) isFileNotFoundException]
+-[NSException(FileSync_Additions) isHardException]
+-[NSException(FileSync_Additions) isInternallyGeneratedException]
+-[NSException(FileSync_Additions) isIOException]
+-[NSException(FileSync_Additions) isNSVException]
+-[NSException(FileSync_Additions) isPermissionException]
+-[NSException(FileSync_Additions) isReverificationException]
+-[NSException(FileSync_Additions) isTimeoutException]
+-[NSException(FileSync_Additions) logIfExternalExceptionAtLevel:]
+-[NSException(FileSync_Additions) posixErrorCode]
+_ipc_dbprintcfstring
+_getutf8
+_GetHomeDirectoryPath
+_kScalarTypes
+_kUnsupportedTypes
+GCC_except_table10
+GCC_except_table26
+GCC_except_table44
+GCC_except_table46
+GCC_except_table47
+GCC_except_table54
+GCC_except_table73
+GCC_except_table74
+GCC_except_table75
+GCC_except_table76
+GCC_except_table13
+GCC_except_table26
+_SFProgressCurrentSyncOptionsKey
+_SFDoesNotSupportSymlinksException
+_OBJC_EHTYPE_$_IPCReturnedException
+_OBJC_IVAR_$_SFBase._private
+_OBJC_IVAR_$_SFSyncSet._info
+_OBJC_IVAR_$_SFSyncSetPrivates._delegate
+_OBJC_IVAR_$_SFSyncSetPrivates._observerCount
+_OBJC_IVAR_$_SFSyncSetPrivates._registered
+_OBJC_IVAR_$_SFSyncSetPrivates._selector
+_OBJC_IVAR_$_IPCProxyObject._ipcRef
+_OBJC_IVAR_$_IPCObjectRef._id
+_OBJC_METACLASS_$_SFBase
+_OBJC_CLASS_$_SFBase
+_OBJC_CLASS_$_SFSyncSetPrivates
+_OBJC_METACLASS_$_SFSyncSetPrivates
+_ipc_gDebugLogPrefix
+__ipc_debug_FD
+__ipc_debug_FD2
+__ipc_debug_pid
+_gCRAnnotations
+_gLaunchedViaPHDPlist
+_gServerMessagePortName
+_gServerMessagePortRemote
+_gUIUpdateCallbackProc
+_gAvailabilityCallbackArray
+_gChangeCallbackArray
+_gMountsCompletedCallbackArray
+_sSharedManager
+_sUIUpdateTarget
+_sStatusKeyToObservedKey
+_sInfoLock
+_ipc_gLineIncomplete
+__ipc_debug_progname
+__ipc_debug_LogFilePath
+_sUIUpdateSelector
+_gMessagePortRunLoopSource
+_gMessagePortRunLoop
+_gLocalMessagePort
+_gCallbackPortRunLoopSource
+_gStatusCallbacks
+-[SFSyncSet info].sGettingInfoFromAgent
+_ipc_dbtimestamp.str
+_sRefStringSelector
+_sRegisteredClasses
+_sNumRegisteredClasses
+_sClassRefCounts
+_IsObjectType
+_IsPropertyListType
+_IsScalarType
+_OBJC_CLASS_$_IPCObjectRef
+_OBJC_CLASS_$_IPCProxyObject
+_OBJC_CLASS_$_IPCReturnedException
+_OBJC_CLASS_$_SFFileSyncManager
+_OBJC_CLASS_$_SFPHDSyncSet
+_OBJC_CLASS_$_SFPeer
+_OBJC_CLASS_$_SFSyncSet
+_OBJC_METACLASS_$_IPCObjectRef
+_OBJC_METACLASS_$_IPCProxyObject
+_OBJC_METACLASS_$_IPCReturnedException
+_OBJC_METACLASS_$_SFFileSyncManager
+_OBJC_METACLASS_$_SFPHDSyncSet
+_OBJC_METACLASS_$_SFPeer
+_OBJC_METACLASS_$_SFSyncSet
+_SFAbortedException
+_SFAgentIsRunning
+_SFAttemptToWriteToReadOnlyPeerException
+_SFFrameworkVersion
+_SFIDiskMirrorCopyIDiskUsername
+_SFInitializeFileSync
+_SFInitializeForLoginSync
+_SFKVOChangedKeysKey
+_SFMirrorPairDeregisterStatusCallback
+_SFMirrorPairRegisterStatusCallback
+_SFNop
+_SFOnlyTrivialJobsException
+_SFPeerExclusionListKey
+_SFPeerInclusionListKey
+_SFPeerIsAvailableKey
+_SFPeerIsConnectedKey
+_SFPeerIsOnLocalSubnetKey
+_SFPeerIsProcessingJobsKey
+_SFPeerIsRemoteHomeDirKey
+_SFPeerIsRemoteKey
+_SFPeerNameKey
+_SFPeerProgressKey
+_SFPeerStoreIDKey
+_SFPeerSyncSetRefKey
+_SFProgressCompletedBytesKey
+_SFProgressCompletedItemsKey
+_SFProgressCurrentItemJobTypeKey
+_SFProgressCurrentItemNameKey
+_SFProgressCurrentItemPathKey
+_SFProgressJobErrorKey
+_SFProgressJobFilenameKey
+_SFProgressJobStatusKey
+_SFProgressJobTypeKey
+_SFProgressPercentCompleteKey
+_SFProgressSyncCurrentPassKey
+_SFProgressSyncPassStatusKey
+_SFProgressSyncTotalPassesKey
+_SFProgressTotalBytesKey
+_SFProgressTotalItemsKey
+_SFReverifyObjectCreatedException
+_SFReverifyObjectDeletedException
+_SFReverifyObjectModifiedException
+_SFShutdown
+_SFSpecialPHDConflictResolutionKey
+_SFStatusTypeGlobalManagement
+_SFStatusTypeSyncSetAttributes
+_SFStatusTypeSyncSetStatus
+_SFSuppressPHDErrorDialogsKey
+_SFSyncOptionAbortSyncPassOnConflictKey
+_SFSyncOptionAppliesToAutomaticSyncKey
+_SFSyncOptionAppliesToManualSyncKey
+_SFSyncOptionExclusionInclusionSetIndexKey
+_SFSyncOptionPeerAbortSyncPassOnWriteToReadOnlyKey
+_SFSyncOptionPeerSyncPassReadOnlyKey
+_SFSyncOptionResolveConflictInFavorOfPeerKey
+_SFSyncOptionSuppressConflictDialogsKey
+_SFSyncOptionSuppressErrorDialogsKey
+_SFSyncOptionWaitBeforeJobProcessing
+_SFSyncSetAutoSyncFrequencyKey
+_SFSyncSetConflictsResolved
+_SFSyncSetCopyConflictList
+_SFSyncSetCopyExceptionList
+_SFSyncSetIsAutoSyncingKey
+_SFSyncSetIsPHDKey
+_SFSyncSetLastSuccessfulSyncDateKey
+_SFSyncSetLastSyncResultKey
+_SFSyncSetListChangedNotification
+_SFSyncSetNameKey
+_SFSyncSetNextSyncDateKey
+_SFSyncSetPHDRemoteHomePathKey
+_SFSyncSetPeersKey
+_SFSyncSetProgressKey
+_SFSyncSetRefKey
+_SFSyncSetReportedExceptions
+_SFSyncSetStateKey
+_SFSyncSetStoreIDKey
+_SFSyncSetUIAppRunningKey
+_SFSyncSetUnresolvedConflictsCountKey
+_SFSyncSetUnresolvedErrorsCountKey
+_SFUnresolvedConflictsException
+__SFCopyAllHomeDirExclusions
+__SFCopyHomeDirExclusionsForDomain
+__SFDeregisterMessagePort
+__SFRegisterMessagePort
+__SFSendMessage
+__SFSetHomeDirExclusionsForDomain
+_ipc_gDebugOutput
+_notify_post_per_user
+_notify_register_mach_port_per_user
+_CFArrayAppendValue
+_CFArrayCreateMutable
+_CFArrayGetCount
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFArrayRemoveValueAtIndex
+_CFBundleGetBundleWithIdentifier
+_CFBundleGetValueForInfoDictionaryKey
+_CFCopyHomeDirectoryURLForUser
+_CFDictionaryGetValue
+_CFEqual
+_CFGetTypeID
+_CFMachPortCreateRunLoopSource
+_CFMachPortCreateWithPort
+_CFMessagePortCreateLocal
+_CFMessagePortCreatePerProcessLocal
+_CFMessagePortCreateRemote
+_CFMessagePortCreateRunLoopSource
+_CFMessagePortInvalidate
+_CFMessagePortSendRequest
+_CFMessagePortSetInvalidationCallBack
+_CFNumberCreate
+_CFNumberGetTypeID
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyValue
+_CFPreferencesGetAppBooleanValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetCurrent
+_CFRunLoopRemoveSource
+_CFSetGetTypeID
+_CFStringGetCString
+_CFStringGetCStringPtr
+_CFURLGetFileSystemRepresentation
+_CFUserNotificationDisplayNotice
+_NSCocoaErrorDomain
+_NSGenericException
+_NSInternalInconsistencyException
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSOSStatusErrorDomain
+_NSPOSIXErrorDomain
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMethodSignature
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPortNameServer
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_EHTYPE_$_NSException
+_OBJC_EHTYPE_id
+_OBJC_METACLASS_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OSAtomicAdd32
+_OSAtomicCompareAndSwapIntBarrier
+_OSSpinLockLock
+_OSSpinLockUnlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___bzero
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___strlcpy_chk
+___toupper
+__objc_empty_cache
+_abort
+_asctime_r
+_class_copyProtocolList
+_class_getSuperclass
+_exit
+_fprintf
+_fputs
+_free
+_geteuid
+_getpid
+_getprogname
+_kCFAllocatorDefault
+_kCFBooleanTrue
+_kCFBundleVersionKey
+_kCFPreferencesAnyApplication
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_localtime_r
+_malloc
+_memchr
+_notify_post
+_notify_register_mach_port
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_ehtype_vtable
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_exception_throw
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_sync_enter
+_objc_sync_exit
+_objc_terminate
+_protocol_getMethodDescription
+_sel_getName
+_sel_registerName
+_strcmp
+_strerror_r
+_strlen
+_strrchr
+_syslog
+_time
+_usleep
+_vfprintf
+dyld_stub_binder

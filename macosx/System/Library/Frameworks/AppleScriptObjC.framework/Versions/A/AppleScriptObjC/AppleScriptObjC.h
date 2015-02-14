@@ -1,0 +1,10 @@
+#import <AppleScriptObjC/BAGenericObject.h>
+#import <AppleScriptObjC/BAGenericObjectNoDeleteOSAID.h>
+#import <AppleScriptObjC/BAObjectManager.h>
+#import <AppleScriptObjC/BAObjectProto.h>
+#import <AppleScriptObjC/BAImmediateData.h>
+#import <AppleScriptObjC/BAFunctionInvocation.h>
+#import <AppleScriptObjC/BAReferenceParameter.h>
+#import <AppleScriptObjC/BAFunctionSignature.h>
+#import <AppleScriptObjC/BAXMLContext.h>
+#import <AppleScriptObjC/BAMetadataManager.h>

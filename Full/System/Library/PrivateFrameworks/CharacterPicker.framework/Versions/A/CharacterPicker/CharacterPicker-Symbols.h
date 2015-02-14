@@ -1,0 +1,1139 @@
++[CPSearchManager sharedSearchManager]
+___38+[CPSearchManager sharedSearchManager]_block_invoke
+-[CPSearchManager dealloc]
+-[CPSearchManager searchForCharactersWithSearchString:maxCount:usingBlock:]
+___75-[CPSearchManager searchForCharactersWithSearchString:maxCount:usingBlock:]_block_invoke
+___75-[CPSearchManager searchForCharactersWithSearchString:maxCount:usingBlock:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_59
+___destroy_helper_block_60
+-[CPSearchManager infoForCharcater:infoTag:]
+-[CPSearchManager setLastSearchedString:]
+-[CPKWindow initWithParentPopover:]
+-[CPKWindow dealloc]
+-[CPKWindow prepareTransformFromPopover:]
+-[CPKWindow transformWindow]
+-[CPKWindow animationDidEnd:]
+___29-[CPKWindow animationDidEnd:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CPKWindow _switchWindowStyleToResizable:]
+-[CPKWindow setLastKeyWindow:bringBack:]
+-[CPKWindow _detachedWindowClosed:]
+-[CPKWindow _callWillCloseDelegate]
+-[CPKWindow _characterViewerButtonClicked:]
+___43-[CPKWindow _characterViewerButtonClicked:]_block_invoke
+___copy_helper_block_352
+___destroy_helper_block_353
+-[CPKWindow _titlebarClicked:]
+-[CPKWindow characterDidSelected:]
+-[CPKWindow windowDidBecomeKey:]
+-[CPKWindow windowWillClosed:]
+-[CPKWindow _didCancelOperation:]
+-[CPKWindow cancelOperation:]
+-[CPKWindow _characterViewerWillOpen:]
+-[CPKWindow _characterViewerDidOpen:]
+-[CPKWindow hasKeyAppearance]
+-[CPKWindow performZoom:]
+-[CPKWindow canBecomeKeyWindow]
+-[CPKWindow canBecomeMainWindow]
+-[CPKWindow _privateStorage]
+-[CPKWindow myContentView]
+-[CPKWindow alternateViewController]
+-[CPKWindow setAlternateViewController:]
+-[CPKWindow showingAlternateView]
+-[CPKWindow setShowingAlternateView:]
+-[CPKWindow prohibitingZoom]
+-[CPKWindow setProhibitingZoom:]
+-[CPKWindow alternateWindowStyle]
+-[CPKWindow setAlternateWindowStyle:]
+-[CPKWindow alternateWindowFrame]
+-[CPKWindow setAlternateWindowFrame:]
+-[CPKWindow transformButton]
+-[CPKWindow alternateBitmapImage]
+-[CPKWindow setAlternateBitmapImage:]
+-[CPKWindowBackgroundView initWithFrame:]
+-[CPKWindowBackgroundView allowsVibrancy]
+-[CPKWindowBackgroundView drawRect:]
+-[CPKWindowBackgroundView windowStyleSwitchedToResizable:]
+-[CPKWindowBackgroundView setAnimating:]
+-[CPKWindowBackgroundView animating]
+-[CPKWindowTitleView initWithFrame:]
+-[CPKWindowTitleView dealloc]
+-[CPKWindowTitleView windowDidResignKey:]
+-[CPKWindowTitleView windowDidBecomeKey:]
+-[CPKWindowTitleView mouseDown:]
+-[CPKWindowTitleView mouseUp:]
+-[CPKWindowPrivateStorage dealloc]
+-[CPKWindowPrivateStorage parentPopover]
+-[CPKWindowPrivateStorage setParentPopover:]
+-[CPKWindowPrivateStorage smallViewController]
+-[CPKWindowPrivateStorage setSmallViewController:]
+-[CPKWindowPrivateStorage smallViewCloseButton]
+-[CPKWindowPrivateStorage setSmallViewCloseButton:]
+-[CPKWindowPrivateStorage smallViewTitleField]
+-[CPKWindowPrivateStorage setSmallViewTitleField:]
+-[CPKWindowPrivateStorage lastKeyWindow]
+-[CPKWindowPrivateStorage setLastKeyWindow:]
+-[CPKWindowPrivateStorage lastWindowFrame]
+-[CPKWindowPrivateStorage setLastWindowFrame:]
+-[CPKWindowPrivateStorage bringBackLastKeyWindow]
+-[CPKWindowPrivateStorage setBringBackLastKeyWindow:]
+-[CPKWindowPrivateStorage pendingCharacter]
+-[CPKWindowPrivateStorage setPendingCharacter:]
+-[CPKWindowPrivateStorage transformPrepared]
+-[CPKWindowPrivateStorage setTransformPrepared:]
+-[CPKWindowPrivateStorage transformFromPopover]
+-[CPKWindowPrivateStorage setTransformFromPopover:]
+-[CPKWindowPrivateStorage nowTransforming]
+-[CPKWindowPrivateStorage setNowTransforming:]
+-[CPKWindowPrivateStorage measureFramerateBlock]
+-[CPKWindowPrivateStorage setMeasureFramerateBlock:]
+_EntityIDFromCharacterInfo
+_EntityIDFromOldCharacterInfo
+_CharacterInfoFromEntityID
+_EntityIDFromCharacterViewerItem
+_CharacterViewerItemFromEntityID
+_StringFromUnicodeCodeString
+_IsSurrogatePair
+_StringContainsCharacter
+_CreateTintedImage
+_FontForCharacterFittingInRect
+_MyFrameworkBundle
+_MyFrameworkLocalizedString
+_PreferredLocalizationOfBundle
+_LocalizedStringForLanguage
+_IsWorkingInCharacterViewer
+___IsWorkingInCharacterViewer_block_invoke
+_CacheWindowContentsImage
+_DebugNSLog
+_DefaultSwitchForCharacterViewerButton
+_MeasureFrameRate
+___MeasureFrameRate_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+_CPXPCConnection
+___CPXPCConnection_block_invoke
+___CPXPCConnection_block_invoke_2
+_CPXPCQueue
+___CPXPCQueue_block_invoke
+_CreateXPCCategoryDataArray
+_CopyRecentsIDArray
+__ValidatePreferences
+__EntityIDArrayFromCharacterViewerData
+_SetRecentsIDArray
+_AddRecentID
+_ClearRecents
+_CopyFavoritesIDArray
+_SetFavoritesIDArray
+_CreateXPCArrayFromStringArray
+_StringArrayFromXPCArray
+_PrepareOpeningLargeCharacterViewer
+-[CPKCharacterMatrix initWithNumberOfColumns:]
+-[CPKCharacterMatrix dealloc]
+-[CPKCharacterMatrix setCharacters:]
+-[CPKCharacterMatrix selectedIndex]
+-[CPKCharacterMatrix setSelectedIndex:]
+-[CPKCharacterMatrix navigationSelectionDidMoved:]
+-[CPKCharacterMatrix navigationSelectionDidConfirmed:]
+-[CPKCharacterMatrix windowDidChangedKeyStatus:]
+-[CPKCharacterMatrix myActionTarget:]
+-[CPKCharacterMatrix _delayedPostingSelectedNotification:]
+-[CPKCharacterMatrix view:stringForToolTip:point:userData:]
+-[CPKCharacterMatrix AXDescriptionForCell:]
+-[CPKCharacterMatrix _privateSelectCellAtRow:column:]
+-[CPKCharacterMatrix _showSelectedCell]
+-[CPKCharacterMatrix setFrame:]
+-[CPKCharacterMatrix isFlipped]
+-[CPKCharacterMatrix accessibilityAttributeValue:]
+-[CPKCharacterMatrix accessibilityIsAttributeSettable:]
+-[CPKCharacterMatrix accessibilitySetValue:forAttribute:]
+-[CPKCharacterMatrix numberOfCharacters]
+-[CPKCharacterMatrix inDetachedWindow]
+-[CPKCharacterMatrix setInDetachedWindow:]
+-[CPKCharacterMatrix hasNavigationFocus]
+-[CPKCharacterMatrix setHasNavigationFocus:]
+-[CPKCharacterMatrix scrollTopGap]
+-[CPKCharacterMatrix setScrollTopGap:]
+-[CPKCharacterMatrix prevMatrix]
+-[CPKCharacterMatrix setPrevMatrix:]
+-[CPKCharacterMatrix nextMatrix]
+-[CPKCharacterMatrix setNextMatrix:]
+-[CPKCharacterMatrix waitingForConfirm]
+-[CPKCharacterMatrix setWaitingForConfirm:]
+-[CPKCharacterMatrix linkedAXCategory]
+-[CPKCharacterMatrix setLinkedAXCategory:]
+-[CPKCharacterMatrixCell copyWithZone:]
+-[CPKCharacterMatrixCell dealloc]
+-[CPKCharacterMatrixCell drawWithFrame:inView:]
+-[CPKCharacterMatrixCell drawInteriorWithFrame:inView:]
+-[CPKCharacterMatrixCell characterEntity]
+-[CPKCharacterMatrixCell setCharacterEntity:]
+-[CPKCharacterMatrixCell navigationSelected]
+-[CPKCharacterMatrixCell setNavigationSelected:]
+-[CPKCharacterMatrixCell needAttributedString]
+-[CPKCharacterMatrixCell setNeedAttributedString:]
+-[CPKCharacterMatrixCell needSizeAdjustment]
+-[CPKCharacterMatrixCell setNeedSizeAdjustment:]
+-[CPKCharacterMatrixCell baselineAdjustment]
+-[CPKCharacterMatrixCell setBaselineAdjustment:]
+-[CPKCharacterMatrixCell adjustedGlyphBounds]
+-[CPKCharacterMatrixCell setAdjustedGlyphBounds:]
+-[CPKCharactersView initWithNumberOfColumns:minNumberOfRows:]
+-[CPKCharactersView dealloc]
+-[CPKCharactersView setCharacters:forLinkedCategoryItem:]
+-[CPKCharactersView setHasSearchField:]
+-[CPKCharactersView setHasCVButtonAtTop:]
+-[CPKCharactersView setMessage:]
+-[CPKCharactersView state]
+-[CPKCharactersView setState:]
+-[CPKCharactersView setEnabled:]
++[CPKCharactersView transformWindowButtonToExpand:]
+-[CPKCharactersView firstCharacterAXElement]
+-[CPKCharactersView _characterMatrixAtIndex:sectionTitle:]
+-[CPKCharactersView _layoutDocumentView]
+-[CPKCharactersView searchFieldTextChangedImmediately:]
+___55-[CPKCharactersView searchFieldTextChangedImmediately:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___55-[CPKCharactersView searchFieldTextChangedImmediately:]_block_invoke254
+-[CPKCharactersView searchFieldTextDidChange:]
+-[CPKCharactersView _characterViewerButtonClicked:]
+-[CPKCharactersView scrollViewClipBoundsChanged:]
+-[CPKCharactersView navigationFocusDidMoved:]
+-[CPKCharactersView searchedInCategory]
+-[CPKCharactersView setSearchedInCategory:]
+-[CPKCharactersView searchDelegate]
+-[CPKCharactersView setSearchDelegate:]
+-[CPKCharactersView enabled]
+-[CPKCharactersView hasSearchField]
+-[CPKCharactersView hasCVButtonAtTop]
+-[CPKCharactersView searchField]
+-[CPKCharacterMatrixBaseView isFlipped]
+-[CPKCharacterShadeView drawRect:]
+-[CPKCharacterShadeView _createBottomShadowMaskImage:]
+-[CPKPopover initWithDataSource:]
++[CPKPopover characterPickerToolbarItem:]
+-[CPKPopover init]
+-[CPKPopover dealloc]
+-[CPKPopover showRelativeToRect:ofView:preferredEdge:]
+-[CPKPopover setDataSource:]
+-[CPKPopover setDataSource:usingBlockOnMainThread:]
+___51-[CPKPopover setDataSource:usingBlockOnMainThread:]_block_invoke
+___51-[CPKPopover setDataSource:usingBlockOnMainThread:]_block_invoke_2
+___51-[CPKPopover setDataSource:usingBlockOnMainThread:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_177
+___destroy_helper_block_178
+___copy_helper_block_183
+___destroy_helper_block_184
+-[CPKPopover characterDidSelected:]
+-[CPKPopover cancelOperation:]
+-[CPKPopover popoverShouldDetach:]
+-[CPKPopover detachableWindowForPopover:]
+-[CPKPopover detachedWindowCreate:]
+-[CPKPopover setDisplayAsWindow:preferredLoc:]
+-[CPKPopover setShowOpeningAnimation:]
+-[CPKPopover searchString]
+-[CPKPopover _privateStorage]
+-[CPKPopover _showPopoverFromToolbarItem:]
+-[CPKPopover _showPopoverFromToolbarMenu:]
+-[CPKPopover _actionTarget]
+-[CPKPopover _isValidTarget:]
+-[CPKPopover _insertSelectedCharacter:toTarget:]
+-[CPKPopover _popoverWillOpen]
+-[CPKPopover _popoverDidOpen:]
+___30-[CPKPopover _popoverDidOpen:]_block_invoke
+___copy_helper_block_331
+___destroy_helper_block_332
+___30-[CPKPopover _popoverDidOpen:]_block_invoke340
+___copy_helper_block_341
+___destroy_helper_block_342
+-[CPKPopover _popoverDidClose:]
+-[CPKPopover _characterViewerWillOpen:]
+___39-[CPKPopover _characterViewerWillOpen:]_block_invoke
+___copy_helper_block_403
+___destroy_helper_block_404
+___39-[CPKPopover _characterViewerWillOpen:]_block_invoke408
+___copy_helper_block_412
+___destroy_helper_block_413
+-[CPKPopover _characterViewerDidOpen:]
+-[CPKPopover _externalCharacterViewerWindowOpened:]
+-[CPKPopover _externalCharacterViewerWindowRevertedToPicker:]
+-[CPKPopover _postCharacterPickerOpenedNotification]
+-[CPKPopover _showPopoverByCallingSuperclass]
+-[CPKPopover observeValueForKeyPath:ofObject:change:context:]
+-[CPKPopover windowWillClosed:]
+-[CPKPopover window:willPositionSheet:usingRect:]
+-[CPKPopover _showPerformanceLog]
+___33-[CPKPopover _showPerformanceLog]_block_invoke
+-[CPKPopover CPKDelegate]
+-[CPKPopover setCPKDelegate:]
+-[CPKPopover CPKTargetProvider]
+-[CPKPopover setCPKTargetProvider:]
+-[CPKPopover CPKUserInfo]
+-[CPKPopover setCPKUserInfo:]
+-[CPKPrivateStorage dealloc]
+-[CPKPrivateStorage positioningRect]
+-[CPKPrivateStorage setPositioningRect:]
+-[CPKPrivateStorage positioningView]
+-[CPKPrivateStorage setPositioningView:]
+-[CPKPrivateStorage preferredEdge]
+-[CPKPrivateStorage setPreferredEdge:]
+-[CPKPrivateStorage globalEventMonitor]
+-[CPKPrivateStorage setGlobalEventMonitor:]
+-[CPKPrivateStorage localEventMonitor]
+-[CPKPrivateStorage setLocalEventMonitor:]
+-[CPKPrivateStorage needsRebuildView]
+-[CPKPrivateStorage setNeedsRebuildView:]
+-[CPKPrivateStorage settingDataSource]
+-[CPKPrivateStorage setSettingDataSource:]
+-[CPKPrivateStorage skipOpeningAnimation]
+-[CPKPrivateStorage setSkipOpeningAnimation:]
+-[CPKPrivateStorage displayingPopover]
+-[CPKPrivateStorage setDisplayingPopover:]
+-[CPKPrivateStorage displayAsWindow]
+-[CPKPrivateStorage setDisplayAsWindow:]
+-[CPKPrivateStorage displayAsWindowLoc]
+-[CPKPrivateStorage setDisplayAsWindowLoc:]
+-[CPKPrivateStorage lastKeyWindow]
+-[CPKPrivateStorage setLastKeyWindow:]
+-[CPKPrivateStorage lastActionObject]
+-[CPKPrivateStorage setLastActionObject:]
+-[CPKPrivateStorage lastTargetValidation]
+-[CPKPrivateStorage setLastTargetValidation:]
+-[CPKPrivateStorage lastSelectionOnTarget]
+-[CPKPrivateStorage setLastSelectionOnTarget:]
+-[CPKPrivateStorage lastSelectedEntity]
+-[CPKPrivateStorage setLastSelectedEntity:]
+-[CPKPrivateStorage detachingWindow]
+-[CPKPrivateStorage setDetachingWindow:]
+-[CPKPrivateStorage detachedWindow]
+-[CPKPrivateStorage setDetachedWindow:]
+-[CPKPrivateStorage tempRetainer]
+-[CPKPrivateStorage setTempRetainer:]
+-[CPKPrivateStorage delayedSettingProvider]
+-[CPKPrivateStorage setDelayedSettingProvider:]
+-[CPKPopoverController init]
+-[CPKPopoverController setDataProvider:]
+-[CPKPopoverController initWithController:]
+-[CPKPopoverController dealloc]
+-[CPKPopoverController popoverDidOpened]
+-[CPKPopoverController popoverDidClosed]
+-[CPKPopoverController openExternalCharacterViewerWindow]
+-[CPKPopoverController setEnabled:]
+-[CPKPopoverController setDraggingDetachedWindow:]
+-[CPKPopoverController prefsUpdatedExternally:]
+___47-[CPKPopoverController prefsUpdatedExternally:]_block_invoke
+___47-[CPKPopoverController prefsUpdatedExternally:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_149
+___destroy_helper_block_150
+-[CPKPopoverController characterMatrixDidSelected:]
+-[CPKPopoverController characterDidSelectedInController:]
+-[CPKPopoverController categoryMatrixSelectionDidChanged:]
+-[CPKPopoverController searchViewTextChangedImmediately:]
+-[CPKPopoverController searchFieldTextChangedImmediately:]
+-[CPKPopoverController searchFieldTextChangedTo:searchIt:]
+___58-[CPKPopoverController searchFieldTextChangedTo:searchIt:]_block_invoke
+___58-[CPKPopoverController searchFieldTextChangedTo:searchIt:]_block_invoke_2
+___copy_helper_block_193
+___destroy_helper_block_194
+___copy_helper_block_206
+___destroy_helper_block_207
+-[CPKPopoverController searchView:shouldShowHide:]
+___50-[CPKPopoverController searchView:shouldShowHide:]_block_invoke
+___copy_helper_block_216
+___destroy_helper_block_217
+___50-[CPKPopoverController searchView:shouldShowHide:]_block_invoke221
+-[CPKPopoverController _setupInitialFirstResponder]
+-[CPKPopoverController _rootCategorySelected:byUser:forceUpdate:]
+-[CPKPopoverController dataProvider]
+-[CPKPopoverController categoriesView]
+-[CPKPopoverController charactersView]
+-[CPKPopoverController searchView]
+-[CPKPopoverController lastSearchResult]
+-[CPKPopoverController setLastSearchResult:]
+-[CPKPopoverController categoryIndexOnSearch]
+-[CPKPopoverController setCategoryIndexOnSearch:]
+-[CPKPopoverController isEnabled]
+-[CPKPopoverController draggingDetachedWindow]
+-[CPKPopoverController detachedWindow]
+-[CPKPopoverController setDetachedWindow:]
+-[CPKPopoverView allowsVibrancy]
+-[CPKPopoverView draggingDetachedWindow]
+-[CPKPopoverView setDraggingDetachedWindow:]
+-[CPKBottomView drawRect:]
+-[CPKSearchFieldEditor checkNavigationFocusChange]
+-[CPKSearchFieldEditor init]
+-[CPKSearchFieldEditor dealloc]
+-[CPKSearchFieldEditor didChangeText]
+-[CPKSearchFieldEditor control:textView:doCommandBySelector:]
+-[CPKSearchFieldEditor _postCharacterSelectionMove:onTarget:]
+-[CPKSearchFieldEditor _postCategorySelectionMove:]
+-[CPKSearchFieldEditor _postNavigationFocusMovedWithDirection:]
+-[CPKSearchFieldEditor _postNavigationNotification:userInfo:]
+-[CPKSearchFieldEditor navigationFocusDidMoved:]
+-[CPKSearchFieldEditor _isEmpty]
+-[CPKSearchFieldEditor allowsVibrancy]
+-[CPKSearchFieldEditor moveForward:]
+-[CPKSearchFieldEditor moveBackward:]
+-[CPKSearchFieldEditor moveRight:]
+-[CPKSearchFieldEditor moveLeft:]
+-[CPKSearchFieldEditor moveUp:]
+-[CPKSearchFieldEditor moveDown:]
+-[CPKSearchFieldEditor pageUp:]
+-[CPKSearchFieldEditor pageDown:]
+-[CPKSearchFieldEditor scrollPageUp:]
+-[CPKSearchFieldEditor scrollPageDown:]
+-[CPKSearchFieldEditor scrollLineUp:]
+-[CPKSearchFieldEditor scrollLineDown:]
+-[CPKSearchFieldEditor scrollToBeginningOfDocument:]
+-[CPKSearchFieldEditor scrollToEndOfDocument:]
+-[CPKSearchFieldEditor insertTab:]
+-[CPKSearchFieldEditor insertBacktab:]
+-[CPKSearchFieldEditor insertNewline:]
+-[CPKSearchFieldEditor cancelOperation:]
+-[CPKSearchFieldEditor ownerCell]
+-[CPKSearchFieldEditor setOwnerCell:]
++[CPKSearchField cellClass]
+-[CPKSearchField initWithFrame:]
+-[CPKSearchField setStringValue:]
+-[CPKSearchFieldCell initTextCell:]
+-[CPKSearchFieldCell dealloc]
+-[CPKSearchFieldCell fieldEditorForView:]
+-[CPKSearchView initWithFrame:]
+-[CPKSearchView setShown:]
+-[CPKSearchView searchDone:]
+-[CPKSearchView searchFieldTextDidChange:]
+-[CPKSearchView searchDelegate]
+-[CPKSearchView setSearchDelegate:]
+-[CPKSearchView searchField]
+-[CPKSearchView maxFoundCount]
+-[CPKSearchView setMaxFoundCount:]
+-[CPKSearchView isShown]
+-[CPKDataProvider initWithDataSource:]
+-[CPKDataProvider dealloc]
+-[CPKDataProvider loadRecentsAndFavoritesUsingBlock:]
+___53-[CPKDataProvider loadRecentsAndFavoritesUsingBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CPKDataProvider didSelectedEntity:]
+-[CPKDataProvider numberOfCategories]
+-[CPKDataProvider numberOfCharactersInCategory:]
+-[CPKDataProvider titleForCategory:]
+-[CPKDataProvider rawTitleForCategory:]
+-[CPKDataProvider characterAtIndex:inCategory:]
+-[CPKDataProvider descriptionForCategory:]
+-[CPKDataProvider storageIdentifier]
++[CPKDataProvider numberOfCharacterColumns]
++[CPKDataProvider numberOfCharacterRows]
+-[CPKDataProvider initialSelectedCategoryIndex]
+-[CPKDataProvider allCharactersDictionary]
+-[CPKDataProvider _displayCountOfRecents:favorites:]
+-[CPKDataProvider _isSystemCategory:]
+-[CPKDataProvider dataSource]
+-[CPKDataProvider searchResults]
+-[CPKDataProvider setSearchResults:]
+-[CPKDataProvider favorites]
+-[CPKDataProvider recents]
+-[CPKDefaultDataSource dealloc]
++[CPKDefaultDataSource _classGlobalBufferPtr]
++[CPKDefaultDataSource _classGlobalPtr]
++[CPKDefaultDataSource _prepareCategories]
++[CPKDefaultDataSource _expandNestedDataArray:]
++[CPKDefaultDataSource _cachedDefaultDataArrayOrClear:usingBlock:]
+___66+[CPKDefaultDataSource _cachedDefaultDataArrayOrClear:usingBlock:]_block_invoke
+___66+[CPKDefaultDataSource _cachedDefaultDataArrayOrClear:usingBlock:]_block_invoke_2
+___66+[CPKDefaultDataSource _cachedDefaultDataArrayOrClear:usingBlock:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_56
+___destroy_helper_block_57
++[CPKDefaultDataSource _prefixCategories]
++[CPKDefaultDataSource _dataCategories]
+-[CPKDefaultDataSource prepareDataUsingBlock:]
+___46-[CPKDefaultDataSource prepareDataUsingBlock:]_block_invoke
+___copy_helper_block_74
+___destroy_helper_block_75
+-[CPKDefaultDataSource numberOfCategories]
+-[CPKDefaultDataSource numberOfCharactersInCategory:]
+-[CPKDefaultDataSource titleForCategory:]
+-[CPKDefaultDataSource characterAtIndex:inCategory:]
+-[CPKDefaultDataSource characterFromIdentifier:]
+-[CPKDefaultDataSource descriptionForCategory:]
+-[CPKDefaultDataSource storageIdentifier]
+-[CPKDefaultDataSource initialSelectedCategoryIndex]
++[CPKDefaultDataSource changeActiveCategories]
++[CPKDefaultDataSource recents]
++[CPKDefaultDataSource setRecents:]
++[CPKDefaultDataSource favorites]
++[CPKDefaultDataSource setFavorites:]
++[CPKDefaultDataSource standardItemArrayFromArray:]
++[CPKDefaultDataSource indexInArray:fromStandardItemIndex:]
+-[CPKDefaultDataSource _hasCachedData]
+-[CPKDefaultDataSource _entityArrayInCategory:]
+-[CPKDefaultDataSource _shouldOmitCharacter:]
++[CPKEmojiDataSource _classGlobalBufferPtr]
++[CPKEmojiDataSource _dataCategories]
+-[CPKEmojiDataSource characterFromIdentifier:]
+-[CPKEmojiDataSource storageIdentifier]
+-[CPKEmojiDataSource _shouldOmitCharacter:]
+-[CPKEmojiDataSource _longCharacterForCharacters:length:]
+-[CPKPreferences init]
+-[CPKPreferences dealloc]
++[CPKPreferences sharedPreferences]
+___35+[CPKPreferences sharedPreferences]_block_invoke
+-[CPKPreferences defaultDataSource]
+-[CPKPreferences loadRecentsAndFavoritesForDataSource:usingBlock:]
+___66-[CPKPreferences loadRecentsAndFavoritesForDataSource:usingBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___66-[CPKPreferences loadRecentsAndFavoritesForDataSource:usingBlock:]_block_invoke39
+___copy_helper_block_44
+___destroy_helper_block_45
+-[CPKPreferences loadCategoryData:usingBlock:]
+___46-[CPKPreferences loadCategoryData:usingBlock:]_block_invoke
+___copy_helper_block_53
+___destroy_helper_block_54
+___46-[CPKPreferences loadCategoryData:usingBlock:]_block_invoke57
+___copy_helper_block_58
+___destroy_helper_block_59
+-[CPKPreferences addRecent:ofDataSource:]
+-[CPKPreferences clearRecentsOfDataSource:]
+-[CPKPreferences recentsOfDataSourceSync:]
+-[CPKPreferences setRecentsSync:ofDataSource:]
+-[CPKPreferences favoritesOfDataSourceSync:]
+-[CPKPreferences setFavoritesSync:ofDataSource:]
+-[CPKPreferences addRecentSync:ofDataSource:]
+-[CPKPreferences _convertXPCCategoryDataDict:]
+-[CPKPreferences _identifierOfDataSource:]
+-[CPKPreferences _characterViewerPrefsChanged:]
++[CPKStandardCharacterEntity characterEntity]
++[CPKStandardCharacterEntity characterEntityWithIdentifier:]
+-[CPKStandardCharacterEntity init]
+-[CPKStandardCharacterEntity initWithIdentifier:]
+-[CPKStandardCharacterEntity dealloc]
+-[CPKStandardCharacterEntity identifier]
+-[CPKStandardCharacterEntity characterString]
+-[CPKStandardCharacterEntity attributedStringOfSize:]
+-[CPKStandardCharacterEntity imageURL]
+-[CPKStandardCharacterEntity image]
+-[CPKStandardCharacterEntity textEquivalent]
+-[CPKStandardCharacterEntity characterDescription]
+-[CPKStandardCharacterEntity displayFont]
+-[CPKStandardCharacterEntity setCharacterString:]
+-[CPKStandardCharacterEntity setFontName:]
+-[CPKStandardCharacterEntity fontName]
+-[CPKStandardCharacterEntity setImageURL:]
+-[CPKStandardCharacterEntity setGlyph:]
+-[CPKStandardCharacterEntity glyphID]
+-[CPKStandardCharacterEntity setCharacterDescription:]
+-[CPKStandardCharacterEntity setNumberOfSectionedCharacters:]
+-[CPKStandardCharacterEntity numberOfSectionedCharacters]
+-[CPKStandardCharacterEntity baselineAdjustment]
+-[CPKStandardCharacterEntity _updateSpecificFlags:]
+-[CPKStandardCharacterEntity description]
+-[CPKCategoriesView initWithFrame:]
+-[CPKCategoriesView dealloc]
+-[CPKCategoriesView setCategoryTitles:descriptions:]
+-[CPKCategoriesView setSelectedCategoryIndex:]
+-[CPKCategoriesView selectedCategoryAXElement]
+-[CPKCategoriesView selectedCategoryIndex]
+-[CPKCategoriesView state]
+-[CPKCategoriesView setState:]
+-[CPKCategoriesView navigationSelectionDidMoved:]
+-[CPKCategoriesView drawRect:]
+-[CPKCategoriesView myDefaultAction:]
+-[CPKCategoriesView scrollItemClicked:]
+-[CPKCategoriesView _selectedCatageoryIndex:byUser:]
+___52-[CPKCategoriesView _selectedCatageoryIndex:byUser:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CPKCategoriesView _scrollCategoriesWithCompletion:]
+___53-[CPKCategoriesView _scrollCategoriesWithCompletion:]_block_invoke
+___copy_helper_block_196
+___destroy_helper_block_197
+-[CPKCategoriesView _shouldIgnoreUserSelectionOnMatrix:]
+-[CPKCategoriesView _globalIndexFromLocalIndex:inMatrix:]
+-[CPKCategoriesView _localIndexFromGlobalIndex:outMatrix:]
+-[CPKCategoriesView isEnabled]
+-[CPKCategoriesView setEnabled:]
+-[CPKCategorySwitchCell drawBezelWithFrame:inView:]
+-[CPKCategorySwitchCell interiorBackgroundStyle]
+-[CPKBaseMatrix dealloc]
+-[CPKBaseMatrix AXDescriptionForCell:]
+-[CPKBaseMatrix mouseDownCanMoveWindow]
+-[CPKBaseMatrix drawRect:]
+-[CPKBaseMatrix _createFadeoutMaskImage:]
+-[CPKBaseMatrix accessibilityHitTest:]
+-[CPKBaseMatrix clippingView]
+-[CPKBaseMatrix setClippingView:]
+-[CPKBaseMatrix fadeoutEdge]
+-[CPKBaseMatrix setFadeoutEdge:]
+-[CPKBaseMatrix clickedByDragging]
+-[CPKBaseMatrix setClickedByDragging:]
+-[CPKBaseMatrixCell startTrackingAt:inView:]
+-[CPKBaseMatrixCell continueTracking:at:inView:]
+-[CPKBaseMatrixCell accessibilityAttributeValue:]
++[CPCharacterDatabase sharedDatabase]
+___37+[CPCharacterDatabase sharedDatabase]_block_invoke
+-[CPCharacterDatabase init]
+-[CPCharacterDatabase dealloc]
+-[CPCharacterDatabase createXPCArrayForSearchString:maxCount:]
+-[CPCharacterDatabase createXPCArrayForRelatedCharacters:maxCount:]
+-[CPCharacterDatabase searchCharacterInfo:]
+-[CPCharacterDatabase createXPCDictionaryForCharacterInfo:]
+-[CPCharacterDatabase languageForFieldTag:]
+-[CPCharacterDatabase tagsForLanguage:]
+-[CPCharacterDatabase _openDatabase:]
+-[CPCharacterDatabase _hanLanguageInfo]
+_kCPKWindowStyleForSmallWindow
+-[CPKCharacterShadeView _createBottomShadowMaskImage:].gradientComps
+-[CPKCharacterShadeView _createBottomShadowMaskImage:].locations
+-[CPKEmojiDataSource _shouldOmitCharacter:].kBlackListChars
+-[CPKBaseMatrix _createFadeoutMaskImage:].gradientComps
+-[CPKBaseMatrix _createFadeoutMaskImage:].locations
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp58
+___block_descriptor_tmp63
+___block_descriptor_tmp
+___block_descriptor_tmp355
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp213
+_CPKCharacterViewerWindowWillOpen
+_CPKCharacterViewerWindowDidOpen
+_CPKNavigationFocusMoved
+_CPKNavigationCharacterSelectionMoved
+_CPKNavigationCategorySelectionMoved
+_CPKNavigationSelectionConfirmed
+_CPKNavigationSelectionCanceled
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp7
+___block_literal_global8
+___block_descriptor_tmp11
+___block_literal_global12
+_CPKCharacterMatrixDidSelected
+___block_descriptor_tmp
+___block_descriptor_tmp257
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp180
+___block_descriptor_tmp186
+___block_descriptor_tmp335
+___block_descriptor_tmp345
+___block_descriptor_tmp407
+___block_descriptor_tmp415
+___block_descriptor_tmp470
+___block_literal_global
+_CPKPopoverControllerDidSelectCharacter
+___block_descriptor_tmp
+___block_descriptor_tmp152
+___block_descriptor_tmp197
+___block_descriptor_tmp210
+___block_descriptor_tmp220
+___block_descriptor_tmp223
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp53
+___block_descriptor_tmp59
+___block_descriptor_tmp77
+_CPKPrefsUpdatedByCharacterViewerDistributedNotification
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp38
+___block_descriptor_tmp47
+___block_descriptor_tmp56
+___block_descriptor_tmp61
+_CPKStandardDataStoreIdentifier
+_CPKPrefsUpdatedByCharacterViewerNotification
+_CPKEmojiDataStoreIdentifier
+_CPKCategoryChangedByCharacterViewerDistributedNotification
+_CPKCategoryMatrixDidSelectionChanged
+___block_descriptor_tmp
+___block_descriptor_tmp200
+_CPKCategoryMatrixDidHighlightChanged
+___block_descriptor_tmp
+___block_literal_global
+-[CPCharacterDatabase createXPCArrayForSearchString:maxCount:].fieldsToSearch
+_OBJC_IVAR_$_CPSearchManager._lastSearchString
+_OBJC_IVAR_$_CPSearchManager._whiteSpaceSet
+_OBJC_IVAR_$_CPSearchManager._transactionID
+_OBJC_IVAR_$_CPKWindow._privateData
+_OBJC_IVAR_$_CPKWindow._myContentView
+_OBJC_IVAR_$_CPKWindow._transformButton
+_OBJC_IVAR_$_CPKWindow._alternateViewController
+_OBJC_IVAR_$_CPKWindow._alternateBitmapImage
+_OBJC_IVAR_$_CPKWindow._showingAlternateView
+_OBJC_IVAR_$_CPKWindow._alternateWindowFrame
+_OBJC_IVAR_$_CPKWindow._alternateWindowStyle
+_OBJC_IVAR_$_CPKWindow._prohibitingZoom
+_OBJC_IVAR_$_CPKWindowBackgroundView._resizableStyle
+_OBJC_IVAR_$_CPKWindowBackgroundView._animating
+_OBJC_IVAR_$_CPKWindowTitleView._mouseDownScreenLoc
+_OBJC_IVAR_$_CPKWindowPrivateStorage._smallViewController
+_OBJC_IVAR_$_CPKWindowPrivateStorage._smallViewCloseButton
+_OBJC_IVAR_$_CPKWindowPrivateStorage._smallViewTitleField
+_OBJC_IVAR_$_CPKWindowPrivateStorage._pendingCharacter
+_OBJC_IVAR_$_CPKWindowPrivateStorage._measureFramerateBlock
+_OBJC_IVAR_$_CPKWindowPrivateStorage._parentPopover
+_OBJC_IVAR_$_CPKWindowPrivateStorage._lastKeyWindow
+_OBJC_IVAR_$_CPKWindowPrivateStorage._lastWindowFrame
+_OBJC_IVAR_$_CPKWindowPrivateStorage._bringBackLastKeyWindow
+_OBJC_IVAR_$_CPKWindowPrivateStorage._transformPrepared
+_OBJC_IVAR_$_CPKWindowPrivateStorage._transformFromPopover
+_OBJC_IVAR_$_CPKWindowPrivateStorage._nowTransforming
+_OBJC_IVAR_$_CPKCharacterMatrix._numberOfCharacters
+_OBJC_IVAR_$_CPKCharacterMatrix._hasNavigationFocus
+_OBJC_IVAR_$_CPKCharacterMatrix._lastSelectedRow
+_OBJC_IVAR_$_CPKCharacterMatrix._lastSelectedColumn
+_OBJC_IVAR_$_CPKCharacterMatrix._nextMatrix
+_OBJC_IVAR_$_CPKCharacterMatrix._prevMatrix
+_OBJC_IVAR_$_CPKCharacterMatrix._confirmingByKeyboard
+_OBJC_IVAR_$_CPKCharacterMatrix._inDetachedWindow
+_OBJC_IVAR_$_CPKCharacterMatrix._waitingForConfirm
+_OBJC_IVAR_$_CPKCharacterMatrix._confirmingByMouse
+_OBJC_IVAR_$_CPKCharacterMatrix._scrollTopGap
+_OBJC_IVAR_$_CPKCharacterMatrix._linkedAXCategory
+_OBJC_IVAR_$_CPKCharacterMatrix._selectedIndex
+_OBJC_IVAR_$_CPKCharacterMatrixCell._characterEntity
+_OBJC_IVAR_$_CPKCharacterMatrixCell._navigationSelected
+_OBJC_IVAR_$_CPKCharacterMatrixCell._adjustedGlyphBounds
+_OBJC_IVAR_$_CPKCharacterMatrixCell._needAttributedString
+_OBJC_IVAR_$_CPKCharacterMatrixCell._needSizeAdjustment
+_OBJC_IVAR_$_CPKCharacterMatrixCell._baselineAdjustment
+_OBJC_IVAR_$_CPKCharactersView._numberOfColumns
+_OBJC_IVAR_$_CPKCharactersView._numberOfSections
+_OBJC_IVAR_$_CPKCharactersView._characterMatrix
+_OBJC_IVAR_$_CPKCharactersView._searchField
+_OBJC_IVAR_$_CPKCharactersView._characterMatrixPool
+_OBJC_IVAR_$_CPKCharactersView._sectionTitleFieldPool
+_OBJC_IVAR_$_CPKCharactersView._searchedInCategory
+_OBJC_IVAR_$_CPKCharactersView._searchDelegate
+_OBJC_IVAR_$_CPKCharactersView._showCVButton
+_OBJC_IVAR_$_CPKCharactersView._hasCVButtonAtTop
+_OBJC_IVAR_$_CPKCharactersView._hasSearchField
+_OBJC_IVAR_$_CPKCharactersView._messageField
+_OBJC_IVAR_$_CPKCharactersView._enabled
+_OBJC_IVAR_$_CPKCharactersView._hasBottomShade
+_OBJC_IVAR_$_CPKCharactersView._bottomShadeView
+_OBJC_IVAR_$_CPKPopover._CPKPrivate
+_OBJC_IVAR_$_CPKPopover._CPKTargetProvider
+_OBJC_IVAR_$_CPKPopover._CPKDelegate
+_OBJC_IVAR_$_CPKPopover._CPKUserInfo
+_OBJC_IVAR_$_CPKPrivateStorage._lastSelectedEntity
+_OBJC_IVAR_$_CPKPrivateStorage._detachingWindow
+_OBJC_IVAR_$_CPKPrivateStorage._detachedWindow
+_OBJC_IVAR_$_CPKPrivateStorage._tempRetainer
+_OBJC_IVAR_$_CPKPrivateStorage._delayedSettingProvider
+_OBJC_IVAR_$_CPKPrivateStorage._positioningRect
+_OBJC_IVAR_$_CPKPrivateStorage._positioningView
+_OBJC_IVAR_$_CPKPrivateStorage._preferredEdge
+_OBJC_IVAR_$_CPKPrivateStorage._globalEventMonitor
+_OBJC_IVAR_$_CPKPrivateStorage._localEventMonitor
+_OBJC_IVAR_$_CPKPrivateStorage._needsRebuildView
+_OBJC_IVAR_$_CPKPrivateStorage._settingDataSource
+_OBJC_IVAR_$_CPKPrivateStorage._skipOpeningAnimation
+_OBJC_IVAR_$_CPKPrivateStorage._displayingPopover
+_OBJC_IVAR_$_CPKPrivateStorage._displayAsWindow
+_OBJC_IVAR_$_CPKPrivateStorage._displayAsWindowLoc
+_OBJC_IVAR_$_CPKPrivateStorage._lastKeyWindow
+_OBJC_IVAR_$_CPKPrivateStorage._lastActionObject
+_OBJC_IVAR_$_CPKPrivateStorage._lastTargetValidation
+_OBJC_IVAR_$_CPKPrivateStorage._lastSelectionOnTarget
+_OBJC_IVAR_$_CPKPopoverController._charactersView
+_OBJC_IVAR_$_CPKPopoverController._categoriesView
+_OBJC_IVAR_$_CPKPopoverController._bottomView
+_OBJC_IVAR_$_CPKPopoverController._searchView
+_OBJC_IVAR_$_CPKPopoverController._lastCategoryIndex
+_OBJC_IVAR_$_CPKPopoverController._categoryIndexOnSearch
+_OBJC_IVAR_$_CPKPopoverController._maxSearchCount
+_OBJC_IVAR_$_CPKPopoverController._enabled
+_OBJC_IVAR_$_CPKPopoverController._dataProvider
+_OBJC_IVAR_$_CPKPopoverController._lastSearchResult
+_OBJC_IVAR_$_CPKPopoverController._wholeCharCache
+_OBJC_IVAR_$_CPKPopoverController._searchManager
+_OBJC_IVAR_$_CPKPopoverController._detachedWindow
+_OBJC_IVAR_$_CPKPopoverController._searchViewShown
+_OBJC_IVAR_$_CPKPopoverController._draggingDetachedWindow
+_OBJC_IVAR_$_CPKPopoverController._spinIndicator
+_OBJC_IVAR_$_CPKPopoverView._draggingDetachedWindow
+_OBJC_IVAR_$_CPKSearchFieldEditor._navigateSelection
+_OBJC_IVAR_$_CPKSearchFieldEditor._ownerCell
+_OBJC_IVAR_$_CPKSearchFieldCell._customEditor
+_OBJC_IVAR_$_CPKSearchView._searchField
+_OBJC_IVAR_$_CPKSearchView._maxFoundCount
+_OBJC_IVAR_$_CPKSearchView._shown
+_OBJC_IVAR_$_CPKSearchView._searchDelegate
+_OBJC_IVAR_$_CPKDataProvider._dataSource
+_OBJC_IVAR_$_CPKDataProvider._searchResults
+_OBJC_IVAR_$_CPKDataProvider._favorites
+_OBJC_IVAR_$_CPKDataProvider._recents
+_OBJC_IVAR_$_CPKDataProvider._dataSourceIdentifier
+_OBJC_IVAR_$_CPKDataProvider._searchCategoryIndex
+_OBJC_IVAR_$_CPKDefaultDataSource._contents
+_OBJC_IVAR_$_CPKPreferences._defaultSource
+_OBJC_IVAR_$_CPKStandardCharacterEntity._data
+_OBJC_IVAR_$_CPKStandardCharacterEntity._flags
+_OBJC_IVAR_$_CPKCategoriesView._fixedCategories
+_OBJC_IVAR_$_CPKCategoriesView._scrollbaleCategories
+_OBJC_IVAR_$_CPKCategoriesView._scrollEnclosure
+_OBJC_IVAR_$_CPKCategoriesView._nextPageIndicator
+_OBJC_IVAR_$_CPKCategoriesView._prevPageIndicator
+_OBJC_IVAR_$_CPKCategoriesView._enabled
+_OBJC_IVAR_$_CPKCategoriesView._dividerImage
+_OBJC_IVAR_$_CPKCategoriesView._scrollerIndex
+_OBJC_IVAR_$_CPKCategoriesView._separatorIndex
+_OBJC_IVAR_$_CPKCategoriesView._lastSelectedIndex
+_OBJC_IVAR_$_CPKBaseMatrix._fadeoutMaskImage
+_OBJC_IVAR_$_CPKBaseMatrix._clippingView
+_OBJC_IVAR_$_CPKBaseMatrix._fadeoutEdge
+_OBJC_IVAR_$_CPKBaseMatrix._clickedByDragging
+_OBJC_IVAR_$_CPCharacterDatabase._charDatabase
+_OBJC_IVAR_$_CPCharacterDatabase._relatedCharDatabase
+_OBJC_IVAR_$_CPCharacterDatabase._languageInfo
+_OBJC_CLASS_$_CPSearchManager
+_OBJC_METACLASS_$_CPSearchManager
+_OBJC_CLASS_$_CPKWindowPrivateStorage
+_OBJC_CLASS_$_CPKWindowBackgroundView
+_OBJC_CLASS_$_CPKWindowTitleView
+_OBJC_METACLASS_$_CPKWindowBackgroundView
+_OBJC_METACLASS_$_CPKWindowTitleView
+_OBJC_METACLASS_$_CPKWindowPrivateStorage
+_OBJC_CLASS_$_CPKCharacterMatrixCell
+_OBJC_CLASS_$_CPKCharacterMatrix
+_OBJC_METACLASS_$_CPKCharacterMatrix
+_OBJC_METACLASS_$_CPKCharacterMatrixCell
+_OBJC_CLASS_$_CPKCharactersView
+_OBJC_CLASS_$_CPKCharacterMatrixBaseView
+_OBJC_METACLASS_$_CPKCharactersView
+_OBJC_METACLASS_$_CPKCharacterMatrixBaseView
+_OBJC_METACLASS_$_CPKCharacterShadeView
+_OBJC_CLASS_$_CPKCharacterShadeView
+_OBJC_CLASS_$_CPKPrivateStorage
+_OBJC_METACLASS_$_CPKPrivateStorage
+_OBJC_CLASS_$_CPKPopoverController
+_OBJC_CLASS_$_CPKBottomView
+_OBJC_CLASS_$_CPKPopoverView
+_OBJC_METACLASS_$_CPKPopoverController
+_OBJC_METACLASS_$_CPKPopoverView
+_OBJC_METACLASS_$_CPKBottomView
+_OBJC_CLASS_$_CPKSearchFieldEditor
+_OBJC_METACLASS_$_CPKSearchFieldEditor
+_OBJC_CLASS_$_CPKSearchFieldCell
+_OBJC_CLASS_$_CPKSearchField
+_OBJC_METACLASS_$_CPKSearchField
+_OBJC_METACLASS_$_CPKSearchFieldCell
+_OBJC_CLASS_$_CPKSearchView
+_OBJC_METACLASS_$_CPKSearchView
+_OBJC_CLASS_$_CPKDataProvider
+_OBJC_METACLASS_$_CPKDataProvider
+_OBJC_CLASS_$_CPKPreferences
+_OBJC_METACLASS_$_CPKPreferences
+_OBJC_CLASS_$_CPKCategoriesView
+_OBJC_CLASS_$_CPKCategorySwitchCell
+_OBJC_METACLASS_$_CPKCategoriesView
+_OBJC_METACLASS_$_CPKCategorySwitchCell
+_OBJC_CLASS_$_CPKBaseMatrix
+_OBJC_METACLASS_$_CPKBaseMatrix
+_OBJC_CLASS_$_CPKBaseMatrixCell
+_OBJC_METACLASS_$_CPKBaseMatrixCell
+_OBJC_CLASS_$_CPCharacterDatabase
+_OBJC_METACLASS_$_CPCharacterDatabase
+-[CPCharacterDatabase searchCharacterInfo:].tagsInDB
++[CPSearchManager sharedSearchManager]._OnceToken
++[CPSearchManager sharedSearchManager]._SharedObj
+_MyFrameworkBundle._MyBundle
+_LocalizedStringForLanguage._CachedStringTable
+_LocalizedStringForLanguage._CachedBundleID
+_LocalizedStringForLanguage._CachedLanguage
+_LocalizedStringForLanguage._CachedTableName
+_IsWorkingInCharacterViewer._OnceToken
+_IsWorkingInCharacterViewer._WorkingInCharacterViewer
+_CPXPCConnection._OnceToken
+_CPXPCConnection._SserviceConnection
+_CPXPCQueue._OnceToken
+_CPXPCQueue._XPCQueue
+__DefaultDisplayFont._CustomDisplayFont
+-[CPKPopover _showPerformanceLog]._OnceToken
+-[CPKPopover _showPerformanceLog]._LogFlag
++[CPKDefaultDataSource _classGlobalBufferPtr]._CPKDefaultDataSourceGlobalPtr
++[CPKEmojiDataSource _classGlobalBufferPtr]._CPKEmojiDataSourceGlobalPtr
++[CPKPreferences sharedPreferences]._OnceToken
++[CPKPreferences sharedPreferences]._SharedObj
+__DisplayFontForEmoji._EmojiDisplayFont
++[CPCharacterDatabase sharedDatabase]._OnceToken
++[CPCharacterDatabase sharedDatabase]._SharedDatabase
+__ShowPopoverFinishTime
+__ShowPopoverStartTime
+_CPKCategoryTitleFavorites
+_CPKCategoryTitleMore
+_CPKCategoryTitleRecents
+_CPKCategoryTitleRecentsAndFavorites
+_CPKCategoryTitleSearch
+_CPKCategoryTitleSeparator
+_CPKCategoryTitleSpace
+_CPKCharacterPickerRecentsChangedNotification
+_CPKCharacterPickerWindowWillOpenNotification
+_CPKCharacterViewerWindowRevertToPickerNotification
+_CPKCharacterViewerWindowWillOpenNotification
+_OBJC_CLASS_$_CPKDefaultDataSource
+_OBJC_CLASS_$_CPKEmojiDataSource
+_OBJC_CLASS_$_CPKPopover
+_OBJC_CLASS_$_CPKStandardCharacterEntity
+_OBJC_CLASS_$_CPKWindow
+_OBJC_METACLASS_$_CPKDefaultDataSource
+_OBJC_METACLASS_$_CPKEmojiDataSource
+_OBJC_METACLASS_$_CPKPopover
+_OBJC_METACLASS_$_CPKStandardCharacterEntity
+_OBJC_METACLASS_$_CPKWindow
+_CFArrayAppendValue
+_CFArrayCreateMutableCopy
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFBooleanGetValue
+_CFDictionaryGetValue
+_CFMakeCollectable
+_CFNumberCreate
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyAppValue
+_CFPreferencesCopyKeyList
+_CFPreferencesGetAppBooleanValue
+_CFPreferencesGetAppIntegerValue
+_CFPreferencesSetAppValue
+_CFRelease
+_CGBitmapContextCreate
+_CGBitmapContextCreateImage
+_CGContextClipToMask
+_CGContextDrawLinearGradient
+_CGContextFillRect
+_CGContextSetBlendMode
+_CGContextSetGrayFillColor
+_CGGradientCreateWithColorComponents
+_CGGradientRelease
+_CGImageCreateWithImageInRect
+_CGImageGetHeight
+_CGImageGetWidth
+_CGRectMakeWithDictionaryRepresentation
+_CGRectNull
+_CGSGetPerformanceTotalUpdateCount
+_CGSMainConnectionID
+_CGWindowListCopyWindowInfo
+_CGWindowListCreateImage
+_CTFontCopyDefaultCascadeListForLanguages
+_CTFontCreateCopyWithAttributes
+_CTFontDescriptorCreateWithAttributes
+_CTFontDescriptorCreateWithNameAndSize
+_CTLineCreateWithAttributedString
+_CTLineGetGlyphCount
+_CTLineGetGlyphRuns
+_CTRunGetAttributes
+_CTRunGetGlyphs
+_CTRunGetStringIndices
+_NSAccessibilityChildrenAttribute
+_NSAccessibilityDescriptionAttribute
+_NSAccessibilityLinkedUIElementsAttribute
+_NSAccessibilityRoleDescriptionAttribute
+_NSAccessibilitySelectedChildrenAttribute
+_NSAccessibilityTitleAttribute
+_NSAccessibilityUnignoredAncestor
+_NSAccessibilityUnignoredDescendant
+_NSAccessibilityVisibleChildrenAttribute
+_NSApp
+_NSAppearanceNameVibrantLight
+_NSClassFromString
+_NSContainsRect
+_NSControlTextDidChangeNotification
+_NSDisableScreenUpdates
+_NSEnableScreenUpdates
+_NSFontAttributeName
+_NSInsetRect
+_NSIntersectionRect
+_NSIntersectsRect
+_NSIsEmptyRect
+_NSKeyValueChangeNewKey
+_NSLog
+_NSOffsetRect
+_NSPointInRect
+_NSPopoverCloseReasonDetachToWindow
+_NSPopoverCloseReasonKey
+_NSPopoverDidCloseNotification
+_NSPopoverDidShowNotification
+_NSRectFill
+_NSStringFromClass
+_NSUnionRect
+_NSViewAnimationEffectKey
+_NSViewAnimationEndFrameKey
+_NSViewAnimationFadeOutEffect
+_NSViewAnimationStartFrameKey
+_NSViewAnimationTargetKey
+_NSWindowDidBecomeKeyNotification
+_NSWindowDidResignKeyNotification
+_NSWindowWillCloseNotification
+_NSZeroPoint
+_NSZeroRect
+_NSZeroSize
+_OBJC_CLASS_$_NSAnimationContext
+_OBJC_CLASS_$_NSAppearance
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSBezierPath
+_OBJC_CLASS_$_NSBitmapImageRep
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSButton
+_OBJC_CLASS_$_NSButtonCell
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSColorSpace
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSFileWrapper
+_OBJC_CLASS_$_NSFont
+_OBJC_CLASS_$_NSGlyphInfo
+_OBJC_CLASS_$_NSGradient
+_OBJC_CLASS_$_NSGraphicsContext
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSImageView
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMatrix
+_OBJC_CLASS_$_NSMenuItem
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPanel
+_OBJC_CLASS_$_NSPopover
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSScreen
+_OBJC_CLASS_$_NSScrollView
+_OBJC_CLASS_$_NSScroller
+_OBJC_CLASS_$_NSSearchField
+_OBJC_CLASS_$_NSSearchFieldCell
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTextAttachment
+_OBJC_CLASS_$_NSTextAttachmentCell
+_OBJC_CLASS_$_NSTextField
+_OBJC_CLASS_$_NSTextView
+_OBJC_CLASS_$_NSToolbarItem
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSView
+_OBJC_CLASS_$_NSViewAnimation
+_OBJC_CLASS_$_NSViewController
+_OBJC_CLASS_$_NSVisualEffectView
+_OBJC_CLASS_$_NSWindow
+_OBJC_METACLASS_$_NSButtonCell
+_OBJC_METACLASS_$_NSMatrix
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSPanel
+_OBJC_METACLASS_$_NSPopover
+_OBJC_METACLASS_$_NSSearchField
+_OBJC_METACLASS_$_NSSearchFieldCell
+_OBJC_METACLASS_$_NSTextField
+_OBJC_METACLASS_$_NSTextView
+_OBJC_METACLASS_$_NSView
+_OBJC_METACLASS_$_NSViewController
+_OBJC_METACLASS_$_NSVisualEffectView
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+__xpc_error_connection_invalid
+__xpc_type_array
+__xpc_type_data
+__xpc_type_dictionary
+__xpc_type_error
+__xpc_type_string
+_asl_free
+_asl_log
+_asl_new
+_asl_set
+_calloc
+_ceil
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_floor
+_kCFBooleanTrue
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentApplication
+_kCFPreferencesCurrentUser
+_kCGWindowBounds
+_kCTFontCascadeListAttribute
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_copyStruct
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty
+_round
+_sqlite3_close
+_sqlite3_column_name
+_sqlite3_column_text
+_sqlite3_finalize
+_sqlite3_free
+_sqlite3_mprintf
+_sqlite3_open
+_sqlite3_prepare
+_sqlite3_step
+_strlen
+_u_hasBinaryProperty
+_u_isUWhiteSpace
+_u_isprint
+_utf8_back1SafeBody
+_utf8_nextCharSafeBody
+_xpc_array_append_value
+_xpc_array_create
+_xpc_array_get_count
+_xpc_array_get_value
+_xpc_bool_create
+_xpc_connection_create
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply
+_xpc_connection_send_message_with_reply_sync
+_xpc_connection_set_event_handler
+_xpc_data_get_bytes_ptr
+_xpc_data_get_length
+_xpc_dictionary_create
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_data
+_xpc_dictionary_set_string
+_xpc_dictionary_set_uint64
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_null_create
+_xpc_release
+_xpc_retain
+_xpc_string_create
+_xpc_string_get_string_ptr
+dyld_stub_binder

@@ -1,0 +1,416 @@
+-[BAGenericObjectNoDeleteOSAID dealloc]
+_applescript_allocateClass
++[BAObjectManager initialize]
++[BAObjectManager component]
++[BAObjectManager scriptComponentInstances]
++[BAObjectManager componentInstanceForClass:]
++[BAObjectManager setComponentInstance:forClass:]
++[BAObjectManager scriptOSAIDs]
++[BAObjectManager OSAIDForClass:]
++[BAObjectManager setOSAID:forClass:]
++[BAObjectManager objectForOSAID:inComponentInstance:]
++[BAObjectManager objectWithOSAID:inComponentInstance:]
++[BAObjectManager _debugLoggingLevel]
+-[NSBundle(AppleScriptObjectiveC) loadAppleScriptObjectiveCScripts]
++[BAObjectProto getComponentInstance]
+-[BAObjectProto _getComponentInstance]
+-[BAObjectProto getComponentInstance]
+-[BAObjectProto setComponentInstance:]
++[BAObjectProto getOSAID]
+-[BAObjectProto _getOSAID]
+-[BAObjectProto getOSAID]
+-[BAObjectProto setOSAID:]
+-[BAObjectProto dealloc]
+-[BAObjectProto finalize]
+-[BAObjectProto propertyNames]
+-[BAObjectProto _allProperties]
+-[BAObjectProto setterNames]
+-[BAObjectProto handlerNames]
+_applescript_copyMethodNames
++[BAObjectProto invokeScriptHandler:forObject:inComponentInstance:args:error:]
++[BAObjectProto invokeScriptHandler:args:error:]
+-[BAObjectProto invokeScriptHandler:args:error:]
++[BAObjectProto hasScriptHandler:]
+_osaidHasHandler
+-[BAObjectProto hasScriptHandler:]
+-[BAObjectProto hasScriptProperty:]
+-[BAObjectProto valueForUndefinedKey:]
+-[BAObjectProto setValue:forUndefinedKey:]
+-[BAObjectProto scriptHasGetter:]
+-[BAObjectProto scriptHasSetter:]
+-[BAObjectProto scriptRespondsToSelector:]
+-[BAObjectProto respondsToSelector:]
+-[BAObjectProto doesNotRecognizeSelector:]
+-[BAObjectProto methodSignatureForSelector:]
++[BAObjectProto forwardInvocation:]
+-[BAObjectProto forwardInvocation:]
+-[BAObjectProto dumpProperties:]
+-[BAObjectProto description]
+_impForEncoding
+_applescript_getMethodSignature
+_strprefix
+-[BAImmediateData initWithObject:]
+-[BAImmediateData dealloc]
+-[BAImmediateData __descriptor]
+-[BAImmediateData __shim]
+_descriptorForData
+_specifierForObjCInstance
+___objcInstanceForSpecifier_block_invoke
+-[NSInvocation(AppleScriptObjC) methodName]
+-[NSInvocation(AppleScriptObjC) referenceParameters]
+-[NSInvocation(AppleScriptObjC) addReferenceParameter:]
+-[NSInvocation(AppleScriptObjC) methodReturnType_m]
+-[NSInvocation(AppleScriptObjC) descriptorForFrameSlot:ofType:]
+-[NSInvocation(AppleScriptObjC) argumentDescriptorAtIndex:]
+___59-[NSInvocation(AppleScriptObjC) argumentDescriptorAtIndex:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSInvocation(AppleScriptObjC) argumentIdAtIndex:inComponent:]
+-[NSInvocation(AppleScriptObjC) returnValueAsDescriptor]
+___56-[NSInvocation(AppleScriptObjC) returnValueAsDescriptor]_block_invoke
+___copy_helper_block_236
+___destroy_helper_block_237
+-[NSInvocation(AppleScriptObjC) returnValueAsIdInComponent:]
+-[NSInvocation(AppleScriptObjC) _setArgumentWithDescriptor:atIndex:ofType:]
+-[NSInvocation(AppleScriptObjC) setArgumentWithDescriptor:atIndex:ofType:]
+-[NSInvocation(AppleScriptObjC) setArgumentWithDescriptor:atIndex:]
+-[NSInvocation(AppleScriptObjC) setArgumentWithId:inComponent:atIndex:]
+-[NSInvocation(AppleScriptObjC) setReturnValueWithDescriptor:]
+-[NSInvocation(AppleScriptObjC) setReturnValueWithId:inComponent:]
+-[NSInvocation(AppleScriptObjC) setNullReturnValue]
+-[BAFunctionInvocation initWithSignature:]
+-[BAFunctionInvocation dealloc]
++[BAFunctionInvocation invocationWithSignature:]
+-[BAFunctionInvocation setFunction:]
+-[BAFunctionInvocation setArgument:atIndex:withEncoding:]
+_ffi_type_for_encoding
+_setPointerAtIndex
+-[BAFunctionInvocation setArgument:atIndex:]
+-[BAFunctionInvocation invoke]
+-[BAFunctionInvocation getReturnValue:]
+-[BAFunctionInvocation(AppleScriptObjC) referenceParameters]
+-[BAFunctionInvocation(AppleScriptObjC) addReferenceParameter:]
+-[BAFunctionInvocation(AppleScriptObjC) _setArgumentWithDescriptor:atIndex:]
+-[BAFunctionInvocation(AppleScriptObjC) setArgumentWithDescriptor:atIndex:]
+-[BAFunctionInvocation(AppleScriptObjC) returnValueAsDescriptor]
+-[BAReferenceParameter initWithEncoding:]
+-[BAReferenceParameter initWithEncoding:modifier:]
+-[BAReferenceParameter dealloc]
+-[BAReferenceParameter storage]
+-[BAReferenceParameter descriptor]
+-[BAReferenceParameter modifier]
+_specifierForCPointer
+_Invoke
+_AEGetParamDescriptor
+___ApplicationSetDataHandler_block_invoke
+_set_data_retaining
+___copy_helper_block_
+___destroy_helper_block_
+___ApplicationSetDataHandler_block_invoke24
+___copy_helper_block_25
+___destroy_helper_block_26
+_ProcessSpecifierException
+__description
++[NSAppleEventDescriptor(AppleScriptObjC) descriptorWithFloat:]
++[NSAppleEventDescriptor(AppleScriptObjC) descriptorWithDouble:]
++[NSAppleEventDescriptor(AppleScriptObjC) descriptorWithInt64:]
+-[NSAppleEventDescriptor(AppleScriptObjC) floatValue]
+-[NSAppleEventDescriptor(AppleScriptObjC) doubleValue]
+-[NSAppleEventDescriptor(AppleScriptObjC) uint32Value]
+-[NSAppleEventDescriptor(AppleScriptObjC) int64Value]
+-[NSAppleEventDescriptor(AppleScriptObjC) uint64Value]
+-[NSAppleEventDescriptor(AppleScriptObjC) integerValue]
+-[NSAppleEventDescriptor(AppleScriptObjC) unsignedIntegerValue]
+-[NSAppleEventDescriptor(AppleScriptObjC) desiredClass]
+-[NSAppleEventDescriptor(AppleScriptObjC) keyForm]
+-[NSAppleEventDescriptor(AppleScriptObjC) keyData]
+-[NSAppleEventDescriptor(AppleScriptObjC) container]
+-[NSAppleEventDescriptor(AppleScriptObjC) descriptorForKeyname:]
+-[BAFunctionSignature init]
+-[BAFunctionSignature numberOfArguments]
+-[BAFunctionSignature getArgumentTypeAtIndex:]
+-[BAFunctionSignature getArgumentModifierAtIndex:]
+-[BAFunctionSignature returnType]
+-[BAFunctionSignature setReturnType:]
+-[BAFunctionSignature argTypes]
+-[BAFunctionSignature setArgTypes:]
+-[BAFunctionSignature argModifiers]
+-[BAFunctionSignature setArgModifiers:]
+-[BAFunctionSignature isVariadic]
+-[BAFunctionSignature setIsVariadic:]
+-[BAXMLContext initWithManager:]
+-[BAXMLContext dealloc]
+-[BAXMLContext parser:didStartElement:namespaceURI:qualifiedName:attributes:]
+-[BAXMLContext parser:didEndElement:namespaceURI:qualifiedName:]
++[BAMetadataManager sharedManager]
+-[BAMetadataManager addMethodsFromProtocol:isInstanceMethod:isRequiredMethod:]
+-[BAMetadataManager addMethodsFromAllProtocols]
+-[BAMetadataManager init]
+-[BAMetadataManager dealloc]
+-[BAMetadataManager pathForBridgeSupportOfType:inBundle:]
+-[BAMetadataManager loadMetadataFromBundle:error:]
+-[BAMetadataManager loadMetadataForJustLoadedBundle:]
+-[BAMetadataManager constantValueForName:]
+-[BAMetadataManager signatureForProtocolInstanceSelector:]
+-[BAMetadataManager signatureForProtocolClassSelector:]
+-[BAMetadataManager signatureForCFunction:]
+GCC_except_table31
+GCC_except_table50
+GCC_except_table2
+GCC_except_table3
+GCC_except_table15
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp225
+___block_descriptor_tmp239
+___block_descriptor_tmp
+___block_descriptor_tmp28
++[BAObjectManager _debugLoggingLevel].level
+_ffi_type_for_encoding.NSRange_elements_
+_ffi_type_for_encoding.ffi_type_NSRange
+_ffi_type_for_encoding.NSSize_elements_
+_ffi_type_for_encoding.ffi_type_NSSize
+_ffi_type_for_encoding.NSPoint_elements_
+_ffi_type_for_encoding.ffi_type_NSPoint
+_ffi_type_for_encoding.NSRect_elements_
+_ffi_type_for_encoding.ffi_type_NSRect
++[BAObjectManager component]._ci
++[BAObjectManager scriptComponentInstances]._scriptComponentInstances
++[BAObjectManager scriptOSAIDs]._scriptOSAIDs
+_BAReferenceParameterKey
+_IsAddressedToCurrentProcess.selfPSN
++[BAMetadataManager sharedManager]._sharedMetadataManager
+_AddressOfSymbol
+_BAActiveProc
+_BACreateClassForOSAIDInComponent
+_BAHandleEvent
+_BAHandleEventInternal
+_BAObjCIDForOSAIDInComponent
+_BAResumeProc
+_BASendProc
+_OBJC_CLASS_$_BAFunctionInvocation
+_OBJC_CLASS_$_BAFunctionSignature
+_OBJC_CLASS_$_BAGenericObject
+_OBJC_CLASS_$_BAGenericObjectNoDeleteOSAID
+_OBJC_CLASS_$_BAImmediateData
+_OBJC_CLASS_$_BAMetadataManager
+_OBJC_CLASS_$_BAObjectManager
+_OBJC_CLASS_$_BAObjectProto
+_OBJC_CLASS_$_BAReferenceParameter
+_OBJC_CLASS_$_BAXMLContext
+_OBJC_IVAR_$_BAFunctionInvocation._arg_types
+_OBJC_IVAR_$_BAFunctionInvocation._arg_values
+_OBJC_IVAR_$_BAFunctionInvocation._function
+_OBJC_IVAR_$_BAFunctionInvocation._references
+_OBJC_IVAR_$_BAFunctionInvocation._rsize
+_OBJC_IVAR_$_BAFunctionInvocation._rvalue
+_OBJC_IVAR_$_BAFunctionInvocation._seen_arg_max
+_OBJC_IVAR_$_BAFunctionInvocation._signature
+_OBJC_IVAR_$_BAFunctionSignature._argModifiers
+_OBJC_IVAR_$_BAFunctionSignature._argTypes
+_OBJC_IVAR_$_BAFunctionSignature._isVariadic
+_OBJC_IVAR_$_BAFunctionSignature._returnType
+_OBJC_IVAR_$_BAGenericObject.m_ci
+_OBJC_IVAR_$_BAGenericObject.m_oid
+_OBJC_IVAR_$_BAImmediateData._obj
+_OBJC_IVAR_$_BAMetadataManager._constants
+_OBJC_IVAR_$_BAMetadataManager._enums
+_OBJC_IVAR_$_BAMetadataManager._functions
+_OBJC_IVAR_$_BAMetadataManager._protocol_classMethods
+_OBJC_IVAR_$_BAMetadataManager._protocol_instanceMethods
+_OBJC_IVAR_$_BAMetadataManager._retvals
+_OBJC_IVAR_$_BAReferenceParameter._encoding
+_OBJC_IVAR_$_BAReferenceParameter._modifier
+_OBJC_IVAR_$_BAReferenceParameter._storage
+_OBJC_IVAR_$_BAXMLContext._currentArgDepth
+_OBJC_IVAR_$_BAXMLContext._currentClass
+_OBJC_IVAR_$_BAXMLContext._currentFunction
+_OBJC_IVAR_$_BAXMLContext._currentMethod
+_OBJC_IVAR_$_BAXMLContext._currentProtocol
+_OBJC_IVAR_$_BAXMLContext._currentSignature
+_OBJC_IVAR_$_BAXMLContext._m
+_OBJC_IVAR_$_BAXMLContext._retvals
+_OBJC_METACLASS_$_BAFunctionInvocation
+_OBJC_METACLASS_$_BAFunctionSignature
+_OBJC_METACLASS_$_BAGenericObject
+_OBJC_METACLASS_$_BAGenericObjectNoDeleteOSAID
+_OBJC_METACLASS_$_BAImmediateData
+_OBJC_METACLASS_$_BAMetadataManager
+_OBJC_METACLASS_$_BAObjectManager
+_OBJC_METACLASS_$_BAObjectProto
+_OBJC_METACLASS_$_BAReferenceParameter
+_OBJC_METACLASS_$_BAXMLContext
+_dataForDescriptor
+_descriptorForObject
+_gOriginalRefcon
+_gOriginalSendProc
+_mungeCPointer
+_objcInstanceForSpecifier
+_objectForData
+_objectForDescriptor
+_shimForObject
+_unqualified_type_encoding
+_AECountItems
+_AECreateAppleEvent
+_AECreateDesc
+_AEDisposeDesc
+_AEDuplicateDesc
+_AEGetAttributePtr
+_AEGetDescData
+_AEGetDescDataSize
+_AEGetNthDesc
+_AEGetParamDesc
+_AEGetParamPtr
+_AEPutParamDesc
+_AEPutParamPtr
+_AESizeOfParam
+_CFRelease
+_CFRetain
+_CFStringCreateWithBytes
+_CreateObjSpecifier
+_FSPathMakeRef
+_GetCurrentProcess
+_NSAllocateCollectable
+_NSBundleDidLoadNotification
+_NSClassFromString
+_NSFilePathErrorKey
+_NSGetSizeAndAlignment
+_NSInternalInconsistencyException
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLog
+_NSOSStatusErrorDomain
+_NSPOSIXErrorDomain
+_NSRangeException
+_NSSelectorFromString
+_NSStringFromClass
+_NSStringFromSelector
+_NSUndefinedKeyException
+_NSZoneFree
+_OBJC_CLASS_$_NSAppleEventDescriptor
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSMethodSignature
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPointerArray
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSXMLParser
+_OBJC_EHTYPE_$_NSException
+_OBJC_EHTYPE_id
+_OBJC_METACLASS_$_NSObject
+_OSACoerceFromDesc
+_OSACoerceToDesc
+_OSACopyScript
+_OSACopySourceString
+_OSADispose
+_OSAExecuteEvent
+_OSAGetHandler
+_OSAGetHandlerNames
+_OSAGetProperty
+_OSAGetPropertyNames
+_OSAGetScriptInfo
+_OSAGetSendProc
+_OSALoadFile
+_OSAScriptError
+_OSASetActiveProc
+_OSASetProperty
+_OSASetResumeDispatchProc
+_OSASetScriptInfo
+_OSASetSendProc
+_OpenDefaultComponent
+__Block_object_assign
+__Block_object_dispose
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSMethodExceptionProem
+__Unwind_Resume
+___CFConstantStringClassReference
+___error
+___maskrune
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___strlcat_chk
+___strlcpy_chk
+__objc_empty_cache
+__objc_msgForward
+__objc_msgForward_stret
+_bzero
+_class_addIvar
+_class_addMethod
+_class_copyMethodList
+_class_getClassMethod
+_class_getInstanceMethod
+_class_getInstanceVariable
+_class_isMetaClass
+_dlerror
+_dlopen
+_dlsym
+_ffi_call
+_ffi_prep_cif
+_ffi_type_double
+_ffi_type_float
+_ffi_type_pointer
+_ffi_type_sint16
+_ffi_type_sint32
+_ffi_type_sint64
+_ffi_type_sint8
+_ffi_type_uint16
+_ffi_type_uint32
+_ffi_type_uint64
+_ffi_type_uint8
+_ffi_type_void
+_fprintf
+_free
+_ivar_getOffset
+_malloc
+_memcpy
+_method_getImplementation
+_method_getName
+_method_getTypeEncoding
+_msgtracer_log_with_keys
+_objc_allocateClassPair
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_atomicCompareAndSwapGlobalBarrier
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_begin_catch
+_objc_copyProtocolList
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getAssociatedObject
+_objc_getClass
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_registerClassPair
+_objc_setAssociatedObject
+_objc_setProperty
+_objc_terminate
+_object_getClass
+_object_getInstanceVariable
+_protocol_copyMethodDescriptionList
+_sel_getName
+_sel_registerName
+_strcmp
+_strlen
+_strncmp
+dyld_stub_binder

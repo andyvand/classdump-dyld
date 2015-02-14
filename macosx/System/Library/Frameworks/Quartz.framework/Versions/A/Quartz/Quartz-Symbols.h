@@ -1,0 +1,3 @@
+_QuartzVersionNumber
+_QuartzVersionString
+dyld_stub_binder

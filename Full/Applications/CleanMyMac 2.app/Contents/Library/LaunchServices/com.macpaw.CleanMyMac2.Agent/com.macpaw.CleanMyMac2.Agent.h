@@ -1,0 +1,17 @@
+#import <com.macpaw.CleanMyMac2.Agent/CMServiceManagementRemover.h>
+#import <com.macpaw.CleanMyMac2.Agent/CMTaskRunner.h>
+#import <com.macpaw.CleanMyMac2.Agent/CMLaunchdManager.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogger.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogBasicFormatter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogStandardFormatter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogLevelFilter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogNoFilter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogAllowedLevelFilter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogMininumLevelFilter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogMaximumLevelFilter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogASLWriter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLogASLFormatter.h>
+#import <com.macpaw.CleanMyMac2.Agent/GTMLoggerASLClient.h>
+#import <com.macpaw.CleanMyMac2.Agent/CMDitoTask.h>
+#import <com.macpaw.CleanMyMac2.Agent/CMPkgutilTask.h>
+#import <com.macpaw.CleanMyMac2.Agent/CMKextManager.h>

@@ -1,0 +1,3987 @@
++[VideoConferenceController initialize]
+_DLCreateHandle
+_DLCloseHandle
+_DLCountActiveDialogs
+_DLCloseHandleAll
+_DLFinish
+_DLUpdate
+_DLFindWithSipMsgAndLock
+_MatchSipMsgAndLock
+_DLFindWithCallIDAndLock
+_MatchCallIDAndLock
+_DLFindActiveDialogs
+_FindActive
+_DLWaitForActiveDialog
+_DLGetData
+_DLActiveDialogReady
+_DLStopWaitForActiveDialog
+_CountActive
+_DLUnlock
+_DLSetConfIndex
+_DLGetIsRemoteFocus
+_DLSetState
+_DLGetState
+_DLGetCallID
+_DLSetAck
+_DLGetAck
+_DLGetCSReported
+_DLSetCSReported
+_DLPutMsg
+_DLGetMsg
+_DLIncreaseLocalSeq
+_DLSetMediaType
+_DLSetDoingKeyExchange
+_DLGetDoingKeyExchange
+_DLGetConfIndex
+_DLGetSubscribed
+_DLSetSubscribed
+_DLGetSIPPing
+_DLSetSIPPing
+_GetNATIPNetmask
+_GetNetworkAddress
+_MakeIPPORT
+_SAToIPPORT
+_InterpretAddressX
+_IPPORTToString
+_IPToString
+_IPToStringWithBrackets
+_MakeAddress
+_MakeAddressID
+_GetLocalInterfaceList
+_FreeLocalInterfaceList
+_GetNetworkID
+_IPPORTToSA
+_IPPORTToSA6
+_IsIPPORTValid
+_htonIPPORT
+_ntohIPPORT
+_GetIFIndexForDefaultRoute
+_get_rtaddrs
+_GetLocalIFIndexForDstIPPort
+_IsBoundSocketEquivalentToIPPort
+_CompareWithFlippedIP
+_FlipIP
+_MQCreateHandle
+_MQCloseHandle
+_MQPut
+_MQGet
+_MQDeleteAt
+_SIPCallback
+_GetLine
+_ParseMessage
+_ParseUnsupported
+_ParseAcceptHdr
+_ParseAllowHdr
+_ParseAllowEventsHdr
+_ParseCallIDHdr
+_ParseContactHdr
+_ParseContentLengthHdr
+_ParseContentTypeHdr
+_ParseCSeqHdr
+_ParseEventHdr
+_ParseExpiresHdr
+_ParseFromHdr
+_ParseMaxForwardsHdr
+_ParseMinExpiresHdr
+_ParseReferToHdr
+_ParseSubscriptionStateHdr
+_ParseToHdr
+_ParseUserAgentHdr
+_ParseViaHdr
+_ParseSKESeqHdr
+_ParseXCallIDHdr
+_ParseHeader
+_ConstructAcceptHdr
+_ConstructAllowHdr
+_ConstructAllowEventsHdr
+_ConstructCallIDHdr
+_ConstructContactHdr
+_ConstructContentLengthHdr
+_ConstructContentTypeHdr
+_ConstructCSeqHdr
+_ConstructEventHdr
+_ConstructExpiresHdr
+_ConstructFromHdr
+_ConstructMaxForwardsHdr
+_ConstructMinExpiresHdr
+_ConstructReferToHdr
+_ConstructSubscriptionStateHdr
+_ConstructToHdr
+_ConstructUserAgentHdr
+_ConstructViaHdr
+_ConstructSKESeqHdr
+_ConstructXCallIDHdr
+_CreateAcceptHdr
+_CreateAllowHdr
+_CreateAllowEventsHdr
+_CreateCallIDHdr
+_CreateContactHdr
+_CreateContentLengthHdr
+_CreateContentTypeHdr
+_CreateCSeqHdr
+_CreateEventHdr
+_CreateExpiresHdr
+_CreateFromHdr
+_CreateMaxForwardsHdr
+_CreateMinExpiresHdr
+_CreateReferToHdr
+_CreateSubscriptionStateHdr
+_CreateToHdr
+_CreateUserAgentHdr
+_CreateViaHdr
+_CreateSKESeqHdr
+_CreateXCallIDHdr
+_CopySipHeader
+_ReplaceKeyword
+_PrintSipMsg
+_CreateNonStd
+_CreateInvite
+_FreeSipMsg
+_GenerateBranch
+_CreateAck
+_CreateCancel
+_CreateBye
+_CreateMessageInDialog
+_CreateBinaryMessageInDialog
+_CreateSKEMessageInDialog
+_CreateSubscribe
+_CreateNotify
+_CreateRefer
+_CreateGenericStatus
+_CreateStatus
+_ConstructSipMsg
+_AssignHeader
+_MatchSipMsgs
+_ParseSipUri
+_ConstructUri
+_CompareUri
+_GetStatusCode
+_GetIntStatusCode
+_GetStatusMsg
+_GetTickCount
+_TACreateHandle
+_TACloseHandle
+_TASend
+_TACancel
+_TAStart
+_TAInviteClientProc
+_TANonInviteClientProc
+_TAInviteServerProc
+_TANonInviteServerProc
+_TAMsgCallback
+_TPCreateHandle
+_TPSendUDPPacket
+_TPRecvUDPPacketWithTimeout
+_TPCloseHandle
+_TPListen
+_UpdateDNSSDMappings
+_TPSend
+_TPAddTransaction
+_TPRemoveTransaction
+_TPGetType
+_TPStartHeartbeat
+_TPStopHeartbeat
+_TPFindMatchingHeartbeat
+_TPFindLocalIPPortForDefaultRoute
+_FindLocalIPPortForDefaultRoute
+_TPFindLocalIPPortForDstIPPort
+_TPFindSrcIPPortForLocalAndDstIPPort
+_TPGetIPInfo
+_TPGetConnectionData
+_TPGetCallIDForConnectionData
+_TPStartConnectionCheck
+_RemoveFromCListRTP
+_TPGetConnectionResultAFOnly
+_TPGetConnectionResultSrcIPPort
+_TPGetConnectionResult
+_TPDiscardConnectionResult
+_TPRefreshRelayBinding
+_TPDiscardRelayBinding
+_TPGetRelayExtIPPort
+_TPIsRelayConference
+_TPUpdatePreservedPortBindCallID
+_TPRemovePreservedPortBindForCallID
+_TPUpdateInterfaceList
+_CreateSocketAndBind
+_TPRecvProc
+_SendHBs
+_RecvMessageUDP
+_SendHBProc
+_AddToCListRTP
+_SendUDPPacket
+_SendUDPPacketForCList
++[SIPManager SIPManager]
+-[SIPManager initWithTransportProtocol:]
+-[SIPManager init]
+-[SIPManager dealloc]
+-[SIPManager localSIPPortAtIndex:]
+-[SIPManager localIPAddressAtIndex:]
+-[SIPManager externalSIPPortAtIndex:]
+-[SIPManager externalIPAddressAtIndex:]
+-[SIPManager createHandle]
+-[SIPManager listen:]
+-[SIPManager connectUsingData:fromName:to:SDPInfo:callID:rtpHandles:forConfIndex:]
+_trimRight
+-[SIPManager connect:to:ip:SIPPort:SDPInfo:callID:rtpInfo:]
+-[SIPManager hangup:]
+-[SIPManager cancelConnect:]
+-[SIPManager connectIncoming:]
+-[SIPManager sendMessage:toCallID:]
+-[SIPManager sendMessage:toAllExceptCallID:]
+-[SIPManager closeCall:]
+-[SIPManager remoteUserAgentForCallID:]
+-[SIPManager getRemoteInfo:]
+-[SIPManager getRemoteUserAgent]
+-[SIPManager getRemoteDisplayName]
+-[SIPManager remoteUserAgentIsWindowsClient]
+-[SIPManager ViceroyUserAgent:isGreaterThanVersion:]
+-[SIPManager localUserAgent]
+-[SIPManager setIsFocus:]
+-[SIPManager setSIPPing:forCallID:]
+-[SIPManager isCurrentFocus]
+-[SIPManager isRemoteFocus:]
+-[SIPManager updateInterfaceList]
+-[SIPManager getConnectionDataForCallID:shouldFindExternalIP:pRelayIntIPPort:localUserName:]
+-[SIPManager getConnectionDataForCallID:shouldFindExternalIP:pRelayIntIPPort:localUserName:tryPreservedPort:]
+-[SIPManager discardRelayBinding:]
+-[SIPManager generateCallID:]
+-[SIPManager getConnectionResultAFOnly:addrFamily:]
+-[SIPManager getConnectionResultSrcIPPort:pSrcIPPort:]
+-[SIPManager discardPreseverdPortBindingForCallID:]
+-[SIPManager startConnectionCheck:withConnectionData:remoteRelayID:]
+-[SIPManager connectWithCallID:fromName:to:SDPInfo:rtpHandles:forConfIndex:]
+-[SIPManager getCallIDForConnectionData:]
+-[SIPManager getIPInfoWithRemoteIPInfo:remoteIPInfoSize:]
+-[SIPManager getIPInfoWithRemoteIPInfo:remoteIPInfoSize:shouldFindExternalIP:]
+-[SIPManager getRelayExtIPPort:pRelayExt:]
+-[SIPManager isRelayConference:]
+-[SIPManager disableSIPMessage]
+-[SIPManager enableSIPMessage]
+-[SIPManager activeDialogReady]
+_ViceroyDefaultSIPPort
+_ViceroyDefaultVTPPort
+_ViceroyDefaultVTPMode
+-[VCNotificationGateway init]
+-[VCNotificationGateway dealloc]
+-[VCNotificationGateway startMonitor]
+-[VCNotificationGateway endMonitor]
+-[VCNotificationGateway setIgnoreNoRemotePackets:]
+-[VCNotificationGateway ignoreNoRemotePackets]
+-[VideoConferenceController setDelegate:]
+-[VideoConferenceController delegate]
+-[VideoConferenceController setRenderDelegate:]
+-[VideoConferenceController renderDelegate]
+-[VideoConferenceController resetVars]
+-[VideoConferenceController freeVars]
+-[VideoConferenceController cpuUpdateProc:]
+-[VideoConferenceController doInitialCPUUpdate]
+-[VideoConferenceController updateCPUPower:cpuCount:scheduleLimit:]
+-[VideoConferenceController init]
+-[VideoConferenceController initWithRectTexture:]
+_localCVBufferCallback
+_remoteCVBufferCallback
+_resizeCVBufferCallback
+-[VideoConferenceController setRectTexture:]
+-[VideoConferenceController setCPUResize:]
+-[VideoConferenceController initWithLocalIPAddress:]
+-[VideoConferenceController setLocalIPAddress:]
+-[VideoConferenceController localIPAddress]
+-[VideoConferenceController setUserName:]
+-[VideoConferenceController userName]
+-[VideoConferenceController setAllowsVideo:]
+-[VideoConferenceController allowsVideo]
+-[VideoConferenceController setAllowsAudio:]
+-[VideoConferenceController allowsAudio]
+-[VideoConferenceController setAllowsVideoSend:]
+-[VideoConferenceController allowsVideoSend]
+-[VideoConferenceController setAllowsAudioSend:]
+-[VideoConferenceController allowsAudioSend]
+-[VideoConferenceController setAllowsVideoRecv:]
+-[VideoConferenceController allowsVideoRecv]
+-[VideoConferenceController setAllowsAudioRecv:]
+-[VideoConferenceController allowsAudioRecv]
+-[VideoConferenceController setBitrate:]
+-[VideoConferenceController bitrate]
+-[VideoConferenceController setFramerate:]
+-[VideoConferenceController framerate]
+-[VideoConferenceController setKeyrate:]
+-[VideoConferenceController keyrate]
+-[VideoConferenceController setOptimalImageSize:]
+-[VideoConferenceController optimalImageSize]
+-[VideoConferenceController setMaxBitrate:]
+-[VideoConferenceController maxBitrate]
+-[VideoConferenceController setMaxFramerate:]
+-[VideoConferenceController maxFramerate]
+-[VideoConferenceController setEnableEchoCancellation:]
+-[VideoConferenceController enableEchoCancellation]
+-[VideoConferenceController setEnableNoiseReduction:]
+-[VideoConferenceController enableNoiseReduction]
+-[VideoConferenceController setIgnoreNoRemotePackets:]
+-[VideoConferenceController ignoreNoRemotePackets]
+-[VideoConferenceController localSIPPort]
+-[VideoConferenceController externalSIPPort]
+-[VideoConferenceController externalIPAddress]
+-[VideoConferenceController dealloc]
+-[VideoConferenceController setRemoteUserName:]
+-[VideoConferenceController remoteUserName]
+-[VideoConferenceController canStartPreview]
+-[VideoConferenceController startPreview]
+-[VideoConferenceController fixCameraProperties:]
+-[VideoConferenceController fixCameraFeature:isFixed:]
+-[VideoConferenceController setAudioQuality:]
+-[VideoConferenceController audioQuality]
+-[VideoConferenceController setAutoDetectBandwidth:]
+-[VideoConferenceController autoDetectBandwidth]
+-[VideoConferenceController setDoNotDisturb:]
+-[VideoConferenceController doNotDisturb]
+-[VideoConferenceController cancelInitiatedConferenceCallWithRemoteIPAddress:remoteSIPPort:]
+-[VideoConferenceController DoVCIncomingConference:]
+-[VideoConferenceController muteParty:shouldMute:]
+___50-[VideoConferenceController muteParty:shouldMute:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[VideoConferenceController isPartyMuted:]
+-[VideoConferenceController pauseParty:shouldPause:]
+___52-[VideoConferenceController pauseParty:shouldPause:]_block_invoke
+___copy_helper_block_399
+___destroy_helper_block_400
+-[VideoConferenceController isPartyPaused:]
+-[VideoConferenceController setAudioVolume:]
+-[VideoConferenceController audioVolume]
+-[VideoConferenceController VCSendMessageProc:]
+-[VideoConferenceController handleWorkspaceNotification:]
+-[VideoConferenceController handleFrameworkNotification:]
+-[VideoConferenceController cancelPreview]
+-[VideoConferenceController setMicrophoneGain:]
+-[VideoConferenceController microphoneGain]
+-[VideoConferenceController microphoneLevel]
+-[VideoConferenceController speakerLevel]
+-[VideoConferenceController upstreamBandwidthToUserID:]
+-[VideoConferenceController upstreamAudioBandwidthToUserID:]
+-[VideoConferenceController openCamera]
+-[VideoConferenceController closeCamera]
++[VideoConferenceController newcameraList]
+-[VideoConferenceController selectCameraByGUID:]
+-[VideoConferenceController selectCameraWithTundraDeviceID:]
+-[VideoConferenceController selectCameraWithCMIODeviceID:]
+-[VideoConferenceController selectedCamera]
++[VideoConferenceController cameraList]
+-[VideoConferenceController selectCamera:]
+-[VideoConferenceController cameraName]
++[VideoConferenceController microphoneList]
+-[VideoConferenceController selectMicrophone:]
+-[VideoConferenceController selectedMicrophone]
++[VideoConferenceController micList]
+-[VideoConferenceController findMovieMic]
+-[VideoConferenceController selectMic:]
+-[VideoConferenceController micName]
++[VideoConferenceController speakerList]
+-[VideoConferenceController selectSpeaker:]
+-[VideoConferenceController selectedSpeaker]
++[VideoConferenceController soundOutputDeviceList]
+-[VideoConferenceController selectSoundOutputDevice:]
+-[VideoConferenceController soundOutputDeviceName]
+-[VideoConferenceController setColor:]
+-[VideoConferenceController color]
+-[VideoConferenceController setBrightness:]
+-[VideoConferenceController brightness]
+-[VideoConferenceController setContrast:]
+-[VideoConferenceController contrast]
+-[VideoConferenceController setFocus:]
+-[VideoConferenceController focus]
+-[VideoConferenceController setSharpness:]
+-[VideoConferenceController sharpness]
+-[VideoConferenceController setLightingProfile:]
+-[VideoConferenceController lightingProfile]
+-[VideoConferenceController iChatWillFileTransfer]
+-[VideoConferenceController iChatDidFileTransfer]
+-[VideoConferenceController snatmapDataObj]
+-[VideoConferenceController setSNATMAPData:]
+-[VideoConferenceController properConfIndexForUser:]
+-[VideoConferenceController getErrorReport]
+-[VideoConferenceController shutdownAV]
+-[VideoConferenceController releaseRouterMappings]
+-[VideoConferenceController(private_methods) createVTPAndGetRealPort:forInterface:]
+-[VideoConferenceController(private_methods) createUPnPMappings]
+-[VideoConferenceController(private_methods) getNATMappedPorts:numPortsOut:]
+-[VideoConferenceController(private_methods) setAudioAndVideoPayload:forConferenceIndex:forUserAgent:]
+-[VideoConferenceController(private_methods) setAudioAndVideoPayload:forConferenceIndex:forUserAgent:forPeerSDP:]
+-[VideoConferenceController(private_methods) getSIPDataAndIPListFromRemoteIPAndPortData:ipList:]
+-[VideoConferenceController(private_methods) hasCamera]
+-[VideoConferenceController(private_methods) _openCamera]
+-[VideoConferenceController(private_methods) _closeCamera]
+-[VideoConferenceController(private_methods) _selectCameraByGUID:]
+-[VideoConferenceController(private_methods) _selectCameraWithCMIODeviceID:]
+-[VideoConferenceController(private_methods) _selectedCamera]
+-[VideoConferenceController(private_methods) setConferenceBitrate:]
+-[VideoConferenceController(private_methods) currentCameraName]
+-[VideoConferenceController(private_methods) setCurrentCameraName:]
+-[VideoConferenceController(private_methods) currentCameraGUID]
+-[VideoConferenceController(private_methods) setCurrentCameraGUID:]
+-[VideoConferenceController(private_methods) currentCameraDeviceID]
+-[VideoConferenceController(private_methods) setCurrentCameraDeviceID:]
+-[VideoConferenceController(private_methods) processCVPixelBuffer:intoCVPixelBuffer:withHint:]
+-[VideoConferenceController(private_methods) setInternalSamplingRateFromDefaults]
+-[VideoConferenceController(private_methods) selectMovieMic]
+-[VideoConferenceController(private_methods) discardPreservedPortBindingForCallID:]
+_localIPAddress
+_cameraUnplugCallback
+___VideoConferenceInit_block_invoke
+_GetPatInOrderForInterfaceIndex
+_postMessage
+_postMessageWithDictionary
+_setValidHeightForWidth
+-[CallBackData callBackData]
+-[CallBackData initWithCallBackData:]
+-[CallBackData init]
+-[CallBackData resetData]
++[VCStateMgr defaultStateMgr]
+-[VCStateMgr init]
+-[VCStateMgr dealloc]
+-[VCStateMgr stateName:]
+-[VCStateMgr setStateAndLock:from:]
+-[VCStateMgr setStateUnlock]
+-[VCStateMgr state]
+-[VCStateMgr lock]
+-[VCStateMgr unlock]
+-[VCStateMgr setHardwareCaps:]
+-[VCStateMgr hardwareCaps]
++[VCCallMgr defaultCallMgr]
+-[VCCallMgr init]
+-[VCCallMgr dealloc]
+-[VCCallMgr addCall:withData:]
+-[VCCallMgr getCallData:]
+-[VCCallMgr existCallID:]
+-[VCCallMgr acceptCallID:]
+-[VCCallMgr cancelCallID:]
+-[VCCallMgr size]
+-[VCCallMgr addOutgoingCall:]
+-[VCCallMgr existOutgoingCallID:andRemove:]
+-[VCCallMgr hangupCall:]
+-[VCCallMgr finishedCallHangup:]
+-[VCCallMgr setCurCallID:]
+-[VCCallMgr curCallID]
+-[VCCallMgr getIncrementedCallIDIter]
+-[VCCallMgr callIDIter]
+-[VCCallMgr globalAttributesDictionary]
+-[VCCallMgr microphoneDevice]
+-[VCCallMgr speakerDevice]
+-[VCCallMgr setSpeakerDevice:]
+-[VCCallMgr setRTPHandles:]
+-[VCCallMgr RTPHandles]
+-[VCCallMgr startCallTimer]
+-[VCCallMgr callStartTime]
+-[VCCallMgr endCallTimer]
+-[VCCallMgr lastCallDuration]
+-[VCCallMgr BWDThreadRunning]
+-[VCCallMgr setBWDThreadRunning:]
+-[VCCallMgr setLocalUserName:]
+-[VCCallMgr localUserName]
+-[VCCallMgr userIDToCallIDMap]
+-[VCCallMgr confIndexFromMapForUserID:]
+-[VCCallMgr callIDFromMapForUserID:]
+-[VCCallMgr setPeerToPeerInfoInMapForUserID:payload:transmitWidth:transmitHeight:transmitBitrate:transmitFramerate:]
+-[VCCallMgr peerToPeerInfoFromMapForUserID:payload:transmitWidth:transmitHeight:transmitBitrate:transmitFramerate:]
+-[VCCallMgr smallestNonfocusBitrate:framerate:]
+-[VCCallMgr hardwareInfoArrayFromMap]
+-[VCCallMgr userIDForCallID:]
+-[VCCallMgr userIDForConfIndex:]
+-[VCCallMgr getParticipantUpdateQueue]
+-[VCCallMgr vcControllerInstance]
+-[VCCallMgr vcDelegate]
+-[VCCallMgr setVCControllerInstance:]
+-[VCCallMgr setVCDelegate:]
+-[VCCallMgr vcDelegateConformsToDelegateProtocol]
+-[VCCallMgr setVCRenderDelegate:]
+-[VCCallMgr vcRenderDelegate]
+-[VCCallMgr setConfIndex:forUserID:]
+-[VCCallMgr confIndexForUserID:]
+-[VCCallMgr clearConfIndexForUserID]
+-[VCCallMgr initiateLock]
+-[VCCallMgr confStatusLock]
+-[VCCallMgr userIDToCallIDMapLock]
+-[VCCallMgr determineFocusCapabilityLock]
+-[VCCallMgr deferVideoFormatLock]
+-[VCCallMgr vcCameraLock]
+-[VCCallMgr didStartTransmitForNonFocus]
+-[VCCallMgr setDidStartTransmitForNonFocus:]
+-[VCCallMgr isMultiPartyConference]
+-[VCCallMgr setMultiPartyConference:]
+-[VCCallMgr isTransmitting]
+-[VCCallMgr setIsTransmitting:]
+-[VCCallMgr BWDUpstreamKbits]
+-[VCCallMgr BWDDownstreamKbits]
+-[VCCallMgr setFocusCapability:]
+-[VCCallMgr getFocusCapability:]
+-[VCCallMgr confStatusMapRemoveAll]
+-[VCCallMgr addConfStatusForUserID:status:confIndex:userInfo:]
+-[VCCallMgr removeConfStatus:]
+-[VCCallMgr sendConfStatusUpdateToiChat]
+-[VCCallMgr setConfStatusConnected:]
+-[VCCallMgr setSecurityInfoCertificate:forUser:]
+-[VCCallMgr setSecurityInfoEnabled:forUser:]
+-[VCCallMgr setSecurityInfoValid:forUser:]
+-[VCCallMgr isSecurityEnabledForUser:]
+-[VCCallMgr isSecurityValidForUser:]
+-[VCCallMgr getRemoteCertificateForUser:]
+-[VCCallMgr clearSecurityInfo]
+-[VCCallMgr setSecurityInfoPaused:]
+-[VCCallMgr setLastCameraGUID:]
+-[VCCallMgr lastCameraGUID]
+-[VCCallMgr setLastCameraDevice:]
+-[VCCallMgr lastCameraDevice]
+-[VCCallMgr startedAuxiliaryInput]
+-[VCCallMgr setStartedAuxiliaryInput:]
+-[VCCallMgr usePCMUWideband]
+-[VCCallMgr setUsePCMUWideband:]
+-[VCCallMgr useSpeex]
+-[VCCallMgr setUseSpeex:]
+-[VCCallMgr useSpeex32K]
+-[VCCallMgr setUseSpeex32K:]
+-[VCCallMgr auxiliaryVideoInputMode]
+-[VCCallMgr setSideShowEnabled:]
+-[VCCallMgr getSideShowEnabled]
+-[VCCallMgr setReplacementMode:]
+-[VCCallMgr getReplacementMode]
+-[VCCallMgr setAuxiliaryVideoInputMode:]
+-[VCCallMgr setCommNATResult:]
+-[VCCallMgr commNATResult]
+-[VCCallMgr addCommNATResultToErrorReporter]
+-[VCCallMgr _SNATMAPIPAddress]
+-[VCCallMgr set_SNATMAPIPAddress:]
+-[VCCallMgr _SNATMAPPort]
+-[VCCallMgr set_SNATMAPPort:]
+-[VCCallMgr _ipSNATMAP]
+-[VCCallMgr set_ipSNATMAP:]
+-[VCCallMgr isMultiwayBWDPauseEnabled]
+-[VCCallMgr setMultiwayBWDPauseEnabled:]
+-[VCCallMgr _iPreviewing]
+-[VCCallMgr set_iPreviewing:]
+-[VCCallMgr _iResumePreview]
+-[VCCallMgr set_iResumePreview:]
+-[VCSoundDevice init]
+-[VCSoundDevice dealloc]
+-[VCSoundDevice deviceName]
+-[VCSoundDevice sourceName]
+-[VCSoundDevice displayName]
+-[VCSoundDevice deviceID]
+-[VCSoundDevice sourceID]
+-[VCSoundDevice transportType]
+-[VCSoundDevice isBluetooth]
+-[VCMicrophone init]
+-[VCMicrophone transportType]
+-[VCMicrophone(internal) initWithDisplayName:deviceName:sourceName:deviceID:sourceID:isBluetooth:]
+-[VCSpeaker init]
+-[VCSpeaker transportType]
+-[VCSpeaker(internal) initWithDisplayName:deviceName:sourceName:deviceID:sourceID:isBluetooth:]
+-[VCCamera init]
+-[VCCamera dealloc]
+-[VCCamera displayName]
+-[VCCamera GUID]
+-[VCCamera CMIODeviceID]
+-[VCCamera associatedMicrophone]
+-[VCCamera type]
+-[VCCamera visible]
+-[VCCamera irisOpen]
+-[VCCamera isSuspended]
+-[VCCamera isWidescreen]
+-[VCCamera(internal) initWithDisplayName:driverName:inputName:GUID:CMIODeviceID:associatedMicrophone:]
+-[VCCamera(internal) setType:]
+-[VCCamera(internal) setVisible:]
+-[VCCamera(internal) setIsSuspended:]
+-[VCCamera(internal) setIsWidescreen:]
+_CaptureResetAudio
+_CaptureCreateHandle
+_CaptureCreateHandle_combo
+_CaptureCreateHandle_DeviceID
+_CaptureCreateHandle_Guid
+_CaptureCreateHandle_QTMovie
+_CaptureSelectCamera
+_CaptureSelectCamera_combo
+_CaptureSelectCamera_DeviceID
+_CaptureSelectCamera_Guid
+_CaptureSelectCamera_QTMovie
+_CaptureStartPreview
+_CaptureIsPreviewing
+_CaptureStopPreview
+_CaptureStartEncoding
+_CaptureStopEncoding
+_CaptureChangeVideoFormat
+_CaptureCloseHandle
+_CaptureSetLocalCVBufferCallback
+_CaptureSetFrameRate
+_CaptureSetBitRate
+_CaptureSetKeyFrameRate
+_CapturePauseKeyFrameGeneration
+_CaptureGenerateKeyFrameNow
+_CaptureSendImgDesc
+_CapturePauseEncoding
+_CapturePause
+_CaptureGetPause
+_CaptureAudioPause
+_CaptureGetAudioPause
+_CaptureHasAudio
+_CaptureAudioOnly
+_CaptureAudioFromFile
+_CaptureEnableDiffusionFilter
+_CaptureEnableTemporalFilter
+_CaptureEnableSkinColorFilter
+_CaptureSetContrast
+_CaptureGetContrast
+_CaptureIsCapturing
+_CaptureCameraIsIIDC
+_CaptureCameraIsQ8
+_CaptureCameraIsM33
+_CaptureCameraIsDV
+_CaptureGetCameraName
+_CaptureGetCameraGuid
+_CaptureGetCameraDevice
+_CaptureSetRegionOfInterest
+_CaptureSetSideShowCamera
+_CaptureCMIOVideo
+_CaptureGetSideShowCameraName
+_CaptureUnsetSideShowCamera
+_CaptureSetFeature
+_CaptureGetFeatureRange
+_CaptureGetFeature
+_CaptureGetFeatureDefaults
+_CaptureSetFocusPoint
+_CaptureGetFocusPoint
+_CaptureGetFocusPointDefaults
+_CapureSetUVCFeaturesAutomatic
+_CaptureWriteSettingsToMem
+_CaptureReadSettingsFromMem
+_CaptureReadSettingsFromDefaults
+_CaptureSetAuxTimestampCallback
+_CaptureForceCameraResize
+_CaptureCameraAudio
+_CaptureLocalVideoProc
+_Conference_Init
+_Conference_VideoBitrateCheckReset
+_Conference_GetLocalBitrate3
+_Conference_GetRemoteBitrate3
+_Conference_GetIndvLevel
+_printer
+_Conference_Create
+_Conference_OnCaptureVideo
+_Conference_OnFillVideo
+_Conference_OnCaptureSound
+_Conference_SoundCallback
+_Conference_SetRectTexture
+_Conference_SetCPUResize
+_Conference_OpenPorts
+_Conference_GetRTPHandles
+_Conference_SetRTPPayloads
+_Conference_GetRTPIDs
+_Conference_ClosePorts
+_Conference_CloseAllPorts
+_Conference_EndReceive
+_Conference_EndTransmit
+_Conference_SetSoundPayload
+_Conference_SetInternalSamplingRate
+_Conference_GetSoundPayload
+_Conference_LockVideoFormat
+_Conference_ForceVideoFormatWithIndex
+_Conference_SetVideoFormatWithIndex
+_Conference_GetVideoFormatWithIndexWithComposite
+_Conference_GetVideoFormatWithIndex
+_Conference_SetUseRTC
+_Conference_SetRemoteSSRC
+_Conference_SetDestination
+_Conference_StartReflector
+_Conference_ReflectorCallback
+_Conference_StopReflector
+_Conference_GetReflectorChannel
+_Conference_SetReflectorIcon
+_Conference_StartReceive
+_Conference_RecvThread
+_Conference_StartTransmit
+_CalculateAudioBitrate
+_CalcEncoderBitrate
+_Conference_SetBitrate
+_SetBitrate
+_Conference_GetBitrate
+_Conference_ForceFramerate
+_Conference_SetFramerate
+_Conference_SetKeyrate
+_Conference_Destroy
+_Conference_SetLocalCVBufferCallback
+_Conference_SetRemoteCVBufferCallback
+_Conference_SetResizeCVBufferCallback
+_Conference_GetLocalFramerate
+_Conference_GetLocalBitrate
+_Conference_GetRemoteFramerate
+_Conference_GetRemoteBitrate
+_Conference_DetermineUpstreamBandwidth
+_Conference_GetRxDelay
+_Conference_VideoPauseRX
+_Conference_GetVideoPauseRX
+_Conference_EnablePostFilter
+_Conference_GetEnablePostFilter
+_Conference_SetH264PProMode
+_Conference_GetH264PProMode
+_Conference_SetOldAudioProcessing
+_Conference_GetOldAudioProcessing
+_Conference_SetNewAudioProcessing
+_Conference_GetNewAudioProcessing
+_Conference_GetVideoNetworkCondition
+_Conference_GetAudioNetworkCondition
+_Conference_SetIsFocus
+_Conference_FillSideShowReflectorBuffer
+_Conference_FlushSideShowReflectorBuffer
+_Conference_AuxiliaryAudioPause
+_Conference_AuxiliaryLocalAudioPause
+_Conference_SetAuxiliaryAudioGain
+_Conference_GetAuxiliaryAudioGain
+_Conference_SetSideShowHostTime
+_Conference_CanDoConferenceWithSamplingRate
+_Conference_SetAllowAudioSend
+_Conference_SetCommNATInfo
+_Conference_GetCommNATInfo
+_Conference_GetPreservedPortHintForCallID
+_Conference_SetPreservedPortHintForCallID
+_Conference_GetPatInOrderForInterfaceIndex
+_Conference_HasCapture
+_Conference_SetActiveBWD
+_Conference_SetSmallLocalForICT
+_Conference_ActiveBWDSendCallback
+_Conference_SendVideoRTCP
+_Conference_UpdateRxBitrate
+_Conference_VideoAlarm
+_Conference_ShowFrame
+_Conference_ActiveBWDRecvCallback
+_Conference_UpdateTimestamps
+_Conference_SendSoundRTCP
+_IsPowerOfTwo
+_NumberOfBitsNeeded
+_ReverseBits
+_Index_to_frequency
+_fft_float
+_CheckPointer
+_YuvFrame_Init
+_Scale_320x240_160x120
+_Scale_360x240_160x120
+_Scale_360x288_160x120
+_Scale_320x240_176x144
+_Scale_360x240_176x144
+_Scale_360x288_176x144
+_Scale_640x480_176x144
+_Scale_360x240_320x240
+_Scale_360x288_320x240
+_Scale_640x480_320x240
+_Scale_320x240_352x288
+_Scale_360x240_352x288
+_Scale_360x288_352x288
+_Scale_640x480_352x288
+_Scale_720x240_640x480
+_Scale_720x288_640x480
+_Image_ColorFillX
+_Image_ColorFill
+_Scale_Crop
+_Gamma_PC_to_Mac
+_Gamma
+_Gamma_Mac_to_PC
+_Image_argb_to_2vuy
+_Scale_ResizeAndCrop
+_Image_yuvs_to_2vuy
+_Queue_Create
+_Queue_Destroy
+_Queue_Add
+_Queue_Get
+_RTPSendRTCP
+_RTPRecvRTCP
+_RTPFreeRTCPPacket
+_RTPSendH263Packet
+_RTPProcessH263Packet
+_RTPSetPureVoiceParameters
+_RTPSendPureVoicePacket
+_RTPCreateHandle
+___RTPCreateHandle_block_invoke
+___RTPCreateHandle_block_invoke_2
+___RTPCreateHandle_block_invoke_3
+___RTPCreateHandle_block_invoke_4
+_RTPCloseHandle
+_RTPSetRecvFromRTPBlock
+_RTPSetRecvFromRTCPBlock
+_RTPSetSendRTPBlock
+_RTPSetSendRTCPBlock
+_RTPSetDestination
+_RTPSetPayloadList
+_RTPSetPayload
+_RTPSendRTP
+_SendRTP
+_RTPRexmitRTP
+_RTPRecvRTP
+_RecvRTP
+_RTPGetReceiveStatus
+_RTPGetNetworkCondition
+_RTPGetLocalSSRC
+_RTPGetRemoteSSRC
+_RTPSetRemoteSSRC
+_RTPSetConfIndex
+_ProbeRecvProc
+_CalculateBandwidth
+_SendRexmit
+_SendReport
+_SendAck
+_RTPSendNetworkProbe
+_RTPGetSpikeInfo
+_RTPSetAdditionalAudioDelay
+_RTPCreateSockets
+_RTPGetLocalAndSrcIPPorts
+_RTPSetDestinationIPPortFromICE
+_RTPSetMediaQueue
+_RTPStartTFRC
+_ActiveBWDProc
+_RTPStartActiveBWD
+_Format_Float
+_SoundDec_Create
+_Format
+_SoundDec_Decode
+_SoundDec_DataProc
+_FillGap
+_SoundDec_Destroy
+_SoundDec_IsEquivalent
+_SoundDec_SetHalfRate
+_SoundDec_ChangeInputBasicDescription
+_SoundDec_ResetConverter
+_SoundDec_GetFormats
+_SoundDec_SetBitrate
+_SoundDec_GetMagicCookie
+_SoundPlayer_QueueAlarm
+_SoundPlayer_CallAlarms
+_SoundPlayer_Create
+_SoundPlayer_AlarmThread
+_SoundPlayer_Destroy
+_DblToFixed
+_FixedToDbl
+_Enter_version2
+_Leave_version2
+_micro
+_micro_ll
+_micro_from_uptime
+_micro_from_hosttime
+_FindComponent
+_FindComponentManuf
+_FindPreferredComponent
+_PascalToCStrAlloc
+_PascalToCStrInPlace
+_FourccToCStr
+_CreateAlloc
+_DestroyAlloc
+_Alloc
+_Release
+_SummerCreateHandle
+_SummerCloseHandle
+_SummerAdd
+_SummerMostRecent
+_SummerClear
+_SummerLengthPred
+_SummerSumPred
+_SummerIdentity
+_SummerGreaterThan
+_MachDescribeThreadPriority
+_HasAltivec
+_HasMMX
+_HasSSE
+_HasSSE2
+_HasSSE3
+_GetVectorTypeAvailable
+_ProcessorSpeedMHz
+_IsLaptop
+_CPUCountPhysical
+_CPUCountLogical
+_CoresPerDie
+_LogicalPerCore
+_VCCPUCount
+_layoutID
+_MachineType
+_NextPowerTwo
+_ThreadSleep_Create
+_ThreadSleep_Destroy
+_ThreadSleep_SleepWhileZero
+_ThreadSleep_SetState
+_ThreadSleep_GetState
+_hasG5
+_isMacBookAir
+_GetCPUIdle
+_ReadFirstMBAndSliceType
+_ImgDescNativeToBigEndian_InPlace
+_ImgDescBigEndianToNative_InPlace
+_ImgDescNativeToBigEndian_Alloc
+_ImgDescBigEndianToNative_Alloc
+_TStats_Create
+_TStats_Destroy
+_TStats_Reset
+_TStats_Age
+_TStats_Acc
+_TStats_Show
+_vec_acc
+_vec_dot
+_VideoPlayer_Create
+_VideoPlayer_Destroy
+_VideoPlayer_DecompClose
+_VideoPlayer_NewFormat_ImgDesc
+_setIntValue
+_VideoPlayer_VTDecompressionCallback
+_VideoPlayer_NewFormat
+_VideoPlayer_FillImgDesc
+_VideoPlayer_IsFormatCompatible_ImgDesc
+_VideoPlayer_IsFormatCompatible
+_VideoPlayer_ShowFrame
+_createSubImageAttributeDictionary
+_VideoPlayer_ReleaseBuffer
+_VideoPlayer_EnablePostFilter
+_VideoPlayer_GetEnablePostFilter
+_VideoPlayer_SetRtcGamma
+_VideoPlayer_SetFirstMBs
+_VideoPlayer_SetH264PProMode
+_VideoPlayer_GetH264PProMode
+_flip_short
+_flip_int
+_open_wav_r
+_open_wav_w
+_close_wav
+_read_wav_stereo
+_read_wav_mono
+_write_wav_stereo
+_write_wav_mono
+_pos_wav
+_seek_wav
+_size_wav
+_GetNTPTime_old
+_GetNTPTime
+_MicroToNTP
+_NTPToMicro
+_NTPToMiddle32
+_Middle32ToNTP
+_TimeZeroInit
+_InitAllHandles
+_InitHandle
+_UninitHandle
+_CloseAllHandles
+_CreateHandle
+_CheckInHandle
+_CheckOutHandle
+_FindHandle
+_GetNumHandles
+_MACROS
+_GOBS
+_VideoPacketBuffer_Create
+_VideoPacketBuffer_Destroy
+_VideoPacketBuffer_Reset
+_FreeFrame
+_VideoPacketBuffer_AddPacket
+_GobNumber
+_VideoPacketBuffer_GetPacketLoss
+_VideoPacketBuffer_ResetSliceFlags
+_VideoPacketBuffer_GetNextFrame
+_RecordPacketLoss
+_Assemble_FrameBufferExtend
+_Assemble_FakeGob
+_Assemble_FakeFirstGob_Intra
+_Assemble_FakeNextGob_Intra
+_getencoderpath
+_Microphone_LabtecAK5370Chooser
+_Microphone_IsDeviceAcceptable
+_Microphone_GetDefaultDevice
+_Microphone_GetLabtecAK5370
+_Microphone_GetIIDC
+_Microphone_GetDeviceName
+_Microphone_GetSourceName
+_Microphone_GetDeviceAndSourceName
+_Microphone_GetDeviceTransportType
+_Microphone_Create
+_Microphone_DefaultChooser
+_Microphone_CreateThread
+_Microphone_CallbackThread
+_Microphone_FindNewDevice
+_Microphone_NullDevice
+_Microphone_StartDevice
+_Microphone_HardwarePropertyListener
+_Microphone_Destroy
+_Microphone_StopDevice
+_Microphone_Pause
+_Microphone_NewDevice
+_Microphone_GetPause
+_Microphone_GetGain
+_Microphone_SetGain
+_Microphone_IsISight
+_Microphone_IsDeviceHighFeedback
+_Microphone_GetDevice
+_Microphone_GetSource
+_Microphone_ChangeDevice
+_Microphone_GetReflectorDevice
+_Microphone_CreateReflector
+_Microphone_StartDevice_Reflector
+_Microphone_DestroyReflector
+_Microphone_StopDevice_Reflector
+_Microphone_ResetSampleRate
+_Microphone_DevicePropertyListener
+_Microphone_GetSampleRate
+_Microphone_CoreAudio_IOProc_Reflector
+_Microphone_DisableNullDevice
+_GetBufferAndStrideForChannel
+_Microphone_CoreAudio_PutSoundIntoDropBox
+_Microphone_CoreAudio_ResetPrecedence
+_Microphone_CoreAudio_IOProc
+_Microphone_CallbackThread_DataProc
+_XX_PrintBasicDesc
+_XX_PrintFormat
+_Speaker_CallbackThread_DoCallback
+_Speaker_Input_GetBufferPtr
+_Speaker_Input_ProcessEmptyDropBoxes
+_Speaker_Input_TransferBufferToDropBoxes
+_Speaker_DefaultChooser
+_Speaker_IsDeviceAcceptable
+_Speaker_NullDeviceChooser
+_Speaker_LookupReflectorChannel
+_Speaker_GetReflectorDevice
+_Speaker_GetReflectorChannelCount
+_Speaker_SetReflectorChannelCount
+_Speaker_GetReflectorChannelPID
+_Speaker_SetReflectorChannelPID
+_Speaker_GetReflectorChannelIcon
+_Speaker_SetReflectorChannelIcon
+_Speaker_ReflectorDeviceChooser
+_Speaker_GetDefaultDevice
+_Speaker_GetDeviceName
+_Speaker_GetSourceName
+_Speaker_GetDeviceTransportType
+_Speaker_Create
+_Speaker_Main_IOProc
+_Speaker_Reflector_IOProc
+_Speaker_Input_ConverterReset
+_Speaker_FindNewDevice
+_Speaker_GetSampleRate
+_Speaker_CreateThread
+_Speaker_CallbackThread
+_Speaker_NullDevice
+_Speaker_StartDevice
+_Speaker_EnableNullDevice
+_Speaker_HardwarePropertyListener
+_Speaker_Destroy
+_Speaker_StopDevice
+_Speaker_Pause
+_Speaker_GetPause
+_Speaker_ChangeDevice
+_Speaker_NewDevice
+_Speaker_GetGain
+_Speaker_SetGain
+_Speaker_GetBalance
+_Speaker_SetBalance
+_Speaker_IsDeviceHighFeedback
+_Speaker_GetDevice
+_Speaker_GetSource
+_Speaker_GetAttnGain
+_Speaker_SetAttnGain
+_Speaker_GetSamples
+_Speaker_UseLeftSpeakerOnly
+_Speaker_UseRightSpeakerOnly
+_Speaker_SetNewDevice
+_Speaker_CurrentDevice
+_Speaker_CurrentSource
+_Speaker_CallbackThread_NewBufferLength
+_Speaker_DevicePropertyListener
+_Speaker_EnsureReasonableDeviceBufferSize
+_Speaker_CoreAudio_GetFullDropBox
+_Speaker_CoreAudio_CopySoundIntoRing
+_Speaker_CoreAudio_IOProc
+_Speaker_CoreAudio_CopySamples
+_Speaker_CoreAudio_CopyZerosIntoRing
+_GetBufferAndStrideForChannel
+_Speaker_Input_DataProc
+_DeviceAndSource
+_GlobalMapping_Create
+_GlobalMapping_Destroy
+_GlobalMapping_Lock
+_GlobalMapping_Unlock
+_CreateAudioConverter
+_NullAudioConverterFillComplexBuffer
+_TweakerThread_Create
+_TweakerThread_Thread
+_TweakerThread_Destroy
+_TweakerThread_NewDevice
+_GetAudioDeviceDescriptions
+_AudioHardwareGetProperty_no_excp
+_AudioDeviceGetProperty_no_excp
+_AudioDeviceGetPropertyInfo_no_excp
+_DropTrailingWhiteSpace
+_GetTransportName
+_GetAudioDeviceDescription
+_FreeAudioDeviceDescription
+_FreeAudioDeviceList
+_GetAudioDeviceList
+_AudioHardwareGetPropertyInfo_no_excp
+_PrintAudioDeviceDescription
+_PrintAudioDeviceList
+_AudioDeviceSetProperty_no_excp
+_AudioDevice_GetGain
+_AudioDevice_SetGain
+_AudioDevice_GetBalance
+_AudioDevice_SetBalance
+_AudioDevice_IsBluetooth
+_AudioDevice_GetSources
+_AudioDevice_ChangeSource
+_AudioDevice_GetSourceName
+_AudioDevice_GetCurrentSource
+_AudioDevice_GetActualSampleRate
+_AudioDevice_GetSampleRate
+_AudioDevice_SetSampleRate
+_AudioDevice_GetChannels
+_AudioDevice_GetMatchingDevice
+_DiffusionFilter_Create
+_DiffusionFilter_Destroy
+_DiffusionFilter_Run
+_diffusion_line_data_yuv_in
+_data_last_pixel_yuv_in
+_diffusion_line_data
+_data_last_pixel
+_diffusion_line_data_yuv_out
+_data_first_pixel
+_prepareAddress
+_SNATMAP_getPortMapping
+_SNATMAP_heartbeat
+_SNATMAP_updateExternalIPPortInfo
+_MakeSNATMAPRequest
+_ProcessSNATMAPResponse
+_CopyRemoteDisplayWithoutQuotes
+_SIPCreateHandle
+_TUMsgCallback
+_SIPCloseHandle
+_SIPListen
+_SIPConnect
+_SIPConnectIPPort
+_SIPConnectWithCallID
+_SIPCancel
+_SIPHangup
+_SIPHangupAll
+_SIPCloseCall
+_SIPSendMessage
+_SIPSendMessageAll
+_SIPSendRefer
+_SIPGetRemoteInfo
+_SIPSetFocusCapable
+_SIPGetIsFocus
+_SIPGetIsRemoteFocus
+_SIPGetRelayExtIPPort
+_SIPDiscardRelayBinding
+_SIPGetIPInfo
+_SIPGenerateCallID
+_SIPGetConnectionData
+_SIPGetCallIDForConnectionData
+_SIPGetConnectionResultAFOnly
+_SIPGetConnectionResultSrcIPPort
+_SIPRemovePreservedPortBindForCallID
+_SIPStartConnectionCheck
+_SIPUpdateInterfaceList
+_SubscriptionProc
+_NotificationProc
+_SIPSetSIPPing
+_SIPIsRelayConference
+_SIPDisableSIPMessage
+_SIPEnableSIPMessage
+_SIPActiveDialogReady
+_DLIsFinishedCallback
+_SIPNewCallProc
+_SIPCancelProc
+_SIPHangupProc
+_SIPMessageProc
+_SIPOptionsProc
+_SIPSubscribeProc
+_SIPNotifyProc
+_SIPReferProc
+_SendTPStatus
+_SendTAStatus
+_SetErrorLogLevel
+_DbgPrintFileLine
+_TracePrint
+_TemporalFilter_Create
+_TemporalFilter_Run
+_TemporalFilter_Destroy
+_enhance_contrast_fixedparams
+_boost_skincolor
+_FeedbackDetect_Create
+_FeedbackDetect_Destroy
+_FeedbackDetect_Reset
+_FeedbackDetect_AddNotch
+_FeedbackDetect_ApplyNotches
+_FeedbackDetect_GetNotchList
+-[VideoConferenceMultiController(otherapi) hangupThreadProc:]
+-[VideoConferenceMultiController(otherapi) launchHangupThread:]
+-[VideoConferenceController(otherapi) allowGSM:]
+-[VideoConferenceController(otherapi) allowG711:]
+-[VideoConferenceController(otherapi) allowPureVoice:]
+-[VideoConferenceController(otherapi) cameraFeatureID:]
+-[VideoConferenceController(otherapi) setCameraFeature:enabled:value:automatic:]
+-[VideoConferenceController(otherapi) getCameraFeature:enabled:value:automatic:]
+-[VideoConferenceController(otherapi) getCameraFeatureDefaults:enabled:value:automatic:]
+-[VideoConferenceController(otherapi) getCameraFeatureRange:minValue:maxValue:hasManual:hasAuto:]
+-[VideoConferenceController(otherapi) setCameraFocusPoint:y:]
+-[VideoConferenceController(otherapi) getCameraFocusPoint:y:]
+-[VideoConferenceController(otherapi) getCameraFocusPointDefaults:y:]
+-[VideoConferenceController(otherapi) setCameraAreaOfInterest:y:width:height:]
+-[VideoConferenceController(otherapi) getCameraAreaOfInterest:y:width:height:]
+-[VideoConferenceController(otherapi) getCameraAreaOfInterestDefaults:y:width:height:]
+-[VideoConferenceController(otherapi) setEncryption:]
+-[VideoConferenceController(otherapi) encryption]
+-[VideoConferenceController(otherapi) setEchoCancellation:]
+-[VideoConferenceController(otherapi) echoCancellation]
+-[VideoConferenceController(otherapi) setAGC:]
+-[VideoConferenceController(otherapi) AGC]
+-[VideoConferenceController(otherapi) setOldAudioProcessing:]
+-[VideoConferenceController(otherapi) oldAudioProcessing]
+-[VideoConferenceController(otherapi) setNewAudioProcessing:]
+-[VideoConferenceController(otherapi) newAudioProcessing]
+-[VideoConferenceController(otherapi) setPreFilter:enabled:]
+-[VideoConferenceController(otherapi) preFilter:]
+-[VideoConferenceController(otherapi) setPostFilter:]
+-[VideoConferenceController(otherapi) postFilter]
+-[VideoConferenceController(otherapi) cameraSettingsData]
+-[VideoConferenceController(otherapi) setCameraSettingsData:]
+-[VideoConferenceController(otherapi) enableFocus:]
+-[VideoConferenceController(otherapi) sendChatMessage:]
+-[VideoConferenceController(otherapi) bandwidthDictionaryForUserID:]
+_RTPSendGSMPacket
+_gsm_add
+_gsm_sub
+_gsm_mult
+_gsm_mult_r
+_gsm_abs
+_gsm_L_mult
+_gsm_L_add
+_gsm_L_sub
+_gsm_norm
+_gsm_L_asl
+_gsm_L_asr
+_gsm_asl
+_gsm_asr
+_gsm_div
+_Gsm_Coder
+_gsm_debug_words
+_gsm_debug_longwords
+_gsm_debug_longword
+_gsm_debug_word
+_Gsm_Decoder
+_gsm_create
+_gsm_decode
+_gsm_destroy
+_gsm_encode
+_gsm_explode
+_gsm_implode
+_gsm_option
+_gsm_print
+_Gsm_Long_Term_Predictor
+_Gsm_Long_Term_Synthesis_Filtering
+_Gsm_LPC_Analysis
+_Gsm_Preprocess
+_Gsm_RPE_Encoding
+_APCM_inverse_quantization
+_RPE_grid_positioning
+_Gsm_RPE_Decoding
+_APCM_quantization_xmaxc_to_exp_mant
+_Gsm_Short_Term_Analysis_Filter
+_Decoding_of_the_coded_Log_Area_Ratios
+_Coefficients_0_12
+_LARp_to_rp
+_Short_term_analysis_filtering
+_Coefficients_13_26
+_Coefficients_27_39
+_Gsm_Short_Term_Synthesis_Filter
+_Short_term_synthesis_filtering
++[VCRules VCRulesSingleton]
+-[VCRules addAllRules]
+-[VCRules addT1RulesForMhrtz:cpuCount:]
+-[VCRules init]
+-[VCRules dealloc]
+-[VCRules arrayHardwareRules]
+-[VCRules arrayHardwareRulesH264]
+-[VCRules arrayDowngradeRulesH264]
+-[VCRules arrayDowngradeRules]
++[VCRules QuickTimeBandwidth]
+-[VCRules loadOtherRules]
++[VCRules parametersForRules:pFramerate:pWidth:pHeight:]
++[VCRules canSupportH264Encode]
+_getHardwareInfo
++[VCRules canSupportH264Decode]
++[VCRules isHardwareSuitableForFilters]
++[VCRules updateImageSize:forBandwidth:]
++[VCRules minAudioBandwidth]
++[VCRules minVideoBandwidth]
++[VCRules cutoff15FPS]
++[VCRules magicRTCBandwidth]
++[VCRules minCPUSpeedForH264]
++[VCRules applyImageSizeDowngradeRuleForPayload:currentSize:bitrate:pFramerate:inMultiway:]
++[VCRules generateHardwareInfoForSDP]
++[VCRules parseSDPHardwareInfo:forMachineType:forCPUCount:forCPUSpeed:]
++[VCRules getMultipointInfoForPayload:imageWidth:imageHeight:framerate:]
+-[VCRules cpuTypeStringForMachineType:]
+-[VCRules determineLocalRulesForBandwidthAndSize:currentWidth:currentHeight:participants:conferenceType:width:height:framerate:]
+-[VCRules localRulesForBandwidth:participants:conferenceType:width:height:framerate:]
+-[VCRules bestFramerateForConferenceType:imageWidth:imageHeight:]
+-[VCRules bestH263Settings:framerate:]
+-[VCRules bestH263SettingsForBandwidth:width:height:framerate:]
+-[VCRules bestH264SettingsFramerate:width:height:]
+-[VCRules bestH264MultipointSettingsForTotalBandwidthAndUserCount:userCount:width:height:framerate:]
++[VCRules canSupportSpeexPayload:audioOnly:]
++[VCRules canSupportPCMUWideband:]
++[VCRules canSupportAACLD:audioOnly:]
+_SimpleFFT_Create
+_SimpleFFT_Destroy
+_SimpleFFT_FFT
+_SimpleFFT_FFTInPlace
+_NoiseFree_Create
+_NoiseFree_SetThreshold
+_NoiseFree_GetThresholdInfo
+_NoiseFree_SetAttack
+_NoiseFree_GetAttackInfo
+_NoiseFree_SetRelease
+_NoiseFree_GetReleaseInfo
+_NoiseFree_SetRatio
+_NoiseFree_GetRatioInfo
+_NoiseFree_SetPeakLearn
+_NoiseFree_GetPeakLearnInfo
+_NoiseFree_SetAverageLearn
+_NoiseFree_GetAverageLearnInfo
+_NoiseFree_SetThreshReset
+_NoiseFree_GetThreshResetInfo
+_NoiseFree_SetGain
+_NoiseFree_GetGainInfo
+_NoiseFree_SetTilt
+_NoiseFree_GetTiltInfo
+_NoiseFree_Destroy
+_NoiseFree_Reset
+_NoiseFree_GetFFTSize
+_NoiseFree_GetSampleRate
+_NoiseFree_SetSampleRate
+__ZL23NoiseFree_setAttackTimeP11NoiseFree_tf
+_NoiseFree_GetThreshold
+_NoiseFree_GetAttack
+_NoiseFree_GetRelease
+_NoiseFree_GetRatio
+_NoiseFree_GetPeakLearn
+_NoiseFree_GetAverageLearn
+_NoiseFree_GetGain
+_NoiseFree_GetTilt
+_NoiseFree_Process
+_NoiseFree_debug_GetGainTweak
+_SBCreateHandle
+_MatchSubscription
+_SBUpdateExpires
+_SubscriptionHandleProc
+_SBCloseHandle
+_StartSubscriptionProc
+_MatchDialog
+_SBCloseHandleAll
+_SBSendNotification
+_MatchDialogSendNotification
+_SBSetEventID
+_SBTerminateSubscriptions
+_TerminateSubscription
+_SBFindSubscriptionWithDialogAndEvent
+_MatchDialogAndEvent
+_SBGetEventString
+_SBGetReasonString
+_SBCSAddNewUser
+_SBCSGetFullCS
+_SBCSSendFullUpdate
+_SBCSUpdateUser
+_SBCSRemoveUser
+_SBCSGetParticipantData
+_StartNotificationProc
+_SBCSMakeBody
+_FindEarliestTime
+_HandleExpired
+_CS_Parse
+_ParseUser
+_CS_CreateXML
+_Sidebar_Destroy
+_User_Destroy
+_CS_DestroyUser
+_CS_Destroy
+_CS_Print
+_User_Print
+_CS_Create
+_CS_AddUser
+_CS_CreateUser
+_CS_UserAddStream
+_MediaStream_Destroy
+_CreateXML_User
+-[VideoConferenceMultiController(helper) updateFocusTransmitParameters:]
+___72-[VideoConferenceMultiController(helper) updateFocusTransmitParameters:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[VideoConferenceMultiController(helper) updateFocusCapabilityForBandwidth:upstreamKbits:downstreamKbits:]
+-[VideoConferenceMultiController(helper) determineFocusCapability:isVideoHardwareCapable:]
+-[VideoConferenceMultiController(helper) determineFocusCapabilityOfCPU:]
+-[VideoConferenceMultiController(helper) determineFocusCapabilityOfNetwork:]
+___76-[VideoConferenceMultiController(helper) determineFocusCapabilityOfNetwork:]_block_invoke
+-[VideoConferenceMultiController(helper) handleCleanupForUser:withCallID:endTransmit:andSendSIPHangup:]
+___103-[VideoConferenceMultiController(helper) handleCleanupForUser:withCallID:endTransmit:andSendSIPHangup:]_block_invoke
+-[VideoConferenceMultiController(helper) setAudioHalfRate:forConfIndex:]
+-[VideoConferenceMultiController(helper) printCapabilities:]
+-[VideoConferenceMultiController(helper) doPeerToPeerBandwidthDetectionForIndex:pUpstreamKbits:pDownstreamKbits:withSNATMAPIP:withCallID:withUserID:]
+-[VideoConferenceMultiController(helper) localSecIdentityRef]
+-[VideoConferenceMultiController(procs) determineFocusCapabilityProc:]
+-[VideoConferenceMultiController init]
+-[VideoConferenceMultiController initWithRectTexture:]
+___54-[VideoConferenceMultiController initWithRectTexture:]_block_invoke
+-[VideoConferenceMultiController dealloc]
+-[VideoConferenceMultiController setValidatedIdentity:]
+-[VideoConferenceMultiController getValidatedIdentity]
+-[VideoConferenceMultiController isSecurityEnabledForUser:]
+-[VideoConferenceMultiController isSecurityValidForUser:]
+-[VideoConferenceMultiController isSecurityEnabled]
+-[VideoConferenceMultiController isSecurityValid]
+-[VideoConferenceMultiController getRemoteCertificateForUser:]
+-[VideoConferenceMultiController IPAndPortDataWithCallerIPAndPortData:]
+-[VideoConferenceMultiController IPAndPortDataWithCallerIPAndPortData:shouldFindExternalIP:]
+-[VideoConferenceMultiController initiateConferenceToUser:withIPAndPortData:oneWayOnly:withValidatedCert:]
+-[VideoConferenceMultiController initiateConferenceToUser:withIPAndPortData:oneWayOnly:withValidatedCert:shouldFindExternalIP:]
+-[VideoConferenceMultiController initiateConferenceToUser:withIPAndPortData:oneWayOnly:]
+-[VideoConferenceMultiController initiateConferenceToUser:withIPAndPortData:oneWayOnly:shouldFindExternalIP:]
++[VideoConferenceMultiController makeIPAndPortDataFromIP:port:]
+-[VideoConferenceMultiController endConference]
+-[VideoConferenceMultiController endConferenceForUserID:]
+-[VideoConferenceMultiController startReflector]
+-[VideoConferenceMultiController stopReflector]
+-[VideoConferenceMultiController reflectorChannelForUserID:]
+-[VideoConferenceMultiController setReflectorIconForUserID:icon:]
+-[VideoConferenceMultiController vcCapabilities]
+-[VideoConferenceMultiController vcCapabilitiesOfCPU]
+-[VideoConferenceMultiController vcCapabilitiesOfNetwork]
+-[VideoConferenceMultiController vcCapabilitiesOfRouter]
+-[VideoConferenceMultiController isFocus]
+-[VideoConferenceMultiController startConferenceWithUserID:]
+-[VideoConferenceMultiController DoVCIncomingConference:]
+-[VideoConferenceMultiController startConferenceWithIndex:userAtIndexIsCaller:userIDAtIndex:]
+-[VideoConferenceMultiController statistics]
+-[VideoConferenceMultiController statistics:]
+-[VideoConferenceMultiController conferenceUptime]
+-[VideoConferenceMultiController audioLevelForUserID:]
+-[VideoConferenceMultiController getLocalVideoTextureBuffer:]
+-[VideoConferenceMultiController isLocalVideoChanged]
+-[VideoConferenceMultiController isRemoteVideoChangedForUser:]
+-[VideoConferenceMultiController lockVideoBufferForUser:]
+-[VideoConferenceMultiController unlockVideoBufferForUser:]
+-[VideoConferenceMultiController lockVideoBufferForUser:lockID:]
+-[VideoConferenceMultiController unlockVideoBufferForUser:lockID:]
+-[VideoConferenceMultiController getRemoteVideoTextureBuffer:forUser:]
+-[VideoConferenceMultiController getRemoteVideoTextureBuffer:forUser:freezeFlag:]
+-[VideoConferenceMultiController localSIPPort]
+-[VideoConferenceMultiController externalSIPPort]
+-[VideoConferenceMultiController externalIPAddress]
+-[VideoConferenceMultiController IPAndPortDataWithCallerIP:callerSIPPort:]
+-[VideoConferenceMultiController IPAndPortDataWithCallerIP:callerSIPPort:shouldFindExternalIP:]
+_VCNetworkMonitorCallback
+_Conference_StartCamera_CMIODeviceID
+_Conference_StartCamera_QTMovie
+_Conference_StartCamera_Guid
+_Conference_StartCamera
+_Conference_SwitchCamera
+_Conference_SwitchCamera_Guid
+_Conference_SwitchCamera_QTMovie
+_Conference_SwitchCamera_CMIODeviceID
+_Conference_StopCamera
+_Conference_SetMicrophone
+_Conference_SetSpeaker
+_Conference_GetSpeaker
+_Conference_GetMicrophone
+_Conference_StartSideShowReflector
+_Conference_StopSideShowReflector
+_Conference_StartPreview
+_Conference_EndPreview
+_Conference_EchoCancel
+_Conference_AudioPauseRX
+_Conference_AudioPauseTX
+_Conference_GetAudioPauseRX
+_Conference_GetAudioPauseTX
+_Conference_EnableNoiseReduction
+_Conference_GetEnableNoiseReduction
+_Conference_EnablePreFilterDiffusion
+_Conference_EnablePreFilterTemporal
+_Conference_EnablePreFilterSkinColor
+_Conference_SetContrast
+_Conference_GetContrast
+_Conference_GetMicrophoneGain
+_Conference_SetMicrophoneGain
+_Conference_GetMicrophoneLevel
+_Conference_GetSpeakerLevel
+_Conference_GetSpeakerVolume
+_Conference_SetSpeakerVolume
+_Conference_GetSpeakerAttenuation
+_Conference_SetSpeakerAttenuation
+_Conference_SetMicrophoneAGC
+_Conference_GetMicrophoneAGC
+_Conference_CameraIsIIDC
+_Conference_CameraIsQ8
+_Conference_CameraIsM33
+_Conference_CameraHasMicrophone
+_Conference_CameraSetFeature
+_Conference_CameraSetUVCFeaturesAutomatically
+_Conference_CameraSetIIDCFeaturesAutomatically
+_Conference_CameraGetFeature
+_Conference_CameraGetFeatureDefaults
+_Conference_CameraGetFeatureRange
+_Conference_CameraSetFocusPoint
+_Conference_CameraGetFocusPoint
+_Conference_CameraGetFocusPointDefaults
+_Conference_CameraWriteSettingsToMem
+_Conference_CameraReadSettingsFromMem
+_Conference_CameraReadSettingsFromDefaults
+_Conference_GetCameraName
+_Conference_GetCameraGuid
+_Conference_GetCameraDevice
+_Conference_SetSideShowCamera
+_Conference_GetSideShowCameraName
+_Conference_UnsetSideShowCamera
+_Conference_IsReplacementMode
+_Conference_CaptureExists
+_Conference_IsPreviewMode
+_Conference_VideoPauseTX
+_Conference_SetMicPreviewOn
+_Conference_GetVideoPauseTX
+_Conference_SetAudioHalfRate
+_Conference_SetSideShowReflectorChannel
+_Conference_GetSideShowReflectorChannel
+_Conference_BypassEchoCanceller
+_Conference_ForceBothSpeakers
+_CU_FindGOB
+_CU_SplitVideoIntoPackets
+_CU_PrepareH264FrameData
+_CU_UpdateSoundLevel
+_CU_UpdateSoundLevelShort
+_CU_UpdateIndvSoundLevel
+_CU_CalculateHexDecibel
+-[VCSNATMAPData init]
+-[VCSNATMAPData dealloc]
+-[VCSNATMAPData setiChatAVVersion:]
+-[VCSNATMAPData setViceroyVersion:]
+-[VCSNATMAPData setMediaType:]
+-[VCSNATMAPData setSessionID:]
+-[VCSNATMAPData snatmapData]
+_addFieldAsString
+_addFieldAsArray
+_handleSDP
+-[SDPAnalyzer(helper) defaultAudioPayloads]
+-[SDPAnalyzer(helper) defaultAudioPayloads:]
+-[SDPAnalyzer(helper) defaultAudioPayloads:withUserCount:]
+-[SDPAnalyzer(helper) SDPUsername]
+-[SDPAnalyzer init]
+-[SDPAnalyzer initWithViceroyDefaultsUsingZeroes:forAudioOnly:withUserCount:]
+-[SDPAnalyzer initWithViceroyDefaultsUsingZeroes:forAudioOnly:]
+-[SDPAnalyzer initWithViceroyDefaultsUsingZeroes:]
+-[SDPAnalyzer initWithString:]
+-[SDPAnalyzer dealloc]
+-[SDPAnalyzer setSDP:]
+-[SDPAnalyzer resetSDP]
+-[SDPAnalyzer sessionString]
+-[SDPAnalyzer audioStringForVersion:]
+-[SDPAnalyzer videoStringForVersion:]
+-[SDPAnalyzer dataStringForVersion:]
+-[SDPAnalyzer toString]
+-[SDPAnalyzer toStringForVersion:]
+-[SDPAnalyzer setOriginWithArray:]
+-[SDPAnalyzer origin]
+-[SDPAnalyzer setConnectionWithArray:]
+-[SDPAnalyzer connection]
+-[SDPAnalyzer setBandwidthWithString:]
+-[SDPAnalyzer bandwidth]
+-[SDPAnalyzer setMediaWithArrayHelper:mediaArray:attributesArray:]
+-[SDPAnalyzer setAudioMediaWithArray:andAttributesWithArray:]
+-[SDPAnalyzer audioMedia]
+-[SDPAnalyzer setVideoMediaWithArray:andAttributesWithArray:]
+-[SDPAnalyzer videoMedia]
+-[SDPAnalyzer setDataMediaWithArray:andAttributesWithArray:]
+-[SDPAnalyzer dataMedia]
+-[SDPAnalyzer audioMediaAttributes]
+-[SDPAnalyzer videoMediaAttributes]
+-[SDPAnalyzer dataMediaAttributes]
+-[SDPAnalyzer audioMediaConnection]
+-[SDPAnalyzer videoMediaConnection]
+-[SDPAnalyzer sessionAttributes]
+-[SDPAnalyzer sessionName]
+-[SDPAnalyzer addressTypeForConnection:]
+-[SDPAnalyzer addressType]
+-[SDPAnalyzer addressTypeVideo]
+-[SDPAnalyzer addressTypeAudio]
+-[SDPAnalyzer appendAudioAttribute:]
+-[SDPAnalyzer appendVideoAttribute:]
+-[SDPAnalyzer updateVideoAttributePrefix:withAppendedValue:]
+-[SDPAnalyzer appendSessionAttribute:]
+-[SDPAnalyzer setSessionName:]
+-[SDPAnalyzer hasAudioCodec:]
+-[SDPAnalyzer hasVideoCodec:]
+-[SDPAnalyzer(viceroy) portForMediaHelper:]
+-[SDPAnalyzer(viceroy) videoPort]
+-[SDPAnalyzer(viceroy) audioPort]
+-[SDPAnalyzer(viceroy) dataPort]
+-[SDPAnalyzer(viceroy) videoRTCPPort]
+-[SDPAnalyzer(viceroy) audioRTCPPort]
+-[SDPAnalyzer(viceroy) dataRTCPPort]
+-[SDPAnalyzer(viceroy) userName]
+-[SDPAnalyzer(viceroy) ipFromConnection:]
+-[SDPAnalyzer(viceroy) ip]
+-[SDPAnalyzer(viceroy) ipVideo]
+-[SDPAnalyzer(viceroy) ipAudio]
+-[SDPAnalyzer(viceroy) maxImagesize]
+-[SDPAnalyzer(viceroy) maxBandwidth]
+-[SDPAnalyzer(viceroy) maxFramerate]
+-[SDPAnalyzer(viceroy) rulesFramerate:]
+-[SDPAnalyzer(viceroy) rulesImageSize:pWidth:pHeight:]
+-[SDPAnalyzer(viceroy) rulesPeerImageSize:pWidth:pHeight:]
+-[SDPAnalyzer(viceroy) srtpKey]
+-[SDPAnalyzer(viceroy) srtpSalt]
+-[SDPAnalyzer(viceroy) setMaxImageSize:forPayloadType:]
+-[SDPAnalyzer(viceroy) setMaxBandwidth:]
+-[SDPAnalyzer(viceroy) setMaxFramerate:]
+-[SDPAnalyzer(viceroy) setAutoDetectBandwidth:]
+-[SDPAnalyzer(viceroy) autoDetectBandwidth]
+-[SDPAnalyzer(viceroy) setUseIChatEncryption:]
+-[SDPAnalyzer(viceroy) useIChatEncryption]
+-[SDPAnalyzer(viceroy) setAudioRTPID:]
+-[SDPAnalyzer(viceroy) audioRTPID]
+-[SDPAnalyzer(viceroy) setVideoRTPID:]
+-[SDPAnalyzer(viceroy) videoRTPID]
+-[SDPAnalyzer(viceroy) hasPureVoice]
+-[SDPAnalyzer(viceroy) hasViceroyCompatibleAudioCodec]
+-[SDPAnalyzer(viceroy) hasViceroyCompatibleVideoCodec]
+-[SDPAnalyzer(viceroy) hasH263]
+-[SDPAnalyzer(viceroy) irisOpen]
+-[SDPAnalyzer(viceroy) generateVideoMediaArray:]
+-[SDPAnalyzer(viceroy) generateVideoMediaAttributesArray:]
+-[SDPAnalyzer(viceroy) setMultiPointFlagWithCount:]
+-[SDPAnalyzer(viceroy) hasMultiPointFlag:]
+-[SDPAnalyzer(viceroy) setHardwareInfo:]
+-[SDPAnalyzer(viceroy) hardwareInfo]
+-[SDPAnalyzer(viceroy) buildRTPMap]
+-[SDPAnalyzer(viceroy) RTPMapString:isAudio:]
+-[SDPAnalyzer(viceroy) payload:isAudio:]
+-[SDPAnalyzer(viceroy) payloadString:isAudio:]
+-[SDPAnalyzer(viceroy) hasAudioCodec:withPeerSDP:]
+-[SDPAnalyzer(viceroy) hasVideoCodec:withPeerSDP:]
+_getBasicSDP
+_BWDCD_CreateGen
+_BWDCD_NewCallData
+_BWDCD_Free
+_BWD_QueueCancel
+_BWD_QueueGet
+_BWD_QueuePut
+_BWD_QueuePutN
+_BWDProc
+_SendNetworkProbe
+_BWDLog
+_FreeBWD
+_BWDServerUDPProc
+_RecvPacket
+_BWDServerProc
+_SendSigstart
+_BWD_SIGHandler
+_BWD_StartServer
+_BWDClientProc
+_SendSigack
+_BWD_GetBandwidthWithInfo
+_BWD_GetBandwidth
+_BWD_GetVersion
+_BWD_IsServerAlive
+_ProbeRecvProc
+_CalculateBandwidth
+_SendRexmit
+_SendReport
+_SendAck
+_TrigCache_Create
+_TrigCache_Destroy
+_TrigCache_Get
+_Resample_double
+_Resample_scatter
+_Resample_avg
+_Resample_avg_mirror
+_Resample_freqs
+_dft_forward
+_dft_inverse
+_fft_forward
+_fft_inverse
+_SoundWarp_Warp
+_JitterQueue_Frame_Alloc
+_JitterQueue_Frame_Free
+_JitterQueue_Create
+_JitterQueue_Destroy
+_JitterQueue_Reset
+_JitterQueue_Insert
+_JitterQueue_Pop
+_JitterQueue_FrameCount
+_JitterQueue_FrameCountTS
+_RTPRecvProc
+_Jitter_NewStream
+_Jitter_UpdateAudioQSize
+_Jitter_UpdateAvgLag
+_RTPRecvAudioSamples
+_RTPSendAudioPacket
+_RTPStartJitterThread
+_Jitter_DecodeSamples
+_FloatBuffer_Alloc
+_Dft_Create
+_Dft_Destroy
+_Dft_Run
+_fft_5
+_Dft_GrowFactors
+__ZN16CAudioProcessingC2Eii
+__ZN16CAudioProcessingC1Eii
+__ZN16CAudioProcessingD2Ev
+__ZN16CAudioProcessingD1Ev
+__ZN16CAudioProcessingD0Ev
+__ZN16CAudioProcessing22SetupDynamicsProcessorEv
+__ZL23FileUtil_PrintBasicDescPKcPK27AudioStreamBasicDescription
+__ZL12EQRenderProcPvPjPK14AudioTimeStampjjP15AudioBufferList
+__ZN16CAudioProcessing7SetupEQEv
+__ZN16CAudioProcessing14DetectClippingEPfiS0_
+__ZN16CAudioProcessing16IsSpeech_ComplexEPfi
+__ZN16CAudioProcessing14UpdateMicLevelEf
+__ZN16CAudioProcessing10AGC_EnableEi
+__ZN16CAudioProcessing13AGC_IsEnabledEv
+__ZN16CAudioProcessing9AGC_ResetEv
+__ZN16CAudioProcessing20EchoCanceller_EnableEi
+__ZN16CAudioProcessing23EchoCanceller_IsEnabledEv
+__ZN16CAudioProcessing19EchoCanceller_ResetEv
+__ZN16CAudioProcessing21NoiseReduction_EnableEi
+__ZN16CAudioProcessing24NoiseReduction_IsEnabledEv
+__ZN16CAudioProcessing20NoiseReduction_ResetEv
+__ZN16CAudioProcessing18NotchFilter_EnableEi
+__ZN16CAudioProcessing21NotchFilter_IsEnabledEv
+__ZN16CAudioProcessing17NotchFilter_ResetEv
+__ZN16CAudioProcessing13NoiseFree_RunEPfS0_i
+__ZN16CAudioProcessing7AGC_RunEPfiii
+__ZN16CAudioProcessing22HasAudioGlitchInBufferEPfii
+__ZN16CAudioProcessing32FindAdaptiveFilterDelayInSamplesEi
+__ZN16CAudioProcessing23FindMaxCrossCorrelationEPfS0_Ri
+__ZN16CAudioProcessing12EchoSuppressEPfS0_fiii
+__ZN16CAudioProcessing11PostProcessEPfS0_S0_fifii
+__ZN16CAudioProcessing7ProcessEidPfPiPdS0_PFvPvdS0_iES3_i
+__ZN16CAudioProcessing14MicLevel_ResetEv
+__ZN16CAudioProcessing12MicLevel_GetEv
+__ZN15CAdaptiveFilterC2Eifiibblllf
+__ZN15CAdaptiveFilterC1Eifiibblllf
+__ZN15CAdaptiveFilterD2Ev
+__ZN15CAdaptiveFilterD1Ev
+__ZN15CAdaptiveFilterD0Ev
+__ZN15CAdaptiveFilter5ResetEifi
+__ZN15CAdaptiveFilter17prune_filter_tapsEv
+__ZN15CAdaptiveFilter6SizeOfEv
+__ZN15CAdaptiveFilter4SaveEPv
+__ZN15CAdaptiveFilter7RestoreEPv
+__ZN15CAdaptiveFilter11RewindStateEi
+__ZN15CAdaptiveFilter5PrimeEPfi
+__ZN15CAdaptiveFilter9GetLengthEv
+__ZN15CAdaptiveFilter5GetMuEv
+__ZN15CAdaptiveFilter10GetWeightsEPf
+__ZN15CAdaptiveFilter14GetIDCTWeightsEPf
+__ZN15CAdaptiveFilter28update_filter_weights_scalarEf
+__ZN15CAdaptiveFilter26update_filter_weights_vdspEf
+__ZN15CAdaptiveFilter26update_filter_weights_SSE2Ef
+__ZN15CAdaptiveFilter21update_filter_weightsEf
+__ZN15CAdaptiveFilter23calculate_filter_outputEf
+__ZN15CAdaptiveFilter18RemoveResidualEchoEPfl
+__ZN15CAdaptiveFilter4TestEPfS0_l
+__Z2dBf
+__ZN15CAdaptiveFilter10EchoCancelEPfS0_S0_ilfif
+__ZN15CAdaptiveFilter15check_stabilityEv
+__ZN15CAdaptiveFilter15GetInitialDelayEPd
+__ZN15CAdaptiveFilter12ShiftWeightsEd
+__ZN15CAllPassHilbertC2Ev
+__ZN15CAllPassHilbertC1Ev
+__ZN15CAllPassHilbertD2Ev
+__ZN15CAllPassHilbertD1Ev
+__ZN15CAllPassHilbertD0Ev
+__ZN15CAllPassHilbert10SplitPhaseEPfS0_S0_l
+__ZN15CAllPassHilbert8SetStateEPdS0_
+__ZN15CAllPassHilbert8GetStateEPdS0_
+__ZN15CAllPassHilbert10ClearStateEv
+__ZN23CCompressorGateProcMonoC2Ev
+__ZN23CCompressorGateProcMonoC1Ev
+__ZN23CCompressorGateProcMonoD2Ev
+__ZN23CCompressorGateProcMonoD1Ev
+__ZN23CCompressorGateProcMonoD0Ev
+__ZN23CCompressorGateProcMono11ResetEffectEv
+__ZN23CCompressorGateProcMono13ProcessBufferEPfS0_lS0_S0_
+__ZN23CCompressorGateProcMono16ProcessBufferCNGEPfS0_lP4CNGTS0_
+__ZN23CCompressorGateProcMono15ListenToMessageEiPv
+__ZN23CCompressorGateProcMono12GetCompRatioEv
+__ZN23CCompressorGateProcMono13GetCompThreshEv
+__ZN23CCompressorGateProcMono12GetGateRatioEv
+__ZN23CCompressorGateProcMono13GetGateThreshEv
+__ZN23CCompressorGateProcMono15GetCompFBAttackEv
+__ZN23CCompressorGateProcMono14GetCompFBDecayEv
+__ZN22CHalfBandFB_InterleaveC2El
+__ZN22CHalfBandFB_InterleaveC1El
+__ZN22CHalfBandFB_InterleaveD2Ev
+__ZN22CHalfBandFB_InterleaveD1Ev
+__ZN22CHalfBandFB_InterleaveD0Ev
+__ZN22CHalfBandFB_Interleave14HalfBandDecompEPfS0_lPl
+__ZN22CHalfBandFB_Interleave14HalfBandRecompEPfS0_lPl
++[AudioDeviceMonitor sharedMonitor]
+-[AudioDeviceMonitor init]
+_AudioHardwareChanged
+-[AudioDeviceMonitor dealloc]
+-[AudioDeviceMonitor postMessage:]
+-[AudioDeviceMonitor hasMicrophone]
+-[AudioDeviceMonitor inputDeviceCount]
+-[AudioDeviceMonitor monitorDevice:]
+_StreamConfigurationChanged
+-[AudioDeviceMonitor monitorCurrentDevice]
+-[AudioDeviceMonitor countInputDevices]
+-[AudioDeviceMonitor isOutputMuted]
+-[AudioDeviceMonitor setOutputMute:]
+_HasAudioDeviceProperty
++[HardwareCapsChangeNotifier hardwareCapsChangeNotifier]
+-[HardwareCapsChangeNotifier _init]
+-[HardwareCapsChangeNotifier dealloc]
+-[HardwareCapsChangeNotifier registerForHardwareNotification]
+_systemObjectPropertyListenerProc
+-[HardwareCapsChangeNotifier unregisterForHardwareNotification]
+-[HardwareCapsChangeNotifier initIOKitNotifications]
+_CameraAdded_IIDC
+_CameraAdded_DV
+_CameraAdded_USB
+_CameraAdded_Iris
+-[HardwareCapsChangeNotifier createNotification:callback:]
+-[HardwareCapsChangeNotifier notifierMap]
+-[HardwareCapsChangeNotifier notificationPort]
+-[HardwareCapsChangeNotifier numDevices]
+-[HardwareCapsChangeNotifier deviceList]
+-[HardwareCapsChangeNotifier audioHardwareChanged:]
+_VCHandleQ8
+-[HardwareCapsChangeNotifier cameraCallbackFindParent:parentClass:]
+-[HardwareCapsChangeNotifier cameraCallbackCreateNotifier:withIterator:]
+_GeneralInterest
+_Q8WithGUID
+-[HardwareCapsChangeNotifier _isGUIDUnique:]
+_Q8WithIrisUnit
+_CameraWithNotifier
+-[HardwareCapsChangeNotifier _refreshDevicePropertyListeners]
+-[HardwareCapsChangeNotifier _broadcastHardwareCaps]
+-[HardwareCapsChangeNotifier vcHardwareCaps]
+__ZN11CAltivecDCTC2Elf
+__ZN11CAltivecDCTC1Elf
+__ZN11CAltivecDCTD2Ev
+__ZN11CAltivecDCTD1Ev
+__ZN11CAltivecDCTD0Ev
+__ZN11CAltivecDCT12Shuffle_SSE2EPf
+__ZN11CAltivecDCT10DoDCT_SSE2EPfS0_
+__ZN11CAltivecDCT5DoDCTEPfS0_b
+__ZN11CAltivecDCT12DoInverseDCTEPfS0_
+__ZN20CDoubleTalkDetection13ProcessBufferEPfS0_S0_lPiS1_S1_fii
+__ZN20CDoubleTalkDetection13lpc_from_dataEPfS0_ii
+__ZN20CDoubleTalkDetection21update_power_averagesEPfS0_S0_fi
+__ZN20CDoubleTalkDetection21far_end_speech_detectEPfS0_S0_i
+__ZN20CDoubleTalkDetection22near_end_speech_detectEPfS0_
+__ZN20CDoubleTalkDetection18double_talk_detectEPfS0_S0_
+__ZN20CDoubleTalkDetectionC2Elf
+__ZN20CDoubleTalkDetectionC1Elf
+__ZN20CDoubleTalkDetectionD2Ev
+__ZN20CDoubleTalkDetectionD1Ev
+__ZN20CDoubleTalkDetectionD0Ev
+__ZN20CDoubleTalkDetection5ResetEv
+__ZN20CDoubleTalkDetection17MakeHanningWindowEi
+__ZN20CDoubleTalkDetection33Compare_Power_Ratios_To_ThresholdEPf
+__ZN20CDoubleTalkDetection14Calc_Avg_PowerEPfS0_
+__ZN20CDoubleTalkDetection15Leak_ThresholdsEf
+__ZN20CDoubleTalkDetection17Update_ThresholdsEPf
+__ZN20CDoubleTalkDetection10WindowDataEPf
+__ZN20CDoubleTalkDetection21Calc_Prediction_ErrorEPfS0_f
+__ZN20CDoubleTalkDetection9CorrelateEPfS0_S0_iii
+__Z11lpc_predictPfS_iS_i
+__ZN20CDoubleTalkDetection15cross_correlateEPfiS0_i
+__ZN20CDoubleTalkDetection15GetNoDoubleTalkEv
+-[VideoConferenceController(UserIDMapProtocol) addUserIDToMap:withInfo:]
+-[VideoConferenceController(UserIDMapProtocol) removeUserIDFromMap:]
+-[VideoConferenceController(UserIDMapProtocol) userIDMapCount]
+-[VideoConferenceController(UserIDMapProtocol) clearUserIDToCallIDMap]
+-[VideoConferenceController(UserIDMapProtocol) invalidateCallIDForUserID:]
+-[VideoConferenceController(UserIDMapProtocol) existUserIDInUserIDMap:]
+-[VideoConferenceController(UserIDMapProtocol) updateDictionaryForUserID:withSubKey:andValue:]
+-[VideoConferenceController(UserIDMapProtocol) dictionaryForUserID:]
+-[VideoConferenceController(UserIDMapProtocol) dictionaryForPeer]
+__ZN10CBJShelfEQC2Eb
+__ZN10CBJShelfEQC1Eb
+__ZN10CBJShelfEQD2Ev
+__ZN10CBJShelfEQD1Ev
+__ZN10CBJShelfEQD0Ev
+__ZN10CBJShelfEQ13ProcessBufferEPfS0_l
+__ZN10CBJShelfEQ15UpdateTapweightEdd
+__ZN10CBJShelfEQ7SetGainEd
+__ZN10CBJShelfEQ7GetGainEv
+__ZN10CBJShelfEQ8SetStateEd
+__ZN10CBJShelfEQ8GetStateEv
+__ZN10CBJShelfEQ12GetTapweightEv
+__ZN10CBJShelfEQ12SetTapweightEd
+_DeviceManager_Create
+_DeviceManager_Destroy
+_DeviceManager_SetRectTexture
+_DeviceManager_SetCPUResize
+__Z27ProcessInputBufferForClicksP15DeviceManager_tPfS1_i
+__ZL11GetPeakDataPKfiPffPi
+_DeviceManager_StartCamera
+_DeviceManager_SwitchCamera
+_DeviceManager_SetMicrophone
+_DeviceManager_GetMicrophone
+_DeviceManager_StopCamera
+_DeviceManager_StartPreview
+__ZL30DeviceManager_OnCaptureSoundDVPvPfiid
+_DeviceManager_EndPreview
+_DeviceManager_StartTransmit
+__ZL28DeviceManager_OnCaptureVideoPvPhidiijiiiS0_h
+__ZL25DeviceManager_OnFillVideoPvP10__CVBufferPhS2_iPtPiiS3_S4_iiid
+_DeviceManager_EndTransmit
+_DeviceManager_StartReceive
+__ZL25DeviceManager_OnPlaySoundPvPfiid
+__ZL28DeviceManager_SpeakerStartedP9Speaker_tPvj
+__ZL34DeviceManager_SpeakerSourceChangedP9Speaker_tPvjj
+_DeviceManager_EndReceive
+__ZL31DeviceManager_MicrophoneChooserPv22AudioDeviceAndSource_t
+__ZL28DeviceManager_OnCaptureSoundPvPfiidd
+__ZL31DeviceManager_MicrophoneStartedP12Microphone_tPv22AudioDeviceAndSource_t
+__ZL37DeviceManager_MicrophoneSourceChangedP12Microphone_tPv22AudioDeviceAndSource_t
+_DeviceManager_StartSideShowReflector
+__ZL38DeviceManager_OnCaptureSound_ReflectorPvPfiidd
+_DeviceManager_StopSideShowReflector
+_DeviceManager_SetSpeaker
+_DeviceManager_GetSpeaker
+_DeviceManager_SetMicrophonePause
+_DeviceManager_GetMicrophonePause
+_DeviceManager_SetMicrophoneGain
+_DeviceManager_GetMicrophoneGain
+_DeviceManager_IsRequestedMicrophoneDeviceUnknown
+_DeviceManager_SetSpeakerPause
+_DeviceManager_GetSpeakerPause
+_DeviceManager_GetMicrophoneLevel
+_DeviceManager_GetSpeakerLevel
+_DeviceManager_SetSpeakerGain
+_DeviceManager_GetSpeakerGain
+_DeviceManager_SetSpeakerAttenuation
+_DeviceManager_GetSpeakerAttenuation
+_DeviceManager_SetEchoCancellerEnable
+_DeviceManager_GetEchoCancellerEnable
+_DeviceManager_SetNoiseReductionEnable
+_DeviceManager_GetNoiseReductionEnable
+_DeviceManager_SetAGCEnable
+_DeviceManager_GetAGCEnable
+_DeviceManager_SetPreFilterDiffusionEnable
+_DeviceManager_GetPreFilterDiffusionEnable
+_DeviceManager_SetPreFilterTemporalEnable
+_DeviceManager_GetPreFilterTemporalEnable
+_DeviceManager_SetPreFilterSkinColorEnable
+_DeviceManager_GetPreFilterSkinColorEnable
+_DeviceManager_SetPreFilterContrast
+_DeviceManager_GetPreFilterContrast
+_DeviceManager_SetFrameRate
+_DeviceManager_SetKeyFrameRate
+_DeviceManager_SetBitRate
+_DeviceManager_CameraIsIIDC
+_DeviceManager_CameraIsQ8
+_DeviceManager_CameraIsM33
+_DeviceManager_CameraHasMicrophone
+_DeviceManager_CameraSetUVCFeaturesAutomatically
+_DeviceManager_CameraSetIIDCFeaturesAutomatically
+_DeviceManager_CameraSetFeature
+_DeviceManager_CameraGetFeature
+_DeviceManager_CameraGetFeatureDefaults
+_DeviceManager_CameraGetFeatureRange
+_DeviceManager_CameraSetFocusPoint
+_DeviceManager_CameraGetFocusPoint
+_DeviceManager_CameraGetFocusPointDefaults
+_DeviceManager_CameraWriteSettingsToMem
+_DeviceManager_CameraReadSettingsFromMem
+_DeviceManager_CameraReadSettingsFromDefaults
+_DeviceManager_GetCameraName
+_DeviceManager_GetCameraGuid
+_DeviceManager_GetCameraDevice
+_DeviceManager_SetSideShowCamera
+_DeviceManager_GetSideShowCameraName
+_DeviceManager_UnsetSideShowCamera
+_DeviceManager_PauseKeyFrameGeneration
+_DeviceManager_GenerateKeyFrameNow
+_DeviceManager_SendImgDesc
+_DeviceManager_SetVideoFormat
+_DeviceManager_GetVideoFormatWithComposite
+_DeviceManager_GetVideoFormat
+_DeviceManager_IsVideoFormatSmall
+_DeviceManager_CaptureExists
+_DeviceManager_IsPreviewMode
+_DeviceManager_SetLocalCVBufferCallback
+_DeviceManager_SetCameraPause
+_DeviceManager_GetCameraPause
+_DeviceManager_SetMicPreviewOn
+_DeviceManager_GetSpeakerExtraBuffer
+_DeviceManager_SynchAudioProcessingToNewInternalSampleRate
+_DeviceManager_LockAudioProcessing
+_DeviceManager_UnlockAudioProcessing
+_DeviceManager_PauseMediaStreams
+_DeviceManager_SetRemoteIsUsingNewEC
+_DeviceManager_BypassEchoCanceller
+_DeviceManager_ForceBothSpeakers
+__ZL45DeviceManager_CheckToDisableLaptopLeftSpeakerP15DeviceManager_tP12Microphone_tP9Speaker_t
+__ZN5CZinvC2ElPf
+__ZN5CZinvC1ElPf
+__ZN5CZinvD2Ev
+__ZN5CZinvD1Ev
+__ZN5CZinvD0Ev
+__ZN5CZinv7DelayItEPfS0_l
+__ZN5CZinv11GetStateLenEv
+__ZN5CZinv13GetStateIndexEv
+__ZN5CZinv13SetStateIndexEl
+__ZN5CZinv8GetStateEPfll
+__ZN5CZinv8SetStateEPfl
+__ZN5CZinv10ClearStateEv
+__ZN5CZinv7StoreItEPfl
+_Scale_Line_2_1_SSE2
+_Scale_Line_11_5_SSE2
+_Scale_Line_5_3_SSE2
+_Scale_Line_20_11_SSE2
+_Scale_Line_11_10_SSE2
+_Scale_Line_5_6_SSE2
+_Scale_Line_10_11_SSE2
+_Scale_Column_2_1_SSE2
+_Scale_Column_6_5_SSE2
+_Scale_Column_5_3_SSE2
+_Scale_Column_5_6_SSE2
+_Scale_Column_3_5_SSE2
+_Scale_ResizeAndCrop_SSE2
+_Scale_80x60_320x240_SSE2
+_Image_yuvs_to_2vuy_SSE2
+_getCommNATAddresses
+___getCommNATAddresses_block_invoke
+___getCommNATAddresses_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_18
+___destroy_helper_block_19
+_SimpleURLParse
+_SimpleHTTPGet
+-[DotMacConfiguration init]
+-[DotMacConfiguration dealloc]
+-[DotMacConfiguration getConfiguration]
+-[DotMacConfiguration ipAndPortArray]
+-[DotMacConfiguration getConfigurationProc:]
+-[SNATMAPConfiguration init]
++[SNATMAPConfiguration SNATMAPConfiguration]
+-[SNATMAPConfiguration dealloc]
+-[SNATMAPConfiguration getConfiguration]
+_StringTrimWhitespace
+-[BWDConfiguration init]
+-[BWDConfiguration dealloc]
+-[BWDConfiguration getConfiguration]
+_StringSplitParts
+_StringFreeParts
+-[CommNATConfiguration init]
+-[CommNATConfiguration dealloc]
+-[CommNATConfiguration getServerInfo:pMainPort0:pMainPort1:pCohortIP:pCohortPort:]
+-[CommNATConfiguration getConfiguration]
+_GetServerInfoFromConfiguration
+_GetSNATMAPServer
+_DotMacConfigurationInit
+_ConvertSIPICEDataToIPPort
+-[VideoConferenceMultiController(VCInitiateConference_Private) callIDForVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) connectionDataForIPAndPortData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) bandwidthDictionary]
+-[VideoConferenceMultiController(VCInitiateConference_Private) VCChannelExtraDictionary:withHandle:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) SIPICEDataForCallID:shouldFindExternalIP:relayInfo:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) generateVCConnectionDataWithVersion:SIPICEData:bandwidthDictionary:connectionHelper:VCChannelExtraObj:relayInfo:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) IPAndPortDataForConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractObjectFromVCConnectionData:byKey:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractConnectionDataFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractIPAndPortDataFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractVersionFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractBandwidthInfoFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractVCChannelExtraFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractRelayIDFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractConnectionHelperInfoFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) hasVCChannelExtraInVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) extractVCChannelHandleFromVCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) initiateConferenceCallUsingConnectionDataWithErrorInfoToUser:withRemoteVCConnectionData:withLocalVCConnectionData:oneWayOnly:errorInfo:shouldFindExternalIP:]
+___220-[VideoConferenceMultiController(VCInitiateConference_Private) initiateConferenceCallUsingConnectionDataWithErrorInfoToUser:withRemoteVCConnectionData:withLocalVCConnectionData:oneWayOnly:errorInfo:shouldFindExternalIP:]_block_invoke
+-[VideoConferenceMultiController(VCInitiateConference_Private) initiateConferenceToUserWithVCConnectionDataProc:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) cacheConnectionData:andCallID:]
+-[VideoConferenceMultiController(VCInitiateConference_Private) VCChannelExtraPreparationProc:]
+-[VideoConferenceMultiController(VCInitiateConference) VCConnectionDataWithExtraChannels:shouldFindExternalIP:]
+-[VideoConferenceMultiController(VCInitiateConference) VCConnectionDataWithExtraChannels:]
+-[VideoConferenceMultiController(VCInitiateConference) VCConnectionData]
+-[VideoConferenceMultiController(VCInitiateConference) VCConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference) VCConnectionDataWithAttributes:]
+-[VideoConferenceMultiController(VCInitiateConference) prepareConnectionWithRemoteConnectionData:localConnectionData:]
+-[VideoConferenceMultiController(VCInitiateConference) cancelPreparingConnection:]
+-[VideoConferenceMultiController(VCInitiateConference) initiateConferenceToUser:withRemoteVCConnectionData:withLocalVCConnectionData:conferenceSettings:]
+-[VideoConferenceMultiController(VCInitiateConference) initiateConferenceToUser:withRemoteVCConnectionData:withLocalVCConnectionData:conferenceSettings:shouldFindExternalIP:]
+-[VideoConferenceMultiController(VCInitiateConference) extraChannelsForVCConnectionData:]
+-[VideoConferenceMultiController(VCNetworkMonitor) openNetworkMonitor]
+-[VideoConferenceMultiController(VCNetworkMonitor) closeNetworkMonitor]
+-[VideoConferenceMultiController(VCNetworkMonitor) registerForNetworkChanges]
+-[VideoConferenceMultiController(VCNetworkMonitor) localIPs]
+_ErrorReporter_Reset
+_ERNode_Free
+_ErrorReporter_AddFilter
+_ErrorReporter_AddFilter_IPv4
+_ErrorReporter_AddFilter_IP
+_ErrorReporter_AddEntryFileLine
+_ErrorReporter_GetReport
+_ErrorReporter_FilterReport
+_ErrorReporter_CheckInit
+-[VCRulesBandwidthList init]
+-[VCRulesBandwidthList dealloc]
+-[VCRulesBandwidthList addBandwidthLowerThreshold:upperThreshold:]
+-[VCRulesBandwidthList bandwidthWithLowerThreshold:upperThreshold:]
+-[VCRulesBandwidthList addRuleWithBandwidthLowerThreshold:upperThreshold:nParticipants:width:height:fps:type:]
+-[VCRulesBandwidthList imageSizeForBandwidth:nParticipants:type:]
+-[VCRulesBandwidthList addRuleWithBandwidthLowerThreshold:upperThreshold:nParticipants:width:height:fps:conferenceType:]
+-[VCRulesBandwidthList imageSizeForBandwidth:nParticipants:conferenceType:]
+-[VCRulesBandwidthList description]
+-[VCRulesBandwidthList bandwidthList]
+-[VCRulesBandwidthList setBandwidthList:]
+-[VCRulesBandwidth initWithBandwidthLowerThreshold:upperThreshold:]
+-[VCRulesBandwidth dealloc]
+-[VCRulesBandwidth description]
+-[VCRulesBandwidth addRuleWithNParticipants:width:height:fps:conferenceType:]
+-[VCRulesBandwidth imageSizeForNParticipants:conferenceType:]
+-[VCRulesBandwidth addRuleWithNParticipants:width:height:fps:type:]
+-[VCRulesBandwidth imageSizeForNParticipants:type:]
+-[VCRulesBandwidth bandwidth]
+-[VCRulesBandwidth setBandwidth:]
+-[VCRulesBandwidth bandwidthLowerThreshold]
+-[VCRulesBandwidth setBandwidthLowerThreshold:]
+-[VCRulesBandwidth bandwidthUpperThreshold]
+-[VCRulesBandwidth setBandwidthUpperThreshold:]
+-[VCRulesBandwidth H264Focus]
+-[VCRulesBandwidth setH264Focus:]
+-[VCRulesBandwidth H264NonFocus]
+-[VCRulesBandwidth setH264NonFocus:]
+-[VCRulesBandwidth H263]
+-[VCRulesBandwidth setH263:]
+-[VCRulesCPUList init]
+-[VCRulesCPUList dealloc]
+-[VCRulesCPUList description]
+-[VCRulesCPUList addCPUwithType:nProcessors:frequency:]
+-[VCRulesCPUList cpuWithType:nProcessors:frequency:]
+-[VCRulesCPUList addRuleForCPUWithType:nProcessors:frequency:lowerThreshold:upperThreshold:nParticipants:width:height:fps:type:]
+-[VCRulesCPUList imageSizeForCPUWithType:nProcessors:frequency:bandwidth:nParticipants:type:]
+-[VCRulesCPUList addRuleForCPUWithType:nProcessors:frequency:lowerThreshold:upperThreshold:nParticipants:width:height:fps:conferenceType:]
+-[VCRulesCPUList imageSizeForCPUWithType:nProcessors:frequency:bandwidth:nParticipants:conferenceType:]
+-[VCRulesCPUList cpuList]
+-[VCRulesCPUList setCPUList:]
+-[VCRulesCPU initWithCPUType:nProcessors:frequency:]
+-[VCRulesCPU dealloc]
+-[VCRulesCPU description]
+-[VCRulesCPU addRuleWithBandwidthLowerThreshold:upperThreshold:nParticipants:width:height:fps:type:]
+-[VCRulesCPU imageSizeForBandwidth:nParticipants:type:]
+-[VCRulesCPU addRuleWithBandwidthLowerThreshold:upperThreshold:nParticipants:width:height:fps:conferenceType:]
+-[VCRulesCPU imageSizeForBandwidth:nParticipants:conferenceType:]
+-[VCRulesCPU compareCPU:]
+-[VCRulesCPU cpuType]
+-[VCRulesCPU setCPUType:]
+-[VCRulesCPU nProcessors]
+-[VCRulesCPU setNProcessors:]
+-[VCRulesCPU frequency]
+-[VCRulesCPU setFrequency:]
+-[VCRulesCPU bandwidthList]
+-[VCRulesCPU setBandwidthList:]
+-[VCRulesImageSizeList init]
+-[VCRulesImageSizeList initWithType:]
+-[VCRulesImageSizeList dealloc]
+-[VCRulesImageSizeList addImageSizeWithNParticipants:width:height:fps:]
+-[VCRulesImageSizeList imageSizeForNParticipants:]
+-[VCRulesImageSizeList description]
+-[VCRulesImageSizeList imageSizeList]
+-[VCRulesImageSizeList setImageSizeList:]
+-[VCRulesImageSizeList type]
+-[VCRulesImageSizeList setType:]
+-[VCRulesImageSize initWithNParticipants:width:height:fps:]
+-[VCRulesImageSize description]
+-[VCRulesImageSize nParticipants]
+-[VCRulesImageSize setNParticipants:]
+-[VCRulesImageSize width]
+-[VCRulesImageSize setWidth:]
+-[VCRulesImageSize height]
+-[VCRulesImageSize setHeight:]
+-[VCRulesImageSize fps]
+-[VCRulesImageSize setFps:]
+-[VCChannelModel init]
+-[VCChannelModel dealloc]
+-[VCChannelModel hVCChannel]
+-[VCChannelModel localConnectionData]
+-[VCChannelModel optionsDictionary]
+-[VCChannelModel sethVCChannel:]
+-[VCChannelModel setLocalConnectionData:]
+-[VCChannelModel setOptionsDictionary:]
+_channelIDForConnectionData
++[VCChannel OpenNewChannelWithOptions:]
+-[VCChannel init]
+-[VCChannel initWithOptions:]
+-[VCChannel dealloc]
+-[VCChannel connectionData]
+-[VCChannel connectionData:]
+-[VCChannel prepareConnectionWithRemoteConnectionData:]
+-[VCChannel socket]
+-[VCChannel remoteIPPort]
+-[VCChannel close]
+-[VCChannelExtra init]
+-[VCChannelExtra initWithHandle:]
+-[VCChannelExtra dealloc]
+-[VCChannelExtra currentHandle]
+-[VCChannelExtra closeHandle]
+-[VCChannelExtra connectionDataWithOptions:]
+-[VCChannelExtra connectionDataWithOptions:shouldFindExternalIP:]
+-[VCChannelExtra prepareExtraConnectionWithRemoteConnectionData:withLocalConnectionData:]
+-[VCChannelExtra sockets:size:]
+-[VCChannelExtra remoteIPPorts:]
+-[VCChannel(private) setSavedConnectionData:]
+-[VCChannel(private) getSavedConnectionData]
+_VCChannelCreateHandle
+_VCChannelSendUDPPacket
+_VCChannelRecvUDPPacketWithTimeout
+_VCChannelCloseHandle
+_VCChannelGenerateChannelID
+_VCChannelBind
+_VCChannelCreateSocketAndBind
+_VCChannelRecvProc
+_VCChannelGetConnectionData
+_VCChannelStartConnectionCheck
+_VCChannelGetChannelIDForConnectionData
+_VCChannelGetSocket
+_VCChannelGetDstIPPort
+_VCChannelGetDstIPPortNew
+_VCChannelBindNew
+_VCChannelGetDummyConnectionData
+_VCChannelStartConnectionCheckNew
+_VCChannelStartRecvProcs
+_VCChannelRecvNewProc
+_VCChannelLocalRecvProc
+_VCChannelSetRemoteSupportsARDMuxing
+_VCChannelGetRemoteSupportsARDMuxing
+_VCCExtraBind
+_VCCExtraGenerateChannelID
+_VCCExtraGetConnectionData
+_VCCExtraStartConnectionCheck
+_VCCExtraGetSockets
+_VCCExtraRemoteIPPorts
+_VCCExtraCloseRecvProc
+_VCCExtraCloseHandle
+_VCCExtraProbeRecvProc
+_VCCExtraCalculateBandwidth
+_VCCExtraSendRexmit
+_VCCExtraSendReport
+_VCCExtraSendAck
+_VCCExtraDetermineUpstreamBandwidth
+_VCChannelSetSocketPairBufferSize
+_ICEUNToString
+_CANIDToString
+_CandidateByteOrderNToH
+_CandidateByteOrderHToN
+_FixFlippedCandidate
+_AddOneCandidate
+_GetCandidateID
+_GetICECandidate
+_IfDuplicateCandidate
+_SortCandidate
+_SortCandidatePair
+_PairUpCandidate
+_SetUpCandidateList
+_AddOneICEList
+_ICEGetCandidates
+_ICERecvUDPPacketWithTimeout
+_ICEUpdateSMIPPort
+_ICEUpdateRelayIPPort
+_ICEAddOneInterface
+_ICEAddOneInterfaceWithPriorityHints
+_ICERemoveOneInterface
+_ICECreateHandle
+_ICEStartConnectivityCheck
+_ICEGetResultAFOnly
+_ICEGetResultSrcIPPort
+_ICEGetResult
+_ICEDiscardRelayBinding
+_ICEGetCallIDForConnectionData
+_ICEDiscardResult
+_ICECloseHandle
+_ICEGetLocalAndExtIPPort
+_ICECheckPacket
+_ICERefreshRelayBinding
+_ICEGetExtIPInfo
+_ICEGetIPInfo
+_ICESendOldHeartbeat
+_ICEGetRelayExtIPPort
+_ICEIsRelayConference
+_ICEGetCandidatesVCCExtra
+_ICEGetExtIPPorts
+_UpdateICEState
+_FindMatchCP
+_RecvAndProcess
+_ProcessEvent
+_AddConnectivityCheckResult
+_SetActiveDst
+_InsertEvent
+_ConnectivityCheckProc
+_IsNewCandidate
+_IsNewCandidatePair
+_IsSTUNIDValid
+_IsSNATMAPNonceValid
+_ProcessMessageType
+_ProcessCollectionResponse
+_SendCollectionRequest
+_ReXmitCollectionRequest
+_SendRelayDummyRequest
+_MakeBindingRequest
+_MakeBindingResponse
+_ProcessBindingRequest
+_ProcessBindingResponse
+_ProcessBindingErrorResponse
+_ProcessConnCheckMessage
+_SendCollectionRequestForOld
+_EQInit
+_EQPush
+_EQPop
+_EQRemove
+_FreeEvent
+_EQNextExpire
+_EQLastExpire
+_FreeEQ
+_STUNEncodeW
+_STUNEncodeDW
+_STUNEncode
+_STUNEncodeMessage
+_STUNEncodeAttrAddress
+_STUNGetTransID
+_FreeSTUNMessage
+_STUNGetErrorReason
+_MakeTransID
+_ParseSTUNDW
+_ParseSTUNAddr
+_ParseSTUNFlags
+_ParseBinaryData
+_ParseSTUNAttrUL
+_ParseErrorCode
+_ParseUnknownAttr
+_ParseSTUNMessage
+_GetSTUNAttr
+_ReserveNextAvailableReflectorChannel
+_ClearReflectorChannelPID
+-[VideoConferenceController(VCSideShow_Private) enableU2Input]
+-[VideoConferenceController(VCSideShow_Private) disableU2Input]
+-[VideoConferenceController(VCSideShow_Private) sendHardwareCapsChange:]
+-[VideoConferenceController(VCSideShow) IsSideShowAvailable]
+-[VideoConferenceController(VCSideShow) enableReplacementVideoInputWithName:]
+-[VideoConferenceController(VCSideShow) disableReplacementInput]
+-[VideoConferenceController(VCSideShow) requestAuxiliaryVideoInput]
+___67-[VideoConferenceController(VCSideShow) requestAuxiliaryVideoInput]_block_invoke
+-[VideoConferenceController(VCSideShow) setAuxiliaryVideoInputMode:]
+-[VideoConferenceController(VCSideShow) auxiliaryInputReady]
+-[VideoConferenceController(VCSideShow) disableAuxiliaryVideoInput]
+___67-[VideoConferenceController(VCSideShow) disableAuxiliaryVideoInput]_block_invoke
+-[VideoConferenceController(VCSideShow) audioReflectorGUID]
+-[VideoConferenceController(VCSideShow) audioReflectorChannel]
+-[VideoConferenceController(VCSideShow) audioReflectorChannels:]
+-[VideoConferenceController(VCSideShow) requestReflectorChannels:]
+-[VideoConferenceController(VCSideShow) startAuxiliaryReflector]
+-[VideoConferenceController(VCSideShow) stopAuxiliaryReflector]
+-[VideoConferenceController(VCSideShow) muteAuxiliaryAudio:]
+-[VideoConferenceController(VCSideShow) muteAuxiliaryAudioLocalPlayback:]
+-[VideoConferenceController(VCSideShow) setAuxiliaryAudioVolume:]
+-[VideoConferenceController(VCSideShow) auxiliaryAudioVolume]
+-[VideoConferenceController(VCSideShow) auxVideoBufferSizeForParty:replacementOnly:]
+-[VideoConferenceController(VCHighResolution) setSDForced:]
+-[VideoConferenceController(VCHighResolution) isSDForced]
+_RTPSendH264Packet
+_RTPProcessH264Packet
+_sleepWakeMonitorCallback
++[VCSleepWakeMonitor VCSleepWakeMonitorSingleton]
+-[VCSleepWakeMonitor startMonitor]
+-[VCSleepWakeMonitor endMonitor]
+-[VCSleepWakeMonitor rootPort]
+__ZN13DVFrameMinderC2Ev
+__ZN13DVFrameMinderC1Ev
+__ZN13DVFrameMinderC2EPvm
+__ZN13DVFrameMinder18SetBufferAndLengthEPvm
+__ZN13DVFrameMinderC1EPvm
+__ZN13DVFrameMinder14InferFrameInfoEv
+__ZN13DVFrameMinder21FindFirstTimeCodePackEv
+__ZN13DVFrameMinder14GetFrameNumberEv
+__ZN13DVFrameMinder18GetNumSampleFramesENS_12DVSampleRateERt
+__ZN13DVFrameMinder18GetNumSampleFramesENS_12DVSampleRateEbRt
+__ZN13DVFrameMinder18GetMaxSampleFramesENS_12DVSampleRateEb
+__ZN13DVFrameMinder20SetupAudioParametersENS_12DVSampleRateEjjj
+__ZN13DVFrameMinder18GetAudioParametersERNS_12DVSampleRateERjS2_S2_
+__ZN13DVFrameMinder14ConvertTo12BitEs
+__ZN13DVFrameMinder29ConvertSamplesTo12BitCombinedEssPh
+__ZN13DVFrameMinder12ExtractAudioEPvjjj
+__ZN13DVFrameMinder31ExtractSamplesFrom12BitCombinedERsS0_PKh
+_DVFrameMinderNew
+_DVFrameMinderGetAudioParameters
+_DVFrameMinderExtractAudio
+_DVFrameMinderDelete
+_VTP_Initialize
+_VTPRecvProc
+_VTP_Cleanup
+_VTP_CloseOneVFDList
+_VTP_Socket
+_VTP_ReleaseVFD
+_VTP_Getsockmode
+_VTP_SetPayloadList
+_VTP_SetPktType
+_VTP_AddPktType
+_VTP_RemovePktType
+_VTP_Getsockname
+_VTP_SetRemoteSSRC
+_VTP_Setsockopt
+_VTP_Getsockopt
+_VTP_Close
+_VTP_Bind
+_VTP_SetSocketBufferSize
+_VTP_BindNew
+_VTP_Connect
+_VTP_Sendto
+_VTP_Recvfrom
+_VTP_Select
+_VTP_PassPkt
+_VTP_IFIndexToName
+_RTPMappingInit
+_RTPAddRTPMapping
+_RTPResetRTPMapping
+_RTPPrintRTPMapping
+_RTPMapInternalPayload
+_RTPMapExternalPayload
+_RTPMapExternalPayloadForString
+_comm_send
+_CommTestLog
+_CommTest
+_fillsa_file_line
+_CommReport
+_CommNAT_Test
+_CommNAT_RunTest
+_RunTestProc
+_getDNSSDExternalIPList
+_getDNSSDExternalIPListForInterfaceAndPort
+_getDNSSDExternalIPListForInterface
+_DNSSDReleaseMappingsForInterface
+_DNSSDReleaseAllMappings
+_DNSSDCreatePortMapping
+_DNSSDGetPrimaryInterface
+_DNSSDSetPrimaryInterface
+_DNSSDHasMappingForInterfaceAndPort
++[DNSSDMappingClient DNSSDMappingClient]
+-[DNSSDMappingClient init]
+-[DNSSDMappingClient dealloc]
+_NATPMPCallback
+_TimerMappingRefreshCallback
+-[DNSSDMappingClient findMapUsingRef:]
+-[DNSSDMappingClient findMapForPrivatePort:ifaceIndex:]
+_socketCallback
+-[DNSSDMappingClient mySocketCallback:serviceRef:]
+-[DNSSDMappingClient removeMapping:]
+-[DNSSDMappingClient setupRunLoopForResult:]
+-[DNSSDMappingClient addAndSetupMapping:]
+-[DNSSDMappingClient createPortMapping:externalPort:interfaceIndex:]
+-[DNSSDMappingClient releaseAllMappingsProc:]
+-[DNSSDMappingClient releaseAllMappings]
+-[DNSSDMappingClient releaseMappingsForInterface:]
+-[DNSSDMappingClient getExternalIPList:numMappingsOut:]
+-[DNSSDMappingClient hasMappingForInterface:port:]
+-[DNSSDMappingClient getExternalIPList:numMappingsOut:matchingInterface:matchingPrivatePort:waitForAnswer:]
+-[DNSSDMappingClient primaryInterfaceIndex]
+-[DNSSDMappingClient setPrimaryInterfaceIndex:]
+-[DNSSDMappingInfo initWithRef:]
+-[DNSSDMappingInfo initWithMapResult:]
+-[DNSSDMappingInfo dealloc]
+-[DNSSDMappingInfo setMapResult:]
+-[DNSSDMappingInfo addTimerForRunLoop:callBack:]
+-[DNSSDMappingInfo hasTimer]
+-[DNSSDMappingInfo sdRef]
+-[DNSSDMappingInfo flags]
+-[DNSSDMappingInfo interfaceIndex]
+-[DNSSDMappingInfo errorCode]
+-[DNSSDMappingInfo publicAddress]
+-[DNSSDMappingInfo protocol]
+-[DNSSDMappingInfo privatePort]
+-[DNSSDMappingInfo publicPort]
+-[DNSSDMappingInfo ttl]
+-[DNSSDMappingInfo queryAnswered]
+-[DNSSDMappingInfo requestedPublicPort]
+-[DNSSDMappingInfo toString]
+-[DNSSDMappingInfo createExternalIPPort]
+-[DNSSDMappingInfo rls]
+-[DNSSDMappingInfo setRls:]
+-[DNSSDMappingInfo socketRef]
+-[DNSSDMappingInfo setSocketRef:]
+_MakeAllocateRequest
+_MakeSendRequest
+_MakeSetActiveDstRequest
+_ProcessAllocateResponse
+_ProcessSendResponse
+_ProcessSetActiveDstResponse
+_ProcessAllocateErrorResponse
+_ProcessErrorResponse
+_ProcessSendErrorResponse
+_ProcessSetActiveDstErrorResponse
+_GetRelayIDForSession
+_VideoFormatCanBeCVImageBuffers
+_CreateCVImageBufferInfoFromCMSampleBuffer
+_CreateCVImageBufferFromCMSampleBuffer
+_pixelBufferReleaseCallback
+__ToCVPixelBufferConsumer_FillInCMIOConsumerCallbacksStruct
+__ToCVPixelBufferConsumerProcs_Render
+__ToCVPixelBufferConsumerProcs_Initialize
+__ToCVPixelBufferConsumerProcs_Uninitialize
+__ToCVPixelBufferConsumerProcs_Start
+__ToCVPixelBufferConsumerProcs_Stop
+__ToCVPixelBufferConsumerProcs_Reset
+__ToCVPixelBufferConsumerProcs_Deallocate
+__ToCVPixelBufferConsumerProcs_CanRenderNow
+__ToCVPixelBufferConsumerProcs_AvailableFormats
+__ToCVPixelBufferConsumerProcs_CopyClock
+__ToCVPixelBufferConsumerProcs_GetPropertyInfo
+__ToCVPixelBufferConsumerProcs_GetProperty
+__ToCVPixelBufferConsumerProcs_SetProperty
+_ToCVPixelBufferConsumer_Setup
+_CreateDALCMIOGraph
+_chooseVideoDevice
+_CMIOCapture_Create
+_CMIOCapture_Destroy
+_CMIOCapture_InitializeGraph
+_CMIOCapture_SetCameraWithName
+_CMIOCapture_Start
+_CMIOCapture_Stop
+_CMIOCapture_SetCamera
+_CMIOCapture_GetCurrentImageFormat
+_CMIOCapture_SetImageSize
+_CMIOCapture_CMIODeviceWithName
+_CMIOCapture_SetMicrophone
+_CMIOCapture_GetStreamInfo
+_CMIOCapture_SetFramerate
+_CMIOCapture_CameraIsDV
+__Z28CMIOCapture_CameraSetFeatureP13CMIOCapture_tiifi
+__Z28CMIOCapture_CameraGetFeatureP13CMIOCapture_tiPiPfS1_
+_CMIOCapture_CameraSetFeaturesAutomatically
+_CMIOCapture_CameraIsIIDC
+_CMIOCapture_CameraIsQ8
+_CMIOCapture_CameraIsM33
+_CMIOCapture_CameraIsHD
+_CMIOCapture_ResetAudio
+_CMIOCapture_GetCameraList
+_CMIOCapture_GetCameraProperty
+_CMIOCapture_GetCurrentCameraName
+_CMIOCapture_GetCameraName
+_CMIOCapture_GetCameraUID
+_CMIOCapture_GetCurrentCameraDevice
+_CMIOCapture_GetDeviceForGUID
+_CMIOCapture_ChangeSize
+_CMIOCapture_GetNCLCInfo
+__ToAudioBufferListConsumer_FillInCMIOConsumerCallbacksStruct
+__ToAudioBufferListConsumerProcs_Render
+__ToAudioBufferListConsumerProcs_Initialize
+__ToAudioBufferListConsumerProcs_Uninitialize
+__ToAudioBufferListConsumerProcs_Start
+__ToAudioBufferListConsumerProcs_Stop
+__ToAudioBufferListConsumerProcs_Reset
+__ToAudioBufferListConsumerProcs_Deallocate
+__ToAudioBufferListConsumerProcs_CanRenderNow
+__ToAudioBufferListConsumerProcs_AvailableFormats
+__ToAudioBufferListConsumerProcs_CopyClock
+__ToAudioBufferListConsumerProcs_GetPropertyInfo
+__ToAudioBufferListConsumerProcs_GetProperty
+__ToAudioBufferListConsumerProcs_SetProperty
+_ToAudioBufferListConsumer_Setup
+_ToAudioBufferListConsumerProcs_ResetAudio
+_CreateHALCMIOGraph
+_CreateDALHALCMIOGraph
+_EncCreateHandle
+_vtEncCallback
+_EncCloseHandle
+_EncPixelBufferFromPool
+_EncEncodeFrame
+_EncSetFrameRate
+_EncSetBitRate
+_EncSetKeyFrameRate
+_EncSendImgDesc
+_EncPauseKeyFrameGeneration
+_EncGenerateKeyFrameNow
+_SSCreateHandle
+_SSCloseHandle
+_SSStartSideShow
+_SideShowProc
+_SSStopSideShow
+_SSGetCameraName
+_SSSetFrameRate
+_serialq
+_concurrentqAtIndex
+_vcdispatch_apply_async
++[VCDispatchQueues dispatchQueues]
+-[VCDispatchQueues init]
+-[VCDispatchQueues dealloc]
+-[VCDispatchQueues serialq]
+-[VCDispatchQueues concurrentqAtIndex:]
+_notifyVideoConferenceDelegate
+___notifyVideoConferenceDelegate_block_invoke
+___notifyVideoConferenceDelegate_block_invoke_2
+___notifyVideoConferenceDelegate_block_invoke_3
+___notifyVideoConferenceDelegate_block_invoke_4
+___notifyVideoConferenceDelegate_block_invoke_5
+___copy_helper_block_
+___destroy_helper_block_
+___notifyVideoConferenceDelegate_block_invoke346
+_readDefaults
+_shouldOverrideMicrophoneGain
+_setOverrideMicrophoneGainKey
+_CreateWaveMemoryWrapper
+_ReadFromWaveMemoryWrapper
+_DestroyWaveMemoryWrapper
++[VCPowerNotifier VCPowerNotifier]
+-[VCPowerNotifier init]
+-[VCPowerNotifier setNotificationObserver:]
+-[VCPowerNotifier dealloc]
+-[VCPowerNotifier startNotifications]
+-[VCPowerNotifier getPowerUpdate:cpuCount:scheduleLimit:]
+_showCPUPower
+_myPowerCallback
+_resetMTHelperP
+_MTHelper_init
+_MTHelper_free
+_print_MT_Arr
+_MTHelper_ResetUUID
+_MTHelper_Set_LocalMicStatus
+_MTHelper_Set_LocalCameraStatus
+_MTHelper_Set_FrameRecvStatus
+_MTHelper_Set_AudioPacketReceived
+_MTHelper_Set_VideoPacketReceived
+_MTHelper_Set_LocalCommNAT
+_MTHelper_Set_LocalUserAgent
+_MTHelper_Set_ServerBandwidth
+_MTHelper_Set_RemoteCommNAT
+_MTHelper_SetRemoteSL
+_MTHelper_Set_CallIDTable
+_MTHelper_Set_CallStartTime
+_MTHelper_Set_AvgBitRate
+_MTHelper_Retcode
+_MTHelper_Set_P2PBandwidth
+_MTHelper_Set_VCNetworkMonitorCallbackInfo
+_MTHelper_Set_RemoteUserAgent
+_MTHelper_Set_AudioOnly
+_MTHelper_Set_Security
+_MTHelper_Early_End_Call
+_MTHelper_End_Call
+_MTHelper_LogCall
+_MTHelper_EndAll
+_MTHelper_Relay
+_MTHelper_Log_Relay
+_outputStr
+_MTHelper_ICE
+_MTHelper_Log_CallStatus
+_MTHelper_Log_Detail
+_VCHelper_destroy
+_VCHelper_init
+_VCHelper_StatusLogNotice
+_VCHelper_StatusLog
+_VCHelper_StatusLogInfo
+_VCHelper_finishWithHandle
+_VCHelper_initWithHandle
+_VCHelper_StatusLogNoticeWithHandle
+_VCHelper_StatusLogWithHandle
+_VCHelper_StatusLogInfoWithHandle
+_MediaQueue_IOServiceCallback
+_MediaQueue_RegisterIONotifications
+_MediaQueue_CreateHandle
+_MediaQueue_CloseHandle
+_MediaQueue_Start
+_MediaQueueSendProc
+_MediaQueue_Malloc
+_MediaQueue_AddPacket
+_MediaQueue_RexmitPacket
+_MediaQueue_IsSuspended
+_MediaQueue_MonitorFlowControl
+_MediaQueue_SetFECLevel
+_MediaQueue_GetFECLevel
+_MediaQueue_SetRedundantAudio
+__ZN22AcousticEchoSuppressor19CalculateSineWindowERNSt3__18valarrayIfEE
+__ZN22AcousticEchoSuppressorC2Efi
+__ZN22AcousticEchoSuppressorC1Efi
+__ZN22AcousticEchoSuppressorD2Ev
+__ZN22AcousticEchoSuppressorD1Ev
+__ZN22AcousticEchoSuppressorD0Ev
+__ZN22AcousticEchoSuppressor12SetDelayHintEj
+__Z13EstimateDelayPKfS0_
+__Z31DownsampledSignalEnergyEnvelopePKfiPfif
+__ZN22AcousticEchoSuppressor20SignalEnergyEnvelopeEPKff
+__ZN22AcousticEchoSuppressor7ProcessEPKfS1_PfPj
+__ZN22AcousticEchoSuppressor5ResetEv
+__ZN22AcousticEchoSuppressor25SetSuppressionLevelPresetEj
+__ZNSt3__18valarrayIfE6resizeEmf
+___clang_call_terminate
+__ZN22ColorationEffectFilterC2Effj
+__ZN22ColorationEffectFilter5ResetEv
+__ZN22ColorationEffectFilterC1Effj
+__ZN22ColorationEffectFilterD2Ev
+__ZN22ColorationEffectFilterD1Ev
+__ZN22ColorationEffectFilter31SetBandwidthExpansionParametersEff
+__ZN22ColorationEffectFilter8estimateEPK15DSPSplitComplexS2_
+__ZL16CalcBandEnergiesRKNSt3__18valarrayIfEERKNS0_IiEERS1_
+__ZNSt3__18valarrayIiE6resizeEmi
+__ZN10FFTWrapperC2Ej
+__ZN10FFTWrapperC1Ej
+__ZN10FFTWrapperD2Ev
+__ZN10FFTWrapperD1Ev
+__ZN10FFTWrapperD0Ev
+__ZN10FFTWrapper10TimeToFreqEPKfP15DSPSplitComplex
+__ZN10FFTWrapper10TimeToFreqERKNSt3__18valarrayIfEER15DSPSplitComplex
+__ZN10FFTWrapper10FreqToTimeEP15DSPSplitComplexPf
+__ZN10FFTWrapper10FreqToTimeER15DSPSplitComplexRNSt3__18valarrayIfEE
++[VCChannelSecureConfiguration snatmapServerFromURL:withTimeout:]
+-[NSData(CopyBytes) bytesCopy]
+_g_aiStatusCodes
+-[VideoConferenceController(private_methods) _selectedCamera].name
+_FillColor_White
+_FillColor_Black
+_FillColor_Blue
+_g_aiBandwidth
+_.memset_pattern
+_bitoff
+_CS_STATETYPE_TEXT
+_CS_USERACTIVITY_TEXT
+_CS_USERHISTORY_TEXT
+-[SDPAnalyzer(viceroy) hasViceroyCompatibleAudioCodec].compatibleAudioCodecs
+-[SDPAnalyzer(viceroy) hasViceroyCompatibleVideoCodec].compatibleVideoCodecs
+_g_aiBandwidth
+_Dft_Factorize.easy_factors
+__ZL8scaleFac
+__ZTS16CAudioProcessing
+__ZTS15CAdaptiveFilter
+_.memset_pattern1
+__ZTS15CAllPassHilbert
+__ZTS23CCompressorGateProcMono
+__ZTS22CHalfBandFB_Interleave
+__ZTS11CAltivecDCT
+__ZTS20CDoubleTalkDetection
+__ZTS10CBJShelfEQ
+__ZTS5CZinv
+-[VideoConferenceMultiController(VCInitiateConference_Private) initiateConferenceCallUsingConnectionDataWithErrorInfoToUser:withRemoteVCConnectionData:withLocalVCConnectionData:oneWayOnly:errorInfo:shouldFindExternalIP:].RTPHandles
+_kszEREntryFormat
+_g_aiBandwidth
+__ZN13DVFrameMinder15DV_SAMPLE_RATESE
+__ZL22SAMPLE_COUNT_TABLE_48K
+__ZL22SAMPLE_COUNT_TABLE_44K
+__ZL22SAMPLE_COUNT_TABLE_32K
+__ZL27DV_AUDIO_PACKING_16BIT_NTSC
+__ZL26DV_AUDIO_PACKING_16BIT_PAL
+__ZL27DV_AUDIO_PACKING_12BIT_NTSC
+__ZL26DV_AUDIO_PACKING_12BIT_PAL
+__ZL19kAudioU12ToS16Table
+_VideoFormatCanBeCVImageBuffers.cvPixelCodecTypes
+__ZL33kBandwidthExpansionParameterTable
+__ZTS22AcousticEchoSuppressor
+__ZN22ColorationEffectFilter20kDefaultTimeConstantE
+__ZN22ColorationEffectFilter13kDefaultAlphaE
+__ZN22ColorationEffectFilter12kDefaultBetaE
+__ZN22ColorationEffectFilter25kDefaultNoiseThreshold_dBE
+__ZL18kBandsEdgesInHertz
+__ZN10FFTWrapper20kFFTNormalizationFacE
+__ZTS10FFTWrapper
+GCC_except_table0
+GCC_except_table0
+GCC_except_table0
+GCC_except_table4
+GCC_except_table31
+GCC_except_table4
+GCC_except_table5
+GCC_except_table0
+GCC_except_table4
+GCC_except_table0
+GCC_except_table26
+GCC_except_table4
+GCC_except_table6
+GCC_except_table10
+GCC_except_table0
+GCC_except_table98
+GCC_except_table15
+GCC_except_table8
+GCC_except_table0
+GCC_except_table9
+GCC_except_table3
+GCC_except_table0
+GCC_except_table1
+GCC_except_table5
+GCC_except_table7
+GCC_except_table0
+GCC_except_table6
+GCC_except_table4
+_g_apszStatusMsgs
+___block_descriptor_tmp
+___block_descriptor_tmp401
+___block_descriptor_tmp915
+___block_literal_global
+_.memset_pattern
+___block_descriptor_tmp
+___block_descriptor_tmp4
+___block_descriptor_tmp6
+___block_descriptor_tmp7
+_MachineType.models
+___block_descriptor_tmp
+___block_descriptor_tmp211
+___block_descriptor_tmp220
+___block_descriptor_tmp360
+___block_literal_global
+__ZTV16CAudioProcessing
+__ZTI16CAudioProcessing
+__ZTV15CAdaptiveFilter
+__ZTI15CAdaptiveFilter
+__ZTV15CAllPassHilbert
+__ZTI15CAllPassHilbert
+__ZTV23CCompressorGateProcMono
+__ZTI23CCompressorGateProcMono
+__ZTV22CHalfBandFB_Interleave
+__ZTI22CHalfBandFB_Interleave
+__ZTV11CAltivecDCT
+__ZTI11CAltivecDCT
+__ZTV20CDoubleTalkDetection
+__ZTI20CDoubleTalkDetection
+__ZTV10CBJShelfEQ
+__ZTI10CBJShelfEQ
+__ZTV5CZinv
+__ZTI5CZinv
+___block_descriptor_tmp
+___block_descriptor_tmp21
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp131
+___block_descriptor_tmp
+___block_descriptor_tmp163
+___block_descriptor_tmp218
+___block_descriptor_tmp222
+___block_descriptor_tmp333
+___block_descriptor_tmp362
+__ZTV22AcousticEchoSuppressor
+__ZTI22AcousticEchoSuppressor
+__ZTV10FFTWrapper
+__ZTI10FFTWrapper
+_OBJC_IVAR_$_SIPManager._transportProtocol
+_OBJC_IVAR_$_SIPManager._hSIP
+_OBJC_IVAR_$_SIPManager._lock
+_OBJC_IVAR_$_SIPManager._localSIPPort
+_OBJC_IVAR_$_SIPManager._extSIPPort
+_OBJC_IVAR_$_SIPManager._localIPAddress
+_OBJC_IVAR_$_SIPManager._extIPAddress
+_OBJC_IVAR_$_SIPManager._remoteUserAgent
+_OBJC_IVAR_$_SIPManager._remoteDisplayName
+_OBJC_IVAR_$_SIPManager._SIPInfoCount
+_OBJC_IVAR_$_VCNotificationGateway._ignoreNoRemotePackets
+_OBJC_IVAR_$_CallBackData._pcbd
+_OBJC_IVAR_$_VCStateMgr.lock
+_OBJC_IVAR_$_VCStateMgr._videoConferenceState
+_OBJC_IVAR_$_VCStateMgr._hardwareCaps
+_OBJC_IVAR_$_VCCallMgr.lock
+_OBJC_IVAR_$_VCCallMgr._initiateLock
+_OBJC_IVAR_$_VCCallMgr._confStatusLock
+_OBJC_IVAR_$_VCCallMgr._determineFocusCapabilityLock
+_OBJC_IVAR_$_VCCallMgr._BWDThreadLock
+_OBJC_IVAR_$_VCCallMgr._deferVideoFormatLock
+_OBJC_IVAR_$_VCCallMgr._delegateLock
+_OBJC_IVAR_$_VCCallMgr._vcCameraLock
+_OBJC_IVAR_$_VCCallMgr._participantUserIDToConfIndexLock
+_OBJC_IVAR_$_VCCallMgr._userIDToCallIDMapLock
+_OBJC_IVAR_$_VCCallMgr.dictIncomingCalls
+_OBJC_IVAR_$_VCCallMgr.dictOutgoingCalls
+_OBJC_IVAR_$_VCCallMgr.dictHangupCalls
+_OBJC_IVAR_$_VCCallMgr._confStatusMap
+_OBJC_IVAR_$_VCCallMgr.mapUserIDToCallID
+_OBJC_IVAR_$_VCCallMgr.participantUserIDToConfIndex
+_OBJC_IVAR_$_VCCallMgr.mapUserIDToSecurityInfo
+_OBJC_IVAR_$_VCCallMgr._globalAttributesDictionary
+_OBJC_IVAR_$_VCCallMgr._curCallID
+_OBJC_IVAR_$_VCCallMgr._callIDIter
+_OBJC_IVAR_$_VCCallMgr._microphoneDevice
+_OBJC_IVAR_$_VCCallMgr._speakerDevice
+_OBJC_IVAR_$_VCCallMgr._lastCallDuration
+_OBJC_IVAR_$_VCCallMgr.participantUpdateQueue
+_OBJC_IVAR_$_VCCallMgr._vcControllerInstance
+_OBJC_IVAR_$_VCCallMgr._vcDelegate
+_OBJC_IVAR_$_VCCallMgr._vcRenderDelegate
+_OBJC_IVAR_$_VCCallMgr._vcDelegateConformsToDelegateProtocol
+_OBJC_IVAR_$_VCCallMgr._localUserName
+_OBJC_IVAR_$_VCCallMgr._confUpstream
+_OBJC_IVAR_$_VCCallMgr._confDownstream
+_OBJC_IVAR_$_VCCallMgr._focusCapability
+_OBJC_IVAR_$_VCCallMgr._lastCameraGUID
+_OBJC_IVAR_$_VCCallMgr._lastCameraDevice
+_OBJC_IVAR_$_VCCallMgr._auxVideoInputMode
+_OBJC_IVAR_$_VCCallMgr._commNATResult
+_OBJC_IVAR_$_VCCallMgr._callStartTime
+_OBJC_IVAR_$_VCCallMgr._callerSDP
+_OBJC_IVAR_$_VCCallMgr._calleeSDP
+_OBJC_IVAR_$_VCCallMgr._localRTPHandles
+_OBJC_IVAR_$_VCCallMgr._BWDThreadRunning
+_OBJC_IVAR_$_VCCallMgr._didStartTransmitForNonFocus
+_OBJC_IVAR_$_VCCallMgr._multiPartyConference
+_OBJC_IVAR_$_VCCallMgr._isTransmitting
+_OBJC_IVAR_$_VCCallMgr._confStatusConnected
+_OBJC_IVAR_$_VCCallMgr._SecurityInfoLock
+_OBJC_IVAR_$_VCCallMgr.fSecurityInfoPaused
+_OBJC_IVAR_$_VCCallMgr.fSecurityEnabledValue
+_OBJC_IVAR_$_VCCallMgr.fSecurityValidValue
+_OBJC_IVAR_$_VCCallMgr._startedAuxiliaryInput
+_OBJC_IVAR_$_VCCallMgr._usePCMUWideband
+_OBJC_IVAR_$_VCCallMgr._useSpeex
+_OBJC_IVAR_$_VCCallMgr._useSpeex32K
+_OBJC_IVAR_$_VCCallMgr._sideShowEnabled
+_OBJC_IVAR_$_VCCallMgr._replacementMode
+_OBJC_IVAR_$_VCCallMgr._SNATMAPIPAddress
+_OBJC_IVAR_$_VCCallMgr._SNATMAPPort
+_OBJC_IVAR_$_VCCallMgr._ipSNATMAP
+_OBJC_IVAR_$_VCCallMgr._multiwayBWDPauseEnabled
+_OBJC_IVAR_$_VCCallMgr._iPreviewing
+_OBJC_IVAR_$_VCCallMgr._iResumePreview
+_OBJC_IVAR_$_VCSoundDevice._deviceID
+_OBJC_IVAR_$_VCSoundDevice._sourceID
+_OBJC_IVAR_$_VCSoundDevice._displayName
+_OBJC_IVAR_$_VCSoundDevice._deviceName
+_OBJC_IVAR_$_VCSoundDevice._sourceName
+_OBJC_IVAR_$_VCSoundDevice._isBluetooth
+_OBJC_IVAR_$_VCSoundDevice._transportType
+_OBJC_IVAR_$_VCCamera._displayName
+_OBJC_IVAR_$_VCCamera._driverName
+_OBJC_IVAR_$_VCCamera._inputName
+_OBJC_IVAR_$_VCCamera._GUID
+_OBJC_IVAR_$_VCCamera._associatedMicrophone
+_OBJC_IVAR_$_VCCamera._deviceID
+_OBJC_IVAR_$_VCCamera._type
+_OBJC_IVAR_$_VCCamera._visible
+_OBJC_IVAR_$_VCCamera._isSuspended
+_OBJC_IVAR_$_VCCamera._isWidescreen
+_OBJC_IVAR_$_VCRules._VCRulesCPUList
+_OBJC_IVAR_$_VCRules._arrayHardwareRules
+_OBJC_IVAR_$_VCRules._arrayDowngradeRules
+_OBJC_IVAR_$_VCRules._arrayHardwareRulesH264
+_OBJC_IVAR_$_VCRules._arrayDowngradeRulesH264
+_OBJC_IVAR_$_VCSNATMAPData._dataVersion
+_OBJC_IVAR_$_VCSNATMAPData._iChatAVVersion
+_OBJC_IVAR_$_VCSNATMAPData._OSVersion
+_OBJC_IVAR_$_VCSNATMAPData._ViceroyVersion
+_OBJC_IVAR_$_VCSNATMAPData._mediaType
+_OBJC_IVAR_$_VCSNATMAPData._sessionID
+_OBJC_IVAR_$_SDPAnalyzer._sdpUsername
+_OBJC_IVAR_$_SDPAnalyzer._dict
+_OBJC_IVAR_$_AudioDeviceMonitor._needsRecount
+_OBJC_IVAR_$_AudioDeviceMonitor._inputDeviceCount
+_OBJC_IVAR_$_AudioDeviceMonitor._deviceID
+_OBJC_IVAR_$_DotMacConfiguration._ipAndPortDataArray
+_OBJC_IVAR_$_DotMacConfiguration._condLock
+_OBJC_IVAR_$_DotMacConfiguration._userDefaultsConfigurationURLKey
+_OBJC_IVAR_$_DotMacConfiguration._dotMacConfigurationURL
+_OBJC_IVAR_$_SNATMAPConfiguration.hasConnected
+_OBJC_IVAR_$_CommNATConfiguration._mainIP
+_OBJC_IVAR_$_CommNATConfiguration._mainPort0
+_OBJC_IVAR_$_CommNATConfiguration._mainPort1
+_OBJC_IVAR_$_CommNATConfiguration._cohortIP
+_OBJC_IVAR_$_CommNATConfiguration._cohortPort
+_OBJC_IVAR_$_CommNATConfiguration._gotServerInfo
+_OBJC_IVAR_$_VCRulesBandwidthList._bandwidthList
+_OBJC_IVAR_$_VCRulesBandwidth._bandwidth
+_OBJC_IVAR_$_VCRulesBandwidth._bandwidthLowerThreshold
+_OBJC_IVAR_$_VCRulesBandwidth._bandwidthUpperThreshold
+_OBJC_IVAR_$_VCRulesBandwidth._H264Focus
+_OBJC_IVAR_$_VCRulesBandwidth._H264NonFocus
+_OBJC_IVAR_$_VCRulesBandwidth._H263
+_OBJC_IVAR_$_VCRulesCPUList._cpuList
+_OBJC_IVAR_$_VCRulesCPU._cpuType
+_OBJC_IVAR_$_VCRulesCPU._nProcessors
+_OBJC_IVAR_$_VCRulesCPU._frequency
+_OBJC_IVAR_$_VCRulesCPU._bandwidthList
+_OBJC_IVAR_$_VCRulesImageSizeList._imageSizeList
+_OBJC_IVAR_$_VCRulesImageSizeList._type
+_OBJC_IVAR_$_VCRulesImageSize._nParticipants
+_OBJC_IVAR_$_VCRulesImageSize._width
+_OBJC_IVAR_$_VCRulesImageSize._height
+_OBJC_IVAR_$_VCRulesImageSize._fps
+_OBJC_IVAR_$_VCChannelModel._hVCChannel
+_OBJC_IVAR_$_VCChannelModel._localConnectionData
+_OBJC_IVAR_$_VCChannelModel._optionsDictionary
+_OBJC_IVAR_$_VCChannelExtra._model
+_OBJC_IVAR_$_VCSleepWakeMonitor.notifyPortRef
+_OBJC_IVAR_$_VCSleepWakeMonitor.notifierObject
+_OBJC_IVAR_$_VCSleepWakeMonitor.root_port
+_OBJC_IVAR_$_DNSSDMappingClient.lock
+_OBJC_IVAR_$_DNSSDMappingClient.mappings
+_OBJC_IVAR_$_DNSSDMappingClient.runLoop
+_OBJC_IVAR_$_DNSSDMappingClient.dnsThr
+_OBJC_IVAR_$_DNSSDMappingClient.rls
+_OBJC_IVAR_$_DNSSDMappingClient.isSocketBroken
+_OBJC_IVAR_$_DNSSDMappingClient.isTraversalSupported
+_OBJC_IVAR_$_DNSSDMappingClient.primaryInterfaceIndex
+_OBJC_IVAR_$_DNSSDMappingInfo.queryCondLock
+_OBJC_IVAR_$_DNSSDMappingInfo.mapResult
+_OBJC_IVAR_$_DNSSDMappingInfo.hasTimer
+_OBJC_IVAR_$_DNSSDMappingInfo.socketRef
+_OBJC_IVAR_$_DNSSDMappingInfo.rls
+_OBJC_IVAR_$_DNSSDMappingInfo.timer
+_OBJC_IVAR_$_VCDispatchQueues.vcdispatch_serialq
+_OBJC_IVAR_$_VCDispatchQueues.aConcurrentQ
+_OBJC_IVAR_$_VCPowerNotifier.observer
+_OBJC_CLASS_$_SIPManager
+_OBJC_METACLASS_$_SIPManager
+_OBJC_CLASS_$_VCNotificationGateway
+_OBJC_METACLASS_$_VCNotificationGateway
+_OBJC_CLASS_$_CallBackData
+_OBJC_METACLASS_$_CallBackData
+_OBJC_CLASS_$_VCStateMgr
+_OBJC_CLASS_$_VCCallMgr
+_OBJC_METACLASS_$_VCStateMgr
+_OBJC_METACLASS_$_VCCallMgr
+_OBJC_CLASS_$_VCSoundDevice
+_OBJC_METACLASS_$_VCSoundDevice
+_OBJC_CLASS_$_VCMicrophone
+_OBJC_METACLASS_$_VCMicrophone
+_OBJC_CLASS_$_VCSpeaker
+_OBJC_METACLASS_$_VCSpeaker
+_OBJC_CLASS_$_VCCamera
+_OBJC_METACLASS_$_VCCamera
+_OBJC_CLASS_$_VCRules
+_OBJC_METACLASS_$_VCRules
+_OBJC_CLASS_$_VCSNATMAPData
+_OBJC_METACLASS_$_VCSNATMAPData
+_OBJC_CLASS_$_SDPAnalyzer
+_OBJC_METACLASS_$_SDPAnalyzer
+_OBJC_CLASS_$_AudioDeviceMonitor
+_OBJC_METACLASS_$_AudioDeviceMonitor
+_OBJC_CLASS_$_DotMacConfiguration
+_OBJC_METACLASS_$_DotMacConfiguration
+_OBJC_CLASS_$_SNATMAPConfiguration
+_OBJC_METACLASS_$_SNATMAPConfiguration
+_OBJC_CLASS_$_BWDConfiguration
+_OBJC_METACLASS_$_BWDConfiguration
+_OBJC_CLASS_$_CommNATConfiguration
+_OBJC_METACLASS_$_CommNATConfiguration
+_OBJC_CLASS_$_VCRulesBandwidthList
+_OBJC_CLASS_$_VCRulesBandwidth
+_OBJC_METACLASS_$_VCRulesBandwidthList
+_OBJC_METACLASS_$_VCRulesBandwidth
+_OBJC_CLASS_$_VCRulesCPUList
+_OBJC_CLASS_$_VCRulesCPU
+_OBJC_METACLASS_$_VCRulesCPUList
+_OBJC_METACLASS_$_VCRulesCPU
+_OBJC_CLASS_$_VCRulesImageSizeList
+_OBJC_CLASS_$_VCRulesImageSize
+_OBJC_METACLASS_$_VCRulesImageSizeList
+_OBJC_METACLASS_$_VCRulesImageSize
+_OBJC_CLASS_$_VCChannelModel
+_OBJC_METACLASS_$_VCChannelModel
+_OBJC_CLASS_$_VCChannelExtra
+_OBJC_METACLASS_$_VCChannelExtra
+_OBJC_CLASS_$_VCSleepWakeMonitor
+_OBJC_METACLASS_$_VCSleepWakeMonitor
+_OBJC_CLASS_$_DNSSDMappingClient
+_OBJC_CLASS_$_DNSSDMappingInfo
+_OBJC_METACLASS_$_DNSSDMappingClient
+_OBJC_METACLASS_$_DNSSDMappingInfo
+_OBJC_CLASS_$_VCDispatchQueues
+_OBJC_METACLASS_$_VCDispatchQueues
+_OBJC_CLASS_$_VCPowerNotifier
+_OBJC_METACLASS_$_VCPowerNotifier
+_OBJC_METACLASS_$_VCChannelSecureConfiguration
+_OBJC_CLASS_$_VCChannelSecureConfiguration
+_g_xDialog
+_g_cDialog
+_g_apszMethods
+_g_aCompactHeaders
+_g_aHeaders
+_g_apszSubStates
+_g_apszReasons
+_g_apszEvents
+_DEFAULT_TRANSPORT
+_iSightTemperatures
+_INTERNAL_SAMPLING_RATE
+_INTERNAL_BLOCK_SIZE
+_Conference_OnCaptureSound.iBestQueueSize
+_g_bQCELPFrameSize
+_DecodePureVoice_DataProc.erasure
+_HasAltivec.result
+_HasMMX.result
+_HasSSE.result
+_HasSSE2.result
+_HasSSE3.result
+_GetVectorTypeAvailable.result
+_CPUCountPhysical.result
+_CPUCountLogical.result
+_CoresPerDie.result
+_LogicalPerCore.result
+_VCCPUCount.result
+_GetCPUIdle.s_iIndex
+_xInit
+_Assemble_FakeNextGob_Intra.intra_gob_qcif
+_Assemble_FakeNextGob_Intra.intra_gob_cif
+_Assemble_FakeFirstGob_Intra.intra_gob_qcif
+_Assemble_FakeFirstGob_Intra.intra_gob_cif
+_GlobalMapping_Create.static_lock
+_GlobalMapping_Create.static_unique
+_gAllowGSM
+_gAllowG711
+_gAllowPureVoice
+_gsm_A
+_gsm_B
+_gsm_MIC
+_gsm_MAC
+_gsm_INVA
+_gsm_DLB
+_gsm_QLB
+_gsm_H
+_gsm_NRFAC
+_gsm_FAC
+_g_xWarp
+_JitterQueue_xFreeList
+_audioInputDeviceChangedNotification
+_kVCIrisStateKey
+_g_xER
+_kH264FocusRule
+_kH264NonFocusRule
+_kH263Rule
+_g_aCanType
+_g_aICEState
+_g_x_hvtp
+_g_hVTP
+_useAGC
+_g_xVCC
+_g_lCameraGUID
+_g_CameraDeviceID
+__pconf
+_reflector_lead
+_g_iErrorLogLevel
+_g_LoadedOtherRules
+_endConferenceForCallIDLock
+_global_echo_correction
+_upstream_kbits
+_downstream_kbits
+_gMTHelpers
+__lastPerfGrade
+_g_MTHelper
+_g_VCHelper
+_g_VCHelperWithHandle
+_g_lockVCChannelLog
+_g_iDialogState
+_GenerateUUID.oldi
+_GenerateUUID.wClockSeq
++[SIPManager SIPManager]._SIPManager
+-[VideoConferenceController updateCPUPower:cpuCount:scheduleLimit:].lastFullTime
+_remoteCVBufferCallback.prevWidth
+_remoteCVBufferCallback.prevHeight
++[VCStateMgr defaultStateMgr]._defaultStateMgr
++[VCCallMgr defaultCallMgr]._defaultCallMgr
+_CaptureCameraAudio.afltZeros
+_Conference_Init.already
+_checkFrameRecv
+_iVideoPacketReceived
+_Conference_VideoAlarm.dLastShown
+_Conference_OnCaptureSound.silence
+_Conference_OnCaptureSound.fRampUpDown
+_Conference_OnCaptureSound.lastSample
+_Conference_OnCaptureSound.prevAudioFrameQueue_t_InNanos
+_Conference_OnCaptureSound.iConsecutiveNoCandidates
+_Conference_OnCaptureSound.iConsecutiveLargeCandidates
+_Conference_OnFillVideo.s_iToggle
+_AlignedBuffer
+_Gamma_PC_to_Mac.lookup
+_Gamma_PC_to_Mac.lookup0
+_Gamma_PC_to_Mac.lookup16
+_Gamma_PC_to_Mac.init
+_Gamma_Mac_to_PC.lookup
+_Gamma_Mac_to_PC.lookup0
+_Gamma_Mac_to_PC.lookup16
+_Gamma_Mac_to_PC.init
+_Scale_ResizeAndCrop.buf
+__CVScaleAndResizeBuffer.bb
+_RTPSetAdditionalAudioDelay.dLast
+_SoundDec_DataProc.zeros
+_DecodeAACLD_DataProc.packetDesc
+_V2_owner
+_V2_count
+_V2_lock
+_V2_file
+_V2_line
+_V2_expire
+_V2_cond
+_global_micro_data
+_FourccToCStr.str
+_FourccToCStr.ix
+_ProcessorSpeedMHz.hz
+_MachineType.machine_type
+_GetCPUIdle.self
+_GetCPUIdle.s_aLoad
+_GetCPUIdle.s_adTime
+_TimeZero
+_InitAllHandles.isInited
+_InitHandle.s_fSrandom
+_g_apHObjs
+_g_adwHandles
+_g_adwHeads
+_g_adwTails
+_g_adwReaders
+_g_acHandles
+_g_axHandles
+_g_adwNumHandles
+_Microphone_CallbackThread_DataProc.zero_fill
+_Speaker_Reflector_IOProc.cpu
+_Speaker_Reflector_IOProc.lead
+_Speaker_Input_DataProc.zero_fill
+_globalMapping_Data
+_lookup_init
+_lookup
+_SIPCreateHandle.fSrandom
+_g_fInit
+_g_x
+_enhance_contrast_fixedparams.last_slope
+_enhance_contrast_fixedparams.last_min
+_enhance_contrast_fixedparams.last_max
+_enhance_contrast_fixedparams.table
+_Gsm_Coder.e
++[VCRules VCRulesSingleton]._VCRulesInstance
+-[VCRules loadOtherRules].shown
+_getHardwareInfo._numProcessors
+_getHardwareInfo._mhrtz
+_getHardwareInfo._isG5
+_getHardwareInfo._machineType
+_g_fFirstSubscription
+_g_xSubscription
+_g_cSubscription
+_g_iSubscriptionState
+_g_tid
+_CS_STATETYPE_CFSTR
+_CS_USERACTIVITY_CFSTR
+_CS_USERHISTORY_CFSTR
+-[VideoConferenceMultiController lockVideoBufferForUser:].shown
+-[VideoConferenceMultiController unlockVideoBufferForUser:].shown
+_CU_FindGOB.init
+_CU_FindGOB.pre_zero
+_CU_FindGOB.post_zero
+_g_dLastDone
+_g_xQuit
+_g_fQuit
+_g_fIdle
+_g_dThrottle
+_BWD_GetBandwidthWithInfo.wNextPort
+_dft_forward.D
+_dft_inverse.D
+_fft_forward.F_b
+_fft_forward.F
+_fft_forward.F_re
+_fft_forward.F_im
+_JitterQueue_pFreeList
+_iAudioPacketReceived
+__ZZN16CAudioProcessing23FindMaxCrossCorrelationEPfS0_RiE15averageMaxIndex
+__ZZN16CAudioProcessing12EchoSuppressEPfS0_fiiiE9callCount
+__ZZN16CAudioProcessing7ProcessEidPfPiPdS0_PFvPvdS0_iES3_iE17last_time_printed
+__gSharedMonitor
++[HardwareCapsChangeNotifier hardwareCapsChangeNotifier].hardwareCapsChangeNotifier
+__ZZ27ProcessInputBufferForClicksP15DeviceManager_tPfS1_iE10tempBuffer
+__ZZL30DeviceManager_OnCaptureSoundDVPvPfiidE5zeros
+_Scale_80x60_320x240_SSE2.buf
++[SNATMAPConfiguration SNATMAPConfiguration]._SNATMAPConfiguration
+_g_pERStackTop
+_g_dStartTime
+_g_ppFilterList
+_g_iFilterCount
+_g_iFilterMax
+_g_pERStackBottom
+_g_fInitialized
+_VCChannelCreateHandle.s_fInit
+_g_bwRange
+_g_iDownstream
+_g_xBWD
+_g_fSentProbe
+_g_cBWD
+_g_iUpstream
+_GetCandidateID.fCalledSRand
+_STUNGetTransID.fCalledSRand
++[VCSleepWakeMonitor VCSleepWakeMonitorSingleton]._VCSleepWakeMonitor
+_VTP_Select.zeros
+_RTPMAP
++[DNSSDMappingClient DNSSDMappingClient]._DNSSDMappingClient
+_GetRelayIDForSession.fCalledSRand
+__ToCVPixelBufferConsumerProcs_Render.abLastFrame
+_vcdispatch_apply_async.qi
++[VCDispatchQueues dispatchQueues]._VCDispatchQueues
+_notifyVideoConferenceDelegate.originalVideoPauseStateForBDPAUSE
+_notifyVideoConferenceDelegate.originalAudioPauseStateForBDPAUSE
++[VCPowerNotifier VCPowerNotifier]._powerNotifier
+_gPowerConstraintMachPort
+_gCPUPowerMachPort
+_VCHelper_initWithHandle.bInitialized
+_g_pVCCList
+_VCChannel_GetNATType.iFlags
+_OBJC_CLASS_$_HardwareCapsChangeNotifier
+_OBJC_CLASS_$_VCChannel
+_OBJC_CLASS_$_VideoConferenceController
+_OBJC_CLASS_$_VideoConferenceMultiController
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._cameraCallbackObjs
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._deviceList
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._hasDV
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._hasQ8
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._iterators
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._notificationPort
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._notifierMap
+_OBJC_IVAR_$_HardwareCapsChangeNotifier._numDevices
+_OBJC_IVAR_$_VCChannel._model
+_OBJC_IVAR_$_VideoConferenceController._NATTraversal
+_OBJC_IVAR_$_VideoConferenceController._SDForced
+_OBJC_IVAR_$_VideoConferenceController._allowsAudioRecv
+_OBJC_IVAR_$_VideoConferenceController._allowsAudioSend
+_OBJC_IVAR_$_VideoConferenceController._allowsVideoRecv
+_OBJC_IVAR_$_VideoConferenceController._allowsVideoSend
+_OBJC_IVAR_$_VideoConferenceController._audioQuality
+_OBJC_IVAR_$_VideoConferenceController._autoDetectBandwidth
+_OBJC_IVAR_$_VideoConferenceController._bitrate
+_OBJC_IVAR_$_VideoConferenceController._cameraDeviceID
+_OBJC_IVAR_$_VideoConferenceController._cameraGUID
+_OBJC_IVAR_$_VideoConferenceController._cameraName
+_OBJC_IVAR_$_VideoConferenceController._connectionDataAndCallIDDictionary
+_OBJC_IVAR_$_VideoConferenceController._defaultHeight
+_OBJC_IVAR_$_VideoConferenceController._defaultPayload
+_OBJC_IVAR_$_VideoConferenceController._defaultWidth
+_OBJC_IVAR_$_VideoConferenceController._doNotDisturb
+_OBJC_IVAR_$_VideoConferenceController._dynamicStore
+_OBJC_IVAR_$_VideoConferenceController._enableEchoCancellation
+_OBJC_IVAR_$_VideoConferenceController._enableNewAudioProcessing
+_OBJC_IVAR_$_VideoConferenceController._enableOldAudioProcessing
+_OBJC_IVAR_$_VideoConferenceController._framerate
+_OBJC_IVAR_$_VideoConferenceController._keyrate
+_OBJC_IVAR_$_VideoConferenceController._lightingProfile
+_OBJC_IVAR_$_VideoConferenceController._localIPAddress
+_OBJC_IVAR_$_VideoConferenceController._localSecIdentityRef
+_OBJC_IVAR_$_VideoConferenceController._maxBitrate
+_OBJC_IVAR_$_VideoConferenceController._maxFramerate
+_OBJC_IVAR_$_VideoConferenceController._notificationGateway
+_OBJC_IVAR_$_VideoConferenceController._oneWayOnly
+_OBJC_IVAR_$_VideoConferenceController._optimalImageSize
+_OBJC_IVAR_$_VideoConferenceController._postFilter
+_OBJC_IVAR_$_VideoConferenceController._preFilter
+_OBJC_IVAR_$_VideoConferenceController._remoteUserName
+_OBJC_IVAR_$_VideoConferenceController._statsDictionary
+_OBJC_IVAR_$_VideoConferenceController._useEncryption
+_OBJC_IVAR_$_VideoConferenceController._userName
+_OBJC_METACLASS_$_HardwareCapsChangeNotifier
+_OBJC_METACLASS_$_VCChannel
+_OBJC_METACLASS_$_VideoConferenceController
+_OBJC_METACLASS_$_VideoConferenceMultiController
+_VCAddParticipantCompleted
+_VCAddParticipantStarted
+_VCAudioIPAndPortInfo
+_VCAudioNetworkIndicatorStatistic
+_VCAuxiliaryInputUserID
+_VCBandwidthDictionaryBitrateLimitKbitsKey
+_VCBandwidthDictionaryDownstreamKbitsKey
+_VCBandwidthDictionaryUpstreamKbitsKey
+_VCCameraChanged
+_VCCapabilitiesDidChangeNotification
+_VCChannel_Close
+_VCChannel_CloseWithHandle
+_VCChannel_ConnectionData
+_VCChannel_ConnectionDataWithHandle
+_VCChannel_GetIPPortFromConnectionData
+_VCChannel_GetNATType
+_VCChannel_OpenNewChannelWithHandle
+_VCChannel_OpenNewChannelWithOptionDictionary
+_VCChannel_OpenNewChannelWithOptions
+_VCChannel_PrepareConnectionWithRemoteConnectionData
+_VCChannel_PrepareConnectionWithRemoteConnectionDataWithHandle
+_VCChannel_RemoteIPPort
+_VCChannel_RemoteIPPortWithHandle
+_VCChannel_RemoteSA
+_VCChannel_RemoteSAWithHandle
+_VCChannel_Socket
+_VCChannel_SocketWithHandle
+_VCConferenceDidEnd
+_VCConferenceInitDidFinish
+_VCConferenceSettingsOneWayOnlyKey
+_VCConferenceSettingsSecurityIdentityRefKey
+_VCConferenceUptimeStatistic
+_VCConnectingConferenceNotification
+_VCDisconnectingConferenceNotification
+_VCDownstreamKbits
+_VCEndedConferenceForUser
+_VCExtIPKey
+_VCExtPortKey
+_VCFatalErrorNotification
+_VCForceRelay
+_VCHardwareChanged
+_VCIPAndPortListKey
+_VCIPKey
+_VCImageSizeChanged
+_VCInformationNotification
+_VCInitiateConferenceCompleted
+_VCInitiateConferenceStarted
+_VCLocalAverageBitrateStatistic
+_VCLocalAverageFramerateStatistic
+_VCLocalAveragePacketLossStatistic
+_VCLocalFrameHeightStatistic
+_VCLocalFrameWidthStatistic
+_VCLocalInstantBitrateStatistic
+_VCLocalInstantFramerateStatistic
+_VCLocalInstantPacketLossStatistic
+_VCLocalVideoError
+_VCMinKbits
+_VCNewLocalFrameNotification
+_VCNewRemoteFrameNotification
+_VCParticipantsChanged
+_VCPortKey
+_VCReflectorStarted
+_VCRelayServIP
+_VCRelayServPort
+_VCRelayUserID
+_VCRemoteAverageBitrateStatistic
+_VCRemoteAverageFramerateStatistic
+_VCRemoteAveragePacketLossStatistic
+_VCRemoteFrameHeightStatistic
+_VCRemoteFrameWidthStatistic
+_VCRemoteInstantBitrateStatistic
+_VCRemoteInstantFramerateStatistic
+_VCRemoteInstantPacketLossStatistic
+_VCRemoteMuted
+_VCRemotePaused
+_VCRemoteUserNameKey
+_VCRouterInfoKey
+_VCShouldFindExternalIP
+_VCSupportARDAudioMux
+_VCUpstreamKbits
+_VCVideoIPAndPortInfo
+_VCVideoNetworkIndicatorStatistic
+_VideoConferenceInit
+__CVScaleAndResizeBuffer
+_AbsoluteToNanoseconds
+_AudioConvertHostTimeToNanos
+_AudioConverterDispose
+_AudioConverterFillComplexBuffer
+_AudioConverterGetProperty
+_AudioConverterNew
+_AudioConverterReset
+_AudioConverterSetProperty
+_AudioDeviceCreateIOProcID
+_AudioDeviceDestroyIOProcID
+_AudioDeviceStart
+_AudioDeviceStop
+_AudioGetCurrentHostTime
+_AudioGetHostClockFrequency
+_AudioObjectAddPropertyListener
+_AudioObjectGetPropertyData
+_AudioObjectGetPropertyDataSize
+_AudioObjectHasProperty
+_AudioObjectRemovePropertyListener
+_AudioObjectSetPropertyData
+_AudioUnitGetParameter
+_AudioUnitGetProperty
+_AudioUnitGetPropertyInfo
+_AudioUnitInitialize
+_AudioUnitRender
+_AudioUnitSetParameter
+_AudioUnitSetProperty
+_CCCryptorCreate
+_CCCryptorRelease
+_CCCryptorUpdate
+_CCHmac
+_CFAbsoluteTimeGetCurrent
+_CFArrayCreate
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFDataCreate
+_CFDataGetBytePtr
+_CFDataGetBytes
+_CFDataGetLength
+_CFDictionaryAddValue
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryGetCount
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetValue
+_CFDictionaryRemoveAllValues
+_CFDictionaryRemoveValue
+_CFDictionaryReplaceValue
+_CFDictionarySetValue
+_CFEqual
+_CFGetTypeID
+_CFMachPortCreateRunLoopSource
+_CFMachPortCreateWithPort
+_CFNumberCreate
+_CFNumberGetValue
+_CFPreferencesCopyAppValue
+_CFPreferencesGetAppBooleanValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopAddTimer
+_CFRunLoopGetCurrent
+_CFRunLoopRemoveSource
+_CFRunLoopRun
+_CFRunLoopStop
+_CFRunLoopTimerCreate
+_CFRunLoopTimerInvalidate
+_CFShow
+_CFSocketCreateRunLoopSource
+_CFSocketCreateWithNative
+_CFSocketInvalidate
+_CFSocketIsValid
+_CFStringCompare
+_CFStringCreateCopy
+_CFStringCreateWithCString
+_CFStringCreateWithFormat
+_CFStringFind
+_CFStringGetBytes
+_CFStringGetCString
+_CFStringGetCStringPtr
+_CFStringGetDoubleValue
+_CFStringGetIntValue
+_CFStringGetLength
+_CFStringGetSystemEncoding
+_CFTreeGetChildAtIndex
+_CFTreeGetChildCount
+_CFUUIDGetConstantUUIDWithBytes
+_CFUUIDGetUUIDBytes
+_CFXMLNodeGetInfoPtr
+_CFXMLNodeGetString
+_CFXMLNodeGetTypeCode
+_CFXMLTreeCreateFromDataWithError
+_CFXMLTreeGetNode
+_CMAudioFormatDescriptionCreate
+_CMBlockBufferCreateWithMemoryBlock
+_CMBlockBufferGetDataLength
+_CMBlockBufferGetDataPointer
+_CMBlockBufferIsRangeContiguous
+_CMClockGetHostTimeClock
+_CMFormatDescriptionGetExtension
+_CMFormatDescriptionGetExtensions
+_CMFormatDescriptionGetMediaSubType
+_CMFormatDescriptionGetMediaType
+_CMGetAttachment
+_CMIOGraphConnectNodeInput
+_CMIOGraphCreate
+_CMIOGraphCreateNode
+_CMIOGraphGetNodeInfo
+_CMIOGraphGetProperty
+_CMIOGraphInitialize
+_CMIOGraphRelease
+_CMIOGraphSetProperty
+_CMIOGraphStart
+_CMIOGraphStop
+_CMIOGraphUninitialize
+_CMIOObjectAddPropertyListener
+_CMIOObjectGetPropertyData
+_CMIOObjectGetPropertyDataSize
+_CMIOObjectHasProperty
+_CMIOObjectIsPropertySettable
+_CMIOObjectRemovePropertyListener
+_CMIOObjectSetPropertyData
+_CMIOUnitUtilityCreateAudioCompressionOptionsDictionary
+_CMSampleBufferCreate
+_CMSampleBufferDataIsReady
+_CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer
+_CMSampleBufferGetDataBuffer
+_CMSampleBufferGetDuration
+_CMSampleBufferGetFormatDescription
+_CMSampleBufferGetImageBuffer
+_CMSampleBufferGetNumSamples
+_CMSampleBufferGetPresentationTimeStamp
+_CMSampleBufferGetSampleAttachmentsArray
+_CMSampleBufferGetSampleSize
+_CMSampleBufferGetSampleSizeArray
+_CMSampleBufferGetSampleTimingInfoArray
+_CMSyncConvertTime
+_CMTimeConvertScale
+_CMTimeMake
+_CMVideoFormatDescriptionCopyAsBigEndianImageDescriptionBlockBuffer
+_CMVideoFormatDescriptionCreate
+_CMVideoFormatDescriptionCreateFromBigEndianImageDescriptionData
+_CMVideoFormatDescriptionGetDimensions
+_CMVideoFormatDescriptionGetExtensionKeysCommonWithImageBuffers
+_CVBufferGetAttachment
+_CVBufferPropagateAttachments
+_CVBufferRetain
+_CVBufferSetAttachment
+_CVBufferSetAttachments
+_CVPixelBufferCreateWithBytes
+_CVPixelBufferGetBaseAddress
+_CVPixelBufferGetBytesPerRow
+_CVPixelBufferGetHeight
+_CVPixelBufferGetPixelFormatType
+_CVPixelBufferGetTypeID
+_CVPixelBufferGetWidth
+_CVPixelBufferLockBaseAddress
+_CVPixelBufferPoolCreatePixelBuffer
+_CVPixelBufferRelease
+_CVPixelBufferRetain
+_CVPixelBufferUnlockBaseAddress
+_CloseComponent
+_DNSServiceNATPortMappingCreate
+_DNSServiceProcessResult
+_DNSServiceRefDeallocate
+_DNSServiceRefSockFD
+_FTServerBagFinishedLoadingNotification
+_FigBlockBufferRelease
+_FigBlockBufferRetain
+_FigFormatDescriptionRelease
+_FigSampleBufferRelease
+_FigTimebaseRelease
+_FindNextComponent
+_Gestalt
+_IOAllowPowerChange
+_IOCreatePlugInInterfaceForService
+_IODeregisterForSystemPower
+_IODestroyPlugInInterface
+_IOIteratorNext
+_IOMasterPort
+_IONotificationPortGetRunLoopSource
+_IOObjectConformsTo
+_IOObjectRelease
+_IOObjectRetain
+_IOPMCopyCPUPowerStatus
+_IORegisterForSystemPower
+_IORegistryEntryCreateCFProperty
+_IORegistryEntryGetChildIterator
+_IORegistryEntryGetName
+_IORegistryEntryGetParentEntry
+_IOServiceAddInterestNotification
+_IOServiceAddMatchingNotification
+_IOServiceClose
+_IOServiceGetMatchingServices
+_IOServiceMatchPropertyTable
+_IOServiceMatching
+_NSFullUserName
+_NSLog
+_NSUserName
+_NSWorkspaceSessionDidBecomeActiveNotification
+_NSWorkspaceSessionDidResignActiveNotification
+_OBJC_CLASS_$_FTServerBag
+_OBJC_CLASS_$_NSArchiver
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSConditionLock
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSHost
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotification
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSRecursiveLock
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLConnection
+_OBJC_CLASS_$_NSURLRequest
+_OBJC_CLASS_$_NSUnarchiver
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OpenAComponent
+_SCDynamicStoreCopyMultiple
+_SCDynamicStoreCopyValue
+_SCDynamicStoreCreate
+_SCDynamicStoreCreateRunLoopSource
+_SCDynamicStoreSetNotificationKeys
+_UpTime
+_VTCompressionSessionCompleteFrames
+_VTCompressionSessionCreate
+_VTCompressionSessionEncodeFrame
+_VTCompressionSessionGetPixelBufferPool
+_VTCompressionSessionInvalidate
+_VTCompressionSessionSetProperty
+_VTDecompressionSessionCopyProperty
+_VTDecompressionSessionCreate
+_VTDecompressionSessionDecodeFrame
+_VTDecompressionSessionInvalidate
+_VTDecompressionSessionSetProperty
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__Block_release
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZSt9terminatev
+__ZTIi
+__ZTVN10__cxxabiv117__class_type_infoE
+__ZdaPv
+__ZdlPv
+__Znam
+__Znwm
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___cxa_allocate_exception
+___cxa_begin_catch
+___cxa_rethrow
+___cxa_throw
+___error
+___exp10
+___fpclassifyf
+___gxx_personality_v0
+___maskrune
+___memcpy_chk
+___objc_personality_v0
+___sincos_stret
+___sincosf_stret
+___snprintf_chk
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___strcat_chk
+___strcpy_chk
+___strlcat_chk
+___strlcpy_chk
+___strncpy_chk
+___tolower
+___vsnprintf_chk
+__objc_empty_cache
+_arc4random
+_asl_free
+_asl_log
+_asl_new
+_asl_set
+_asl_set_filter
+_asprintf
+_atof
+_atoi
+_atol
+_basename
+_bcopy
+_bind
+_calloc
+_ceil
+_close
+_connect
+_cos
+_cosf
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_queue_create
+_dispatch_release
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+_exit
+_exp
+_fclose
+_fcntl
+_floor
+_fopen
+_fprintf
+_fputc
+_fread
+_free
+_freeaddrinfo
+_freeifaddrs
+_fseek
+_fstat$INODE64
+_ftell
+_fwrite
+_getaddrinfo
+_gethostbyname
+_getifaddrs
+_getlogin
+_getpid
+_getsockname
+_getsockopt
+_gettimeofday
+_host_info
+_host_statistics
+_if_indextoname
+_if_nametoindex
+_in6addr_any
+_inet_addr
+_inet_ntoa
+_ioctl
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCFXMLTreeErrorDescription
+_kCFXMLTreeErrorLineNumber
+_kCFXMLTreeErrorLocation
+_kCMFormatDescriptionExtension_BytesPerRow
+_kCMIOBlockBufferAttachmentKey_CVPixelBufferReference
+_kCMIOSampleBufferAttachmentKey_HostTime
+_kCMSampleAttachmentKey_DependsOnOthers
+_kCMTimeInvalid
+_kCMTimeZero
+_kCVBufferTimeValueKey
+_kCVImageBufferColorPrimariesKey
+_kCVImageBufferPixelAspectRatioHorizontalSpacingKey
+_kCVImageBufferPixelAspectRatioVerticalSpacingKey
+_kCVImageBufferTransferFunctionKey
+_kCVImageBufferYCbCrMatrixKey
+_kCVPixelBufferHeightKey
+_kCVPixelBufferIOSurfacePropertiesKey
+_kCVPixelBufferPixelFormatTypeKey
+_kCVPixelBufferWidthKey
+_kVTCompressionPropertyKey_AllowTemporalCompression
+_kVTCompressionPropertyKey_AverageDataRate
+_kVTCompressionPropertyKey_ColorPrimaries
+_kVTCompressionPropertyKey_MaxKeyFrameInterval
+_kVTCompressionPropertyKey_TransferFunction
+_kVTCompressionPropertyKey_Usage
+_kVTCompressionPropertyKey_YCbCrMatrix
+_kVTDecompressionPropertyKey_FieldMode
+_kVTDecompressionPropertyKey_FirstMbInRefreshedSlices
+_kVTDecompressionPropertyKey_FirstMbInSkippedSlices
+_kVTDecompressionPropertyKey_PixelTransferProperties
+_kVTDecompressionPropertyKey_Usage
+_kVTDecompressionPropertyKey_UsingHardwareAcceleratedVideoDecoder
+_kVTDecompressionProperty_FieldMode_SingleField
+_kVTEncodeFrameOptionKey_FirstMbInDuplicateSlices
+_kVTEncodeFrameOptionKey_FirstMbInRecvSlices
+_kVTEncodeFrameOptionKey_FirstMbInSkipSlices
+_kVTEncodeFrameOptionKey_ForceKeyFrame
+_kVTEncodeFrameOptionKey_LimitFrameSize
+_kVTPixelTransferPropertyKey_DestinationPixelAspectRatio
+_kVTPixelTransferPropertyKey_ScalingMode
+_kVTScalingMode_Trim
+_kVTVideoDecoderSpecification_EnableHardwareAcceleratedVideoDecoder
+_ldexp
+_ldexpf
+_localtime_r
+_log
+_log10
+_log10f
+_log2
+_logf
+_mach_host_self
+_malloc
+_memcmp
+_memcpy
+_memmove
+_memset
+_memset_pattern16
+_notify_register_mach_port
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty_atomic_copy
+_objc_sync_enter
+_objc_sync_exit
+_objc_terminate
+_open
+_pow
+_powf
+_printf
+_pthread_attr_destroy
+_pthread_attr_init
+_pthread_attr_setdetachstate
+_pthread_attr_setschedparam
+_pthread_attr_setscope
+_pthread_cond_broadcast
+_pthread_cond_destroy
+_pthread_cond_init
+_pthread_cond_signal
+_pthread_cond_timedwait
+_pthread_cond_timedwait_relative_np
+_pthread_cond_wait
+_pthread_create
+_pthread_detach
+_pthread_equal
+_pthread_join
+_pthread_mach_thread_np
+_pthread_mutex_destroy
+_pthread_mutex_init
+_pthread_mutex_lock
+_pthread_mutex_trylock
+_pthread_mutex_unlock
+_pthread_mutexattr_destroy
+_pthread_mutexattr_init
+_pthread_mutexattr_settype
+_pthread_rwlock_destroy
+_pthread_rwlock_init
+_pthread_rwlock_rdlock
+_pthread_rwlock_unlock
+_pthread_rwlock_wrlock
+_pthread_self
+_putc
+_puts
+_rand
+_random
+_read
+_realloc
+_recv
+_recvfrom
+_recvmsg
+_round
+_roundf
+_select$1050
+_send
+_sendto
+_setsockopt
+_signal
+_sin
+_sinf
+_sleep
+_socket
+_socketpair
+_srand
+_srandom
+_srandomdev
+_sscanf
+_strcasecmp
+_strcasestr
+_strchr
+_strcmp
+_strcpy
+_strdup
+_strlen
+_strncasecmp
+_strncmp
+_strncpy
+_strspn
+_strstr
+_strtol
+_strtoul
+_sysctl
+_sysctlbyname
+_tan
+_thread_policy_get
+_thread_policy_set
+_time
+_unlink
+_usleep
+_vDSP_create_fftsetup
+_vDSP_ctoz
+_vDSP_destroy_fftsetup
+_vDSP_dotpr
+_vDSP_fft3_zop
+_vDSP_fft5_zop
+_vDSP_fft_zip
+_vDSP_fft_zrip
+_vDSP_fft_zrop
+_vDSP_rmsqv
+_vDSP_sve
+_vDSP_svesq
+_vDSP_vadd
+_vDSP_vclip
+_vDSP_vclr
+_vDSP_vma
+_vDSP_vmul
+_vDSP_vsma
+_vDSP_vsmul
+_vDSP_vsq
+_vDSP_ztoc
+_vDSP_zvcmul
+_vDSP_zvmags
+_write
+dyld_stub_binder

@@ -1,0 +1,1 @@
+#import <DockTile/FRDockTilePlugIn.h>

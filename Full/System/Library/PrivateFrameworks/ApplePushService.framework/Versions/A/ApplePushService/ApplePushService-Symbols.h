@@ -1,0 +1,1160 @@
++[APSAccessCheck environmentForAuditToken:]
++[APSCertificateStorage getUniqueHostIdentifier]
++[APSCertificateStorage commonNameForCertificate:]
++[APSCertificateStorage certificateForName:]
++[APSCertificateStorage identityForName:]
++[APSCertificateStorage certificateForIdentity:]
++[APSCertificateStorage identityExpirationDate:]
++[APSCertificateStorage hasEntitlement:]
++[APSCertificateStorage clientIdentity]
++[APSCertificateStorage copyActivationRecordKeychainItemForName:]
++[APSCertificateStorage activationRecordForName:]
++[APSCertificateStorage certificateName]
++[APSCertificateStorage unlockAndCopyKeychain]
++[APSCertificateStorage flushKeychain]
++[APSCertificateStorage getKeychain]
+___36+[APSCertificateStorage getKeychain]_block_invoke
++[APSConnection isValidEnvironment:]
+-[APSConnection initWithEnvironmentName:]
+-[APSConnection initWithEnvironmentName:namedDelegatePort:]
+-[APSConnection initWithEnvironmentName:queue:]
+-[APSConnection initWithEnvironmentName:namedDelegatePort:queue:]
+-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]
+___87-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]_block_invoke
+___87-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___87-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]_block_invoke61
+___copy_helper_block_63
+___destroy_helper_block_64
+___87-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]_block_invoke68
+___copy_helper_block_71
+___destroy_helper_block_72
+___87-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:]_block_invoke77
+___copy_helper_block_78
+___destroy_helper_block_79
+-[APSConnection _shutdownOnIvarQueue]
+-[APSConnection shutdown]
+___25-[APSConnection shutdown]_block_invoke
+___copy_helper_block_90
+___destroy_helper_block_91
+-[APSConnection _shutdownFromDealloc]
+-[APSConnection dealloc]
+-[APSConnection delegate]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___25-[APSConnection delegate]_block_invoke
+___copy_helper_block_108
+___destroy_helper_block_109
+-[APSConnection setDelegate:]
+___29-[APSConnection setDelegate:]_block_invoke
+___copy_helper_block_133
+___destroy_helper_block_134
+-[APSConnection _callDelegateOnIvarQueueWithBlock:]
+___51-[APSConnection _callDelegateOnIvarQueueWithBlock:]_block_invoke
+___copy_helper_block_137
+___destroy_helper_block_138
+___51-[APSConnection _callDelegateOnIvarQueueWithBlock:]_block_invoke144
+___copy_helper_block_147
+___destroy_helper_block_148
+_APSConnectionInterruptedHandlerBlock
+___APSConnectionInterruptedHandlerBlock_block_invoke
+___APSConnectionInterruptedHandlerBlock_block_invoke_2
+___copy_helper_block_163
+___destroy_helper_block_164
+_APSConnectionInvalidationHandlerBlock
+___APSConnectionInvalidationHandlerBlock_block_invoke
+___APSConnectionInvalidationHandlerBlock_block_invoke_2
+___APSConnectionInvalidationHandlerBlock_block_invoke_3
+___copy_helper_block_183
+___destroy_helper_block_184
+___copy_helper_block_187
+___destroy_helper_block_188
+-[APSConnection _noteDisconnectedFromDaemonOnIvarQueue]
+-[APSConnection _handleEvent:withHandler:]
+-[APSConnection _reconnectIfNecessaryOnIvarQueueAfterDelay]
+___59-[APSConnection _reconnectIfNecessaryOnIvarQueueAfterDelay]_block_invoke
+___copy_helper_block_216
+___destroy_helper_block_217
+-[APSConnection _connectIfNecessaryOnIvarQueue]
+-[APSConnection _connectOnIvarQueue]
+___36-[APSConnection _connectOnIvarQueue]_block_invoke
+___36-[APSConnection _connectOnIvarQueue]_block_invoke_2
+___copy_helper_block_261
+___destroy_helper_block_262
+___36-[APSConnection _connectOnIvarQueue]_block_invoke265
+___copy_helper_block_278
+___destroy_helper_block_279
+-[APSConnection _connectIfNecessary]
+___36-[APSConnection _connectIfNecessary]_block_invoke
+___copy_helper_block_307
+___destroy_helper_block_308
++[APSConnection _safelyCancelAndReleaseAfterBarrierConnection:]
+___63+[APSConnection _safelyCancelAndReleaseAfterBarrierConnection:]_block_invoke
++[APSConnection _safelyCancelAndReleaseConnection:]
+___51+[APSConnection _safelyCancelAndReleaseConnection:]_block_invoke
+___copy_helper_block_315
+___destroy_helper_block_316
+-[APSConnection _cancelConnectionOnIvarQueue]
+-[APSConnection _disconnectOnIvarQueue]
+-[APSConnection _disconnect]
+___28-[APSConnection _disconnect]_block_invoke
+___copy_helper_block_321
+___destroy_helper_block_322
+-[APSConnection _disconnectFromDealloc]
+-[APSConnection _flushConnection]
+___33-[APSConnection _flushConnection]_block_invoke
+-[APSConnection scheduleInRunLoop:]
+___35-[APSConnection scheduleInRunLoop:]_block_invoke
+___copy_helper_block_349
+___destroy_helper_block_350
+-[APSConnection removeFromRunLoop]
+___34-[APSConnection removeFromRunLoop]_block_invoke
+___copy_helper_block_355
+___destroy_helper_block_356
+-[APSConnection _onIvarQueue_setEnabledTopics:ignoredTopics:opportunisticTopics:sendToDaemon:]
+___94-[APSConnection _onIvarQueue_setEnabledTopics:ignoredTopics:opportunisticTopics:sendToDaemon:]_block_invoke
+___94-[APSConnection _onIvarQueue_setEnabledTopics:ignoredTopics:opportunisticTopics:sendToDaemon:]_block_invoke_2
+___copy_helper_block_365
+___destroy_helper_block_366
+___copy_helper_block_371
+___destroy_helper_block_372
+-[APSConnection _setEnabledTopics:ignoredTopics:opportunisticTopics:sendToDaemon:]
+___82-[APSConnection _setEnabledTopics:ignoredTopics:opportunisticTopics:sendToDaemon:]_block_invoke
+___copy_helper_block_379
+___destroy_helper_block_380
+-[APSConnection setEnabledTopics:ignoredTopics:opportunisticTopics:]
+___68-[APSConnection setEnabledTopics:ignoredTopics:opportunisticTopics:]_block_invoke
+___copy_helper_block_383
+___destroy_helper_block_384
+-[APSConnection setEnabledTopics:ignoredTopics:]
+___48-[APSConnection setEnabledTopics:ignoredTopics:]_block_invoke
+___copy_helper_block_387
+___destroy_helper_block_388
+-[APSConnection setEnabledTopics:]
+___34-[APSConnection setEnabledTopics:]_block_invoke
+___copy_helper_block_391
+___destroy_helper_block_392
+-[APSConnection setOpportunisticTopics:]
+___40-[APSConnection setOpportunisticTopics:]_block_invoke
+___copy_helper_block_395
+___destroy_helper_block_396
+-[APSConnection setIgnoredTopics:]
+___34-[APSConnection setIgnoredTopics:]_block_invoke
+___copy_helper_block_399
+___destroy_helper_block_400
+-[APSConnection publicToken]
+___28-[APSConnection publicToken]_block_invoke
+___copy_helper_block_405
+___destroy_helper_block_406
+-[APSConnection setMessageSize:]
+___32-[APSConnection setMessageSize:]_block_invoke
+___copy_helper_block_411
+___destroy_helper_block_412
+-[APSConnection messageSize]
+___28-[APSConnection messageSize]_block_invoke
+___copy_helper_block_415
+___destroy_helper_block_416
+-[APSConnection setLargeMessageSize:]
+___37-[APSConnection setLargeMessageSize:]_block_invoke
+___copy_helper_block_421
+___destroy_helper_block_422
+-[APSConnection largeMessageSize]
+___33-[APSConnection largeMessageSize]_block_invoke
+___copy_helper_block_425
+___destroy_helper_block_426
+-[APSConnection setUsesAppLaunchStats:]
+-[APSConnection usesAppLaunchStats]
+-[APSConnection isConnected]
+___28-[APSConnection isConnected]_block_invoke
+___copy_helper_block_431
+___destroy_helper_block_432
+-[APSConnection setEnableCriticalReliability:]
+-[APSConnection _setEnableStatusNotifications:sendToDaemon:]
+___60-[APSConnection _setEnableStatusNotifications:sendToDaemon:]_block_invoke
+___60-[APSConnection _setEnableStatusNotifications:sendToDaemon:]_block_invoke_2
+___60-[APSConnection _setEnableStatusNotifications:sendToDaemon:]_block_invoke_3
+___copy_helper_block_437
+___destroy_helper_block_438
+___copy_helper_block_441
+___destroy_helper_block_442
+___copy_helper_block_447
+___destroy_helper_block_448
+-[APSConnection setEnableStatusNotifications:]
+-[APSConnection _addEnableCriticalReliabilityToXPCMessage:]
+-[APSConnection _addUsesAppLaunchStatsToXPCMessage:]
+-[APSConnection _addEnableStatusNotificationsToXPCMessage:]
+-[APSConnection _addPushWakeTopicsToXPCMessage:]
+-[APSConnection _dispatch_async_to_ivarQueue:]
+___46-[APSConnection _dispatch_async_to_ivarQueue:]_block_invoke
+___copy_helper_block_455
+___destroy_helper_block_456
+-[APSConnection _deliverMessage:]
+___33-[APSConnection _deliverMessage:]_block_invoke
+___33-[APSConnection _deliverMessage:]_block_invoke_2
+___copy_helper_block_489
+___destroy_helper_block_490
+___copy_helper_block_503
+___destroy_helper_block_504
+-[APSConnection _deliverDidReconnectOnIvarQueue]
+___48-[APSConnection _deliverDidReconnectOnIvarQueue]_block_invoke
+___copy_helper_block_515
+___destroy_helper_block_516
+-[APSConnection _deliverPublicTokenOnIvarQueue:]
+___48-[APSConnection _deliverPublicTokenOnIvarQueue:]_block_invoke
+___copy_helper_block_529
+___destroy_helper_block_530
+-[APSConnection _deliverPublicToken:]
+___37-[APSConnection _deliverPublicToken:]_block_invoke
+___copy_helper_block_535
+___destroy_helper_block_536
+-[APSConnection _deliverConnectionStatusChange:]
+___48-[APSConnection _deliverConnectionStatusChange:]_block_invoke
+___48-[APSConnection _deliverConnectionStatusChange:]_block_invoke_2
+___copy_helper_block_547
+___destroy_helper_block_548
+___copy_helper_block_551
+___destroy_helper_block_552
+-[APSConnection _deliverConnectionStatusFromDealloc:]
+___53-[APSConnection _deliverConnectionStatusFromDealloc:]_block_invoke
+___copy_helper_block_555
+___destroy_helper_block_556
+-[APSConnection _deliverOutgoingMessageResultWithID:error:]
+___59-[APSConnection _deliverOutgoingMessageResultWithID:error:]_block_invoke
+___59-[APSConnection _deliverOutgoingMessageResultWithID:error:]_block_invoke_2
+___copy_helper_block_582
+___destroy_helper_block_583
+___copy_helper_block_586
+___destroy_helper_block_587
+-[APSConnection _deliverToken:forTopic:identifier:]
+___51-[APSConnection _deliverToken:forTopic:identifier:]_block_invoke
+___51-[APSConnection _deliverToken:forTopic:identifier:]_block_invoke_2
+___copy_helper_block_602
+___destroy_helper_block_603
+___copy_helper_block_606
+___destroy_helper_block_607
++[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:]
+___65+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:]_block_invoke
+___65+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:]_block_invoke_2
+___65+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:]_block_invoke_3
+___65+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:]_block_invoke_4
+-[APSConnection hasIdentity]
+___28-[APSConnection hasIdentity]_block_invoke
+___28-[APSConnection hasIdentity]_block_invoke_2
+___28-[APSConnection hasIdentity]_block_invoke_3
+___copy_helper_block_637
+___destroy_helper_block_638
+___28-[APSConnection hasIdentity]_block_invoke641
+___copy_helper_block_643
+___destroy_helper_block_644
+___copy_helper_block_649
+___destroy_helper_block_650
++[APSConnection requestCourierConnection]
+___41+[APSConnection requestCourierConnection]_block_invoke
+___41+[APSConnection requestCourierConnection]_block_invoke_2
+___41+[APSConnection requestCourierConnection]_block_invoke_3
+___copy_helper_block_664
+___destroy_helper_block_665
++[APSConnection keepAliveIntervalForEnvironmentName:]
+___53+[APSConnection keepAliveIntervalForEnvironmentName:]_block_invoke
+___copy_helper_block_670
+___destroy_helper_block_671
+___53+[APSConnection keepAliveIntervalForEnvironmentName:]_block_invoke674
+___copy_helper_block_676
+___destroy_helper_block_677
++[APSConnection connectionsDebuggingState]
+___42+[APSConnection connectionsDebuggingState]_block_invoke
+___42+[APSConnection connectionsDebuggingState]_block_invoke_2
+___copy_helper_block_684
+___destroy_helper_block_685
+-[APSConnection _sendOutgoingMessage:fake:]
+___43-[APSConnection _sendOutgoingMessage:fake:]_block_invoke
+___43-[APSConnection _sendOutgoingMessage:fake:]_block_invoke_2
+___43-[APSConnection _sendOutgoingMessage:fake:]_block_invoke_3
+___43-[APSConnection _sendOutgoingMessage:fake:]_block_invoke_4
+___copy_helper_block_711
+___destroy_helper_block_712
+___copy_helper_block_715
+___destroy_helper_block_716
+___copy_helper_block_719
+___destroy_helper_block_720
+___copy_helper_block_725
+___destroy_helper_block_726
+-[APSConnection sendOutgoingMessage:]
+-[APSConnection cancelOutgoingMessage:]
+___39-[APSConnection cancelOutgoingMessage:]_block_invoke
+___copy_helper_block_736
+___destroy_helper_block_737
+-[APSConnection sendFakeMessage:]
+-[APSConnection requestTokenForTopic:identifier:]
+-[APSConnection _sendPerAppTokenRequestForTopic:identifier:]
+___60-[APSConnection _sendPerAppTokenRequestForTopic:identifier:]_block_invoke
+___copy_helper_block_756
+___destroy_helper_block_757
+-[APSConnection invalidateTokenForTopic:identifier:]
+___52-[APSConnection invalidateTokenForTopic:identifier:]_block_invoke
+___copy_helper_block_766
+___destroy_helper_block_767
+-[APSConnection _rerequestPerAppTokens]
+___39-[APSConnection _rerequestPerAppTokens]_block_invoke
+___copy_helper_block_774
+___destroy_helper_block_775
++[APSConnection initialize]
+___27+[APSConnection initialize]_block_invoke
+-[APSConnection performOSXDeallocation]
+-[APSConnection registerForConsoleUserChangeNotifications]
+_ConsoleUserChanged
+___58-[APSConnection registerForConsoleUserChangeNotifications]_block_invoke
+___copy_helper_block_788
+___destroy_helper_block_789
+-[APSConnection deregisterForConsoleUserChangeNotifications]
++[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:]
+___73+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:]_block_invoke
+___73+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:]_block_invoke_2
+___73+[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:]_block_invoke_3
+___copy_helper_block_796
+___destroy_helper_block_797
+___copy_helper_block_800
+___destroy_helper_block_801
++[APSConnection _nonblockingXPCCallWithArgumentBlock:]
+___54+[APSConnection _nonblockingXPCCallWithArgumentBlock:]_block_invoke
+___54+[APSConnection _nonblockingXPCCallWithArgumentBlock:]_block_invoke_2
+___54+[APSConnection _nonblockingXPCCallWithArgumentBlock:]_block_invoke_3
+___54+[APSConnection _nonblockingXPCCallWithArgumentBlock:]_block_invoke_4
++[APSConnection copyIdentity]
+___29+[APSConnection copyIdentity]_block_invoke
++[APSConnection sendActivationRecordToMachService:]
+___51+[APSConnection sendActivationRecordToMachService:]_block_invoke
+___copy_helper_block_846
+___destroy_helper_block_847
+___51+[APSConnection sendActivationRecordToMachService:]_block_invoke850
+___copy_helper_block_851
+___destroy_helper_block_852
++[APSConnection finishLogin]
+___28+[APSConnection finishLogin]_block_invoke
+___28+[APSConnection finishLogin]_block_invoke_2
++[APSConnection environmentForNamedPort:]
+___41+[APSConnection environmentForNamedPort:]_block_invoke
+___copy_helper_block_861
+___destroy_helper_block_862
+___41+[APSConnection environmentForNamedPort:]_block_invoke865
+___copy_helper_block_866
+___destroy_helper_block_867
++[APSConnection preference:]
+___28+[APSConnection preference:]_block_invoke
+___copy_helper_block_873
+___destroy_helper_block_874
+___28+[APSConnection preference:]_block_invoke877
+___copy_helper_block_879
+___destroy_helper_block_880
+-[APSConnection acknowledgeDidReceivePublicToken:]
+___50-[APSConnection acknowledgeDidReceivePublicToken:]_block_invoke
+___copy_helper_block_887
+___destroy_helper_block_888
+-[APSConnection setEnabledTopicsAreInteractive:]
+-[APSConnection _setPushWakeTopics:]
+___36-[APSConnection _setPushWakeTopics:]_block_invoke
+___copy_helper_block_895
+___destroy_helper_block_896
+-[APSConnection setPushWakeTopics:]
+___35-[APSConnection setPushWakeTopics:]_block_invoke
+___copy_helper_block_901
+___destroy_helper_block_902
+-[APSConnection delegateQueue]
+-[APSConnection ivarQueue]
+-[APSConnection isShutdown]
+__APSPingClient
+___ConsoleUserChanged_block_invoke
+___copy_helper_block_1042
+___destroy_helper_block_1043
+_aps_connection_event_handler
+___aps_connection_event_handler_block_invoke
+___aps_connection_event_handler_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_46
+___destroy_helper_block_47
+_APSIncomingMessagePriorityString
+-[APSIncomingMessage timestamp]
+-[APSIncomingMessage setTimestamp:]
+-[APSIncomingMessage token]
+-[APSIncomingMessage setToken:]
+-[APSIncomingMessage wasFromStorage]
+-[APSIncomingMessage setFromStorage:]
+-[APSIncomingMessage wasLastMessageFromStorage]
+-[APSIncomingMessage setLastMessageFromStorage:]
+-[APSIncomingMessage setPriority:]
+-[APSIncomingMessage priority]
+_APSInitializeLogging
+___APSInitializeLogging_block_invoke
+_APSConfigureLoggingFromDetailedLogsPreference
+_APSConfigureLoggingFromWriteLogPreference
+_APSConfigureLoggingFromPreferences
+_APSIsLoggingEnabled
+_APSIsFullNetworkLoggingEnabled
+_APSPrettyPrintCollection
+-[APSMessage initWithDictionary:xpcMessage:]
+-[APSMessage initWithDictionary:]
+-[APSMessage initWithTopic:userInfo:]
+-[APSMessage initWithCoder:]
+-[APSMessage dealloc]
+-[APSMessage encodeWithCoder:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___30-[APSMessage encodeWithCoder:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[APSMessage topic]
+-[APSMessage setTopic:]
+-[APSMessage userInfo]
+-[APSMessage setUserInfo:]
+-[APSMessage identifier]
+-[APSMessage setIdentifier:]
+-[APSMessage setGuid:]
+-[APSMessage guid]
+-[APSMessage objectForKey:]
+___27-[APSMessage objectForKey:]_block_invoke
+___copy_helper_block_49
+___destroy_helper_block_50
+-[APSMessage setObject:forKey:]
+___31-[APSMessage setObject:forKey:]_block_invoke
+___copy_helper_block_55
+___destroy_helper_block_56
+-[APSMessage dictionaryRepresentation]
+___38-[APSMessage dictionaryRepresentation]_block_invoke
+___copy_helper_block_59
+___destroy_helper_block_60
+-[APSOutgoingMessage messageID]
+-[APSOutgoingMessage setMessageID:]
+-[APSOutgoingMessage timestamp]
+-[APSOutgoingMessage setTimestamp:]
+-[APSOutgoingMessage timeout]
+-[APSOutgoingMessage setTimeout:]
+-[APSOutgoingMessage _effectiveSendTimeout]
+-[APSOutgoingMessage sendTimeoutTime]
+-[APSOutgoingMessage rawTimeoutTime]
+-[APSOutgoingMessage isCritical]
+-[APSOutgoingMessage setCritical:]
+-[APSOutgoingMessage wasSent]
+-[APSOutgoingMessage setSent:]
+-[APSOutgoingMessage sendInterface]
+-[APSOutgoingMessage setSendInterface:]
+-[APSOutgoingMessage wasCancelled]
+-[APSOutgoingMessage setCancelled:]
+-[APSOutgoingMessage hasTimedOut]
+-[APSOutgoingMessage setTimedOut:]
+-[APSOutgoingMessage payloadFormat]
+-[APSOutgoingMessage setPayloadFormat:]
+-[APSOutgoingMessage payloadLength]
+-[APSOutgoingMessage setPayloadLength:]
+-[APSOutgoingMessage priority]
+-[APSOutgoingMessage setPriority:]
+-[APSOutgoingMessage senderTokenName]
+-[APSOutgoingMessage setSenderTokenName:]
+_APSPreferencesInitialize
++[APSPreferences preferences]
+___29+[APSPreferences preferences]_block_invoke
+-[APSPreferences acknowledgedTokenHashes]
+-[APSPreferences setAcknowledgedTokenHashes:]
+-[APSPreferences activationRecordListeners]
+-[APSPreferences setActivationRecordListeners:]
+-[APSPreferences albertName]
+-[APSPreferences allTokenTopics]
+-[APSPreferences setAllTokenTopics:]
+-[APSPreferences appIds]
+-[APSPreferences setAppIds:]
+-[APSPreferences certificateName]
+-[APSPreferences setCertificateName:]
+-[APSPreferences detailedLogs]
+-[APSPreferences disableAPSKeepAlives]
+-[APSPreferences disableFrameworkLogging]
+-[APSPreferences enableTCPKeepAlives]
+-[APSPreferences environments]
+-[APSPreferences setEnvironments:]
+-[APSPreferences forceAnEarlyExpiration]
+-[APSPreferences keepAliveEnvironment]
+-[APSPreferences logLevel]
+-[APSPreferences machineUniqueIdentifier]
+-[APSPreferences setMachineUniqueIdentifier:]
+-[APSPreferences persistentTopics]
+-[APSPreferences setPersistentTopics:]
+-[APSPreferences platformSerial]
+-[APSPreferences setPlatformSerial:]
+-[APSPreferences statusDumpInterval]
+-[APSPreferences storageId]
+-[APSPreferences setStorageId:]
+-[APSPreferences writeLogs]
+-[APSPreferences arrayForKey:]
+-[APSPreferences boolForKey:]
+-[APSPreferences dataForKey:]
+-[APSPreferences dictionaryForKey:]
+-[APSPreferences numberForKey:]
+-[APSPreferences stringForKey:]
+-[APSPreferences objectForKey:havingClass:]
+-[APSPreferences setObject:forKey:]
++[APSSystemUser systemUserWithUserID:]
+___38+[APSSystemUser systemUserWithUserID:]_block_invoke
++[APSSystemUser systemUserWithUID:]
+-[APSSystemUser initWithUserID:]
+-[APSSystemUser dealloc]
+-[APSSystemUser uid]
+-[APSSystemUser updateStatus]
+-[APSSystemUser isLoggedIn]
+-[APSSystemUser isLoggedOut]
+-[APSSystemUser isDaemonUser]
+-[APSSystemUser setStatus:]
+-[APSSystemUser status]
++[APSSystemUser allConsoleUserIDs]
+-[APSSystemUser debugDescription]
+-[APSSystemUser userID]
+___isRoleAccount_block_invoke
+_APSCreateMIGServerSource
+_APSCreateMIGServerSourceWithContext
+_makeCalloutContextKey
+_migHelperCopyDescription
+_migHelperEqual
+_migHelperHash
+_migHelperGetPort
+_migHelperRecievePortCallout
+_APSGetMachPortForMIGServerSource
+_APSGetContextForCalloutCurrentMIGServerSource
+_APSSetsAreEqual
+_APSArraysAreEqual
+_APSDictionariesAreEqual
+_APSDatasAreEqual
+_APSDifferenceSets
+-[APSPerAppTokenMap init]
+-[APSPerAppTokenMap dealloc]
+-[APSPerAppTokenMap addIdentifier:forTopic:]
+-[APSPerAppTokenMap removeIdentifier:forTopic:]
+-[APSPerAppTokenMap setToken:forTopic:identifier:]
+-[APSPerAppTokenMap removeAllTokens]
+-[APSPerAppTokenMap tokenForTopic:identifier:]
+-[APSPerAppTokenMap flagForTopic:identifier:]
+-[APSPerAppTokenMap setFlag:forTopic:identifier:]
+-[APSPerAppTokenMap allPerAppTokens]
+-[APSPerAppTokenMap tokensForTopic:]
+-[APSPerAppTokenMap hasMissingTokens]
+-[APSPerAppTokenMap isEmpty]
+-[APSPerAppTokenMap topics]
+-[APSPerAppTokenMap identifiersForTopic:]
+-[APSPerAppTokenMap enumerateMissingTokensUsingBlock:]
+___54-[APSPerAppTokenMap enumerateMissingTokensUsingBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[APSPerAppTokenMap enumerateTokensUsingBlock:]
+-[APSPerAppTokenMap debugDescription]
+-[APSPerAppTokenMap description]
+-[APSPerAppTokenMapEntry dealloc]
+-[APSPerAppTokenMapEntry description]
+-[APSPerAppTokenMapEntry perAppToken]
+-[APSPerAppTokenMapEntry setPerAppToken:]
+-[APSPerAppTokenMapEntry flag]
+-[APSPerAppTokenMapEntry setFlag:]
++[NSString(APSAdditions) apsStringGUID]
+_APSXPCLogv_block_invoke
+_APSXPCSetLogBlock
+_APSXPCCreateServerConnection
+___APSXPCCreateServerConnection_block_invoke
+_APSXPCLog
+___copy_helper_block_
+___destroy_helper_block_
+_APSXPCConnectionSetEventHandlers
+___APSXPCConnectionSetEventHandlers_block_invoke
+___copy_helper_block_17
+___destroy_helper_block_18
+_APSXPCConfigureConnection
+_APSXPCCreateConnectionForServiceWithQueue
+_APSXPCCreateConnectionForService
+_APSInsertEnabledTopicsToXPCDictionary
+__APSInsertTopicsToXPCDictionary
+_APSGetEnabledTopicsFromXPCDictionary
+__APSGetTopicsFromXPCDictionary
+_APSInsertIgnoredTopicsToXPCDictionary
+_APSGetIgnoredTopicsFromXPCDictionary
+_APSInsertOpportunisticTopicsToXPCDictionary
+_APSGetOpportunisticTopicsFromXPCDictionary
+_APSGetEnableCriticalReliability
+_APSGetXPCBoolFromDictionary
+_APSGetUsesAppLaunchStats
+_APSGetEnableStatusNotifications
+_APSInsertBoolsToXPCDictionary
+_APSInsertIntsToXPCDictionary
+_APSInsertDatasToXPCDictionary
+__APSJWStringToCharPtr
+_APSInsertNSStringsToXPCDictionary
+_APSInsertDoublesToXPCDictionary
+_APSInsertNSDictionariesToXPCDictionary
+_APSInsertNSArraysToXPCDictionary
+_APSGetXPCIntFromDictionary
+_APSGetXPCDataFromDictionary
+_APSGetXPCStringFromDictionary
+_APSGetXPCDoubleFromDictionary
+_APSGetXPCDictionaryFromDictionary
+_APSGetXPCArrayFromDictionary
+_APSGetXPCConnectionContext
+_APSSetXPCConnectionContext
+_APSCreateXPCObjectFromDictionary
+_APSCreateDictionaryFromXPCObject
+_APSDataForPropertyList
+_APSPropertyListFromNSData
+_APSSafeArrayOfStrings
+_APSAssert
+_aps_connection_finalizer
+____APSXPCHandleMessageConnection_block_invoke
+___copy_helper_block_79
+___destroy_helper_block_80
+_APSPingClient
+_ConnectionDeliver_server_routine
+__XPingClient
+_ConnectionDeliver_server
+-[APSCUTWeakReference dealloc]
+-[APSCUTWeakReference hash]
+-[APSCUTWeakReference isEqual:]
++[APSCUTWeakReference weakRefWithObject:]
+-[APSCUTWeakReference object]
+_kAPSKeychainPath
+_project_version
+_kAPSCategoryName
+_kAPSWriteLogsField
+_kAPSLogFile
+GCC_except_table12
+GCC_except_table13
+GCC_except_table26
+GCC_except_table63
+GCC_except_table129
+GCC_except_table241
+GCC_except_table248
+GCC_except_table294
+GCC_except_table309
+GCC_except_table319
+GCC_except_table326
+GCC_except_table5
+GCC_except_table19
+GCC_except_table27
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table9
+GCC_except_table10
+GCC_except_table12
+GCC_except_table13
+GCC_except_table14
+GCC_except_table15
+GCC_except_table19
+_APSClientCertAccessEntitlement
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp60
+___block_descriptor_tmp66
+___block_descriptor_tmp74
+___block_descriptor_tmp81
+___block_descriptor_tmp93
+___block_descriptor_tmp111
+___block_descriptor_tmp136
+___block_descriptor_tmp140
+___block_descriptor_tmp150
+___block_descriptor_tmp166
+___block_descriptor_tmp169
+___block_literal_global170
+___block_descriptor_tmp186
+___block_descriptor_tmp190
+___block_descriptor_tmp192
+___block_literal_global193
+___block_descriptor_tmp219
+___block_descriptor_tmp248
+___block_descriptor_tmp264
+___block_descriptor_tmp281
+___block_descriptor_tmp310
+___block_descriptor_tmp312
+___block_descriptor_tmp318
+___block_descriptor_tmp324
+___block_descriptor_tmp332
+___block_descriptor_tmp352
+___block_descriptor_tmp358
+___block_descriptor_tmp368
+___block_descriptor_tmp374
+___block_descriptor_tmp382
+___block_descriptor_tmp386
+___block_descriptor_tmp390
+___block_descriptor_tmp394
+___block_descriptor_tmp398
+___block_descriptor_tmp402
+___block_descriptor_tmp408
+___block_descriptor_tmp414
+___block_descriptor_tmp418
+___block_descriptor_tmp424
+___block_descriptor_tmp428
+___block_descriptor_tmp434
+___block_descriptor_tmp440
+___block_descriptor_tmp444
+___block_descriptor_tmp450
+___block_descriptor_tmp458
+___block_descriptor_tmp493
+___block_descriptor_tmp506
+___block_descriptor_tmp518
+___block_descriptor_tmp532
+___block_descriptor_tmp538
+___block_descriptor_tmp550
+___block_descriptor_tmp554
+___block_descriptor_tmp558
+___block_descriptor_tmp585
+___block_descriptor_tmp589
+___block_descriptor_tmp605
+___block_descriptor_tmp609
+___block_descriptor_tmp614
+___block_literal_global615
+___block_descriptor_tmp619
+___block_literal_global620
+___block_descriptor_tmp624
+___block_literal_global625
+___block_descriptor_tmp629
+___block_literal_global630
+___block_descriptor_tmp635
+___block_literal_global636
+___block_descriptor_tmp640
+___block_descriptor_tmp646
+___block_descriptor_tmp652
+___block_descriptor_tmp657
+___block_literal_global658
+___block_descriptor_tmp662
+___block_literal_global663
+___block_descriptor_tmp667
+___block_descriptor_tmp673
+___block_descriptor_tmp679
+___block_descriptor_tmp681
+___block_literal_global682
+___block_descriptor_tmp687
+___block_descriptor_tmp714
+___block_descriptor_tmp718
+___block_descriptor_tmp722
+___block_descriptor_tmp728
+___block_descriptor_tmp739
+___block_descriptor_tmp759
+___block_descriptor_tmp769
+___block_descriptor_tmp778
+___block_descriptor_tmp782
+___block_literal_global783
+___block_descriptor_tmp791
+___block_descriptor_tmp794
+___block_literal_global795
+___block_descriptor_tmp799
+___block_descriptor_tmp803
+___block_descriptor_tmp812
+___block_literal_global813
+___block_descriptor_tmp817
+___block_literal_global818
+___block_descriptor_tmp822
+___block_literal_global823
+___block_descriptor_tmp825
+___block_literal_global826
+___block_descriptor_tmp841
+___block_literal_global842
+___block_descriptor_tmp849
+___block_descriptor_tmp854
+___block_descriptor_tmp856
+___block_literal_global857
+___block_descriptor_tmp859
+___block_literal_global860
+___block_descriptor_tmp864
+___block_descriptor_tmp869
+___block_descriptor_tmp876
+___block_descriptor_tmp882
+___block_descriptor_tmp890
+___block_descriptor_tmp898
+___block_descriptor_tmp904
+___block_descriptor_tmp1045
+___block_descriptor_tmp
+___block_descriptor_tmp49
+_APSBundleIdentifier
+_APSDefaultUserID
+_APSPerAppTokenAppIdsKey
+_APSPersistentTopicsKey
+_APSIncomingMessageTimestampKey
+_APSIncomingMessageTokenKey
+_APSIncomingMessageFromStorageKey
+_APSIncomingMessageLastMessageFromStorageKey
+___block_descriptor_tmp
+___block_literal_global
+_APSMessageTopicKey
+_APSMessageUserInfoKey
+_APSMessageIdentifierKey
+_APSMessageGUIDKey
+___block_descriptor_tmp
+___block_descriptor_tmp52
+___block_descriptor_tmp58
+___block_descriptor_tmp62
+_APSOutgoingMessageIDKey
+_APSOutgoingMessageTimestampKey
+_APSOutgoingMessageTimeoutKey
+_APSOutgoingMessageCriticalKey
+_APSOutgoingMessageSentKey
+_APSOutgoingMessageCancelledKey
+_APSOutgoingMessageTimedOutKey
+_APSOutgoingMessagePayloadFormatKey
+_APSOutgoingMessagePayloadLengthKey
+_APSOutgoingMessageSendInterfaceKey
+_APSOutgoingMessagePriorityKey
+_APSOutgoingMessageSendDateKey
+_APSOutgoingMessageSenderTokenNameKey
+_APSAcknowledgedTokenHashesKey
+_APSActivationRecordListenersKey
+_APSAlbertNameKey
+_APSAllTokenTopicsKey
+_APSAppIdsKey
+_APSCertificateNameKey
+_APSDetailedLogsKey
+_APSDisableAPSKeepAlivesKey
+_APSDisableFrameworkLoggingKey
+_APSEnableTCPKeepAlivesKey
+_APSForceAnEarlyExpirationKey
+_APSEnvironmentsKey
+_APSKeepAliveEnvironmentKey
+_APSLogLevelKey
+_APSMachineUniqueIdentifierKey
+_APSPlatformSerialKey
+_APSStatusDumpIntervalKey
+_APSStorageIdKey
+_APSWriteLogsKey
+___block_descriptor_tmp
+___block_literal_global
+_APSSystemUserStatusLoggedIn
+_APSSystemUserStatusLoggedOut
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp83
+___block_literal_global84
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp8
+___block_descriptor_tmp20
+_APSXPCMessageTypeKey
+___block_descriptor_tmp82
+__APSConnectionDeliver_subsystem
+_OBJC_IVAR_$_APSConnection._ivarQueue
+_OBJC_IVAR_$_APSConnection._environmentName
+_OBJC_IVAR_$_APSConnection._idsToOutgoingMessages
+_OBJC_IVAR_$_APSConnection._nextOutgoingMessageID
+_OBJC_IVAR_$_APSConnection._enablePushDuringSleep
+_OBJC_IVAR_$_APSConnection._connectionPort
+_OBJC_IVAR_$_APSConnection._connectionPortName
+_OBJC_IVAR_$_APSConnection._machQueue
+_OBJC_IVAR_$_APSConnection._mach_source
+_OBJC_IVAR_$_APSConnection._perAppTokenMap
+_OBJC_IVAR_$_APSConnection._delegateQueue
+_OBJC_IVAR_$_APSConnection._isShutdown
+_OBJC_IVAR_$_APSConnection._connection
+_OBJC_IVAR_$_APSConnection._isDeallocing
+_OBJC_IVAR_$_APSConnection._delegateReference
+_OBJC_IVAR_$_APSConnection._publicToken
+_OBJC_IVAR_$_APSConnection._enabledTopics
+_OBJC_IVAR_$_APSConnection._ignoredTopics
+_OBJC_IVAR_$_APSConnection._opportunisticTopics
+_OBJC_IVAR_$_APSConnection._queuedDelegateBlocks
+_OBJC_IVAR_$_APSConnection._everHadDelegate
+_OBJC_IVAR_$_APSConnection._isReconnectScheduled
+_OBJC_IVAR_$_APSConnection._reconnectDelay
+_OBJC_IVAR_$_APSConnection._isDisconnected
+_OBJC_IVAR_$_APSConnection._enableCriticalReliability
+_OBJC_IVAR_$_APSConnection._enableStatusNotifications
+_OBJC_IVAR_$_APSConnection._usesAppLaunchStats
+_OBJC_IVAR_$_APSConnection._pushWakeTopics
+_OBJC_IVAR_$_APSConnection._messageSize
+_OBJC_IVAR_$_APSConnection._largeMessageSize
+_OBJC_IVAR_$_APSConnection._isConnected
+_OBJC_IVAR_$_APSConnection._dynamicStore
+_OBJC_IVAR_$_APSMessage._plist
+_OBJC_IVAR_$_APSMessage._xpcMessage
+_OBJC_IVAR_$_APSMessage._ivarQueue
+_OBJC_IVAR_$_APSSystemUser._userID
+_OBJC_IVAR_$_APSSystemUser._daemonUser
+_OBJC_IVAR_$_APSSystemUser._status
+_OBJC_IVAR_$_APSPerAppTokenMap._perAppTokenMap
+_OBJC_IVAR_$_APSPerAppTokenMap._enumerating
+_OBJC_IVAR_$_APSPerAppTokenMap._missingTokens
+_OBJC_IVAR_$_APSPerAppTokenMapEntry._perAppToken
+_OBJC_IVAR_$_APSPerAppTokenMapEntry._flag
+_OBJC_IVAR_$_APSCUTWeakReference._object
+_OBJC_IVAR_$_APSCUTWeakReference._objectAddress
+_OBJC_CLASS_$_APSCertificateStorage
+_OBJC_METACLASS_$_APSCertificateStorage
+_OBJC_CLASS_$_APSPreferences
+_OBJC_METACLASS_$_APSPreferences
+_OBJC_CLASS_$_APSSystemUser
+_OBJC_METACLASS_$_APSSystemUser
+_OBJC_CLASS_$_APSPerAppTokenMap
+_OBJC_CLASS_$_APSPerAppTokenMapEntry
+_OBJC_METACLASS_$_APSPerAppTokenMap
+_OBJC_METACLASS_$_APSPerAppTokenMapEntry
+_OBJC_CLASS_$_APSCUTWeakReference
+_OBJC_METACLASS_$_APSCUTWeakReference
++[APSCertificateStorage getKeychain].last_kcstatus
+_APSLaunchdJobLabel
+_aps_log_category
+_APSUserBootstrappedPort
+_isRoleAccount.bufsize
+___APSMIGServerCalloutContextKeyOnce
+_APSXPCLogv
+_gAPSKeychain
+-[APSConnection initWithEnvironmentName:namedDelegatePort:enablePushDuringSleep:queue:].onceToken
+-[APSConnection scheduleInRunLoop:].sourceContext
+-[APSConnection hasIdentity].sQueue
+-[APSConnection hasIdentity].onceToken
++[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:].initialized
++[APSConnection _blockingXPCCallWithArgumentBlock:resultHandler:timeout:].queue
+_APSInitializeLogging.initialized
+_APSConfigureLoggingFromDetailedLogsPreference.detailedLogs
+_preferences
+_classes
+_APSPublicPreferencesIdentifier
+_APSProtectedPreferencesIdentifier
+_APSPrivatePreferencesIdentifier
+_applicationIds
+_initialized
+_systemUsersInitialized
+_systemUsers
+_isRoleAccount.initialized
+___APSMIGServerCalloutContextKey
+_sConnectPortToEnvironmentNameMapping
+_APSTCPStreamErrorDomain
+_APSEnvironmentDemo
+_APSEnvironmentDevelopment
+_APSEnvironmentProduction
+_APSError
+_APSErrorDomain
+_APSUnderlyingError
+_OBJC_CLASS_$_APSAccessCheck
+_OBJC_CLASS_$_APSConnection
+_OBJC_CLASS_$_APSIncomingMessage
+_OBJC_CLASS_$_APSMessage
+_OBJC_CLASS_$_APSOutgoingMessage
+_OBJC_METACLASS_$_APSAccessCheck
+_OBJC_METACLASS_$_APSConnection
+_OBJC_METACLASS_$_APSIncomingMessage
+_OBJC_METACLASS_$_APSMessage
+_OBJC_METACLASS_$_APSOutgoingMessage
+_CFArrayCreate
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFDataCreateWithBytesNoCopy
+_CFDataGetBytes
+_CFDateCreate
+_CFGetTypeID
+_CFMakeCollectable
+_CFNumberGetValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopSourceCreate
+_CFRunLoopSourceGetContext
+_CFStringCompare
+_CFStringCreateWithBytes
+_CFStringCreateWithFormat
+_CFStringGetBytes
+_CFStringGetCStringPtr
+_CFStringGetLength
+_CFStringGetTypeID
+_CFStringHasPrefix
+_CFUUIDCreate
+_CFUUIDCreateFromUUIDBytes
+_CFUUIDCreateString
+_CGSCopySessionList
+_NDR_record
+_NSInternalInconsistencyException
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLog
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_METACLASS_$_NSObject
+_SCDynamicStoreCreate
+_SCDynamicStoreKeyCreateConsoleUser
+_SCDynamicStoreSetDispatchQueue
+_SCDynamicStoreSetNotificationKeys
+_SecCertificateCopyCommonName
+_SecCertificateCopyValues
+_SecIdentityCopyCertificate
+_SecIdentityCreateWithCertificate
+_SecItemCopyMatching
+_SecKeychainGetStatus
+_SecKeychainItemCopyContent
+_SecKeychainItemFreeContent
+_SecKeychainItemGetTypeID
+_SecKeychainOpen
+_SecKeychainUnlock
+_SecTaskCopyValueForEntitlement
+_SecTaskCreateFromSelf
+_SecTaskCreateWithAuditToken
+_XSLog
+_XSLogV
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__CFXPCCreateCFObjectFromXPCMessage
+__CFXPCCreateCFObjectFromXPCObject
+__CFXPCCreateXPCMessageWithCFObject
+__CFXPCCreateXPCObjectFromCFObject
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+__dispatch_main_q
+__dispatch_source_type_mach_recv
+__objc_empty_cache
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_key_description
+__xpc_error_termination_imminent
+__xpc_type_array
+__xpc_type_connection
+__xpc_type_dictionary
+__xpc_type_error
+_arc4random
+_asl_get
+_asl_set
+_asl_unset
+_audit_token_to_au32
+_bootstrap_check_in2
+_bootstrap_port
+_calloc
+_cssmPerror
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_notify
+_dispatch_mig_server
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_resume
+_dispatch_retain
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_get_handle
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_sync
+_dispatch_time
+_exit
+_fprintf
+_free
+_fwrite
+_gethostuuid
+_getpwuid_r
+_getuid
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFAllocatorSystemDefault
+_kCFBooleanTrue
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kCGSSessionUserIDKey
+_kSecAttrDescription
+_kSecAttrLabel
+_kSecClass
+_kSecClassCertificate
+_kSecClassGenericPassword
+_kSecMatchLimit
+_kSecMatchLimitOne
+_kSecMatchSearchList
+_kSecMatchSubjectContains
+_kSecOIDX509V1ValidityNotAfter
+_kSecReturnRef
+_mach_error_string
+_mach_msg
+_mach_msg_destroy
+_mach_port_allocate
+_mach_port_mod_refs
+_mach_task_self_
+_malloc
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_loadWeak
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_proc_name
+_pthread_getspecific
+_pthread_key_create
+_pthread_once
+_pthread_setspecific
+_strlen
+_sysconf
+_voucher_mach_msg_set
+_xpc_connection_cancel
+_xpc_connection_create
+_xpc_connection_create_mach_service
+_xpc_connection_get_context
+_xpc_connection_get_name
+_xpc_connection_resume
+_xpc_connection_send_barrier
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply
+_xpc_connection_send_message_with_reply_sync
+_xpc_connection_set_context
+_xpc_connection_set_event_handler
+_xpc_connection_set_finalizer_f
+_xpc_connection_set_target_queue
+_xpc_dictionary_create
+_xpc_dictionary_get_bool
+_xpc_dictionary_get_data
+_xpc_dictionary_get_double
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_string
+_xpc_dictionary_get_value
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_data
+_xpc_dictionary_set_double
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_release
+_xpc_retain
+_xs_log_clear_force_remote_level
+_xs_log_get_aslmsg
+_xs_log_get_category
+_xs_log_get_mask
+_xs_log_set_force_remote_level
+_xs_log_set_level
+_xs_log_set_prefix
+dyld_stub_binder

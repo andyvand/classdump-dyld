@@ -1,0 +1,14 @@
+___publicPort
+_safariDAVClientNoteWorkToDo
+_sendWorkToDo
+_NSLog
+_OSAtomicCompareAndSwap32
+___CFConstantStringClassReference
+_bootstrap_look_up
+_bootstrap_port
+_mach_msg
+_mach_port_deallocate
+_mach_task_self_
+_objc_msgSend
+_voucher_mach_msg_set
+dyld_stub_binder

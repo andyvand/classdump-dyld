@@ -1,0 +1,10 @@
+#import <libmecabra.dylib/MecabraDatabaseCacheIdentifierController.h>
+#import <libmecabra.dylib/MecabraDatabaseCache.h>
+#import <libmecabra.dylib/MecabraDatabaseImpl.h>
+#import <libmecabra.dylib/MecabraFacemarkCandidate.h>
+#import <libmecabra.dylib/MecabraDatabaseListener.h>
+#import <libmecabra.dylib/MecabraWordProperties.h>
+#import <libmecabra.dylib/MecabraCandidate.h>
+#import <libmecabra.dylib/MecabraCoreDataController.h>
+#import <libmecabra.dylib/MecabraCoreDataProperties.h>
+#import <libmecabra.dylib/MecabraAnalysisContextImpl.h>

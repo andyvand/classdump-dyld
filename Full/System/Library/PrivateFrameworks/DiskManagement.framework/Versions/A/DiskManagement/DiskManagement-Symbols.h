@@ -1,0 +1,1272 @@
++[DMManager initialize]
+-[DMManager init]
+__DMLogInitAsNeeded
+__DMUDSInitAsNeeded
+_tx_BOOTSTRAP_twoway_SessionBegin
+-[DMManager setDefaultDASession:]
+-[DMManager setDelegate:]
+-[DMCoreStorage initWithManager:]
+-[DMManager(PrivateMethods) getSessionUUID:f2tPort:t2fPort:clientDefaultDASession:]
+-[DMManager(Info) copyDiskForPath:error:]
+-[DMManager(Info) diskForPath:error:]
+-[DMManager(PrivateMethods) obtainedClientDASession:]
+-[DMManager(Info) isCoreStorageEncryptedLogicalVolumeDisk:locked:type:error:]
+__DMUDSEncodeWithDADiskRef
+_coreStorageLVUUIDForDisk
+__DMUDSDecodeToDiskIdentifier
+-[DMManager(Info) conversionProgressForLogicalVolumeDisk:error:]
+-[DMManager(Info) ioContentOfDisk:error:]
+__DMioContentOfDisk
+__DMUDSDecodeToDADiskRef
+__DMioContentToHuman
+__DMIOContentPartitionSchemeStringToDMPartitionType
+__DMDMPartitionTypeToMKSchemeID
+-[DMManager(Info) copyRootDisk:]
+-[DMManager(Info) rootDisk:]
+__DMdiskForMountPoint
+__DM_attrIsMountPoint
+-[DMManager(Boot) recoveryPartitionInfoForVolume:what:info:]
+_tx_F2T_twoway_recoveryPartitionInfoForVolume
+__DMLocalizedString_F_Or_T_
+-[DMManager dealloc]
+-[DMManager(PrivateMethods) stopInstanceAsNeeded]
+_tx_BOOTSTRAP_twoway_SessionEnd
+-[DMManager done]
++[DMManager sharedManager]
+-[DMManager(Boot) preBootEnvironment]
+__DMGetPreBootEnvironment
+-[DMCoreStorage logicalVolumeForDisk:logicalVolume:]
+-[DMManager(Info) mountPointForDisk:error:]
+__DMmountPointForDisk
+__DM_diskarb_objects_forDisk
+-[DMManager(Info) partitionMapSchemeForDisk:error:]
+__DMpartitionMapSchemeForDisk
+__DMUDSDecodeToWholeDADiskRef
+-[DMManager(Info) isWholeDisk:error:]
+__DMisWholeDisk
+-[DMManager(Info) protocolForDisk:error:]
+__DMprotocolForDisk
+__DM_io_reg_objects_forDisk
+__getDeviceProtocolForService
+-[DMManager(Info) volumeNameForDisk:error:]
+__DMvolumeNameForDisk
+-[DMManager(Info) diskIdentifierForDisk:error:]
+__DMdiskIdentifierForDisk
+-[DMManager(Info) uuidForDisk:error:]
+__DMvolumeUUIDForDisk
+-[DMManager(Boot) copyDiskForBootPreference:]
+_tx_F2T_twoway_getDiskForBootPreference
+-[DMManager(Boot) getNetBootPreference:withServer:forInterface:]
+_tx_F2T_twoway_getBootPreference
+-[DMManager(Info) isCD:error:]
+__DMisCD
+__DM_diskarb_objects_forWholeDisk
+-[DMManager(Info) isDVD:error:]
+__DMisDVD
+-[DMManager(Info) isOpticalDisk:error:]
+__DMisOpticalDisk
+-[DMManager(Info) filesystemForDisk:error:]
+__DMfilesystemForDisk
++[DMFilesystem filesystemForType:considerDisk:]
++[DMFilesystem ensureDatabaseAndForceRebuild:]
+__FSCopyLocalizedNameForVolumeFormatAtURL
+_IsEncrypted
+_FSCopyFormatNameForFSType
++[DMFilesystem filesystemForLocalizedName:]
+-[DMFilesystem userVisibleName]
+-[DMFilesystem filesystemType]
+_cfrx_T2F
+-[DMManager defaultDASession]
+-[DMManager delegate]
+-[DMManager setLanguage:]
+-[DMManager setUserID:groupID:]
+-[DMManager finalize]
++[DMManager systemResourcesSufficient]
++[DMManager sharedManagerForThread]
+-[DMManager(PrivateMethods) setClientDelegate:]
+-[DMManager(PrivateMethods) checkClientDelegate]
+_getDMManagerFromHash
+_rx_T2F_oneway_Status_Started
+_rx_T2F_oneway_Status_Progress
+_rx_T2F_oneway_Status_Message
+_rx_T2F_oneway_Status_Finished
+_rx_T2F_oneway_Status_Interruptible
++[DMEraseDisk eraseTypesForDisk:]
++[DMEraseDisk defaultFilesystemForDisk:]
+-[DMEraseDisk init]
+-[DMEraseDisk initWithManager:]
+-[DMEraseDisk dealloc]
+-[DMEraseDisk cancelCurrentOperation]
+-[DMEraseDisk eraseDisk:synchronous:filesystem:bootable:name:doNewfs:doBooterCleanup:]
+-[DMEraseDisk eraseDisk:synchronous:filesystem:bootable:name:doNewfs:]
+-[DMEraseDisk wipeDisk:level:count:force:]
+-[DMEraseDisk wipeDisk:level:count:]
+-[DMEraseDisk securelyEraseDisk:level:]
+-[DMEraseDisk securelyEraseFreespace:level:]
+-[DMEraseDisk eraseOpticalAsync:quick:format:]
+-[DMPartitionDisk init]
+-[DMPartitionDisk initWithManager:]
+-[DMPartitionDisk dealloc]
+-[DMPartitionDisk defaultSchemeTypeForSingleFilesystem:forWholeDisk:]
+-[DMPartitionDisk partitionDisk:withMap:formatVolumes:options:]
+-[DMPartitionDisk partitionDisk:withMap:formatVolumes:]
+-[DMPartitionDisk splitPartition:intoNewPartitions:]
+-[DMPartitionDisk getResizeLimits:returningInfo:]
+-[DMPartitionDisk getResizeLimitsForCoreStorageLogicalVolume:forPhysicalVolume:returningInfo:]
+-[DMPartitionDisk getResizeLimitsForCoreStorageLogicalVolume:returningInfo:]
+-[DMPartitionDisk resizeVolume:toBytes:withNewMapEntries:options:]
+-[DMPartitionDisk resizeVolume:toBytes:withNewMapEntries:]
+-[DMPartitionDisk resizePartition:toBytes:withNewMapEntries:]
+-[DMPartitionDisk mergePartitions:filesystem:name:erase:]
+-[DMPartitionDisk mergePartitions:filesystem:name:erase:options:]
+-[DMPartitionDisk removePartition:wipe:options:]
+-[DMPartitionDisk adjustMapToFitGrownWholeDisk:]
+-[DMPartitionDisk touchPartitionMapForWholeDisk:]
+-[DMPartitionDisk getPartitionStartLocationForDisk:]
+-[DMPartitionDisk changeFilesystemSizeOnDisk:toSize:fitPartition:]
+-[DMPartitionDisk createExternalJournalOnDisk:forDisk:]
+-[DMRepairDisk init]
+-[DMRepairDisk initWithManager:]
+-[DMRepairDisk dealloc]
+-[DMRepairDisk cancelCurrentOperation]
+-[DMRepairDisk userAccountsForDisk:getError:]
+-[DMRepairDisk beginResetUserPermissionsForDisk:forUID:level:]
+-[DMRepairDisk canVerifyStoragesystemFilesystemForDisk:error:]
+-[DMRepairDisk canRepairStoragesystemFilesystemForDisk:error:]
+-[DMRepairDisk beginStoragesystemFilesystemVerifyOrRepairForDisk:repair:]
+-[DMRepairDisk beginStoragesystemFilesystemVerifyForDisk:]
+-[DMRepairDisk beginStoragesystemFilesystemRepairForDisk:]
+-[DMRepairDisk beginPermissionsVerifyOrRepairForDisk:repair:]
+-[DMRepairDisk beginPermissionsVerifyForDisk:]
+-[DMRepairDisk beginPermissionsRepairForDisk:]
+-[DMRepairDisk canVerifyPartitionMapForDisk:error:]
+-[DMRepairDisk canRepairPartitionMapForDisk:error:]
+-[DMRepairDisk beginPartitionMapVerifyOrRepairForDisk:repair:]
+-[DMRepairDisk beginPartitionMapVerifyForDisk:]
+-[DMRepairDisk beginPartitionMapRepairForDisk:]
+-[DMRepairDisk beginRepairEFISystemPartition:mode:]
+-[DMFilesystem initWithPersonality:majorType:localizedUserVisibleName:localizedUserVisibleCoreStorageEncryptionName:personalityDict:bundlePath:]
+-[DMFilesystem dealloc]
+-[DMFilesystem description]
+-[DMFilesystem isEqual:]
++[DMFilesystem filesystems]
++[DMFilesystem bootableFilesystems]
++[DMFilesystem filesystemForIOContent:]
++[DMFilesystem filesystemForPersonality:]
++[DMFilesystem isCanonicalPersonalityNameEqual:withInformalName:]
+-[DMFilesystem filesystemPersonality]
+-[DMFilesystem userVisibleNameForLanguage:]
+-[DMFilesystem filesystemDictionary]
+-[DMFilesystem shouldBeUserFormattable]
+-[DMFilesystem serverOnly]
+-[DMFilesystem nameSanitizer:correctedName:illegalChars:leadingDotOK:controlCharsOK:minLen:maxLen:limitEncoding:]
+-[DMFilesystem isValidName:]
+-[DMFilesystem isValidName:correctedName:]
+-[DMFilesystem bundlePath]
+-[DMFilesystem contentMask]
+-[DMFilesystem verifyExecutable]
+-[DMFilesystem verifyArguments]
+-[DMFilesystem liveVerifyArguments]
+-[DMFilesystem percentageVerifyArguments]
+-[DMFilesystem verifyRepairOutputXMLArguments]
+-[DMFilesystem supportsPercentageVerifies]
+-[DMFilesystem supportsXMLVerifies]
+-[DMFilesystem canBeVerified]
+-[DMFilesystem repairExecutable]
+-[DMFilesystem repairArguments]
+-[DMFilesystem canBeRepaired]
+-[DMFilesystem formatExecutable]
+-[DMFilesystem formatArguments]
+-[DMFilesystem canBeFormatted]
+-[DMFilesystem minimumSize]
+-[DMFilesystem maximumSize]
+-[DMFilesystem canFormatWholeDisk]
+-[DMFilesystem requiresBooterToBoot]
+-[DMFilesystem requiresWholeDiskFormat]
+-[DMFilesystem bootable]
+-[DMFilesystem canHavePermissionsOff]
+-[DMFilesystem supportsJournaling]
+-[DMFilesystem supportsLiveVerify]
+-[DMFilesystem supportsResize]
+-[DMFilesystem supportedByWindows]
+-[DMFilesystem supportedByCoreStorage]
+-[DMFilesystem coreStorageEncryptedUserVisibleName]
+-[DMFilesystem setVerifyRepairStringLocale:]
+-[DMFilesystem localizedVerifyRepairString:found:]
+-[DMAppleRAID init]
+-[DMAppleRAID initWithManager:]
+-[DMAppleRAID dealloc]
+-[DMAppleRAID DADiskToUUID:lookupMembers:lookupSpares:]
+-[DMAppleRAID DADiskToUUID:]
+-[DMAppleRAID UUIDToDADisk:]
+-[DMAppleRAID raidMembers:returnMembers:returnSpares:master:]
+-[DMAppleRAID isRAIDSet:]
+-[DMAppleRAID isRAIDMember:]
+-[DMAppleRAID childrenOfRAID:]
+-[DMAppleRAID createRAIDSetWithDisks:setType:name:format:options:]
+-[DMAppleRAID enableRAIDSetWithDisk:setType:options:]
+-[DMAppleRAID addToRAIDSetUUID:newDisk:type:]
+-[DMAppleRAID addToRAIDSet:newDisk:type:]
+-[DMAppleRAID deleteRAIDSetUUID:]
+-[DMAppleRAID deleteRAIDSet:]
+-[DMAppleRAID removeFromRAIDSet:disk:]
+-[DMAppleRAID removeFromRAIDSetUUID:memberUUID:]
+-[DMAppleRAID repairRAIDSetUUID:newDisk:]
+-[DMAppleRAID repairRAIDSet:newDisk:]
+-[DMAppleRAID updateRAIDSetParameters:setKey:value:]
+__DMLog
+_DADissenterToLogString
+__DMmessageTracerLog
+__NSDataCopyBytes
+__DMIsPreBootEnvironmentUEFIWindowsBootCapable
+__DMProbeFileCollectionOnMountedVolume
+__DMCheckDirectoryAtPath
+__DMIsMacOSXSystemAtMountPoint
+__DMMacOSXSystemVersionAtMountPoint
+__DMIsWindowsOSSystemAtMountedVolume
+__DMEncodePartitionSchemeType
+__DMDiskIdentifierReplaceLastMultiComponent
+__DMGetUnitFromBSDName
+__DMGetSliceFromBSDName
+__DMVolumeResizeErrorToDMError
+__DMSecondsSinceDate
+__DMScaledPctI
+__DMScaledPctF
+__DMScaledPctFR
+__DMCreateRandomBytes
+__DMAddSpaceSeparatedComponentsSafelyToArray
+__DMCmpUInt64
+__DMGCD
+__DMLCM
+__DMRunMountCommand
+__DMDADissenterStatusToDMError
+__DMTakePMAssertion
+__DMReleasePMAssertion
+_DADiskPeekMatchWhole_callback
+_DADiskClaimRelease_callback
+_DADiskClaim_callback
+_DADiskPeekMountable_callback
+_DADiskPeekUnrecognized_callback
+__DMListDA_DADiskAppeared_callback
+__DMListDA_DAIdle_callback
++[_DMListDA waitAndCopyDiskForBSD:daSession:timeout:preWait:]
++[_DMListDA waitForDAIdleWithDASession:timeout:]
+-[_DMListDA initWithSession:timeout:]
+-[_DMListDA dealloc]
+-[_DMListDA doBlockingSearch]
+-[_DMListDA copyCurrentDiskForKey:value:]
+-[_DMListDA copyCurrentDisks]
+-[_DMListDA anticipatingMoreDisks]
+__DMPeekDA_DADiskClaim_callback
+__DMPeekDA_DADiskClaimRelease_callback
+__DMPeekDA_DADiskPeek_callback
+-[_DMClaimDA initWithSession:]
+-[_DMClaimDA dealloc]
+-[_DMClaimDA startClaimingUnrecognized]
+-[_DMClaimDA startClaimingMountable]
+-[_DMClaimDA stopClaiming]
++[DMUDSWrapper wrapperWithUDS:]
+__DMUDSisValid
++[DMUDSWrapper wrapperFromDADisk:]
++[DMUDSWrapper wrapperWithDiskIdentifier:]
+__DMUDSEncodeWithDiskIdentifier
+-[DMUDSWrapper initWithUDS:]
+-[DMUDSWrapper initWithCoder:]
+-[DMUDSWrapper encodeWithCoder:]
+-[DMUDSWrapper UDSPtr]
+-[DMUDSWrapper wholeDiskWrapper]
+__DMUDSConvertToWholeDiskUDS
+-[DMUDSWrapper description]
+__DMUDSDecodeToShow
+-[DMUDSWrapper isEqual:]
++[DMUDSWrapper supportsSecureCoding]
+__DMUDSCopy
+__DMUDSEncodeWithNothing
+__DMUDSEncodeWithAppleRAIDUUID
+__DMUDSShow
+__DMDADiskArrayShow
+__DMUDSDiskArrayShow
+__DMUDSisEqual
+__DMUDSisNothing
+__DMUDSDecodeToWholeDiskIdentifier
+__DMUDSDecodeToChildrenDADiskRefs
+__DMUDSWaitForAppearanceOfDevNode
+__DMNSEncode
+__DMNSDecode
+_NSArrayDictionarySearch
+_NSArrayDictionarySearches
+_NSEnumerateKey
+_tx_F2T_oneway_cancelOperation
+_tx_F2T_twoway_setDaemonLanguage
+_tx_F2T_twoway_setEUIDandEGID
+_tx_F2T_twoway_upgradeDisk_enablePermissions
+_tx_F2T_twoway_modifyJournal
+_tx_F2T_twoway_moveJournalInternal
+_tx_F2T_twoway_mountESP
+_tx_F2T_twoway_unmountESP
+_tx_F2T_twoway_volumeInfoForUnmountedDisk
+_tx_F2T_twoway_setNVRAM
+_tx_F2T_twoway_setNetBootPreference
+_tx_F2T_twoway_setDiskForBootPreference
+_tx_F2T_twoway_setLegacyDiskForBootPreference
+_tx_F2T_twoway_setWindowsUEFIDiskForBootPreference
+_tx_F2T_twoway_getPartitionBootability
+_tx_F2T_twoway_makeBootable
+_tx_F2T_twoway_makeLegacyBootable
+_tx_F2T_twoway_isRecoveryBooter
+_tx_F2T_twoway_booterDiskForDisk
+_tx_F2T_twoway_findBooterDiskContainingBaseSystemForDiskAsync
+_tx_F2T_twoway_checkESPFileContent
+_tx_F2T_twoway_ensureRecoveryPartitionForVolume
+_tx_F2T_twoway_eraseOpticalAsync
+_tx_F2T_twoway_eraseDisk
+_tx_F2T_twoway_securelyEraseDisk
+_tx_F2T_twoway_securelyEraseFreespace
+_tx_F2T_twoway_checkHFSMediaForWrapperHeader
+_tx_F2T_twoway_checkMediaForElToritoHeader
+_tx_F2T_twoway_partitionDisk
+_tx_F2T_twoway_splitPartition
+_tx_F2T_twoway_mergePartitions
+_tx_F2T_twoway_getResizeLimits
+_tx_F2T_twoway_getResizeLimitsForCoreStorageLogicalVolume
+_tx_F2T_twoway_resizePartition
+_tx_F2T_twoway_deletePartition
+_tx_F2T_twoway_adjustPartitionMapToFitGrownWholeDisk
+_tx_F2T_twoway_touchPartitionMapForWholeDisk
+_tx_F2T_twoway_getPartitionStartLocationForDisk
+_tx_F2T_twoway_changeFilesystemSizeOnDisk
+_tx_F2T_twoway_moveJournalExternal
+_tx_F2T_twoway_userAccountsForDisk
+_tx_F2T_twoway_beginResetUserPermissionsForDisk
+_tx_F2T_twoway_storagesystemFilesystemVerifyOrRepairAsync
+_tx_F2T_twoway_permissionsVerifyOrRepairAsync
+_tx_F2T_twoway_partitionMapVerifyOrRepairAsync
+_tx_F2T_twoway_repairEFISystemPartitionAsync
+_tx_F2T_twoway_createRAID
+_tx_F2T_twoway_addToRAID
+_tx_F2T_twoway_deleteRAID
+_tx_F2T_twoway_enableRAID
+_tx_F2T_twoway_removeFromRAID
+_tx_F2T_twoway_updateRAIDSetParameters
+_tx_F2T_twoway_CoreStorage_Bottleneck
+_T2F_server_routine
+__XT2F_oneway_Status_Started
+__XT2F_oneway_Status_Progress
+__XT2F_oneway_Status_Message
+__XT2F_oneway_Status_Finished
+__XT2F_oneway_Status_Interruptible
+_T2F_server
+_DADisk_callback
+_waitForDACallBack
+-[DMManager(Mount) doMountDisk:atPath:readOnly:otherArguments:errorDict:]
+-[DMManager(Mount) unmountDisk:entireDisk:force:]
+-[DMManager(Mount) unmountVolumePath:force:errorDict:]
+-[DMManager(Mount) unmountDisk:entireDisk:force:errorDict:]
+-[DMManager(Mount) ejectDisk:]
+-[DMManager(Mount) ejectDisk:errorDict:]
+-[DMManager(Mount) mountDisk:entireDisk:atPath:readOnly:otherArguments:]
+-[DMManager(Mount) mountDisk:entireDisk:atPath:readOnly:otherArguments:errorDict:]
+-[DMManager(Mount) renameDisk:toName:]
+-[DMManager(Mount) renameDisk:toName:errorDict:]
+-[DMManager(Mount) mountEFISystemPartition:options:espDisk:espMountPoint:]
+-[DMManager(Mount) unmountEFISystemPartition:options:]
+-[DMManager(Boot) checkAbilityToMakeBootable_actualsimplepartition_:onAnyMachine:atAll:yesButDestructively:]
+-[DMManager(Boot) checkBootabilityOnThisMachine_actualsimplepartition_:isBootable:]
+-[DMManager(Boot) supportedNetBootProtocols]
+-[DMManager(Boot) checkLegacyBootSupport:]
+-[DMManager(Boot) checkUEFIWindowsBootSupport:]
+-[DMManager(Boot) setNVRAM:forKey:]
+-[DMManager(Boot) setNetBootPreference:withServer:forInterface:]
+-[DMManager(Boot) setNextOnlyNetBootPreference:withServer:forInterface:]
+-[DMManager(Boot) setDiskForBootPreference:atFolderLocation:isOS9:]
+-[DMManager(Boot) setLegacyDiskForBootPreference:withDriveHint:]
+-[DMManager(Boot) setLegacyDiskForNextOnlyBootPreference:withDriveHint:]
+-[DMManager(Boot) setWindowsUEFIDiskForBootPreference:withDriveHint:]
+-[DMManager(Boot) setWindowsInstallerUEFIDiskForNextOnlyBootPreference:withDriveHint:]
+-[DMManager(Boot) setWindowsUEFIDiskForNextOnlyBootPreference:withDriveHint:]
+-[DMManager(Boot) getDiskForBootPreference:]
+-[DMManager(Boot) checkOpticalDiscBootability:isBootable:]
+-[DMManager(Boot) checkLegacyBootabilityForOpticalWholeDisk:isLegacyBootable:os:]
+-[DMManager(Boot) checkLegacyBootabilityForNonOpticalWholeDisk:isLegacyBootable:os:]
+-[DMManager(Boot) checkLegacyBootabilityForNonOpticalPartition:isLegacyBootable:os:]
+-[DMManager(Boot) checkWindowsUEFIBootabilityForNonOpticalPartition:isWindowsUEFIBootable:os:]
+-[DMManager(Boot) checkWindowsUEFIBootabilityForOpticalWholeDisk:isWindowsUEFIBootable:os:]
+-[DMManager(Boot) checkBootabilityOnThisMachine:isBootable:]
+-[DMManager(Boot) checkMacOSXBootability:isBootable:]
+-[DMManager(Boot) checkAbilityToMakeBootable:onAnyMachine:atAll:yesButDestructively:]
+-[DMManager(Boot) makeBootable:filesystem:newDisk:]
+-[DMManager(Boot) ensureRecoveryPartitionForVolume:macOSXDiskImageFile:verifyImage:repairDonor:]
+-[DMManager(Boot) ensureRecoveryPartitionForVolume:macOSXDiskImageFile:macOSXDiskImageChunkListFile:verifyImage:repairDonor:]
+-[DMManager(Boot) ensureRecoveryPartitionForVolume:macOSXDiskImageFile:macOSXDiskImageChunkListFile:verifyImage:repairDonor:bless:]
+-[DMManager(Boot) ensureRecoveryPartitionForVolume:macOSXDiskImageFile:macOSXDiskImageChunkListFile:diagnosticsDiskImageFile:diagnosticsDiskImageChunkListFile:verifyImage:repairDonor:bless:]
+-[DMManager(Boot) makeLegacyBootable:partitionDataRuns:MBRHeaderDataRun:setActive:updateBootIni:options:]
+-[DMManager(Boot) findBooterDiskContainingBaseSystemForDisk:]
+-[DMManager(Info) copyDiskForArgumentName:timeout:complete:]
+-[DMManager(Info) copyDiskForMountPoint:error:]
+-[DMManager(Info) disks]
+-[DMManager(Info) topLevelDisks]
+-[DMManager(Info) childrenForDisk:error:]
+-[DMManager(Info) directChildrenForDisk:error:]
+-[DMManager(Info) wholeDiskForDisk:error:]
+-[DMManager(Info) copyWholeDiskForDisk:error:]
+-[DMManager(Info) copyFirstDiskInMapForWholeDisk:error:]
+-[DMManager(Info) copyLastDiskInMapForWholeDisk:error:]
+-[DMManager(Info) partitionToPeerPartitionsArrayAndIndex:DADiskRefs:index:clientDAS:]
+-[DMManager(Info) copyNextDiskInMapForDisk:error:]
+-[DMManager(Info) copyPreviousDiskInMapForDisk:error:]
+-[DMManager(Info) isFirstDiskInMap:error:]
+-[DMManager(Info) isLastDiskInMap:error:]
+-[DMManager(Info) mapLayoutMatching:matchScheme:matchPartitions:error:]
+-[DMManager(Info) copyDiskForDiskUUID:error:]
+-[DMManager(Info) copyDiskForVolumeUUID:error:]
+-[DMManager(Info) copyDiskForPartitionIdentifier:forWholeDisk:error:]
+-[DMManager(Info) descriptionForDisk:]
+-[DMManager(Info) volumeUUIDForDisk:error:]
+-[DMManager(Info) diskUUIDForDisk:error:]
+-[DMManager(Info) deviceNameForDisk:error:]
+-[DMManager(Info) mediaNameForDisk:error:]
+-[DMManager(Info) wholeDiskIdentifierForDisk:error:]
+-[DMManager(Info) partitionIdentifierForDisk:error:]
+-[DMManager(Info) deviceNodeForDisk:error:]
+-[DMManager(Info) rawDeviceNodeForDisk:error:]
+-[DMManager(Info) deviceTreePathForDisk:error:]
+-[DMManager(Info) isRootVolume:error:]
+-[DMManager(Info) isOnSameWholeDiskAsRoot:error:]
+-[DMManager(Info) isMountedVolume:error:]
+-[DMManager(Info) copyDiskForVolumeName:error:]
+-[DMManager(Info) volumeFreeSpaceForDisk:error:]
+-[DMManager(Info) volumeTotalSizeForDisk:error:]
+-[DMManager(Info) volumeAllocationBlockSizeForDisk:error:]
+-[DMManager(Info) ioKitSizeForDisk:error:]
+-[DMManager(Info) totalSizeForDisk:error:]
+-[DMManager(Info) blockSizeForDisk:error:]
+-[DMManager(Info) isWritableDisk:error:]
+-[DMManager(Info) isWritableMedia:error:]
+-[DMManager(Info) isWritableVolume:error:]
+-[DMManager(Info) isEjectableDisk:error:]
+-[DMManager(Info) opticalDeviceTypeForDisk:error:]
+-[DMManager(Info) opticalMediaTypeForDisk:error:]
+-[DMManager(Info) isErasableOpticalMedia:error:]
+-[DMManager(Info) bayNameForDisk:error:]
+-[DMManager(Info) isAppleDiskImage:error:]
+-[DMManager(Info) mediaTypeForDisk:error:]
+-[DMManager(Info) isIPodDisk:error:]
+-[DMManager(Info) isXsanComponentDisk:error:]
+-[DMManager(Info) isXsanFilesystemDisk:error:]
+-[DMManager(Info) isSolidStateDisk:error:]
+-[DMManager(Info) busSpecificKeysForDisk:error:]
+-[DMManager(Info) smartStatusForDisk:error:]
+-[DMManager(Info) wholeDiskHasOS9Drivers:error:]
+-[DMManager(Info) wholeDiskSupportsLowLevelFormat:error:]
+-[DMManager(Info) isSystemImage:error:]
+-[DMManager(Info) isUserDataVolume:error:]
+-[DMManager(Info) isNetworkDisk:error:]
+-[DMManager(Info) isInternalDisk:error:]
+-[DMManager(Info) isJournaledDisk:error:]
+-[DMManager(Info) isLeafDisk:error:]
+-[DMManager(Info) isOpenDisk:error:]
+-[DMManager(Info) isLiveResizablePartitionForDisk:error:]
+-[DMManager(Info) isBooterPartitionDisk:error:]
+-[DMManager(Info) isRecoveryBooterPartitionDisk:error:]
+-[DMManager(Info) copyBooterDiskForDisk:error:]
+-[DMManager(Info) permissionsEnabledForDisk:error:]
+-[DMManager(Info) canRepairPermissions:error:]
+-[DMManager(Info) ioContentToHuman:context:error:]
+-[DMManager(Info) ioContentToHuman:error:]
+-[DMManager(Info) isMountableVolume:error:]
+-[DMManager(Info) DMAppleRAIDUUIDForDisk:error:]
+-[DMManager(Info) DMAppleRAIDUUIDLookup:]
+-[DMManager(Info) isAppleRAIDUUID:error:]
+-[DMManager(Info) isAppleRAIDDisk:error:]
+-[DMManager(Info) isAppleRAIDSetDisk:error:]
+-[DMManager(Info) isAppleRAIDMemberDisk:error:]
+-[DMManager(Info) isAppleRAIDSpareDisk:error:]
+-[DMManager(Info) DMAppleRAIDParentUUIDForUUID:error:]
+-[DMManager(Info) DMAppleRAIDMemberRebuildProgress:error:]
+-[DMManager(Info) isCoreStorageLogicalVolumeDisk:error:]
+-[DMManager(Info) isCoreStorageCompositeLogicalVolumeDisk:error:]
+-[DMManager(Info) conversionStateForLogicalVolumeDisk:error:]
+-[DMManager(Info) optimizationProgressForLogicalVolumeDisk:error:]
+-[DMManager(Info) isCoreStoragePhysicalVolumeDisk:error:]
+-[DMManager(Info) isUnrecognizedCoreStoragePhysicalVolumeDisk:error:]
+-[DMManager(Info) needsRebootToBeginCoreStorageConversion:checkRoot:error:]
+-[DMManager(Info) isDisallowedCoreStorageOperationsForLogicalVolumeDisk:error:]
+-[DMManager(Volume) upgradeDisk:enablePermissions:]
+-[DMManager(Volume) moveJournalInternal:]
+-[DMManager(Volume) modifyJournalOnDisk:enableJournaling:force:]
+-[DMManager(Volume) modifyOwnershipForDisk:enableOwnership:]
+-[DMManager(Volume) volumeInfoForUnmountedDisk:info:]
+-[DMDisk initWithBSD:VOL:MNT:]
+-[DMDisk dealloc]
+-[DMDisk description]
+-[DMDisk wholeDiskName]
+-[DMDisk isRAIDSlice]
+-[DMDisk isRAIDSpare]
+-[DMDisk isRAIDMaster]
+_DM_EM_DADiskAppeared_callback
+_DM_EM_DAIdle_callback
+-[DMManager(EmulationAdditions) waitForAppearanceOfDiskNodes]
+-[DMManager(EmulationAdditions) diskWithIdentifier:]
+-[DMManager(EmulationAdditions) rootDisk]
+-[DMManager(EmulationAdditions) directChildrenOfDisk:]
+-[DMManager(EmulationAdditions) partitionMapTypeForDisk:]
+__DM_compareDADisksByPartitionID
+__DMpartitionIdentifierForDisk
+__DM_compareDisksByUnitThenOffset
+__DMpartitionOffsetForDisk
+__DMgetDisks
+__DMchildrenForDisk
+__DMchildrenForDiskSortedByPartitionID
+__DMdirectChildrenForDisk
+__DMchildForWholeDiskAndPartitionID
+__DMisLastPartitionDisk
+__DMchildrenUDSsForDisk
+__DMchildrenForDiskSortedByOffset
+__DMfirstDiskInMapForWholeDisk
+__DMlastDiskInMapForWholeDisk
+__DMpartitionToPeerPartitionsAndIndex
+__DMnextDiskInMapForDisk
+__DMpreviousDiskInMapForDisk
+__DMisFirstDiskInMap
+__DMisLastDiskInMap
+__DMdiskForDiskUUID
+__DMdiskUUIDForDisk
+__DMdescriptionForDisk
+__DMmediaNameForDisk
+__DMdeviceNameForDisk
+__DMwholeDiskIdentifierForDisk
+__DMdeviceNodeForDisk
+__DMrawDeviceNodeForDisk
+__DMdeviceTreePathForDisk
+__DMisRootVolume
+__DMisMountedVolume
+__DMdiskForVolumeUUID
+__DMmountPointForDiskStat
+__DMtotalSizeForDisk
+__DMioKitSizeForDisk
+__DMvolumeTotalSizeForDisk
+__DMvolumeFreeSpaceForDisk
+__DMvolumeAllocationBlockSizeForDisk
+__DMhfsVolumeResizeAlignmentForDisk
+__DMvolumeUsedSpaceForDisk
+__DMblockSizeForDisk
+__DMisWritableDisk
+__DMisWritableMedia
+__DMisWritableVolume
+__DMisEjectableDisk
+__DMisErasableOpticalMedia
+__stringFromData
+__DMbayNameForDisk
+__DMisAppleDiskImage
+__DMbusSpecificKeysForDisk
+__DMisSolidStateDisk
+__DMisCardDisk
+__DMmediaTypeForDisk
+__addProtocolPropertyStrToDict
+__addProtocolPropertyDictStrToDict
+__addINQUIRYDeviceIdentificationLUNAliasStrToDict
+__getProtocolProperties
+__getSMARTDevice
+__getSMARTData
+__DMsmartStatusForDisk
+__DMwholeDiskHasOS9Drivers
+__DMwholeDiskSupportsLowLevelFormat
+__DMpartitionMapSchemeForWholeDisk
+__DMisNetworkDisk
+__DMisInternalDisk
+__DMisJournaledDisk
+__DMisLeafDisk
+__DMpermissionsEnabledForDisk
+__DMglobalIOContentToHuman
+__DMhumanToGPTTypeUUID
+__DM1stBootDeviceIORegistryPathForDisk
+__DMstorageSystemForDiskWithCSBias
+__DMstorageSystemProperties
+__DMstorageSystemSupportsVerifyRepair
+__DMisDiskOpen
+__DMisUserDataVolume
+__DMisMountableVolume
+__DMisOnSameWholeDiskAsRoot
+__DMMapPartitionIDToSlice
+__DMExtractSectionMap
+__DMExtractPartitions
+__DMMediaSearchByPartition
+__DMMediaSearchByPartitionID
+__DMAppleRAIDBSDNameSearch
+__DMAppleRAIDUUIDSearch
+__DMAppleRAIDUUIDLookup
+__DMAppleRAIDDiskLookup
+__DMAppleRAIDMembers
+__DMAppleRAIDParentUUID
+__DMisAppleRAIDAssociated
+__DMisAppleRAIDUUID
+-[DMCoreStorage init]
+-[DMCoreStorage dealloc]
+-[DMCoreStorage doCallDaemonForCoreStorage:inputDict:outputDict:checkDelegate:sync:]
+-[DMCoreStorage isValidLVGUUID:]
+-[DMCoreStorage isValidPVUUID:]
+-[DMCoreStorage isValidLVFUUID:]
+-[DMCoreStorage isValidLVUUID:]
+-[DMCoreStorage checkPartitionScheme:]
+-[DMCoreStorage checkNotUsedOrExportedByCoreStorage:]
+-[DMCoreStorage encodeReserveKekAuthRefIfAnyInDMCoreStorageOptions:]
+-[DMCoreStorage convertDisk:options:]
+-[DMCoreStorage revertVolume:options:]
+-[DMCoreStorage finishRevertVolume:]
+-[DMCoreStorage createLogicalVolumeGroup:withDisks:options:]
+-[DMCoreStorage addPhysicalVolumeDisk:toLogicalVolumeGroup:]
+-[DMCoreStorage createLogicalVolumeOnLogicalVolumeGroup:fs:name:size:options:]
+-[DMCoreStorage destroyLogicalVolume:options:]
+-[DMCoreStorage resizeLogicalVolume:size:options:]
+-[DMCoreStorage resizePhysicalVolume:size:withNewMapEntries:options:]
+-[DMCoreStorage resizeLogicalAndPhysicalStackForLogicalVolume:size:withNewMapEntries:options:]
+-[DMCoreStorage designatedPhysicalVolumeForResizeLogicalAndPhysicalStackForLogicalVolume:physicalVolume:disk:]
+-[DMCoreStorage isDiskLogicalVolumeWithDesignatedBootCampVolume:bootCamp:]
+-[DMCoreStorage removePhysicalVolume:options:]
+-[DMCoreStorage destroyLogicalVolumeGroup:options:]
+-[DMCoreStorage renameLogicalVolumeGroup:newName:options:]
+-[DMCoreStorage copyDiskForPhysicalVolume:disk:]
+-[DMCoreStorage copyDiskForLogicalVolume:disk:]
+-[DMCoreStorage physicalVolumeAndLogicalVolumeGroupForDisk:physicalVolume:logicalVolumeGroup:]
+-[DMCoreStorage logicalVolumeAndLogicalVolumeGroupForDisk:logicalVolume:logicalVolumeGroup:]
+-[DMCoreStorage logicalVolumeGroups:]
+-[DMCoreStorage logicalVolumesForLogicalVolumeGroup:dictionaries:]
+-[DMCoreStorage physicalVolumesForLogicalVolumeGroup:dictionaries:]
+-[DMCoreStorage sizeForLogicalVolumeGroup:size:]
+-[DMCoreStorage freeSpaceForLogicalVolumeGroup:freeSpace:]
+-[DMCoreStorage isDamagedLogicalVolumeGroup:damaged:how:]
+-[DMCoreStorage nameForLogicalVolumeGroup:name:]
+-[DMCoreStorage nameForLogicalVolume:name:]
+-[DMCoreStorage sizeForLogicalVolume:size:]
+-[DMCoreStorage isEncryptedDiskForLogicalVolume:encrypted:locked:type:]
+-[DMCoreStorage isCompositeDiskForLogicalVolume:composite:]
+-[DMCoreStorage logicalVolumeGroupForPhysicalVolume:logicalVolumeGroup:]
+-[DMCoreStorage logicalVolumeGroupForLogicalVolumeFamily:logicalVolumeGroup:]
+-[DMCoreStorage logicalVolumeGroupForLogicalVolume:logicalVolumeGroup:]
+-[DMCoreStorage logicalVolumeFamilyForLogicalVolume:logicalVolumeFamily:]
+-[DMCoreStorage isLogicalVolumeFamilyEncrypted:isFullyOrPartiallyEncrypted:isLocked:]
+-[DMCoreStorage isSparseLogicalVolumeGroup:sparse:]
+-[DMCoreStorage encryptLogicalVolume:options:]
+-[DMCoreStorage decryptLogicalVolume:options:]
+-[DMCoreStorage encryptSuitableDisk:options:]
+-[DMCoreStorage decryptSuitableDisk:options:]
+-[DMCoreStorage isDiskSuitableForEncryption:suitable:why:options:]
+-[DMCoreStorage isDiskSuitableForDecryption:suitable:why:options:]
+-[DMCoreStorage makeSparseLogicalVolumeGroup:options:]
+-[DMCoreStorage unlockLogicalVolume:options:]
+-[DMCoreStorage changePassphraseForLogicalVolume:options:]
+_coreStorageUUIDsForPVDevNode
+_coreStorageSizeForLVGUUID
+_coreStorageStatusForLVGUUID
+_coreStorageUUIDsForLVUUID
+_coreStorageUUIDsAndFDEForLVUUID
+_coreStorageIsEncryptedLogicalVolumeFamily
+_coreStorageIORegInfoForLVUUID
+_coreStorageIORegInfoForPVUUID
+_coreStorageCheckOneLVOnePVForLVUUID
+_coreStorageCheckAndGetOneLVOnePVSetupInfoForLVUUID
+_coreStorageCheckAndGetOneLVOnePVSetupUUIDsForPVDisk
+_coreStorageSetupInfoForLVUUID
+_coreStorageDoesLVGUUIDContainPVUUID
+_coreStoragePVForSpecificPurposePolicyAlgorithmForLVG
+_coreStoragePVDisksForLVG
+_coreStorageShouldDisallowOperationsOnLVG
+_coreStoragePropertyAccess
+_AppleRAIDEnableNotifications
+_raidSetDetected
+_logicalVolumeDetected
+_AppleRAIDDisableNotifications
+_AppleRAIDGetListOfSets
+_AppleRAIDGetSetProperties
+_AppleRAIDGetMemberProperties
+_AppleRAIDGetSetDescriptions
+_AppleRAIDCreateSet
+_AppleRAIDModifySet
+_AppleRAIDAddMember
+_getMemberInfo
+_freeMemberInfo
+_AppleRAIDUpdateSet
+_calculateBitMapSize
+_updateLiveSet
+_AppleRAIDRemoveHeaders
+_AppleRAIDRemoveMember
+_AppleRAIDDestroySet
+_AppleRAIDGetUsableSize
+_AppleRAIDDumpHeader
+_AppleLVMGetVolumesForGroup
+_AppleLVMGetVolumeProperties
+_AppleLVMGetVolumeExtents
+_getVolumeExtents
+_AppleLVMGetVolumeDescription
+_AppleLVMCreateVolume
+_getSetInfo
+_allocateExtent
+_initLogicalVolumeProps
+_freeSetInfo
+_AppleLVMModifyVolume
+_AppleLVMUpdateVolume
+_buildLVMetaDataBlock
+_AppleLVMDestroyVolume
+_AppleLVMResizeVolume
+_AppleLVMSnapShotVolume
+_AppleLVMMigrateVolume
+_AppleLVMRemoveMember
+_AppleLVMMergeGroups
+_AppleRAIDCloseConnection
+_AppleRAIDOpenConnection
+_logicalVolumeChanged
+_raidSetChanged
+__FSCopyNameForVolumeFormatAtURL
+__FSCopyLocalizedNameForVolumeFormatAtNode
+_getfstype
+__FSCopyNameForVolumeFormatAtNode
+_is_hfs
+_is_msdos
+_contextprintf
+_BLCreateBooterInformationDictionary
+_addRAIDInfo
+_addDataPartitionInfo
+_isPreferredSystemPartition
+__isPreferredSystemPartition
+_BLGetCStringDescription
+_initkey
+_releasestorage
+GCC_except_table6
+GCC_except_table28
+GCC_except_table87
+_rx_T2F_subsystem
+_DMOpticalMediaTypeCDROM
+_DMOpticalMediaTypeCDR
+_DMOpticalMediaTypeCDRW
+_DMOpticalMediaTypeDVDROM
+_DMOpticalMediaTypeDVDRAM
+_DMOpticalMediaTypeDVDR
+_DMOpticalMediaTypeDVDRDualLayer
+_DMOpticalMediaTypeDVDRW
+_DMOpticalMediaTypeDVDplusR
+_DMOpticalMediaTypeDVDPlusRDoubleLayer
+_DMOpticalMediaTypeDVDplusRW
+_DMOpticalMediaTypeBDR
+_DMOpticalMediaTypeBDRE
+_DMOpticalMediaTypeBDROM
+_DMOpticalMediaTypeHDDVDROM
+_DMOpticalMediaTypeHDDVDR
+_DMOpticalMediaTypeHDDVDRAM
+_DMSmartStatusVerified
+_DMSmartStatusFailing
+_DMSmartStatusNotSupported
+_OBJC_IVAR_$_DMManagerPrivVars._clientDefaultDASession
+_OBJC_IVAR_$_DMManagerPrivVars._clientDelegate
+_OBJC_IVAR_$_DMManagerPrivVars._bootstrap_MachPort
+_OBJC_IVAR_$_DMManagerPrivVars._sessionUUID
+_OBJC_IVAR_$_DMManagerPrivVars._f2t_MachPort
+_OBJC_IVAR_$_DMManagerPrivVars._t2f_MachPort
+_OBJC_IVAR_$_DMManagerPrivVars._msgReplyArea
+_OBJC_IVAR_$_DMManagerPrivVars._t2f_CFMachPort
+_OBJC_IVAR_$_DMManagerPrivVars._authorization
+_OBJC_IVAR_$_DMManager._instPriv
+_OBJC_IVAR_$_DMEraseDiskPrivVars._clientDASession
+_OBJC_IVAR_$_DMEraseDiskPrivVars._dmManager
+_OBJC_IVAR_$_DMEraseDiskPrivVars._sessionUUID
+_OBJC_IVAR_$_DMEraseDiskPrivVars._sessionF2Tport
+_OBJC_IVAR_$_DMEraseDiskPrivVars._sessionT2Fport
+_OBJC_IVAR_$_DMEraseDisk._instPriv
+_OBJC_IVAR_$_DMPartitionDiskPrivVars._dmManager
+_OBJC_IVAR_$_DMPartitionDiskPrivVars._sessionUUID
+_OBJC_IVAR_$_DMPartitionDiskPrivVars._sessionF2Tport
+_OBJC_IVAR_$_DMPartitionDiskPrivVars._sessionT2Fport
+_OBJC_IVAR_$_DMPartitionDisk._instPriv
+_OBJC_IVAR_$_DMRepairDiskPrivVars._clientDASession
+_OBJC_IVAR_$_DMRepairDiskPrivVars._dmManager
+_OBJC_IVAR_$_DMRepairDiskPrivVars._sessionUUID
+_OBJC_IVAR_$_DMRepairDiskPrivVars._sessionF2Tport
+_OBJC_IVAR_$_DMRepairDiskPrivVars._sessionT2Fport
+_OBJC_IVAR_$_DMRepairDiskPrivVars._verb
+_OBJC_IVAR_$_DMRepairDisk._instPriv
+_OBJC_IVAR_$_DMFilesystemPrivVars._bundlePath
+_OBJC_IVAR_$_DMFilesystemPrivVars._fsPersonality
+_OBJC_IVAR_$_DMFilesystemPrivVars._fsType
+_OBJC_IVAR_$_DMFilesystemPrivVars._fsLocalizedName
+_OBJC_IVAR_$_DMFilesystemPrivVars._fsLocalizedCoreStorageEncryptionName
+_OBJC_IVAR_$_DMFilesystemPrivVars._contentMask
+_OBJC_IVAR_$_DMFilesystemPrivVars._fsDictionary
+_OBJC_IVAR_$_DMFilesystemPrivVars._shouldBeUserFormattable
+_OBJC_IVAR_$_DMFilesystemPrivVars._serverOnly
+_OBJC_IVAR_$_DMFilesystemPrivVars._minimumSize
+_OBJC_IVAR_$_DMFilesystemPrivVars._maximumSize
+_OBJC_IVAR_$_DMFilesystemPrivVars._verifyExecutable
+_OBJC_IVAR_$_DMFilesystemPrivVars._verifyArgs
+_OBJC_IVAR_$_DMFilesystemPrivVars._liveVerifyArgs
+_OBJC_IVAR_$_DMFilesystemPrivVars._verifyRepairOutputXMLArgs
+_OBJC_IVAR_$_DMFilesystemPrivVars._repairExecutable
+_OBJC_IVAR_$_DMFilesystemPrivVars._repairArgs
+_OBJC_IVAR_$_DMFilesystemPrivVars._verifyRepairOutputLocale
+_OBJC_IVAR_$_DMFilesystemPrivVars._verifyRepairOutputLocalizationDict
+_OBJC_IVAR_$_DMFilesystemPrivVars._formatExecutable
+_OBJC_IVAR_$_DMFilesystemPrivVars._formatArgs
+_OBJC_IVAR_$_DMFilesystem._instPriv
+_OBJC_IVAR_$_DMAppleRAIDPrivVars._dmManager
+_OBJC_IVAR_$_DMAppleRAIDPrivVars._sessionUUID
+_OBJC_IVAR_$_DMAppleRAIDPrivVars._sessionF2Tport
+_OBJC_IVAR_$_DMAppleRAIDPrivVars._sessionT2Fport
+_OBJC_IVAR_$_DMAppleRAID._instPriv
+_OBJC_IVAR_$__DMListDA._currentDAIdle
+_OBJC_IVAR_$__DMListDA._currentList
+_OBJC_IVAR_$__DMListDA._didItOnce
+_OBJC_IVAR_$__DMListDA._givenDASession
+_OBJC_IVAR_$__DMListDA._givenTimeout
+_OBJC_IVAR_$__DMListDA._searchKey
+_OBJC_IVAR_$__DMListDA._searchValue
+_OBJC_IVAR_$__DMClaimDA._givenDASession
+_OBJC_IVAR_$_DMUDSWrapper._myUDS
+_OBJC_IVAR_$_DMDisk._bsd
+_OBJC_IVAR_$_DMDisk._vol
+_OBJC_IVAR_$_DMDisk._mnt
+_OBJC_IVAR_$_DMCoreStoragePrivVars._dmManager
+_OBJC_IVAR_$_DMCoreStoragePrivVars._sessionUUID
+_OBJC_IVAR_$_DMCoreStoragePrivVars._sessionF2Tport
+_OBJC_IVAR_$_DMCoreStoragePrivVars._sessionT2Fport
+_OBJC_IVAR_$_DMCoreStorage._instPriv
+_OBJC_METACLASS_$_DMManagerPrivVars
+_OBJC_CLASS_$_DMManagerPrivVars
+_OBJC_METACLASS_$_DMEraseDiskPrivVars
+_OBJC_CLASS_$_DMEraseDiskPrivVars
+_OBJC_METACLASS_$_DMPartitionDiskPrivVars
+_OBJC_CLASS_$_DMPartitionDiskPrivVars
+_OBJC_METACLASS_$_DMRepairDiskPrivVars
+_OBJC_CLASS_$_DMRepairDiskPrivVars
+_OBJC_METACLASS_$_DMFilesystemPrivVars
+_OBJC_CLASS_$_DMFilesystemPrivVars
+_OBJC_METACLASS_$_DMAppleRAIDPrivVars
+_OBJC_CLASS_$_DMAppleRAIDPrivVars
+_OBJC_CLASS_$__DMListDA
+_OBJC_METACLASS_$__DMListDA
+_OBJC_CLASS_$__DMClaimDA
+_OBJC_METACLASS_$__DMClaimDA
+_OBJC_CLASS_$_DMUDSWrapper
+_OBJC_METACLASS_$_DMUDSWrapper
+_OBJC_METACLASS_$_DMCoreStoragePrivVars
+_OBJC_CLASS_$_DMCoreStoragePrivVars
+_blcstr_once_control
+___gDMManagersInThisPIDListLock
+___gDMManagerLocInfoLock
+___gDMManagersInThisPIDList
+___gDMManagerLanguage
+___gDMManagerLocDict
+___gDMManagerSharedInstance
+_gNotifyPort
+_gRAIDSetIter
+_gLogicalVolumeIter
+_gRAIDControllerPort
+___FSLocalizedNameTableLock
+___FSLocalizedNameTable
+_FSCopyFormatNameForFSType.searchPaths
+_FSCopyFormatNameForFSType.unknownTypeString
+_blcstr_key
+_gDiskManagementLogSetupDone
+_gDiskManagementLogEnable
+_gDiskManagementLogFile
+___gDMDASessionForUDSForThisProcessForSimpleUseOnly
+_gEM_DAIdle
+_gEM_DMDisks
+_gEM_DASession
+_DMDiskManagementToolDiedNotification
+_DMLocalizedErrorString
+_DMLocalizedUserErrorString
+_DMProtocolATA
+_DMProtocolATAPI
+_DMProtocolDiskImage
+_DMProtocolFibreChannel
+_DMProtocolFireWire
+_DMProtocolSAS
+_DMProtocolSATA
+_DMProtocolSCSI
+_DMProtocolUSB
+_DMUnlocalizedTechnicalErrorString
+_OBJC_CLASS_$_DMAppleRAID
+_OBJC_CLASS_$_DMCoreStorage
+_OBJC_CLASS_$_DMDisk
+_OBJC_CLASS_$_DMEraseDisk
+_OBJC_CLASS_$_DMFilesystem
+_OBJC_CLASS_$_DMManager
+_OBJC_CLASS_$_DMPartitionDisk
+_OBJC_CLASS_$_DMRepairDisk
+_OBJC_METACLASS_$_DMAppleRAID
+_OBJC_METACLASS_$_DMCoreStorage
+_OBJC_METACLASS_$_DMDisk
+_OBJC_METACLASS_$_DMEraseDisk
+_OBJC_METACLASS_$_DMFilesystem
+_OBJC_METACLASS_$_DMManager
+_OBJC_METACLASS_$_DMPartitionDisk
+_OBJC_METACLASS_$_DMRepairDisk
+_kDMDiskPropertyATAFlavorKey
+_kDMDiskPropertyDiskImageFlavorKey
+_kDMDiskPropertyLocationKey
+_kDMDiskPropertyMediaTypeFlavorKey
+_kDMDiskPropertyProtocolKey
+_kDMDiskPropertyRAIDScheme
+_kDMDiskPropertySMARTStatusKey
+_kDMMediaTypeCDROM
+_kDMMediaTypeDVDROM
+_kDMMediaTypeGeneric
+_kDMMediaTypeIPod
+_kDMMediaTypeXsanComponent
+_kDMMediaTypeXsanFilesystem
+_AuthorizationCreate
+_AuthorizationFree
+_AuthorizationMakeExternalForm
+_CFAbsoluteTimeGetCurrent
+_CFArrayAppendValue
+_CFArrayContainsValue
+_CFArrayCreateCopy
+_CFArrayCreateMutable
+_CFArrayCreateMutableCopy
+_CFArrayExchangeValuesAtIndices
+_CFArrayGetCount
+_CFArrayGetFirstIndexOfValue
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFArrayInsertValueAtIndex
+_CFArraySetValueAtIndex
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyBundleURL
+_CFBundleCopyLocalizedString
+_CFBundleCopyResourcesDirectoryURL
+_CFBundleCreate
+_CFBundleCreateBundlesFromDirectory
+_CFBundleGetInfoDictionary
+_CFBundleGetMainBundle
+_CFBundleGetValueForInfoDictionaryKey
+_CFCalendarCreateWithIdentifier
+_CFCalendarDecomposeAbsoluteTime
+_CFCalendarSetTimeZone
+_CFCopyDescription
+_CFCopySearchPathForDirectoriesInDomains
+_CFDataAppendBytes
+_CFDataCreate
+_CFDataCreateMutableCopy
+_CFDataCreateWithBytesNoCopy
+_CFDataGetBytePtr
+_CFDataGetBytes
+_CFDataGetLength
+_CFDataGetTypeID
+_CFDataReplaceBytes
+_CFDataSetLength
+_CFDictionaryAddValue
+_CFDictionaryContainsKey
+_CFDictionaryCreateMutable
+_CFDictionaryCreateMutableCopy
+_CFDictionaryGetCount
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFDictionaryGetValueIfPresent
+_CFDictionaryRemoveValue
+_CFDictionaryReplaceValue
+_CFDictionarySetValue
+_CFEqual
+_CFGetTypeID
+_CFMachPortCreate
+_CFMachPortCreateRunLoopSource
+_CFMachPortGetPort
+_CFMachPortInvalidate
+_CFNotificationCenterGetLocalCenter
+_CFNotificationCenterPostNotification
+_CFNumberCompare
+_CFNumberCreate
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetCurrent
+_CFRunLoopRemoveSource
+_CFRunLoopRunInMode
+_CFStringCompare
+_CFStringCreateCopy
+_CFStringCreateWithCString
+_CFStringCreateWithFormat
+_CFStringGetCString
+_CFStringGetLength
+_CFStringGetMaximumSizeForEncoding
+_CFStringGetTypeID
+_CFStringHasPrefix
+_CFTimeZoneCopySystem
+_CFURLCopyPath
+_CFURLCreateWithFileSystemPath
+_CFURLCreateWithFileSystemPathRelativeToBase
+_CFURLGetFileSystemRepresentation
+_CFURLGetTypeID
+_CFUUIDCreate
+_CFUUIDCreateFromString
+_CFUUIDCreateString
+_CFUUIDGetConstantUUIDWithBytes
+_CFUUIDGetUUIDBytes
+_CSFDEGetConversionState
+_CSFDEQueryContext
+_CoreStorageCopyFamilyProperties
+_CoreStorageCopyLVGProperties
+_CoreStorageCopyListOfLVGs
+_CoreStorageCopyPhysicalVolumeProperties
+_CoreStorageCopyVolumeProperties
+_CoreStorageCopyVolumesForLVG
+_CoreStorageGetGroupSparseState
+_CoreStorageGetVolumeRevertRequirements
+_CoreStorageModifyLVG
+_CoreStorageModifyVolume
+_CoreStorageUpdateLVG
+_CoreStorageUpdateVolume
+_DADiskClaim
+_DADiskCopyDescription
+_DADiskCopyWholeDisk
+_DADiskCreateFromBSDName
+_DADiskCreateFromIOMedia
+_DADiskCreateFromVolumePath
+_DADiskEject
+_DADiskGetBSDName
+_DADiskMountWithArguments
+_DADiskRename
+_DADiskUnmount
+_DADissenterGetProcessID
+_DADissenterGetStatus
+_DADissenterGetStatusString
+_DARegisterDiskAppearedCallback
+_DARegisterDiskPeekCallback
+_DARegisterIdleCallback
+_DASessionCreate
+_DASessionScheduleWithRunLoop
+_DASessionUnscheduleFromRunLoop
+_DAUnregisterCallback
+_DRDeviceCanWriteBDREKey
+_DRDeviceCanWriteBDRKey
+_DRDeviceCanWriteCDRKey
+_DRDeviceCanWriteCDRWKey
+_DRDeviceCanWriteDVDPlusRDoubleLayerKey
+_DRDeviceCanWriteDVDPlusRKey
+_DRDeviceCanWriteDVDPlusRWKey
+_DRDeviceCanWriteDVDRAMKey
+_DRDeviceCanWriteDVDRDualLayerKey
+_DRDeviceCanWriteDVDRKey
+_DRDeviceCanWriteDVDRWKey
+_DRDeviceCanWriteHDDVDRAMKey
+_DRDeviceCanWriteHDDVDRKey
+_DRDeviceMediaTypeBDR
+_DRDeviceMediaTypeBDRE
+_DRDeviceMediaTypeBDROM
+_DRDeviceMediaTypeCDR
+_DRDeviceMediaTypeCDROM
+_DRDeviceMediaTypeCDRW
+_DRDeviceMediaTypeDVDPlusR
+_DRDeviceMediaTypeDVDPlusRDoubleLayer
+_DRDeviceMediaTypeDVDPlusRW
+_DRDeviceMediaTypeDVDR
+_DRDeviceMediaTypeDVDRAM
+_DRDeviceMediaTypeDVDRDualLayer
+_DRDeviceMediaTypeDVDROM
+_DRDeviceMediaTypeDVDRW
+_DRDeviceMediaTypeHDDVDR
+_DRDeviceMediaTypeHDDVDRAM
+_DRDeviceMediaTypeHDDVDROM
+_DRDeviceMediaTypeUnknown
+_DRDeviceWriteCapabilitiesKey
+_IOBSDNameMatching
+_IOCFSerialize
+_IOCFUnserialize
+_IOConnectCallStructMethod
+_IOCreatePlugInInterfaceForService
+_IODestroyPlugInInterface
+_IOIteratorNext
+_IOMasterPort
+_IONotificationPortCreate
+_IONotificationPortDestroy
+_IONotificationPortGetRunLoopSource
+_IOObjectConformsTo
+_IOObjectRelease
+_IOObjectRetain
+_IOPMAssertionCreateWithProperties
+_IOPMAssertionRelease
+_IORegistryEntryCreateCFProperties
+_IORegistryEntryCreateCFProperty
+_IORegistryEntryCreateIterator
+_IORegistryEntryFromPath
+_IORegistryEntryGetChildIterator
+_IORegistryEntryGetName
+_IORegistryEntryGetParentEntry
+_IORegistryEntryGetParentIterator
+_IORegistryEntrySearchCFProperty
+_IORegistryIteratorExitEntry
+_IOServiceAddInterestNotification
+_IOServiceAddMatchingNotification
+_IOServiceClose
+_IOServiceGetMatchingService
+_IOServiceGetMatchingServices
+_IOServiceMatching
+_IOServiceOpen
+_MKHumanToType
+_MKTypeToHuman
+_NDR_record
+_NSPOSIXErrorDomain
+_OBJC_CLASS_$_DRDevice
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSHashTable
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableCharacterSet
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPipe
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTask
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OSSpinLockLock
+_OSSpinLockUnlock
+__CFCopyServerVersionDictionary
+__CFGetProgname
+__DADiskGetSession
+__DADiskSetAdoption
+__DefaultRuneLocale
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___maskrune
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___strcpy_chk
+___strlcat_chk
+___strlcpy_chk
+__objc_empty_cache
+_arc4random_buf
+_asl_free
+_asl_log
+_asl_new
+_asl_set
+_atoi
+_bcopy
+_bootstrap_look_up2
+_bootstrap_port
+_calloc
+_ceil
+_close
+_closedir
+_fflush
+_floor
+_fprintf
+_free
+_fwrite
+_getattrlist
+_getenv
+_geteuid
+_getmntinfo$INODE64
+_getpid
+_getuid
+_ioctl
+_kCFAllocatorDefault
+_kCFAllocatorMalloc
+_kCFAllocatorSystemDefault
+_kCFBooleanTrue
+_kCFGregorianCalendar
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kDADiskDescriptionBusPathKey
+_kDADiskDescriptionDeviceInternalKey
+_kDADiskDescriptionMatchVolumeMountable
+_kDADiskDescriptionMatchVolumeUnrecognized
+_kDADiskDescriptionMediaBSDNameKey
+_kDADiskDescriptionMediaContentKey
+_kDADiskDescriptionMediaEjectableKey
+_kDADiskDescriptionMediaKindKey
+_kDADiskDescriptionMediaLeafKey
+_kDADiskDescriptionMediaUUIDKey
+_kDADiskDescriptionMediaWholeKey
+_kDADiskDescriptionMediaWritableKey
+_kDADiskDescriptionVolumeKindKey
+_kDADiskDescriptionVolumeMountableKey
+_kDADiskDescriptionVolumeNameKey
+_kDADiskDescriptionVolumeNetworkKey
+_kDADiskDescriptionVolumePathKey
+_kDADiskDescriptionVolumeUUIDKey
+_kIOMasterPortDefault
+_lseek
+_mach_msg
+_mach_msg_destroy
+_mach_msg_send
+_mach_port_deallocate
+_mach_port_request_notification
+_mach_task_self_
+_malloc
+_memcpy
+_mig_dealloc_reply_port
+_mig_deallocate
+_mig_get_reply_port
+_mig_put_reply_port
+_mig_reply_setup
+_mig_strncpy
+_modf
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSendSuper2
+_open
+_opendir$INODE64
+_pread
+_printf
+_proc_pidpath
+_pthread_getspecific
+_pthread_key_create
+_pthread_mach_thread_np
+_pthread_once
+_pthread_self
+_pthread_setspecific
+_puts
+_read
+_readdir$INODE64
+_reallocf
+_sleep
+_sscanf
+_stat$INODE64
+_statfs$INODE64
+_strcmp
+_strerror
+_strlen
+_strncmp
+_strncpy
+_syslog
+_uuid_parse
+_vasprintf
+_vm_allocate
+_vm_deallocate
+_voucher_mach_msg_set
+_write
+dyld_stub_binder

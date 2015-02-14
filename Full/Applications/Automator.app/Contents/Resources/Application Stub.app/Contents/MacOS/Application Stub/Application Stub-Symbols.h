@@ -1,0 +1,31 @@
+_main
+_mt_log_automation_applet_launched
+-[ApplicationStubDelegate awakeFromNib]
+-[ApplicationStubDelegate application:openFile:]
+-[ApplicationStubDelegate application:openFiles:]
+-[ApplicationStubDelegate applicationDidFinishLaunching:]
+-[ApplicationStubDelegate workflowRunner:didError:]
+-[ApplicationStubDelegate delayedExit]
+-[ApplicationStubDelegate workflowRunnerDidFinish:]
+_OBJC_IVAR_$_ApplicationStubDelegate._didRun
+_OBJC_IVAR_$_ApplicationStubDelegate._future
+_OBJC_METACLASS_$_ApplicationStubDelegate
+_OBJC_CLASS_$_ApplicationStubDelegate
+__mh_execute_header
+_NSApp
+_NSApplicationMain
+_OBJC_CLASS_$_AMApplicationStub
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_METACLASS_$_AMApplicationStub
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_exit
+_msgtracer_log_with_keys
+_objc_msgSend
+_sleep
+dyld_stub_binder

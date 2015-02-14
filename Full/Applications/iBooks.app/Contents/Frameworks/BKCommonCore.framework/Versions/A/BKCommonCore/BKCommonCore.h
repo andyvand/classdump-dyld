@@ -1,0 +1,9 @@
+#import <BKCommonCore/BKBookAnchorLocationManager.h>
+#import <BKCommonCore/BKBook.h>
+#import <BKCommonCore/BKMediaOverlayElement.h>
+#import <BKCommonCore/BKMessageTracerHelper.h>
+#import <BKCommonCore/BKSnippetAnnotation.h>
+#import <BKCommonCore/BKChapter.h>
+#import <BKCommonCore/BKBookResource.h>
+#import <BKCommonCore/BKDocument.h>
+#import <BKCommonCore/BKBookViewerPlugInInstanceDescriptor.h>

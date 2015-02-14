@@ -1,0 +1,1087 @@
++[NFAccount allAccountsWithContext:]
++[NFAccount allEnabledAccountsWithContext:]
++[NFAccount accountWithInternetAccountsUID:inManagedObjectContext:]
++[NFAccount accountWithEmailAddress:inManagedObjectContext:]
++[NFAccount resetDefaultAccount:]
++[NFAccount setDefaultAccount:]
++[NFAccount defaultAccountWithContext:]
++[NFAccount _initialDefaultAccountWithContext:]
+-[NFAccount awakeFromInsert]
+-[NFAccount canonicalEmailAddress]
+-[NFAccount setCanonicalEmailAddress:]
+-[NFAccount identifier]
+-[NFAccount credential]
+-[NFAccount setCredential:]
+-[NFAccount isAOSAccount]
++[NFAccount keyPathsForValuesAffectingDefaultFolder]
+-[NFAccount defaultFolder]
+-[NFAccount hasNotes]
+-[NFAccount allFolders]
+-[NFAccount accountClassPriority]
+-[NFAccount participatesInInternetAccounts]
+-[NFAccount internetAccountsUID]
+-[NFAccount(Internal) folderEntityName]
+-[NFAccount(Internal) createDefaultFolderInContext:]
+-[NFAosImapAccountProxy initWithManagedObject:]
+-[NFAosImapAccountProxy dealloc]
++[NFAosImapAccountProxy isAOSEmailAddress:]
+-[NFAosImapAccountProxy autodiscoverSettings]
+-[NFAosImapAccountProxy hostname]
+-[NFAosImapAccountProxy setHostname:]
+-[NFAosImapAccountProxy setUsername:]
+-[NFAosImapAccountProxy setSessionPassword:]
+-[NFAosImapAccountProxy password]
+-[NFAosImapAccountProxy setPassword:]
+-[NFAosImapAccountProxy applePersonID]
+-[NFAosImapAccountProxy appleAuthenticationToken]
+-[NFAosImapAccountProxy shouldRetryConnectionWithoutCertificateCheckingAfterError:host:didPromptUser:]
+-[NFAosImapAccountProxy canAuthenticateWithScheme:]
+-[NFAosImapAccountProxy _copyAoskitAccount]
+-[NFAosImapAccountProxy _setAoskitAccount:]
+-[NFAosImapAccountProxy _copyMailPropertiesTransaction]
+-[NFAosImapAccountProxy _setMailPropertiesTransaction:]
+-[NFAosImapAccountProxy _updateAoskitAccount:]
+-[NFAosImapAccountProxy _updateMailPropertiesBypassingCache:]
+_didFetchMailProperties
+-[NFAosImapAccountProxy _aoskitPropertyForKey:]
+-[NFAosImapAccountProxy presentOverQuotaAlert]
+-[NFAosImapAccountProxy .cxx_destruct]
++[NFAttachment attachmentWithContentID:inNote:context:]
+-[NFAttachment initWithFilename:insertIntoManagedObjectContext:]
+-[NFAttachment awakeFromInsert]
+-[NFAttachment prepareForDeletion]
+-[NFAttachment validateFileURL:error:]
++[NFAttachment keyPathsForValuesAffectingCidURL]
+-[NFAttachment cidURL]
++[NFAttachment keyPathsForValuesAffectingFilename]
+-[NFAttachment filename]
++[NFAttachment keyPathsForValuesAffectingIcon]
+-[NFAttachment icon]
+-[NFAttachment compactDescription]
+-[NFCrossProcessChangeCoordinator initWithSourceCoordinator:destinationContext:]
+-[NFCrossProcessChangeCoordinator dealloc]
+-[NFCrossProcessChangeCoordinator _contextDidSave:]
+-[NFCrossProcessChangeCoordinator _distributedNotificationReceived:]
+-[NFCrossProcessChangeCoordinator _changeKeys]
+___46-[NFCrossProcessChangeCoordinator _changeKeys]_block_invoke
+-[NFCrossProcessChangeCoordinator sourceCoordinator]
+-[NFCrossProcessChangeCoordinator setSourceCoordinator:]
+-[NFCrossProcessChangeCoordinator destinationContext]
+-[NFCrossProcessChangeCoordinator setDestinationContext:]
+-[NFCrossProcessChangeCoordinator .cxx_destruct]
++[NFEWSAccount accountWithEmailAddress:context:]
++[NFEWSAccount accountWithRootFolderID:context:]
++[NFEWSAccount accountWithUsername:internalURL:context:]
++[NFEWSAccount createAccountWithEmailAddress:context:]
+-[NFEWSAccount password]
+-[NFEWSAccount setPassword:]
+-[NFEWSAccount passwordWithPersistence:]
+-[NFEWSAccount setPassword:persistence:]
+-[NFEWSAccount validateRootFolder:error:]
+-[NFEWSAccount defaultFolder]
+-[NFEWSAccount createDefaultFolderInContext:]
+-[NFEWSAccount accountClassPriority]
+-[NFEWSAccount participatesInInternetAccounts]
+-[NFEWSAccount folderEntityName]
+-[NFEWSAccountProxy initWithManagedObject:]
+-[NFEWSAccountProxy dealloc]
+___28-[NFEWSAccountProxy dealloc]_block_invoke
+-[NFEWSAccountProxy password]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___29-[NFEWSAccountProxy password]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFEWSAccountProxy setPassword:]
+___33-[NFEWSAccountProxy setPassword:]_block_invoke
+___copy_helper_block_59
+___destroy_helper_block_60
+-[NFEWSAccountProxy sessionPassword]
+___36-[NFEWSAccountProxy sessionPassword]_block_invoke
+___copy_helper_block_68
+___destroy_helper_block_69
+-[NFEWSAccountProxy setSessionPassword:]
+___40-[NFEWSAccountProxy setSessionPassword:]_block_invoke
+___copy_helper_block_71
+___destroy_helper_block_72
+-[NFEWSAccountProxy isServerReachable]
+-[NFEWSAccountProxy mailboxProxyForMailbox:]
+-[NFEWSAccountProxy updateMailboxListFromServer]
+___48-[NFEWSAccountProxy updateMailboxListFromServer]_block_invoke
+___copy_helper_block_129
+___destroy_helper_block_130
+___48-[NFEWSAccountProxy updateMailboxListFromServer]_block_invoke165
+___copy_helper_block_197
+___destroy_helper_block_198
+___48-[NFEWSAccountProxy updateMailboxListFromServer]_block_invoke200
+___copy_helper_block_210
+___destroy_helper_block_211
+___48-[NFEWSAccountProxy updateMailboxListFromServer]_block_invoke213
+___copy_helper_block_217
+___destroy_helper_block_218
+-[NFEWSAccountProxy updateAllMailboxContentsFromServer]
+-[NFEWSAccountProxy _createOrUpdateFolder:deletedItemsFolderId:]
+-[NFEWSAccountProxy _fetchFolderInfoForId:error:]
+-[NFEWSAccountProxy _deleteFolder:]
+-[NFEWSAccountProxy _syncFolderHierarchyRequestWithSyncState:]
+-[NFEWSAccountProxy _connectAndAuthenticate]
+___44-[NFEWSAccountProxy _connectAndAuthenticate]_block_invoke
+___copy_helper_block_330
+___destroy_helper_block_331
+___44-[NFEWSAccountProxy _connectAndAuthenticate]_block_invoke339
+___copy_helper_block_343
+___destroy_helper_block_344
+-[NFEWSAccountProxy _fetchDistinguishedFolderInfo:error:errorCode:]
+-[NFEWSAccountProxy _autodiscoverSettings]
+-[NFEWSAccountProxy fullName]
+-[NFEWSAccountProxy setFullName:]
+-[NFEWSAccountProxy hasNotes]
+-[NFEWSAccountProxy folderHierarchySyncState]
+-[NFEWSAccountProxy setFolderHierarchySyncState:]
+-[NFEWSAccountProxy internalURL]
+-[NFEWSAccountProxy setInternalURL:]
+-[NFEWSAccountProxy externalURL]
+-[NFEWSAccountProxy setExternalURL:]
+-[NFEWSAccountProxy lastUsedAutodiscoverURL]
+-[NFEWSAccountProxy setLastUsedAutodiscoverURL:]
+-[NFEWSAccountProxy rootFolderId]
+___33-[NFEWSAccountProxy rootFolderId]_block_invoke
+___copy_helper_block_409
+___destroy_helper_block_410
+-[NFEWSAccountProxy setRootFolderId:]
+___37-[NFEWSAccountProxy setRootFolderId:]_block_invoke
+___copy_helper_block_414
+___destroy_helper_block_415
+-[NFEWSAccountProxy _newEWSCreateItemForNote:inFolder:]
++[NFEWSAccountProxy _extendedFieldsForEWSNoteType]
+___50+[NFEWSAccountProxy _extendedFieldsForEWSNoteType]_block_invoke
+___copy_helper_block_469
+___destroy_helper_block_470
++[NFEWSAccountProxy _newExtendedFieldTypeForPropertyId:]
+-[NFEWSAccountProxy _processCreateItemResponse:forNote:responseCode:]
+-[NFEWSAccountProxy addNoteToRemote:inFolder:responseCode:]
+-[NFEWSAccountProxy addFolderToRemote:inParent:responseCode:]
+-[NFEWSAccountProxy _newEWSCreateFolderForFolder:inParent:]
+-[NFEWSAccountProxy _processCreateFolderResponse:forFolder:responseCode:]
+-[NFEWSAccountProxy updateFolderOnRemote:responseCode:]
+-[NFEWSAccountProxy _newEWSUpdateFolderForFolder:]
+-[NFEWSAccountProxy _processUpdateFolderResponse:forFolder:responseCode:]
+-[NFEWSAccountProxy deleteFolderFromRemoteWithId:responseCode:]
+-[NFEWSAccountProxy _newEWSDeleteFolderWithFolderId:]
+-[NFEWSAccountProxy _processDeleteFolderResponse:forFolderId:responseCode:]
+-[NFEWSAccountProxy moveFolderOnRemote:toParent:responseCode:]
+-[NFEWSAccountProxy _newEWSMoveFolderForFolder:toParent:]
+-[NFEWSAccountProxy _processMoveFolderResponse:forFolder:responseCode:]
+-[NFEWSAccountProxy _newEWSSetItemFieldForSubject:]
+-[NFEWSAccountProxy _newEWSSetItemFieldForBody:]
+-[NFEWSAccountProxy _newEWSUpdateItemForNote:]
+-[NFEWSAccountProxy _processUpdateItemResponse:forNote:responseCode:]
+-[NFEWSAccountProxy updateNoteOnRemote:responseCode:]
+-[NFEWSAccountProxy _newEWSDeleteItemForNoteWithRemoteID:]
+-[NFEWSAccountProxy _processDeleteItemResponse:responseCode:]
+-[NFEWSAccountProxy deleteNoteFromRemoteWithID:responseCode:]
+-[NFEWSAccountProxy moveNoteOnRemote:toFolder:responseCode:]
+-[NFEWSAccountProxy _newEWSMoveItemForNote:toFolder:]
+-[NFEWSAccountProxy _processMoveItemResponse:forNote:responseCode:]
+-[NFEWSAccountProxy _sendMessage:]
+-[NFEWSAccountProxy exchangeServiceBinding:willSendRequestForAuthenticationChallenge:]
+-[NFEWSAccountProxy exchangeServiceBinding:didReceiveCertificateError:]
+-[NFEWSAccountProxy responseCodeIsFatal:]
+-[NFEWSAccountProxy exchangeServiceBinding]
+-[NFEWSAccountProxy setExchangeServiceBinding:]
+-[NFEWSAccountProxy useExternalURL]
+-[NFEWSAccountProxy setUseExternalURL:]
+-[NFEWSAccountProxy .cxx_destruct]
++[NFEWSFolder noteClass]
++[NFEWSFolder folderWithFolderId:context:]
++[NFEWSFolder createFolderWithFolderId:context:]
+-[NFEWSFolder validateAccount:error:]
+-[NFEWSFolder validateValue:forKey:error:]
+-[NFEWSFolder isRemote]
+-[NFEWSFolder subfolderWithName:]
+-[NFEWSFolder newSubfolderWithName:]
+-[NFEWSFolder newNote]
+-[NFEWSFolder trimFolderTreeWithParent:]
+-[NFEWSFolder createNote]
+-[NFEWSFolder isUnknownType]
+-[NFEWSFolder setIsUnknownType:]
+-[NFEWSFolderProxy initWithManagedObject:]
+-[NFEWSFolderProxy updateFromServer]
+-[NFEWSFolderProxy hasNotes]
+-[NFEWSFolderProxy _syncFolderItemsRequestWithSyncState:maxChanges:]
+-[NFEWSFolderProxy folderId]
+-[NFEWSFolderProxy _createOrUpdateItemsWithItemIds:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___52-[NFEWSFolderProxy _createOrUpdateItemsWithItemIds:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___52-[NFEWSFolderProxy _createOrUpdateItemsWithItemIds:]_block_invoke143
+___copy_helper_block_158
+___destroy_helper_block_159
+-[NFEWSFolderProxy _updateNote:withEWSItem:]
+-[NFEWSFolderProxy _htmlFromPlainText:]
+-[NFEWSFolderProxy _getItemsRequestWithIds:]
+-[NFEWSFolderProxy _deleteItemIdStrings:]
+___41-[NFEWSFolderProxy _deleteItemIdStrings:]_block_invoke
+___copy_helper_block_227
+___destroy_helper_block_228
+-[NFEWSFolderProxy account]
+-[NFEWSFolderProxy setAccount:]
+-[NFEWSFolderProxy .cxx_destruct]
++[NFEWSNote notesWithItemIdStrings:context:]
+___44+[NFEWSNote notesWithItemIdStrings:context:]_block_invoke
++[NFEWSNote noteWithTitle:hash:context:]
++[NFEWSNote createNoteWithItemIdString:context:]
+-[NFEWSNote validateFolder:error:]
+-[NFEWSNote isRemote]
++[NFEWSNote supportsAttachments]
+-[NFEWSNote createAttachmentWithName:]
+-[NFEWSNote activityDictionary]
+-[NFEWSNote _calculateHashForNoteBody]
+-[NFEWSNote bodyMatchesHash:]
+-[NFEWSNote _sha1Hash:]
+-[NFEWSNote _simplifiedStringFromString:isXML:]
++[NFFolder noteClass]
+-[NFFolder subfolderWithName:]
+-[NFFolder newSubfolderWithName:]
+-[NFFolder defaultNameForNewSubfolderWithName:]
+-[NFFolder takeValuesFromFolder:]
+-[NFFolder isDeletedOrInTrash]
+-[NFFolder moveToTrash]
+-[NFFolder newNote]
+-[NFFolder account]
+-[NFFolder isRemote]
+-[NFFolder depth]
+-[NFFolder containsNoteWithAttachment]
+-[NFFolder compactDescription]
+-[NFFolder validateName:error:]
+-[NFFolder validateParent:error:]
+-[NFFolder _siblingIsAllowedWithName:parent:]
+-[NFFolder(Internal) _isSiblingWithSameNameAllowed:]
+-[NFFolderAction compactDescription]
+-[NFIMAPAccount authenticationSchemeName]
+-[NFIMAPAccount setAuthenticationSchemeName:]
+-[NFIMAPAccount defaultMailbox]
+-[NFIMAPAccount inbox]
+-[NFIMAPAccount mailboxes]
+-[NFIMAPAccount addMailboxes:]
+-[NFIMAPAccount objectIDOfMailboxWithServerName:]
+-[NFIMAPAccount newMailboxWithName:serverName:parent:]
++[NFIMAPAccount aosAccountWithUsername:context:]
++[NFIMAPAccount accountWithUsername:hostname:context:]
++[NFIMAPAccount accountWithEmailAddress:context:]
++[NFIMAPAccount createAccountWithEmailAddress:context:]
+-[NFIMAPAccount accountClassPriority]
+-[NFIMAPAccount participatesInInternetAccounts]
++[NFIMAPAccount keyPathsForValuesAffectingIsAOSAccount]
+-[NFIMAPAccount isAOSAccount]
+-[NFIMAPAccount password]
+-[NFIMAPAccount setPassword:]
+-[NFIMAPAccount _portNumberForKeychain]
+-[NFIMAPAccount validateRootFolder:error:]
+-[NFIMAPAccount defaultFolder]
+-[NFIMAPAccount createDefaultFolderInContext:]
+-[NFIMAPAccount folderEntityName]
+-[NFIMAPAccountProxy initWithManagedObject:]
+-[NFIMAPAccountProxy maximumConnectionCount]
+-[NFIMAPAccountProxy useDefaultMailboxAsMailboxHierarchyRoot]
+-[NFIMAPAccountProxy playOfflineActions]
+-[NFIMAPAccountProxy shouldAddMailboxToPersistence:withParent:]
+-[NFIMAPAccountProxy deleteMailboxFromPersistence:]
+-[NFIMAPAccountProxy deleteMailboxFromServer:]
+-[NFIMAPAccountProxy mailboxProxyForMailbox:]
+-[NFIMAPAccountProxy newMailboxProxyWithMailbox:]
+-[NFIMAPAccountProxy fullName]
+-[NFIMAPAccountProxy setFullName:]
+-[NFIMAPAccountProxy hasNotes]
++[NFIMAPFolder noteClass]
++[NFIMAPFolder folderWithName:parentFolder:context:]
++[NFIMAPFolder createFolderWithName:parentFolder:context:]
+-[NFIMAPFolder imapAllegedHighestModificationSequence]
+-[NFIMAPFolder setImapAllegedHighestModificationSequence:]
+-[NFIMAPFolder imapComputedHighestModificationSequence]
+-[NFIMAPFolder setImapComputedHighestModificationSequence:]
+-[NFIMAPFolder imapUIDNext]
+-[NFIMAPFolder setImapUIDNext:]
+-[NFIMAPFolder imapUIDValidity]
+-[NFIMAPFolder setImapUIDValidity:]
+-[NFIMAPFolder imapServerName]
+-[NFIMAPFolder setImapServerName:]
+-[NFIMAPFolder addChildMailboxesObject:]
+-[NFIMAPFolder removeChildMailboxesObject:]
+-[NFIMAPFolder addChildMailboxes:]
+-[NFIMAPFolder removeChildMailboxes:]
+-[NFIMAPFolder persistedMessages]
+-[NFIMAPFolder setPersistedMessages:]
+-[NFIMAPFolder addPersistedMessagesObject:]
+-[NFIMAPFolder removePersistedMessagesObject:]
+-[NFIMAPFolder addPersistedMessages:]
+-[NFIMAPFolder removePersistedMessages:]
+-[NFIMAPFolder newMessage]
+-[NFIMAPFolder isRootMailbox]
+-[NFIMAPFolder totalCountOfMessages]
+-[NFIMAPFolder maximumIMAPUID]
+-[NFIMAPFolder getDetailsForMessagesWithIMAPUIDs:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+-[NFIMAPFolder copyIncompleteMessagesIncludingObjectIDs:]
+-[NFIMAPFolder cacheDirectoryContentsExcludingObjectIDs:]
+-[NFIMAPFolder messageWithUniqueID:]
+-[NFIMAPFolder messagesWithObjectIDs:]
+-[NFIMAPFolder validateAccount:error:]
+-[NFIMAPFolder _isSiblingWithSameNameAllowed:]
+-[NFIMAPFolder validateValue:forKey:error:]
+-[NFIMAPFolder isRemote]
+-[NFIMAPFolder subfolderWithName:]
+-[NFIMAPFolder newSubfolderWithName:]
+-[NFIMAPFolder newSubfolderWithName:serverName:]
+-[NFIMAPFolder newNote]
+-[NFIMAPFolderProxy initWithManagedObject:]
+-[NFIMAPFolderProxy messageShouldBePersisted:]
+-[NFIMAPFolderProxy deleteMessageFromPersistence:]
+-[NFIMAPFolderProxy isMessageDeletedFromPersistence:]
+-[NFIMAPFolderProxy addMessageToServer:withMessageType:]
+-[NFIMAPFolderProxy mailbox]
++[NFIMAPNote notesWithUniqueID:context:]
+___40+[NFIMAPNote notesWithUniqueID:context:]_block_invoke
+-[NFIMAPNote awakeFromInsert]
+-[NFIMAPNote validateFolder:error:]
+-[NFIMAPNote isRemote]
+-[NFIMAPNote activityDictionary]
++[NFIMAPNote noteTypeForActivity]
+-[NFIMAPNote imapUID]
+-[NFIMAPNote setImapUID:]
+-[NFIMAPNote mailbox]
+-[NFIMAPNote setMailbox:]
++[NFLocalAccount localAccountWithContext:]
+-[NFLocalAccount accountClassPriority]
+-[NFLocalAccount awakeFromInsert]
+-[NFLocalAccount awakeFromFetch]
+-[NFLocalAccount recoveredItemsFolder]
+-[NFLocalAccount updateAvailability]
++[NotesFramework bundle]
+___24+[NotesFramework bundle]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFLocalToEWSPusher addNoteToRemote:inFolder:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher _addNoteToRemote:inFolder:accountProxy:responseCode:]
+-[NFLocalToEWSPusher updateNoteOnRemote:inFolder:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher moveNoteOnRemote:toFolder:originalFolder:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher deleteNoteFromRemoteWithID:fromFolder:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher _deleteNoteFromRemoteWithId:accountProxy:responseCode:]
+-[NFLocalToEWSPusher addFolderToRemote:inParent:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher _addFolderToRemote:inParent:accountProxy:responseCode:]
+-[NFLocalToEWSPusher updateFolderOnRemote:inParent:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher moveFolderOnRemote:toParent:originalParent:accountProxy:errorIsFatal:]
+-[NFLocalToEWSPusher deleteFolderFromRemote:fromParent:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher addNoteToRemote:inFolder:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher updateNoteOnRemote:inFolder:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher moveNoteOnRemote:toFolder:originalFolder:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher deleteNoteFromRemoteWithID:fromFolder:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher _deleteNoteFromRemoteWithID:folder:]
+-[NFLocalToIMAPPusher addFolderToRemote:inParent:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher updateFolderOnRemote:inParent:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher moveFolderOnRemote:toParent:originalParent:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher deleteFolderFromRemote:fromParent:accountProxy:errorIsFatal:]
+-[NFLocalToIMAPPusher _deleteFolderHierarchyFromRemote:accountProxy:]
++[NFLocalToRemotePusher addNoteToRemote:inFolder:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher updateNoteOnRemote:inFolder:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher moveNoteOnRemote:toFolder:originalFolder:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher deleteNoteFromRemoteWithID:fromFolder:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher addFolderToRemote:inParent:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher updateFolderOnRemote:inParent:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher moveFolderOnRemote:toParent:originalParent:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher deleteFolderFromRemote:fromParent:accountProxy:errorIsFatal:]
++[NFLocalToRemotePusher _remotePusherForRemoteObject:]
++[NFLocalToRemotePusher _remotePusherForAccountProxy:]
++[NFLocalToRemotePusher _imapPusher]
+___36+[NFLocalToRemotePusher _imapPusher]_block_invoke
++[NFLocalToRemotePusher _exchangePusher]
+___40+[NFLocalToRemotePusher _exchangePusher]_block_invoke
+-[NFMoveFolderAction compactDescription]
+-[NFMoveNoteAction compactDescription]
+-[NFNote awakeFromInsert]
+-[NFNote isRemote]
++[NFNote supportsAttachments]
+-[NFNote isBlankNewNote]
+-[NFNote takeValuesFromNote:]
+-[NFNote isDeletedOrInTrash]
+-[NFNote moveToTrash]
+-[NFNote compactDescription]
+-[NFNote activityDictionary]
++[NFNote noteTypeForActivity]
+-[NFNote dateSent]
+-[NFNote setDateSent:]
+-[NFNote dateReceived]
+-[NFNote setDateReceived:]
+-[NFNote from]
+-[NFNote setFrom:]
+-[NFNote subject]
+-[NFNote setSubject:]
+-[NFNote messageID]
+-[NFNote setMessageID:]
+-[NFNote references]
+-[NFNote setReferences:]
+-[NFNote unread]
+-[NFNote setUnread:]
+-[NFNote bodyHTML]
+-[NFNote setBodyHTML:]
+-[NFNote attachmentWithContentID:]
+-[NFNote createAttachmentWithName:]
+-[NFNote addPersistedAttachement:]
+-[NFNoteAction compactDescription]
++[NFNotesMigrator allocWithZone:]
++[NFNotesMigrator sharedInstance]
+___33+[NFNotesMigrator sharedInstance]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFNotesMigrator dealloc]
+-[NFNotesMigrator shouldMigrateLocalNotes]
+-[NFNotesMigrator haveMigratedLocalNotes]
+-[NFNotesMigrator hasLocalNotes]
+-[NFNotesMigrator migrateNotesToiCloudIfNecessary:]
+-[NFNotesMigrator _migrateLocalNotesFromMailOperation]
+___54-[NFNotesMigrator _migrateLocalNotesFromMailOperation]_block_invoke
+___copy_helper_block_65
+___destroy_helper_block_66
+-[NFNotesMigrator _migrateLocalNotesToiCloudOperation]
+___54-[NFNotesMigrator _migrateLocalNotesToiCloudOperation]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___54-[NFNotesMigrator _migrateLocalNotesToiCloudOperation]_block_invoke77
+___copy_helper_block_101
+___destroy_helper_block_102
+___54-[NFNotesMigrator _migrateLocalNotesToiCloudOperation]_block_invoke113
+___copy_helper_block_131
+___destroy_helper_block_132
+___copy_helper_block_144
+___destroy_helper_block_145
+-[NFNotesMigrator _finishedMigratingOperation]
+___46-[NFNotesMigrator _finishedMigratingOperation]_block_invoke
+___copy_helper_block_157
+___destroy_helper_block_158
+-[NFNotesMigrator _notesImporterBundle]
+___39-[NFNotesMigrator _notesImporterBundle]_block_invoke
+-[NFNotesMigrator _migrationQueue]
+___34-[NFNotesMigrator _migrationQueue]_block_invoke
+-[NFNotesMigrator _migrateLocalFolder:toRemoteWithRemoteParent:inAccount:]
+-[NFNotesMigrator _localNoteMigrationCompleted]
+-[NFNotesMigrator _setLocalNoteMigrationCompleted]
+-[NFNotesMigrator delegate]
+-[NFNotesMigrator setDelegate:]
+-[NFNotesMigrator .cxx_destruct]
++[NFNotesMigratorClient allocWithZone:]
++[NFNotesMigratorClient sharedInstance]
+___39+[NFNotesMigratorClient sharedInstance]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFNotesMigratorClient dealloc]
+-[NFNotesMigratorClient _handleXPCErrorWithEvent:]
+-[NFNotesMigratorClient _handleMigratorFailure:]
+-[NFNotesMigratorClient _logGenericError:]
+-[NFNotesMigratorClient _setAuditSessionOnMessage:]
+-[NFNotesMigratorClient _newConnection]
+___39-[NFNotesMigratorClient _newConnection]_block_invoke
+___copy_helper_block_59
+___destroy_helper_block_60
+-[NFNotesMigratorClient migrateNotesToiCloudIfNecessary:]
+___57-[NFNotesMigratorClient migrateNotesToiCloudIfNecessary:]_block_invoke
+___copy_helper_block_69
+___destroy_helper_block_70
+-[NFNotesMigratorClient async_shouldMigrateLocalNotes]
+___54-[NFNotesMigratorClient async_shouldMigrateLocalNotes]_block_invoke
+___copy_helper_block_79
+___destroy_helper_block_80
+-[NFNotesMigratorClient sync_shouldMigrateLocalNotes]
+___53-[NFNotesMigratorClient sync_shouldMigrateLocalNotes]_block_invoke
+___copy_helper_block_82
+___destroy_helper_block_83
+-[NFNotesMigratorClient sync_hasLocalNotes]
+___43-[NFNotesMigratorClient sync_hasLocalNotes]_block_invoke
+___copy_helper_block_85
+___destroy_helper_block_86
+-[NFNotesMigratorClient startService]
+-[NFNotesMigratorClient delegate]
+-[NFNotesMigratorClient setDelegate:]
+-[NFNotesMigratorClient .cxx_destruct]
+-[NFOfflineAction awakeFromInsert]
+___34-[NFOfflineAction awakeFromInsert]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFOfflineAction compactDescription]
++[NFOfflineAction pendingOfflineActionsExist]
++[NFOfflineActionManager executeOfflineActionsForAccount:]
++[NFOfflineActionManager _recoverFromInvalidAction:]
++[NFOfflineActionManager _copyNoteToRecoveredItemsFolder:]
++[NFOfflineActionManager _copyFolderContentsToRecoveredItemsFolder:]
++[NFOfflineActionManager _executeActionForAccount:action:outError:]
++[NFOfflineActionManager _executeInsertNoteAction:forAccount:outError:]
++[NFOfflineActionManager _executeUpdateNoteAction:forAccount:outError:]
++[NFOfflineActionManager _executeMoveNoteAction:forAccount:outError:]
++[NFOfflineActionManager _executeInsertFolderAction:forAccount:outError:]
++[NFOfflineActionManager _executeUpdateFolderAction:forAccount:outError:]
++[NFOfflineActionManager _executeMoveFolderAction:forAccount:outError:]
+-[NFOfflineCoordinator initWithContext:accountProxyManager:]
+-[NFOfflineCoordinator dealloc]
+-[NFOfflineCoordinator _executeOfflineActions]
+___46-[NFOfflineCoordinator _executeOfflineActions]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NFOfflineCoordinator _contextWillSave:]
+___41-[NFOfflineCoordinator _contextWillSave:]_block_invoke
+___41-[NFOfflineCoordinator _contextWillSave:]_block_invoke_2
+-[NFOfflineCoordinator _contextDidSave:]
+-[NFOfflineCoordinator _addInsertedNoteToOfflineQueue:]
+-[NFOfflineCoordinator _addInsertedFolderToOfflineQueue:]
+-[NFOfflineCoordinator _addUpdatedNoteToOfflineQueue:]
+-[NFOfflineCoordinator _addUpdatedFolderToOfflineQueue:]
+-[NFOfflineCoordinator _addMovedNoteToOfflineQueue:originalFolder:]
+-[NFOfflineCoordinator _addMovedFolderToOfflineQueue:originalParent:]
+-[NFOfflineCoordinator context]
+-[NFOfflineCoordinator setContext:]
+-[NFOfflineCoordinator accountsWithActions]
+-[NFOfflineCoordinator setAccountsWithActions:]
+-[NFOfflineCoordinator accountProxyManager]
+-[NFOfflineCoordinator setAccountProxyManager:]
+-[NFOfflineCoordinator .cxx_destruct]
++[NFPersistenceManager setStoreCoordinatorIsReadOnly:]
++[NFPersistenceManager persistentStoreCoordinator]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___50+[NFPersistenceManager persistentStoreCoordinator]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___50+[NFPersistenceManager persistentStoreCoordinator]_block_invoke97
+___copy_helper_block_105
+___destroy_helper_block_106
++[NFPersistenceManager _validStoreURLInDataDirectory:movingOldStoreIfNeeded:withCoordinator:error:]
++[NFPersistenceManager _storeURLForVersion:inDataDirectory:]
++[NFPersistenceManager _backupExistingStore:withCoordinator:error:]
++[NFPersistenceManager notesContainerLibraryURL]
++[NFPersistenceManager existingObjectFromContext:withExternalRecordURL:error:]
++[NFPersistenceManager managedObjectContext]
+-[NFTrashFolder awakeFromInsert]
+-[NFTrashFolder validateParent:error:]
+-[NFTrashFolder emptyContents]
++[NFUserDefaults boolForKey:]
++[NFUserDefaults setBool:forKey:]
++[NFUserDefaults _notesContainerPath]
++[NFUserDefaults _isRunningInNotes]
+GCC_except_table2
+GCC_except_table17
+GCC_except_table14
+GCC_except_table15
+GCC_except_table16
+GCC_except_table17
+GCC_except_table3
+GCC_except_table13
+GCC_except_table22
+GCC_except_table23
+GCC_except_table36
+GCC_except_table41
+GCC_except_table52
+GCC_except_table61
+GCC_except_table5
+GCC_except_table27
+GCC_except_table4
+GCC_except_table15
+GCC_except_table22
+GCC_except_table26
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table1
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp52
+___block_descriptor_tmp61
+___block_descriptor_tmp70
+___block_descriptor_tmp73
+___block_descriptor_tmp131
+___block_descriptor_tmp199
+___block_descriptor_tmp212
+___block_descriptor_tmp220
+___block_descriptor_tmp332
+___block_descriptor_tmp345
+___block_descriptor_tmp411
+___block_descriptor_tmp416
+___block_descriptor_tmp471
+___block_descriptor_tmp
+___block_descriptor_tmp160
+___block_descriptor_tmp229
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp70
+___block_literal_global71
+___block_descriptor_tmp
+___block_descriptor_tmp67
+___block_descriptor_tmp103
+___block_descriptor_tmp133
+___block_descriptor_tmp146
+___block_descriptor_tmp159
+___block_descriptor_tmp176
+___block_literal_global
+___block_descriptor_tmp179
+___block_literal_global180
+___block_descriptor_tmp
+___block_descriptor_tmp62
+___block_descriptor_tmp71
+___block_descriptor_tmp81
+___block_descriptor_tmp84
+___block_descriptor_tmp87
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp43
+___block_literal_global
+___block_descriptor_tmp64
+___block_literal_global65
+___block_descriptor_tmp
+___block_descriptor_tmp107
+_OBJC_IVAR_$_NFAosImapAccountProxy._aoskitLock
+_OBJC_IVAR_$_NFAosImapAccountProxy._mailPropertiesTransaction
+_OBJC_IVAR_$_NFAosImapAccountProxy._aoskitAccount
+_OBJC_IVAR_$_NFCrossProcessChangeCoordinator._sourceCoordinator
+_OBJC_IVAR_$_NFCrossProcessChangeCoordinator._destinationContext
+_OBJC_IVAR_$_NFEWSAccountProxy._foldersByObjectID
+_OBJC_IVAR_$_NFEWSAccountProxy._exchangeServiceBinding
+_OBJC_IVAR_$_NFEWSAccountProxy._useExternalURL
+_OBJC_IVAR_$_NFEWSFolder._isUnknownType
+_OBJC_IVAR_$_NFEWSFolderProxy._account
+_OBJC_IVAR_$_NFNotesMigrator._delegate
+_OBJC_IVAR_$_NFNotesMigratorClient._delegate
+_OBJC_IVAR_$_NFOfflineCoordinator._context
+_OBJC_IVAR_$_NFOfflineCoordinator._accountsWithActions
+_OBJC_IVAR_$_NFOfflineCoordinator._accountProxyManager
+-[NFCrossProcessChangeCoordinator _changeKeys].changeKeys
+-[NFCrossProcessChangeCoordinator _changeKeys].onceToken
++[NFEWSAccountProxy _extendedFieldsForEWSNoteType].additionalProperties
++[NFEWSAccountProxy _extendedFieldsForEWSNoteType].additionalPropertiesInitializationToken
++[NotesFramework bundle].notesFrameworkBundle
++[NotesFramework bundle].onceToken
++[NFLocalToRemotePusher _imapPusher].pusher
++[NFLocalToRemotePusher _imapPusher].onceToken
++[NFLocalToRemotePusher _exchangePusher].pusher
++[NFLocalToRemotePusher _exchangePusher].onceToken
++[NFNotesMigrator sharedInstance].predicate
++[NFNotesMigrator sharedInstance].sharedInstance
+-[NFNotesMigrator _notesImporterBundle].sNotesImporterBundle
+-[NFNotesMigrator _notesImporterBundle].onceToken
+-[NFNotesMigrator _migrationQueue].operationQueue
+-[NFNotesMigrator _migrationQueue].onceToken
++[NFNotesMigratorClient sharedInstance].predicate
++[NFNotesMigratorClient sharedInstance].sharedInstance
+-[NFOfflineAction awakeFromInsert].nextSequenceNumber
+-[NFOfflineAction awakeFromInsert].once
+_sReadOnlyStoreCoordinator
++[NFPersistenceManager persistentStoreCoordinator].sharedCoordinator
++[NFPersistenceManager persistentStoreCoordinator].onceToken
+_NFAccountsDefaultAccountDidChangeNotification
+_NFAccountsKey
+_NFActivityPayloadKeyNoteBodyHash
+_NFActivityPayloadKeyNoteDateCreated
+_NFActivityPayloadKeyNoteDateEdited
+_NFActivityPayloadKeyNoteIdentifier
+_NFActivityPayloadKeyNoteType
+_NFAuditSessionKey
+_NFBeginMigrateMessageType
+_NFDidFailImportAccountsMessageType
+_NFDidFinishMigrateMessageType
+_NFEWSItemClassNote
+_NFEntityNameAccount
+_NFEntityNameAttachment
+_NFEntityNameEWSAccount
+_NFEntityNameEWSFolder
+_NFEntityNameEWSNote
+_NFEntityNameFolder
+_NFEntityNameFolderAction
+_NFEntityNameIMAPAccount
+_NFEntityNameIMAPFolder
+_NFEntityNameIMAPNote
+_NFEntityNameInsertFolderAction
+_NFEntityNameInsertNoteAction
+_NFEntityNameLocalAccount
+_NFEntityNameMoveFolderAction
+_NFEntityNameMoveNoteAction
+_NFEntityNameNote
+_NFEntityNameNoteAction
+_NFEntityNameNoteBody
+_NFEntityNameOfflineAction
+_NFEntityNameTrashFolder
+_NFEntityNameUpdateFolderAction
+_NFEntityNameUpdateNoteAction
+_NFHasLocalNotesKey
+_NFHasLocalNotesRequestMessageType
+_NFHasLocalNotesResponseMessageType
+_NFMigrateToiCloudKey
+_NFMigratorMessageTypeKey
+_NFPasswordsDidChange
+_NFPrimaryFolderName
+_NFShouldMigrateNotesKey
+_NFShouldMigrateNotesRequestMessageType
+_NFShouldMigrateNotesResponseMessageType
+_NFStartServiceOnlyMessageType
+_NFStringKeyInvalidFolderNameError
+_NFStringKeyNewNoteTitle
+_NotesVersionNumber
+_NotesVersionString
+_OBJC_CLASS_$_NFAccount
+_OBJC_CLASS_$_NFAosImapAccountProxy
+_OBJC_CLASS_$_NFAttachment
+_OBJC_CLASS_$_NFCrossProcessChangeCoordinator
+_OBJC_CLASS_$_NFEWSAccount
+_OBJC_CLASS_$_NFEWSAccountProxy
+_OBJC_CLASS_$_NFEWSFolder
+_OBJC_CLASS_$_NFEWSFolderProxy
+_OBJC_CLASS_$_NFEWSNote
+_OBJC_CLASS_$_NFFolder
+_OBJC_CLASS_$_NFFolderAction
+_OBJC_CLASS_$_NFIMAPAccount
+_OBJC_CLASS_$_NFIMAPAccountProxy
+_OBJC_CLASS_$_NFIMAPFolder
+_OBJC_CLASS_$_NFIMAPFolderProxy
+_OBJC_CLASS_$_NFIMAPNote
+_OBJC_CLASS_$_NFInsertFolderAction
+_OBJC_CLASS_$_NFInsertNoteAction
+_OBJC_CLASS_$_NFLocalAccount
+_OBJC_CLASS_$_NFLocalToEWSPusher
+_OBJC_CLASS_$_NFLocalToIMAPPusher
+_OBJC_CLASS_$_NFLocalToRemotePusher
+_OBJC_CLASS_$_NFMoveFolderAction
+_OBJC_CLASS_$_NFMoveNoteAction
+_OBJC_CLASS_$_NFNote
+_OBJC_CLASS_$_NFNoteAction
+_OBJC_CLASS_$_NFNoteBody
+_OBJC_CLASS_$_NFNotesMigrator
+_OBJC_CLASS_$_NFNotesMigratorClient
+_OBJC_CLASS_$_NFOfflineAction
+_OBJC_CLASS_$_NFOfflineActionManager
+_OBJC_CLASS_$_NFOfflineCoordinator
+_OBJC_CLASS_$_NFPersistenceManager
+_OBJC_CLASS_$_NFTrashFolder
+_OBJC_CLASS_$_NFUpdateFolderAction
+_OBJC_CLASS_$_NFUpdateNoteAction
+_OBJC_CLASS_$_NFUserDefaults
+_OBJC_CLASS_$_NotesFramework
+_OBJC_METACLASS_$_NFAccount
+_OBJC_METACLASS_$_NFAosImapAccountProxy
+_OBJC_METACLASS_$_NFAttachment
+_OBJC_METACLASS_$_NFCrossProcessChangeCoordinator
+_OBJC_METACLASS_$_NFEWSAccount
+_OBJC_METACLASS_$_NFEWSAccountProxy
+_OBJC_METACLASS_$_NFEWSFolder
+_OBJC_METACLASS_$_NFEWSFolderProxy
+_OBJC_METACLASS_$_NFEWSNote
+_OBJC_METACLASS_$_NFFolder
+_OBJC_METACLASS_$_NFFolderAction
+_OBJC_METACLASS_$_NFIMAPAccount
+_OBJC_METACLASS_$_NFIMAPAccountProxy
+_OBJC_METACLASS_$_NFIMAPFolder
+_OBJC_METACLASS_$_NFIMAPFolderProxy
+_OBJC_METACLASS_$_NFIMAPNote
+_OBJC_METACLASS_$_NFInsertFolderAction
+_OBJC_METACLASS_$_NFInsertNoteAction
+_OBJC_METACLASS_$_NFLocalAccount
+_OBJC_METACLASS_$_NFLocalToEWSPusher
+_OBJC_METACLASS_$_NFLocalToIMAPPusher
+_OBJC_METACLASS_$_NFLocalToRemotePusher
+_OBJC_METACLASS_$_NFMoveFolderAction
+_OBJC_METACLASS_$_NFMoveNoteAction
+_OBJC_METACLASS_$_NFNote
+_OBJC_METACLASS_$_NFNoteAction
+_OBJC_METACLASS_$_NFNoteBody
+_OBJC_METACLASS_$_NFNotesMigrator
+_OBJC_METACLASS_$_NFNotesMigratorClient
+_OBJC_METACLASS_$_NFOfflineAction
+_OBJC_METACLASS_$_NFOfflineActionManager
+_OBJC_METACLASS_$_NFOfflineCoordinator
+_OBJC_METACLASS_$_NFPersistenceManager
+_OBJC_METACLASS_$_NFTrashFolder
+_OBJC_METACLASS_$_NFUpdateFolderAction
+_OBJC_METACLASS_$_NFUpdateNoteAction
+_OBJC_METACLASS_$_NFUserDefaults
+_OBJC_METACLASS_$_NotesFramework
+_AOSAccountCreate
+_AOSKGetQuotaError
+_AOSTransactionCancel
+_AOSTransactionGetContext
+_AOSTransactionGetError
+_AOSTransactionGetResult
+_AOSTransactionSuccessful
+_CC_SHA1_Final
+_CC_SHA1_Init
+_CC_SHA1_Update
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleGetMainBundle
+_CFBundleGetValueForInfoDictionaryKey
+_CFCopyDescription
+_CFDictionaryCreate
+_CFDictionaryGetValue
+_CFEqual
+_CFErrorGetCode
+_CFErrorGetDomain
+_CFGetTypeID
+_CFRelease
+_CFRetain
+_CFStringCreateWithFormat
+_EWSPropertySetIdNote
+_IAEmailAddressKey
+_MCAccountExternalURL
+_MCAccountInternalURL
+_MCAccountLastUsedAutodiscoverURL
+_MCAuthSchemeAppleToken
+_MCDebugLog
+_MCErrorKeySSLTrust
+_MCHeaderKeyXUniformTypeIdentifier
+_MCMailErrorDomain
+_MCStringKeySSLAlertFormat
+_MCStringKeySSLCertExpired
+_MCStringKeySSLCertNotYetValid
+_MCStringKeySSLCertUntrusted
+_MCStringKeySSLGenericConnectError
+_MCStringKeySSLUnknownRootCert
+_NSCocoaErrorDomain
+_NSDeletedObjectsKey
+_NSDocumentTypeDocumentAttribute
+_NSExcludedElementsDocumentAttribute
+_NSExternalRecordExtensionOption
+_NSExternalRecordsDirectoryOption
+_NSGenericException
+_NSHTMLTextDocumentType
+_NSInferMappingModelAutomaticallyOption
+_NSInsertedObjectsKey
+_NSLocalizedDescriptionKey
+_NSLocalizedRecoverySuggestionErrorKey
+_NSLog
+_NSManagedObjectContextDidSaveNotification
+_NSManagedObjectContextWillSaveNotification
+_NSMergeByPropertyObjectTrumpMergePolicy
+_NSMigratePersistentStoresAutomaticallyOption
+_NSObjectInaccessibleException
+_NSObjectURIKey
+_NSPOSIXErrorDomain
+_NSPersistentStoreForceDestroyOption
+_NSPersistentStoreUnlinkDestroyOption
+_NSReadOnlyPersistentStoreOption
+_NSSQLiteStoreType
+_NSStringFromSelector
+_NSURLAuthenticationMethodHTMLForm
+_NSURLAuthenticationMethodHTTPBasic
+_NSURLAuthenticationMethodHTTPDigest
+_NSURLAuthenticationMethodNTLM
+_NSURLEffectiveIconKey
+_NSURLErrorDomain
+_NSURLErrorFailingURLErrorKey
+_NSURLErrorFailingURLPeerTrustErrorKey
+_NSURLIsDirectoryKey
+_NSUnderlyingErrorKey
+_NSUpdatedObjectsKey
+_OBJC_CLASS_$_ACAccountCredential
+_OBJC_CLASS_$_EAEmailAddressParser
+_OBJC_CLASS_$_EWSBodyType
+_OBJC_CLASS_$_EWSCreateFolderResponseType
+_OBJC_CLASS_$_EWSCreateFolderType
+_OBJC_CLASS_$_EWSCreateItemResponseType
+_OBJC_CLASS_$_EWSCreateItemType
+_OBJC_CLASS_$_EWSDeleteFolderResponseType
+_OBJC_CLASS_$_EWSDeleteFolderType
+_OBJC_CLASS_$_EWSDeleteItemResponseType
+_OBJC_CLASS_$_EWSDeleteItemType
+_OBJC_CLASS_$_EWSDistinguishedFolderIdType
+_OBJC_CLASS_$_EWSExchangeServiceBinding
+_OBJC_CLASS_$_EWSExtendedPropertyType
+_OBJC_CLASS_$_EWSFolderChangeType
+_OBJC_CLASS_$_EWSFolderIdType
+_OBJC_CLASS_$_EWSFolderInfoResponseMessageType
+_OBJC_CLASS_$_EWSFolderResponseShapeType
+_OBJC_CLASS_$_EWSFolderType
+_OBJC_CLASS_$_EWSGetFolderResponseType
+_OBJC_CLASS_$_EWSGetFolderType
+_OBJC_CLASS_$_EWSGetItemResponseType
+_OBJC_CLASS_$_EWSGetItemType
+_OBJC_CLASS_$_EWSItemChangeType
+_OBJC_CLASS_$_EWSItemIdType
+_OBJC_CLASS_$_EWSItemResponseShapeType
+_OBJC_CLASS_$_EWSItemType
+_OBJC_CLASS_$_EWSMoveFolderResponseType
+_OBJC_CLASS_$_EWSMoveFolderType
+_OBJC_CLASS_$_EWSMoveItemResponseType
+_OBJC_CLASS_$_EWSMoveItemType
+_OBJC_CLASS_$_EWSPathToExtendedFieldType
+_OBJC_CLASS_$_EWSPathToUnindexedFieldType
+_OBJC_CLASS_$_EWSSetFolderFieldType
+_OBJC_CLASS_$_EWSSetItemFieldType
+_OBJC_CLASS_$_EWSSyncFolderHierarchyCreateOrUpdateType
+_OBJC_CLASS_$_EWSSyncFolderHierarchyDeleteType
+_OBJC_CLASS_$_EWSSyncFolderHierarchyResponseType
+_OBJC_CLASS_$_EWSSyncFolderHierarchyType
+_OBJC_CLASS_$_EWSSyncFolderItemsCreateOrUpdateType
+_OBJC_CLASS_$_EWSSyncFolderItemsCreateType
+_OBJC_CLASS_$_EWSSyncFolderItemsDeleteType
+_OBJC_CLASS_$_EWSSyncFolderItemsResponseType
+_OBJC_CLASS_$_EWSSyncFolderItemsType
+_OBJC_CLASS_$_EWSTargetFolderIdType
+_OBJC_CLASS_$_EWSUpdateFolderResponseType
+_OBJC_CLASS_$_EWSUpdateFolderType
+_OBJC_CLASS_$_EWSUpdateItemResponseType
+_OBJC_CLASS_$_EWSUpdateItemType
+_OBJC_CLASS_$_IAAccountCollector
+_OBJC_CLASS_$_IMAPAccountProxy
+_OBJC_CLASS_$_IMAPMailboxProxy
+_OBJC_CLASS_$_IMAPMessageDetails
+_OBJC_CLASS_$_MCAccountProxy
+_OBJC_CLASS_$_MCActivityMonitor
+_OBJC_CLASS_$_MCConnection
+_OBJC_CLASS_$_MCEWSAutodiscoverer
+_OBJC_CLASS_$_MCError
+_OBJC_CLASS_$_MCKeychainManager
+_OBJC_CLASS_$_MCMailboxProxy
+_OBJC_CLASS_$_MCMessage
+_OBJC_CLASS_$_MCNetworkController
+_OBJC_CLASS_$_MailCoreFramework
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSEntityDescription
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSExpression
+_OBJC_CLASS_$_NSExpressionDescription
+_OBJC_CLASS_$_NSFetchRequest
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSManagedObject
+_OBJC_CLASS_$_NSManagedObjectContext
+_OBJC_CLASS_$_NSManagedObjectModel
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSPersistentStoreCoordinator
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSSortDescriptor
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLCredential
+_OBJC_CLASS_$_NSURLCredentialStorage
+_OBJC_CLASS_$_NSURLRequest
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_EHTYPE_$_NSException
+_OBJC_EHTYPE_id
+_OBJC_IVAR_$_MCManagedObjectProxy._context
+_OBJC_IVAR_$_MCManagedObjectProxy._managedObject
+_OBJC_METACLASS_$_IMAPAccountProxy
+_OBJC_METACLASS_$_IMAPMailboxProxy
+_OBJC_METACLASS_$_MCAccountProxy
+_OBJC_METACLASS_$_MCMailboxProxy
+_OBJC_METACLASS_$_NSManagedObject
+_OBJC_METACLASS_$_NSObject
+_SecTrustGetCertificateCount
+__AOSAccountRetrieveMailProperties
+__Block_object_assign
+__Block_object_dispose
+__CFPreferencesCopyValueWithContainer
+__CFPreferencesSetValueWithContainer
+__CFPreferencesSynchronizeWithContainer
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_key_description
+__xpc_runtime_is_app_sandboxed
+_audit_session_self
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_exit
+_kAOSErrorDomain
+_kAOSKError1
+_kAOSKErrorInfo
+_kAOSKErrorType
+_kAOSMailAuthTokenKey
+_kAOSMailIMAPHostnameKey
+_kAOSMailPersonIDKey
+_kCFAllocatorDefault
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFBundleNameKey
+_kCFCopyStringDictionaryKeyCallBacks
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kCFTypeDictionaryValueCallBacks
+_kIAICloudPluginID
+_kSecAttrProtocolIMAP
+_mach_port_deallocate
+_mach_task_self_
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getProperty
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_strcmp
+_xpc_connection_create
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_get_bool
+_xpc_dictionary_get_string
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_mach_send
+_xpc_dictionary_set_string
+_xpc_transaction_begin
+_xpc_transaction_end
+dyld_stub_binder

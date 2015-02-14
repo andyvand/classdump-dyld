@@ -1,0 +1,1770 @@
++[SFCompanionManager serviceManager]
+___36+[SFCompanionManager serviceManager]_block_invoke
+-[SFCompanionManager init]
+-[SFCompanionManager dealloc]
+-[SFCompanionManager serviceForIdentifier:]
+-[SFCompanionManager streamDataForIdentifier:]
+-[SFCompanionManager retrieveManagerProxy]
+___42-[SFCompanionManager retrieveManagerProxy]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFCompanionManager signalSemaphore]
+-[SFCompanionManager streamToService:withFileHandle:acceptReply:]
+___65-[SFCompanionManager streamToService:withFileHandle:acceptReply:]_block_invoke
+___copy_helper_block_86
+___destroy_helper_block_87
+-[SFCompanionManager xpcManagerConnectionInterrupted]
+-[SFCompanionManager xpcManagerDidInvalidate:]
+-[SFCompanionManager getStreamsForData:withStreamHandler:]
+___58-[SFCompanionManager getStreamsForData:withStreamHandler:]_block_invoke
+___58-[SFCompanionManager getStreamsForData:withStreamHandler:]_block_invoke_2
+___copy_helper_block_102
+___destroy_helper_block_103
+___copy_helper_block_106
+___destroy_helper_block_107
+-[SFCompanionManager supportStreamsWithIdentifier:withStreamHandler:]
+-[SFCompanionManager disableStreamSupportForIdentifier:]
+-[SFCompanionManager streamsFromFileHandle:withCompletionHandler:]
+-[SFCompanionManager identifier]
+-[SFCompanionManager setIdentifier:]
+-[SFCompanionManager managerProxy]
+-[SFCompanionManager setManagerProxy:]
+-[SFCompanionManager deviceID]
+-[SFCompanionManager setDeviceID:]
+-[SFCompanionManager deviceIP]
+-[SFCompanionManager setDeviceIP:]
+-[SFCompanionManager deviceName]
+-[SFCompanionManager setDeviceName:]
+-[SFCompanionManager services]
+-[SFCompanionManager setServices:]
+-[SFCompanionManager streamHandlers]
+-[SFCompanionManager setStreamHandlers:]
+-[SFCompanionManager managerSemaphore]
+-[SFCompanionManager setManagerSemaphore:]
+-[SFCompanionBrowser initWithServiceType:]
+-[SFCompanionBrowser initWithServiceTypes:]
+-[SFCompanionBrowser _initWithServiceTypes:]
+-[SFCompanionBrowser dealloc]
+-[SFCompanionBrowser startBrowsing]
+-[SFCompanionBrowser start]
+-[SFCompanionBrowser stopBrowsing]
+-[SFCompanionBrowser stop]
+-[SFCompanionBrowser clearCache]
+-[SFCompanionBrowser serviceType]
+-[SFCompanionBrowser serviceTypes]
+-[SFCompanionBrowser serviceNames]
+-[SFCompanionBrowser handleNewActivities:forDevice:]
+___52-[SFCompanionBrowser handleNewActivities:forDevice:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFCompanionBrowser handleNoDevices]
+-[SFCompanionBrowser handleBrowserCallback]
+-[SFCompanionBrowser startBluetooth]
+___36-[SFCompanionBrowser startBluetooth]_block_invoke
+___36-[SFCompanionBrowser startBluetooth]_block_invoke_2
+___copy_helper_block_110
+___destroy_helper_block_111
+___copy_helper_block_119
+___destroy_helper_block_120
+-[SFCompanionBrowser stopBluetooth]
+-[SFCompanionBrowser receivedActivitiesList:fromDeviceWithIdentifier:]
+-[SFCompanionBrowser xpcManagerConnectionInterrupted]
+-[SFCompanionBrowser delegate]
+-[SFCompanionBrowser setDelegate:]
+-[SFCompanionBrowser foundDevices]
+-[SFCompanionBrowser setFoundDevices:]
+-[SFCompanionBrowser identifier]
+-[SFCompanionBrowser setIdentifier:]
+-[SFCompanionBrowser connectionProxy]
+-[SFCompanionBrowser setConnectionProxy:]
+-[SFCompanionConnection initWithService:]
+-[SFCompanionConnection setupWorkQueue]
+-[SFCompanionConnection dealloc]
+-[SFCompanionConnection resume]
+-[SFCompanionConnection connect]
+___32-[SFCompanionConnection connect]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFCompanionConnection onqueue_resume]
+___39-[SFCompanionConnection onqueue_resume]_block_invoke
+___39-[SFCompanionConnection onqueue_resume]_block_invoke_2
+___copy_helper_block_27
+___destroy_helper_block_28
+___copy_helper_block_31
+___destroy_helper_block_32
+-[SFCompanionConnection onqueue_proxyHandler:]
+___46-[SFCompanionConnection onqueue_proxyHandler:]_block_invoke
+___46-[SFCompanionConnection onqueue_proxyHandler:]_block_invoke_2
+___copy_helper_block_52
+___destroy_helper_block_53
+___copy_helper_block_56
+___destroy_helper_block_57
+___46-[SFCompanionConnection onqueue_proxyHandler:]_block_invoke63
+___46-[SFCompanionConnection onqueue_proxyHandler:]_block_invoke_264
+___copy_helper_block_65
+___destroy_helper_block_66
+___copy_helper_block_69
+___destroy_helper_block_70
+-[SFCompanionConnection onqueue_setupUserConnection:]
+___53-[SFCompanionConnection onqueue_setupUserConnection:]_block_invoke
+___copy_helper_block_135
+___destroy_helper_block_136
+___53-[SFCompanionConnection onqueue_setupUserConnection:]_block_invoke141
+___53-[SFCompanionConnection onqueue_setupUserConnection:]_block_invoke_2
+___copy_helper_block_146
+___destroy_helper_block_147
+___copy_helper_block_150
+___destroy_helper_block_151
+___53-[SFCompanionConnection onqueue_setupUserConnection:]_block_invoke160
+___53-[SFCompanionConnection onqueue_setupUserConnection:]_block_invoke_2161
+___copy_helper_block_162
+___destroy_helper_block_163
+___copy_helper_block_166
+___destroy_helper_block_167
+-[SFCompanionConnection onqueue_openXPCConnection]
+___50-[SFCompanionConnection onqueue_openXPCConnection]_block_invoke
+-[SFCompanionConnection invalidate]
+___35-[SFCompanionConnection invalidate]_block_invoke
+___copy_helper_block_184
+___destroy_helper_block_185
+-[SFCompanionConnection onqueue_userInvalidated]
+-[SFCompanionConnection onqueue_invalidate]
+-[SFCompanionConnection invalidationCallback]
+___45-[SFCompanionConnection invalidationCallback]_block_invoke
+___copy_helper_block_200
+___destroy_helper_block_201
+-[SFCompanionConnection remoteObjectProxy]
+-[SFCompanionConnection remoteObjectProxyWithErrorHandler:]
+-[SFCompanionConnection connectionResumed]
+___42-[SFCompanionConnection connectionResumed]_block_invoke
+___42-[SFCompanionConnection connectionResumed]_block_invoke_2
+___copy_helper_block_210
+___destroy_helper_block_211
+___copy_helper_block_214
+___destroy_helper_block_215
+-[SFCompanionConnection xpcManagerConnectionInterrupted]
+___56-[SFCompanionConnection xpcManagerConnectionInterrupted]_block_invoke
+___copy_helper_block_218
+___destroy_helper_block_219
+-[SFCompanionConnection initWithConnectionID:]
+-[SFCompanionConnection initWithDevice:serviceType:delegate:]
+-[SFCompanionConnection initWithDevice:connectionID:serviceType:delegate:]
+-[SFCompanionConnection suspend]
+-[SFCompanionConnection sendData:withErrorHandler:]
+-[SFCompanionConnection sendData:withReply:]
+-[SFCompanionConnection delegate]
+-[SFCompanionConnection setDelegate:]
+-[SFCompanionConnection status]
+-[SFCompanionConnection setStatus:]
+-[SFCompanionConnection service]
+-[SFCompanionConnection setService:]
+-[SFCompanionConnection exportedInterface]
+-[SFCompanionConnection setExportedInterface:]
+-[SFCompanionConnection exportedObject]
+-[SFCompanionConnection setExportedObject:]
+-[SFCompanionConnection remoteObjectInterface]
+-[SFCompanionConnection setRemoteObjectInterface:]
+-[SFCompanionConnection connectedDevice]
+-[SFCompanionConnection setConnectedDevice:]
+-[SFCompanionConnection waitForAccept]
+-[SFCompanionConnection setWaitForAccept:]
+-[SFCompanionConnection connectionID]
+-[SFCompanionConnection workQueue]
+-[SFCompanionConnection setWorkQueue:]
+-[SFCompanionConnection invalid]
+-[SFCompanionConnection setInvalid:]
+-[SFCompanionConnection userConnection]
+-[SFCompanionConnection setUserConnection:]
+-[SFCompanionConnection connectionProxy]
+-[SFCompanionConnection setConnectionProxy:]
+-[SFCompanionDevice init]
+-[SFCompanionDevice dealloc]
+-[SFCompanionDevice name]
+-[SFCompanionDevice identifier]
+-[SFCompanionDevice services]
+-[SFCompanionDevice model]
+-[SFCompanionDevice icon]
+-[SFCompanionDevice distance]
+-[SFCompanionDevice node]
+-[SFCompanionDevice setNode:]
+-[SFCompanionDevice setName:]
+-[SFCompanionDevice type]
+-[SFCompanionDevice setType:]
+-[SFCompanionDevice setIdentifier:]
+-[SFCompanionDevice setServices:]
+-[SFCompanionDevice serviceName]
+-[SFCompanionDevice setServiceName:]
+-[SFCompanionDevice connections]
+-[SFCompanionDevice setConnections:]
+-[SFCompanionDevice activities]
+-[SFCompanionDevice setActivities:]
+-[SFCompanionDevice uniqueIdentifier]
+-[SFCompanionDevice setUniqueIdentifier:]
+-[SFRemoteHotspotSession init]
+-[SFRemoteHotspotSession startBrowsing]
+___39-[SFRemoteHotspotSession startBrowsing]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFRemoteHotspotSession stopBrowsing]
+-[SFRemoteHotspotSession enableHotspotForDevice:withCompletionHandler:]
+___71-[SFRemoteHotspotSession enableHotspotForDevice:withCompletionHandler:]_block_invoke
+___copy_helper_block_26
+___destroy_helper_block_27
+-[SFRemoteHotspotSession enableRemoteHotspotForDevice:withCompletionHandler:]
+___77-[SFRemoteHotspotSession enableRemoteHotspotForDevice:withCompletionHandler:]_block_invoke
+___copy_helper_block_33
+___destroy_helper_block_34
+-[SFRemoteHotspotSession updatedFoundDeviceList:]
+-[SFRemoteHotspotSession xpcManagerConnectionInterrupted]
+-[SFRemoteHotspotSession delegate]
+-[SFRemoteHotspotSession setDelegate:]
+-[SFRemoteHotspotSession browsing]
+-[SFRemoteHotspotSession setBrowsing:]
+-[SFRemoteHotspotSession connectionProxy]
+-[SFRemoteHotspotSession setConnectionProxy:]
++[SFCompanionService serviceFromDictionary:]
++[SFCompanionService serviceFromAuthorData:]
+-[SFCompanionService initWithServiceName:]
+-[SFCompanionService dealloc]
+-[SFCompanionService messageData]
+-[SFCompanionService initWithCoder:]
+-[SFCompanionService encodeWithCoder:]
++[SFCompanionService supportsSecureCoding]
+-[SFCompanionService copyWithZone:]
+-[SFCompanionService isEqual:]
+-[SFCompanionService isEqualToService:]
+-[SFCompanionService hash]
+-[SFCompanionService description]
+-[SFCompanionService deviceName]
+-[SFCompanionService setDeviceName:]
+-[SFCompanionService deviceID]
+-[SFCompanionService setDeviceID:]
+-[SFCompanionService serviceType]
+-[SFCompanionService setServiceType:]
+-[SFCompanionService managerID]
+-[SFCompanionService setManagerID:]
+-[SFCompanionService ipAddress]
+-[SFCompanionService setIpAddress:]
+-[SFCompanionService identifier]
+-[SFCompanionService setIdentifier:]
+-[SFCompanionService nsxpcVersion]
+-[SFCompanionService setNsxpcVersion:]
++[SFCompanionXPCManager initialize]
+___35+[SFCompanionXPCManager initialize]_block_invoke
++[SFCompanionXPCManager xpcManagerInterface]
++[SFCompanionXPCManager serviceManagerClientInterface]
++[SFCompanionXPCManager serviceManagerInterface]
++[SFCompanionXPCManager connectionManagerClientInterface]
++[SFCompanionXPCManager connectionManagerInterface]
++[SFCompanionXPCManager browserClientInterface]
++[SFCompanionXPCManager browserInterface]
++[SFCompanionXPCManager advertiserClientInterface]
++[SFCompanionXPCManager advertiserInterface]
++[SFCompanionXPCManager scannerClientInterface]
++[SFCompanionXPCManager scannerInterface]
++[SFCompanionXPCManager unlockInterface]
++[SFCompanionXPCManager hotspotClientInterface]
++[SFCompanionXPCManager hotspotInterface]
++[SFCompanionXPCManager sharedManager]
+___38+[SFCompanionXPCManager sharedManager]_block_invoke
+-[SFCompanionXPCManager init]
+-[SFCompanionXPCManager dealloc]
+-[SFCompanionXPCManager setupConnection]
+___40-[SFCompanionXPCManager setupConnection]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___40-[SFCompanionXPCManager setupConnection]_block_invoke191
+___copy_helper_block_200
+___destroy_helper_block_201
+-[SFCompanionXPCManager notifyObservers]
+-[SFCompanionXPCManager notifyOfResume]
+-[SFCompanionXPCManager notifyOfInvalidation]
+-[SFCompanionXPCManager registerObserver:]
+-[SFCompanionXPCManager unregisterObserver:]
+-[SFCompanionXPCManager companionBrowserProxyforIdentifier:serviceType:client:withCompletionHandler:]
+___101-[SFCompanionXPCManager companionBrowserProxyforIdentifier:serviceType:client:withCompletionHandler:]_block_invoke
+___copy_helper_block_229
+___destroy_helper_block_230
+___101-[SFCompanionXPCManager companionBrowserProxyforIdentifier:serviceType:client:withCompletionHandler:]_block_invoke236
+___copy_helper_block_237
+___destroy_helper_block_238
+-[SFCompanionXPCManager serviceManagerProxyForIdentifier:client:withCompletionHandler:]
+___87-[SFCompanionXPCManager serviceManagerProxyForIdentifier:client:withCompletionHandler:]_block_invoke
+___copy_helper_block_244
+___destroy_helper_block_245
+___87-[SFCompanionXPCManager serviceManagerProxyForIdentifier:client:withCompletionHandler:]_block_invoke248
+___copy_helper_block_249
+___destroy_helper_block_250
+-[SFCompanionXPCManager companionConnectionProxyForService:client:withCompletionHandler:]
+___89-[SFCompanionXPCManager companionConnectionProxyForService:client:withCompletionHandler:]_block_invoke
+___copy_helper_block_256
+___destroy_helper_block_257
+___89-[SFCompanionXPCManager companionConnectionProxyForService:client:withCompletionHandler:]_block_invoke260
+___copy_helper_block_261
+___destroy_helper_block_262
+-[SFCompanionXPCManager streamsForMessage:withCompletionHandler:]
+___65-[SFCompanionXPCManager streamsForMessage:withCompletionHandler:]_block_invoke
+___copy_helper_block_268
+___destroy_helper_block_269
+___65-[SFCompanionXPCManager streamsForMessage:withCompletionHandler:]_block_invoke272
+___copy_helper_block_273
+___destroy_helper_block_274
+-[SFCompanionXPCManager activityAdvertiserProxyForClient:withCompletionHandler:]
+___80-[SFCompanionXPCManager activityAdvertiserProxyForClient:withCompletionHandler:]_block_invoke
+___copy_helper_block_285
+___destroy_helper_block_286
+___80-[SFCompanionXPCManager activityAdvertiserProxyForClient:withCompletionHandler:]_block_invoke289
+___copy_helper_block_290
+___destroy_helper_block_291
+-[SFCompanionXPCManager continuityScannerProxyForClient:withCompletionHandler:]
+___79-[SFCompanionXPCManager continuityScannerProxyForClient:withCompletionHandler:]_block_invoke
+___copy_helper_block_295
+___destroy_helper_block_296
+___79-[SFCompanionXPCManager continuityScannerProxyForClient:withCompletionHandler:]_block_invoke299
+___copy_helper_block_300
+___destroy_helper_block_301
+-[SFCompanionXPCManager unlockManagerWithCompletionHandler:]
+___60-[SFCompanionXPCManager unlockManagerWithCompletionHandler:]_block_invoke
+___copy_helper_block_305
+___destroy_helper_block_306
+___60-[SFCompanionXPCManager unlockManagerWithCompletionHandler:]_block_invoke309
+___copy_helper_block_310
+___destroy_helper_block_311
+-[SFCompanionXPCManager remoteHotspotSessionForClient:withCompletionHandler:]
+___77-[SFCompanionXPCManager remoteHotspotSessionForClient:withCompletionHandler:]_block_invoke
+___copy_helper_block_315
+___destroy_helper_block_316
+___77-[SFCompanionXPCManager remoteHotspotSessionForClient:withCompletionHandler:]_block_invoke319
+___copy_helper_block_320
+___destroy_helper_block_321
+-[SFCompanionXPCManager isInvalid]
+-[SFCompanionXPCManager setInvalid:]
+-[SFCompanionXPCManager interrupted]
+-[SFCompanionXPCManager setInterrupted:]
+-[SFCompanionXPCManager connection]
+-[SFCompanionXPCManager setConnection:]
+-[SFCompanionXPCManager observers]
+-[SFCompanionXPCManager setObservers:]
++[NSProgress(SFAirDropTransferProgressAdditions) sf_publishingKeyForApp:sessionID:]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_initWithAppBundle:sessionID:andPersonRealName:]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_publishingKey]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_bundleID]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_sessionID]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_personRealName]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_initWithFileURL:]
++[NSProgress(SFAirDropTransferProgressAdditions) sf_transferStateAsString:]
+-[NSProgress(SFAirDropTransferProgressAdditions) setSf_transferState:]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_transferState]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_failedWithError:]
+-[NSProgress(SFAirDropTransferProgressAdditions) sf_error]
+-[SFAirDropDiscoveryController init]
+_operationCallBack
+-[SFAirDropDiscoveryController handleOperationCallback:event:withResults:]
+-[SFAirDropDiscoveryController isVisible]
+-[SFAirDropDiscoveryController isLegacyDevice]
+-[SFAirDropDiscoveryController isLegacyModeEnabled]
+-[SFAirDropDiscoveryController setLegacyModeEnabled:]
+-[SFAirDropDiscoveryController isLegacyModeSettable]
+-[SFAirDropDiscoveryController dealloc]
+-[SFAirDropDiscoveryController setDiscoverableMode:]
+-[SFAirDropDiscoveryController discoverableMode]
+-[SFAirDropDiscoveryController operationDiscoverableModeToInteger:]
+-[SFAirDropDiscoveryController discoverableModeToString:]
+-[SFAirDropDiscoveryController delegate]
+-[SFAirDropDiscoveryController setDelegate:]
+-[SFWirelessSettingsController init]
+_operationCallBack
+-[SFWirelessSettingsController handleOperationCallback:event:withResults:]
+___74-[SFWirelessSettingsController handleOperationCallback:event:withResults:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFWirelessSettingsController setWifiEnabled:]
+-[SFWirelessSettingsController isWifiEnabled]
+-[SFWirelessSettingsController setBluetoothEnabled:]
+-[SFWirelessSettingsController isBluetoothEnabled]
+-[SFWirelessSettingsController repairAppleID]
+-[SFWirelessSettingsController deviceSupportsWAPI]
+-[SFWirelessSettingsController dealloc]
+-[SFWirelessSettingsController delegate]
+-[SFWirelessSettingsController setDelegate:]
+-[SFCompanionAdvertiser initWithServiceType:]
+-[SFCompanionAdvertiser dealloc]
+-[SFCompanionAdvertiser serviceEndpointData]
+-[SFCompanionAdvertiser getContinuationStreamsWithEndpointData:completionHandler:]
+___82-[SFCompanionAdvertiser getContinuationStreamsWithEndpointData:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFCompanionAdvertiser start]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___30-[SFCompanionAdvertiser start]_block_invoke
+___copy_helper_block_20
+___destroy_helper_block_21
+-[SFCompanionAdvertiser stop]
+-[SFCompanionAdvertiser delegate]
+-[SFCompanionAdvertiser setDelegate:]
+-[SFCompanionAdvertiser supportsStreams]
+-[SFCompanionAdvertiser setSupportsStreams:]
+-[SFCompanionAdvertiser serviceType]
+___SFBrowserGetTypeID_block_invoke
+__SFBrowserCreateConnection
+___SFBrowserInvalidate_block_invoke
+____SFBrowserCreateConnection_block_invoke
+__SFBrowserCreateChildrenFromXPCNodes
+__SFBrowserUpdateCachedChildrenNodes
+____SFBrowserNotifyClient_block_invoke
+__SFBrowserCallBack
+____SFBrowserNotifyClient_block_invoke_2
+__SFBrowserFinalize
+__SFBrowserEqual
+__SFBrowserHash
+__SFBrowserCopyDebugDesc
+____SFBrowserFinalize_block_invoke
+-[SFInternalAdvertisement initWithAdvertisementPayload:options:]
+-[SFInternalAdvertisement description]
+-[SFInternalAdvertisement dealloc]
+-[SFInternalAdvertisement advertisementPayload]
+-[SFInternalAdvertisement setAdvertisementPayload:]
+-[SFInternalAdvertisement options]
+-[SFInternalAdvertisement setOptions:]
++[SFActivityAdvertiser sharedAdvertiser]
+___40+[SFActivityAdvertiser sharedAdvertiser]_block_invoke
+-[SFActivityAdvertiser init]
+-[SFActivityAdvertiser dealloc]
+-[SFActivityAdvertiser setupXPCConnection]
+___42-[SFActivityAdvertiser setupXPCConnection]_block_invoke
+___42-[SFActivityAdvertiser setupXPCConnection]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_68
+___destroy_helper_block_69
+-[SFActivityAdvertiser xpcManagerConnectionInterrupted]
+-[SFActivityAdvertiser advertiseAdvertisementPayload:options:]
+___62-[SFActivityAdvertiser advertiseAdvertisementPayload:options:]_block_invoke
+___copy_helper_block_81
+___destroy_helper_block_82
+-[SFActivityAdvertiser activityPayloadForAdvertisementPayload:requestedByDeviceIdentifier:withCompletionHandler:]
+___113-[SFActivityAdvertiser activityPayloadForAdvertisementPayload:requestedByDeviceIdentifier:withCompletionHandler:]_block_invoke
+___113-[SFActivityAdvertiser activityPayloadForAdvertisementPayload:requestedByDeviceIdentifier:withCompletionHandler:]_block_invoke_2
+___copy_helper_block_99
+___destroy_helper_block_100
+___copy_helper_block_110
+___destroy_helper_block_111
+-[SFActivityAdvertiser didSendPayloadForActivityIdentifier:toDeviceIdentifier:error:]
+___85-[SFActivityAdvertiser didSendPayloadForActivityIdentifier:toDeviceIdentifier:error:]_block_invoke
+___copy_helper_block_120
+___destroy_helper_block_121
+-[SFActivityAdvertiser delegate]
+-[SFActivityAdvertiser setDelegate:]
+-[SFActivityAdvertiser connectionProxy]
+-[SFActivityAdvertiser setConnectionProxy:]
+-[SFActivityAdvertiser currentAdvertisement]
+-[SFActivityAdvertiser setCurrentAdvertisement:]
+-[SFActivityAdvertisement initWithAdvertisementPayload:options:deviceName:deviceModelIdentifier:fromDeviceID:]
+-[SFActivityAdvertisement dealloc]
+-[SFActivityAdvertisement debugDescription]
+-[SFActivityAdvertisement initWithCoder:]
+-[SFActivityAdvertisement encodeWithCoder:]
++[SFActivityAdvertisement supportsSecureCoding]
+-[SFActivityAdvertisement advertisementPayload]
+-[SFActivityAdvertisement options]
+-[SFActivityAdvertisement deviceIdentifier]
+-[SFActivityAdvertisement deviceName]
+-[SFActivityAdvertisement deviceModelIdentifier]
+-[SFActivityAdvertisement activityPayload]
+-[SFActivityAdvertisement setActivityPayload:]
++[SFCompanionInterface interfaceWithProtocol:]
+-[SFCompanionInterface initWithNSXPCInterface:]
+-[SFCompanionInterface dealloc]
+-[SFCompanionInterface protocol]
+-[SFCompanionInterface setProtocol:]
+-[SFCompanionInterface setClasses:forSelector:argumentIndex:ofReply:]
+-[SFCompanionInterface classesForSelector:argumentIndex:ofReply:]
+-[SFCompanionInterface setInterface:forSelector:argumentIndex:ofReply:]
+-[SFCompanionInterface interfaceForSelector:argumentIndex:ofReply:]
+-[SFCompanionInterface interface]
+-[SFCompanionInterface setInterface:]
+-[SFRemoteHotspotInfo initWithName:password:channel:]
+-[SFRemoteHotspotInfo dealloc]
+-[SFRemoteHotspotInfo initWithCoder:]
+-[SFRemoteHotspotInfo encodeWithCoder:]
++[SFRemoteHotspotInfo supportsSecureCoding]
+-[SFRemoteHotspotInfo name]
+-[SFRemoteHotspotInfo setName:]
+-[SFRemoteHotspotInfo password]
+-[SFRemoteHotspotInfo setPassword:]
+-[SFRemoteHotspotInfo channel]
+-[SFRemoteHotspotInfo setChannel:]
+___SFNodeGetTypeID_block_invoke
+__ZL31xpcDictionaryCopyCFStringForKeyPvPKc
+__ZL31xpcDictionaryCopyCFNumberForKeyPvPKc
+__ZL28xpcDictionaryCopyCFURLForKeyPvPKc
+__ZL30xpcDictionaryCopyCFArrayForKeyPvPKc
+__ZL29setValueForKeyInXPCDictionaryPvPKcPKv
+__ZL22_SFNodeResolveCallBackP11NetworkNodePK10__CFStringm11SFNodeErrorPv
+__ZL20_SFNodeEjectCallBackP11NetworkNodePK10__CFStringm11SFNodeErrorPv
+__ZL39setSupportedCFTypeForKeyInXPCDictionaryPvPKcPKv
+__ZL11_SFNodeCopyPK13__CFAllocatorPKv
+__ZL15_SFNodeFinalizeP8__SFNode
+__ZL12_SFNodeEqualP8__SFNodeS0_
+__ZL11_SFNodeHashP8__SFNode
+__ZL20_SFNodeCopyDebugDescP8__SFNode
++[SFContinuityScanManager sharedManager]
+___40+[SFContinuityScanManager sharedManager]_block_invoke
+-[SFContinuityScanManager init]
+-[SFContinuityScanManager dealloc]
+-[SFContinuityScanManager setupXPCConnection]
+___45-[SFContinuityScanManager setupXPCConnection]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SFContinuityScanManager addObserver:]
+-[SFContinuityScanManager removeObserver:]
+-[SFContinuityScanManager activityPayloadFromDeviceIdentifier:forAdvertisementPayload:withCompletionHandler:]
+-[SFContinuityScanManager receivedAdvertisement:]
+-[SFContinuityScanManager foundDeviceWithDeviceIdentifier:]
+-[SFContinuityScanManager lostDeviceWithDeviceIdentifier:]
+-[SFContinuityScanManager xpcManagerConnectionInterrupted]
+-[SFContinuityScanManager connectionProxy]
+-[SFContinuityScanManager setConnectionProxy:]
+-[SFContinuityScanManager queuedIdentifers]
+-[SFContinuityScanManager setQueuedIdentifers:]
+-[SFContinuityScanManager observers]
+-[SFContinuityScanManager setObservers:]
+-[SFActivityScanner init]
+-[SFActivityScanner dealloc]
+-[SFActivityScanner delegate]
+-[SFActivityScanner setDelegate:]
+-[SFActivityScanner start]
+-[SFActivityScanner stop]
+-[SFActivityScanner activityPayloadFromDeviceIdentifier:forAdvertisementPayload:withCompletionHandler:]
+___103-[SFActivityScanner activityPayloadFromDeviceIdentifier:forAdvertisementPayload:withCompletionHandler:]_block_invoke
+___103-[SFActivityScanner activityPayloadFromDeviceIdentifier:forAdvertisementPayload:withCompletionHandler:]_block_invoke_2
+___copy_helper_block_159
+___destroy_helper_block_160
+___copy_helper_block_163
+___destroy_helper_block_164
+-[SFActivityScanner scanManager:receivedAdvertisement:]
+___55-[SFActivityScanner scanManager:receivedAdvertisement:]_block_invoke
+___copy_helper_block_169
+___destroy_helper_block_170
+-[SFActivityScanner scanManager:foundDeviceWithDeviceIdentifier:]
+___65-[SFActivityScanner scanManager:foundDeviceWithDeviceIdentifier:]_block_invoke
+___copy_helper_block_174
+___destroy_helper_block_175
+-[SFActivityScanner scanManager:lostDeviceWithDeviceIdentifier:]
+___64-[SFActivityScanner scanManager:lostDeviceWithDeviceIdentifier:]_block_invoke
+___copy_helper_block_179
+___destroy_helper_block_180
+-[SFActivityScanner receiving]
+-[SFActivityScanner setReceiving:]
+-[SFActivityScanner identifier]
+-[SFActivityScanner setIdentifier:]
+____SFOperationCreateResultsFromXPCObject_block_invoke
+__SFOperationCreateInternal
+___SFOperationGetTypeID_block_invoke
+__SFOperationLog
+_removeDummyRunLoopSource
+___SFOperationCancel_block_invoke
+_dummyCallBack
+__SFOperationFinalize
+__SFOperationEqual
+__SFOperationHash
+__SFOperationCopyDebugDesc
+____SFOperationFinalize_block_invoke
+__SFOperationCreateConnection
+____SFOperationCreateConnection_block_invoke
+__SFOperationNotifyClient
+____SFOperationNotifyClient_block_invoke
+__SFOperationCallBack
+____SFOperationNotifyClient_block_invoke_2
+____SFOperationNotifyClient_block_invoke_3
+__ZN11NetworkNodeC2EPK10__CFStringS2_
+__ZN11NetworkNodeC1EPK10__CFStringS2_
+__ZN11NetworkNodeD2Ev
+__ZN11NetworkNode6cancelEv
+__ZN11NetworkNodeD1Ev
+__ZN11NetworkNode10clearCacheEv
+__ZN11NetworkNode14setDisplayNameEPK10__CFString
+__ZN11NetworkNode11setRealNameEPK10__CFString
+__ZN11NetworkNode8setModelEPK10__CFString
+__ZN11NetworkNode8setColorEPK9__CFArray
+__ZN11NetworkNode19setParentIdentifierEPK10__CFString
+__ZN11NetworkNode11setDiskTypeEPK10__CFString
+__ZN11NetworkNode14setServiceNameEPK10__CFString
+__ZN11NetworkNode14setNetbiosNameEPK10__CFString
+__ZN11NetworkNode19setBonjourProtocolsEPK7__CFBag
+__ZN11NetworkNode8setKindsEPK7__CFSet
+__ZN11NetworkNode16setSecondaryNameEPK10__CFString
+__ZN11NetworkNode11setHostNameEPK10__CFString
+__ZN11NetworkNode15setComputerNameEPK10__CFString
+__ZN11NetworkNode9setDomainEPK10__CFString
+__ZN11NetworkNode10setDomainsEPK7__CFSet
+__ZN11NetworkNode12setWorkgroupEPK10__CFString
+__ZN11NetworkNode13setWorkgroupsEPK7__CFSet
+__ZN11NetworkNode7setPathEPK10__CFString
+__ZN11NetworkNode13setMountPointEPK7__CFURL
+__ZN11NetworkNode18setConnectionStateE21SFNodeConnectionState
+__ZN11NetworkNode10setSFLItemEP29OpaqueLSSharedFileListItemRef
+__ZN11NetworkNode13setPortNumberEi
+__ZN11NetworkNode15setAccessRightsEPK10__CFNumber
+__ZN11NetworkNode6setURLEPK7__CFURL
+__ZN11NetworkNode7setURLsEPK14__CFDictionary
+__ZN11NetworkNode11setUserNameEPK10__CFString
+__ZN11NetworkNode11setPasswordEPK10__CFString
+__ZN11NetworkNode8setFlagsEPK10__CFNumber
+__ZN11NetworkNode17setSupportedMediaEm
+__ZN11NetworkNode20setSharePointBrowserEy
+__ZN11NetworkNode11setIconDataEPK8__CFData
+__ZN11NetworkNode12setEmailHashEPK10__CFString
+__ZN11NetworkNode12setPhoneHashEPK10__CFString
+__ZN11NetworkNode11setIconHashEPK10__CFString
+__ZN11NetworkNode12setFirstNameEPK10__CFString
+__ZN11NetworkNode11setLastNameEPK10__CFString
+__ZN11NetworkNode10setAppleIDEPK10__CFString
+__ZN11NetworkNode18addBonjourProtocolEPK10__CFString
+__ZN11NetworkNode21removeBonjourProtocolEPK10__CFString
+__ZN11NetworkNode7addKindEPK10__CFString
+__ZN11NetworkNode10removeKindEPK10__CFString
+__ZN11NetworkNode9addDomainEPK10__CFString
+__ZN11NetworkNode12removeDomainEPK10__CFString
+__ZN11NetworkNode12addWorkgroupEPK10__CFString
+__ZN11NetworkNode15removeWorkgroupEPK10__CFString
+__ZN11NetworkNode22handleResolverCallBackEP13__SFOperationlPK14__CFDictionary
+__ZN11NetworkNode13cancelResolveEv
+__ZN11NetworkNode21handleEjecterCallBackEP13__SFOperationlPK14__CFDictionary
+__ZN11NetworkNode11cancelEjectEv
+__ZN11NetworkNode7resolveEPK10__CFStringmP11__CFRunLoopS2_PFvPS_S2_m11SFNodeErrorPvES7_
+__ZN11NetworkNode5ejectEPK10__CFStringmP11__CFRunLoopS2_PFvPS_S2_m11SFNodeErrorPvES7_
+__ZN11NetworkNode6isRootEv
+__ZN11NetworkNode14isNeighborhoodEv
+__ZN11NetworkNode8isServerEv
+__ZN11NetworkNode12isSharePointEv
+__ZN11NetworkNode11isContainerEv
+__ZN11NetworkNode9isMountedEv
+__ZN11NetworkNode9isDropBoxEv
+__ZN11NetworkNode11isRemovableEv
+__ZN11NetworkNode13isAirPortDiskEv
+__ZN11NetworkNode8isAutoFSEv
+__ZN11NetworkNode19supportsFileSharingEv
+__ZN11NetworkNode12getProtocolsEv
+__ZN11NetworkNode21supportsScreenSharingEv
+__ZN11NetworkNode16supportsAskToUseEv
+__ZN11NetworkNode14supportsPassesEv
+__ZN11NetworkNode18supportsMixedTypesEv
+__ZN11NetworkNode13canAcceptDropEv
+__ZN11NetworkNode13sortProtocolsEPKvS1_Pv
+__ZN11NetworkNode23preferSMB2WhenAvailableEv
+__ZN11NetworkNode15getVolumeRefNumEv
+__ZN11NetworkNode35getRedGreenBlueValuesFromColorArrayEPK9__CFArrayPh
+__ZN11NetworkNode15loadCurrentInfoEv
+__ZN11NetworkNode13getKindStringEv
+__ZN11NetworkNode17getTypeIdentifierEv
+__ZN11NetworkNode11getPriorityEv
+__ZN11NetworkNode15copyDisplayNameEv
+__ZN11NetworkNode12copyRealNameEv
+__ZN11NetworkNode9copyModelEv
+__ZN11NetworkNode9copyColorEv
+__ZN11NetworkNode20copyParentIdentifierEv
+__ZN11NetworkNode12copyDiskTypeEv
+__ZN11NetworkNode15copyServiceNameEv
+__ZN11NetworkNode15copyNetbiosNameEv
+__ZN11NetworkNode12copyHostNameEv
+__ZN11NetworkNode16copyComputerNameEv
+__ZN11NetworkNode17copySecondaryNameEv
+__ZN11NetworkNode10copyDomainEv
+__ZN11NetworkNode11copyDomainsEv
+__ZN11NetworkNode13copyWorkgroupEv
+__ZN11NetworkNode14copyWorkgroupsEv
+__ZN11NetworkNode20copyBonjourProtocolsEv
+__ZN11NetworkNode9copyKindsEv
+__ZN11NetworkNode8copyPathEv
+__ZN11NetworkNode16copyAccessRightsEv
+__ZN11NetworkNode7copyURLEv
+__ZN11NetworkNode8copyURLsEv
+__ZN11NetworkNode18copyURLForProtocolEPK10__CFString
+__ZN11NetworkNode12copyUserNameEv
+__ZN11NetworkNode12copyPasswordEv
+__ZN11NetworkNode9copyFlagsEv
+__ZN11NetworkNode11copySFLItemEv
+__ZN11NetworkNode14copyMountPointEv
+__ZN11NetworkNode14copyKindStringEv
+__ZN11NetworkNode18copyTypeIdentifierEv
+__ZN11NetworkNode13copyProtocolsEv
+__ZN11NetworkNode12copyIconDataEv
+__ZN11NetworkNode13copyEmailHashEv
+__ZN11NetworkNode13copyPhoneHashEv
+__ZN11NetworkNode12copyIconHashEv
+__ZN11NetworkNode13copyFirstNameEv
+__ZN11NetworkNode12copyLastNameEv
+__ZN11NetworkNode11copyAppleIDEv
+___clang_call_terminate
+__ZN11NetworkNode25resolverOperationCallBackEP13__SFOperationlPK14__CFDictionaryPv
+__ZN11NetworkNode24ejecterOperationCallBackEP13__SFOperationlPK14__CFDictionaryPv
+_isTargetiOS
+_getSharingFrameworkBundle
+___getSharingFrameworkBundle_block_invoke
+_copyLocalizedStringForKey
+_createMutableSetFromBag
+_copyValuesFromSet
+_createBagFromArray
+_createSetFromArray
+_createSFNodeKindsFromXPCArray
+_createXPCArrayFromSFNodeKinds
+_copyKeysFromDictionary
+_copyValuesFromDictionary
+_setOrRemoveValue
+_copyBundleIdentifierForPID
+_defaultPortForProtocol
+_getVolumeRefNumForURL
+_logError
+_createURL
+_isWormholeProtocol
+_disableAirDropTLS
+_openDefaultInterface
+_deviceSupportsAWDL
+___deviceSupportsAWDL_block_invoke
+_createCGImageWithURL
+_createCGImageWithData
+_createCGImageWithDataInternal
+_createCGImageWithJPEG2000Data
+_createCGImageWithDataOrURL
+_copyImageData
+_createImageDataWithSize
+_browseAllInterfacesEnabled
+_booleanValueForPreference
+_forceOldMode
+_enableSimulator
+_directIPEnabled
+_debugLoggingEnabled
+_valuesChanged
+_copySharingPrefValue
+_longValueForPreference
+_copyCurrentTime
+_logMessageAndRelease
+_syslogCFString
+_airDropServiceType
+_companionServiceType
+_getOrderedTypes
+___getOrderedTypes_block_invoke
+_initArrays
+_getOrderedProtocols
+___getOrderedProtocols_block_invoke
+_getServiceTypeForProtocol
+___getServiceTypeForProtocol_block_invoke
+_initDictionaries
+_getProtocolForServiceType
+___getProtocolForServiceType_block_invoke
+_SharingFastSetRetain
+_SharingFastSetRelease
+_SharingFastSetCopyDescription
+_SharingFastDictionaryKeyRetain
+_SharingFastDictionaryKeyRelease
+_SharingFastDictionaryKeyCopyDescription
+___getIndexForSFNodeKind_block_invoke
+_initKindMap
+___getSFNodeKindForIndex_block_invoke
+-[SFRemoteHotspotDevice initWithCoder:]
+-[SFRemoteHotspotDevice dealloc]
+-[SFRemoteHotspotDevice encodeWithCoder:]
++[SFRemoteHotspotDevice supportsSecureCoding]
+-[SFRemoteHotspotDevice deviceName]
+-[SFRemoteHotspotDevice setDeviceName:]
+-[SFRemoteHotspotDevice deviceIdentifier]
+-[SFRemoteHotspotDevice setDeviceIdentifier:]
+-[SFRemoteHotspotDevice batteryLife]
+-[SFRemoteHotspotDevice setBatteryLife:]
+-[SFRemoteHotspotDevice networkType]
+-[SFRemoteHotspotDevice setNetworkType:]
+-[SFRemoteHotspotDevice signalStrength]
+-[SFRemoteHotspotDevice setSignalStrength:]
+_SFRFC3339DateFormatter
+GCC_except_table5
+GCC_except_table10
+GCC_except_table11
+GCC_except_table17
+GCC_except_table30
+GCC_except_table31
+GCC_except_table7
+GCC_except_table3
+GCC_except_table4
+GCC_except_table2
+GCC_except_table3
+GCC_except_table24
+GCC_except_table2
+_SFHexStringForData.hexDigits
+__kSFBrowserClassName
+__ZL17_kSFNodeClassName
+__kSFOperationClassName
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp75
+___block_descriptor_tmp90
+___block_descriptor_tmp105
+___block_descriptor_tmp110
+___block_descriptor_tmp
+___block_descriptor_tmp114
+___block_descriptor_tmp123
+___block_descriptor_tmp
+___block_descriptor_tmp30
+___block_descriptor_tmp35
+___block_descriptor_tmp55
+___block_descriptor_tmp60
+___block_descriptor_tmp68
+___block_descriptor_tmp72
+___block_descriptor_tmp138
+___block_descriptor_tmp149
+___block_descriptor_tmp153
+___block_descriptor_tmp165
+___block_descriptor_tmp169
+___block_descriptor_tmp176
+___block_literal_global
+___block_descriptor_tmp187
+___block_descriptor_tmp203
+___block_descriptor_tmp213
+___block_descriptor_tmp217
+___block_descriptor_tmp221
+___block_descriptor_tmp
+___block_descriptor_tmp30
+___block_descriptor_tmp36
+_kSFCompanionServiceDeviceNameKey
+_kSFCompanionServiceNameKey
+_kSFCompanionServiceDeviceIdentifierKey
+_kSFCompanionServiceUniqueIdentifierKey
+_kSFCompanionServiceManagerIdentifierKey
+_kSFCompanionServiceIPAddressKey
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp165
+___block_literal_global166
+___block_descriptor_tmp188
+___block_descriptor_tmp203
+___block_descriptor_tmp233
+___block_descriptor_tmp241
+___block_descriptor_tmp247
+___block_descriptor_tmp253
+___block_descriptor_tmp259
+___block_descriptor_tmp265
+___block_descriptor_tmp271
+___block_descriptor_tmp277
+___block_descriptor_tmp288
+___block_descriptor_tmp294
+___block_descriptor_tmp298
+___block_descriptor_tmp304
+___block_descriptor_tmp308
+___block_descriptor_tmp314
+___block_descriptor_tmp318
+___block_descriptor_tmp324
+__SFAirDropTransferProgressStateKey
+__SFAirDropTransferBundleIDKey
+__SFAirDropTransferSessionIDKey
+__SFAirDropTransferPersonRealNameKey
+__SFAirDropTransferErrorKey
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp24
+__kSFBrowserFormatString
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp51
+___block_descriptor_tmp70
+___block_descriptor_tmp75
+___block_descriptor_tmp76
+___block_descriptor_tmp80
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp63
+___block_descriptor_tmp72
+___block_descriptor_tmp84
+___block_descriptor_tmp103
+___block_descriptor_tmp113
+___block_descriptor_tmp123
+_SFHotspotInfoNameKey
+_SFHotspotInfoPasswordKey
+_SFHotspotInfoChannelKey
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp29
+___block_descriptor_tmp162
+___block_descriptor_tmp167
+___block_descriptor_tmp172
+___block_descriptor_tmp177
+___block_descriptor_tmp182
+__kSFOperationFormatString
+__kSFOperationCallBackFormatString
+__kSFOperationEventNewOperationString
+__kSFOperationEventAskUserString
+__kSFOperationEventBlockedString
+__kSFOperationEventConnectingString
+__kSFOperationEventWaitForAnswerString
+__kSFOperationEventStartedString
+__kSFOperationEventConflictString
+__kSFOperationEventPreprocessString
+__kSFOperationEventProgressString
+__kSFOperationEventPostprocessString
+__kSFOperationEventFinishedString
+__kSFOperationEventCanceledString
+__kSFOperationEventErrorOccurredString
+__kSFOperationEventInformationString
+__kSFOperationEventUnknownString
+_kSFOperationErrorTransferFailed
+___block_descriptor_tmp
+___block_descriptor_tmp203
+___block_literal_global
+___block_descriptor_tmp222
+___block_descriptor_tmp223
+___block_descriptor_tmp233
+___block_descriptor_tmp238
+___block_descriptor_tmp239
+___block_descriptor_tmp240
+_kSharingDomain
+_kManagedSharingDomain
+_kNetworkBrowserDomain
+_kBrowseAllInterfacesKey
+_kPreferSMBFileSharingKey
+_kDisableContinuityKey
+_kEnableDebugLoggingKey
+_kAlternateServiceKey
+_kEnableSimulatorKey
+_kForceOldModeKey
+_kDisableTLSKey
+_kEnableDirectIPKey
+_kPreferenceEnabled
+_kBonjourTypeAFP
+_kBonjourTypeSMB
+_kBonjourTypeNFS
+_kBonjourTypeWebDAVS
+_kBonjourTypeWebDAV
+_kBonjourTypeFTPS
+_kBonjourTypeFTP
+_kBonjourTypeVNC
+_kBonjourTypeHTTPS
+_kBonjourTypeHTTP
+_kBonjourTypeADisk
+_kBonjourTypeODisk
+_kBonjourTypeAirDrop
+_kBonjourTypeAirDropAlt
+_kBonjourTypeCompanion
+_kBonjourTypeDeviceInfo
+_kBonjourTypeFile
+_kBonjourTypeNetBIOS
+_kBonjourTypeWorkgroups
+_kBonjourTypeNWNode
+_kBonjourDomainLocal
+_kBonjourPseudoDomainBTMM
+___block_descriptor_tmp
+___block_literal_global
+_kSharingFastSetCallBacks
+___block_descriptor_tmp117
+___block_literal_global118
+___block_descriptor_tmp133
+___block_literal_global134
+___block_descriptor_tmp135
+___block_literal_global136
+___block_descriptor_tmp137
+___block_literal_global138
+___block_descriptor_tmp139
+___block_literal_global140
+_kSharingFastDictionaryKeyCallBacks
+___block_descriptor_tmp144
+___block_literal_global145
+___block_descriptor_tmp146
+___block_literal_global147
+_SFRemoteHotspotDeviceNameKey
+_SFRemoteHotspotDeviceIdentifierKey
+_SFRemoteHotspotBatteryLifeKey
+_SFRemoteHotspotSignalStrengthKey
+_SFRemoteHotspotNetworkTypeKey
+_kSFCoreTypesBundlePath
+_kSFMobileCoreTypesBundlePath
+_OBJC_IVAR_$_SFCompanionManager._managerProxy
+_OBJC_IVAR_$_SFCompanionManager._services
+_OBJC_IVAR_$_SFCompanionManager._identifier
+_OBJC_IVAR_$_SFCompanionManager._streamHandlers
+_OBJC_IVAR_$_SFCompanionManager._managerSemaphore
+_OBJC_IVAR_$_SFCompanionManager._deviceID
+_OBJC_IVAR_$_SFCompanionManager._deviceIP
+_OBJC_IVAR_$_SFCompanionManager._deviceName
+_OBJC_IVAR_$_SFCompanionBrowser._browser
+_OBJC_IVAR_$_SFCompanionBrowser._foundDevices
+_OBJC_IVAR_$_SFCompanionBrowser._nodes
+_OBJC_IVAR_$_SFCompanionBrowser._foundServices
+_OBJC_IVAR_$_SFCompanionBrowser._serviceTypes
+_OBJC_IVAR_$_SFCompanionBrowser._deviceServices
+_OBJC_IVAR_$_SFCompanionBrowser._identifier
+_OBJC_IVAR_$_SFCompanionBrowser._foundPeople
+_OBJC_IVAR_$_SFCompanionBrowser._lostPeople
+_OBJC_IVAR_$_SFCompanionBrowser._delegate
+_OBJC_IVAR_$_SFCompanionBrowser._connectionProxy
+_OBJC_IVAR_$_SFCompanionConnection._invalid
+_OBJC_IVAR_$_SFCompanionConnection._delegate
+_OBJC_IVAR_$_SFCompanionConnection._waitForAccept
+_OBJC_IVAR_$_SFCompanionConnection._userConnection
+_OBJC_IVAR_$_SFCompanionConnection._connectionProxy
+_OBJC_IVAR_$_SFCompanionConnection._service
+_OBJC_IVAR_$_SFCompanionConnection._status
+_OBJC_IVAR_$_SFCompanionConnection._connectedDevice
+_OBJC_IVAR_$_SFCompanionConnection._workQueue
+_OBJC_IVAR_$_SFCompanionConnection._connectionID
+_OBJC_IVAR_$_SFCompanionConnection._exportedObject
+_OBJC_IVAR_$_SFCompanionConnection._exportedInterface
+_OBJC_IVAR_$_SFCompanionConnection._remoteObjectInterface
+_OBJC_IVAR_$_SFCompanionDevice._serviceName
+_OBJC_IVAR_$_SFCompanionDevice._uniqueIdentifier
+_OBJC_IVAR_$_SFCompanionDevice._node
+_OBJC_IVAR_$_SFCompanionDevice._name
+_OBJC_IVAR_$_SFCompanionDevice._identifier
+_OBJC_IVAR_$_SFCompanionDevice._services
+_OBJC_IVAR_$_SFCompanionDevice._type
+_OBJC_IVAR_$_SFCompanionDevice._connections
+_OBJC_IVAR_$_SFCompanionDevice._activities
+_OBJC_IVAR_$_SFRemoteHotspotSession._browsing
+_OBJC_IVAR_$_SFRemoteHotspotSession._connectionProxy
+_OBJC_IVAR_$_SFRemoteHotspotSession._delegate
+_OBJC_IVAR_$_SFCompanionService._deviceID
+_OBJC_IVAR_$_SFCompanionService._deviceName
+_OBJC_IVAR_$_SFCompanionService._serviceType
+_OBJC_IVAR_$_SFCompanionService._identifier
+_OBJC_IVAR_$_SFCompanionService._ipAddress
+_OBJC_IVAR_$_SFCompanionService._managerID
+_OBJC_IVAR_$_SFCompanionService._nsxpcVersion
+_OBJC_IVAR_$_SFCompanionXPCManager._invalid
+_OBJC_IVAR_$_SFCompanionXPCManager._interrupted
+_OBJC_IVAR_$_SFCompanionXPCManager._connection
+_OBJC_IVAR_$_SFCompanionXPCManager._observers
+_OBJC_IVAR_$_SFAirDropDiscoveryController._delegate
+_OBJC_IVAR_$_SFAirDropDiscoveryController._isVisible
+_OBJC_IVAR_$_SFAirDropDiscoveryController._isLegacyModeEnabled
+_OBJC_IVAR_$_SFAirDropDiscoveryController._isLegacyModeSettable
+_OBJC_IVAR_$_SFAirDropDiscoveryController._isLegacyDevice
+_OBJC_IVAR_$_SFAirDropDiscoveryController._discoverableMode
+_OBJC_IVAR_$_SFAirDropDiscoveryController._controller
+_OBJC_IVAR_$_SFWirelessSettingsController._wifiEnabled
+_OBJC_IVAR_$_SFWirelessSettingsController._bluetoothEnabled
+_OBJC_IVAR_$_SFWirelessSettingsController._deviceSupportsWAPI
+_OBJC_IVAR_$_SFWirelessSettingsController._information
+_OBJC_IVAR_$_SFWirelessSettingsController._delegate
+_OBJC_IVAR_$_SFWirelessSettingsController._firstCallbackCompleted
+_OBJC_IVAR_$_SFWirelessSettingsController._firstCallBackSemaphore
+_OBJC_IVAR_$_SFCompanionAdvertiser._serviceType
+_OBJC_IVAR_$_SFCompanionAdvertiser._delegate
+_OBJC_IVAR_$_SFCompanionAdvertiser._supportsStreams
+_OBJC_IVAR_$_SFInternalAdvertisement._advertisementPayload
+_OBJC_IVAR_$_SFInternalAdvertisement._options
+_OBJC_IVAR_$_SFActivityAdvertiser._connectionProxy
+_OBJC_IVAR_$_SFActivityAdvertiser._currentAdvertisement
+_OBJC_IVAR_$_SFActivityAdvertiser._delegate
+_OBJC_IVAR_$_SFActivityAdvertisement._advertisementPayload
+_OBJC_IVAR_$_SFActivityAdvertisement._options
+_OBJC_IVAR_$_SFActivityAdvertisement._deviceName
+_OBJC_IVAR_$_SFActivityAdvertisement._deviceModelIdentifier
+_OBJC_IVAR_$_SFActivityAdvertisement._deviceIdentifier
+_OBJC_IVAR_$_SFActivityAdvertisement._activityPayload
+_OBJC_IVAR_$_SFCompanionInterface._interface
+_OBJC_IVAR_$_SFRemoteHotspotInfo._name
+_OBJC_IVAR_$_SFRemoteHotspotInfo._password
+_OBJC_IVAR_$_SFRemoteHotspotInfo._channel
+_OBJC_IVAR_$_SFContinuityScanManager._connectionProxy
+_OBJC_IVAR_$_SFContinuityScanManager._queuedIdentifers
+_OBJC_IVAR_$_SFContinuityScanManager._observers
+_OBJC_IVAR_$_SFActivityScanner._receiving
+_OBJC_IVAR_$_SFActivityScanner._identifier
+_OBJC_IVAR_$_SFActivityScanner._delegate
+_OBJC_IVAR_$_SFRemoteHotspotDevice._deviceName
+_OBJC_IVAR_$_SFRemoteHotspotDevice._deviceIdentifier
+_OBJC_IVAR_$_SFRemoteHotspotDevice._batteryLife
+_OBJC_IVAR_$_SFRemoteHotspotDevice._signalStrength
+_OBJC_IVAR_$_SFRemoteHotspotDevice._networkType
+_OBJC_CLASS_$_SFInternalAdvertisement
+_OBJC_METACLASS_$_SFInternalAdvertisement
+_OBJC_CLASS_$_SFContinuityScanManager
+_OBJC_METACLASS_$_SFContinuityScanManager
+_SFCompanionAdvertiserStatus
++[SFCompanionManager serviceManager].serviceManager
++[SFCompanionManager serviceManager].onceToken
++[SFCompanionXPCManager initialize].onceToken
+_sXPCManagerInterface
+_sServiceManagerClientInterface
+_sServiceManagerInterface
+_sConnectionManagerClientInterface
+_sConnectionManagerInterface
+_sBrowserClientInterface
+_sBrowserInterface
+_sAdvertiserClientInterface
+_sAdvertiserInterface
+_sScannerClientInterface
+_sScannerInterface
+_sUnlockInterface
+_sHotspotClientInterface
+_sHotspotInterface
++[SFCompanionXPCManager sharedManager].manager
++[SFCompanionXPCManager sharedManager].onceToken
+_SFBrowserGetTypeID.once
+__kSFBrowserTypeID
+__kSFBrowserClass
++[SFActivityAdvertiser sharedAdvertiser].manager
++[SFActivityAdvertiser sharedAdvertiser].onceToken
+__ZZ15SFNodeGetTypeIDE4once
+__ZL14_kSFNodeTypeID
+__ZL13_kSFNodeClass
++[SFContinuityScanManager sharedManager].manager
++[SFContinuityScanManager sharedManager].onceToken
+_SFOperationGetTypeID.once
+__kSFOperationTypeID
+__kSFOperationClass
+_getSharingFrameworkBundle.sOnce
+_getSharingFrameworkBundle.gBundleRef
+_deviceSupportsAWDL.onceToken
+_deviceSupportsAWDL.supportsAWDL
+_browseAllInterfacesEnabled.enabled
+_enableSimulator.enableSimulator
+_directIPEnabled.enabled
+_debugLoggingEnabled.enabled
+_gArrayOnce
+_gOrderedTypes
+_gOrderedProtocols
+_gDictionaryOnce
+_gTypeForProtocol
+_gProtocolForType
+_gKindMapOnce
+_gKindMap
+_gOrderedKinds
+_OBJC_CLASS_$_SFActivityAdvertisement
+_OBJC_CLASS_$_SFActivityAdvertiser
+_OBJC_CLASS_$_SFActivityScanner
+_OBJC_CLASS_$_SFAirDropDiscoveryController
+_OBJC_CLASS_$_SFCompanionAdvertiser
+_OBJC_CLASS_$_SFCompanionBrowser
+_OBJC_CLASS_$_SFCompanionConnection
+_OBJC_CLASS_$_SFCompanionDevice
+_OBJC_CLASS_$_SFCompanionInterface
+_OBJC_CLASS_$_SFCompanionManager
+_OBJC_CLASS_$_SFCompanionService
+_OBJC_CLASS_$_SFCompanionXPCManager
+_OBJC_CLASS_$_SFRemoteHotspotDevice
+_OBJC_CLASS_$_SFRemoteHotspotInfo
+_OBJC_CLASS_$_SFRemoteHotspotSession
+_OBJC_CLASS_$_SFWirelessSettingsController
+_OBJC_METACLASS_$_SFActivityAdvertisement
+_OBJC_METACLASS_$_SFActivityAdvertiser
+_OBJC_METACLASS_$_SFActivityScanner
+_OBJC_METACLASS_$_SFAirDropDiscoveryController
+_OBJC_METACLASS_$_SFCompanionAdvertiser
+_OBJC_METACLASS_$_SFCompanionBrowser
+_OBJC_METACLASS_$_SFCompanionConnection
+_OBJC_METACLASS_$_SFCompanionDevice
+_OBJC_METACLASS_$_SFCompanionInterface
+_OBJC_METACLASS_$_SFCompanionManager
+_OBJC_METACLASS_$_SFCompanionService
+_OBJC_METACLASS_$_SFCompanionXPCManager
+_OBJC_METACLASS_$_SFRemoteHotspotDevice
+_OBJC_METACLASS_$_SFRemoteHotspotInfo
+_OBJC_METACLASS_$_SFRemoteHotspotSession
+_OBJC_METACLASS_$_SFWirelessSettingsController
+_SFBrowserAddNode
+_SFBrowserCloseNode
+_SFBrowserCopyChildren
+_SFBrowserCopyNodeForURL
+_SFBrowserCopySidebarChildren
+_SFBrowserCreate
+_SFBrowserGetRootNode
+_SFBrowserGetTypeID
+_SFBrowserInvalidate
+_SFBrowserOpenNode
+_SFBrowserRemoveNode
+_SFBrowserScheduleWithRunLoop
+_SFBrowserSetClient
+_SFBrowserSetDispatchQueue
+_SFBrowserSetMode
+_SFContentTypes
+_SFDataFromHexString
+_SFDateToStringRFC3339
+_SFDeviceHasRestrictedRuntime
+_SFDeviceSupportsAWDL
+_SFDeviceSupportsAirDrop
+_SFDeviceSupportsContinuity
+_SFDeviceSupportsLegacyAirDrop
+_SFDeviceSupportsRemoteDisc
+_SFDeviceSupportsWAPI
+_SFFakeFilesAndItemsArrayForURLs
+_SFGenerateFileInfoForURL
+_SFHexStringForData
+_SFIsAppStoreLink
+_SFIsAppleApp
+_SFIsAssetURL
+_SFIsBluetoothEnabled
+_SFIsCalendarEvent
+_SFIsContact
+_SFIsCoreType
+_SFIsDeviceAppleTV
+_SFIsImage
+_SFIsMapLink
+_SFIsMusicLink
+_SFIsMusicStoreLink
+_SFIsPDF
+_SFIsPass
+_SFIsPhoneLink
+_SFIsPlainText
+_SFIsPodcastsLink
+_SFIsVideo
+_SFIsVoiceMemo
+_SFIsWebLink
+_SFIsWiFiEnabled
+_SFIsiBooksLink
+_SFIsiTunesULink
+_SFIsiWorkLink
+_SFLocalizedStringForKey
+_SFNodeAddBonjourProtocol
+_SFNodeAddDomain
+_SFNodeAddKind
+_SFNodeAddWorkgroup
+_SFNodeCanAcceptDrop
+_SFNodeCancel
+_SFNodeCopyAccessRights
+_SFNodeCopyAppleID
+_SFNodeCopyBonjourProtocols
+_SFNodeCopyColor
+_SFNodeCopyComputerName
+_SFNodeCopyDiskType
+_SFNodeCopyDisplayName
+_SFNodeCopyDomain
+_SFNodeCopyDomains
+_SFNodeCopyEmailHash
+_SFNodeCopyFirstName
+_SFNodeCopyFlags
+_SFNodeCopyHostName
+_SFNodeCopyIconData
+_SFNodeCopyIconHash
+_SFNodeCopyKindString
+_SFNodeCopyKinds
+_SFNodeCopyLastName
+_SFNodeCopyModel
+_SFNodeCopyMountPoint
+_SFNodeCopyNetbiosName
+_SFNodeCopyParentIdentifier
+_SFNodeCopyPassword
+_SFNodeCopyPath
+_SFNodeCopyPhoneHash
+_SFNodeCopyProtocols
+_SFNodeCopyRealName
+_SFNodeCopySFLItem
+_SFNodeCopySecondaryName
+_SFNodeCopyServiceName
+_SFNodeCopyTypeIdentifier
+_SFNodeCopyURL
+_SFNodeCopyURLForProtocol
+_SFNodeCopyURLs
+_SFNodeCopyUserName
+_SFNodeCopyWorkgroup
+_SFNodeCopyWorkgroups
+_SFNodeCreate
+_SFNodeCreateCopy
+_SFNodeEject
+_SFNodeGetConnectionState
+_SFNodeGetDisplayName
+_SFNodeGetPortNumber
+_SFNodeGetPriority
+_SFNodeGetSharePointBrowser
+_SFNodeGetSupportedMedia
+_SFNodeGetTypeID
+_SFNodeGetVolumeRefNum
+_SFNodeIsAutoFS
+_SFNodeIsContainer
+_SFNodeIsDropBox
+_SFNodeIsMounted
+_SFNodeIsNeighborhood
+_SFNodeIsRemovable
+_SFNodeIsRoot
+_SFNodeIsServer
+_SFNodeIsSharePoint
+_SFNodeRemoveBonjourProtocol
+_SFNodeRemoveDomain
+_SFNodeRemoveKind
+_SFNodeRemoveWorkgroup
+_SFNodeResolve
+_SFNodeSetAccessRights
+_SFNodeSetAppleID
+_SFNodeSetBonjourProtocols
+_SFNodeSetColor
+_SFNodeSetComputerName
+_SFNodeSetConnectionState
+_SFNodeSetDiskType
+_SFNodeSetDisplayName
+_SFNodeSetDomain
+_SFNodeSetEmailHash
+_SFNodeSetFirstName
+_SFNodeSetFlags
+_SFNodeSetHostName
+_SFNodeSetIconData
+_SFNodeSetIconHash
+_SFNodeSetKinds
+_SFNodeSetLastName
+_SFNodeSetModel
+_SFNodeSetMountPoint
+_SFNodeSetNetbiosName
+_SFNodeSetParentIdentifier
+_SFNodeSetPassword
+_SFNodeSetPath
+_SFNodeSetPhoneHash
+_SFNodeSetPortNumber
+_SFNodeSetRealName
+_SFNodeSetSFLItem
+_SFNodeSetSecondaryName
+_SFNodeSetServiceName
+_SFNodeSetSharePointBrowser
+_SFNodeSetSupportedMedia
+_SFNodeSetURL
+_SFNodeSetUserName
+_SFNodeSetWorkgroup
+_SFNodeSetWorkgroups
+_SFNodeSupportsAskToUse
+_SFNodeSupportsFileSharing
+_SFNodeSupportsMixedTypes
+_SFNodeSupportsPasses
+_SFNodeSupportsScreenSharing
+_SFOperationCancel
+_SFOperationCopyProperty
+_SFOperationCreate
+_SFOperationGetTypeID
+_SFOperationResume
+_SFOperationSetClient
+_SFOperationSetDispatchQueue
+_SFOperationSetProperty
+_SFStringFromTimeInterval
+_SFStringIsJSON
+_SFStringToDateRFC3339
+__SFNodeCreateWithXPCObject
+__SFNodeUpdateCachedChildNode
+__SFNodeUpdateCachedParentNode
+__SFNodeXPCObjectCreate
+__SFOperationCreateResultsFromXPCObject
+_kCFErrorDomainSFOperation
+_kSFBrowserKindAirDrop
+_kSFBrowserKindNetwork
+_kSFBrowserKindPrinter
+_kSFBrowserKindRemoteDisc
+_kSFBrowserPreferencesAllEnabled
+_kSFBrowserPreferencesBackToMyMacEnabled
+_kSFBrowserPreferencesBonjourEnabled
+_kSFBrowserPreferencesConnectedEnabled
+_kSFCompaionServiceAuthorDataKey
+_kSFCompaionServiceBonjourNameKey
+_kSFCompaionServiceManagerIDKey
+_kSFCompaionServiceMessageVersionKey
+_kSFCompanionAdvertiserDateKey
+_kSFCompanionAdvertiserIdentifierKey
+_kSFCompanionAdvertiserServiceTypeKey
+_kSFCompanionAdvertiserStatusKey
+_kSFCompanionCompanionActivtiesKey
+_kSFCompanionContinuationActivtiesKey
+_kSFCompanionDeviceReceivedIdentifierKey
+_kSFCompanionServiceClientIDKey
+_kSFCompanionServiceUniqueIDKey
+_kSFNodeKindADisk
+_kSFNodeKindAirDrop
+_kSFNodeKindAll
+_kSFNodeKindAutoFS
+_kSFNodeKindBonjour
+_kSFNodeKindCompanion
+_kSFNodeKindConnected
+_kSFNodeKindDomain
+_kSFNodeKindManaged
+_kSFNodeKindMonogram
+_kSFNodeKindMyMac
+_kSFNodeKindODisk
+_kSFNodeKindPerson
+_kSFNodeKindPrinter
+_kSFNodeKindRecent
+_kSFNodeKindRoot
+_kSFNodeKindUnknown
+_kSFNodeKindVolume
+_kSFNodeKindWindows
+_kSFNodeKindWorkgroup
+_kSFNodeProtocolADisk
+_kSFNodeProtocolAFP
+_kSFNodeProtocolAirDrop
+_kSFNodeProtocolAutoFS
+_kSFNodeProtocolCompanion
+_kSFNodeProtocolFTP
+_kSFNodeProtocolFTPS
+_kSFNodeProtocolFile
+_kSFNodeProtocolHTTP
+_kSFNodeProtocolHTTPS
+_kSFNodeProtocolNFS
+_kSFNodeProtocolNWNode
+_kSFNodeProtocolNetBIOS
+_kSFNodeProtocolODisk
+_kSFNodeProtocolSMB
+_kSFNodeProtocolVNC
+_kSFNodeProtocolWebDAV
+_kSFNodeProtocolWebDAVS
+_kSFNodeProtocolWorkgroups
+_kSFOperationAirDropEnabledKey
+_kSFOperationAutoAcceptKey
+_kSFOperationBlockerComputerNameKey
+_kSFOperationBlockerFirstNameKey
+_kSFOperationBlockerLastNameKey
+_kSFOperationBluetoothEnabledKey
+_kSFOperationBundleIDKey
+_kSFOperationBytesCopiedKey
+_kSFOperationComputerToComputerKey
+_kSFOperationContactsOnlyKey
+_kSFOperationDestinationURLKey
+_kSFOperationDeviceSupportsWAPIKey
+_kSFOperationDiscoverableModeContactsOnly
+_kSFOperationDiscoverableModeDisabled
+_kSFOperationDiscoverableModeEveryone
+_kSFOperationDiscoverableModeKey
+_kSFOperationDiscoverableModeOff
+_kSFOperationErrorKey
+_kSFOperationFileBomPathKey
+_kSFOperationFileIconKey
+_kSFOperationFileIsDirectoryKey
+_kSFOperationFileNameKey
+_kSFOperationFileSizeKey
+_kSFOperationFileTypeKey
+_kSFOperationFilesCopiedKey
+_kSFOperationFilesKey
+_kSFOperationFlagsKey
+_kSFOperationHTTPServerConnectionKey
+_kSFOperationItemsDescriptionKey
+_kSFOperationItemsKey
+_kSFOperationKindController
+_kSFOperationKindEjecter
+_kSFOperationKindInformation
+_kSFOperationKindKey
+_kSFOperationKindListener
+_kSFOperationKindReceiver
+_kSFOperationKindResolver
+_kSFOperationKindSender
+_kSFOperationKindStatus
+_kSFOperationLegacyDeviceKey
+_kSFOperationLegacyModeEnabledKey
+_kSFOperationLegacyModeSettableKey
+_kSFOperationNodeKey
+_kSFOperationProtocolKey
+_kSFOperationReceiverComputerNameKey
+_kSFOperationReceiverEmailHashKey
+_kSFOperationReceiverEmailKey
+_kSFOperationReceiverFirstNameKey
+_kSFOperationReceiverIDKey
+_kSFOperationReceiverIconHashKey
+_kSFOperationReceiverIconKey
+_kSFOperationReceiverKey
+_kSFOperationReceiverLastNameKey
+_kSFOperationReceiverModelNameKey
+_kSFOperationReceiverPhoneHashKey
+_kSFOperationReceiverRecordDataKey
+_kSFOperationReceiverUserReplyDataKey
+_kSFOperationRepairAppleIDKey
+_kSFOperationRunLoopKey
+_kSFOperationRunLoopModeKey
+_kSFOperationSenderComputerNameKey
+_kSFOperationSenderEmailHashKey
+_kSFOperationSenderEmailKey
+_kSFOperationSenderFirstNameKey
+_kSFOperationSenderIDKey
+_kSFOperationSenderIconHashKey
+_kSFOperationSenderIconKey
+_kSFOperationSenderLastNameKey
+_kSFOperationSenderModelNameKey
+_kSFOperationSenderNodeKey
+_kSFOperationSenderPhoneHashKey
+_kSFOperationSenderRecordDataKey
+_kSFOperationSenderUsersDataKey
+_kSFOperationSessionIDKey
+_kSFOperationSmallFileIconKey
+_kSFOperationTimeRemainingKey
+_kSFOperationTotalBytesKey
+_kSFOperationUsePKZip
+_kSFOperationVerifiableIdentityKey
+_kSFOperationWirelessAccessPointKey
+_kSFOperationWirelessEnabledKey
+_Apple80211BindToInterface
+_Apple80211Close
+_Apple80211CopyValue
+_Apple80211GetIfListCopy
+_Apple80211Open
+_CFAbsoluteTimeGetCurrent
+_CFArrayAppendArray
+_CFArrayAppendValue
+_CFArrayContainsValue
+_CFArrayCreate
+_CFArrayCreateCopy
+_CFArrayCreateMutable
+_CFArrayGetCount
+_CFArrayGetFirstIndexOfValue
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFArrayGetValues
+_CFArrayRemoveAllValues
+_CFArraySetValueAtIndex
+_CFArraySortValues
+_CFBagAddValue
+_CFBagCreateCopy
+_CFBagCreateMutable
+_CFBagCreateMutableCopy
+_CFBagGetCount
+_CFBagGetTypeID
+_CFBagGetValues
+_CFBagRemoveValue
+_CFBagSetValue
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyLocalizedString
+_CFBundleCreate
+_CFBundleGetBundleWithIdentifier
+_CFCopyDescription
+_CFDataCreateCopy
+_CFDataCreateMutable
+_CFDataGetTypeID
+_CFDictionaryContainsKey
+_CFDictionaryCreate
+_CFDictionaryCreateCopy
+_CFDictionaryCreateMutable
+_CFDictionaryCreateMutableCopy
+_CFDictionaryGetCount
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFDictionaryRemoveAllValues
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFEqual
+_CFErrorCreate
+_CFErrorGetCode
+_CFErrorGetDomain
+_CFGetAllocator
+_CFGetTypeID
+_CFHash
+_CFMakeCollectable
+_CFNumberCreate
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPreferencesCopyAppValue
+_CFReadStreamSetProperty
+_CFRelease
+_CFRetain
+_CFRunLoopAddTimer
+_CFRunLoopPerformBlock
+_CFRunLoopTimerCreate
+_CFRunLoopTimerInvalidate
+_CFRunLoopWakeUp
+_CFSetContainsValue
+_CFSetCreateCopy
+_CFSetCreateMutable
+_CFSetCreateMutableCopy
+_CFSetGetCount
+_CFSetGetTypeID
+_CFSetGetValues
+_CFSetRemoveValue
+_CFSetSetValue
+_CFStreamCreatePairWithSocket
+_CFStringAppend
+_CFStringAppendFormat
+_CFStringCreateCopy
+_CFStringCreateMutable
+_CFStringCreateMutableCopy
+_CFStringCreateWithCString
+_CFStringCreateWithFormat
+_CFStringCreateWithSubstring
+_CFStringFindAndReplace
+_CFStringGetCString
+_CFStringGetIntValue
+_CFStringGetLength
+_CFStringGetTypeID
+_CFStringHasPrefix
+_CFStringHasSuffix
+_CFURLCopyFileSystemPath
+_CFURLCopyHostName
+_CFURLCopyResourcePropertyForKey
+_CFURLCopyScheme
+_CFURLCreateStringByAddingPercentEscapes
+_CFURLCreateWithFileSystemPath
+_CFURLCreateWithString
+_CFURLGetString
+_CFURLGetTypeID
+_CFURLSetResourcePropertyForKey
+_CFWriteStreamSetProperty
+_CGColorSpaceCreateDeviceRGB
+_CGImageCreateCopyWithColorSpace
+_CGImageCreateThumb
+_CGImageDestinationAddImage
+_CGImageDestinationCreateWithData
+_CGImageDestinationFinalize
+_CGImageGetHeight
+_CGImageGetWidth
+_CGImageSourceCreateImageAtIndex
+_CGImageSourceCreateWithData
+_CGImageSourceCreateWithURL
+_CGImageSourceGetCount
+_CGImageSourceGetType
+_IOObjectRelease
+_IORegistryEntryCreateCFProperty
+_IOServiceGetMatchingService
+_IOServiceMatching
+_LSSharedFileListItemGetTypeID
+_NSLocalizedDescriptionKey
+_NSLog
+_NSPOSIXErrorDomain
+_NSProgressCategoryKey
+_NSProgressFileOperationKindAirDropping
+_NSProgressFileOperationKindKey
+_NSProgressFileURLKey
+_NSProgressKindFile
+_NSStringFromClass
+_NSStringFromSelector
+_OBJC_CLASS_$_CWWiFiClient
+_OBJC_CLASS_$_IOBluetoothPreferences
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSHashTable
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProgress
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OSSpinLockLock
+_OSSpinLockUnlock
+_UTTypeConformsTo
+_UTTypeCopyDeclaringBundleURL
+_UTTypeCreatePreferredIdentifierForTag
+__Block_object_assign
+__Block_object_dispose
+__CFRuntimeCreateInstance
+__CFRuntimeRegisterClass
+__CFXPCCreateCFObjectFromXPCObject
+__CFXPCCreateXPCObjectFromCFObject
+__CSDeviceSupportsAirDrop
+__CSDeviceSupportsODisk
+__LSCopyApplicationInformationItem
+__LSCopyMatchingApplicationsWithItems
+__LSCreateDeviceTypeIdentifierWithModelCodeAndColorComponents
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZSt9terminatev
+__ZdlPv
+__Znwm
+___CFConstantStringClassReference
+___bzero
+___cxa_begin_catch
+___gxx_personality_v0
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__kCFURLVolumeRefNumKey
+__kLSPIDKey
+__objc_empty_cache
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_type_dictionary
+__xpc_type_error
+__xpc_type_string
+_calloc
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_retain
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+_dup
+_gettimeofday
+_kCFAllocatorDefault
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFBundleIdentifierKey
+_kCFCopyStringDictionaryKeyCallBacks
+_kCFCopyStringSetCallBacks
+_kCFErrorLocalizedDescriptionKey
+_kCFStreamPropertyShouldCloseNativeSocket
+_kCFTypeArrayCallBacks
+_kCFTypeBagCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCFTypeSetCallBacks
+_kCFURLIsDirectoryKey
+_kCGImageDestinationLossyCompressionQuality
+_kCGImageDestinationRequestedFileSize
+_kCGImageSourceTypeIdentifierHint
+_kIOMasterPortDefault
+_kUTTagClassFilenameExtension
+_kUTTypeData
+_kUTTypeImage
+_kUTTypeJPEG2000
+_kUTTypeMovie
+_kUTTypePDF
+_kUTTypePlainText
+_kUTTypeVCard
+_localtime_r
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_sync_enter
+_objc_sync_exit
+_pthread_mutex_destroy
+_pthread_mutex_init
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_strcmp
+_syslog
+_xpc_array_create
+_xpc_array_get_count
+_xpc_array_get_int64
+_xpc_array_get_value
+_xpc_array_set_int64
+_xpc_connection_cancel
+_xpc_connection_create_mach_service
+_xpc_connection_get_context
+_xpc_connection_resume
+_xpc_connection_send_barrier
+_xpc_connection_send_message
+_xpc_connection_set_context
+_xpc_connection_set_event_handler
+_xpc_connection_set_finalizer_f
+_xpc_dictionary_apply
+_xpc_dictionary_create
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_dictionary_set_uint64
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_release
+_xpc_string_get_string_ptr
+dyld_stub_binder

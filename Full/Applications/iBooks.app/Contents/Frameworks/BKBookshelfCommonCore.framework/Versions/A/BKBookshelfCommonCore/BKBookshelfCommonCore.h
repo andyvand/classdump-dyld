@@ -1,0 +1,16 @@
+#import <BKBookshelfCommonCore/BKLibraryImageSource.h>
+#import <BKBookshelfCommonCore/BKLibraryAssetModificationDateManager.h>
+#import <BKBookshelfCommonCore/BKBookshelfCommonCoreBundleLookupClass.h>
+#import <BKBookshelfCommonCore/BKLibraryAssetIsNewManager.h>
+#import <BKBookshelfCommonCore/BKImportingStatusController.h>
+#import <BKBookshelfCommonCore/BKCollectionMember.h>
+#import <BKBookshelfCommonCore/BKLibraryAsset.h>
+#import <BKBookshelfCommonCore/BKUserSortOrderManager.h>
+#import <BKBookshelfCommonCore/BKJaliscoStatus.h>
+#import <BKBookshelfCommonCore/BKCollection.h>
+#import <BKBookshelfCommonCore/BKLibrary.h>
+#import <BKBookshelfCommonCore/BKLibraryManagedObjectContext.h>
+#import <BKBookshelfCommonCore/BKLibraryDownloadStatus.h>
+#import <BKBookshelfCommonCore/BKLibraryAssetUpdate.h>
+#import <BKBookshelfCommonCore/BKLibraryImportStatus.h>
+#import <BKBookshelfCommonCore/BKLibraryDataSource.h>

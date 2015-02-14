@@ -1,0 +1,1287 @@
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+CrashReporter.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/CrashReporter.o
+_PLCrashReporterException
+_PLCrashReporterErrorDomain
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashSignalHandler.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashSignalHandler.o
++[PLCrashSignalHandler sharedHandler]
+-[PLCrashSignalHandler init]
+-[PLCrashSignalHandler registerHandlerForSignal:error:]
+_fatal_signal_handler
+-[PLCrashSignalHandler registerHandlerWithCallback:context:error:]
+_fatal_signals
+_OBJC_CLASS_$_PLCrashSignalHandler
+_OBJC_METACLASS_$_PLCrashSignalHandler
+_OBJC_IVAR_$_PLCrashSignalHandler._sigstk
+_SharedHandlerContext
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashFrameWalker.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashFrameWalker.o
+_plframe_strerror
+_plframe_test_thread_spawn
+_test_stack_thr
+_plframe_test_thread_stop
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashLogWriter.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashLogWriter.o
+_plcrash_log_writer_init
+_plcrash_log_writer_set_exception
+_plcrash_log_writer_close
+_plcrash_log_writer_free
+_plcrash_log_writer_write
+_plcrash_writer_write_system_info
+_plcrash_writer_write_machine_info
+_plcrash_writer_write_process_info
+_plcrash_writer_write_thread
+_plcrash_writer_write_binary_image
+_plcrash_writer_write_exception
+_plcrash_writer_write_signal
+_plcrash_writer_write_thread_frame
+_plcrash_writer_write_thread_frame_symbol_cb
+_plcrash_writer_write_processor_info
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsync.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsync.o
+_plcrash_async_strerror
+_plcrash_async_read_addr
+_plcrash_async_strncmp
+_plcrash_async_memcpy
+_plcrash_async_writen
+_plcrash_async_file_init
+_plcrash_async_file_write
+_plcrash_async_file_flush
+_plcrash_async_file_close
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashLogWriterEncoding.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashLogWriterEncoding.o
+_plcrash_writer_pack
+_uint64_pack
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReporter.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReporter.o
++[PLCrashReporter initialize]
+_image_add_callback
+_image_remove_callback
++[PLCrashReporter sharedReporter]
+-[PLCrashReporter hasPendingCrashReport]
+-[PLCrashReporter loadPendingCrashReportData]
+-[PLCrashReporter loadPendingCrashReportDataAndReturnError:]
+-[PLCrashReporter purgePendingCrashReport]
+-[PLCrashReporter purgePendingCrashReportAndReturnError:]
+-[PLCrashReporter enableCrashReporter]
+-[PLCrashReporter enableCrashReporterAndReturnError:]
+_signal_handler_callback
+-[PLCrashReporter enableHandlingUncaughtExceptions]
+_uncaught_exception_handler
+-[PLCrashReporter generateLiveReportWithThread:]
+-[PLCrashReporter generateLiveReportWithThread:writer:error:]
+-[PLCrashReporter generateLiveReportWithThread:error:]
+-[PLCrashReporter generateLiveReport]
+-[PLCrashReporter generateLiveReportAndReturnError:]
+-[PLCrashReporter generateExceptionReport]
+-[PLCrashReporter generateExceptionReportAndReturnError:]
+-[PLCrashReporter generateExceptionReport:error:]
+-[PLCrashReporter setCrashCallbacks:]
+-[PLCrashReporter delegate]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReporter.h
+-[PLCrashReporter setDelegate:]
+-[PLCrashReporter(PrivateMethods) initWithApplicationIdentifier:appVersion:]
+-[PLCrashReporter(PrivateMethods) initWithBundle:]
+-[PLCrashReporter(PrivateMethods) dealloc]
+-[PLCrashReporter(PrivateMethods) populateCrashReportDirectoryAndReturnError:]
+-[PLCrashReporter(PrivateMethods) crashReportDirectory]
+-[PLCrashReporter(PrivateMethods) queuedCrashReportDirectory]
+-[PLCrashReporter(PrivateMethods) crashReportPath]
+___uncaught_exception_handler_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+GCC_except_table11
+GCC_except_table15
+___block_descriptor_tmp
+_OBJC_CLASS_$_PLCrashReporter
+_OBJC_METACLASS_$_PLCrashReporter
+_OBJC_IVAR_$_PLCrashReporter._enabled
+_OBJC_IVAR_$_PLCrashReporter._applicationIdentifier
+_OBJC_IVAR_$_PLCrashReporter._applicationVersion
+_OBJC_IVAR_$_PLCrashReporter.delegate
+_OBJC_IVAR_$_PLCrashReporter._crashReportDirectory
+_shared_image_list
+_sharedReporter
+_signal_handler_context
+_crashCallbacks.1
+_crashCallbacks.2
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReport.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReport.o
+-[PLCrashReport initWithData:error:]
+_populate_nserror
+-[PLCrashReport dealloc]
+-[PLCrashReport imageForAddress:]
+-[PLCrashReport hasMachineInfo]
+-[PLCrashReport hasProcessInfo]
+-[PLCrashReport hasExceptionInfo]
+-[PLCrashReport systemInfo]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReport.h
+-[PLCrashReport machineInfo]
+-[PLCrashReport applicationInfo]
+-[PLCrashReport processInfo]
+-[PLCrashReport signalInfo]
+-[PLCrashReport threads]
+-[PLCrashReport images]
+-[PLCrashReport exceptionInfo]
+-[PLCrashReport(PrivateMethods) decodeCrashData:error:]
+-[PLCrashReport(PrivateMethods) extractSystemInfo:error:]
+-[PLCrashReport(PrivateMethods) extractProcessorInfo:error:]
+-[PLCrashReport(PrivateMethods) extractMachineInfo:error:]
+-[PLCrashReport(PrivateMethods) extractApplicationInfo:error:]
+-[PLCrashReport(PrivateMethods) extractProcessInfo:error:]
+-[PLCrashReport(PrivateMethods) extractSymbolInfo:error:]
+-[PLCrashReport(PrivateMethods) extractStackFrameInfo:error:]
+-[PLCrashReport(PrivateMethods) extractThreadInfo:error:]
+-[PLCrashReport(PrivateMethods) extractImageInfo:error:]
+-[PLCrashReport(PrivateMethods) extractExceptionInfo:error:]
+-[PLCrashReport(PrivateMethods) extractSignalInfo:error:]
+_OBJC_CLASS_$_PLCrashReport
+_OBJC_METACLASS_$_PLCrashReport
+_OBJC_IVAR_$_PLCrashReport._decoder
+_OBJC_IVAR_$_PLCrashReport._systemInfo
+_OBJC_IVAR_$_PLCrashReport._machineInfo
+_OBJC_IVAR_$_PLCrashReport._applicationInfo
+_OBJC_IVAR_$_PLCrashReport._processInfo
+_OBJC_IVAR_$_PLCrashReport._signalInfo
+_OBJC_IVAR_$_PLCrashReport._threads
+_OBJC_IVAR_$_PLCrashReport._images
+_OBJC_IVAR_$_PLCrashReport._exceptionInfo
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/DerivedSources/x86_64/
+crash_report.pb-c.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/crash_report.pb-c.o
+_plcrash__crash_report__init
+_plcrash__crash_report__get_packed_size
+_plcrash__crash_report__pack
+_plcrash__crash_report__pack_to_buffer
+_plcrash__crash_report__unpack
+_plcrash__crash_report__free_unpacked
+_plcrash__crash_report__processor__type_encoding__value_ranges
+_plcrash__crash_report__processor__field_indices_by_name
+_plcrash__crash_report__processor__number_ranges
+_plcrash__crash_report__system_info__operating_system__value_ranges
+_plcrash__crash_report__system_info__field_indices_by_name
+_plcrash__crash_report__system_info__number_ranges
+_plcrash__crash_report__application_info__field_indices_by_name
+_plcrash__crash_report__application_info__number_ranges
+_plcrash__crash_report__symbol__field_indices_by_name
+_plcrash__crash_report__symbol__number_ranges
+_plcrash__crash_report__thread__stack_frame__field_indices_by_name
+_plcrash__crash_report__thread__stack_frame__number_ranges
+_plcrash__crash_report__thread__register_value__field_indices_by_name
+_plcrash__crash_report__thread__register_value__number_ranges
+_plcrash__crash_report__thread__field_indices_by_name
+_plcrash__crash_report__thread__number_ranges
+_plcrash__crash_report__binary_image__field_indices_by_name
+_plcrash__crash_report__binary_image__number_ranges
+_plcrash__crash_report__exception__field_indices_by_name
+_plcrash__crash_report__exception__number_ranges
+_plcrash__crash_report__signal__field_indices_by_name
+_plcrash__crash_report__signal__number_ranges
+_plcrash__crash_report__process_info__field_indices_by_name
+_plcrash__crash_report__process_info__number_ranges
+_plcrash__crash_report__machine_info__field_indices_by_name
+_plcrash__crash_report__machine_info__number_ranges
+_plcrash__crash_report__report_info__field_indices_by_name
+_plcrash__crash_report__report_info__number_ranges
+_plcrash__crash_report__field_indices_by_name
+_plcrash__crash_report__number_ranges
+_plcrash__architecture__value_ranges
+_plcrash__crash_report__system_info__operating_system__default_value
+_plcrash__crash_report__system_info__architecture__default_value
+_plcrash__crash_report__processor__encoding__default_value
+_plcrash__crash_report__init.init_value
+_plcrash__crash_report__descriptor
+_plcrash__crash_report__processor__type_encoding__enum_values_by_number
+_plcrash__crash_report__processor__type_encoding__enum_values_by_name
+_plcrash__crash_report__processor__type_encoding__descriptor
+_plcrash__crash_report__processor__field_descriptors
+_plcrash__crash_report__processor__descriptor
+_plcrash__crash_report__system_info__operating_system__enum_values_by_number
+_plcrash__crash_report__system_info__operating_system__enum_values_by_name
+_plcrash__crash_report__system_info__operating_system__descriptor
+_plcrash__crash_report__system_info__field_descriptors
+_plcrash__crash_report__system_info__descriptor
+_plcrash__crash_report__application_info__field_descriptors
+_plcrash__crash_report__application_info__descriptor
+_plcrash__crash_report__symbol__field_descriptors
+_plcrash__crash_report__symbol__descriptor
+_plcrash__crash_report__thread__stack_frame__field_descriptors
+_plcrash__crash_report__thread__stack_frame__descriptor
+_plcrash__crash_report__thread__register_value__field_descriptors
+_plcrash__crash_report__thread__register_value__descriptor
+_plcrash__crash_report__thread__field_descriptors
+_plcrash__crash_report__thread__descriptor
+_plcrash__crash_report__binary_image__field_descriptors
+_plcrash__crash_report__binary_image__descriptor
+_plcrash__crash_report__exception__field_descriptors
+_plcrash__crash_report__exception__descriptor
+_plcrash__crash_report__signal__field_descriptors
+_plcrash__crash_report__signal__descriptor
+_plcrash__crash_report__process_info__field_descriptors
+_plcrash__crash_report__process_info__descriptor
+_plcrash__crash_report__machine_info__field_descriptors
+_plcrash__crash_report__machine_info__descriptor
+_plcrash__crash_report__report_info__field_descriptors
+_plcrash__crash_report__report_info__descriptor
+_plcrash__crash_report__field_descriptors
+_plcrash__architecture__enum_values_by_number
+_plcrash__architecture__enum_values_by_name
+_plcrash__architecture__descriptor
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Dependencies/protobuf-2.0.3/src/
+protobuf-c.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/protobuf-c.o
+_protobuf_c_out_of_memory_default
+_system_alloc
+_system_free
+_protobuf_c_buffer_simple_append
+_protobuf_c_message_get_packed_size
+_required_field_get_packed_size
+_protobuf_c_message_pack
+_required_field_pack
+_protobuf_c_message_pack_to_buffer
+_required_field_pack_to_buffer
+_protobuf_c_message_unpack
+_protobuf_c_message_free_unpacked
+_protobuf_c_service_generated_init
+_service_machgen_invoke
+_protobuf_c_service_destroy
+_protobuf_c_enum_descriptor_get_value_by_name
+_protobuf_c_enum_descriptor_get_value
+_protobuf_c_message_descriptor_get_field_by_name
+_protobuf_c_message_descriptor_get_field
+_protobuf_c_service_descriptor_get_method_by_name
+_parse_required_member
+_parse_uint64
+_tag_pack
+_uint64_pack
+_protobuf_c_out_of_memory
+_protobuf_c_default_allocator
+_protobuf_c_system_allocator
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportSystemInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportSystemInfo.o
+-[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:architecture:timestamp:]
+-[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:operatingSystemBuild:architecture:timestamp:]
+-[PLCrashReportSystemInfo dealloc]
+-[PLCrashReportSystemInfo operatingSystem]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportSystemInfo.h
+-[PLCrashReportSystemInfo operatingSystemVersion]
+-[PLCrashReportSystemInfo operatingSystemBuild]
+-[PLCrashReportSystemInfo architecture]
+-[PLCrashReportSystemInfo timestamp]
+_OBJC_CLASS_$_PLCrashReportSystemInfo
+_OBJC_METACLASS_$_PLCrashReportSystemInfo
+_PLCrashReportHostArchitecture
+_OBJC_IVAR_$_PLCrashReportSystemInfo._operatingSystem
+_OBJC_IVAR_$_PLCrashReportSystemInfo._osVersion
+_OBJC_IVAR_$_PLCrashReportSystemInfo._osBuild
+_OBJC_IVAR_$_PLCrashReportSystemInfo._architecture
+_OBJC_IVAR_$_PLCrashReportSystemInfo._timestamp
+_PLCrashReportHostOperatingSystem
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportApplicationInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportApplicationInfo.o
+-[PLCrashReportApplicationInfo initWithApplicationIdentifier:applicationVersion:]
+-[PLCrashReportApplicationInfo dealloc]
+-[PLCrashReportApplicationInfo applicationIdentifier]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportApplicationInfo.h
+-[PLCrashReportApplicationInfo applicationVersion]
+_OBJC_CLASS_$_PLCrashReportApplicationInfo
+_OBJC_METACLASS_$_PLCrashReportApplicationInfo
+_OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationIdentifier
+_OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationVersion
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportThreadInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportThreadInfo.o
+-[PLCrashReportThreadInfo initWithThreadNumber:stackFrames:crashed:registers:]
+-[PLCrashReportThreadInfo dealloc]
+-[PLCrashReportThreadInfo threadNumber]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportThreadInfo.h
+-[PLCrashReportThreadInfo stackFrames]
+-[PLCrashReportThreadInfo crashed]
+-[PLCrashReportThreadInfo registers]
+_OBJC_CLASS_$_PLCrashReportThreadInfo
+_OBJC_METACLASS_$_PLCrashReportThreadInfo
+_OBJC_IVAR_$_PLCrashReportThreadInfo._threadNumber
+_OBJC_IVAR_$_PLCrashReportThreadInfo._stackFrames
+_OBJC_IVAR_$_PLCrashReportThreadInfo._crashed
+_OBJC_IVAR_$_PLCrashReportThreadInfo._registers
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportBinaryImageInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportBinaryImageInfo.o
+-[PLCrashReportBinaryImageInfo initWithCodeType:baseAddress:size:name:uuid:]
+-[PLCrashReportBinaryImageInfo dealloc]
+-[PLCrashReportBinaryImageInfo codeType]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportBinaryImageInfo.h
+-[PLCrashReportBinaryImageInfo imageBaseAddress]
+-[PLCrashReportBinaryImageInfo imageSize]
+-[PLCrashReportBinaryImageInfo imageName]
+-[PLCrashReportBinaryImageInfo hasImageUUID]
+-[PLCrashReportBinaryImageInfo imageUUID]
+_OBJC_CLASS_$_PLCrashReportBinaryImageInfo
+_OBJC_METACLASS_$_PLCrashReportBinaryImageInfo
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._baseAddress
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageSize
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageName
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._processorInfo
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._hasImageUUID
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageUUID
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportExceptionInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportExceptionInfo.o
+-[PLCrashReportExceptionInfo initWithExceptionName:reason:]
+-[PLCrashReportExceptionInfo initWithExceptionName:reason:stackFrames:]
+-[PLCrashReportExceptionInfo dealloc]
+-[PLCrashReportExceptionInfo exceptionName]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportExceptionInfo.h
+-[PLCrashReportExceptionInfo exceptionReason]
+-[PLCrashReportExceptionInfo stackFrames]
+_OBJC_CLASS_$_PLCrashReportExceptionInfo
+_OBJC_METACLASS_$_PLCrashReportExceptionInfo
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._name
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._reason
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._stackFrames
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncSignalInfo.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncSignalInfo.o
+_plcrash_async_signal_sigcode
+_plcrash_async_signal_signame
+_signal_codes
+_signal_names
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportSignalInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportSignalInfo.o
+-[PLCrashReportSignalInfo initWithSignalName:code:address:]
+-[PLCrashReportSignalInfo dealloc]
+-[PLCrashReportSignalInfo name]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportSignalInfo.h
+-[PLCrashReportSignalInfo code]
+-[PLCrashReportSignalInfo address]
+_OBJC_CLASS_$_PLCrashReportSignalInfo
+_OBJC_METACLASS_$_PLCrashReportSignalInfo
+_OBJC_IVAR_$_PLCrashReportSignalInfo._name
+_OBJC_IVAR_$_PLCrashReportSignalInfo._code
+_OBJC_IVAR_$_PLCrashReportSignalInfo._address
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashFrameWalker_x86_64.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashFrameWalker_x86_64.o
+_plframe_cursor_init
+_plframe_cursor_thread_init
+_plframe_cursor_next
+_plframe_get_reg
+_plframe_get_freg
+_plframe_get_regname
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportProcessInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportProcessInfo.o
+-[PLCrashReportProcessInfo initWithProcessName:processID:processPath:parentProcessName:parentProcessID:native:]
+-[PLCrashReportProcessInfo dealloc]
+-[PLCrashReportProcessInfo processName]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportProcessInfo.h
+-[PLCrashReportProcessInfo processID]
+-[PLCrashReportProcessInfo processPath]
+-[PLCrashReportProcessInfo parentProcessName]
+-[PLCrashReportProcessInfo parentProcessID]
+-[PLCrashReportProcessInfo native]
+_OBJC_CLASS_$_PLCrashReportProcessInfo
+_OBJC_METACLASS_$_PLCrashReportProcessInfo
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processName
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processID
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processPath
+_OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessName
+_OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessID
+_OBJC_IVAR_$_PLCrashReportProcessInfo._native
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportTextFormatter.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportTextFormatter.o
++[PLCrashReportTextFormatter stringValueForCrashReport:withTextFormat:]
++[PLCrashReportTextFormatter stringValueForCrashReport:withTextFormat:reporterVersion:]
+_binaryImageSort
+-[PLCrashReportTextFormatter initWithTextFormat:stringEncoding:]
+-[PLCrashReportTextFormatter formatReport:error:]
++[PLCrashReportTextFormatter(PrivateMethods) formatStackFrame:frameIndex:report:lp64:]
+_OBJC_CLASS_$_PLCrashReportTextFormatter
+_OBJC_METACLASS_$_PLCrashReportTextFormatter
+_OBJC_IVAR_$_PLCrashReportTextFormatter._textFormat
+_OBJC_IVAR_$_PLCrashReportTextFormatter._stringEncoding
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncImageList.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncImageList.o
+_plcrash_nasync_image_list_init
+_plcrash_nasync_image_list_free
+_plcrash_nasync_image_list_append
+_plcrash_nasync_image_list_remove
+_plcrash_async_image_list_set_reading
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libkern/OSAtomic.h
+_plcrash_async_image_containing_address
+_plcrash_async_image_list_next
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportProcessorInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportProcessorInfo.o
+-[PLCrashReportProcessorInfo initWithTypeEncoding:type:subtype:]
+-[PLCrashReportProcessorInfo typeEncoding]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportProcessorInfo.h
+-[PLCrashReportProcessorInfo type]
+-[PLCrashReportProcessorInfo subtype]
+_OBJC_CLASS_$_PLCrashReportProcessorInfo
+_OBJC_METACLASS_$_PLCrashReportProcessorInfo
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._typeEncoding
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._type
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._subtype
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportMachineInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportMachineInfo.o
+-[PLCrashReportMachineInfo initWithModelName:processorInfo:processorCount:logicalProcessorCount:]
+-[PLCrashReportMachineInfo dealloc]
+-[PLCrashReportMachineInfo modelName]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportMachineInfo.h
+-[PLCrashReportMachineInfo processorInfo]
+-[PLCrashReportMachineInfo processorCount]
+-[PLCrashReportMachineInfo logicalProcessorCount]
+_OBJC_CLASS_$_PLCrashReportMachineInfo
+_OBJC_METACLASS_$_PLCrashReportMachineInfo
+_OBJC_IVAR_$_PLCrashReportMachineInfo._modelName
+_OBJC_IVAR_$_PLCrashReportMachineInfo._processorInfo
+_OBJC_IVAR_$_PLCrashReportMachineInfo._processorCount
+_OBJC_IVAR_$_PLCrashReportMachineInfo._logicalProcessorCount
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashSysctl.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashSysctl.o
+_plcrash_sysctl_string
+_plcrash_sysctl_int
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashLogWriter_trampoline.S
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashLogWriter_trampoline-5565F35D16E4818B.o
+_plcrash_log_writer_write_curthread
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashLogWriter_trampoline.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashLogWriter_trampoline-9289CCF9E0DE787E.o
+_plcrash_log_writer_write_curthread_stub
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReporterNSError.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReporterNSError.o
+_plcrash_populate_error
+_plcrash_populate_mach_error
+_plcrash_populate_posix_error
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncMachOImage.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncMachOImage.o
+_plcrash_nasync_macho_init
+_macho_nswap16
+_macho_nswap32
+_macho_nswap64
+_macho_swap16
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libkern/i386/_OSByteOrder.h
+_macho_swap32
+_macho_swap64
+_plcrash_async_macho_next_command_type
+_plcrash_async_macho_next_command
+_plcrash_async_macho_find_command
+_plcrash_async_macho_find_segment_cmd
+_plcrash_async_macho_map_segment
+_plcrash_async_macho_map_section
+_plcrash_async_macho_find_symbol
+_plcrash_async_macho_find_symtab_symbol
+_plcrash_async_macho_mapped_segment_free
+_plcrash_nasync_macho_free
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncMObject.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncMObject.o
+_plcrash_async_mobject_init
+_plcrash_async_mobject_verify_local_pointer
+_plcrash_async_mobject_remap_address
+_plcrash_async_mobject_free
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncObjCSection.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncObjCSection.o
+_plcrash_async_objc_cache_init
+_plcrash_async_objc_cache_free
+_free_mapped_sections
+_plcrash_async_objc_find_method
+_plcrash_async_objc_parse
+_pl_async_objc_find_method_search_callback
+_pl_async_objc_find_method_call_callback
+_pl_async_objc_parse_objc2_class
+_pl_async_parse_obj1_class
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncSymbolication.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncSymbolication.o
+_plcrash_async_symbol_cache_init
+_plcrash_async_symbol_cache_free
+_plcrash_async_find_symbol
+_macho_symbol_callback
+_objc_symbol_callback
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncMachOString.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncMachOString.o
+_plcrash_async_macho_string_init
+_plcrash_async_macho_string_get_length
+_plcrash_async_macho_string_read
+_plcrash_async_macho_string_get_pointer
+_plcrash_async_macho_string_free
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportStackFrameInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportStackFrameInfo.o
+-[PLCrashReportStackFrameInfo initWithInstructionPointer:symbolInfo:]
+-[PLCrashReportStackFrameInfo dealloc]
+-[PLCrashReportStackFrameInfo instructionPointer]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportStackFrameInfo.h
+-[PLCrashReportStackFrameInfo symbolInfo]
+_OBJC_CLASS_$_PLCrashReportStackFrameInfo
+_OBJC_METACLASS_$_PLCrashReportStackFrameInfo
+_OBJC_IVAR_$_PLCrashReportStackFrameInfo._instructionPointer
+_OBJC_IVAR_$_PLCrashReportStackFrameInfo._symbolInfo
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportRegisterInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportRegisterInfo.o
+-[PLCrashReportRegisterInfo initWithRegisterName:registerValue:]
+-[PLCrashReportRegisterInfo dealloc]
+-[PLCrashReportRegisterInfo registerName]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportRegisterInfo.h
+-[PLCrashReportRegisterInfo registerValue]
+_OBJC_CLASS_$_PLCrashReportRegisterInfo
+_OBJC_METACLASS_$_PLCrashReportRegisterInfo
+_OBJC_IVAR_$_PLCrashReportRegisterInfo._registerName
+_OBJC_IVAR_$_PLCrashReportRegisterInfo._registerValue
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashReportSymbolInfo.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashReportSymbolInfo.o
+-[PLCrashReportSymbolInfo initWithSymbolName:startAddress:endAddress:]
+-[PLCrashReportSymbolInfo dealloc]
+-[PLCrashReportSymbolInfo symbolName]
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/PLCrashReportSymbolInfo.h
+-[PLCrashReportSymbolInfo startAddress]
+-[PLCrashReportSymbolInfo endAddress]
+_OBJC_CLASS_$_PLCrashReportSymbolInfo
+_OBJC_METACLASS_$_PLCrashReportSymbolInfo
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._symbolName
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._startAddress
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._endAddress
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashMachExceptionServer.m
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashMachExceptionServer.o
+-[PLCrashMachExceptionServer init]
+-[PLCrashMachExceptionServer registerHandlerForTask:thread:withCallback:context:error:]
+_exception_server_thread
+-[PLCrashMachExceptionServer deregisterHandlerAndReturnError:]
+_set_exception_ports
+_exception_server_forward
+_OBJC_CLASS_$_PLCrashMachExceptionServer
+_OBJC_METACLASS_$_PLCrashMachExceptionServer
+_OBJC_IVAR_$_PLCrashMachExceptionServer._serverContext
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/DerivedSources/x86_64/
+mach_excUser.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/mach_excUser.o
+_mach_exception_raise
+_mach_exception_raise_state
+_mach_exception_raise_state_identity
+/Users/bamboo/bamboo-agent-home/xml-data/build-dir/DMT-DMI-JOB1/External/PLCrashReporter/Source/
+PLCrashAsyncAllocator.c
+/Users/bamboo/Library/Developer/Xcode/DerivedData/DevMateProblemReporter-blhpezlzkewgpraimaxbnsabbqnd/Build/Intermediates/CrashReporter.build/Release/CrashReporter-MacOSX.build/Objects-normal/x86_64/PLCrashAsyncAllocator.o
+_plcrash_async_allocator_new
+_plcrash_async_allocator_alloc
+/SourceCache/arclite/arclite-36/source/
+arclite.m
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_macosx.a(arclite.o)
+_objc_retainedObject
+_objc_unretainedObject
+_objc_unretainedPointer
+___ARCLite__load
+_add_image_hook_ARC
+_add_image_hook_GC
+___arclite_NSArray_objectAtIndexedSubscript
+___arclite_NSMutableArray_setObject_atIndexedSubscript
+___arclite_NSDictionary_objectForKeyedSubscript
+___arclite_NSMutableDictionary__setObject_forKeyedSubscript
+___arclite_NSOrderedSet_objectAtIndexedSubscript
+___arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+___arclite_objc_autoreleasePoolPop
+_patch_lazy_pointers
+___arclite_objc_autoreleasePoolPush
+___arclite_object_setInstanceVariable
+___arclite_object_setIvar
+___arclite_object_copy
+___arclite_objc_retain
+___arclite_objc_retainBlock
+___arclite_objc_release
+___arclite_objc_autorelease
+___arclite_objc_retainAutorelease
+___arclite_objc_autoreleaseReturnValue
+___arclite_objc_retainAutoreleaseReturnValue
+___arclite_objc_retainAutoreleasedReturnValue
+___arclite_objc_storeStrong
+__non_lazy_classes
+_OBJC_CLASS_RO_$___ARCLite__
+_OBJC_METACLASS_RO_$___ARCLite__
+_OBJC_$_CLASS_METHODS___ARCLite__
+_OBJC_CLASS_$___ARCLite__
+_OBJC_METACLASS_$___ARCLite__
+_add_image_hook_GC.names
+_add_image_hook_GC.pointers
+_add_image_hook_ARC.names
+_add_image_hook_ARC.pointers
++[PLCrashSignalHandler sharedHandler]
+-[PLCrashSignalHandler init]
+-[PLCrashSignalHandler registerHandlerForSignal:error:]
+_fatal_signal_handler
+-[PLCrashSignalHandler registerHandlerWithCallback:context:error:]
+_plframe_strerror
+_plframe_test_thread_spawn
+_test_stack_thr
+_plframe_test_thread_stop
+_plcrash_log_writer_init
+_plcrash_log_writer_set_exception
+_plcrash_log_writer_close
+_plcrash_log_writer_free
+_plcrash_log_writer_write
+_plcrash_writer_write_system_info
+_plcrash_writer_write_machine_info
+_plcrash_writer_write_process_info
+_plcrash_writer_write_thread
+_plcrash_writer_write_binary_image
+_plcrash_writer_write_exception
+_plcrash_writer_write_signal
+_plcrash_writer_write_thread_frame
+_plcrash_writer_write_thread_frame_symbol_cb
+_plcrash_writer_write_processor_info
+_plcrash_async_strerror
+_plcrash_async_read_addr
+_plcrash_async_strncmp
+_plcrash_async_memcpy
+_plcrash_async_writen
+_plcrash_async_file_init
+_plcrash_async_file_write
+_plcrash_async_file_flush
+_plcrash_async_file_close
+_plcrash_writer_pack
+_uint64_pack
++[PLCrashReporter initialize]
+_image_add_callback
+_image_remove_callback
++[PLCrashReporter sharedReporter]
+-[PLCrashReporter hasPendingCrashReport]
+-[PLCrashReporter loadPendingCrashReportData]
+-[PLCrashReporter loadPendingCrashReportDataAndReturnError:]
+-[PLCrashReporter purgePendingCrashReport]
+-[PLCrashReporter purgePendingCrashReportAndReturnError:]
+-[PLCrashReporter enableCrashReporter]
+-[PLCrashReporter enableCrashReporterAndReturnError:]
+_signal_handler_callback
+-[PLCrashReporter enableHandlingUncaughtExceptions]
+_uncaught_exception_handler
+-[PLCrashReporter generateLiveReportWithThread:]
+-[PLCrashReporter generateLiveReportWithThread:writer:error:]
+-[PLCrashReporter generateLiveReportWithThread:error:]
+-[PLCrashReporter generateLiveReport]
+-[PLCrashReporter generateLiveReportAndReturnError:]
+-[PLCrashReporter generateExceptionReport]
+-[PLCrashReporter generateExceptionReportAndReturnError:]
+-[PLCrashReporter generateExceptionReport:error:]
+-[PLCrashReporter setCrashCallbacks:]
+-[PLCrashReporter delegate]
+-[PLCrashReporter setDelegate:]
+-[PLCrashReporter(PrivateMethods) initWithApplicationIdentifier:appVersion:]
+-[PLCrashReporter(PrivateMethods) initWithBundle:]
+-[PLCrashReporter(PrivateMethods) dealloc]
+-[PLCrashReporter(PrivateMethods) populateCrashReportDirectoryAndReturnError:]
+-[PLCrashReporter(PrivateMethods) crashReportDirectory]
+-[PLCrashReporter(PrivateMethods) queuedCrashReportDirectory]
+-[PLCrashReporter(PrivateMethods) crashReportPath]
+___uncaught_exception_handler_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[PLCrashReport initWithData:error:]
+_populate_nserror
+-[PLCrashReport dealloc]
+-[PLCrashReport imageForAddress:]
+-[PLCrashReport hasMachineInfo]
+-[PLCrashReport hasProcessInfo]
+-[PLCrashReport hasExceptionInfo]
+-[PLCrashReport systemInfo]
+-[PLCrashReport machineInfo]
+-[PLCrashReport applicationInfo]
+-[PLCrashReport processInfo]
+-[PLCrashReport signalInfo]
+-[PLCrashReport threads]
+-[PLCrashReport images]
+-[PLCrashReport exceptionInfo]
+-[PLCrashReport(PrivateMethods) decodeCrashData:error:]
+-[PLCrashReport(PrivateMethods) extractSystemInfo:error:]
+-[PLCrashReport(PrivateMethods) extractProcessorInfo:error:]
+-[PLCrashReport(PrivateMethods) extractMachineInfo:error:]
+-[PLCrashReport(PrivateMethods) extractApplicationInfo:error:]
+-[PLCrashReport(PrivateMethods) extractProcessInfo:error:]
+-[PLCrashReport(PrivateMethods) extractSymbolInfo:error:]
+-[PLCrashReport(PrivateMethods) extractStackFrameInfo:error:]
+-[PLCrashReport(PrivateMethods) extractThreadInfo:error:]
+-[PLCrashReport(PrivateMethods) extractImageInfo:error:]
+-[PLCrashReport(PrivateMethods) extractExceptionInfo:error:]
+-[PLCrashReport(PrivateMethods) extractSignalInfo:error:]
+_plcrash__crash_report__init
+_plcrash__crash_report__get_packed_size
+_plcrash__crash_report__pack
+_plcrash__crash_report__pack_to_buffer
+_plcrash__crash_report__unpack
+_plcrash__crash_report__free_unpacked
+_protobuf_c_out_of_memory_default
+_system_alloc
+_system_free
+_protobuf_c_buffer_simple_append
+_protobuf_c_message_get_packed_size
+_required_field_get_packed_size
+_protobuf_c_message_pack
+_required_field_pack
+_protobuf_c_message_pack_to_buffer
+_required_field_pack_to_buffer
+_protobuf_c_message_unpack
+_protobuf_c_message_free_unpacked
+_protobuf_c_service_generated_init
+_service_machgen_invoke
+_protobuf_c_service_destroy
+_protobuf_c_enum_descriptor_get_value_by_name
+_protobuf_c_enum_descriptor_get_value
+_protobuf_c_message_descriptor_get_field_by_name
+_protobuf_c_message_descriptor_get_field
+_protobuf_c_service_descriptor_get_method_by_name
+_parse_required_member
+_parse_uint64
+_tag_pack
+_uint64_pack
+-[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:architecture:timestamp:]
+-[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:operatingSystemBuild:architecture:timestamp:]
+-[PLCrashReportSystemInfo dealloc]
+-[PLCrashReportSystemInfo operatingSystem]
+-[PLCrashReportSystemInfo operatingSystemVersion]
+-[PLCrashReportSystemInfo operatingSystemBuild]
+-[PLCrashReportSystemInfo architecture]
+-[PLCrashReportSystemInfo timestamp]
+-[PLCrashReportApplicationInfo initWithApplicationIdentifier:applicationVersion:]
+-[PLCrashReportApplicationInfo dealloc]
+-[PLCrashReportApplicationInfo applicationIdentifier]
+-[PLCrashReportApplicationInfo applicationVersion]
+-[PLCrashReportThreadInfo initWithThreadNumber:stackFrames:crashed:registers:]
+-[PLCrashReportThreadInfo dealloc]
+-[PLCrashReportThreadInfo threadNumber]
+-[PLCrashReportThreadInfo stackFrames]
+-[PLCrashReportThreadInfo crashed]
+-[PLCrashReportThreadInfo registers]
+-[PLCrashReportBinaryImageInfo initWithCodeType:baseAddress:size:name:uuid:]
+-[PLCrashReportBinaryImageInfo dealloc]
+-[PLCrashReportBinaryImageInfo codeType]
+-[PLCrashReportBinaryImageInfo imageBaseAddress]
+-[PLCrashReportBinaryImageInfo imageSize]
+-[PLCrashReportBinaryImageInfo imageName]
+-[PLCrashReportBinaryImageInfo hasImageUUID]
+-[PLCrashReportBinaryImageInfo imageUUID]
+-[PLCrashReportExceptionInfo initWithExceptionName:reason:]
+-[PLCrashReportExceptionInfo initWithExceptionName:reason:stackFrames:]
+-[PLCrashReportExceptionInfo dealloc]
+-[PLCrashReportExceptionInfo exceptionName]
+-[PLCrashReportExceptionInfo exceptionReason]
+-[PLCrashReportExceptionInfo stackFrames]
+_plcrash_async_signal_sigcode
+_plcrash_async_signal_signame
+-[PLCrashReportSignalInfo initWithSignalName:code:address:]
+-[PLCrashReportSignalInfo dealloc]
+-[PLCrashReportSignalInfo name]
+-[PLCrashReportSignalInfo code]
+-[PLCrashReportSignalInfo address]
+_plframe_cursor_init
+_plframe_cursor_thread_init
+_plframe_cursor_next
+_plframe_get_reg
+_plframe_get_freg
+_plframe_get_regname
+-[PLCrashReportProcessInfo initWithProcessName:processID:processPath:parentProcessName:parentProcessID:native:]
+-[PLCrashReportProcessInfo dealloc]
+-[PLCrashReportProcessInfo processName]
+-[PLCrashReportProcessInfo processID]
+-[PLCrashReportProcessInfo processPath]
+-[PLCrashReportProcessInfo parentProcessName]
+-[PLCrashReportProcessInfo parentProcessID]
+-[PLCrashReportProcessInfo native]
++[PLCrashReportTextFormatter stringValueForCrashReport:withTextFormat:]
++[PLCrashReportTextFormatter stringValueForCrashReport:withTextFormat:reporterVersion:]
+_binaryImageSort
+-[PLCrashReportTextFormatter initWithTextFormat:stringEncoding:]
+-[PLCrashReportTextFormatter formatReport:error:]
++[PLCrashReportTextFormatter(PrivateMethods) formatStackFrame:frameIndex:report:lp64:]
+_plcrash_nasync_image_list_init
+_plcrash_nasync_image_list_free
+_plcrash_nasync_image_list_append
+_plcrash_nasync_image_list_remove
+_plcrash_async_image_list_set_reading
+_plcrash_async_image_containing_address
+_plcrash_async_image_list_next
+-[PLCrashReportProcessorInfo initWithTypeEncoding:type:subtype:]
+-[PLCrashReportProcessorInfo typeEncoding]
+-[PLCrashReportProcessorInfo type]
+-[PLCrashReportProcessorInfo subtype]
+-[PLCrashReportMachineInfo initWithModelName:processorInfo:processorCount:logicalProcessorCount:]
+-[PLCrashReportMachineInfo dealloc]
+-[PLCrashReportMachineInfo modelName]
+-[PLCrashReportMachineInfo processorInfo]
+-[PLCrashReportMachineInfo processorCount]
+-[PLCrashReportMachineInfo logicalProcessorCount]
+_plcrash_sysctl_string
+_plcrash_sysctl_int
+_plcrash_log_writer_write_curthread
+_plcrash_log_writer_write_curthread_stub
+_plcrash_populate_error
+_plcrash_populate_mach_error
+_plcrash_populate_posix_error
+_plcrash_nasync_macho_init
+_macho_nswap16
+_macho_nswap32
+_macho_nswap64
+_macho_swap16
+_macho_swap32
+_macho_swap64
+_plcrash_async_macho_next_command_type
+_plcrash_async_macho_next_command
+_plcrash_async_macho_find_command
+_plcrash_async_macho_find_segment_cmd
+_plcrash_async_macho_map_segment
+_plcrash_async_macho_map_section
+_plcrash_async_macho_find_symbol
+_plcrash_async_macho_find_symtab_symbol
+_plcrash_async_macho_mapped_segment_free
+_plcrash_nasync_macho_free
+_plcrash_async_mobject_init
+_plcrash_async_mobject_verify_local_pointer
+_plcrash_async_mobject_remap_address
+_plcrash_async_mobject_free
+_plcrash_async_objc_cache_init
+_plcrash_async_objc_cache_free
+_free_mapped_sections
+_plcrash_async_objc_find_method
+_plcrash_async_objc_parse
+_pl_async_objc_find_method_search_callback
+_pl_async_objc_find_method_call_callback
+_pl_async_objc_parse_objc2_class
+_pl_async_parse_obj1_class
+_plcrash_async_symbol_cache_init
+_plcrash_async_symbol_cache_free
+_plcrash_async_find_symbol
+_macho_symbol_callback
+_objc_symbol_callback
+_plcrash_async_macho_string_init
+_plcrash_async_macho_string_get_length
+_plcrash_async_macho_string_read
+_plcrash_async_macho_string_get_pointer
+_plcrash_async_macho_string_free
+-[PLCrashReportStackFrameInfo initWithInstructionPointer:symbolInfo:]
+-[PLCrashReportStackFrameInfo dealloc]
+-[PLCrashReportStackFrameInfo instructionPointer]
+-[PLCrashReportStackFrameInfo symbolInfo]
+-[PLCrashReportRegisterInfo initWithRegisterName:registerValue:]
+-[PLCrashReportRegisterInfo dealloc]
+-[PLCrashReportRegisterInfo registerName]
+-[PLCrashReportRegisterInfo registerValue]
+-[PLCrashReportSymbolInfo initWithSymbolName:startAddress:endAddress:]
+-[PLCrashReportSymbolInfo dealloc]
+-[PLCrashReportSymbolInfo symbolName]
+-[PLCrashReportSymbolInfo startAddress]
+-[PLCrashReportSymbolInfo endAddress]
+-[PLCrashMachExceptionServer init]
+-[PLCrashMachExceptionServer registerHandlerForTask:thread:withCallback:context:error:]
+_exception_server_thread
+-[PLCrashMachExceptionServer deregisterHandlerAndReturnError:]
+_set_exception_ports
+_exception_server_forward
+_mach_exception_raise
+_mach_exception_raise_state
+_mach_exception_raise_state_identity
+_plcrash_async_allocator_new
+_plcrash_async_allocator_alloc
+_objc_retainedObject
+_objc_unretainedObject
+_objc_unretainedPointer
+___ARCLite__load
+_add_image_hook_ARC
+_add_image_hook_GC
+___arclite_NSArray_objectAtIndexedSubscript
+___arclite_NSMutableArray_setObject_atIndexedSubscript
+___arclite_NSDictionary_objectForKeyedSubscript
+___arclite_NSMutableDictionary__setObject_forKeyedSubscript
+___arclite_NSOrderedSet_objectAtIndexedSubscript
+___arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+___arclite_objc_autoreleasePoolPop
+_patch_lazy_pointers
+___arclite_objc_autoreleasePoolPush
+___arclite_object_setInstanceVariable
+___arclite_object_setIvar
+___arclite_object_copy
+___arclite_objc_retain
+___arclite_objc_retainBlock
+___arclite_objc_release
+___arclite_objc_autorelease
+___arclite_objc_retainAutorelease
+___arclite_objc_autoreleaseReturnValue
+___arclite_objc_retainAutoreleaseReturnValue
+___arclite_objc_retainAutoreleasedReturnValue
+___arclite_objc_storeStrong
+-[PLCrashReportBinaryImageInfo initWithCodeType:baseAddress:size:name:uuid:].hex
+_fatal_signals
+_plcrash__crash_report__processor__type_encoding__value_ranges
+_plcrash__crash_report__processor__field_indices_by_name
+_plcrash__crash_report__processor__number_ranges
+_plcrash__crash_report__system_info__operating_system__value_ranges
+_plcrash__crash_report__system_info__field_indices_by_name
+_plcrash__crash_report__system_info__number_ranges
+_plcrash__crash_report__application_info__field_indices_by_name
+_plcrash__crash_report__application_info__number_ranges
+_plcrash__crash_report__symbol__field_indices_by_name
+_plcrash__crash_report__symbol__number_ranges
+_plcrash__crash_report__thread__stack_frame__field_indices_by_name
+_plcrash__crash_report__thread__stack_frame__number_ranges
+_plcrash__crash_report__thread__register_value__field_indices_by_name
+_plcrash__crash_report__thread__register_value__number_ranges
+_plcrash__crash_report__thread__field_indices_by_name
+_plcrash__crash_report__thread__number_ranges
+_plcrash__crash_report__binary_image__field_indices_by_name
+_plcrash__crash_report__binary_image__number_ranges
+_plcrash__crash_report__exception__field_indices_by_name
+_plcrash__crash_report__exception__number_ranges
+_plcrash__crash_report__signal__field_indices_by_name
+_plcrash__crash_report__signal__number_ranges
+_plcrash__crash_report__process_info__field_indices_by_name
+_plcrash__crash_report__process_info__number_ranges
+_plcrash__crash_report__machine_info__field_indices_by_name
+_plcrash__crash_report__machine_info__number_ranges
+_plcrash__crash_report__report_info__field_indices_by_name
+_plcrash__crash_report__report_info__number_ranges
+_plcrash__crash_report__field_indices_by_name
+_plcrash__crash_report__number_ranges
+_plcrash__architecture__value_ranges
+_plcrash__crash_report__system_info__operating_system__default_value
+_plcrash__crash_report__system_info__architecture__default_value
+_plcrash__crash_report__processor__encoding__default_value
+__load_method_name
+__class_name
+__load_method_type
+GCC_except_table11
+GCC_except_table15
+___block_descriptor_tmp
+_plcrash__crash_report__init.init_value
+_plcrash__crash_report__descriptor
+_plcrash__crash_report__processor__type_encoding__enum_values_by_number
+_plcrash__crash_report__processor__type_encoding__enum_values_by_name
+_plcrash__crash_report__processor__type_encoding__descriptor
+_plcrash__crash_report__processor__field_descriptors
+_plcrash__crash_report__processor__descriptor
+_plcrash__crash_report__system_info__operating_system__enum_values_by_number
+_plcrash__crash_report__system_info__operating_system__enum_values_by_name
+_plcrash__crash_report__system_info__operating_system__descriptor
+_plcrash__crash_report__system_info__field_descriptors
+_plcrash__crash_report__system_info__descriptor
+_plcrash__crash_report__application_info__field_descriptors
+_plcrash__crash_report__application_info__descriptor
+_plcrash__crash_report__symbol__field_descriptors
+_plcrash__crash_report__symbol__descriptor
+_plcrash__crash_report__thread__stack_frame__field_descriptors
+_plcrash__crash_report__thread__stack_frame__descriptor
+_plcrash__crash_report__thread__register_value__field_descriptors
+_plcrash__crash_report__thread__register_value__descriptor
+_plcrash__crash_report__thread__field_descriptors
+_plcrash__crash_report__thread__descriptor
+_plcrash__crash_report__binary_image__field_descriptors
+_plcrash__crash_report__binary_image__descriptor
+_plcrash__crash_report__exception__field_descriptors
+_plcrash__crash_report__exception__descriptor
+_plcrash__crash_report__signal__field_descriptors
+_plcrash__crash_report__signal__descriptor
+_plcrash__crash_report__process_info__field_descriptors
+_plcrash__crash_report__process_info__descriptor
+_plcrash__crash_report__machine_info__field_descriptors
+_plcrash__crash_report__machine_info__descriptor
+_plcrash__crash_report__report_info__field_descriptors
+_plcrash__crash_report__report_info__descriptor
+_plcrash__crash_report__field_descriptors
+_plcrash__architecture__enum_values_by_number
+_plcrash__architecture__enum_values_by_name
+_plcrash__architecture__descriptor
+_signal_codes
+_signal_names
+__non_lazy_classes
+_OBJC_CLASS_RO_$___ARCLite__
+_OBJC_METACLASS_RO_$___ARCLite__
+_OBJC_$_CLASS_METHODS___ARCLite__
+_OBJC_METACLASS_$_PLCrashSignalHandler
+_OBJC_METACLASS_$_PLCrashReporter
+_OBJC_METACLASS_$_PLCrashReport
+_OBJC_METACLASS_$_PLCrashReportSystemInfo
+_OBJC_METACLASS_$_PLCrashReportApplicationInfo
+_OBJC_METACLASS_$_PLCrashReportThreadInfo
+_OBJC_METACLASS_$_PLCrashReportBinaryImageInfo
+_OBJC_METACLASS_$_PLCrashReportExceptionInfo
+_OBJC_METACLASS_$_PLCrashReportSignalInfo
+_OBJC_METACLASS_$_PLCrashReportProcessInfo
+_OBJC_METACLASS_$_PLCrashReportTextFormatter
+_OBJC_METACLASS_$_PLCrashReportProcessorInfo
+_OBJC_METACLASS_$_PLCrashReportMachineInfo
+_OBJC_METACLASS_$_PLCrashReportStackFrameInfo
+_OBJC_METACLASS_$_PLCrashReportRegisterInfo
+_OBJC_METACLASS_$_PLCrashReportSymbolInfo
+_OBJC_METACLASS_$_PLCrashMachExceptionServer
+_OBJC_CLASS_$___ARCLite__
+_OBJC_METACLASS_$___ARCLite__
+_protobuf_c_out_of_memory
+_protobuf_c_default_allocator
+_protobuf_c_system_allocator
+_add_image_hook_GC.names
+_add_image_hook_GC.pointers
+_add_image_hook_ARC.names
+_add_image_hook_ARC.pointers
+_OBJC_IVAR_$_PLCrashSignalHandler._sigstk
+_OBJC_IVAR_$_PLCrashReporter._enabled
+_OBJC_IVAR_$_PLCrashReporter._applicationIdentifier
+_OBJC_IVAR_$_PLCrashReporter._applicationVersion
+_OBJC_IVAR_$_PLCrashReporter.delegate
+_OBJC_IVAR_$_PLCrashReporter._crashReportDirectory
+_OBJC_IVAR_$_PLCrashReport._decoder
+_OBJC_IVAR_$_PLCrashReport._systemInfo
+_OBJC_IVAR_$_PLCrashReport._machineInfo
+_OBJC_IVAR_$_PLCrashReport._applicationInfo
+_OBJC_IVAR_$_PLCrashReport._processInfo
+_OBJC_IVAR_$_PLCrashReport._signalInfo
+_OBJC_IVAR_$_PLCrashReport._threads
+_OBJC_IVAR_$_PLCrashReport._images
+_OBJC_IVAR_$_PLCrashReport._exceptionInfo
+_OBJC_IVAR_$_PLCrashReportSystemInfo._operatingSystem
+_OBJC_IVAR_$_PLCrashReportSystemInfo._osVersion
+_OBJC_IVAR_$_PLCrashReportSystemInfo._osBuild
+_OBJC_IVAR_$_PLCrashReportSystemInfo._architecture
+_OBJC_IVAR_$_PLCrashReportSystemInfo._timestamp
+_OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationIdentifier
+_OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationVersion
+_OBJC_IVAR_$_PLCrashReportThreadInfo._threadNumber
+_OBJC_IVAR_$_PLCrashReportThreadInfo._stackFrames
+_OBJC_IVAR_$_PLCrashReportThreadInfo._crashed
+_OBJC_IVAR_$_PLCrashReportThreadInfo._registers
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._baseAddress
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageSize
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageName
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._processorInfo
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._hasImageUUID
+_OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageUUID
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._name
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._reason
+_OBJC_IVAR_$_PLCrashReportExceptionInfo._stackFrames
+_OBJC_IVAR_$_PLCrashReportSignalInfo._name
+_OBJC_IVAR_$_PLCrashReportSignalInfo._code
+_OBJC_IVAR_$_PLCrashReportSignalInfo._address
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processName
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processID
+_OBJC_IVAR_$_PLCrashReportProcessInfo._processPath
+_OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessName
+_OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessID
+_OBJC_IVAR_$_PLCrashReportProcessInfo._native
+_OBJC_IVAR_$_PLCrashReportTextFormatter._textFormat
+_OBJC_IVAR_$_PLCrashReportTextFormatter._stringEncoding
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._typeEncoding
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._type
+_OBJC_IVAR_$_PLCrashReportProcessorInfo._subtype
+_OBJC_IVAR_$_PLCrashReportMachineInfo._modelName
+_OBJC_IVAR_$_PLCrashReportMachineInfo._processorInfo
+_OBJC_IVAR_$_PLCrashReportMachineInfo._processorCount
+_OBJC_IVAR_$_PLCrashReportMachineInfo._logicalProcessorCount
+_OBJC_IVAR_$_PLCrashReportStackFrameInfo._instructionPointer
+_OBJC_IVAR_$_PLCrashReportStackFrameInfo._symbolInfo
+_OBJC_IVAR_$_PLCrashReportRegisterInfo._registerName
+_OBJC_IVAR_$_PLCrashReportRegisterInfo._registerValue
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._symbolName
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._startAddress
+_OBJC_IVAR_$_PLCrashReportSymbolInfo._endAddress
+_OBJC_IVAR_$_PLCrashMachExceptionServer._serverContext
+_SharedHandlerContext
+_shared_image_list
+_sharedReporter
+_signal_handler_context
+_crashCallbacks.1
+_crashCallbacks.2
+_OBJC_CLASS_$_PLCrashMachExceptionServer
+_OBJC_CLASS_$_PLCrashReport
+_OBJC_CLASS_$_PLCrashReportApplicationInfo
+_OBJC_CLASS_$_PLCrashReportBinaryImageInfo
+_OBJC_CLASS_$_PLCrashReportExceptionInfo
+_OBJC_CLASS_$_PLCrashReportMachineInfo
+_OBJC_CLASS_$_PLCrashReportProcessInfo
+_OBJC_CLASS_$_PLCrashReportProcessorInfo
+_OBJC_CLASS_$_PLCrashReportRegisterInfo
+_OBJC_CLASS_$_PLCrashReportSignalInfo
+_OBJC_CLASS_$_PLCrashReportStackFrameInfo
+_OBJC_CLASS_$_PLCrashReportSymbolInfo
+_OBJC_CLASS_$_PLCrashReportSystemInfo
+_OBJC_CLASS_$_PLCrashReportTextFormatter
+_OBJC_CLASS_$_PLCrashReportThreadInfo
+_OBJC_CLASS_$_PLCrashReporter
+_OBJC_CLASS_$_PLCrashSignalHandler
+_PLCrashReportHostArchitecture
+_PLCrashReportHostOperatingSystem
+_PLCrashReporterErrorDomain
+_PLCrashReporterException
+_Gestalt
+_NDR_record
+_NSAccessibilityException
+_NSFilePosixPermissions
+_NSLocalizedDescriptionKey
+_NSLog
+_NSMachErrorDomain
+_NSPOSIXErrorDomain
+_NSSearchPathForDirectoriesInDomains
+_NSSetUncaughtExceptionHandler
+_NSTemporaryDirectory
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOrderedSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_METACLASS_$_NSObject
+_OSAtomicAdd32Barrier
+_OSAtomicCompareAndSwap32Barrier
+_OSAtomicCompareAndSwapPtrBarrier
+_OSMemoryBarrier
+_OSSpinLockLock
+_OSSpinLockUnlock
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__NSGetExecutablePath
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___error
+___memcpy_chk
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+__dyld_register_func_for_add_image
+__dyld_register_func_for_remove_image
+__objc_empty_cache
+__objc_empty_vtable
+_abort
+_asprintf
+_calloc
+_class_addMethod
+_class_getInstanceMethod
+_class_getInstanceSize
+_class_getInstanceVariable
+_class_getIvarLayout
+_class_getSuperclass
+_close
+_dispatch_async
+_dispatch_get_global_queue
+_dladdr
+_fprintf
+_free
+_fwrite
+_getpid
+_getppid
+_getprogname
+_ivar_getName
+_ivar_getOffset
+_kCFBundleVersionKey
+_mach_msg
+_mach_port_allocate
+_mach_port_deallocate
+_mach_port_insert_right
+_mach_port_mod_refs
+_mach_task_self_
+_mach_thread_self
+_mach_vm_read_overwrite
+_mach_vm_remap
+_malloc
+_memcmp
+_memcpy
+_memmove
+_mig_dealloc_reply_port
+_mig_get_reply_port
+_mig_put_reply_port
+_mkstemp
+_objc_autoreleasePoolPush
+_objc_collectingEnabled
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_retain
+_objc_sync_enter
+_objc_sync_exit
+_object_getClass
+_object_setIvar
+_open
+_printf
+_protocol_getMethodDescription
+_pthread_attr_destroy
+_pthread_attr_init
+_pthread_attr_setdetachstate
+_pthread_cond_destroy
+_pthread_cond_init
+_pthread_cond_signal
+_pthread_cond_wait
+_pthread_create
+_pthread_get_stackaddr_np
+_pthread_get_stacksize_np
+_pthread_join
+_pthread_main_np
+_pthread_mutex_destroy
+_pthread_mutex_init
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_pthread_self
+_putchar
+_raise
+_sigaction
+_sigaltstack
+_sigprocmask
+_strcmp
+_strdup
+_strerror
+_strlen
+_strsignal
+_sysctl
+_sysctlbyname
+_task_set_exception_ports
+_task_swap_exception_ports
+_task_threads
+_thread_get_state
+_thread_resume
+_thread_set_exception_ports
+_thread_suspend
+_thread_swap_exception_ports
+_time
+_unlink
+_vm_allocate
+_vm_deallocate
+_vm_page_size
+_vm_protect
+_write
+dyld_stub_binder

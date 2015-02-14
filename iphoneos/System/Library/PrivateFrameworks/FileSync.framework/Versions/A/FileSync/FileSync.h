@@ -1,0 +1,9 @@
+#import <FileSync/SFBase.h>
+#import <FileSync/SFFileSyncManager.h>
+#import <FileSync/SFSyncSet.h>
+#import <FileSync/SFPHDSyncSet.h>
+#import <FileSync/SFPeer.h>
+#import <FileSync/SFSyncSetPrivates.h>
+#import <FileSync/IPCProxyObject.h>
+#import <FileSync/IPCReturnedException.h>
+#import <FileSync/IPCObjectRef.h>

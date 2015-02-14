@@ -1,0 +1,412 @@
+-[XPCConnection initWithServiceName:]
+-[XPCConnection initWithConnection:]
+-[XPCConnection dealloc]
+___24-[XPCConnection dealloc]_block_invoke
+-[XPCConnection setDispatchQueue:]
+-[XPCConnection receiveConnection:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[XPCConnection receiveConnection:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XPCConnection sendMessage:]
+___29-[XPCConnection sendMessage:]_block_invoke
+___copy_helper_block_27
+___destroy_helper_block_28
+-[XPCConnection sendMessage:withReply:]
+-[XPCConnection sendMessage:withReply:errorHandler:]
+___52-[XPCConnection sendMessage:withReply:errorHandler:]_block_invoke
+___52-[XPCConnection sendMessage:withReply:errorHandler:]_block_invoke_2
+___copy_helper_block_43
+___destroy_helper_block_44
+___copy_helper_block_47
+___destroy_helper_block_48
+-[XPCConnection sendSelector:withTarget:object:returnValueHandler:]
+___67-[XPCConnection sendSelector:withTarget:object:returnValueHandler:]_block_invoke
+___copy_helper_block_57
+___destroy_helper_block_58
+___67-[XPCConnection sendSelector:withTarget:object:returnValueHandler:]_block_invoke62
+___copy_helper_block_63
+___destroy_helper_block_64
+-[XPCConnection connectionName]
+___31-[XPCConnection connectionName]_block_invoke
+___copy_helper_block_68
+___destroy_helper_block_69
+-[XPCConnection connectionEUID]
+___31-[XPCConnection connectionEUID]_block_invoke
+___copy_helper_block_75
+___destroy_helper_block_76
+-[XPCConnection connectionEGID]
+___31-[XPCConnection connectionEGID]_block_invoke
+___copy_helper_block_82
+___destroy_helper_block_83
+-[XPCConnection connectionProcessID]
+___36-[XPCConnection connectionProcessID]_block_invoke
+___copy_helper_block_86
+___destroy_helper_block_87
+-[XPCConnection connectionAuditSessionID]
+___41-[XPCConnection connectionAuditSessionID]_block_invoke
+___copy_helper_block_90
+___destroy_helper_block_91
+-[XPCConnection suspend]
+___24-[XPCConnection suspend]_block_invoke
+___copy_helper_block_94
+___destroy_helper_block_95
+-[XPCConnection resume]
+___23-[XPCConnection resume]_block_invoke
+___copy_helper_block_98
+___destroy_helper_block_99
+-[XPCConnection sendLog:]
+-[XPCConnection eventHandler]
+-[XPCConnection setEventHandler:]
+-[XPCConnection dispatchQueue]
+-[XPCConnection connection]
++[XPCUUID uuid]
++[XPCUUID uuidWithXPCObject:]
+-[XPCUUID newXPCObject]
+-[XPCUUID string]
+-[XPCUUID description]
+-[XPCUUID isEqual:]
+-[XPCUUID hash]
+-[XPCUUID initWithUUIDRef:]
+-[XPCUUID dealloc]
+-[XPCUUID uuidRef]
+-[XPCService initWithConnectionHandler:]
+___40-[XPCService initWithConnectionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[XPCService runService]
+_XPCServiceConnectionHandler
+-[XPCService handleConnection:]
++[XPCService runServiceWithConnectionHandler:]
+-[XPCService connectionHandler]
+-[XPCService setConnectionHandler:]
+-[XPCService connections]
++[NSObject(XPCParse) objectWithXPCObject:]
+-[NSObject(XPCParse) newXPCObject]
++[NSData(XPCParse) dataWithXPCObject:]
++[NSData(XPCParse) objectWithXPCObject:]
+-[NSData(XPCParse) newXPCObject]
++[NSString(XPCParse) stringWithXPCObject:]
+-[NSString(XPCParse) newXPCObject]
++[NSNumber(XPCParse) numberWithXPCObject:]
+-[NSNumber(XPCParse) newXPCObject]
++[NSArray(XPCParse) arrayWithContentsOfXPCObject:]
+___50+[NSArray(XPCParse) arrayWithContentsOfXPCObject:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSArray(XPCParse) newXPCObject]
+___33-[NSArray(XPCParse) newXPCObject]_block_invoke
++[NSDictionary(XPCParse) dictionaryWithContentsOfXPCObject:]
+___60+[NSDictionary(XPCParse) dictionaryWithContentsOfXPCObject:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSDictionary(XPCParse) newXPCObject]
++[NSFileHandle(XPCParse) fileHandleWithXPCObject:]
+-[NSFileHandle(XPCParse) newXPCObject]
++[NSDate(XPCParse) dateWithXPCObject:]
+-[NSDate(XPCParse) newXPCObject]
+-[XPCMessage setXPCDictionary:]
++[XPCMessage message]
++[XPCMessage messageWithXPCDictionary:]
++[XPCMessage messageReplyForMessage:]
++[XPCMessage messageWithObjects:forKeys:]
++[XPCMessage messageWithObject:forKey:]
++[XPCMessage messageWithObjectsAndKeys:]
++[XPCMessage messageWithSelector:target:object:]
+-[XPCMessage initWithXPCDictionary:]
+-[XPCMessage _initReplyForMessage:]
+-[XPCMessage initReplyForMessage:]
+-[XPCMessage initWithSelector:target:object:]
+-[XPCMessage initWithObjects:forKeys:]
+-[XPCMessage initWithObject:forKey:]
+-[XPCMessage _initWithFirstObject:arguments:]
+-[XPCMessage initWithObjectsAndKeys:]
+-[XPCMessage init]
+-[XPCMessage dealloc]
+-[XPCMessage objectForKey:]
+-[XPCMessage arrayForKey:]
+-[XPCMessage dictionaryForKey:]
+-[XPCMessage stringForKey:]
+-[XPCMessage URLForKey:]
+-[XPCMessage dataForKey:]
+-[XPCMessage boolForKey:]
+-[XPCMessage floatForKey:]
+-[XPCMessage integerForKey:]
+-[XPCMessage doubleForKey:]
+-[XPCMessage setObject:forKey:]
+-[XPCMessage setBool:forKey:]
+-[XPCMessage setDouble:forKey:]
+-[XPCMessage setFloat:forKey:]
+-[XPCMessage setInteger:forKey:]
+-[XPCMessage invocable]
+-[XPCMessage invoke]
+-[XPCMessage description]
+___25-[XPCMessage description]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[XPCMessage(XPCKitInternal) errorForXPCObject:]
+-[XPCMessage(XPCKitInternal) XPCDictionary]
+-[XPCMessage(XPCKitInternal) needsDirectReply]
+-[XPCMessage(XPCKitInternal) setNeedsDirectReply:]
+-[XPCMessage(XPCKitInternal) invocationReturnValue:]
+___SBIsSandboxed_block_invoke
+__SBPreferencesDictionary
+__SBGetValue
+___XPCPerformSelectorAsync_block_invoke
+___XPCPerformSelectorAsync_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_5
+___destroy_helper_block_6
+___ARCLite__load
+_add_image_hook_ARC
+_add_image_hook_GC
+___arclite_NSArray_objectAtIndexedSubscript
+___arclite_NSMutableArray_setObject_atIndexedSubscript
+___arclite_NSDictionary_objectForKeyedSubscript
+___arclite_NSMutableDictionary__setObject_forKeyedSubscript
+___arclite_NSOrderedSet_objectAtIndexedSubscript
+___arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+___arclite_objc_autoreleasePoolPop
+_patch_lazy_pointers
+___arclite_objc_autoreleasePoolPush
+___arclite_object_setInstanceVariable
+___arclite_object_setIvar
+___arclite_object_copy
+___arclite_objc_retain
+___arclite_objc_retainBlock
+___arclite_objc_release
+___arclite_objc_autorelease
+___arclite_objc_retainAutorelease
+___arclite_objc_autoreleaseReturnValue
+___arclite_objc_retainAutoreleaseReturnValue
+___arclite_objc_retainAutoreleasedReturnValue
+___arclite_objc_storeStrong
+GCC_except_table5
+GCC_except_table30
+GCC_except_table34
+GCC_except_table38
+GCC_except_table42
+GCC_except_table46
+GCC_except_table1
+__load_method_name
+__class_name
+__load_method_type
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp24
+___block_descriptor_tmp31
+___block_descriptor_tmp46
+___block_descriptor_tmp50
+___block_descriptor_tmp61
+___block_descriptor_tmp67
+___block_descriptor_tmp71
+___block_descriptor_tmp78
+___block_descriptor_tmp85
+___block_descriptor_tmp89
+___block_descriptor_tmp93
+___block_descriptor_tmp97
+___block_descriptor_tmp101
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp14
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp8
+__non_lazy_classes
+_OBJC_CLASS_RO_$___ARCLite__
+_OBJC_METACLASS_RO_$___ARCLite__
+_OBJC_$_CLASS_METHODS___ARCLite__
+_OBJC_CLASS_$___ARCLite__
+_OBJC_METACLASS_$___ARCLite__
+_OBJC_IVAR_$_XPCConnection._eventHandler
+_OBJC_IVAR_$_XPCUUID._uuidRef
+_OBJC_IVAR_$_XPCService._connections
+_OBJC_IVAR_$_XPCService.connectionHandler
+_add_image_hook_GC.names
+_add_image_hook_GC.pointers
+_add_image_hook_ARC.names
+_add_image_hook_ARC.pointers
+_SBIsSandboxed.sIsSandboxed
+_SBIsSandboxed.sIsSandboxedToken
+_OBJC_CLASS_$_XPCConnection
+_OBJC_CLASS_$_XPCMessage
+_OBJC_CLASS_$_XPCService
+_OBJC_CLASS_$_XPCUUID
+_OBJC_IVAR_$_XPCConnection._connection
+_OBJC_IVAR_$_XPCConnection._dispatchQueue
+_OBJC_IVAR_$_XPCMessage._XPCDictionary
+_OBJC_METACLASS_$_XPCConnection
+_OBJC_METACLASS_$_XPCMessage
+_OBJC_METACLASS_$_XPCService
+_OBJC_METACLASS_$_XPCUUID
+_SBApplicationContainerHomeDirectory
+_SBHomeDirectory
+_SBIsSandboxed
+_SBPreferencesCopyAppValue
+_XPCPerformSelectorAsync
+_objc_retainedObject
+_objc_unretainedObject
+_objc_unretainedPointer
+_CFPreferencesCopyAppValue
+_CFRelease
+_CFRetain
+_CFUUIDCreate
+_CFUUIDCreateFromUUIDBytes
+_CFUUIDCreateString
+_CFUUIDGetUUIDBytes
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLog
+_NSSelectorFromString
+_NSStringFromSelector
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSOrderedSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_SecCodeCheckValidity
+_SecCodeCopySelf
+_SecRequirementCreateWithString
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dyld_register_func_for_add_image
+__objc_empty_cache
+__objc_empty_vtable
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_key_description
+__xpc_error_termination_imminent
+__xpc_type_array
+__xpc_type_bool
+__xpc_type_data
+__xpc_type_date
+__xpc_type_dictionary
+__xpc_type_double
+__xpc_type_error
+__xpc_type_fd
+__xpc_type_int64
+__xpc_type_shmem
+__xpc_type_string
+__xpc_type_uint64
+__xpc_type_uuid
+_abort
+_calloc
+_class_addMethod
+_class_getInstanceMethod
+_class_getInstanceSize
+_class_getInstanceVariable
+_class_getIvarLayout
+_class_getSuperclass
+_dispatch_async
+_dispatch_get_current_queue
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_retain
+_dispatch_sync
+_free
+_getpwuid
+_getuid
+_ivar_getName
+_ivar_getOffset
+_kCFBooleanFalse
+_kCFBooleanTrue
+_malloc
+_memmove
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_autoreleasePoolPush
+_objc_begin_catch
+_objc_collectingEnabled
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_objc_retain
+_objc_setProperty
+_object_getClass
+_object_setIvar
+_protocol_getMethodDescription
+_strcmp
+_xpc_array_apply
+_xpc_array_create
+_xpc_array_set_value
+_xpc_bool_create
+_xpc_bool_get_value
+_xpc_connection_cancel
+_xpc_connection_create
+_xpc_connection_get_asid
+_xpc_connection_get_egid
+_xpc_connection_get_euid
+_xpc_connection_get_name
+_xpc_connection_get_pid
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply
+_xpc_connection_set_event_handler
+_xpc_connection_set_target_queue
+_xpc_connection_suspend
+_xpc_data_create
+_xpc_data_get_bytes_ptr
+_xpc_data_get_length
+_xpc_date_create
+_xpc_date_get_value
+_xpc_dictionary_apply
+_xpc_dictionary_create
+_xpc_dictionary_create_reply
+_xpc_dictionary_get_value
+_xpc_dictionary_set_value
+_xpc_double_create
+_xpc_double_get_value
+_xpc_fd_create
+_xpc_fd_dup
+_xpc_get_type
+_xpc_int64_create
+_xpc_int64_get_value
+_xpc_main
+_xpc_release
+_xpc_retain
+_xpc_string_create
+_xpc_string_get_string_ptr
+_xpc_uint64_create
+_xpc_uint64_get_value
+_xpc_uuid_create
+_xpc_uuid_get_bytes
+dyld_stub_binder
