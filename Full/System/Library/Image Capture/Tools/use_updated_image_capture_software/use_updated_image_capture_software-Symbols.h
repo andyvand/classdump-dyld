@@ -1,0 +1,6 @@
+_main
+__mh_execute_header
+_OBJC_CLASS_$_NSAutoreleasePool
+__ICDidInstallNewImageCaptureSoftware
+_objc_msgSend
+dyld_stub_binder

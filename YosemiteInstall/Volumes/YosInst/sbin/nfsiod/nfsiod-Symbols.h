@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_atoi
+_err
+_errx
+_exit
+_fwrite
+_getopt
+_optarg
+_optind
+_printf
+_putchar
+_sysctlbyname
+_warnx
+dyld_stub_binder

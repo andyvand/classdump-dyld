@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+_CFBundleGetLocalInfoDictionary
+_CFBundleGetMainBundle
+_CFBundleGetValueForInfoDictionaryKey
+_NSLog
+___CFConstantStringClassReference
+_close
+_dlerror
+_dlopen
+_dlsym
+_getdtablesize
+_kevent
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+dyld_stub_binder

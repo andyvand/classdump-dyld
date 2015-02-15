@@ -1,0 +1,7 @@
+radr://5614542
+__mh_execute_header
+_CountComponents
+_InvalidateFolderDescriptorCache
+_TSMGetInputSourceCount
+_TSMUnrestrictInputSourceAccess
+dyld_stub_binder

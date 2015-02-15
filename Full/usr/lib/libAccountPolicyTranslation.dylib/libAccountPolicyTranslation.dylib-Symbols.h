@@ -1,0 +1,15 @@
+radr://5614542
+_APCategoryAndIdentifierForLegacyPolicyName
+_APLegacyPoliciesWithPolicySet
+_APPolicySetWithLegacyPolicies
+_kAPLegacyPolicyCategory
+_kAPLegacyPolicyIdentifier
+_CFRetain
+__APAutoreleasePoolAlloc
+__APAutoreleasePoolRelease
+___CFConstantStringClassReference
+_class_getClassMethod
+_method_getImplementation
+_objc_getClass
+_sel_getUid
+dyld_stub_binder

@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+__exit
+_execvp
+_exit
+_fprintf
+_fwrite
+_getopt
+_gettimeofday
+_optind
+_perror
+_signal
+_vfork
+_wait3
+dyld_stub_binder

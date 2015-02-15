@@ -1,0 +1,9 @@
+#import <makequeuesagent/DownloadTriggerOperation.h>
+#import <makequeuesagent/MakequeuesController.h>
+#import <makequeuesagent/MakequeueOperation.h>
+#import <makequeuesagent/MakequeuesPrinterObject.h>
+#import <makequeuesagent/USBPrinterObject.h>
+#import <makequeuesagent/ScannerObject.h>
+#import <makequeuesagent/IPPUSBObject.h>
+#import <makequeuesagent/AirPrintProfilePrinterObject.h>
+#import <makequeuesagent/PPDManager.h>

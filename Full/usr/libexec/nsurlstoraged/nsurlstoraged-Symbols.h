@@ -1,0 +1,1007 @@
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageDB.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageDB.o
+-[NSURLStorageDB init]
+-[NSURLStorageDB initWithDBPath:maxSize:clientPid:]
+-[NSURLStorageDB initWithDBPath:maxSize:clientPid:schemaCheck:]
+-[NSURLStorageDB dealloc]
+-[NSURLStorageDB _openDB]
+-[NSURLStorageDB checkAccessToDatabaseFile]
+-[NSURLStorageDB _openDBWriteConnections]
+-[NSURLStorageDB _openDBReadConnections]
+-[NSURLStorageDB openReadWriteConnection]
+-[NSURLStorageDB closeConnection:]
+-[NSURLStorageDB _closeDB]
+-[NSURLStorageDB _closeDBWriteConnections]
+___42-[NSURLStorageDB _closeDBWriteConnections]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageDB _closeDBReadConnections]
+-[NSURLStorageDB dbPathDirectory]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/NSURLStorageDB.h
+-[NSURLStorageDB setDbPathDirectory:]
+-[NSURLStorageDB dbPathFile]
+-[NSURLStorageDB setDbPathFile:]
+-[NSURLStorageDB isDBOpen]
+-[NSURLStorageDB setIsDBOpen:]
+-[NSURLStorageDB maxDBSize]
+-[NSURLStorageDB setMaxDBSize:]
+-[NSURLStorageDB clientPid]
+-[NSURLStorageDB setClientPid:]
+-[NSURLStorageDB .cxx_destruct]
+___clang_call_terminate
+GCC_except_table0
+GCC_except_table1
+GCC_except_table3
+GCC_except_table6
+GCC_except_table12
+___block_descriptor_tmp
+_OBJC_IVAR_$_NSURLStorageDB._dbReadConnection
+_OBJC_IVAR_$_NSURLStorageDB._dbWriteConnection
+_OBJC_IVAR_$_NSURLStorageDB._dbReadConnectionLock
+_OBJC_IVAR_$_NSURLStorageDB._dbWriteConnectionLock
+_OBJC_IVAR_$_NSURLStorageDB._dbPathDirectory
+_OBJC_IVAR_$_NSURLStorageDB._dbPathFile
+_OBJC_IVAR_$_NSURLStorageDB._isDBOpen
+_OBJC_IVAR_$_NSURLStorageDB._maxDBSize
+_OBJC_IVAR_$_NSURLStorageDB._clientPid
+_OBJC_CLASS_$_NSURLStorageDB
+_OBJC_METACLASS_$_NSURLStorageDB
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskCopyAllPartitionNames.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskCopyAllPartitionNames.o
+-[NSURLStorageTaskCopyAllPartitionNames initWithTaskManager:]
+-[NSURLStorageTaskCopyAllPartitionNames runWithCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___59-[NSURLStorageTaskCopyAllPartitionNames runWithCompletion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+___block_descriptor_tmp
+_OBJC_CLASS_$_NSURLStorageTaskCopyAllPartitionNames
+_OBJC_METACLASS_$_NSURLStorageTaskCopyAllPartitionNames
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskManager.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskManager.o
+-[NSURLStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+-[NSURLStorageTaskManager dealloc]
+-[NSURLStorageTaskManager updateFileSystemUsageCounters]
+-[NSURLStorageTaskManager persistentDB]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/NSURLStorageTaskManager.h
+-[NSURLStorageTaskManager setPersistentDB:]
+-[NSURLStorageTaskManager identityForManager]
+-[NSURLStorageTaskManager setIdentityForManager:]
+-[NSURLStorageTaskManager xpcConnectionToRemoteEndpoint]
+-[NSURLStorageTaskManager setXpcConnectionToRemoteEndpoint:]
+-[NSURLStorageTaskManager sandboxExtensionData]
+-[NSURLStorageTaskManager setSandboxExtensionData:]
+-[NSURLStorageTaskManager clientPid]
+-[NSURLStorageTaskManager setClientPid:]
+-[NSURLStorageTaskManager .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table3
+_OBJC_IVAR_$_NSURLStorageTaskManager._sandboxExtensionHandle
+_OBJC_IVAR_$_NSURLStorageTaskManager._persistentDB
+_OBJC_IVAR_$_NSURLStorageTaskManager._identityForManager
+_OBJC_IVAR_$_NSURLStorageTaskManager._xpcConnectionToRemoteEndpoint
+_OBJC_IVAR_$_NSURLStorageTaskManager._sandboxExtensionData
+_OBJC_IVAR_$_NSURLStorageTaskManager._clientPid
+_OBJC_CLASS_$_NSURLStorageTaskManager
+_OBJC_METACLASS_$_NSURLStorageTaskManager
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskDeleteResponseForRequest.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskDeleteResponseForRequest.o
+-[NSURLStorageTaskDeleteResponseForRequest initWithRequestKey:andTaskManager:]
+-[NSURLStorageTaskDeleteResponseForRequest runWithCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+-[NSURLStorageTaskDeleteResponseForRequest .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+_OBJC_IVAR_$_NSURLStorageTaskDeleteResponseForRequest._key
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteResponseForRequest
+_OBJC_CLASS_$_NSURLStorageTaskDeleteResponseForRequest
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NetworkStorage_Cache.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NetworkStorage_Cache.o
+-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___68-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___68-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]_block_invoke52
+___copy_helper_block_53
+___destroy_helper_block_54
+__Z40initNetworkStorageCacheXPCServiceObjectsv
+GCC_except_table0
+GCC_except_table9
+___block_descriptor_tmp
+___block_descriptor_tmp55
+_OBJC_METACLASS_$_NetStorageXPCListenerDelegate
+_OBJC_CLASS_$_NetStorageXPCListenerDelegate
+_gXPCListenerDelegate
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NetStorageXPCObjectHandler.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NetStorageXPCObjectHandler.o
+-[NetStorageXPCObjectHandler init]
+-[NetStorageXPCObjectHandler dealloc]
+-[NetStorageXPCObjectHandler cleanupTaskManagers]
+-[NetStorageXPCObjectHandler createStorageTaskManagerForPath:maxSize:extension:withIdentifier:]
+__ZL24taskManagerContainerInitv
+-[NetStorageXPCObjectHandler storageTaskManagerExistsWithIdentifier:completionHandler:]
+-[NetStorageXPCObjectHandler cachedResponseForKey:withIdentifier:handler:]
+___74-[NetStorageXPCObjectHandler cachedResponseForKey:withIdentifier:handler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NetStorageXPCObjectHandler addCachedResponse:identifier:key:]
+-[NetStorageXPCObjectHandler addCachedResponseWithDictionary:identifier:key:]
+-[NetStorageXPCObjectHandler deleteResponseForRequestWithKey:withIdentifier:completionHandler:]
+___95-[NetStorageXPCObjectHandler deleteResponseForRequestWithKey:withIdentifier:completionHandler:]_block_invoke
+___copy_helper_block_63
+___destroy_helper_block_64
+-[NetStorageXPCObjectHandler deleteAllResponsesWithIdentifier:]
+-[NetStorageXPCObjectHandler deleteResponsesSinceDate:withIdentifier:]
+-[NetStorageXPCObjectHandler deleteAllHostNames:forOptionalPartition:identifier:]
+-[NetStorageXPCObjectHandler copyAllHostNamesForOptionalPartition:identifier:completionHandler:]
+___96-[NetStorageXPCObjectHandler copyAllHostNamesForOptionalPartition:identifier:completionHandler:]_block_invoke
+___copy_helper_block_79
+___destroy_helper_block_80
+-[NetStorageXPCObjectHandler copyAllPartitionNamesWithIdentifier:completionHandler:]
+___84-[NetStorageXPCObjectHandler copyAllPartitionNamesWithIdentifier:completionHandler:]_block_invoke
+___copy_helper_block_84
+___destroy_helper_block_85
+-[NetStorageXPCObjectHandler setMaxSize:withIdentifier:]
+-[NetStorageXPCObjectHandler currentDiskUsageWithIdentifier:completionHandler:]
+-[NetStorageXPCObjectHandler setMinSizeForVMCachedResource:withIdentifier:]
+-[NetStorageXPCObjectHandler xpcConnection]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/NetStorageXPCObjectHandler.h
+-[NetStorageXPCObjectHandler setXpcConnection:]
+-[NetStorageXPCObjectHandler .cxx_destruct]
+__Z39_getNSURLStorageTaskManagerWithIdentityP8NSString
+GCC_except_table1
+GCC_except_table3
+GCC_except_table4
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table11
+GCC_except_table12
+GCC_except_table13
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table24
+GCC_except_table28
+GCC_except_table29
+GCC_except_table30
+___block_descriptor_tmp
+___block_descriptor_tmp66
+___block_descriptor_tmp82
+___block_descriptor_tmp86
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierRead
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierWrite
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierShrink
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._xpcConnection
+_OBJC_CLASS_$_NetStorageXPCObjectHandler
+_OBJC_METACLASS_$_NetStorageXPCObjectHandler
+__ZL11initControl
+_gTaskManagers
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTask.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTask.o
+-[NSURLStorageTask init]
+-[NSURLStorageTask initWithTaskManager:]
+-[NSURLStorageTask beginXPCTransaction]
+-[NSURLStorageTask endXPCTransaction]
+-[NSURLStorageTask keyForRequest]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/NSURLStorageTask.h
+-[NSURLStorageTask setKeyForRequest:]
+-[NSURLStorageTask .cxx_destruct]
+GCC_except_table1
+_OBJC_IVAR_$_NSURLStorageTask._taskManager
+_OBJC_IVAR_$_NSURLStorageTask._keyForRequest
+_OBJC_CLASS_$_NSURLStorageTask
+_OBJC_METACLASS_$_NSURLStorageTask
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskDeleteResponsesSinceDate.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskDeleteResponsesSinceDate.o
+-[NSURLStorageTaskDeleteResponsesSinceDate initWithDate:andTaskManager:]
+-[NSURLStorageTaskDeleteResponsesSinceDate run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[NSURLStorageTaskDeleteResponsesSinceDate run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskDeleteResponsesSinceDate .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+___block_descriptor_tmp
+_OBJC_IVAR_$_NSURLStorageTaskDeleteResponsesSinceDate._date
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteResponsesSinceDate
+_OBJC_CLASS_$_NSURLStorageTaskDeleteResponsesSinceDate
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskDeleteAllResponses.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskDeleteAllResponses.o
+-[NSURLStorageTaskDeleteAllResponses initWithRequestKey:andTaskManager:]
+-[NSURLStorageTaskDeleteAllResponses run]
+GCC_except_table0
+GCC_except_table1
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteAllResponses
+_OBJC_CLASS_$_NSURLStorageTaskDeleteAllResponses
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskShrink.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskShrink.o
+-[NSURLStorageTaskShrink initWithTaskManager:]
+-[NSURLStorageTaskShrink run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___29-[NSURLStorageTaskShrink run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskShrink setCacheDBInstanceToUpdateAfterShrink:]
+-[NSURLStorageTaskShrink .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+___block_descriptor_tmp
+_OBJC_IVAR_$_NSURLStorageTaskShrink._cacheDBInstanceToUpdate
+_OBJC_CLASS_$_NSURLStorageTaskShrink
+_OBJC_METACLASS_$_NSURLStorageTaskShrink
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLWriteStorageTaskManager.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLWriteStorageTaskManager.o
+-[NSURLWriteStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+GCC_except_table0
+_OBJC_CLASS_$_NSURLWriteStorageTaskManager
+_OBJC_METACLASS_$_NSURLWriteStorageTaskManager
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskCopyHostNames.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskCopyHostNames.o
+-[NSURLStorageTaskCopyHostNames initWithOptionalPartition:andTaskManager:]
+-[NSURLStorageTaskCopyHostNames runWithCompletion:]
+-[NSURLStorageTaskCopyHostNames .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+_OBJC_IVAR_$_NSURLStorageTaskCopyHostNames._partition
+_OBJC_METACLASS_$_NSURLStorageTaskCopyHostNames
+_OBJC_CLASS_$_NSURLStorageTaskCopyHostNames
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskRead.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskRead.o
+-[NSURLStorageTaskRead init]
+-[NSURLStorageTaskRead initWithRequestKey:readTaskManager:writeTaskManager:]
+-[NSURLStorageTaskRead runWithCompletion:]
+-[NSURLStorageTaskRead .cxx_destruct]
+GCC_except_table1
+GCC_except_table2
+_OBJC_IVAR_$_NSURLStorageTaskRead._requestKey
+_OBJC_IVAR_$_NSURLStorageTaskRead._writeTaskManager
+_OBJC_CLASS_$_NSURLStorageTaskRead
+_OBJC_METACLASS_$_NSURLStorageTaskRead
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/
+networkstoraged.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/networkstoraged.o
+_main
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskSchemaCheck.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskSchemaCheck.o
+-[NSURLStorageTaskSchemaCheck initWithTaskManager:path:size:]
+-[NSURLStorageTaskSchemaCheck initWithPath:size:clientPID:sandboxExtension:]
+-[NSURLStorageTaskSchemaCheck dealloc]
+-[NSURLStorageTaskSchemaCheck run]
+-[NSURLStorageTaskSchemaCheck .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table4
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._dbPath
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._dbSize
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._pid
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._sandboxExtensionHandle
+_OBJC_CLASS_$_NSURLStorageTaskSchemaCheck
+_OBJC_METACLASS_$_NSURLStorageTaskSchemaCheck
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskDeleteHostNames.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskDeleteHostNames.o
+-[NSURLStorageTaskDeleteHostNames initWithHostNames:optionalPartition:andTaskManager:]
+-[NSURLStorageTaskDeleteHostNames run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[NSURLStorageTaskDeleteHostNames run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskDeleteHostNames .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+___block_descriptor_tmp
+_OBJC_IVAR_$_NSURLStorageTaskDeleteHostNames._partition
+_OBJC_IVAR_$_NSURLStorageTaskDeleteHostNames._hostNames
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteHostNames
+_OBJC_CLASS_$_NSURLStorageTaskDeleteHostNames
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageURLCacheDB.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageURLCacheDB.o
+-[NSURLStorageURLCacheDB init]
+-[NSURLStorageURLCacheDB initWithDBPath:maxSize:clientPid:]
+-[NSURLStorageURLCacheDB initWithDBPath:maxSize:clientPid:schemaCheck:]
+-[NSURLStorageURLCacheDB cleanupAndShutdown_Lock]
+-[NSURLStorageURLCacheDB cleanupWriteConnections_NoLock]
+-[NSURLStorageURLCacheDB dealloc]
+-[NSURLStorageURLCacheDB openCacheDB_NoLock]
+-[NSURLStorageURLCacheDB openAndPrepareWriteCacheDB_NoLock]
+-[NSURLStorageURLCacheDB openAndPrepareReadCacheDB]
+-[NSURLStorageURLCacheDB updateFSBackedCacheUsageOnDisk]
+-[NSURLStorageURLCacheDB updateSQLiteDBCacheUsageOnDisk]
+-[NSURLStorageURLCacheDB getcurrentTotalPersistentCacheUsage]
+-[NSURLStorageURLCacheDB isSchemaCurrent]
+-[NSURLStorageURLCacheDB _setDBSchemaAndPragmas]
+-[NSURLStorageURLCacheDB _prepareDBStatements]
+-[NSURLStorageURLCacheDB _prepareDBInsertUpdateStatements]
+-[NSURLStorageURLCacheDB _prepareDBSelectStatements]
+-[NSURLStorageURLCacheDB _prepareDBDeleteStatements]
+-[NSURLStorageURLCacheDB _finalizeAllDBStatements]
+-[NSURLStorageURLCacheDB _finalizeWriteConnectionDBStatements]
+-[NSURLStorageURLCacheDB _finalizeDBInsertUpdateStatements]
+-[NSURLStorageURLCacheDB _finalizeDBSelectStatements]
+-[NSURLStorageURLCacheDB _finalizeDBDeleteStatements]
+-[NSURLStorageURLCacheDB _ensureDBCapacityConstraints:]
+-[NSURLStorageURLCacheDB writeDBwithCachedResponse_Lock:withKey:taskManager:]
+-[NSURLStorageURLCacheDB getEntryIDandReceiverDataForRequestKey:keyLength:]
+-[NSURLStorageURLCacheDB getMinSizeForVMCachedResource]
+-[NSURLStorageURLCacheDB readDBforKey:cacheDataPath:cacheDataFile:]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/CoreCore/Headers/AutoTypes.h
+-[NSURLStorageURLCacheDB shrinkDB]
+__Z24SQLHostForDeleteCallbackPviPPcS1_
+-[NSURLStorageURLCacheDB deleteAllHostNames:forOptionalPartition:]
+__Z23selectRequestKeyResultsPviPPcS1_
+-[NSURLStorageURLCacheDB copyHostNamesForOptionalPartition:]
+__Z22selectPartitionResultsPviPPcS1_
+-[NSURLStorageURLCacheDB copyAllPartitionNames]
+-[NSURLStorageURLCacheDB deleteResponseForRequestWithKey:]
+__Z26SQLdeleteSinceDateCallbackPviPPcS1_
+-[NSURLStorageURLCacheDB deleteResponsesSinceDate:]
+-[NSURLStorageURLCacheDB deleteAllResponses]
+-[NSURLStorageURLCacheDB stepSQLStatement:toCompletionWithRetry:]
+-[NSURLStorageURLCacheDB execSQLStatement:onConnection:toCompletionWithRetry:]
+-[NSURLStorageURLCacheDB updateToCurrentSchema]
+-[NSURLStorageURLCacheDB _purgeAllFileSystemCacheData]
+-[NSURLStorageURLCacheDB currentFSBackedUsage]
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/NSURLStorageURLCacheDB.h
+-[NSURLStorageURLCacheDB setCurrentFSBackedUsage:]
+-[NSURLStorageURLCacheDB currentSQLiteDBUsage]
+-[NSURLStorageURLCacheDB setCurrentSQLiteDBUsage:]
+-[NSURLStorageURLCacheDB currentTotalPersistentCacheUsage]
+-[NSURLStorageURLCacheDB setCurrentTotalPersistentCacheUsage:]
+-[NSURLStorageURLCacheDB minSizeForFileSystemBackedCacheItem]
+-[NSURLStorageURLCacheDB setMinSizeForFileSystemBackedCacheItem:]
+-[NSURLStorageURLCacheDB performingShrink]
+-[NSURLStorageURLCacheDB setPerformingShrink:]
+-[NSURLStorageURLCacheDB .cxx_destruct]
+GCC_except_table2
+GCC_except_table5
+GCC_except_table7
+GCC_except_table8
+GCC_except_table10
+GCC_except_table11
+GCC_except_table13
+GCC_except_table14
+GCC_except_table16
+GCC_except_table24
+GCC_except_table25
+GCC_except_table28
+GCC_except_table29
+GCC_except_table30
+GCC_except_table31
+GCC_except_table33
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table43
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._entryIDsToDelete
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._schemaVersion
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentFSBackedUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentSQLiteDBUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentTotalPersistentCacheUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtResponse
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtBlobData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtReceiverData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateResponseStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateBlobDataStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateReceiverDataStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectEntry_idAndRecevierDataForKeyStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectIsDataOnFSForEntry_IDStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectFileSystemFileForDeletionStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectTimeStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtResponse
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtBlobData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtReceiverData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._minSizeForFileSystemBackedCacheItem
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._performingShrink
+_OBJC_CLASS_$_NSURLStorageURLCacheDB
+_OBJC_METACLASS_$_NSURLStorageURLCacheDB
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLReadStorageTaskManager.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLReadStorageTaskManager.o
+-[NSURLReadStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+-[NSURLReadStorageTaskManager dealloc]
+-[NSURLReadStorageTaskManager .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+_OBJC_IVAR_$_NSURLReadStorageTaskManager._dbReadConnectionLock
+_OBJC_IVAR_$_NSURLReadStorageTaskManager._dbReadConnection
+_OBJC_CLASS_$_NSURLReadStorageTaskManager
+_OBJC_METACLASS_$_NSURLReadStorageTaskManager
+/SourceCache/CFNetwork_cookied/CFNetwork-720.2.4/NetworkStorages/Cache_Storage/
+NSURLStorageTaskWrite.mm
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/NSURLStorageTaskWrite.o
+-[NSURLStorageTaskWrite initWithTaskManager:cacheData:key:]
+-[NSURLStorageTaskWrite run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___28-[NSURLStorageTaskWrite run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___28-[NSURLStorageTaskWrite run]_block_invoke21
+___copy_helper_block_24
+___destroy_helper_block_25
+-[NSURLStorageTaskWrite .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table7
+___block_descriptor_tmp
+___block_descriptor_tmp26
+_OBJC_IVAR_$_NSURLStorageTaskWrite._cacheData
+_OBJC_METACLASS_$_NSURLStorageTaskWrite
+_OBJC_CLASS_$_NSURLStorageTaskWrite
+_gWriteTaskCounter
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/DerivedSources/
+nsurlstoraged_vers.c
+/BinaryCache/CFNetwork_cookied/CFNetwork_cookied-720.2.4~1/Objects/CFNetwork.build/cookied.build/Objects-normal/x86_64/nsurlstoraged_vers.o
+_nsurlstoragedVersionString
+_nsurlstoragedVersionNumber
+-[NSURLStorageDB init]
+-[NSURLStorageDB initWithDBPath:maxSize:clientPid:]
+-[NSURLStorageDB initWithDBPath:maxSize:clientPid:schemaCheck:]
+-[NSURLStorageDB dealloc]
+-[NSURLStorageDB _openDB]
+-[NSURLStorageDB checkAccessToDatabaseFile]
+-[NSURLStorageDB _openDBWriteConnections]
+-[NSURLStorageDB _openDBReadConnections]
+-[NSURLStorageDB openReadWriteConnection]
+-[NSURLStorageDB closeConnection:]
+-[NSURLStorageDB _closeDB]
+-[NSURLStorageDB _closeDBWriteConnections]
+___42-[NSURLStorageDB _closeDBWriteConnections]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageDB _closeDBReadConnections]
+-[NSURLStorageDB dbPathDirectory]
+-[NSURLStorageDB setDbPathDirectory:]
+-[NSURLStorageDB dbPathFile]
+-[NSURLStorageDB setDbPathFile:]
+-[NSURLStorageDB isDBOpen]
+-[NSURLStorageDB setIsDBOpen:]
+-[NSURLStorageDB maxDBSize]
+-[NSURLStorageDB setMaxDBSize:]
+-[NSURLStorageDB clientPid]
+-[NSURLStorageDB setClientPid:]
+-[NSURLStorageDB .cxx_destruct]
+___clang_call_terminate
+-[NSURLStorageTaskCopyAllPartitionNames initWithTaskManager:]
+-[NSURLStorageTaskCopyAllPartitionNames runWithCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___59-[NSURLStorageTaskCopyAllPartitionNames runWithCompletion:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+-[NSURLStorageTaskManager dealloc]
+-[NSURLStorageTaskManager updateFileSystemUsageCounters]
+-[NSURLStorageTaskManager persistentDB]
+-[NSURLStorageTaskManager setPersistentDB:]
+-[NSURLStorageTaskManager identityForManager]
+-[NSURLStorageTaskManager setIdentityForManager:]
+-[NSURLStorageTaskManager xpcConnectionToRemoteEndpoint]
+-[NSURLStorageTaskManager setXpcConnectionToRemoteEndpoint:]
+-[NSURLStorageTaskManager sandboxExtensionData]
+-[NSURLStorageTaskManager setSandboxExtensionData:]
+-[NSURLStorageTaskManager clientPid]
+-[NSURLStorageTaskManager setClientPid:]
+-[NSURLStorageTaskManager .cxx_destruct]
+-[NSURLStorageTaskDeleteResponseForRequest initWithRequestKey:andTaskManager:]
+-[NSURLStorageTaskDeleteResponseForRequest runWithCompletion:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+-[NSURLStorageTaskDeleteResponseForRequest .cxx_destruct]
+-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___68-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___68-[NetStorageXPCListenerDelegate listener:shouldAcceptNewConnection:]_block_invoke52
+___copy_helper_block_53
+___destroy_helper_block_54
+__Z40initNetworkStorageCacheXPCServiceObjectsv
+-[NetStorageXPCObjectHandler init]
+-[NetStorageXPCObjectHandler dealloc]
+-[NetStorageXPCObjectHandler cleanupTaskManagers]
+-[NetStorageXPCObjectHandler createStorageTaskManagerForPath:maxSize:extension:withIdentifier:]
+__ZL24taskManagerContainerInitv
+-[NetStorageXPCObjectHandler storageTaskManagerExistsWithIdentifier:completionHandler:]
+-[NetStorageXPCObjectHandler cachedResponseForKey:withIdentifier:handler:]
+___74-[NetStorageXPCObjectHandler cachedResponseForKey:withIdentifier:handler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NetStorageXPCObjectHandler addCachedResponse:identifier:key:]
+-[NetStorageXPCObjectHandler addCachedResponseWithDictionary:identifier:key:]
+-[NetStorageXPCObjectHandler deleteResponseForRequestWithKey:withIdentifier:completionHandler:]
+___95-[NetStorageXPCObjectHandler deleteResponseForRequestWithKey:withIdentifier:completionHandler:]_block_invoke
+___copy_helper_block_63
+___destroy_helper_block_64
+-[NetStorageXPCObjectHandler deleteAllResponsesWithIdentifier:]
+-[NetStorageXPCObjectHandler deleteResponsesSinceDate:withIdentifier:]
+-[NetStorageXPCObjectHandler deleteAllHostNames:forOptionalPartition:identifier:]
+-[NetStorageXPCObjectHandler copyAllHostNamesForOptionalPartition:identifier:completionHandler:]
+___96-[NetStorageXPCObjectHandler copyAllHostNamesForOptionalPartition:identifier:completionHandler:]_block_invoke
+___copy_helper_block_79
+___destroy_helper_block_80
+-[NetStorageXPCObjectHandler copyAllPartitionNamesWithIdentifier:completionHandler:]
+___84-[NetStorageXPCObjectHandler copyAllPartitionNamesWithIdentifier:completionHandler:]_block_invoke
+___copy_helper_block_84
+___destroy_helper_block_85
+-[NetStorageXPCObjectHandler setMaxSize:withIdentifier:]
+-[NetStorageXPCObjectHandler currentDiskUsageWithIdentifier:completionHandler:]
+-[NetStorageXPCObjectHandler setMinSizeForVMCachedResource:withIdentifier:]
+-[NetStorageXPCObjectHandler xpcConnection]
+-[NetStorageXPCObjectHandler setXpcConnection:]
+-[NetStorageXPCObjectHandler .cxx_destruct]
+__Z39_getNSURLStorageTaskManagerWithIdentityP8NSString
+-[NSURLStorageTask init]
+-[NSURLStorageTask initWithTaskManager:]
+-[NSURLStorageTask beginXPCTransaction]
+-[NSURLStorageTask endXPCTransaction]
+-[NSURLStorageTask keyForRequest]
+-[NSURLStorageTask setKeyForRequest:]
+-[NSURLStorageTask .cxx_destruct]
+-[NSURLStorageTaskDeleteResponsesSinceDate initWithDate:andTaskManager:]
+-[NSURLStorageTaskDeleteResponsesSinceDate run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[NSURLStorageTaskDeleteResponsesSinceDate run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskDeleteResponsesSinceDate .cxx_destruct]
+-[NSURLStorageTaskDeleteAllResponses initWithRequestKey:andTaskManager:]
+-[NSURLStorageTaskDeleteAllResponses run]
+-[NSURLStorageTaskShrink initWithTaskManager:]
+-[NSURLStorageTaskShrink run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___29-[NSURLStorageTaskShrink run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskShrink setCacheDBInstanceToUpdateAfterShrink:]
+-[NSURLStorageTaskShrink .cxx_destruct]
+-[NSURLWriteStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+-[NSURLStorageTaskCopyHostNames initWithOptionalPartition:andTaskManager:]
+-[NSURLStorageTaskCopyHostNames runWithCompletion:]
+-[NSURLStorageTaskCopyHostNames .cxx_destruct]
+-[NSURLStorageTaskRead init]
+-[NSURLStorageTaskRead initWithRequestKey:readTaskManager:writeTaskManager:]
+-[NSURLStorageTaskRead runWithCompletion:]
+-[NSURLStorageTaskRead .cxx_destruct]
+_main
+-[NSURLStorageTaskSchemaCheck initWithTaskManager:path:size:]
+-[NSURLStorageTaskSchemaCheck initWithPath:size:clientPID:sandboxExtension:]
+-[NSURLStorageTaskSchemaCheck dealloc]
+-[NSURLStorageTaskSchemaCheck run]
+-[NSURLStorageTaskSchemaCheck .cxx_destruct]
+-[NSURLStorageTaskDeleteHostNames initWithHostNames:optionalPartition:andTaskManager:]
+-[NSURLStorageTaskDeleteHostNames run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[NSURLStorageTaskDeleteHostNames run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSURLStorageTaskDeleteHostNames .cxx_destruct]
+-[NSURLStorageURLCacheDB init]
+-[NSURLStorageURLCacheDB initWithDBPath:maxSize:clientPid:]
+-[NSURLStorageURLCacheDB initWithDBPath:maxSize:clientPid:schemaCheck:]
+-[NSURLStorageURLCacheDB cleanupAndShutdown_Lock]
+-[NSURLStorageURLCacheDB cleanupWriteConnections_NoLock]
+-[NSURLStorageURLCacheDB dealloc]
+-[NSURLStorageURLCacheDB openCacheDB_NoLock]
+-[NSURLStorageURLCacheDB openAndPrepareWriteCacheDB_NoLock]
+-[NSURLStorageURLCacheDB openAndPrepareReadCacheDB]
+-[NSURLStorageURLCacheDB updateFSBackedCacheUsageOnDisk]
+-[NSURLStorageURLCacheDB updateSQLiteDBCacheUsageOnDisk]
+-[NSURLStorageURLCacheDB getcurrentTotalPersistentCacheUsage]
+-[NSURLStorageURLCacheDB isSchemaCurrent]
+-[NSURLStorageURLCacheDB _setDBSchemaAndPragmas]
+-[NSURLStorageURLCacheDB _prepareDBStatements]
+-[NSURLStorageURLCacheDB _prepareDBInsertUpdateStatements]
+-[NSURLStorageURLCacheDB _prepareDBSelectStatements]
+-[NSURLStorageURLCacheDB _prepareDBDeleteStatements]
+-[NSURLStorageURLCacheDB _finalizeAllDBStatements]
+-[NSURLStorageURLCacheDB _finalizeWriteConnectionDBStatements]
+-[NSURLStorageURLCacheDB _finalizeDBInsertUpdateStatements]
+-[NSURLStorageURLCacheDB _finalizeDBSelectStatements]
+-[NSURLStorageURLCacheDB _finalizeDBDeleteStatements]
+-[NSURLStorageURLCacheDB _ensureDBCapacityConstraints:]
+-[NSURLStorageURLCacheDB writeDBwithCachedResponse_Lock:withKey:taskManager:]
+-[NSURLStorageURLCacheDB getEntryIDandReceiverDataForRequestKey:keyLength:]
+-[NSURLStorageURLCacheDB getMinSizeForVMCachedResource]
+-[NSURLStorageURLCacheDB readDBforKey:cacheDataPath:cacheDataFile:]
+-[NSURLStorageURLCacheDB shrinkDB]
+__Z24SQLHostForDeleteCallbackPviPPcS1_
+-[NSURLStorageURLCacheDB deleteAllHostNames:forOptionalPartition:]
+__Z23selectRequestKeyResultsPviPPcS1_
+-[NSURLStorageURLCacheDB copyHostNamesForOptionalPartition:]
+__Z22selectPartitionResultsPviPPcS1_
+-[NSURLStorageURLCacheDB copyAllPartitionNames]
+-[NSURLStorageURLCacheDB deleteResponseForRequestWithKey:]
+__Z26SQLdeleteSinceDateCallbackPviPPcS1_
+-[NSURLStorageURLCacheDB deleteResponsesSinceDate:]
+-[NSURLStorageURLCacheDB deleteAllResponses]
+-[NSURLStorageURLCacheDB stepSQLStatement:toCompletionWithRetry:]
+-[NSURLStorageURLCacheDB execSQLStatement:onConnection:toCompletionWithRetry:]
+-[NSURLStorageURLCacheDB updateToCurrentSchema]
+-[NSURLStorageURLCacheDB _purgeAllFileSystemCacheData]
+-[NSURLStorageURLCacheDB currentFSBackedUsage]
+-[NSURLStorageURLCacheDB setCurrentFSBackedUsage:]
+-[NSURLStorageURLCacheDB currentSQLiteDBUsage]
+-[NSURLStorageURLCacheDB setCurrentSQLiteDBUsage:]
+-[NSURLStorageURLCacheDB currentTotalPersistentCacheUsage]
+-[NSURLStorageURLCacheDB setCurrentTotalPersistentCacheUsage:]
+-[NSURLStorageURLCacheDB minSizeForFileSystemBackedCacheItem]
+-[NSURLStorageURLCacheDB setMinSizeForFileSystemBackedCacheItem:]
+-[NSURLStorageURLCacheDB performingShrink]
+-[NSURLStorageURLCacheDB setPerformingShrink:]
+-[NSURLStorageURLCacheDB .cxx_destruct]
+-[NSURLReadStorageTaskManager initWithPersistentPath:maxSize:sandboxExtension:clientPid:withIdentity:]
+-[NSURLReadStorageTaskManager dealloc]
+-[NSURLReadStorageTaskManager .cxx_destruct]
+-[NSURLStorageTaskWrite initWithTaskManager:cacheData:key:]
+-[NSURLStorageTaskWrite run]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___28-[NSURLStorageTaskWrite run]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___28-[NSURLStorageTaskWrite run]_block_invoke21
+___copy_helper_block_24
+___destroy_helper_block_25
+-[NSURLStorageTaskWrite .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table3
+GCC_except_table6
+GCC_except_table12
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table0
+GCC_except_table1
+GCC_except_table3
+GCC_except_table0
+GCC_except_table1
+GCC_except_table0
+GCC_except_table9
+GCC_except_table1
+GCC_except_table3
+GCC_except_table4
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table11
+GCC_except_table12
+GCC_except_table13
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table24
+GCC_except_table28
+GCC_except_table29
+GCC_except_table30
+GCC_except_table1
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table0
+GCC_except_table1
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table0
+GCC_except_table0
+GCC_except_table1
+GCC_except_table1
+GCC_except_table2
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table4
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table2
+GCC_except_table5
+GCC_except_table7
+GCC_except_table8
+GCC_except_table10
+GCC_except_table11
+GCC_except_table13
+GCC_except_table14
+GCC_except_table16
+GCC_except_table24
+GCC_except_table25
+GCC_except_table28
+GCC_except_table29
+GCC_except_table30
+GCC_except_table31
+GCC_except_table33
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table43
+GCC_except_table0
+GCC_except_table1
+GCC_except_table0
+GCC_except_table1
+GCC_except_table4
+GCC_except_table7
+_nsurlstoragedVersionString
+_nsurlstoragedVersionNumber
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp55
+___block_descriptor_tmp
+___block_descriptor_tmp66
+___block_descriptor_tmp82
+___block_descriptor_tmp86
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp26
+_OBJC_IVAR_$_NSURLStorageDB._dbReadConnection
+_OBJC_IVAR_$_NSURLStorageDB._dbWriteConnection
+_OBJC_IVAR_$_NSURLStorageDB._dbReadConnectionLock
+_OBJC_IVAR_$_NSURLStorageDB._dbWriteConnectionLock
+_OBJC_IVAR_$_NSURLStorageDB._dbPathDirectory
+_OBJC_IVAR_$_NSURLStorageDB._dbPathFile
+_OBJC_IVAR_$_NSURLStorageDB._isDBOpen
+_OBJC_IVAR_$_NSURLStorageDB._maxDBSize
+_OBJC_IVAR_$_NSURLStorageDB._clientPid
+_OBJC_IVAR_$_NSURLStorageTaskManager._sandboxExtensionHandle
+_OBJC_IVAR_$_NSURLStorageTaskManager._persistentDB
+_OBJC_IVAR_$_NSURLStorageTaskManager._identityForManager
+_OBJC_IVAR_$_NSURLStorageTaskManager._xpcConnectionToRemoteEndpoint
+_OBJC_IVAR_$_NSURLStorageTaskManager._sandboxExtensionData
+_OBJC_IVAR_$_NSURLStorageTaskManager._clientPid
+_OBJC_IVAR_$_NSURLStorageTaskDeleteResponseForRequest._key
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierRead
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierWrite
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._identifierShrink
+_OBJC_IVAR_$_NetStorageXPCObjectHandler._xpcConnection
+_OBJC_IVAR_$_NSURLStorageTask._taskManager
+_OBJC_IVAR_$_NSURLStorageTask._keyForRequest
+_OBJC_IVAR_$_NSURLStorageTaskDeleteResponsesSinceDate._date
+_OBJC_IVAR_$_NSURLStorageTaskShrink._cacheDBInstanceToUpdate
+_OBJC_IVAR_$_NSURLStorageTaskCopyHostNames._partition
+_OBJC_IVAR_$_NSURLStorageTaskRead._requestKey
+_OBJC_IVAR_$_NSURLStorageTaskRead._writeTaskManager
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._dbPath
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._dbSize
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._pid
+_OBJC_IVAR_$_NSURLStorageTaskSchemaCheck._sandboxExtensionHandle
+_OBJC_IVAR_$_NSURLStorageTaskDeleteHostNames._partition
+_OBJC_IVAR_$_NSURLStorageTaskDeleteHostNames._hostNames
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._entryIDsToDelete
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._schemaVersion
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentFSBackedUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentSQLiteDBUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._currentTotalPersistentCacheUsage
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtResponse
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtBlobData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlInsertStmtReceiverData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateResponseStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateBlobDataStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlUpdateReceiverDataStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectEntry_idAndRecevierDataForKeyStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectIsDataOnFSForEntry_IDStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectFileSystemFileForDeletionStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlSelectTimeStmt
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtResponse
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtBlobData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._sqlDeleteStmtReceiverData
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._minSizeForFileSystemBackedCacheItem
+_OBJC_IVAR_$_NSURLStorageURLCacheDB._performingShrink
+_OBJC_IVAR_$_NSURLReadStorageTaskManager._dbReadConnectionLock
+_OBJC_IVAR_$_NSURLReadStorageTaskManager._dbReadConnection
+_OBJC_IVAR_$_NSURLStorageTaskWrite._cacheData
+_OBJC_CLASS_$_NSURLStorageDB
+_OBJC_METACLASS_$_NSURLStorageDB
+_OBJC_CLASS_$_NSURLStorageTaskCopyAllPartitionNames
+_OBJC_METACLASS_$_NSURLStorageTaskCopyAllPartitionNames
+_OBJC_CLASS_$_NSURLStorageTaskManager
+_OBJC_METACLASS_$_NSURLStorageTaskManager
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteResponseForRequest
+_OBJC_CLASS_$_NSURLStorageTaskDeleteResponseForRequest
+_OBJC_METACLASS_$_NetStorageXPCListenerDelegate
+_OBJC_CLASS_$_NetStorageXPCListenerDelegate
+_OBJC_CLASS_$_NetStorageXPCObjectHandler
+_OBJC_METACLASS_$_NetStorageXPCObjectHandler
+_OBJC_CLASS_$_NSURLStorageTask
+_OBJC_METACLASS_$_NSURLStorageTask
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteResponsesSinceDate
+_OBJC_CLASS_$_NSURLStorageTaskDeleteResponsesSinceDate
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteAllResponses
+_OBJC_CLASS_$_NSURLStorageTaskDeleteAllResponses
+_OBJC_CLASS_$_NSURLStorageTaskShrink
+_OBJC_METACLASS_$_NSURLStorageTaskShrink
+_OBJC_CLASS_$_NSURLWriteStorageTaskManager
+_OBJC_METACLASS_$_NSURLWriteStorageTaskManager
+_OBJC_METACLASS_$_NSURLStorageTaskCopyHostNames
+_OBJC_CLASS_$_NSURLStorageTaskCopyHostNames
+_OBJC_CLASS_$_NSURLStorageTaskRead
+_OBJC_METACLASS_$_NSURLStorageTaskRead
+_OBJC_CLASS_$_NSURLStorageTaskSchemaCheck
+_OBJC_METACLASS_$_NSURLStorageTaskSchemaCheck
+_OBJC_METACLASS_$_NSURLStorageTaskDeleteHostNames
+_OBJC_CLASS_$_NSURLStorageTaskDeleteHostNames
+_OBJC_CLASS_$_NSURLStorageURLCacheDB
+_OBJC_METACLASS_$_NSURLStorageURLCacheDB
+_OBJC_CLASS_$_NSURLReadStorageTaskManager
+_OBJC_METACLASS_$_NSURLReadStorageTaskManager
+_OBJC_METACLASS_$_NSURLStorageTaskWrite
+_OBJC_CLASS_$_NSURLStorageTaskWrite
+__ZL11initControl
+_gXPCListenerDelegate
+_gTaskManagers
+_gWriteTaskCounter
+__mh_execute_header
+_CFArrayAppendValue
+_CFArrayContainsValue
+_CFArrayCreateMutable
+_CFArrayGetCount
+_CFArrayGetLastIndexOfValue
+_CFArrayGetValueAtIndex
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFLog
+_CFNumberGetValue
+_CFRelease
+_CFStringCreateWithBytes
+_CFStringCreateWithBytesNoCopy
+_CFStringCreateWithFormat
+_CFStringGetBytes
+_CFStringGetCString
+_CFStringGetCStringPtr
+_CFStringGetLength
+_CFStringGetMaximumSizeForEncoding
+_CFURLCopyHostName
+_CFURLCreateWithString
+_CFUUIDCreate
+_CFUUIDCreateString
+_NSFileSize
+_NSLog
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSCachedURLResponse
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_CLASS_$_NSXPCListener
+_OBJC_METACLASS_$_NSBlockOperation
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSOperationQueue
+__Block_object_assign
+__Block_object_dispose
+__CFURLCacheCreateFS2
+__CFURLCacheCreateFS3
+__CFURLCacheFSGetFileSystemUsage
+__CFURLCacheFSPurgeEntireFileSystemStore
+__CFURLCacheFSPurgeItemFromFileSystemStore
+__CFURLCacheFSPurgeItemFromFileSystemStoreForKey
+__CFURLCacheFSWriteCachedResponseToFS
+__CreateCanonicalURL
+__ExtractCStringfromCFStringRef
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZSt9terminatev
+__ZdaPv
+__Znam
+___CFConstantStringClassReference
+___createCachedResponseFromParts
+___cxa_begin_catch
+___error
+___gxx_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__nsurlstoraged_main
+__objc_empty_cache
+_dispatch_async
+_dispatch_get_global_queue
+_free
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFTypeArrayCallBacks
+_malloc
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_destroyWeak
+_objc_getProperty
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_atomic
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_pthread_once
+_realpath$DARWIN_EXTSN
+_sandbox_check
+_sandbox_extension_consume
+_sandbox_extension_release
+_sleep
+_sqlite3_bind_blob
+_sqlite3_bind_int
+_sqlite3_bind_int64
+_sqlite3_bind_text
+_sqlite3_close
+_sqlite3_column_blob
+_sqlite3_column_bytes
+_sqlite3_column_count
+_sqlite3_column_int
+_sqlite3_column_int64
+_sqlite3_column_text
+_sqlite3_column_type
+_sqlite3_errcode
+_sqlite3_errmsg
+_sqlite3_exec
+_sqlite3_finalize
+_sqlite3_free
+_sqlite3_free_table
+_sqlite3_get_table
+_sqlite3_last_insert_rowid
+_sqlite3_mprintf
+_sqlite3_open_v2
+_sqlite3_prepare_v2
+_sqlite3_reset
+_sqlite3_step
+_strlen
+_strncpy
+_strtol
+_usleep
+dyld_stub_binder

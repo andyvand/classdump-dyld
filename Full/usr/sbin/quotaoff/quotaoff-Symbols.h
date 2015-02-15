@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___snprintf_chk
+___stderrp
+_exit
+_fprintf
+_fwrite
+_getmntinfo$INODE64
+_getopt
+_optind
+_perror
+_printf
+_quotactl
+_rindex
+_stat$INODE64
+_strcmp
+dyld_stub_binder

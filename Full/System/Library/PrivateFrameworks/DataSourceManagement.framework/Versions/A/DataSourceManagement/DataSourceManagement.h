@@ -1,0 +1,12 @@
+#import <DataSourceManagement/DSMMode.h>
+#import <DataSourceManagement/DSMDataStreamDescription.h>
+#import <DataSourceManagement/DSMDataStreamMetaDataDescription.h>
+#import <DataSourceManagement/DSMBasicDataStreamEvent.h>
+#import <DataSourceManagement/DSMBasicDataStreamValue.h>
+#import <DataSourceManagement/DSMBasicDataStreamInterval.h>
+#import <DataSourceManagement/DSMBasicDataStreamValueInterval.h>
+#import <DataSourceManagement/DSMBasicDataStream.h>
+#import <DataSourceManagement/DSMFileSystemIO.h>
+#import <DataSourceManagement/VnodeInfo.h>
+#import <DataSourceManagement/DSMFileSystemIOManager.h>
+#import <DataSourceManagement/DataSourceManagerTestClient_Private.h>

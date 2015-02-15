@@ -1,0 +1,1 @@
+#import <DockPrefAppleScriptSupport/DockPref.h>

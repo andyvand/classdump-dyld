@@ -1,0 +1,13 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_err
+_exit
+_fwrite
+_getmntopts
+_getopt
+_mount
+_optarg
+_optind
+_realpath$DARWIN_EXTSN
+dyld_stub_binder

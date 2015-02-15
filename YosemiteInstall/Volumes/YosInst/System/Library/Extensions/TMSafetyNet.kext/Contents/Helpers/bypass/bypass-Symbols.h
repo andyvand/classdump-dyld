@@ -1,0 +1,10 @@
+radr://5614542
+__mh_execute_header
+___error
+___sandbox_msp
+___stderrp
+_execvp
+_fprintf
+_getprogname
+_strerror
+dyld_stub_binder

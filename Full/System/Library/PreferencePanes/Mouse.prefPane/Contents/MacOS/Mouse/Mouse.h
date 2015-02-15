@@ -1,0 +1,13 @@
+#import <Mouse/MightyMouseController.h>
+#import <Mouse/MouseController.h>
+#import <Mouse/MousePref.h>
+#import <Mouse/NoMouseController.h>
+#import <Mouse/TouchMouseController.h>
+#import <Mouse/MTMouseGesture.h>
+#import <Mouse/MTMouseScrollGesture.h>
+#import <Mouse/MTMouseSmartZoomGesture.h>
+#import <Mouse/MTMouseMissionControlGesture.h>
+#import <Mouse/MTMouseSwipeGesture.h>
+#import <Mouse/MTMouseSecondaryClickGesture.h>
+#import <Mouse/MTMouseNavigationGesture.h>
+#import <Mouse/BTMouseManager.h>

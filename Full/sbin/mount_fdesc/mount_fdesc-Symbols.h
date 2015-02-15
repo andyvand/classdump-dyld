@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+_err
+_errx
+_exit
+_fwrite
+_getmntopts
+_getopt
+_optarg
+_optind
+_realpath$DARWIN_EXTSN
+_statfs$INODE64
+_strcmp
+dyld_stub_binder

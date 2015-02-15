@@ -1,0 +1,16 @@
+_uda1380VersRec
+_Detect_uda1380
+_uda1380ModuleData
+_uda1380_dumpstatus
+_uda1380_getstatus
+_uda1380_init
+_uda1380_mute
+_uda1380_setparameters
+_uda1380_setvolume
+_uda1380_shutdown
+_calloc
+_free
+_xf86DrvMsg
+_xf86I2CDevInit
+_xf86I2CWriteRead
+dyld_stub_binder

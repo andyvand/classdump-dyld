@@ -1,0 +1,9 @@
+__mh_execute_header
+_main
+___stderrp
+_atoi
+_fprintf
+_getgrnam
+_perror
+_setgid
+dyld_stub_binder

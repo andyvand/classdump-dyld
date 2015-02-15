@@ -1,0 +1,13 @@
+radr://5614542
+__mh_execute_header
+_LSSetDefaultHandlerForURLScheme
+_NSApplicationMain
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

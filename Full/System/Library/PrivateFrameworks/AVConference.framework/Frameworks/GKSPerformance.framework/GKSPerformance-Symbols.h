@@ -1,0 +1,3 @@
+_GKSPerformanceVersionString
+_GKSPerformanceVersionNumber
+dyld_stub_binder

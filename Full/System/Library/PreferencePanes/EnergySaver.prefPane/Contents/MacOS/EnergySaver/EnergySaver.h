@@ -1,0 +1,9 @@
+#import <EnergySaver/EnergySaverPref.h>
+#import <EnergySaver/EnergySaverPref_DiscreteLimitSlider.h>
+#import <EnergySaver/ESOptionsController.h>
+#import <EnergySaver/ESScheduleController.h>
+#import <EnergySaver/ESSleepController.h>
+#import <EnergySaver/ESUPSController.h>
+#import <EnergySaver/EnergySaverPref_DiscreteLimitSliderCell.h>
+#import <EnergySaver/ESGraphicsOptionsController.h>
+#import <EnergySaver/ESCheckboxMatrix.h>

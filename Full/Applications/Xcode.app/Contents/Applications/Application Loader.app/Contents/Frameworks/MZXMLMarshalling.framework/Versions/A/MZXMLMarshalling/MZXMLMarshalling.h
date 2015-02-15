@@ -1,0 +1,11 @@
+#import <MZXMLMarshalling/MZXMLClassMapping.h>
+#import <MZXMLMarshalling/MZXMLDocumentMapping.h>
+#import <MZXMLMarshalling/MZXMLFieldMapping.h>
+#import <MZXMLMarshalling/MZXMLMapping.h>
+#import <MZXMLMarshalling/MZXMLMarshaller.h>
+#import <MZXMLMarshalling/MZXMLMarshallingMapping.h>
+#import <MZXMLMarshalling/MZXMLDataRepositoryManager.h>
+#import <MZXMLMarshalling/MZXMLFileSystemDataRepository.h>
+#import <MZXMLMarshalling/MZXMLVolatileDataRepository.h>
+#import <MZXMLMarshalling/MZGenericRecord.h>
+#import <MZXMLMarshalling/MZXMLBindToMapping.h>

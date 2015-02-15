@@ -1,0 +1,27 @@
++[AuthorizationPanel fidelityForDisplayID:]
+-[AuthorizationPanel cleanupAuthView]
+-[AuthorizationPanel willSelect]
+-[AuthorizationPanel willUnselect]
+-[AuthorizationPanel dealloc]
+-[AuthorizationPanel finalize]
+-[AuthorizationPanel handleAuthorizationChangedNotification]
+-[AuthorizationPanel authorizationViewDidAuthorize:]
+-[AuthorizationPanel authorizationViewDidDeauthorize:]
+_OBJC_CLASS_$_AuthorizationPanel
+_OBJC_IVAR_$_AuthorizationPanel._authButton
+_OBJC_METACLASS_$_AuthorizationPanel
+_authChangedCallback
+_DisplayServicesGetAuthorized
+_DisplayServicesHasOptionsAuthorization
+_DisplayServicesRegisterForNotification
+_DisplayServicesSetAuthorized
+_DisplayServicesUnregisterForNotification
+_OBJC_CLASS_$_MonitorPanel
+_OBJC_IVAR_$_MonitorPanel._displayID
+_OBJC_METACLASS_$_MonitorPanel
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

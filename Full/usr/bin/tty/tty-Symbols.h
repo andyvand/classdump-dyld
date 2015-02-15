@@ -1,0 +1,9 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_exit
+_fwrite
+_getopt
+_puts
+_ttyname
+dyld_stub_binder

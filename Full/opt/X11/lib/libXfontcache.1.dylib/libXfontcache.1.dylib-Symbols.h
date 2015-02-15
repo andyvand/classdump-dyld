@@ -1,0 +1,16 @@
+_find_display
+_close_display
+_fontcache_extension_hooks
+__fontcache_info_data
+_FontCacheChangeCacheSettings
+_FontCacheGetCacheSettings
+_FontCacheGetCacheStatistics
+_FontCacheQueryExtension
+_FontCacheQueryVersion
+_XMissingExtension
+_XextAddDisplay
+_XextFindDisplay
+_XextRemoveDisplay
+__XGetRequest
+__XReply
+dyld_stub_binder

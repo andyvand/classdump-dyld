@@ -1,0 +1,9 @@
+radr://5614542
+__mh_execute_header
+_closelog
+_getlogin
+_openlog
+_printf
+_syslog
+_ttyname
+dyld_stub_binder

@@ -1,0 +1,182 @@
+-[XProtectAnalysis initWithURL:]
+-[XProtectAnalysis dealloc]
+-[XProtectAnalysis beginAnalysisWithDelegate:didEndSelector:contextInfo:]
+-[XProtectAnalysis beginAnalysisWithDelegate:didEndSelector:contextInfo:feedback:]
+___82-[XProtectAnalysis beginAnalysisWithDelegate:didEndSelector:contextInfo:feedback:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XProtectAnalysis description]
+-[XProtectAnalysis cancelAnalysis]
+-[XProtectAnalysis fileURL]
+-[XProtectAnalysis setFileURL:]
++[PatternMatchingCheck initialize]
++[PatternMatchingCheck copyDownloadContentTypeForFile:]
++[PatternMatchingCheck hashOfFile:]
++[PatternMatchingCheck returnTrue:ignore:ignore:]
++[PatternMatchingCheck doesFile:matchIdentity:useCache:]
++[PatternMatchingCheck doesFile:matchPattern:useCache:]
++[PatternMatchingCheck doesFile:matchSignature:withSelector:withFilter:useCache:]
++[PatternMatchingCheck doesFileOrDirectory:matchSignature:withSelector:withFilter:useCache:]
+___92+[PatternMatchingCheck doesFileOrDirectory:matchSignature:withSelector:withFilter:useCache:]_block_invoke
++[PatternMatchingCheck doesFileOrDirectory:matchSignatureArray:useCache:matchAny:]
++[PatternMatchingCheck performCheckWithFileURL:andProperties:caspianEnforced:]
+-[PatternMatch initWithPattern:onFileWrapper:]
+-[PatternMatch dealloc]
+-[PatternMatch byteForHex:]
+-[PatternMatch matchDataForString:]
+-[PatternMatch handleHex:atOffset:lookAhead:]
+-[PatternMatch handleWildcardAtOffset:]
+-[PatternMatch handleQuestionAtOffset:]
+-[PatternMatch handleNBytes:]
+-[PatternMatch handleOr:]
+-[PatternMatch matchChunkAtOffset:canLookahead:doBacktrack:]
+-[PatternMatch doMatch]
+-[NSString(PatternMatching) doesMatchOn:]
+-[NSDictionary(PatternMatching) doesMatchOn:]
++[WorkerThreadClass copyAssessmentWithURL:withContext:returningError:]
++[WorkerThreadClass setAssessmentOkFlagOnURL:]
++[WorkerThreadClass threadEntry:]
+GCC_except_table8
+GCC_except_table2
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+_signatureDatabase
+_OBJC_CLASS_$_PatternMatch
+_OBJC_CLASS_$_PatternMatchingCheck
+_OBJC_CLASS_$_WorkerThreadClass
+_OBJC_CLASS_$_XProtectAnalysis
+_OBJC_IVAR_$_PatternMatch.chunkSizes
+_OBJC_IVAR_$_PatternMatch.dataAddr
+_OBJC_IVAR_$_PatternMatch.dataSize
+_OBJC_IVAR_$_PatternMatch.fh
+_OBJC_IVAR_$_PatternMatch.pattern
+_OBJC_IVAR_$_PatternMatch.patternScanner
+_OBJC_IVAR_$_XProtectAnalysis._analysisDelegateInvocation
+_OBJC_IVAR_$_XProtectAnalysis._fileURL
+_OBJC_IVAR_$_XProtectAnalysis._lsProperties
+_OBJC_IVAR_$_XProtectAnalysis._workerThread
+_OBJC_METACLASS_$_PatternMatch
+_OBJC_METACLASS_$_PatternMatchingCheck
+_OBJC_METACLASS_$_WorkerThreadClass
+_OBJC_METACLASS_$_XProtectAnalysis
+_SignatureHexCharacters
+_SignaturePatternSeparators
+_XProtectAnalysisError
+_XProtectCaspianContext
+_XProtectDetectionType
+_XProtectMalwareType
+_XProtectMatchTypeMatch
+_XProtectMatchTypeMatchAll
+_XProtectMatchTypeMatchAny
+_XProtectSignatureDescription
+_XProtectSignatureFilter
+_XProtectSignatureIdentity
+_XProtectSignatureMatchFilter
+_XProtectSignatureMatchType
+_XProtectSignatureMatches
+_XProtectSignatureName
+_XProtectSignaturePattern
+_XProtectSignatureRunWithCaspian
+_kSecAssessmentContextQuarantineFlags
+_CC_SHA1_Final
+_CC_SHA1_Init
+_CC_SHA1_Update
+_CFRelease
+_CFURLGetFSRef
+_LSCopyItemAttributes
+_NSLog
+_NSURLFileSizeKey
+_NSURLIsDirectoryKey
+_NSURLIsRegularFileKey
+_NSURLNameKey
+_NSURLTypeIdentifierKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_PKInstallableObject
+_OBJC_METACLASS_$_NSObject
+_SecAssessmentCopyResult
+_SecAssessmentCreate
+_SecCodeCopySigningInformation
+_SecStaticCodeCreateWithPath
+_UTTypeConformsTo
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__Block_release
+__LSCopyDownloadAssessmentDictionary
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___error
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__qtn_error
+__qtn_file_alloc
+__qtn_file_apply_to_path
+__qtn_file_free
+__qtn_file_get_flags
+__qtn_file_init_with_path
+__qtn_file_set_flags
+_close
+_fgetxattr
+_free
+_fstat$INODE64
+_kLSItemContentType
+_kLSItemQuarantineProperties
+_kSecAssessmentAssessmentAuthority
+_kSecAssessmentAssessmentAuthorityOverride
+_kSecAssessmentAssessmentSource
+_kSecAssessmentAssessmentVerdict
+_kSecAssessmentAssessmentWeakSignature
+_kSecAssessmentContextKeyFeedback
+_kSecAssessmentContextKeyOperation
+_kSecAssessmentOperationTypeExecute
+_kSecAssessmentOperationTypeInstall
+_kSecAssessmentOperationTypeOpenDocument
+_kSecCodeInfoUnique
+_lseek
+_malloc
+_memchr
+_memcmp
+_mmap
+_munmap
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_sync_enter
+_objc_sync_exit
+_open
+_read
+_regcomp
+_regerror
+_regexec
+_regfree
+_sscanf
+_strerror
+_strtol
+dyld_stub_binder

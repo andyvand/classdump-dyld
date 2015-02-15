@@ -1,0 +1,16 @@
+_am_create_conf
+_am_merge_conf
+_am_register_hooks
+_am_check_access
+_am_allowmethods
+_aplog_module_index
+_am_cmds
+_allowmethods_module
+_ap_hook_access_checker
+_ap_log_rerror_
+_ap_method_number_of
+_apr_palloc
+_apr_pstrcat
+_memset
+_strcasecmp
+dyld_stub_binder

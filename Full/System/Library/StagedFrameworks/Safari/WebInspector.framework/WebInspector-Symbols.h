@@ -1,0 +1,898 @@
+-[RWIApplication initWithIdentifier:bundleIdentifier:name:isProxy:isActive:target:]
+-[RWIApplication dealloc]
+-[RWIApplication debuggables]
+-[RWIApplication isCurrentApplication]
+-[RWIApplication changeActiveState:]
+-[RWIApplication hostApplication]
+-[RWIApplication addDebuggable:]
+-[RWIApplication removeDebuggable:]
+-[RWIApplication debuggableWithPageId:]
+-[RWIApplication delegate]
+-[RWIApplication setDelegate:]
+-[RWIApplication identifier]
+-[RWIApplication bundleIdentifier]
+-[RWIApplication name]
+-[RWIApplication target]
+-[RWIApplication isProxy]
+-[RWIApplication isActive]
+-[RWIApplication hostApplicationIdentifier]
+-[RWIApplication setHostApplicationIdentifier:]
+-[RWIApplication(RWIDeprecated) device]
+-[RWIApplication(RWIDeprecated) webViews]
+-[RWIBaseManager init]
+-[RWIBaseManager dealloc]
+-[RWIBaseManager _keyForDeviceRef:]
+-[RWIBaseManager targets]
+-[RWIBaseManager targetHasBasicInformation:]
+-[RWIBaseManager openServiceConnectionForTarget:]
+-[RWIBaseManager targetEstablishedServiceConnection:]
+-[RWIBaseManager manageDevice:]
+-[RWIBaseManager unmanageDevice:]
+-[RWIBaseManager managedDeviceWithRef:]
+-[RWIBaseManager manageTarget:withKey:]
+-[RWIBaseManager unmanageTargetWithKey:]
+-[RWIBaseManager managedTargetWithKey:]
+-[RWIBaseManager _addApplication:immediatelyFetchListing:]
+-[RWIBaseManager _addApplication:]
+-[RWIBaseManager _removeApplication:]
+-[RWIBaseManager _addDebuggable:]
+-[RWIBaseManager _removeDebuggable:]
+-[RWIBaseManager _addFloatingDebuggable:forApplicationIdentifier:]
+-[RWIBaseManager _adoptFloatingDebuggables:]
+-[RWIBaseManager _removeFloatingDebuggable:]
+-[RWIBaseManager _sendIdentifierToTarget:]
+-[RWIBaseManager _fetchApplicationListingForTarget:]
+-[RWIBaseManager _fetchListingForApplication:]
+-[RWIBaseManager serviceConnectionDidClose:]
+-[RWIBaseManager delegate]
+-[RWIBaseManager setDelegate:]
+-[RWIBaseManager uuid]
+-[RWIBaseManager(RPCIncoming) _rpc_reportConnectedApplicationList:]
+-[RWIBaseManager(RPCIncoming) _rpc_applicationConnected:]
+-[RWIBaseManager(RPCIncoming) _rpc_applicationUpdated:]
+-[RWIBaseManager(RPCIncoming) _rpc_applicationDisconnected:]
+-[RWIBaseManager(RPCIncoming) _rpc_applicationSentListing:]
+-[RWIBaseManager(RPCIncoming) _rpc_applicationSentData:]
+-[RWIBaseManager(RPCIncoming) _rpc_reportSetup:]
+-[RWIDebuggable initWithApplication:proxyApplication:pageId:url:title:type:debuggerState:userInfo:]
+-[RWIDebuggable dealloc]
+-[RWIDebuggable openInspector]
+-[RWIDebuggable setIndicating:]
+-[RWIDebuggable owningApplication]
+-[RWIDebuggable name]
+-[RWIDebuggable debugger]
+-[RWIDebuggable changeURL:title:debuggerState:userInfo:]
+-[RWIDebuggable hostApplicationNowAvailable:]
+-[RWIDebuggable delegate]
+-[RWIDebuggable setDelegate:]
+-[RWIDebuggable uuid]
+-[RWIDebuggable pageId]
+-[RWIDebuggable url]
+-[RWIDebuggable title]
+-[RWIDebuggable userInfo]
+-[RWIDebuggable type]
+-[RWIDebuggable debuggerState]
+-[RWIDebuggable application]
+-[RWIDebuggable proxyApplication]
+-[RWIDebuggable inspector]
+-[RWIDebuggable setInspector:]
+-[RWIDebuggable channel]
+-[RWIDebuggable setChannel:]
+-[RWIChannel initWithManager:debuggable:]
+-[RWIChannel dealloc]
+-[RWIChannel _sendDictionaryMessage:callback:]
+-[RWIChannel _sendSimpleMethod:]
+-[RWIChannel _callCallbacks:]
+-[RWIChannel sendMessageToBackend:]
+-[RWIChannel sendMessageToFrontend:]
+-[RWIChannel start]
+-[RWIChannel stop]
+-[RWIChannel reloadPage]
+-[RWIChannel startTimeline:]
+-[RWIChannel stopTimeline]
+-[RWIChannel evalJavaScript:callback:]
+-[RWIChannel delegate]
+-[RWIChannel setDelegate:]
+-[RWIChannel uuid]
+-[RWIChannel debuggable]
+-[RWIChannel manager]
+-[RWIChannel setManager:]
+-[RWIDevice initWithDevice:manager:]
+-[RWIDevice initWithUDID:name:manager:]
+-[RWIDevice dealloc]
+-[RWIDevice pair]
+___17-[RWIDevice pair]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[RWIDevice hadConnectionError]
+-[RWIDevice isReady]
+-[RWIDevice isIOS]
+-[RWIDevice isDevice]
+-[RWIDevice isSimulator]
+-[RWIDevice _paired]
+-[RWIDevice markAsHavingBuildVersion]
+-[RWIDevice setDeviceName:udid:buildVersion:productVersion:paired:supported:]
+-[RWIDevice setSimulatorBuildVersion:productVersion:name:]
+-[RWIDevice connectionChangedConnectivity]
+-[RWIDevice _fetchMobileDeviceInformationFromDevice]
+___52-[RWIDevice _fetchMobileDeviceInformationFromDevice]_block_invoke
+___52-[RWIDevice _fetchMobileDeviceInformationFromDevice]_block_invoke_2
+___copy_helper_block_62
+___destroy_helper_block_63
+___copy_helper_block_66
+___destroy_helper_block_67
+-[RWIDevice _queueAttemptingPairWithProgressCallback:]
+___54-[RWIDevice _queueAttemptingPairWithProgressCallback:]_block_invoke
+___54-[RWIDevice _queueAttemptingPairWithProgressCallback:]_block_invoke_2
+___copy_helper_block_71
+___destroy_helper_block_72
+___54-[RWIDevice _queueAttemptingPairWithProgressCallback:]_block_invoke74
+___54-[RWIDevice _queueAttemptingPairWithProgressCallback:]_block_invoke_283
+___copy_helper_block_84
+___destroy_helper_block_85
+___copy_helper_block_89
+___destroy_helper_block_90
+___copy_helper_block_92
+___destroy_helper_block_93
+-[RWIDevice deviceDelegate]
+-[RWIDevice setDeviceDelegate:]
+-[RWIDevice pairingProgress]
+-[RWIDevice device]
+-[RWIDevice deviceAccessQueue]
+-[RWIServiceXPCConnection initWithMachine:xpcServiceName:delegate:]
+___67-[RWIServiceXPCConnection initWithMachine:xpcServiceName:delegate:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[RWIServiceXPCConnection isConnected]
+-[RWIServiceXPCConnection dealloc]
+-[RWIServiceXPCConnection _handleXPCEvent:]
+-[RWIServiceXPCConnection sendMessage:]
+-[TCPServer _initWithDelegate:]
+-[TCPServer initWithPort:delegate:]
+-[TCPServer initWithLaunchdSocketName:delegate:]
+-[TCPServer dealloc]
+-[TCPServer _listenOnPort:]
+-[TCPServer _createListenDispatchSource]
+___40-[TCPServer _createListenDispatchSource]_block_invoke
+___40-[TCPServer _createListenDispatchSource]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_25
+___destroy_helper_block_26
+-[TCPServer connectionClosed:]
+___30-[TCPServer connectionClosed:]_block_invoke
+___30-[TCPServer connectionClosed:]_block_invoke_2
+___copy_helper_block_30
+___destroy_helper_block_31
+___copy_helper_block_35
+___destroy_helper_block_36
+-[TCPServer delegate]
+-[RWIInspector initWithManager:debuggable:]
+-[RWIInspector dealloc]
+-[RWIInspector show]
+-[RWIInspector _close]
+-[RWIInspector close]
+-[RWIInspector mainResourcePath]
+-[RWIInspector loadAndShow]
+-[RWIInspector updateWindowTitleWithURLComponents:]
+-[RWIInspector window]
+-[RWIInspector sendMessageToFrontend:]
+-[RWIInspector sendMessageToBackend:]
+-[RWIInspector windowWillClose:]
+-[RWIInspector delegate]
+-[RWIInspector setDelegate:]
+-[RWIInspector uuid]
+-[RWIInspector debuggable]
+-[RWIInspector manager]
+-[RWIInspector globalContextRef]
+-[RWIInspector setGlobalContextRef:]
+-[RWIInspector inspectorFrontendHost]
+-[RWIInspector setInspectorFrontendHost:]
++[RWIInspectorFrontendHost staticFunctions]
+__ZL33InspectorFrontendHostBringToFrontPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL38InspectorFrontendHostCanInspectWorkersPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL28InspectorFrontendHostCanSavePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL27InspectorFrontendHostAppendPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL25InspectorFrontendHostSavePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL26InspectorFrontendHostClosePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL32InspectorFrontendHostCloseWindowPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL29InspectorFrontendHostCopyTextPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL40InspectorFrontendHostInspectedURLChangedPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL27InspectorFrontendHostLoadedPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL40InspectorFrontendHostLocalizedStringsURLPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL33InspectorFrontendHostMoveWindowByPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL33InspectorFrontendHostOpenInNewTabPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL29InspectorFrontendHostPlatformPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL25InspectorFrontendHostPortPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL41InspectorFrontendHostSendMessageToBackendPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL36InspectorFrontendHostShowContextMenuPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL37InspectorFrontendHostSetToolbarHeightPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL25InspectorFrontendHostBeepPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL35InspectorFrontendHostDebuggableTypePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL45InspectorFrontendInspectorBackendCommandsURLsPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
+__ZL34InspectorFrontendHostEmptyFunctionPK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5_
++[RWIInspectorFrontendHost inspectorFrontendHostClass]
+__ZL31InspectorFrontendHostInitializePK15OpaqueJSContextP13OpaqueJSValue
+__ZL29InspectorFrontendHostFinalizeP13OpaqueJSValue
++[RWIInspectorFrontendHost initializeInContext:withInspector:]
+__ZL12logExceptionPK15OpaqueJSContextPK13OpaqueJSValue
+-[RWIInspectorFrontendHost initWithInspector:]
+-[RWIInspectorFrontendHost dealloc]
++[RWIInspectorFrontendHost inspectorFrontendHostForInspector:]
+-[RWIInspectorFrontendHost clearInspector]
+-[RWIInspectorFrontendHost _window_WebInspector:]
+-[RWIInspectorFrontendHost _window_WebInspector:propertyName:]
+-[RWIInspectorFrontendHost sendMessageToFrontend:]
+-[RWIInspectorFrontendHost menuDidClose:]
+-[RWIInspectorFrontendHost menuSelection:]
+-[RWIInspectorFrontendHost inspector]
+-[RWIInspectorFrontendHost setInspector:]
+-[RWIInspectorFrontendHost pageWebInspectorObjectRef]
+-[RWIInspectorFrontendHost setPageWebInspectorObjectRef:]
+-[RWIInspectorFrontendHost pageDispatchMessageFromBackendObjectRef]
+-[RWIInspectorFrontendHost setPageDispatchMessageFromBackendObjectRef:]
+-[RWIInspectorFrontendHost suggestedToActualURLMap]
+-[RWIInspectorFrontendHost setSuggestedToActualURLMap:]
+__ZL17jsValueToNSStringPK15OpaqueJSContextPK13OpaqueJSValue
+__ZL19menuItemFromJSValuePK15OpaqueJSContextPK13OpaqueJSValueP24RWIInspectorFrontendHost
+____ZL25InspectorFrontendHostSavePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5__block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+____ZL25InspectorFrontendHostSavePK15OpaqueJSContextP13OpaqueJSValueS3_mPKPKS2_PS5__block_invoke376
+___copy_helper_block_379
+___destroy_helper_block_380
+-[RWIInspectorWindowController init]
+-[RWIInspectorWindowController initWithInspector:]
+-[RWIInspectorWindowController dealloc]
+-[RWIInspectorWindowController updateWindowTitle]
+-[RWIInspectorWindowController updateWindowTitleWithURLComponents:]
+-[RWIInspectorWindowController updateWindowTitleWithDebuggableName:]
+-[RWIInspectorWindowController window]
+-[RWIInspectorWindowController showWindow:]
+-[RWIInspectorWindowController loadRequest:]
+-[RWIInspectorWindowController webView:contextMenuItemsForElement:defaultMenuItems:]
+-[RWIInspectorWindowController webView:frame:exceededDatabaseQuotaForSecurityOrigin:database:]
+-[RWIInspectorWindowController webView:didClearWindowObject:forFrame:]
+-[RWIInspectorWindowController webView:decidePolicyForNavigationAction:request:frame:decisionListener:]
+-[RWIInspectorWindowController webView]
+-[RWIInspectorWindowController inspector]
+-[RWIMachine initWithName:udid:currentMachine:manager:]
+-[RWIMachine hadConnectionError]
+-[RWIMachine isReady]
+-[RWIMachine isMachine]
+-[RWIMachine setMachineName:buildVersion:productVersion:]
+-[RWIMachine isCurrentMachine]
+_RWILog
+___RWILog_block_invoke
+-[TCPRelayMessage initWithPayload:]
+-[TCPRelayMessage dealloc]
++[TCPRelayMessage TCPRelayMessageFromDataStream:error:]
++[TCPRelayMessage TCPRelayMessageWithPayload:]
+-[TCPRelayMessage length]
+-[TCPRelayMessage write:]
+-[TCPRelayMessage payload]
+_AMDeviceConnect
+_AMDeviceDisconnect
+_AMDeviceStartSession
+_AMDeviceStopSession
+_AMDeviceValidatePairing
+_AMDevicePairWithOptions
+_AMDeviceSecureStartService
+_AMDeviceCopyValue
+_AMDeviceCopyDeviceIdentifier
+_AMDCopyErrorText
+_AMDeviceNotificationSubscribe
+_AMDeviceNotificationUnsubscribe
+_AMDSecureListenForNotificationsWithRetainedContext
+_AMDSecureObserveNotification
+_AMDSecureShutdownNotificationProxy
+_AMDServiceConnectionSendMessage
+_AMDServiceConnectionReceiveMessage
+_AMDServiceConnectionInvalidate
++[RWIManager sharedManager]
+-[RWIManager init]
+__ZL26deviceNotificationCallbackP25_AMDeviceNotificationInfoPv
+___18-[RWIManager init]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___18-[RWIManager init]_block_invoke43
+___copy_helper_block_46
+___destroy_helper_block_47
+-[RWIManager dealloc]
+-[RWIManager targets]
+-[RWIManager readyTargets]
+-[RWIManager capableTargets]
+-[RWIManager inspectors]
+-[RWIManager openInspectorForDebuggable:]
+-[RWIManager indicateDebuggable:enabled:]
+-[RWIManager _sendTargetAddedEvent:]
+-[RWIManager _sendTargetRemovedEvent:]
+-[RWIManager _removeDevice:]
+-[RWIManager _addDevice:]
+-[RWIManager targetHasBasicInformation:]
+-[RWIManager deviceNotification:]
+-[RWIManager _simulatorDevice]
+-[RWIManager _addSimulator]
+-[RWIManager _removeSimulator]
+-[RWIManager _createSimulatorConnection]
+-[RWIManager _simulatorRunning:]
+-[RWIManager _currentMachineTarget]
+-[RWIManager _createCurrentMachineTarget]
+-[RWIManager _removeCurrentMachineTarget]
+-[RWIManager inspectorWindowWillClose:]
+-[RWIManager socketSetupForDebugger:]
+-[RWIManager socketSend:fromDebugger:]
+-[RWIManager socketDidCloseFromDebugger:]
+-[RWIManager _serviceConnectionClosed:]
+-[RWIManager serviceConnectionClosed:]
+-[RWIManager serviceConnectionDidClose:]
+-[RWIManager didAddApplication:]
+-[RWIManager willRemoveApplication:]
+-[RWIManager didAddDebuggable:]
+-[RWIManager willRemoveDebuggable:]
+-[RWIManager _debuggerForDestination:]
+-[RWIManager receivedData:forDestination:]
+-[RWIManager receivedSetup:forConnection:]
+-[RWIManager delegate]
+-[RWIManager setDelegate:]
+-[RWIManager(RWIDeprecated) devices]
+-[RWIManager(RWIDeprecated) readyDevices]
+-[RWIManager(RWIDeprecated) capableDevices]
+-[RWIManager(RWIDeprecated) openInspectorForWebView:]
+-[RWIManager(Private) deviceForAMDeviceRef:]
+-[RWIManager(Private) manageDevice:]
+-[RWIManager(Private) unmanageDevice:]
+-[RWIManager(Channels) openChannelForDebuggable:]
+____ZL23WebInspectorUIFrameworkv_block_invoke
+-[RWIServiceConnection initWithTarget:delegate:]
+-[RWIServiceConnection dealloc]
+-[RWIServiceConnection isConnected]
+-[RWIServiceConnection sendMessage:]
+-[RWIServiceConnection _dispatchMessage:]
+-[RWIServiceConnection forwardInvocation:]
+-[RWIServiceConnection methodSignatureForSelector:]
+-[RWIServiceConnection delegate]
+-[RWIServiceConnection target]
+-[RWIServiceConnection setTarget:]
+__RWITrace
+____initializeLogging_block_invoke
+-[RWIServiceLockdownConnection initWithDevice:delegate:]
+-[RWIServiceLockdownConnection _cancelReadThread]
+-[RWIServiceLockdownConnection _closeWebinspectordServiceConnection]
+-[RWIServiceLockdownConnection _closeNotificationProxyServiceConnection]
+-[RWIServiceLockdownConnection dealloc]
+-[RWIServiceLockdownConnection isConnected]
+-[RWIServiceLockdownConnection device]
+-[RWIServiceLockdownConnection _didStartWebinspectordServiceConnection:]
+-[RWIServiceLockdownConnection _didStartNotificationProxyServiceConnection:]
+-[RWIServiceLockdownConnection _startSession:]
+-[RWIServiceLockdownConnection _stopSession:]
+-[RWIServiceLockdownConnection _queueStartWebInspectordService:]
+-[RWIServiceLockdownConnection _queueStartNotificationProxyService:]
+__ZL7_retainPKv
+__ZL8_releasePKv
+__ZL20notificationCallbackPK10__CFStringPv
+-[RWIServiceLockdownConnection startMobileDeviceServiceConnections]
+___67-[RWIServiceLockdownConnection startMobileDeviceServiceConnections]_block_invoke
+___67-[RWIServiceLockdownConnection startMobileDeviceServiceConnections]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_71
+___destroy_helper_block_72
+-[RWIServiceLockdownConnection _reconnectToWebinspectord]
+___57-[RWIServiceLockdownConnection _reconnectToWebinspectord]_block_invoke
+___57-[RWIServiceLockdownConnection _reconnectToWebinspectord]_block_invoke_2
+___copy_helper_block_74
+___destroy_helper_block_75
+___57-[RWIServiceLockdownConnection _reconnectToWebinspectord]_block_invoke77
+___copy_helper_block_78
+___destroy_helper_block_79
+___57-[RWIServiceLockdownConnection _reconnectToWebinspectord]_block_invoke81
+___copy_helper_block_82
+___destroy_helper_block_83
+___copy_helper_block_85
+___destroy_helper_block_86
+-[RWIServiceLockdownConnection notificationFromDevice:]
+-[RWIServiceLockdownConnection _disconnect]
+-[RWIServiceLockdownConnection readFromService]
+___47-[RWIServiceLockdownConnection readFromService]_block_invoke
+___copy_helper_block_114
+___destroy_helper_block_115
+___47-[RWIServiceLockdownConnection readFromService]_block_invoke125
+___copy_helper_block_128
+___destroy_helper_block_129
+-[RWIServiceLockdownConnection sendMessage:]
+-[RWIServiceLockdownConnection webinspectordService]
+-[RWIServiceLockdownConnection setWebinspectordService:]
+____ZL20notificationCallbackPK10__CFStringPv_block_invoke
+___copy_helper_block_174
+___destroy_helper_block_175
+_createUUID
+_isProductVersionOlderThanProductVersion
+-[RWITarget initWithManager:]
+-[RWITarget initWithUDID:name:manager:]
+-[RWITarget dealloc]
+-[RWITarget setName:udid:buildVersion:productVersion:supported:]
+-[RWITarget hadConnectionError]
+-[RWITarget isReady]
+-[RWITarget isIOS]
+-[RWITarget isDevice]
+-[RWITarget isSimulator]
+-[RWITarget isMachine]
+-[RWITarget applications]
+-[RWITarget activeApplications]
+-[RWITarget allApplications]
+-[RWITarget setConnection:]
+-[RWITarget markAsHavingBasicInformation]
+-[RWITarget readyStateChanged]
+-[RWITarget addApplication:]
+-[RWITarget removeApplication:]
+-[RWITarget applicationWithIdentifier:]
+-[RWITarget delegate]
+-[RWITarget setDelegate:]
+-[RWITarget supportsRemoteWebInspector]
+-[RWITarget name]
+-[RWITarget udid]
+-[RWITarget buildVersion]
+-[RWITarget productVersion]
+-[RWITarget connection]
+-[RWITarget manager]
+-[RWIServiceTCPConnection _initWithDevice:tcpConnection:delegate:]
+-[RWIServiceTCPConnection initWithDevice:port:delegate:]
+-[RWIServiceTCPConnection initWithDevice:resolvedBonjourService:delegate:]
+-[RWIServiceTCPConnection isConnected]
+-[RWIServiceTCPConnection dealloc]
+-[RWIServiceTCPConnection tcpConnectionDidClose:]
+-[RWIServiceTCPConnection tcpConnection:didReceiveMessage:]
+-[RWIServiceTCPConnection sendMessage:]
++[TCPConnection TCPConnectionWithPort:]
++[TCPConnection TCPConnectionWithResolvedNetService:]
+-[TCPConnection initWithServer:socket:]
+-[TCPConnection dealloc]
+-[TCPConnection _shutdown]
+-[TCPConnection _dispatchSourceCancelled]
+-[TCPConnection sendMessage:]
+___29-[TCPConnection sendMessage:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[TCPConnection startReceiving]
+-[TCPConnection _createOutputSource]
+___36-[TCPConnection _createOutputSource]_block_invoke
+___copy_helper_block_38
+___destroy_helper_block_39
+___36-[TCPConnection _createOutputSource]_block_invoke41
+___copy_helper_block_44
+___destroy_helper_block_45
+-[TCPConnection _closeOutputStream]
+___35-[TCPConnection _closeOutputStream]_block_invoke
+___copy_helper_block_51
+___destroy_helper_block_52
+-[TCPConnection _setOutputSourceSuspended:]
+-[TCPConnection _handleOutput]
+-[TCPConnection _createInputSource]
+___35-[TCPConnection _createInputSource]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+___35-[TCPConnection _createInputSource]_block_invoke69
+___copy_helper_block_70
+___destroy_helper_block_71
+-[TCPConnection _closeInputStream]
+-[TCPConnection _handleInput]
+-[TCPConnection _processIncomingBytes:length:]
+___46-[TCPConnection _processIncomingBytes:length:]_block_invoke
+___copy_helper_block_87
+___destroy_helper_block_88
+-[TCPConnection delegate]
+-[TCPConnection setDelegate:]
+GCC_except_table4
+GCC_except_table5
+GCC_except_table8
+GCC_except_table9
+GCC_except_table10
+GCC_except_table11
+GCC_except_table13
+GCC_except_table14
+GCC_except_table15
+GCC_except_table16
+GCC_except_table17
+GCC_except_table20
+GCC_except_table21
+GCC_except_table26
+GCC_except_table27
+GCC_except_table32
+GCC_except_table33
+GCC_except_table34
+GCC_except_table45
+GCC_except_table46
+GCC_except_table47
+___block_descriptor_tmp
+___block_descriptor_tmp65
+___block_descriptor_tmp68
+___block_descriptor_tmp73
+___block_descriptor_tmp86
+___block_descriptor_tmp91
+___block_descriptor_tmp94
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp27
+___block_descriptor_tmp32
+___block_descriptor_tmp37
+___block_descriptor_tmp
+___block_descriptor_tmp382
+_kRemoteWebInspectorDefaultsDomain
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp49
+___block_descriptor_tmp408
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp73
+___block_descriptor_tmp76
+___block_descriptor_tmp80
+___block_descriptor_tmp84
+___block_descriptor_tmp87
+___block_descriptor_tmp116
+___block_descriptor_tmp130
+___block_descriptor_tmp176
+___block_descriptor_tmp
+___block_descriptor_tmp40
+___block_descriptor_tmp46
+___block_descriptor_tmp53
+___block_descriptor_tmp68
+___block_descriptor_tmp72
+___block_descriptor_tmp89
+__ZZ43+[RWIInspectorFrontendHost staticFunctions]E15staticFunctions
+__ZZ54+[RWIInspectorFrontendHost inspectorFrontendHostClass]E7jsClass
+__ZZ84-[RWIInspectorWindowController webView:contextMenuItemsForElement:defaultMenuItems:]E22developerExtrasEnabled
+__ZGVZ84-[RWIInspectorWindowController webView:contextMenuItemsForElement:defaultMenuItems:]E22developerExtrasEnabled
+_RWILog.sLoggingEnabled
+_RWILog.onceToken
+__ZZ15AMDeviceConnectE15functionPointer
+__ZGVZ15AMDeviceConnectE15functionPointer
+__ZZ18AMDeviceDisconnectE15functionPointer
+__ZGVZ18AMDeviceDisconnectE15functionPointer
+__ZZ20AMDeviceStartSessionE15functionPointer
+__ZGVZ20AMDeviceStartSessionE15functionPointer
+__ZZ19AMDeviceStopSessionE15functionPointer
+__ZGVZ19AMDeviceStopSessionE15functionPointer
+__ZZ23AMDeviceValidatePairingE15functionPointer
+__ZGVZ23AMDeviceValidatePairingE15functionPointer
+__ZZ23AMDevicePairWithOptionsE15functionPointer
+__ZGVZ23AMDevicePairWithOptionsE15functionPointer
+__ZZ26AMDeviceSecureStartServiceE15functionPointer
+__ZGVZ26AMDeviceSecureStartServiceE15functionPointer
+__ZZ17AMDeviceCopyValueE15functionPointer
+__ZGVZ17AMDeviceCopyValueE15functionPointer
+__ZZ28AMDeviceCopyDeviceIdentifierE15functionPointer
+__ZGVZ28AMDeviceCopyDeviceIdentifierE15functionPointer
+__ZZ16AMDCopyErrorTextE15functionPointer
+__ZGVZ16AMDCopyErrorTextE15functionPointer
+__ZZ29AMDeviceNotificationSubscribeE15functionPointer
+__ZGVZ29AMDeviceNotificationSubscribeE15functionPointer
+__ZZ31AMDeviceNotificationUnsubscribeE15functionPointer
+__ZGVZ31AMDeviceNotificationUnsubscribeE15functionPointer
+__ZZ50AMDSecureListenForNotificationsWithRetainedContextE15functionPointer
+__ZGVZ50AMDSecureListenForNotificationsWithRetainedContextE15functionPointer
+__ZZ28AMDSecureObserveNotificationE15functionPointer
+__ZGVZ28AMDSecureObserveNotificationE15functionPointer
+__ZZ34AMDSecureShutdownNotificationProxyE15functionPointer
+__ZGVZ34AMDSecureShutdownNotificationProxyE15functionPointer
+__ZZ31AMDServiceConnectionSendMessageE15functionPointer
+__ZGVZ31AMDServiceConnectionSendMessageE15functionPointer
+__ZZ34AMDServiceConnectionReceiveMessageE15functionPointer
+__ZGVZ34AMDServiceConnectionReceiveMessageE15functionPointer
+__ZZ30AMDServiceConnectionInvalidateE15functionPointer
+__ZGVZ30AMDServiceConnectionInvalidateE15functionPointer
+__ZZ27+[RWIManager sharedManager]E13sharedManager
+__ZGVZ27+[RWIManager sharedManager]E13sharedManager
+__ZZL23WebInspectorUIFrameworkvE7library
+__ZGVZL23WebInspectorUIFrameworkvE7library
+__ZZL21MobileDeviceFrameworkvE7library
+__ZGVZL21MobileDeviceFrameworkvE7library
+_sLoggingEnabled
+_sASLClient
+__initializeLogging.once
+_OBJC_CLASS_$_RWIApplication
+_OBJC_CLASS_$_RWIBaseManager
+_OBJC_CLASS_$_RWIChannel
+_OBJC_CLASS_$_RWIDebuggable
+_OBJC_CLASS_$_RWIDevice
+_OBJC_CLASS_$_RWIInspector
+_OBJC_CLASS_$_RWIInspectorFrontendHost
+_OBJC_CLASS_$_RWIInspectorWindowController
+_OBJC_CLASS_$_RWIMachine
+_OBJC_CLASS_$_RWIManager
+_OBJC_CLASS_$_RWIServiceConnection
+_OBJC_CLASS_$_RWIServiceLockdownConnection
+_OBJC_CLASS_$_RWIServiceTCPConnection
+_OBJC_CLASS_$_RWIServiceXPCConnection
+_OBJC_CLASS_$_RWITarget
+_OBJC_CLASS_$_TCPConnection
+_OBJC_CLASS_$_TCPRelayMessage
+_OBJC_CLASS_$_TCPServer
+_OBJC_IVAR_$_RWIApplication._active
+_OBJC_IVAR_$_RWIApplication._bundleIdentifier
+_OBJC_IVAR_$_RWIApplication._debuggables
+_OBJC_IVAR_$_RWIApplication._delegate
+_OBJC_IVAR_$_RWIApplication._hostApplicationIdentifier
+_OBJC_IVAR_$_RWIApplication._identifier
+_OBJC_IVAR_$_RWIApplication._name
+_OBJC_IVAR_$_RWIApplication._proxy
+_OBJC_IVAR_$_RWIApplication._target
+_OBJC_IVAR_$_RWIBaseManager._delegate
+_OBJC_IVAR_$_RWIBaseManager._floatingDebuggables
+_OBJC_IVAR_$_RWIBaseManager._targets
+_OBJC_IVAR_$_RWIBaseManager._uuid
+_OBJC_IVAR_$_RWIChannel._callbackMap
+_OBJC_IVAR_$_RWIChannel._debuggable
+_OBJC_IVAR_$_RWIChannel._delegate
+_OBJC_IVAR_$_RWIChannel._manager
+_OBJC_IVAR_$_RWIChannel._messageId
+_OBJC_IVAR_$_RWIChannel._timelineCallback
+_OBJC_IVAR_$_RWIChannel._uuid
+_OBJC_IVAR_$_RWIDebuggable._application
+_OBJC_IVAR_$_RWIDebuggable._channel
+_OBJC_IVAR_$_RWIDebuggable._debuggerState
+_OBJC_IVAR_$_RWIDebuggable._delegate
+_OBJC_IVAR_$_RWIDebuggable._inspector
+_OBJC_IVAR_$_RWIDebuggable._pageId
+_OBJC_IVAR_$_RWIDebuggable._proxyApplication
+_OBJC_IVAR_$_RWIDebuggable._title
+_OBJC_IVAR_$_RWIDebuggable._type
+_OBJC_IVAR_$_RWIDebuggable._url
+_OBJC_IVAR_$_RWIDebuggable._userInfo
+_OBJC_IVAR_$_RWIDebuggable._uuid
+_OBJC_IVAR_$_RWIDevice._attemptedPair
+_OBJC_IVAR_$_RWIDevice._device
+_OBJC_IVAR_$_RWIDevice._deviceAccessQueue
+_OBJC_IVAR_$_RWIDevice._deviceAccessQueuePairingTimer
+_OBJC_IVAR_$_RWIDevice._deviceDelegate
+_OBJC_IVAR_$_RWIDevice._hasBuildVersion
+_OBJC_IVAR_$_RWIDevice._pairedProgress
+_OBJC_IVAR_$_RWIInspector._debuggable
+_OBJC_IVAR_$_RWIInspector._delegate
+_OBJC_IVAR_$_RWIInspector._globalContextRef
+_OBJC_IVAR_$_RWIInspector._inspectorFrontendHost
+_OBJC_IVAR_$_RWIInspector._manager
+_OBJC_IVAR_$_RWIInspector._uuid
+_OBJC_IVAR_$_RWIInspector._windowController
+_OBJC_IVAR_$_RWIInspectorFrontendHost._inspector
+_OBJC_IVAR_$_RWIInspectorFrontendHost._pageDispatchMessageFromBackendObjectRef
+_OBJC_IVAR_$_RWIInspectorFrontendHost._pageWebInspectorObjectRef
+_OBJC_IVAR_$_RWIInspectorFrontendHost._suggestedToActualURLMap
+_OBJC_IVAR_$_RWIInspectorWindowController._inspector
+_OBJC_IVAR_$_RWIInspectorWindowController._webView
+_OBJC_IVAR_$_RWIMachine._currentMachine
+_OBJC_IVAR_$_RWIManager._baseManager
+_OBJC_IVAR_$_RWIManager._channels
+_OBJC_IVAR_$_RWIManager._delegate
+_OBJC_IVAR_$_RWIManager._inspectors
+_OBJC_IVAR_$_RWIManager._notificationRef
+_OBJC_IVAR_$_RWIManager._notifyEnabledToken
+_OBJC_IVAR_$_RWIServiceConnection._delegate
+_OBJC_IVAR_$_RWIServiceConnection._target
+_OBJC_IVAR_$_RWIServiceLockdownConnection._incomingData
+_OBJC_IVAR_$_RWIServiceLockdownConnection._notificationProxyService
+_OBJC_IVAR_$_RWIServiceLockdownConnection._readThread
+_OBJC_IVAR_$_RWIServiceLockdownConnection._startingWebinspectord
+_OBJC_IVAR_$_RWIServiceLockdownConnection._webinspectordService
+_OBJC_IVAR_$_RWIServiceTCPConnection._connection
+_OBJC_IVAR_$_RWIServiceXPCConnection._connection
+_OBJC_IVAR_$_RWITarget._applications
+_OBJC_IVAR_$_RWITarget._buildVersion
+_OBJC_IVAR_$_RWITarget._connection
+_OBJC_IVAR_$_RWITarget._delegate
+_OBJC_IVAR_$_RWITarget._manager
+_OBJC_IVAR_$_RWITarget._name
+_OBJC_IVAR_$_RWITarget._productVersion
+_OBJC_IVAR_$_RWITarget._supportsRemoteWebInspector
+_OBJC_IVAR_$_RWITarget._udid
+_OBJC_IVAR_$_TCPConnection._connectionQueue
+_OBJC_IVAR_$_TCPConnection._delegate
+_OBJC_IVAR_$_TCPConnection._incomingData
+_OBJC_IVAR_$_TCPConnection._inputSource
+_OBJC_IVAR_$_TCPConnection._inputSourceCancelled
+_OBJC_IVAR_$_TCPConnection._outputMessageQueue
+_OBJC_IVAR_$_TCPConnection._outputSource
+_OBJC_IVAR_$_TCPConnection._outputSourceCancelled
+_OBJC_IVAR_$_TCPConnection._outputSourceSuspended
+_OBJC_IVAR_$_TCPConnection._server
+_OBJC_IVAR_$_TCPConnection._shutdown
+_OBJC_IVAR_$_TCPConnection._socket
+_OBJC_IVAR_$_TCPRelayMessage._payload
+_OBJC_IVAR_$_TCPRelayMessage._writtenHeader
+_OBJC_IVAR_$_TCPRelayMessage._writtenPayloadOffset
+_OBJC_IVAR_$_TCPServer._connections
+_OBJC_IVAR_$_TCPServer._delegate
+_OBJC_IVAR_$_TCPServer._listenSocket
+_OBJC_IVAR_$_TCPServer._serverQueue
+_OBJC_IVAR_$_TCPServer._serverSource
+_OBJC_METACLASS_$_RWIApplication
+_OBJC_METACLASS_$_RWIBaseManager
+_OBJC_METACLASS_$_RWIChannel
+_OBJC_METACLASS_$_RWIDebuggable
+_OBJC_METACLASS_$_RWIDevice
+_OBJC_METACLASS_$_RWIInspector
+_OBJC_METACLASS_$_RWIInspectorFrontendHost
+_OBJC_METACLASS_$_RWIInspectorWindowController
+_OBJC_METACLASS_$_RWIMachine
+_OBJC_METACLASS_$_RWIManager
+_OBJC_METACLASS_$_RWIServiceConnection
+_OBJC_METACLASS_$_RWIServiceLockdownConnection
+_OBJC_METACLASS_$_RWIServiceTCPConnection
+_OBJC_METACLASS_$_RWIServiceXPCConnection
+_OBJC_METACLASS_$_RWITarget
+_OBJC_METACLASS_$_TCPConnection
+_OBJC_METACLASS_$_TCPRelayMessage
+_OBJC_METACLASS_$_TCPServer
+_WebInspectorLocalizableStringsBundle
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryGetValue
+_CFDictionarySetValue
+_CFMakeCollectable
+_CFPreferencesGetAppBooleanValue
+_CFRelease
+_CFRetain
+_CFUUIDCreate
+_CFUUIDCreateString
+_JSClassCreate
+_JSContextGetGlobalContext
+_JSContextGetGlobalObject
+_JSEvaluateScript
+_JSGlobalContextRelease
+_JSGlobalContextRetain
+_JSObjectCallAsFunction
+_JSObjectGetPrivate
+_JSObjectGetProperty
+_JSObjectGetPropertyAtIndex
+_JSObjectIsFunction
+_JSObjectMake
+_JSObjectMakeArray
+_JSObjectSetProperty
+_JSStringCopyCFString
+_JSStringCreateWithCFString
+_JSStringCreateWithUTF8CString
+_JSStringRelease
+_JSValueIsNumber
+_JSValueIsObject
+_JSValueIsString
+_JSValueIsUndefined
+_JSValueMakeBoolean
+_JSValueMakeNumber
+_JSValueMakeString
+_JSValueMakeUndefined
+_JSValueToBoolean
+_JSValueToNumber
+_JSValueToObject
+_JSValueToStringCopy
+_NSBeep
+_NSInternalInconsistencyException
+_NSLocalizedDescriptionKey
+_NSLogv
+_NSSearchPathForDirectoriesInDomains
+_NSSelectorFromString
+_NSStringFromSelector
+_NSStringPboardType
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSHost
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSMenu
+_OBJC_CLASS_$_NSMenuItem
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPasteboard
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSSavePanel
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLRequest
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSWindow
+_OBJC_CLASS_$_NSWindowController
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_CLASS_$_WebPreferences
+_OBJC_CLASS_$_WebView
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSWindowController
+_WebLocalizedString
+__Block_object_assign
+__Block_object_dispose
+__CFXPCCreateCFObjectFromXPCMessage
+__CFXPCCreateXPCMessageWithCFObject
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZN3WTF10StringImpl7destroyEPS0_
+__ZN3WTF12base64DecodeERKNS_6StringENS_33SignedOrUnsignedCharVectorAdapterENS_18Base64DecodePolicyE
+__ZN3WTF6StringC1EP8NSString
+__ZN3WTF8fastFreeEPv
+___CFConstantStringClassReference
+___error
+___gxx_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_source_type_read
+__dispatch_source_type_timer
+__dispatch_source_type_write
+__objc_empty_cache
+__xpc_type_dictionary
+__xpc_type_error
+_accept
+_asl_add_log_file
+_asl_close
+_asl_log
+_asl_open
+_bind
+_close
+_connect
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_resume
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_get_data
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_suspend
+_dispatch_time
+_dlopen
+_dlsym
+_in6addr_loopback
+_kCFAllocatorDefault
+_kCFBooleanTrue
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kJSClassDefinitionEmpty
+_listen
+_notify_cancel
+_notify_register_dispatch
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty_atomic
+_objc_setProperty_nonatomic
+_objc_setProperty_nonatomic_copy
+_open
+_perror
+_read
+_setsockopt
+_socket
+_write
+_xpc_connection_cancel
+_xpc_connection_create_mach_service
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_connection_set_target_queue
+_xpc_get_type
+_xpc_release
+dyld_stub_binder

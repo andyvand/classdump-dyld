@@ -1,0 +1,61 @@
++[MZRegularExpression initialize]
++[MZRegularExpression compileExpression:toPcre:]
++[MZRegularExpression regexWithExpression:error:]
+-[MZRegularExpression initWithExpression:error:]
+-[MZRegularExpression dealloc]
+-[MZRegularExpression setOptions:]
+-[MZRegularExpression options]
+-[MZRegularExpression matchInString:startIndex:range:error:]
+-[MZRegularExpression preprocessInputString:delta:]
+-[MZRegularExpression matchInString:startIndex:offsets:offsetCount:error:]
+-[MZRegularExpression matchInString:startIndex:namedMatches:range:error:]
+___inline_memset_chk
+-[MZRegularExpression matchInString:startIndex:namedMatches:error:]
+-[MZRegularExpression error:reason:description:code:]
+-[MZRegularExpression description]
+GCC_except_table10
+_InvalidArgument
+_InvalidArgumentDescription
+_OBJC_CLASS_$_MZRegularExpression
+_OBJC_IVAR_$_MZRegularExpression._expression
+_OBJC_IVAR_$_MZRegularExpression._opaque1
+_OBJC_IVAR_$_MZRegularExpression._options
+_OBJC_METACLASS_$_MZRegularExpression
+_NSCocoaErrorDomain
+_NSInternalInconsistencyException
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Unwind_Resume
+___CFConstantStringClassReference
+___memset_chk
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_free
+_malloc
+_objc_begin_catch
+_objc_end_catch
+_objc_exception_rethrow
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_terminate
+_pcre_compile
+_pcre_exec
+_pcre_free
+_pcre_free_substring
+_pcre_fullinfo
+_pcre_get_named_substring
+dyld_stub_binder

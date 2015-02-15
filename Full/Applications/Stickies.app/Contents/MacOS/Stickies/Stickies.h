@@ -1,0 +1,13 @@
+#import <Stickies/Document.h>
+#import <Stickies/StickiesDocument.h>
+#import <Stickies/NoteController.h>
+#import <Stickies/StickiesWindow.h>
+#import <Stickies/MicroButton.h>
+#import <Stickies/MicroButtonCell.h>
+#import <Stickies/StickiesDragBar.h>
+#import <Stickies/StickiesEnclosure.h>
+#import <Stickies/PreferencesController.h>
+#import <Stickies/TextFindController.h>
+#import <Stickies/StickiesService.h>
+#import <Stickies/StickiesSelfTest.h>
+#import <Stickies/StickiesScrollView.h>

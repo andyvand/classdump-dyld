@@ -1,0 +1,3 @@
+_XGetXCBConnection
+_XSetEventQueueOwner
+dyld_stub_binder

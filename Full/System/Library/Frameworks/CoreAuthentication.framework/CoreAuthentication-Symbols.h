@@ -1,0 +1,279 @@
+-[VRCredentialReference setupNewReferenceWithReply:]
+-[VRCredentialReference setupWithCredentialHandle:reply:]
+-[VRCredentialReference setupWithCredentialHandle:domain:reply:]
+-[VRCredentialReference setupWithCredentialHandle:uiDelegate:reply:]
+-[VRCredentialReference setupWithCredentialHandle:domain:uiDelegate:reply:]
+___75-[VRCredentialReference setupWithCredentialHandle:domain:uiDelegate:reply:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[VRCredentialReference setupNewReferenceWithError:]
+-[VRCredentialReference setupWithCredentialHandle:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___57-[VRCredentialReference setupWithCredentialHandle:error:]_block_invoke
+___copy_helper_block_14
+___destroy_helper_block_15
+-[VRCredentialReference invalidate]
+-[VRCredentialReference evaluatePolicy:hints:reply:]
+___52-[VRCredentialReference evaluatePolicy:hints:reply:]_block_invoke
+___52-[VRCredentialReference evaluatePolicy:hints:reply:]_block_invoke_2
+___copy_helper_block_37
+___destroy_helper_block_38
+-[VRCredentialReference evaluatePolicy:hints:error:]
+___52-[VRCredentialReference evaluatePolicy:hints:error:]_block_invoke
+___copy_helper_block_43
+___destroy_helper_block_44
+-[VRCredentialReference evaluateACL:operation:hints:reply:]
+___59-[VRCredentialReference evaluateACL:operation:hints:reply:]_block_invoke
+___copy_helper_block_48
+___destroy_helper_block_49
+-[VRCredentialReference evaluateACL:operation:hints:error:]
+___59-[VRCredentialReference evaluateACL:operation:hints:error:]_block_invoke
+___copy_helper_block_53
+___destroy_helper_block_54
+-[VRCredentialReference resultForTag:]
+___38-[VRCredentialReference resultForTag:]_block_invoke
+___38-[VRCredentialReference resultForTag:]_block_invoke_2
+___copy_helper_block_66
+___destroy_helper_block_67
+___copy_helper_block_70
+___destroy_helper_block_71
+-[VRCredentialReference resultForTag:reply:]
+-[VRCredentialReference sendClientRequest:params:reply:]
+___56-[VRCredentialReference sendClientRequest:params:reply:]_block_invoke
+___copy_helper_block_87
+___destroy_helper_block_88
+-[VRCredentialReference creatorDisplayName]
+-[VRCredentialReference credentialHandle]
+-[VRCredentialReference .cxx_destruct]
+___VREvaluatePolicy_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___VRCanEvaluatePolicyWithReply_block_invoke
+___copy_helper_block_107
+___destroy_helper_block_108
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___VRCanEvaluatePolicy_block_invoke
+___copy_helper_block_111
+___destroy_helper_block_112
++[LALegacyHelper policyFromVRPolicy:error:]
+___43+[LALegacyHelper policyFromVRPolicy:error:]_block_invoke
++[LALegacyHelper policyFromVRPolicy:]
++[LALegacyHelper optionFromVRHint:error:]
+___41+[LALegacyHelper optionFromVRHint:error:]_block_invoke
++[LALegacyHelper eventFromVREvent:error:]
+___41+[LALegacyHelper eventFromVREvent:error:]_block_invoke
++[LALegacyHelper eventFromVREvent:]
++[LALegacyHelper resultFromVRResult:error:]
+___43+[LALegacyHelper resultFromVRResult:error:]_block_invoke
++[LALegacyHelper resultFromVRResult:]
++[LALegacyHelper optionsFromVRHints:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43+[LALegacyHelper optionsFromVRHints:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[LALegacyHelper optionsFromVRHints:]
++[LALegacyHelper _eventProcessingFromVREventProcessing:error:]
+___62+[LALegacyHelper _eventProcessingFromVREventProcessing:error:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
++[LALegacyHelper _eventProcessingFromVREventFilter:error:]
++[LALegacyHelper uiDelegateFromVRUIDelegate:]
++[LALegacyHelper vrErrorFromLAError:]
+___37+[LALegacyHelper vrErrorFromLAError:]_block_invoke
++[LALegacyHelper vrErrorWithCode:andMessage:]
+-[DelegateProxy initWithVRUIDelegate:]
+-[DelegateProxy event:params:reply:]
+___36-[DelegateProxy event:params:reply:]_block_invoke
+___36-[DelegateProxy event:params:reply:]_block_invoke_2
+___36-[DelegateProxy event:params:reply:]_block_invoke_3
+___copy_helper_block_123
+___destroy_helper_block_124
+___36-[DelegateProxy event:params:reply:]_block_invoke126
+___copy_helper_block_127
+___destroy_helper_block_128
+___36-[DelegateProxy event:params:reply:]_block_invoke130
+___36-[DelegateProxy event:params:reply:]_block_invoke_2131
+___copy_helper_block_137
+___destroy_helper_block_138
+___copy_helper_block_140
+___destroy_helper_block_141
+-[DelegateProxy .cxx_destruct]
+GCC_except_table9
+GCC_except_table21
+GCC_except_table29
+GCC_except_table33
+GCC_except_table8
+GCC_except_table11
+GCC_except_table18
+___38-[VRCredentialReference resultForTag:]_block_invoke._m
+___block_descriptor_tmp
+___block_descriptor_tmp17
+___block_descriptor_tmp24
+___block_literal_global
+___block_descriptor_tmp40
+___block_descriptor_tmp45
+___block_descriptor_tmp50
+___block_descriptor_tmp55
+___block_descriptor_tmp69
+___block_descriptor_tmp73
+___block_descriptor_tmp90
+___block_descriptor_tmp
+___block_descriptor_tmp110
+___block_descriptor_tmp113
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp24
+___block_literal_global25
+___block_descriptor_tmp28
+___block_literal_global29
+___block_descriptor_tmp34
+___block_literal_global35
+___block_descriptor_tmp62
+___block_descriptor_tmp75
+___block_descriptor_tmp92
+___block_literal_global93
+___block_descriptor_tmp116
+___block_literal_global117
+___block_descriptor_tmp119
+___block_literal_global120
+___block_descriptor_tmp125
+___block_descriptor_tmp129
+___block_descriptor_tmp139
+___block_descriptor_tmp142
+_OBJC_IVAR_$_VRCredentialReference._delegateProxy
+_OBJC_IVAR_$_VRCredentialReference._client
+_OBJC_IVAR_$_VRCredentialReference._creatorDisplayName
+_OBJC_IVAR_$_VRCredentialReference._credentialHandle
+_OBJC_IVAR_$_VRCredentialReference._lastEvaluatePolicyResult
+_OBJC_IVAR_$_DelegateProxy._vruiDelegate
+-[VRCredentialReference evaluatePolicy:hints:reply:].canInstantiateBKI
+-[VRCredentialReference evaluatePolicy:hints:reply:].onceToken
++[LALegacyHelper policyFromVRPolicy:error:].policyMap
++[LALegacyHelper policyFromVRPolicy:error:].onceToken
++[LALegacyHelper optionFromVRHint:error:].optionMap
++[LALegacyHelper optionFromVRHint:error:].onceToken
++[LALegacyHelper eventFromVREvent:error:].eventMap
++[LALegacyHelper eventFromVREvent:error:].onceToken
++[LALegacyHelper resultFromVRResult:error:].resultMap
++[LALegacyHelper resultFromVRResult:error:].onceToken
++[LALegacyHelper vrErrorFromLAError:].errorMap
++[LALegacyHelper vrErrorFromLAError:].onceToken
+-[DelegateProxy event:params:reply:].eventMap
+-[DelegateProxy event:params:reply:].eventParamMap
+-[DelegateProxy event:params:reply:].eventResponseMap
+-[DelegateProxy event:params:reply:].onceToken
+_CoreAuthenticationVersionNumber
+_CoreAuthenticationVersionString
+_OBJC_CLASS_$_DelegateProxy
+_OBJC_CLASS_$_LALegacyHelper
+_OBJC_CLASS_$_VRCredReference
+_OBJC_CLASS_$_VRCredentialReference
+_OBJC_METACLASS_$_DelegateProxy
+_OBJC_METACLASS_$_LALegacyHelper
+_OBJC_METACLASS_$_VRCredReference
+_OBJC_METACLASS_$_VRCredentialReference
+_VRCanEvaluatePolicy
+_VRCanEvaluatePolicyWithReply
+_VRClientRequestEnterPassword
+_VRClientRequestErrorRetryTime
+_VRClientRequestParamError
+_VRClientRequestParamEvent
+_VRClientRequestParamPassword
+_VRClientRequestStopEvents
+_VRErrorDomain
+_VREvaluatePolicy
+_VREventConsent
+_VREventConsentResponse
+_VREventParamActive
+_VREventParamAvailable
+_VREventPasscode
+_VREventTouchID
+_VREventTouchIDParamIdentity
+_VREventTouchIDParamStatus
+_VREventTouchId
+_VREventTouchIdParamIdentity
+_VREventTouchIdParamStatus
+_VREventUserCancel2
+_VRHintAppAction
+_VRHintCallerPID
+_VRHintEventFilter
+_VRHintEventParamRemoteViewControllerBundleID
+_VRHintEventParamRemoteViewControllerName
+_VRHintEventProcessing
+_VRHintEventProcessingGetRemoteViewController
+_VRHintLightPasscodeScreen
+_VRHintMaxPasscodeFailures
+_VRHintMaxTouchIDFailures
+_VRHintMaxTouchIdFailures
+_VRHintNotInteractive
+_VRHintPresentationStyle
+_VRHintTagNotInteractive
+_VRHintTimeout
+_VRHintTransitionStyle
+_VRHintUserCancel2
+_VRHintUserFallback
+_VRPolicyDeviceOwnerAuthenticated
+_VRPolicyDeviceOwnerAuthenticatedWithBiometrics
+_VRPolicyDeviceOwnerConsent
+_VRPolicyDeviceOwnerConsentTouchIDPreferred
+_VRPolicyDeviceOwnerConsentTouchIdPreferred
+_VRPolicyHumanPresence
+_VRPolicyOslo
+_VRPolicyStockholm
+_VRPolicyTouchIDEnrollment
+_VRPolicyTouchIdEnrollment
+_VRResponsePasscode
+_VRResultTagTouchIDIdentity
+_VRResultTagTouchIdIdentity
+_VRResultTagUsedPasscode
+_VRResultTagUsedTouchID
+_VRResultTagUsedTouchId
+_VRResultTagUsedYesNo
+_LAErrorDomain
+_NSClassFromString
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_OBJC_CLASS_$_LAClient
+_OBJC_CLASS_$_LAContext
+_OBJC_CLASS_$_LAErrorHelper
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__os_trace_with_buffer
+_dispatch_once
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_objc_autoreleaseReturnValue
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_storeStrong
+_xpc_dictionary_set_string
+dyld_stub_binder

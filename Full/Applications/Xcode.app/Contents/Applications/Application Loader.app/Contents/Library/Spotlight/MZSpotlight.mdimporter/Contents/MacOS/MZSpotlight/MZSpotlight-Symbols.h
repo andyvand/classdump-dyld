@@ -1,0 +1,135 @@
+-[MZMachineLocalPerPackageRepository initWithDocument:]
+-[MZMachineLocalPerPackageRepository initWithPackage:]
+-[MZMachineLocalPerPackageRepository dealloc]
+-[MZMachineLocalPerPackageRepository dictionary]
+-[MZMachineLocalPerPackageRepository _documentWriteDictionary:]
+-[MZMachineLocalPerPackageRepository _packageWriteDictionary:]
+-[MZMachineLocalPerPackageRepository writeDictionary:]
+-[MZMachineLocalPerPackageRepository setNeedsGeneratedVendorID:]
+-[MZMachineLocalPerPackageRepository needsGeneratedVendorID]
+-[MZMachineLocalPerPackageRepository addEntriesFromDictionary:]
+-[MZMachineLocalPerPackageRepository document]
+-[MZMachineLocalPerPackageRepository setDocument:]
+_LegacyGetMetadataForFile
+-[AbstractSpotlightExecutor initWithContext:]
+-[AbstractSpotlightExecutor dealloc]
+-[AbstractSpotlightExecutor attributes]
+-[AbstractSpotlightExecutor package]
+-[AbstractSpotlightExecutor context]
+-[AbstractSpotlightExecutor setContext:]
+-[AbstractSpotlightExecutor(RequiredSubclassOverrides) executeWithError:]
+-[FilmSpotlightExecutor executeWithError:]
+-[MusicSpotlightExecutor executeWithError:]
+__ExtractContributors
+-[MZSpotlightContext initWithPackage:attributes:]
+-[MZSpotlightContext dealloc]
+-[MZSpotlightContext packageElement]
+-[MZSpotlightContext package]
+-[MZSpotlightContext setPackage:]
+-[MZSpotlightContext attributes]
+-[MZSpotlightContext setAttributes:]
++[MZSpotlightFactory defaultFactory]
+-[MZSpotlightFactory executorWithContext:]
+-[PublicationSpotlightExecutor executeWithError:]
+-[SoftwareSpotlightExecutor executeWithError:]
+GCC_except_table0
+_.str
+_.str29
+_.str46
+_.str56
+_OBJC_IVAR_$_MZMachineLocalPerPackageRepository._document
+_testInterfaceFtbl
+_AllocMetadataImporterPluginType
+_DeallocMetadataImporterPluginType
+_GetMetadataForURL
+_MZItemIdentifiers
+_MZItemTitles
+_MZNameRoleStringFormat
+_MZSetSpotlightArrayKey
+_MZSetSpotlightKey
+_MetadataImporterPluginAddRef
+_MetadataImporterPluginFactory
+_MetadataImporterPluginRelease
+_MetadataImporterQueryInterface
+_OBJC_CLASS_$_AbstractSpotlightExecutor
+_OBJC_CLASS_$_FilmSpotlightExecutor
+_OBJC_CLASS_$_MZMachineLocalPerPackageRepository
+_OBJC_CLASS_$_MZSpotlightContext
+_OBJC_CLASS_$_MZSpotlightFactory
+_OBJC_CLASS_$_MusicSpotlightExecutor
+_OBJC_CLASS_$_PublicationSpotlightExecutor
+_OBJC_CLASS_$_SoftwareSpotlightExecutor
+_OBJC_IVAR_$_AbstractSpotlightExecutor._context
+_OBJC_IVAR_$_MZMachineLocalPerPackageRepository._package
+_OBJC_IVAR_$_MZSpotlightContext._attributes
+_OBJC_IVAR_$_MZSpotlightContext._package
+_OBJC_METACLASS_$_AbstractSpotlightExecutor
+_OBJC_METACLASS_$_FilmSpotlightExecutor
+_OBJC_METACLASS_$_MZMachineLocalPerPackageRepository
+_OBJC_METACLASS_$_MZSpotlightContext
+_OBJC_METACLASS_$_MZSpotlightFactory
+_OBJC_METACLASS_$_MusicSpotlightExecutor
+_OBJC_METACLASS_$_PublicationSpotlightExecutor
+_OBJC_METACLASS_$_SoftwareSpotlightExecutor
+_CFEqual
+_CFPlugInAddInstanceForFactory
+_CFPlugInRemoveInstanceForFactory
+_CFRelease
+_CFRetain
+_CFURLCreateWithFileSystemPath
+_CFUUIDCreateFromString
+_CFUUIDCreateFromUUIDBytes
+_CFUUIDGetConstantUUIDWithBytes
+_MZLogError
+_NSInternalInconsistencyException
+_NSStringFromSelector
+_OBJC_CLASS_$_ITunesPackage
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSString
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_free
+_kCFAllocatorDefault
+_kCFAllocatorSystemDefault
+_kMDItemAlbum
+_kMDItemComposer
+_kMDItemContributors
+_kMDItemGenre
+_kMDItemIdentifier
+_kMDItemKeywords
+_kMDItemLanguages
+_kMDItemMediaTypes
+_kMDItemMusicalGenre
+_kMDItemOrganizations
+_kMDItemPublishers
+_kMDItemRecordingDate
+_kMDItemRights
+_kMDItemTitle
+_malloc
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty_nonatomic
+_objc_terminate
+dyld_stub_binder

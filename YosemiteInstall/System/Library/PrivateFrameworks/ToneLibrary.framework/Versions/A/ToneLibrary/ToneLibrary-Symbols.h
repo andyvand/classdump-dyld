@@ -1,0 +1,592 @@
+-[TLAlertTone initWithFilePath:actualSoundID:previewSoundID:]
+-[TLAlertTone dealloc]
+-[TLAlertTone filePath]
+-[TLAlertTone _setFilePath:]
+-[TLAlertTone actualSound]
+-[TLAlertTone _setActualSound:]
+-[TLAlertTone previewSound]
+-[TLAlertTone _setPreviewSound:]
+-[TLSound initWithFilePath:soundID:]
+-[TLSound dealloc]
+-[TLSound soundID]
+-[TLSound filePath]
+-[TLSound _setFilePath:]
+-[TLSound _shouldDisposeOfSoundID]
+-[TLSound _setShouldDisposeOfSoundID:]
+-[TLSound _setSoundID:]
++[TLAlertController sharedAlertController]
+___42+[TLAlertController sharedAlertController]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[TLAlertController init]
+__TLAlertControllerHandleShouldStopAllAlertsNotification
+-[TLAlertController dealloc]
+___28-[TLAlertController dealloc]_block_invoke
+___copy_helper_block_37
+___destroy_helper_block_38
+-[TLAlertController stopAllAlerts]
+-[TLAlertController _playAlert:completionHandler:targetQueue:]
+___62-[TLAlertController _playAlert:completionHandler:targetQueue:]_block_invoke
+__TLAlertControllerHandleSystemSoundDidFinishPlaying
+___copy_helper_block_76
+___destroy_helper_block_77
+-[TLAlertController _startPlayingAlertRepeatedly:]
+-[TLAlertController _stopAlert:withFadeOutDuration:]
+___52-[TLAlertController _stopAlert:withFadeOutDuration:]_block_invoke
+___copy_helper_block_103
+___destroy_helper_block_104
+-[TLAlertController _soundIDForAlert:]
+-[TLAlertController _stopAllAlerts]
+___35-[TLAlertController _stopAllAlerts]_block_invoke
+___copy_helper_block_111
+___destroy_helper_block_112
+-[TLAlertController _removeSoundID:shouldStopSound:fireCompletionHandler:]
+-[TLAlertController _systemSoundDidFinishPlaying:]
+___50-[TLAlertController _systemSoundDidFinishPlaying:]_block_invoke
+___copy_helper_block_127
+___destroy_helper_block_128
+-[TLAlertController _didReachTimeoutForSystemSound:]
+___52-[TLAlertController _didReachTimeoutForSystemSound:]_block_invoke
+___copy_helper_block_135
+___destroy_helper_block_136
+-[TLAlertController _alertsBySoundIDs]
+-[TLAlertController _setAlertsBySoundIDs:]
+-[TLAlertController _alertsBySoundIDsAccessQueue]
+-[TLAlertController _setAlertsBySoundIDsAccessQueue:]
+-[TLAlertController _loopPlayer]
+-[TLAlertController _setLoopPlayer:]
+___TLLocalizedString_block_invoke
++[TLAlert playToneAndVibrationForType:]
++[TLAlert playToneAndVibrationForType:accountIdentifier:]
++[TLAlert playToneAndVibrationForType:toneIdentifier:vibrationIdentifier:]
++[TLAlert _playToneAndVibrationForType:toneIdentifier:vibrationIdentifier:shouldOverrideMasterSwitches:]
+-[TLAlert initWithType:]
+-[TLAlert initWithType:accountIdentifier:]
+-[TLAlert initWithType:toneIdentifier:vibrationIdentifier:]
+-[TLAlert dealloc]
+-[TLAlert _setTargetQueue:]
+-[TLAlert playWithCompletionHandler:targetQueue:]
+-[TLAlert stop]
+-[TLAlert startPlayingRepeatedly]
+-[TLAlert stopWithFadeOutDuration:]
+-[TLAlert type]
+-[TLAlert _setType:]
+-[TLAlert toneIdentifier]
+-[TLAlert _setToneIdentifier:]
+-[TLAlert vibrationIdentifier]
+-[TLAlert _setVibrationIdentifier:]
+-[TLAlert _shouldOverrideMasterSwitches]
+-[TLAlert _setShouldOverrideMasterSwitches:]
+-[TLAlert _targetQueue]
+-[TLAlert _completionHandler]
+-[TLAlert _setCompletionHandler:]
+-[TLAlert _completionFallbackTimer]
+-[TLAlert _setCompletionFallbackTimer:]
+-[TLAlert _isPlayingRepeatedly]
+-[TLAlert _setPlayingRepeatedly:]
+____TLAlertTypeValidateConsistencyOfEnumeration_block_invoke
+____TLAlertTypeValidateConsistencyOfEnumeration_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
++[NSError(TLExtensions) tl_errorWithDomain:description:]
+-[NSError(TLExtensions) tl_nonRedundantDescription]
+-[TLITunesTone initWithPropertyListRepresentation:filePath:]
+-[TLITunesTone dealloc]
+-[TLITunesTone identifier]
+-[TLITunesTone _setIdentifier:]
+-[TLITunesTone name]
+-[TLITunesTone _setName:]
+-[TLITunesTone filePath]
+-[TLITunesTone _setFilePath:]
+-[TLITunesTone isPurchased]
+-[TLITunesTone _setPurchased:]
+-[TLITunesTone isRingtone]
+-[TLITunesTone _setRingtone:]
+-[TLITunesTone pid]
+-[TLITunesTone _setPid:]
+-[TLITunesTone artworkFile]
+-[TLITunesTone _setArtworkFile:]
+-[TLITunesTone duration]
+-[TLITunesTone _setDuration:]
+-[TLITunesTone isProtected]
+-[TLITunesTone _setProtected:]
+-[TLITunesTone isPrivate]
+-[TLITunesTone _setPrivate:]
+-[TLAccessQueue initWithLabel:appendUUIDToLabel:]
+-[TLAccessQueue dealloc]
+-[TLAccessQueue _setSerialQueue:]
+-[TLAccessQueue performSynchronousBlock:]
+___41-[TLAccessQueue performSynchronousBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[TLAccessQueue performAsynchronousBlock:]
+___42-[TLAccessQueue performAsynchronousBlock:]_block_invoke
+___copy_helper_block_44
+___destroy_helper_block_45
+-[TLAccessQueue _performSynchronousBlockInSerialQueue:]
+-[TLAccessQueue label]
+-[TLAccessQueue _setLabel:]
+-[TLAccessQueue _threadLocalStorageKey]
+-[TLAccessQueue _setThreadLocalStorageKey:]
+-[TLAccessQueue _serialQueue]
+___TLLogGetLevel_block_invoke
++[TLToneManager sharedToneManager]
+___34+[TLToneManager sharedToneManager]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[TLToneManager init]
+-[TLToneManager initWithITunesRingtonePlistAtPath:]
+___51-[TLToneManager initWithITunesRingtonePlistAtPath:]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+__TLToneManagerHandleTonePreferencesDidChangeNotification
+-[TLToneManager dealloc]
+___24-[TLToneManager dealloc]_block_invoke
+___copy_helper_block_86
+___destroy_helper_block_87
+-[TLToneManager _rootDirectory]
+-[TLToneManager _deviceITunesRingtoneDirectory]
+-[TLToneManager _deviceITunesRingtoneInformationPlist]
+-[TLToneManager _iTunesRingtoneDirectory]
+-[TLToneManager _iTunesRingtoneInformationPlist]
+-[TLToneManager _systemRingtoneDirectory]
+-[TLToneManager _loadITunesRingtoneInfoPlistAtPath:]
+___52-[TLToneManager _loadITunesRingtoneInfoPlistAtPath:]_block_invoke
+___copy_helper_block_109
+___destroy_helper_block_110
+-[TLToneManager _copyITunesRingtonesFromManifestPath:mediaDirectoryPath:]
+___73-[TLToneManager _copyITunesRingtonesFromManifestPath:mediaDirectoryPath:]_block_invoke
+___copy_helper_block_133
+___destroy_helper_block_134
+-[TLToneManager _reloadITunesRingtonesAfterExternalChange]
+___58-[TLToneManager _reloadITunesRingtonesAfterExternalChange]_block_invoke
+___58-[TLToneManager _reloadITunesRingtonesAfterExternalChange]_block_invoke_2
+___copy_helper_block_142
+___destroy_helper_block_143
+___copy_helper_block_146
+___destroy_helper_block_147
+-[TLToneManager _iTunesToneWithIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[TLToneManager _iTunesToneWithIdentifier:]_block_invoke
+___copy_helper_block_152
+___destroy_helper_block_153
+-[TLToneManager _installedTones]
+___32-[TLToneManager _installedTones]_block_invoke
+___copy_helper_block_160
+___destroy_helper_block_161
+-[TLToneManager _installedTonesSize]
+-[TLToneManager _addToneToManifestAtPath:metadata:fileName:mediaDirectory:]
+-[TLToneManager _removeToneFromManifestAtPath:fileName:deletedMetadata:]
+-[TLToneManager _lockManifestAtPath:]
+-[TLToneManager _baseDirectoryForAlertToneSoundFiles]
+-[TLToneManager _systemSoundDirectory]
+-[TLToneManager _systemNewSoundDirectory]
+-[TLToneManager _systemModernSoundDirectory]
+-[TLToneManager _loadAlertToneInfo]
+-[TLToneManager _loadToneIdentifierAliasMap]
+-[TLToneManager _aliasForToneIdentifier:]
+___41-[TLToneManager _aliasForToneIdentifier:]_block_invoke
+___copy_helper_block_370
+___destroy_helper_block_371
+-[TLToneManager _toneWithIdentifierIsDefaultRingtone:]
+-[TLToneManager _toneWithIdentifierIsNonDefaultSystemRingtone:]
+-[TLToneManager _toneWithIdentifierIsITunesRingtone:]
+-[TLToneManager _toneWithIdentifierIsSystemAlertTone:]
+-[TLToneManager _newServiceConnection]
+-[TLToneManager _tonePreferencesFromService]
+___44-[TLToneManager _tonePreferencesFromService]_block_invoke
+___copy_helper_block_435
+___destroy_helper_block_436
+___44-[TLToneManager _tonePreferencesFromService]_block_invoke441
+___44-[TLToneManager _tonePreferencesFromService]_block_invoke_2
+___copy_helper_block_453
+___destroy_helper_block_454
+___44-[TLToneManager _tonePreferencesFromService]_block_invoke461
+___copy_helper_block_462
+___destroy_helper_block_463
+-[TLToneManager _setToneIdentifierUsingService:forPreferenceKey:]
+___65-[TLToneManager _setToneIdentifierUsingService:forPreferenceKey:]_block_invoke
+___65-[TLToneManager _setToneIdentifierUsingService:forPreferenceKey:]_block_invoke_2
+___copy_helper_block_472
+___destroy_helper_block_473
+-[TLToneManager currentToneIdentifierForAlertType:]
+-[TLToneManager setCurrentToneIdentifier:forAlertType:]
++[TLToneManager _copySystemWideTonePreferenceKeyForAlertType:accountIdentifier:]
+-[TLToneManager _currentToneIdentifierForAlertType:accountIdentifier:]
+-[TLToneManager currentToneIdentifierForAlertType:accountIdentifier:]
+-[TLToneManager setCurrentToneIdentifier:forAlertType:accountIdentifier:]
+___73-[TLToneManager setCurrentToneIdentifier:forAlertType:accountIdentifier:]_block_invoke
+___copy_helper_block_513
+___destroy_helper_block_514
+-[TLToneManager currentToneNameForAlertType:]
+-[TLToneManager currentToneSoundIDForAlertType:]
+-[TLToneManager currentToneSoundIDForAlertType:accountIdentifier:]
++[TLToneManager _defaultToneIdentifierForAlertType:]
+-[TLToneManager defaultToneIdentifierForAlertType:]
+-[TLToneManager defaultRingtoneIdentifier]
+-[TLToneManager _defaultRingtoneName]
+-[TLToneManager _defaultRingtonePath]
+-[TLToneManager soundIDForToneIdentifier:]
+___42-[TLToneManager soundIDForToneIdentifier:]_block_invoke
+___copy_helper_block_539
+___destroy_helper_block_540
+___42-[TLToneManager soundIDForToneIdentifier:]_block_invoke549
+___42-[TLToneManager soundIDForToneIdentifier:]_block_invoke_2
+___copy_helper_block_557
+___destroy_helper_block_558
+-[TLToneManager filePathForToneIdentifier:]
+-[TLToneManager _filePathForToneIdentifier:isValid:]
+___52-[TLToneManager _filePathForToneIdentifier:isValid:]_block_invoke
+___copy_helper_block_577
+___destroy_helper_block_578
+-[TLToneManager _previewSoundForToneIdentifier:]
+___48-[TLToneManager _previewSoundForToneIdentifier:]_block_invoke
+___copy_helper_block_585
+___destroy_helper_block_586
+-[TLToneManager nameForToneIdentifier:]
+-[TLToneManager _nameForToneIdentifier:isValid:]
+___48-[TLToneManager _nameForToneIdentifier:isValid:]_block_invoke
+___copy_helper_block_604
+___destroy_helper_block_605
+-[TLToneManager _toneIdentifierForFileAtPath:]
+-[TLToneManager _toneIdentifierForFileAtPath:isValid:]
+___54-[TLToneManager _toneIdentifierForFileAtPath:isValid:]_block_invoke
+___54-[TLToneManager _toneIdentifierForFileAtPath:isValid:]_block_invoke_2
+___copy_helper_block_610
+___destroy_helper_block_611
+___54-[TLToneManager _toneIdentifierForFileAtPath:isValid:]_block_invoke621
+___copy_helper_block_622
+___destroy_helper_block_623
+___copy_helper_block_626
+___destroy_helper_block_627
+-[TLToneManager _toneWithIdentifierIsValid:]
+___44-[TLToneManager _toneWithIdentifierIsValid:]_block_invoke
+___copy_helper_block_630
+___destroy_helper_block_631
+-[TLToneManager toneWithIdentifierIsValid:]
+___43-[TLToneManager toneWithIdentifierIsValid:]_block_invoke
+___copy_helper_block_636
+___destroy_helper_block_637
+-[TLToneManager _performBlockInAccessQueue:]
++[TLToneManager _copySharedResourcesPreferencesDomainForDomain:]
+-[TLToneManager _fileNameFromToneIdentifier:withPrefix:]
+-[TLToneManager _filePathHasSupportedExtensionForRingtone:]
+-[TLToneManager _localizedNameOfToneWithIdentifier:]
+-[TLToneManager _ensureDirectoryExistsAtPath:]
+-[TLToneManager _toneIsSettableForAlertType:]
+-[TLToneManager _handleTonePreferencesChangedNotification]
+-[TLToneManager _iTunesTonesByIdentifier]
+-[TLToneManager _setITunesTonesByIdentifier:]
+-[TLToneManager _iTunesToneIdentifiersByPID]
+-[TLToneManager _setITunesToneIdentifiersByPID:]
+-[TLToneManager _alertTonesByIdentifier]
+-[TLToneManager _setAlertTonesByIdentifier:]
+-[TLToneManager _toneIdentifierAliasMap]
+-[TLToneManager _setToneIdentifierAliasMap:]
+-[TLToneManager _shouldUseServiceToAccessTonePreferences]
+-[TLToneManager _setShouldUseServiceToAccessTonePreferences:]
+-[TLToneManager _cachedTonePreferences]
+-[TLToneManager _setCachedTonePreferences:]
+-[TLToneManager _shouldIgnoreNextToneDidChangeNotification]
+-[TLToneManager _setShouldIgnoreNextToneDidChangeNotification:]
+-[TLToneManager _accessQueue]
+-[TLToneManager _setAccessQueue:]
+____TLToneManagerHandleTonePreferencesDidChangeNotification_block_invoke
+___copy_helper_block_724
+___destroy_helper_block_725
+-[TLAlertLoopPlayer dealloc]
+-[TLAlertLoopPlayer startPlayingRepeatedlyAssetWithURL:]
+___56-[TLAlertLoopPlayer startPlayingRepeatedlyAssetWithURL:]_block_invoke
+___56-[TLAlertLoopPlayer startPlayingRepeatedlyAssetWithURL:]_block_invoke_2
+___56-[TLAlertLoopPlayer startPlayingRepeatedlyAssetWithURL:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_39
+___destroy_helper_block_40
+___copy_helper_block_45
+___destroy_helper_block_46
+-[TLAlertLoopPlayer stopPlayingWithFadeOutDuration:]
+___52-[TLAlertLoopPlayer stopPlayingWithFadeOutDuration:]_block_invoke
+___copy_helper_block_57
+___destroy_helper_block_58
+-[TLAlertLoopPlayer observeValueForKeyPath:ofObject:change:context:]
+-[TLAlertLoopPlayer _performBlockOnMainThread:]
+-[TLAlertLoopPlayer isPlaying]
+-[TLAlertLoopPlayer _setPlaying:]
+-[TLAlertLoopPlayer _player]
+-[TLAlertLoopPlayer _setPlayer:]
+_initValkCMTimeZero
+_kCMTimeZeroFunction
+___CoreMediaLibrary_block_invoke
+_initCMTimeMakeWithSeconds
+_initCMTimeGetSeconds
+GCC_except_table11
+GCC_except_table22
+GCC_except_table31
+GCC_except_table35
+GCC_except_table41
+GCC_except_table55
+GCC_except_table64
+GCC_except_table75
+GCC_except_table97
+GCC_except_table106
+GCC_except_table110
+GCC_except_table115
+GCC_except_table120
+GCC_except_table121
+GCC_except_table130
+GCC_except_table134
+___block_descriptor_tmp
+___block_descriptor_tmp40
+___block_descriptor_tmp79
+___block_descriptor_tmp106
+___block_descriptor_tmp114
+___block_descriptor_tmp130
+___block_descriptor_tmp138
+___block_descriptor_tmp
+___block_literal_global
+__TLAlertTypeDescriptions
+___block_descriptor_tmp
+___block_descriptor_tmp121
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp47
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp69
+___block_descriptor_tmp89
+___block_descriptor_tmp112
+___block_descriptor_tmp136
+___block_descriptor_tmp145
+___block_descriptor_tmp149
+___block_descriptor_tmp155
+___block_descriptor_tmp163
+___block_descriptor_tmp373
+___block_descriptor_tmp438
+___block_descriptor_tmp448
+___block_descriptor_tmp457
+___block_descriptor_tmp465
+___block_descriptor_tmp469
+___block_descriptor_tmp476
+__TLToneManagerSystemWideTonePreferenceKeys
+___block_descriptor_tmp516
+__TLToneManagerDefaultIdentifiers
+___block_descriptor_tmp542
+___block_descriptor_tmp552
+___block_literal_global
+___block_descriptor_tmp560
+___block_descriptor_tmp580
+___block_descriptor_tmp588
+___block_descriptor_tmp607
+___block_descriptor_tmp614
+___block_descriptor_tmp625
+___block_descriptor_tmp629
+___block_descriptor_tmp633
+___block_descriptor_tmp639
+___block_descriptor_tmp727
+___block_descriptor_tmp
+___block_descriptor_tmp42
+___block_descriptor_tmp48
+___block_descriptor_tmp60
+___block_descriptor_tmp93
+___block_literal_global
+_OBJC_IVAR_$_TLAlertTone._filePath
+_OBJC_IVAR_$_TLAlertTone._actualSound
+_OBJC_IVAR_$_TLAlertTone._previewSound
+_OBJC_IVAR_$_TLSound._soundID
+_OBJC_IVAR_$_TLSound._filePath
+_OBJC_IVAR_$_TLSound._shouldDisposeOfSoundID
+_OBJC_IVAR_$_TLAlertController._alertsBySoundIDs
+_OBJC_IVAR_$_TLAlertController._alertsBySoundIDsAccessQueue
+_OBJC_IVAR_$_TLAlertController._loopPlayer
+_OBJC_IVAR_$_TLAlert._targetQueue
+_OBJC_IVAR_$_TLAlert._type
+_OBJC_IVAR_$_TLAlert._toneIdentifier
+_OBJC_IVAR_$_TLAlert._vibrationIdentifier
+_OBJC_IVAR_$_TLAlert._shouldOverrideMasterSwitches
+_OBJC_IVAR_$_TLAlert._completionHandler
+_OBJC_IVAR_$_TLAlert._completionFallbackTimer
+_OBJC_IVAR_$_TLAlert._playingRepeatedly
+_OBJC_IVAR_$_TLITunesTone._identifier
+_OBJC_IVAR_$_TLITunesTone._name
+_OBJC_IVAR_$_TLITunesTone._filePath
+_OBJC_IVAR_$_TLITunesTone._purchased
+_OBJC_IVAR_$_TLITunesTone._ringtone
+_OBJC_IVAR_$_TLITunesTone._pid
+_OBJC_IVAR_$_TLITunesTone._artworkFile
+_OBJC_IVAR_$_TLITunesTone._duration
+_OBJC_IVAR_$_TLITunesTone._protected
+_OBJC_IVAR_$_TLITunesTone._private
+_OBJC_IVAR_$_TLAccessQueue._serialQueue
+_OBJC_IVAR_$_TLAccessQueue._label
+_OBJC_IVAR_$_TLAccessQueue._threadLocalStorageKey
+_OBJC_IVAR_$_TLToneManager._iTunesTonesByIdentifier
+_OBJC_IVAR_$_TLToneManager._iTunesToneIdentifiersByPID
+_OBJC_IVAR_$_TLToneManager._alertTonesByIdentifier
+_OBJC_IVAR_$_TLToneManager._toneIdentifierAliasMap
+_OBJC_IVAR_$_TLToneManager._shouldUseServiceToAccessTonePreferences
+_OBJC_IVAR_$_TLToneManager._cachedTonePreferences
+_OBJC_IVAR_$_TLToneManager._shouldIgnoreNextToneDidChangeNotification
+_OBJC_IVAR_$_TLToneManager._accessQueue
+_OBJC_IVAR_$_TLAlertLoopPlayer._playing
+_OBJC_IVAR_$_TLAlertLoopPlayer._player
+__TLLogGlobalLogLevel
+_getkCMTimeZero
+_softLinkCMTimeMakeWithSeconds
+_softLinkCMTimeGetSeconds
++[TLAlertController sharedAlertController]._TLAlertControllerSharedInstance
++[TLAlertController sharedAlertController]._TLAlertControllerSharedInstanceOnceToken
+_TLLocalizedString._TLLocalizedStringBundle
+_TLLocalizedString._TLLocalizedStringBundleOnceToken
+__TLAlertTypeValidateConsistencyOfEnumeration._TLAlertTypeValidateConsistencyOfEnumerationOnceToken
+_TLLogGetLevel._TLLogLevelDefaultsCheckOnceToken
++[TLToneManager sharedToneManager]._TLToneManagerSharedInstance
++[TLToneManager sharedToneManager]._TLToneManagerSharedInstanceOnceToken
+-[TLToneManager soundIDForToneIdentifier:].sOnce
+-[TLToneManager soundIDForToneIdentifier:].sSoundIDCache
+-[TLToneManager soundIDForToneIdentifier:].sCacheQueue
+__TLAlertLoopPlayerCurrentItemObservationContext
+_constantValkCMTimeZero
+_CoreMediaLibrary.sOnce
+_CoreMediaLibrary.sLib
+_NSStringFromTLAlertType
+_OBJC_CLASS_$_TLAccessQueue
+_OBJC_CLASS_$_TLAlert
+_OBJC_CLASS_$_TLAlertController
+_OBJC_CLASS_$_TLAlertLoopPlayer
+_OBJC_CLASS_$_TLAlertTone
+_OBJC_CLASS_$_TLITunesTone
+_OBJC_CLASS_$_TLSound
+_OBJC_CLASS_$_TLToneManager
+_OBJC_METACLASS_$_TLAccessQueue
+_OBJC_METACLASS_$_TLAlert
+_OBJC_METACLASS_$_TLAlertController
+_OBJC_METACLASS_$_TLAlertLoopPlayer
+_OBJC_METACLASS_$_TLAlertTone
+_OBJC_METACLASS_$_TLITunesTone
+_OBJC_METACLASS_$_TLSound
+_OBJC_METACLASS_$_TLToneManager
+_TLAlertTypeFromString
+_TLLocalizedString
+_TLLogGetLevel
+_TLLogSetLevel
+_TLLogShouldLogWithLevel
+_TLServiceAgentIdentifier
+_TLServiceCommunicationErrorDomain
+_TLServicePersistenceErrorDomain
+_TLServiceValidationErrorDomain
+_TLToneIdentifierNone
+__TLAlertTypeValidateConsistencyOfEnumeration
+__TLAssert
+__TLLog
+__TLLogV
+__TLToneIdentifierAlertTonePrefix
+__TLToneIdentifierITunesPrefix
+__TLToneIdentifierSystemPrefix
+__TLToneManagerContentsChangedNotification
+_kSystemSoundID_InvalidTone
+_kSystemSoundID_NoneTone
+_kToneAlbumKey
+_kToneArtistKey
+_kToneArtworkFileKey
+_kToneDurationKey
+_kToneFileExtensionKey
+_kToneGUIDKey
+_kToneGenreKey
+_kToneMediaKindKey
+_kTonePIDKey
+_kTonePrivateKey
+_kToneProtectedContentKey
+_kTonePurchasedKey
+_kToneTitleKey
+_AudioServicesAddSystemSoundCompletion
+_AudioServicesCreateSystemSoundID
+_AudioServicesDisposeSystemSoundID
+_AudioServicesPlaySystemSound
+_AudioServicesRemoveSystemSoundCompletion
+_AudioServicesStopSystemSound
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFNotificationCenterPostNotification
+_CFNotificationCenterRemoveObserver
+_CFPreferencesCopyAppValue
+_CFPreferencesSetAppValue
+_CFPreferencesSynchronize
+_CFRelease
+_CFRetain
+_CFRunLoopGetMain
+_NSFileSize
+_NSInternalInconsistencyException
+_NSKeyValueChangeOldKey
+_NSLocalizedDescriptionKey
+_NSLogv
+_NSStringFromClass
+_NSStringFromSelector
+_OBJC_CLASS_$_AVAsset
+_OBJC_CLASS_$_AVPlayerItem
+_OBJC_CLASS_$_AVQueuePlayer
+_OBJC_CLASS_$_AVURLAsset
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_abort
+_close
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_retain
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_dlopen
+_dlsym
+_fcntl
+_flock
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kCFRunLoopCommonModes
+_objc_assign_global
+_objc_assign_strongCast
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty
+_open
+dyld_stub_binder

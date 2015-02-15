@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_err
+_exit
+_fwrite
+_getopt
+_getutxent
+_printf
+_putchar
+_qsort
+_realloc
+_setutxent
+_strncmp
+_strncpy
+dyld_stub_binder

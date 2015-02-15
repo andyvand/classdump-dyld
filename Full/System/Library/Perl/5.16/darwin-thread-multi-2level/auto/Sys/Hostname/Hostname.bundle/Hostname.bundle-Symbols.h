@@ -1,0 +1,14 @@
+radr://5614542
+_boot_Sys__Hostname
+_Perl_call_list
+_Perl_croak_xs_usage
+_Perl_newSVpv
+_Perl_newXS
+_Perl_stack_grow
+_Perl_sv_2mortal
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+___stack_chk_fail
+___stack_chk_guard
+_gethostname
+dyld_stub_binder

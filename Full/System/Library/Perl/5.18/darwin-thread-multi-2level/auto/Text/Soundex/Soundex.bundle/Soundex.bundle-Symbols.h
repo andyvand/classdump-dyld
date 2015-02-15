@@ -1,0 +1,16 @@
+radr://5614542
+_boot_Text__Soundex
+_PL_thr_key
+_Perl_call_list
+_Perl_get_sv
+_Perl_newSV
+_Perl_newXS
+_Perl_sv_2mortal
+_Perl_sv_2pv_flags
+_Perl_utf8n_to_uvuni
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+___toupper
+_memset
+_pthread_getspecific
+dyld_stub_binder

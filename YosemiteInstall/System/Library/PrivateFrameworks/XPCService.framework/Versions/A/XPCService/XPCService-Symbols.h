@@ -1,0 +1,259 @@
+_enterSandboxIfProfileProvided
+_setupConnectionValidatorIfNeeded
+___xpc_service_main_block_invoke
+___xpc_service_main_block_invoke_2
++[NSBundle(XPCServiceAdditions) frameworkBundleForBinaryImagePath:]
++[NSBundle(XPCServiceAdditions) bundleForBinaryImagePath:]
+-[NSBundle(XPCServiceAdditions) XPCServiceBundles]
++[XPCServiceBundle useRestrictiveRoleAccountSecurityPolicy]
+___59+[XPCServiceBundle useRestrictiveRoleAccountSecurityPolicy]_block_invoke
++[XPCServiceBundle createLaunchDataFromArray:]
+_CF2launch_data
++[XPCServiceBundle createXPCJobsArrayFromArray:]
+_CF2XPC_data
++[XPCServiceBundle XPCServiceBundleAtPath:]
++[XPCServiceBundle XPCServiceBundleFromExecutableAtPath:]
++[XPCServiceBundle XPCServiceBundleForMainExecutable]
+-[XPCServiceBundle initWithBundle:]
+-[XPCServiceBundle initWithArchive:]
+-[XPCServiceBundle archiveForCache]
+-[XPCServiceBundle dealloc]
+-[XPCServiceBundle descriptionWithIndent:]
+-[XPCServiceBundle description]
+-[XPCServiceBundle identifier]
+___30-[XPCServiceBundle identifier]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XPCServiceBundle executablePath]
+___34-[XPCServiceBundle executablePath]_block_invoke
+___copy_helper_block_165
+___destroy_helper_block_166
+-[XPCServiceBundle realExecutablePath]
+___38-[XPCServiceBundle realExecutablePath]_block_invoke
+___copy_helper_block_169
+___destroy_helper_block_170
+-[XPCServiceBundle serviceDictionary]
+___37-[XPCServiceBundle serviceDictionary]_block_invoke
+___copy_helper_block_175
+___destroy_helper_block_176
+-[XPCServiceBundle objectForServiceDictionaryKey:]
+-[XPCServiceBundle boolForServiceDictionaryKey:]
+-[XPCServiceBundle stringForServiceDictionaryKey:]
+-[XPCServiceBundle dictionaryForServiceDictionaryKey:]
+-[XPCServiceBundle arrayForServiceDictionaryKey:]
+-[XPCServiceBundle bundle]
+-[XPCServiceBundle serviceType]
+___31-[XPCServiceBundle serviceType]_block_invoke
+___copy_helper_block_192
+___destroy_helper_block_193
+-[XPCServiceBundle isSystemService]
+-[XPCServiceBundle launchdJobDictionary]
+___40-[XPCServiceBundle launchdJobDictionary]_block_invoke
+___copy_helper_block_241
+___destroy_helper_block_242
+-[XPCServiceBundle launchdJobPropertyListData]
+-[XPCServiceBundle launchdJobPropertyListString]
+-[XPCServiceBundle launchdJobLaunchData]
+-[XPCServiceBundle xpcJobData]
+___30-[XPCServiceBundle xpcJobData]_block_invoke
+___copy_helper_block_252
+___destroy_helper_block_253
+_CFDictionaryToXPC
+_myCFDictionaryApplyFunction
++[XPCServiceRuntime defaultRuntime]
+___35+[XPCServiceRuntime defaultRuntime]_block_invoke
+-[XPCServiceRuntime init]
+-[XPCServiceRuntime dealloc]
+-[XPCServiceRuntime entitlementForKey:]
+-[XPCServiceRuntime _initializeEntitlements]
++[NSDictionary(XPCServiceAdditions) dictionaryWithArchive:ofClass:]
+-[NSDictionary(XPCServiceAdditions) archivedDictionary]
+-[NSDictionary(XPCServiceAdditions) descriptionWithIndent:]
++[NSArray(XPCServiceAdditions) arrayWithArchive:ofClass:]
+-[NSArray(XPCServiceAdditions) archivedArray]
+-[NSArray(XPCServiceAdditions) descriptionWithIndent:]
+-[NSString(XPCBundleRealPath) _XPC_stringByResolvingRealPath]
+-[NSString(XPCBundleRealPath) _XPC_stringByAttemptingToResolveRealPath]
+___block_descriptor_tmp
+___block_descriptor_tmp43
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp156
+___block_descriptor_tmp168
+___block_descriptor_tmp172
+___block_descriptor_tmp178
+___block_descriptor_tmp195
+___block_descriptor_tmp244
+___block_descriptor_tmp255
+___block_descriptor_tmp
+___block_literal_global
++[XPCServiceBundle useRestrictiveRoleAccountSecurityPolicy].useRestrictivePolicy
+_gCRAnnotations
+_allowedClientsList
++[XPCServiceBundle useRestrictiveRoleAccountSecurityPolicy].predicate
++[XPCServiceRuntime defaultRuntime].pred
++[XPCServiceRuntime defaultRuntime].instance
+_OBJC_CLASS_$_XPCServiceBundle
+_OBJC_CLASS_$_XPCServiceRuntime
+_OBJC_IVAR_$_XPCServiceBundle._bundle
+_OBJC_IVAR_$_XPCServiceBundle._executablePath
+_OBJC_IVAR_$_XPCServiceBundle._executablePathPredicate
+_OBJC_IVAR_$_XPCServiceBundle._launchdJobDictionary
+_OBJC_IVAR_$_XPCServiceBundle._launchdJobDictionaryPredicate
+_OBJC_IVAR_$_XPCServiceBundle._realExecutablePath
+_OBJC_IVAR_$_XPCServiceBundle._realExecutablePathPredicate
+_OBJC_IVAR_$_XPCServiceBundle._serviceDictionary
+_OBJC_IVAR_$_XPCServiceBundle._serviceDictionaryPredicate
+_OBJC_IVAR_$_XPCServiceBundle._serviceIdentifier
+_OBJC_IVAR_$_XPCServiceBundle._serviceIdentifierPredicate
+_OBJC_IVAR_$_XPCServiceBundle._serviceType
+_OBJC_IVAR_$_XPCServiceBundle._serviceTypePredicate
+_OBJC_IVAR_$_XPCServiceBundle._xpcJobData
+_OBJC_IVAR_$_XPCServiceBundle._xpcJobDataPredicate
+_OBJC_IVAR_$_XPCServiceRuntime._entitlements
+_OBJC_METACLASS_$_XPCServiceBundle
+_OBJC_METACLASS_$_XPCServiceRuntime
+_XPCServiceBundleExtention
+_XPCServiceBundleInfoDictionaryKey
+_XPCServiceDictionaryAdditionalServicesKey
+_XPCServiceDictionaryAllowedClientsKey
+_XPCServiceDictionaryDirtyJetsamMemoryLimit
+_XPCServiceDictionaryDirtyJetsamPriority
+_XPCServiceDictionaryEnvironmentVariablesKey
+_XPCServiceDictionaryJoinExistingSessionKey
+_XPCServiceDictionaryMultipleInstancesKey
+_XPCServiceDictionaryRoleAccountKey
+_XPCServiceDictionaryRunloopTypeKey
+_XPCServiceDictionarySandboxProfileKey
+_XPCServiceDictionaryServiceTypeKey
+_XPCServiceDictionaryUseNSApplicationMainKey
+_XPCServiceVersionNumber
+_XPCServiceVersionString
+__xpc_main
+_connectionEvaluator
+_xpc_service_main
+_AppSandboxUtilRealPathForPath
+_CFArrayGetCount
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyBundleURL
+_CFBundleGetInfoDictionary
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFDataGetTypeID
+_CFDictionaryApplyFunction
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFGetTypeID
+_CFNumberGetType
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPropertyListCreateWithStream
+_CFReadStreamCreateWithFile
+_CFReadStreamOpen
+_CFRelease
+_CFRunLoopRun
+_CFStringGetCString
+_CFStringGetTypeID
+_CFURLCopyFileSystemPath
+_CFURLCreateFromFileSystemRepresentation
+_CFURLCreateWithFileSystemPath
+_NSHomeDirectory
+_NSStringFromClass
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+_SecCodeCheckValidityWithErrors
+_SecCodeCopyGuestWithAttributes
+_SecCodeCopyPath
+_SecRequirementCreateWithStringAndErrors
+__Block_object_assign
+__Block_object_dispose
+__CFBundleCopyFrameworkURLForExecutablePath
+__CFBundleCopyInfoPlistURL
+__CFBundleCreateWithExecutableURLIfMightBeBundle
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSGetArgc
+__NSGetArgv
+___CFConstantStringClassReference
+___assert_rtn
+___error
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+__objc_empty_cache
+__xpc_runtime_get_entitlements_data
+_abort
+_audit_token_to_au32
+_close
+_closedir
+_dispatch_main
+_dispatch_once
+_dispatch_queue_create
+_dlerror
+_dlsym
+_exit
+_fcntl
+_fwrite
+_kCFAllocatorDefault
+_kCFBundleExecutableKey
+_kSecGuestAttributeDynamicCode
+_kSecGuestAttributePid
+_launch_data_alloc
+_launch_data_array_set_index
+_launch_data_dict_insert
+_launch_data_free
+_launch_data_get_string
+_launch_data_set_bool
+_launch_data_set_integer
+_launch_data_set_opaque
+_launch_data_set_real
+_launch_data_set_string
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSendSuper2
+_open
+_opendir$INODE64
+_readdir$INODE64
+_sandbox_free_error
+_sandbox_init_with_parameters
+_stat$INODE64
+_syslog
+_xpc_array_append_value
+_xpc_array_create
+_xpc_bool_create
+_xpc_connection_create_listener
+_xpc_connection_resume
+_xpc_connection_set_event_handler
+_xpc_data_create
+_xpc_data_get_bytes_ptr
+_xpc_data_get_length
+_xpc_dictionary_create
+_xpc_dictionary_set_value
+_xpc_double_create
+_xpc_handle_service
+_xpc_int64_create
+_xpc_release
+_xpc_retain
+_xpc_string_create
+_xpc_track_activity
+dyld_stub_binder

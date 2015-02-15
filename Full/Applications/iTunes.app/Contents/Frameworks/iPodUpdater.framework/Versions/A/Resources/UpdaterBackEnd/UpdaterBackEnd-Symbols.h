@@ -1,0 +1,220 @@
+-[BlockDevice initWithPath:fileDescriptor:blockSize:blocks:mode:]
+-[BlockDevice dealloc]
+-[BlockDevice fileDescriptor]
+-[BlockDevice fullBSDPath]
+-[BlockDevice blockSize]
+-[BlockDevice diskBlocks]
+-[BlockDevice mode]
+-[UpdaterToolServer init]
+__Z8DiskPeekP8__DADiskPv
+-[UpdaterToolServer serverThread]
+-[UpdaterToolServer readFromOffset:intoBuffer:length:fromDevice:]
+-[UpdaterToolServer write:atOffset:toDevice:]
+-[UpdaterToolServer clearFromOffset:length:toDevice:]
++[UpdaterToolServer deviceWithoutSlice:]
+-[UpdaterToolServer commandStringFromArgs:]
+-[UpdaterToolServer format:ofDevice:usingFormat:checkDiskAfterwards:family:]
+-[UpdaterToolServer checkDisk:withFormat:]
+-[UpdaterToolServer indicateDeviceWillBecomeUnmountable:]
++[UpdaterToolServer copyRDisk:toDisk:]
+-[UpdaterToolServer reserveDevice:]
+-[UpdaterToolServer releaseReservedDevice:]
+-[UpdaterToolServer logCommand:]
+-[UpdaterToolServer openFile:mode:]
+-[UpdaterToolServer ensureFileOpened:device:mode:]
+-[UpdaterToolServer logOpenFiles:]
+-[UpdaterToolServer deviceForPath:]
+-[UpdaterToolServer doneWithDevice:]
+-[UpdaterToolServer closeFile:]
+-[UpdaterToolServer closeAllFiles]
+-[UpdaterToolServer tickleDevice:]
+-[UpdaterToolServer read:length:from:forDevice:]
+-[UpdaterToolServer write:length:to:forDevice:]
+-[UpdaterToolServer connectionDied:]
+-[UpdaterToolServer setLogger:]
+-[UpdaterToolServer quit]
+-[UpdaterToolServer diskPeek:]
+-[UpdaterToolServer .cxx_construct]
+_main
+_GetMachOAddress
+__ZL15__ARCLite__loadv
+__ZL28add_image_hook_readClassPairPK11mach_headerl
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL19patch_lazy_pointersPK11mach_headerPPKcPPv
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorm
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectm
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS3_
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorm
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectm
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL17add_image_hook_GCPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL17_load_method_name
+__ZL11_class_name
+__ZL17_load_method_type
+_pvars
+__non_lazy_classes
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+_OBJC_IVAR_$_BlockDevice._fullBSDPath
+_OBJC_IVAR_$_BlockDevice._fd
+_OBJC_IVAR_$_BlockDevice._blockSize
+_OBJC_IVAR_$_BlockDevice._diskBlocks
+_OBJC_IVAR_$_BlockDevice._mode
+_OBJC_IVAR_$_UpdaterToolServer._reservedDevice
+_OBJC_IVAR_$_UpdaterToolServer._devices
+_OBJC_IVAR_$_UpdaterToolServer._devicesArrayLock
+_OBJC_IVAR_$_UpdaterToolServer._connection
+_OBJC_IVAR_$_UpdaterToolServer._daSession
+_OBJC_IVAR_$_UpdaterToolServer._logger
+_OBJC_CLASS_$_BlockDevice
+_OBJC_METACLASS_$_BlockDevice
+_OBJC_CLASS_$_UpdaterToolServer
+_OBJC_METACLASS_$_UpdaterToolServer
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZZL28add_image_hook_readClassPairPK11mach_headerlE5names
+__ZZL28add_image_hook_readClassPairPK11mach_headerlE8pointers
+__ZZL17add_image_hook_GCPK11mach_headerlE5names
+__ZZL17add_image_hook_GCPK11mach_headerlE8pointers
+__ZZL18add_image_hook_ARCPK11mach_headerlE5names
+__ZZL18add_image_hook_ARCPK11mach_headerlE8pointers
+_NXArgc
+_NXArgv
+___progname
+__mh_execute_header
+_environ
+_objc_retainedObject
+_objc_unretainedObject
+_objc_unretainedPointer
+start
+_CFBundleCreate
+_CFBundleGetDataPointerForName
+_CFBundleGetFunctionPointerForName
+_CFBundleLoadExecutable
+_CFRelease
+_CFRunLoopGetCurrent
+_CFURLCreateCopyAppendingPathComponent
+_CFURLCreateFromFSRef
+_DADiskClaim
+_DADiskCreateFromBSDName
+_DADiskGetBSDName
+_DADiskUnclaim
+_DARegisterDiskPeekCallback
+_DASessionCreate
+_DASessionScheduleWithRunLoop
+_FSFindFolder
+_NSConnectionDidDieNotification
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSConnection
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOrderedSet
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Block_copy
+___CFConstantStringClassReference
+___bzero
+___error
+___stack_chk_fail
+___stack_chk_guard
+___stdoutp
+__dyld_register_func_for_add_image
+__exit
+__objc_empty_cache
+__objc_empty_vtable
+_calloc
+_class_addMethod
+_class_addProperty
+_class_addProtocol
+_class_getInstanceSize
+_class_getInstanceVariable
+_class_getIvarLayout
+_class_getSuperclass
+_class_respondsToSelector
+_close
+_dlclose
+_dlopen
+_dlsym
+_dup2
+_execv
+_exit
+_fflush
+_fgets
+_fork
+_fprintf
+_free
+_getmntinfo$INODE64
+_getpid
+_ioctl
+_ivar_getName
+_ivar_getOffset
+_kCFAllocatorDefault
+_kCFRunLoopDefaultMode
+_kDADiskDescriptionMatchVolumeUnrecognized
+_lseek
+_malloc
+_memcpy
+_objc_autoreleasePoolPush
+_objc_collectingEnabled
+_objc_initializeClassPair
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_registerClassPair
+_objc_retain
+_object_getClass
+_object_setIvar
+_open
+_openlog
+_pclose
+_pipe
+_popen
+_property_copyAttributeList
+_protocol_getMethodDescription
+_pthread_mutex_init
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_read
+_sel_getUid
+_setuid
+_sleep
+_sprintf
+_strcmp
+_strcpy
+_strlen
+_strncmp
+_strncpy
+_syslog
+_waitpid
+_write
+dyld_stub_binder

@@ -1,0 +1,12 @@
+#import <disktool/CommandLineInterface.h>
+#import <disktool/CoreStorage.h>
+#import <disktool/Main.h>
+#import <disktool/DiskJournal.h>
+#import <disktool/VerifyRepairVolume.h>
+#import <disktool/VerifyRepairPermissions.h>
+#import <disktool/DiskInformation.h>
+#import <disktool/DiskActivity.h>
+#import <disktool/DiskMount.h>
+#import <disktool/EraseDisk.h>
+#import <disktool/PartitionDisk.h>
+#import <disktool/DiskRaid.h>

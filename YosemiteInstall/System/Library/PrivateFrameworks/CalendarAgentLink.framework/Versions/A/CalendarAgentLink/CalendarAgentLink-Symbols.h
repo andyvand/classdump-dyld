@@ -1,0 +1,1130 @@
++[CalAgentLink agent]
+-[CalClientLink listener:shouldAcceptNewConnection:]
++[CalClientLink sendToClients:withObject:withObject:]
+-[CalAgentLinkOneWayOperation init]
+-[CalAgentLinkOperation init]
+___29-[CalAgentLinkOperation init]_block_invoke
+___35-[CalAgentLinkOneWayOperation init]_block_invoke
+-[CalAgentLinkOperation setIsAllowedToBeRunOnAgent:]
+-[CalAgentLinkOperation setCompletionBlock:]
+-[CalAgentLinkOperation start]
+___30-[CalAgentLinkOperation start]_block_invoke
+-[CalAgentLinkOperation isFinished]
+-[CalAgentLinkOneWayOperation prepare]
+-[CalAgentLinkOneWayOperation setSemaphoreDecremented:]
+-[CalAgentLinkOperation prepare]
+-[CalAgentLinkOperation eligibleForExecution]
+-[CalAgentLinkOperation isAllowedToBeRunOnAgent]
+___45-[CalAgentLinkOperation eligibleForExecution]_block_invoke
+-[CalAgentLinkOperation setErrorWithCode:]
+-[CalAgentLinkOperation setError:]
+-[CalAgentLinkOperation finish]
+-[CalAgentLinkOneWayOperation willFinish]
+-[CalAgentLinkOneWayOperation semaphoreDecremented]
+-[CalAgentLinkOperation willFinish]
+-[CalAgentLinkOperation setIsExecuting:]
+-[CalAgentLinkOperation setIsFinished:]
+-[CalAgentLinkOperation completionBlock]
++[CalAgentLinkConnection releaseConnectionForOperation:]
++[CalAgentLinkConnection sharedInstance]
+___40+[CalAgentLinkConnection sharedInstance]_block_invoke
+-[CalAgentLinkConnection init]
+-[CalAgentLinkConnection _releaseConnectionForOperation:]
+-[CalAgentLinkOperation description]
+-[CalAgentLinkOperation isCancelled]
+-[CalAgentLinkOperation connection]
+-[CalAgentLinkOperation isExecuting]
+-[CalAgentLinkOperation error]
+-[CalAgentLinkOperation messageQueue]
+-[CalAgentLinkOperation stopwatch]
+-[CalAgentLinkOperation dealloc]
++[CalAgentLink broadcastToOtherClients:withObject:withObject:]
++[CalAgentLink agentWithErrorBlock:]
+-[CalAgentLinkOperation setStopwatch:]
++[CalAgentLinkConnection setConnectionForOperation:]
+-[CalAgentLinkConnection _setConnectionForOperation:]
+___copy_helper_block_
+-[CalAgentLinkOperation setConnection:]
+-[CalAgentLinkOperation timeout]
+___32-[CalAgentLinkOperation prepare]_block_invoke
+-[CalAgentLinkOperation responsePayloadReceived:]
+___destroy_helper_block_
+-[CalAgentLinkQueueStatusOperation init]
+-[CalAgentLinkOperation setTimeout:]
+-[CalAgentLinkQueueStatusOperation description]
+-[CalAgentLinkQueueStatusOperation runningQueueFound]
+-[CalAgentLinkOperation inputPayload]
+-[CalAgentLinkQueueStatusOperation responsePayloadReceived:]
++[CalClientLink sendToOtherClients:withObject:withObject:]
+-[CalClientLink _removeClientConnection:]
+-[CalAgentLinkOperation _finishWithTimeout]
+-[CalAgentLinkUserNotificationOperation initWithAction:]
+-[CalAgentLinkUserNotificationOperation setObjectIDs:]
+-[CalAgentLinkUserNotificationOperation description]
+-[CalAgentLinkUserNotificationOperation action]
+-[CalAgentLinkUserNotificationOperation objectIDs]
+-[CalAgentLinkUserNotificationOperation updatedPreferenceValue]
+-[CalAgentLinkUserNotificationOperation inputPayload]
+-[CalAgentLinkUserNotificationOperation dealloc]
++[CalClientLink sendToClients:withObject:]
+-[CalStoreRemoteManagedAccount initWithCoder:]
+-[CalStoreRemoteManagedAccount dealloc]
+-[CalStoreRemoteManagedAccount mainPrincipal]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[CalStoreRemoteManagedAccount mainPrincipal]_block_invoke
+-[CalStoreRemoteManagedAccount encodeWithCoder:]
++[CalStoreRemoteManagedAccount supportsSecureCoding]
+-[CalStoreRemoteManagedAccount acAccountID]
+-[CalStoreRemoteManagedAccount setAcAccountID:]
+-[CalStoreRemoteManagedAccount accountPluginID]
+-[CalStoreRemoteManagedAccount setAccountPluginID:]
+-[CalStoreRemoteManagedAccount isEnabledForCalendar]
+-[CalStoreRemoteManagedAccount setIsEnabledForCalendar:]
+-[CalStoreRemoteManagedAccount isEnabledForReminders]
+-[CalStoreRemoteManagedAccount setIsEnabledForReminders:]
+-[CalStoreRemoteManagedAccount isMarkedForDeletion]
+-[CalStoreRemoteManagedAccount setIsMarkedForDeletion:]
+-[CalStoreRemoteManagedAccount login]
+-[CalStoreRemoteManagedAccount setLogin:]
+-[CalStoreRemoteManagedAccount serverURL]
+-[CalStoreRemoteManagedAccount setServerURL:]
+-[CalStoreRemoteManagedMigrationGroup initWithCoder:]
+-[CalStoreRemoteManagedMigrationGroup dealloc]
+-[CalStoreRemoteManagedMigrationGroup encodeWithCoder:]
++[CalStoreRemoteManagedMigrationGroup supportsSecureCoding]
+-[CalStoreRemoteManagedRecurrenceException initWithCoder:]
+-[CalStoreRemoteManagedRecurrenceException dealloc]
+-[CalStoreRemoteManagedRecurrenceException masterEvent]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___55-[CalStoreRemoteManagedRecurrenceException masterEvent]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedRecurrenceException encodeWithCoder:]
++[CalStoreRemoteManagedRecurrenceException supportsSecureCoding]
+-[CalStoreRemoteManagedRecurrenceException date]
+-[CalStoreRemoteManagedRecurrenceException setDate:]
+-[CalAgentLinkLaunchExternalSyncOperation init]
+-[CalAgentLinkLaunchExternalSyncOperation initWithLaunchArguments:shouldDelay:]
+-[CalAgentLinkLaunchExternalSyncOperation dealloc]
+-[CalAgentLinkLaunchExternalSyncOperation description]
+-[CalAgentLinkLaunchExternalSyncOperation inputPayload]
+-[CalAgentLinkLaunchExternalSyncOperation launchArguments]
+-[CalAgentLinkLaunchExternalSyncOperation setLaunchArguments:]
+-[CalAgentLinkLaunchExternalSyncOperation delay]
+-[CalAgentLinkLaunchExternalSyncOperation setDelay:]
++[NSPredicate(CalendarStoreSupport) eventPredicateWithStartDate:endDate:]
++[NSPredicate(CalendarStoreSupport) eventPredicateWithStartDate:endDate:sharedUID:]
+-[CalStoreRemoteManagedAttendee initWithCoder:]
+-[CalStoreRemoteManagedAttendee dealloc]
+-[CalStoreRemoteManagedAttendee encodeWithCoder:]
++[CalStoreRemoteManagedAttendee supportsSecureCoding]
+-[CalStoreRemoteManagedAttendee address]
+-[CalStoreRemoteManagedAttendee setAddress:]
+-[CalStoreRemoteManagedAttendee commonName]
+-[CalStoreRemoteManagedAttendee setCommonName:]
+-[CalStoreRemoteManagedAttendee status]
+-[CalStoreRemoteManagedAttendee setStatus:]
+-[CalStoreRemoteManagedAttendee type]
+-[CalStoreRemoteManagedAttendee setType:]
+-[CalAgentLinkCalDAVQueueOperation init]
+-[CalAgentLinkCalDAVQueueOperation initWithAction:principalManagedObjectID:changeRequestManagedObjectID:]
+-[CalAgentLinkCalDAVQueueOperation dealloc]
+-[CalAgentLinkCalDAVQueueOperation description]
+-[CalAgentLinkCalDAVQueueOperation inputPayload]
+-[CalAgentLinkCalDAVQueueOperation queueAction]
+-[CalAgentLinkCalDAVQueueOperation setQueueAction:]
+-[CalAgentLinkCalDAVQueueOperation changeRequestManagedObjectID]
+-[CalAgentLinkCalDAVQueueOperation setChangeRequestManagedObjectID:]
+-[CalAgentLinkCalDAVQueueOperation principalManagedObjectID]
+-[CalAgentLinkCalDAVQueueOperation setPrincipalManagedObjectID:]
+-[CalAgentLinkExchangeQueueOperation init]
+-[CalAgentLinkExchangeQueueOperation initWithAction:principalManagedObjectID:persistentOperationManagedObjectID:]
+-[CalAgentLinkExchangeQueueOperation dealloc]
+-[CalAgentLinkExchangeQueueOperation description]
+-[CalAgentLinkExchangeQueueOperation inputPayload]
+-[CalAgentLinkExchangeQueueOperation queueAction]
+-[CalAgentLinkExchangeQueueOperation setQueueAction:]
+-[CalAgentLinkExchangeQueueOperation persistentOperationManagedObjectID]
+-[CalAgentLinkExchangeQueueOperation setPersistentOperationManagedObjectID:]
+-[CalAgentLinkExchangeQueueOperation principalManagedObjectID]
+-[CalAgentLinkExchangeQueueOperation setPrincipalManagedObjectID:]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation init]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation initWithNodeObjectID:]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation dealloc]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation description]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation inputPayload]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation nodeObjectID]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation user]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation setUser:]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation password]
+-[CalAgentLinkUpdateSubscriptionAuthInfoOperation setPassword:]
+-[CalStoreRemoteManagedExchangeAccount initWithCoder:]
+-[CalStoreRemoteManagedExchangeAccount dealloc]
+-[CalStoreRemoteManagedExchangeAccount encodeWithCoder:]
++[CalStoreRemoteManagedExchangeAccount supportsSecureCoding]
+-[CalStoreRemoteManagedExchangeAccount externalURL]
+-[CalStoreRemoteManagedExchangeAccount setExternalURL:]
+-[CalStoreRemoteManagedExchangeAccount internalWebServicesURL]
+-[CalStoreRemoteManagedExchangeAccount setInternalWebServicesURL:]
+-[CalStoreRemoteManagedExchangeAccount password]
+-[CalStoreRemoteManagedExchangeAccount setPassword:]
+-[CalAgentLinkConnection dealloc]
+-[CalAgentLinkConnection _interruptAllOperations]
+___53-[CalAgentLinkConnection _setConnectionForOperation:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_131
+___destroy_helper_block_132
++[CalAgentLinkOperation disableAgentLinkForTesting]
+___copy_helper_block_168
+___destroy_helper_block_169
+___32-[CalAgentLinkOperation prepare]_block_invoke174
+___copy_helper_block_177
+___destroy_helper_block_178
+-[CalAgentLinkOperation setIsCancelled:]
+-[CalAgentLinkOperation setMessageQueue:]
+-[CalAgentLinkQueueDebugOperationItem init]
++[CalAgentLinkQueueDebugOperationItem supportsSecureCoding]
+-[CalAgentLinkQueueDebugOperationItem initWithCoder:]
+-[CalAgentLinkQueueDebugOperationItem encodeWithCoder:]
+-[CalAgentLinkQueueDebugOperationItem copyWithZone:]
+-[CalAgentLinkQueueDebugOperationItem dealloc]
+-[CalAgentLinkQueueDebugOperationItem description]
+-[CalAgentLinkQueueDebugOperationItem className]
+-[CalAgentLinkQueueDebugOperationItem setClassName:]
+-[CalAgentLinkQueueDebugOperationItem readableDescription]
+-[CalAgentLinkQueueDebugOperationItem setReadableDescription:]
+-[CalAgentLinkQueueDebugOperationItem retryCounter]
+-[CalAgentLinkQueueDebugOperationItem setRetryCounter:]
+-[CalAgentLinkQueueDebugOperationItem maxRetries]
+-[CalAgentLinkQueueDebugOperationItem setMaxRetries:]
+-[CalAgentLinkQueueDebugOperationItem isRunning]
+-[CalAgentLinkQueueDebugOperationItem setIsRunning:]
+-[CalAgentLinkQueueDebugOperationItem isPendingRetry]
+-[CalAgentLinkQueueDebugOperationItem setIsPendingRetry:]
+-[CalStoreRemoteManagedPrincipal initWithCoder:]
+-[CalStoreRemoteManagedPrincipal dealloc]
++[CalStoreRemoteManagedPrincipal fetchObjectsWithPredicate:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___60+[CalStoreRemoteManagedPrincipal fetchObjectsWithPredicate:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedPrincipal encodeWithCoder:]
++[CalStoreRemoteManagedPrincipal supportsSecureCoding]
+-[CalStoreRemoteManagedPrincipal account]
+-[CalStoreRemoteManagedPrincipal setAccount:]
+-[CalStoreRemoteManagedPrincipal fullName]
+-[CalStoreRemoteManagedPrincipal setFullName:]
+-[CalStoreRemoteManagedPrincipal isDelegate]
+-[CalStoreRemoteManagedPrincipal setIsDelegate:]
+-[CalStoreRemoteManagedPrincipal isManuallyConfigured]
+-[CalStoreRemoteManagedPrincipal setIsManuallyConfigured:]
+-[CalStoreRemoteManagedPrincipal migrationGroup]
+-[CalStoreRemoteManagedPrincipal setMigrationGroup:]
+-[CalStoreRemoteManagedCalendar initWithCoder:]
+-[CalStoreRemoteManagedCalendar dealloc]
+-[CalStoreRemoteManagedCalendar compare:]
+-[CalStoreRemoteManagedCalendar description]
++[CalStoreRemoteManagedCalendar fetchObjectsWithPredicate:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___59+[CalStoreRemoteManagedCalendar fetchObjectsWithPredicate:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedCalendar hasCapability:]
+___47-[CalStoreRemoteManagedCalendar hasCapability:]_block_invoke
+___copy_helper_block_54
+___destroy_helper_block_55
+-[CalStoreRemoteManagedCalendar isLocal]
+-[CalStoreRemoteManagedCalendar removeWithError:]
+___49-[CalStoreRemoteManagedCalendar removeWithError:]_block_invoke
+___copy_helper_block_61
+___destroy_helper_block_62
+-[CalStoreRemoteManagedCalendar saveWithError:]
+___47-[CalStoreRemoteManagedCalendar saveWithError:]_block_invoke
+___copy_helper_block_68
+___destroy_helper_block_69
+-[CalStoreRemoteManagedCalendar encodeWithCoder:]
++[CalStoreRemoteManagedCalendar supportsSecureCoding]
+-[CalStoreRemoteManagedCalendar group]
+-[CalStoreRemoteManagedCalendar setGroup:]
+-[CalStoreRemoteManagedCalendar isTaskContainer]
+-[CalStoreRemoteManagedCalendar setIsTaskContainer:]
+-[CalStoreRemoteManagedCalendar isEventContainer]
+-[CalStoreRemoteManagedCalendar setIsEventContainer:]
+-[CalStoreRemoteManagedCalendar shouldShowInPrimaryAccounts]
+-[CalStoreRemoteManagedCalendar setShouldShowInPrimaryAccounts:]
++[CalClientLink initialize]
+-[CalClientLink initWithMachServiceName:exportedObject:]
++[CalClientLink sharedInstances]
++[CalClientLink sharedInstanceWithMachServiceName:]
++[CalClientLink startWithMachServiceName:exportedObject:]
+-[CalClientLink dealloc]
++[CalClientLink sendToClients:]
++[CalClientLink sendToOtherClients:]
++[CalClientLink sendToOtherClients:withObject:]
+-[CalClientLink tearDown]
++[CalClientLink tearDownAllInstances]
++[CalClientLink _sendToClients:withObjects:skipCurrentConnection:]
+___66+[CalClientLink _sendToClients:withObjects:skipCurrentConnection:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalClientLink _sendToClients:withObjects:skipCurrentConnection:]
+___52-[CalClientLink listener:shouldAcceptNewConnection:]_block_invoke
+___copy_helper_block_116
+___destroy_helper_block_117
+___52-[CalClientLink listener:shouldAcceptNewConnection:]_block_invoke123
+___copy_helper_block_128
+___destroy_helper_block_129
+-[CalClientLink clients]
+-[CalClientLink setClients:]
+-[CalClientLink exportedObject]
+-[CalClientLink setExportedObject:]
+-[CalClientLink exportedProtocol]
+-[CalClientLink setExportedProtocol:]
+-[CalClientLink listener]
+-[CalClientLink setListener:]
+-[CalClientLink machServiceName]
+-[CalClientLink setMachServiceName:]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation init]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation initWithURL:certificates:nodeObjectID:]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation dealloc]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation description]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation inputPayload]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation certificates]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation setCertificates:]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation nodeObjectID]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation setNodeObjectID:]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation url]
+-[CalAgentLinkAcceptCertificatesTemporarilyOperation setUrl:]
+-[CalStoreRemoteManagedNode initWithCoder:]
+-[CalStoreRemoteManagedNode dealloc]
++[CalStoreRemoteManagedNode colorFromHexString:]
++[CalStoreRemoteManagedNode hexValueForColor:]
+-[CalStoreRemoteManagedNode compare:]
+-[CalStoreRemoteManagedNode compareTitle:]
+-[CalStoreRemoteManagedNode encodeWithCoder:]
++[CalStoreRemoteManagedNode supportsSecureCoding]
+-[CalStoreRemoteManagedNode color]
+-[CalStoreRemoteManagedNode setColor:]
+-[CalStoreRemoteManagedNode isWritable]
+-[CalStoreRemoteManagedNode setIsWritable:]
+-[CalStoreRemoteManagedNode notes]
+-[CalStoreRemoteManagedNode setNotes:]
+-[CalStoreRemoteManagedNode order]
+-[CalStoreRemoteManagedNode setOrder:]
+-[CalStoreRemoteManagedNode title]
+-[CalStoreRemoteManagedNode setTitle:]
+-[CalStoreRemoteManagedNode type]
+-[CalStoreRemoteManagedNode setType:]
+-[CalStoreRemoteManagedNode uid]
+-[CalStoreRemoteManagedNode setUid:]
+-[CalStoreRemoteCoreRecurrenceRule initWithCoder:]
+-[CalStoreRemoteCoreRecurrenceRule dealloc]
++[CalStoreRemoteCoreRecurrenceRule recurrenceRuleFromICSString:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___64+[CalStoreRemoteCoreRecurrenceRule recurrenceRuleFromICSString:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteCoreRecurrenceRule encodeWithCoder:]
++[CalStoreRemoteCoreRecurrenceRule supportsSecureCoding]
+-[CalStoreRemoteCoreRecurrenceRule byDay]
+-[CalStoreRemoteCoreRecurrenceRule setByDay:]
+-[CalStoreRemoteCoreRecurrenceRule byMonth]
+-[CalStoreRemoteCoreRecurrenceRule setByMonth:]
+-[CalStoreRemoteCoreRecurrenceRule byMonthDay]
+-[CalStoreRemoteCoreRecurrenceRule setByMonthDay:]
+-[CalStoreRemoteCoreRecurrenceRule count]
+-[CalStoreRemoteCoreRecurrenceRule setCount:]
+-[CalStoreRemoteCoreRecurrenceRule interval]
+-[CalStoreRemoteCoreRecurrenceRule setInterval:]
+-[CalStoreRemoteCoreRecurrenceRule isInfinite]
+-[CalStoreRemoteCoreRecurrenceRule setIsInfinite:]
+-[CalStoreRemoteCoreRecurrenceRule untilDate]
+-[CalStoreRemoteCoreRecurrenceRule setUntilDate:]
+-[CalStoreRemoteManagedCalendarItem initWithCoder:]
+-[CalStoreRemoteManagedCalendarItem dealloc]
+-[CalStoreRemoteManagedCalendarItem hasAlarm]
++[CalStoreRemoteManagedCalendarItem fetchObjectsWithPredicate:]
++[CalStoreRemoteManagedCalendarItem fetchObjectsWithPredicate:inCalendars:]
++[CalStoreRemoteManagedCalendarItem fetchObjectsWithSharedUID:]
+-[CalStoreRemoteManagedCalendarItem encodeWithCoder:]
++[CalStoreRemoteManagedCalendarItem supportsSecureCoding]
+-[CalStoreRemoteManagedCalendarItem attachments]
+-[CalStoreRemoteManagedCalendarItem setAttachments:]
+-[CalStoreRemoteManagedCalendarItem calendar]
+-[CalStoreRemoteManagedCalendarItem setCalendar:]
+-[CalStoreRemoteManagedCalendarItem dateStamp]
+-[CalStoreRemoteManagedCalendarItem setDateStamp:]
+-[CalStoreRemoteManagedCalendarItem derivedAlarms]
+-[CalStoreRemoteManagedCalendarItem setDerivedAlarms:]
+-[CalStoreRemoteManagedCalendarItem isAllDay]
+-[CalStoreRemoteManagedCalendarItem setIsAllDay:]
+-[CalStoreRemoteManagedCalendarItem notes]
+-[CalStoreRemoteManagedCalendarItem setNotes:]
+-[CalStoreRemoteManagedCalendarItem occurrenceID]
+-[CalStoreRemoteManagedCalendarItem setOccurrenceID:]
+-[CalStoreRemoteManagedCalendarItem recurrenceRule]
+-[CalStoreRemoteManagedCalendarItem setRecurrenceRule:]
+-[CalStoreRemoteManagedCalendarItem sharedUID]
+-[CalStoreRemoteManagedCalendarItem setSharedUID:]
+-[CalStoreRemoteManagedCalendarItem startDate]
+-[CalStoreRemoteManagedCalendarItem setStartDate:]
+-[CalStoreRemoteManagedCalendarItem timeZone]
+-[CalStoreRemoteManagedCalendarItem setTimeZone:]
+-[CalStoreRemoteManagedCalendarItem title]
+-[CalStoreRemoteManagedCalendarItem setTitle:]
+-[CalStoreRemoteManagedCalendarItem url]
+-[CalStoreRemoteManagedCalendarItem setUrl:]
+____scrubbedDictionaryFrom_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedCalDAVAccount initWithCoder:]
+-[CalStoreRemoteManagedCalDAVAccount dealloc]
+-[CalStoreRemoteManagedCalDAVAccount password]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___46-[CalStoreRemoteManagedCalDAVAccount password]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedCalDAVAccount setPassword:]
+___50-[CalStoreRemoteManagedCalDAVAccount setPassword:]_block_invoke
+-[CalStoreRemoteManagedCalDAVAccount encodeWithCoder:]
++[CalStoreRemoteManagedCalDAVAccount supportsSecureCoding]
+-[CalStoreRemoteManagedCalDAVAccount useKerberos]
+-[CalStoreRemoteManagedCalDAVAccount setUseKerberos:]
+-[CalStoreRemoteManagedAlarm initWithCoder:]
+-[CalStoreRemoteManagedAlarm dealloc]
+-[CalStoreRemoteManagedAlarm compareAlarmOrder:]
+-[CalStoreRemoteManagedAlarm triggerDateRelativeTo:]
+-[CalStoreRemoteManagedAlarm encodeWithCoder:]
++[CalStoreRemoteManagedAlarm supportsSecureCoding]
+-[CalStoreRemoteManagedAlarm absoluteTrigger]
+-[CalStoreRemoteManagedAlarm setAbsoluteTrigger:]
+-[CalStoreRemoteManagedAlarm acknowledged]
+-[CalStoreRemoteManagedAlarm setAcknowledged:]
+-[CalStoreRemoteManagedAlarm action]
+-[CalStoreRemoteManagedAlarm setAction:]
+-[CalStoreRemoteManagedAlarm emailAddress]
+-[CalStoreRemoteManagedAlarm setEmailAddress:]
+-[CalStoreRemoteManagedAlarm order]
+-[CalStoreRemoteManagedAlarm setOrder:]
+-[CalStoreRemoteManagedAlarm sound]
+-[CalStoreRemoteManagedAlarm setSound:]
+-[CalStoreRemoteManagedAlarm url]
+-[CalStoreRemoteManagedAlarm setUrl:]
+-[CalStoreRemoteManagedAlarm relatedTo]
+-[CalStoreRemoteManagedAlarm setRelatedTo:]
+-[CalStoreRemoteManagedAlarm relativeTrigger]
+-[CalStoreRemoteManagedAlarm setRelativeTrigger:]
+-[CalStoreRemoteManagedEvent initWithCoder:]
+-[CalStoreRemoteManagedEvent dealloc]
+-[CalStoreRemoteManagedEvent compareStartDate:]
++[CalStoreRemoteManagedEvent fetchObjectsWithPredicate:inCalendars:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___68+[CalStoreRemoteManagedEvent fetchObjectsWithPredicate:inCalendars:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CalStoreRemoteManagedEvent fetchObjectsWithSharedUID:]
+___56+[CalStoreRemoteManagedEvent fetchObjectsWithSharedUID:]_block_invoke
+___copy_helper_block_46
+___destroy_helper_block_47
++[CalStoreRemoteManagedEvent fetchObjectsWithSharedUID:occurrence:]
+___67+[CalStoreRemoteManagedEvent fetchObjectsWithSharedUID:occurrence:]_block_invoke
+___copy_helper_block_52
+___destroy_helper_block_53
+-[CalStoreRemoteManagedEvent removeWithError:]
+-[CalStoreRemoteManagedEvent removeWithSpan:error:]
+___51-[CalStoreRemoteManagedEvent removeWithSpan:error:]_block_invoke
+___copy_helper_block_60
+___destroy_helper_block_61
+-[CalStoreRemoteManagedEvent saveWithError:]
+-[CalStoreRemoteManagedEvent saveWithSpan:error:]
+___49-[CalStoreRemoteManagedEvent saveWithSpan:error:]_block_invoke
+___copy_helper_block_69
+___destroy_helper_block_70
+-[CalStoreRemoteManagedEvent encodeWithCoder:]
++[CalStoreRemoteManagedEvent supportsSecureCoding]
+-[CalStoreRemoteManagedEvent attendees]
+-[CalStoreRemoteManagedEvent setAttendees:]
+-[CalStoreRemoteManagedEvent endDate]
+-[CalStoreRemoteManagedEvent setEndDate:]
+-[CalStoreRemoteManagedEvent hasAttendee]
+-[CalStoreRemoteManagedEvent setHasAttendee:]
+-[CalStoreRemoteManagedEvent location]
+-[CalStoreRemoteManagedEvent setLocation:]
+-[CalStoreRemoteManagedEvent masterException]
+-[CalStoreRemoteManagedEvent setMasterException:]
+-[CalStoreRemoteManagedEvent occurrence]
+-[CalStoreRemoteManagedEvent setOccurrence:]
+-[CalStoreRemoteManagedEvent needsReply]
+-[CalStoreRemoteManagedEvent setNeedsReply:]
+-[CalStoreRemoteManagedObject initWithCoder:]
+-[CalStoreRemoteManagedObject dealloc]
++[CalStoreRemoteManagedObject fetchObjectWithObjectId:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___55+[CalStoreRemoteManagedObject fetchObjectWithObjectId:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CalStoreRemoteManagedObject fetchObjectWithUID:]
+___50+[CalStoreRemoteManagedObject fetchObjectWithUID:]_block_invoke
+___copy_helper_block_20
+___destroy_helper_block_21
++[CalStoreRemoteManagedObject fetchObjectsWithPredicate:]
+-[CalStoreRemoteManagedObject removeWithError:]
+-[CalStoreRemoteManagedObject saveWithError:]
+-[CalStoreRemoteManagedObject encodeWithCoder:]
++[CalStoreRemoteManagedObject supportsSecureCoding]
+-[CalStoreRemoteManagedObject objectId]
+-[CalStoreRemoteManagedObject setObjectId:]
+-[CalAgentLinkQueueStatusOperation setRunningQueueFound:]
+-[CalAgentLinkUserNotificationOperation init]
+-[CalAgentLinkUserNotificationOperation setAction:]
+-[CalAgentLinkUserNotificationOperation setUpdatedPreferenceValue:]
++[CalStoreRemoteManagedLocalCalendar fetchObjectsWithPredicate:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___64+[CalStoreRemoteManagedLocalCalendar fetchObjectsWithPredicate:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedLocalCalendar isLocal]
++[CalStoreRemoteManagedLocalCalendar localCalendarsGroupTitle]
++[CalStoreRemoteManagedLocalCalendar supportsSecureCoding]
+-[CalStoreRemoteObject secureCodingCompliantDateFromDate:]
+-[CalStoreRemoteObject initWithCoder:]
+-[CalStoreRemoteObject encodeWithCoder:]
++[CalStoreRemoteObject supportsSecureCoding]
+-[CalStoreRemoteManagedExchangePrincipal initWithCoder:]
+-[CalStoreRemoteManagedExchangePrincipal dealloc]
+-[CalStoreRemoteManagedExchangePrincipal encodeWithCoder:]
++[CalStoreRemoteManagedExchangePrincipal supportsSecureCoding]
+-[CalStoreRemoteManagedExchangePrincipal mailbox]
+-[CalStoreRemoteManagedExchangePrincipal setMailbox:]
+-[CalStoreRemoteManagedExchangePrincipal rootFolderID]
+-[CalStoreRemoteManagedExchangePrincipal setRootFolderID:]
+-[CalStoreRemoteManagedGroup calendars]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___39-[CalStoreRemoteManagedGroup calendars]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CalStoreRemoteManagedGroup compare:]
+-[CalStoreRemoteManagedGroup removeWithError:]
+___46-[CalStoreRemoteManagedGroup removeWithError:]_block_invoke
+___copy_helper_block_27
+___destroy_helper_block_28
+-[CalStoreRemoteManagedGroup saveWithError:]
+___44-[CalStoreRemoteManagedGroup saveWithError:]_block_invoke
+___copy_helper_block_34
+___destroy_helper_block_35
++[CalStoreRemoteManagedGroup supportsSecureCoding]
+___CalStoreLogActual_block_invoke
++[CalendarFoundationWrapper initialize]
++[CalendarFoundationWrapper calendarFoundationLoaded]
++[CalendarFoundationWrapper descriptionForKeyValues:]
+___53+[CalendarFoundationWrapper descriptionForKeyValues:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CalendarFoundationWrapper logMessageTracer:domain:summarize:]
++[CalendarFoundationWrapper setCalendarFoundationLoaded:]
+-[CalStoreRemoteManagedAttachment initWithCoder:]
+-[CalStoreRemoteManagedAttachment dealloc]
+-[CalStoreRemoteManagedAttachment encodeWithCoder:]
++[CalStoreRemoteManagedAttachment supportsSecureCoding]
+-[CalStoreRemoteManagedAttachment fileURL]
+-[CalStoreRemoteManagedAttachment setFileURL:]
+-[CalStoreRemoteCALWeekDayNumber initWithCoder:]
+-[CalStoreRemoteCALWeekDayNumber encodeWithCoder:]
++[CalStoreRemoteCALWeekDayNumber supportsSecureCoding]
+-[CalStoreRemoteCALWeekDayNumber day]
+-[CalStoreRemoteCALWeekDayNumber setDay:]
+-[CalStoreRemoteCALWeekDayNumber number]
+-[CalStoreRemoteCALWeekDayNumber setNumber:]
+-[CalStoreRemoteManagedCalDAVPrincipal initWithCoder:]
+-[CalStoreRemoteManagedCalDAVPrincipal dealloc]
+-[CalStoreRemoteManagedCalDAVPrincipal encodeWithCoder:]
++[CalStoreRemoteManagedCalDAVPrincipal supportsSecureCoding]
+-[CalStoreRemoteManagedCalDAVPrincipal principalPath]
+-[CalStoreRemoteManagedCalDAVPrincipal setPrincipalPath:]
+-[CalStoreRemoteManagedCalDAVPrincipal principalURL]
+-[CalStoreRemoteManagedCalDAVPrincipal setPrincipalURL:]
+-[CalStoreRemoteManagedCalDAVCalendar initWithCoder:]
+-[CalStoreRemoteManagedCalDAVCalendar dealloc]
+-[CalStoreRemoteManagedCalDAVCalendar encodeWithCoder:]
++[CalStoreRemoteManagedCalDAVCalendar supportsSecureCoding]
+-[CalStoreRemoteManagedCalDAVCalendar isDelegate]
+-[CalStoreRemoteManagedCalDAVCalendar setIsDelegate:]
+-[CalAgentLinkScanDropboxOperation dealloc]
+-[CalAgentLinkScanDropboxOperation description]
+-[CalAgentLinkScanDropboxOperation inputPayload]
+-[CalAgentLinkScanDropboxOperation objectID]
+-[CalAgentLinkScanDropboxOperation setObjectID:]
++[CalAgentLink initialize]
+-[CalAgentLink init]
+-[CalAgentLink initWithMachServiceName:exportedObject:]
+___55-[CalAgentLink initWithMachServiceName:exportedObject:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CalAgentLink sharedInstances]
++[CalAgentLink sharedInstanceWithMachServiceName:]
++[CalAgentLink startWithMachServiceName:exportedObject:]
+-[CalAgentLink dealloc]
++[CalAgentLink broadcastToOtherClients:]
++[CalAgentLink broadcastToOtherClients:withObject:]
++[CalAgentLink remoteObjectForMachServiceName:]
++[CalAgentLink remoteObjectForMachServiceName:errorBlock:]
+-[CalAgentLink setExportedObject:]
++[CalAgentLink store]
++[CalAgentLink storeWithErrorBlock:]
++[CalAgentLink _broadcastToOtherClients:objects:]
+-[CalAgentLink _handleCalAgentAliveNotification]
++[CalAgentLink _registerLightweightClientWithMachServiceName:]
+-[CalAgentLink _remoteObject]
+-[CalAgentLink _remoteObjectWithErrorBlock:]
+___44-[CalAgentLink _remoteObjectWithErrorBlock:]_block_invoke
+___copy_helper_block_155
+___destroy_helper_block_156
++[CalAgentLink _removeAgentLink:]
++[CalAgentLink _tearDownAgentLink:]
+-[CalAgentLink connection]
+-[CalAgentLink setConnection:]
+-[CalAgentLink machServiceName]
+-[CalAgentLink setMachServiceName:]
+-[CalStoreRemoteManagedTask initWithCoder:]
+-[CalStoreRemoteManagedTask dealloc]
++[CalStoreRemoteManagedTask fetchObjectsWithPredicate:inCalendars:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___67+[CalStoreRemoteManagedTask fetchObjectsWithPredicate:inCalendars:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[CalStoreRemoteManagedTask fetchObjectsWithSharedUID:]
+___55+[CalStoreRemoteManagedTask fetchObjectsWithSharedUID:]_block_invoke
+___copy_helper_block_26
+___destroy_helper_block_27
+-[CalStoreRemoteManagedTask removeWithError:]
+___45-[CalStoreRemoteManagedTask removeWithError:]_block_invoke
+___copy_helper_block_32
+___destroy_helper_block_33
+-[CalStoreRemoteManagedTask saveWithError:]
+___43-[CalStoreRemoteManagedTask saveWithError:]_block_invoke
+___copy_helper_block_39
+___destroy_helper_block_40
+-[CalStoreRemoteManagedTask encodeWithCoder:]
++[CalStoreRemoteManagedTask supportsSecureCoding]
+-[CalStoreRemoteManagedTask completedDate]
+-[CalStoreRemoteManagedTask setCompletedDate:]
+-[CalStoreRemoteManagedTask dueDate]
+-[CalStoreRemoteManagedTask setDueDate:]
+-[CalStoreRemoteManagedTask priority]
+-[CalStoreRemoteManagedTask setPriority:]
+-[CalAgentLightweightClient calDavSharedUIDChanged:]
+-[CalAgentLightweightClient calPersistanceNotification:userInfo:]
+-[CalAgentLightweightClient sessionConnectedStateChanged:state:]
+-[CalAgentLightweightClient calMeCardChanged]
+GCC_except_table2
+GCC_except_table2
+GCC_except_table4
+GCC_except_table5
+GCC_except_table9
+GCC_except_table18
+GCC_except_table34
+GCC_except_table35
+GCC_except_table2
+GCC_except_table4
+GCC_except_table10
+GCC_except_table15
+GCC_except_table19
+GCC_except_table0
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table14
+GCC_except_table19
+GCC_except_table20
+GCC_except_table2
+GCC_except_table5
+GCC_except_table2
+GCC_except_table3
+GCC_except_table9
+GCC_except_table13
+GCC_except_table18
+GCC_except_table23
+GCC_except_table2
+GCC_except_table8
+GCC_except_table0
+GCC_except_table0
+GCC_except_table7
+GCC_except_table11
+GCC_except_table0
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table28
+GCC_except_table2
+GCC_except_table8
+GCC_except_table12
+GCC_except_table16
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp39
+___block_descriptor_tmp78
+___block_literal_global79
+___block_descriptor_tmp134
+___block_descriptor_tmp171
+___block_descriptor_tmp180
+___block_descriptor_tmp187
+___block_literal_global188
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp58
+___block_descriptor_tmp65
+___block_descriptor_tmp72
+___block_descriptor_tmp
+___block_descriptor_tmp120
+___block_descriptor_tmp132
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp17
+___block_descriptor_tmp
+___block_descriptor_tmp49
+___block_descriptor_tmp55
+___block_descriptor_tmp64
+___block_descriptor_tmp73
+___block_descriptor_tmp
+___block_descriptor_tmp23
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp31
+___block_descriptor_tmp38
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp70
+___block_descriptor_tmp
+___block_descriptor_tmp159
+___block_descriptor_tmp
+___block_descriptor_tmp29
+___block_descriptor_tmp36
+___block_descriptor_tmp43
+_OBJC_IVAR_$_CalAgentLinkLaunchExternalSyncOperation._launchArguments
+_OBJC_IVAR_$_CalAgentLinkLaunchExternalSyncOperation._delay
+_OBJC_IVAR_$_CalAgentLinkCalDAVQueueOperation._queueAction
+_OBJC_IVAR_$_CalAgentLinkCalDAVQueueOperation._changeRequestManagedObjectID
+_OBJC_IVAR_$_CalAgentLinkCalDAVQueueOperation._principalManagedObjectID
+_OBJC_IVAR_$_CalAgentLinkExchangeQueueOperation._queueAction
+_OBJC_IVAR_$_CalAgentLinkExchangeQueueOperation._persistentOperationManagedObjectID
+_OBJC_IVAR_$_CalAgentLinkExchangeQueueOperation._principalManagedObjectID
+_OBJC_IVAR_$_CalAgentLinkUpdateSubscriptionAuthInfoOperation._nodeObjectID
+_OBJC_IVAR_$_CalAgentLinkUpdateSubscriptionAuthInfoOperation._user
+_OBJC_IVAR_$_CalAgentLinkUpdateSubscriptionAuthInfoOperation._password
+_OBJC_IVAR_$_CalAgentLinkOperation._isExecuting
+_OBJC_IVAR_$_CalAgentLinkOperation._isCancelled
+_OBJC_IVAR_$_CalAgentLinkOperation._isFinished
+_OBJC_IVAR_$_CalAgentLinkOperation._isAllowedToBeRunOnAgent
+_OBJC_IVAR_$_CalAgentLinkOperation._timeout
+_OBJC_IVAR_$_CalAgentLinkOperation._completionBlock
+_OBJC_IVAR_$_CalAgentLinkOperation._error
+_OBJC_IVAR_$_CalAgentLinkOperation._stopwatch
+_OBJC_IVAR_$_CalAgentLinkOperation._connection
+_OBJC_IVAR_$_CalAgentLinkOperation._messageQueue
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._isPendingRetry
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._retryCounter
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._maxRetries
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._isRunning
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._className
+_OBJC_IVAR_$_CalAgentLinkQueueDebugOperationItem._readableDescription
+_OBJC_IVAR_$_CalAgentLinkAcceptCertificatesTemporarilyOperation._url
+_OBJC_IVAR_$_CalAgentLinkAcceptCertificatesTemporarilyOperation._nodeObjectID
+_OBJC_IVAR_$_CalAgentLinkAcceptCertificatesTemporarilyOperation._certificates
+_OBJC_IVAR_$_CalAgentLinkQueueStatusOperation._runningQueueFound
+_OBJC_IVAR_$_CalAgentLinkUserNotificationOperation._action
+_OBJC_IVAR_$_CalAgentLinkUserNotificationOperation._objectIDs
+_OBJC_IVAR_$_CalAgentLinkUserNotificationOperation._updatedPreferenceValue
+_OBJC_IVAR_$_CalAgentLinkScanDropboxOperation._objectID
++[CalAgentLinkConnection sharedInstance].sharedInstance
++[CalAgentLinkConnection sharedInstance].onceToken
+-[CalAgentLinkOperation init].onceToken
+_CalAgentLinkOperation_PreparationQueue
+_CalAgentLinkOperation_MessageRepliesQueue
+___agentIsDisabled
+-[CalAgentLinkOperation eligibleForExecution].processName
+-[CalAgentLinkOperation eligibleForExecution].onceToken
+__sharedInstances
+-[CalAgentLinkOneWayOperation init].onceToken
+_CalAgentLinkOneWayOperation_Semaphore
+_timedOutLastTime
+_CalStoreLogActual.processName
+_CalStoreLogActual.processID
+_CalStoreLogActual.onceToken
+__calendarFoundationLoaded
+__sharedInstances
+_BoolToString
+_CalAgentAliveNotification
+_CalAgentLinkAcceptCertificatesTemporarilyOperation_MessageKey_Certificates
+_CalAgentLinkAcceptCertificatesTemporarilyOperation_MessageKey_NodeObjectID
+_CalAgentLinkAcceptCertificatesTemporarilyOperation_MessageKey_URL
+_CalAgentLinkCalDAVQueueOperation_Action_RemoveAndRevertOperation
+_CalAgentLinkCalDAVQueueOperation_Action_RemoveOperation
+_CalAgentLinkCalDAVQueueOperation_Action_RemoveOperationAndRefresh
+_CalAgentLinkCalDAVQueueOperation_Action_TryOperationAgain
+_CalAgentLinkCalDAVQueueOperation_MessageKey_ChangeRequestManagedObjectID
+_CalAgentLinkCalDAVQueueOperation_MessageKey_PrincipalManagedObjectID
+_CalAgentLinkCalDAVQueueOperation_MessageKey_QueueAction
+_CalAgentLinkErrorDomain
+_CalAgentLinkExchangeQueueOperation_Action_RemoveOperation
+_CalAgentLinkExchangeQueueOperation_Action_RevertOperation
+_CalAgentLinkExchangeQueueOperation_Action_Run
+_CalAgentLinkExchangeQueueOperation_Action_Synchronize
+_CalAgentLinkExchangeQueueOperation_MessageKey_PersistentOperationManagedObjectID
+_CalAgentLinkExchangeQueueOperation_MessageKey_PrincipalManagedObjectID
+_CalAgentLinkExchangeQueueOperation_MessageKey_QueueAction
+_CalAgentLinkLaunchExternalSyncOperation_MessageKey_Delay
+_CalAgentLinkLaunchExternalSyncOperation_MessageKey_LaunchArguments
+_CalAgentLinkNS_DBMachServiceName
+_CalAgentLinkNS_DaemonFlagKey
+_CalAgentLinkNS_Log
+_CalAgentLinkNS_LogXPC
+_CalAgentLinkNS_MachServiceName
+_CalAgentLinkNS_ProxyMachServiceName
+_CalAgentLinkNS_Queue_MessageReplies
+_CalAgentLinkNS_Queue_Preparation
+_CalAgentLinkNS_SeviceNameKey
+_CalAgentLinkNS_StoreMachServiceName
+_CalAgentLinkQueueStatusOperation_MessageKey_RunningQueueFound
+_CalAgentLinkUpdateScanDropboxOperation_MessageKey_ObjectID
+_CalAgentLinkUpdateSubscriptionAuthInfoOperation_MessageKey_NodeObjectID
+_CalAgentLinkUpdateSubscriptionAuthInfoOperation_MessageKey_Password
+_CalAgentLinkUpdateSubscriptionAuthInfoOperation_MessageKey_User
+_CalAgentLinkUserNotificationOperation_Action_DeleteAlarms
+_CalAgentLinkUserNotificationOperation_Action_DeleteMessages
+_CalAgentLinkUserNotificationOperation_Action_DeliverMessages
+_CalAgentLinkUserNotificationOperation_Action_FindAndScheduleAlarms
+_CalAgentLinkUserNotificationOperation_Action_InvitationNotificationsDisabledChanged
+_CalAgentLinkUserNotificationOperation_Action_ResolveBookmarks
+_CalAgentLinkUserNotificationOperation_Action_ScheduleAlarms
+_CalAgentLinkUserNotificationOperation_Action_SharedCalendarNotificationsDisabledChanged
+_CalAgentLinkUserNotificationOperation_Action_StartRemindersNotificationCenterWidget
+_CalAgentLinkUserNotificationOperation_MessageKey_Action
+_CalAgentLinkUserNotificationOperation_MessageKey_ObjectIDs
+_CalAgentLinkUserNotificationOperation_MessageKey_UpdatedPreferenceValue
+_CalByDayKey
+_CalByMonthDayKey
+_CalByMonthKey
+_CalCountKey
+_CalIntervalKey
+_CalIsInfiniteKey
+_CalStoreAPI_NS_Log
+_CalStoreGroupTypeCalDAV
+_CalStoreGroupTypeExchange
+_CalStoreGroupTypeIMAP
+_CalStoreGroupTypeLocal
+_CalStoreGroupTypeSubscription
+_CalStoreLocalToGroupMigrationErrorDomain
+_CalStoreLogActual
+_CalStoreLogCurrentLevel
+_CalUntilDateKey
+_CalendarStoreXPCErrorDetailsKey
+_CalendarStoreXPCErrorDomain
+_IntegerToString
+_OBJC_CLASS_$_CalAgentLightweightClient
+_OBJC_CLASS_$_CalAgentLink
+_OBJC_CLASS_$_CalAgentLinkAcceptCertificatesTemporarilyOperation
+_OBJC_CLASS_$_CalAgentLinkCalDAVQueueOperation
+_OBJC_CLASS_$_CalAgentLinkConnection
+_OBJC_CLASS_$_CalAgentLinkExchangeQueueOperation
+_OBJC_CLASS_$_CalAgentLinkLaunchExternalSyncOperation
+_OBJC_CLASS_$_CalAgentLinkOneWayOperation
+_OBJC_CLASS_$_CalAgentLinkOperation
+_OBJC_CLASS_$_CalAgentLinkProcessChangeRequestsOperation
+_OBJC_CLASS_$_CalAgentLinkQueueDebugOperationItem
+_OBJC_CLASS_$_CalAgentLinkQueueStatusOperation
+_OBJC_CLASS_$_CalAgentLinkRequestCalendarPublishOperation
+_OBJC_CLASS_$_CalAgentLinkScanDropboxOperation
+_OBJC_CLASS_$_CalAgentLinkUpdateSubscriptionAuthInfoOperation
+_OBJC_CLASS_$_CalAgentLinkUserNotificationOperation
+_OBJC_CLASS_$_CalClientLink
+_OBJC_CLASS_$_CalLink
+_OBJC_CLASS_$_CalStoreRemoteCALDailyRecurrence
+_OBJC_CLASS_$_CalStoreRemoteCALMonthlyRecurrence
+_OBJC_CLASS_$_CalStoreRemoteCALWeekDayNumber
+_OBJC_CLASS_$_CalStoreRemoteCALWeeklyRecurrence
+_OBJC_CLASS_$_CalStoreRemoteCALYearlyRecurrence
+_OBJC_CLASS_$_CalStoreRemoteCoreRecurrenceRule
+_OBJC_CLASS_$_CalStoreRemoteManagedAccount
+_OBJC_CLASS_$_CalStoreRemoteManagedAlarm
+_OBJC_CLASS_$_CalStoreRemoteManagedAttachment
+_OBJC_CLASS_$_CalStoreRemoteManagedAttendee
+_OBJC_CLASS_$_CalStoreRemoteManagedCalDAVAccount
+_OBJC_CLASS_$_CalStoreRemoteManagedCalDAVCalendar
+_OBJC_CLASS_$_CalStoreRemoteManagedCalDAVPrincipal
+_OBJC_CLASS_$_CalStoreRemoteManagedCalendar
+_OBJC_CLASS_$_CalStoreRemoteManagedCalendarItem
+_OBJC_CLASS_$_CalStoreRemoteManagedEvent
+_OBJC_CLASS_$_CalStoreRemoteManagedExchangeAccount
+_OBJC_CLASS_$_CalStoreRemoteManagedExchangePrincipal
+_OBJC_CLASS_$_CalStoreRemoteManagedGroup
+_OBJC_CLASS_$_CalStoreRemoteManagedLocalCalendar
+_OBJC_CLASS_$_CalStoreRemoteManagedMigrationGroup
+_OBJC_CLASS_$_CalStoreRemoteManagedNode
+_OBJC_CLASS_$_CalStoreRemoteManagedObject
+_OBJC_CLASS_$_CalStoreRemoteManagedPrincipal
+_OBJC_CLASS_$_CalStoreRemoteManagedRecurrenceException
+_OBJC_CLASS_$_CalStoreRemoteManagedTask
+_OBJC_CLASS_$_CalStoreRemoteObject
+_OBJC_CLASS_$_CalendarFoundationWrapper
+_OBJC_IVAR_$_CalAgentLink._connection
+_OBJC_IVAR_$_CalAgentLink._machServiceName
+_OBJC_IVAR_$_CalAgentLinkConnection._connection
+_OBJC_IVAR_$_CalAgentLinkConnection._operations
+_OBJC_IVAR_$_CalAgentLinkOneWayOperation._semaphoreDecremented
+_OBJC_IVAR_$_CalClientLink._clients
+_OBJC_IVAR_$_CalClientLink._exportedObject
+_OBJC_IVAR_$_CalClientLink._exportedProtocol
+_OBJC_IVAR_$_CalClientLink._listener
+_OBJC_IVAR_$_CalClientLink._machServiceName
+_OBJC_IVAR_$_CalStoreRemoteCALWeekDayNumber._day
+_OBJC_IVAR_$_CalStoreRemoteCALWeekDayNumber._number
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._byDay
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._byMonth
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._byMonthDay
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._count
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._interval
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._isInfinite
+_OBJC_IVAR_$_CalStoreRemoteCoreRecurrenceRule._untilDate
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._acAccountID
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._accountPluginID
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._isEnabledForCalendar
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._isEnabledForReminders
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._isMarkedForDeletion
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._login
+_OBJC_IVAR_$_CalStoreRemoteManagedAccount._serverURL
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._absoluteTrigger
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._acknowledged
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._action
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._emailAddress
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._order
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._relatedTo
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._relativeTrigger
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._sound
+_OBJC_IVAR_$_CalStoreRemoteManagedAlarm._url
+_OBJC_IVAR_$_CalStoreRemoteManagedAttachment._fileURL
+_OBJC_IVAR_$_CalStoreRemoteManagedAttendee._address
+_OBJC_IVAR_$_CalStoreRemoteManagedAttendee._commonName
+_OBJC_IVAR_$_CalStoreRemoteManagedAttendee._status
+_OBJC_IVAR_$_CalStoreRemoteManagedAttendee._type
+_OBJC_IVAR_$_CalStoreRemoteManagedCalDAVAccount._useKerberos
+_OBJC_IVAR_$_CalStoreRemoteManagedCalDAVCalendar._isDelegate
+_OBJC_IVAR_$_CalStoreRemoteManagedCalDAVPrincipal._principalPath
+_OBJC_IVAR_$_CalStoreRemoteManagedCalDAVPrincipal._principalURL
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendar._group
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendar._isEventContainer
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendar._isTaskContainer
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendar._shouldShowInPrimaryAccounts
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._attachments
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._calendar
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._dateStamp
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._derivedAlarms
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._isAllDay
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._notes
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._occurrenceID
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._recurrenceRule
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._sharedUID
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._startDate
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._timeZone
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._title
+_OBJC_IVAR_$_CalStoreRemoteManagedCalendarItem._url
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._attendees
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._endDate
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._hasAttendee
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._location
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._masterException
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._needsReply
+_OBJC_IVAR_$_CalStoreRemoteManagedEvent._occurrence
+_OBJC_IVAR_$_CalStoreRemoteManagedExchangeAccount._externalURL
+_OBJC_IVAR_$_CalStoreRemoteManagedExchangeAccount._internalWebServicesURL
+_OBJC_IVAR_$_CalStoreRemoteManagedExchangeAccount._password
+_OBJC_IVAR_$_CalStoreRemoteManagedExchangePrincipal._mailbox
+_OBJC_IVAR_$_CalStoreRemoteManagedExchangePrincipal._rootFolderID
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._color
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._isWritable
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._notes
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._objectURI
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._order
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._title
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._type
+_OBJC_IVAR_$_CalStoreRemoteManagedNode._uid
+_OBJC_IVAR_$_CalStoreRemoteManagedObject._objectId
+_OBJC_IVAR_$_CalStoreRemoteManagedPrincipal._account
+_OBJC_IVAR_$_CalStoreRemoteManagedPrincipal._fullName
+_OBJC_IVAR_$_CalStoreRemoteManagedPrincipal._isDelegate
+_OBJC_IVAR_$_CalStoreRemoteManagedPrincipal._isManuallyConfigured
+_OBJC_IVAR_$_CalStoreRemoteManagedPrincipal._migrationGroup
+_OBJC_IVAR_$_CalStoreRemoteManagedRecurrenceException._date
+_OBJC_IVAR_$_CalStoreRemoteManagedTask._completedDate
+_OBJC_IVAR_$_CalStoreRemoteManagedTask._dueDate
+_OBJC_IVAR_$_CalStoreRemoteManagedTask._priority
+_OBJC_METACLASS_$_CalAgentLightweightClient
+_OBJC_METACLASS_$_CalAgentLink
+_OBJC_METACLASS_$_CalAgentLinkAcceptCertificatesTemporarilyOperation
+_OBJC_METACLASS_$_CalAgentLinkCalDAVQueueOperation
+_OBJC_METACLASS_$_CalAgentLinkConnection
+_OBJC_METACLASS_$_CalAgentLinkExchangeQueueOperation
+_OBJC_METACLASS_$_CalAgentLinkLaunchExternalSyncOperation
+_OBJC_METACLASS_$_CalAgentLinkOneWayOperation
+_OBJC_METACLASS_$_CalAgentLinkOperation
+_OBJC_METACLASS_$_CalAgentLinkProcessChangeRequestsOperation
+_OBJC_METACLASS_$_CalAgentLinkQueueDebugOperationItem
+_OBJC_METACLASS_$_CalAgentLinkQueueStatusOperation
+_OBJC_METACLASS_$_CalAgentLinkRequestCalendarPublishOperation
+_OBJC_METACLASS_$_CalAgentLinkScanDropboxOperation
+_OBJC_METACLASS_$_CalAgentLinkUpdateSubscriptionAuthInfoOperation
+_OBJC_METACLASS_$_CalAgentLinkUserNotificationOperation
+_OBJC_METACLASS_$_CalClientLink
+_OBJC_METACLASS_$_CalLink
+_OBJC_METACLASS_$_CalStoreRemoteCALDailyRecurrence
+_OBJC_METACLASS_$_CalStoreRemoteCALMonthlyRecurrence
+_OBJC_METACLASS_$_CalStoreRemoteCALWeekDayNumber
+_OBJC_METACLASS_$_CalStoreRemoteCALWeeklyRecurrence
+_OBJC_METACLASS_$_CalStoreRemoteCALYearlyRecurrence
+_OBJC_METACLASS_$_CalStoreRemoteCoreRecurrenceRule
+_OBJC_METACLASS_$_CalStoreRemoteManagedAccount
+_OBJC_METACLASS_$_CalStoreRemoteManagedAlarm
+_OBJC_METACLASS_$_CalStoreRemoteManagedAttachment
+_OBJC_METACLASS_$_CalStoreRemoteManagedAttendee
+_OBJC_METACLASS_$_CalStoreRemoteManagedCalDAVAccount
+_OBJC_METACLASS_$_CalStoreRemoteManagedCalDAVCalendar
+_OBJC_METACLASS_$_CalStoreRemoteManagedCalDAVPrincipal
+_OBJC_METACLASS_$_CalStoreRemoteManagedCalendar
+_OBJC_METACLASS_$_CalStoreRemoteManagedCalendarItem
+_OBJC_METACLASS_$_CalStoreRemoteManagedEvent
+_OBJC_METACLASS_$_CalStoreRemoteManagedExchangeAccount
+_OBJC_METACLASS_$_CalStoreRemoteManagedExchangePrincipal
+_OBJC_METACLASS_$_CalStoreRemoteManagedGroup
+_OBJC_METACLASS_$_CalStoreRemoteManagedLocalCalendar
+_OBJC_METACLASS_$_CalStoreRemoteManagedMigrationGroup
+_OBJC_METACLASS_$_CalStoreRemoteManagedNode
+_OBJC_METACLASS_$_CalStoreRemoteManagedObject
+_OBJC_METACLASS_$_CalStoreRemoteManagedPrincipal
+_OBJC_METACLASS_$_CalStoreRemoteManagedRecurrenceException
+_OBJC_METACLASS_$_CalStoreRemoteManagedTask
+_OBJC_METACLASS_$_CalStoreRemoteObject
+_OBJC_METACLASS_$_CalendarFoundationWrapper
+_PointerToString
+__scrubbedArrayFrom
+__scrubbedDictionaryFrom
+_errorForXPCTransport
+_getStringUUID
+_protocolForMachServiceName
+_setupXPCWhitelistForCalendarAgentInterface
+_setupXPCWhitelistForCalendarStoreInterface
+_setupXPCWhitelistForInterface
+_CFAbsoluteTimeGetCurrent
+_CFMakeCollectable
+_CFRelease
+_CFUUIDCreate
+_CFUUIDCreateString
+_NSCalibratedRGBColorSpace
+_NSClassFromString
+_NSStringFromClass
+_NSStringFromSelector
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCalendarDate
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSCompoundPredicate
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSGarbageCollector
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_CLASS_$_NSXPCListener
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OSAtomicCompareAndSwapInt
+__Block_object_assign
+__Block_object_dispose
+__CFXPCCreateCFObjectFromXPCObject
+__CFXPCCreateXPCObjectFromCFObject
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_queue_attr_concurrent
+__objc_empty_cache
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_key_description
+__xpc_type_dictionary
+__xpc_type_error
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_retain
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+_getpid
+_kCFAllocatorDefault
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_sync_enter
+_objc_sync_exit
+_proc_name
+_pthread_mach_thread_np
+_pthread_self
+_xpc_connection_create_mach_service
+_xpc_connection_resume
+_xpc_connection_send_message_with_reply
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_get_string
+_xpc_dictionary_get_value
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_release
+dyld_stub_binder

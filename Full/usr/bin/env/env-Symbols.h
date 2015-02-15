@@ -1,0 +1,15 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+_environ
+_err
+_execvp
+_exit
+_fwrite
+_getopt
+_optind
+_putenv
+_puts
+_strchr
+dyld_stub_binder

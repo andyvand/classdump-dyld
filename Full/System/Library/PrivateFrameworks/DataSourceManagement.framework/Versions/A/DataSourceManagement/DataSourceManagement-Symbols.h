@@ -1,0 +1,297 @@
+-[DSMMode initWithName:andDescription:andDataStreamDescriptionDictionary:andDataSourceManager:]
+-[DSMMode modeName]
+-[DSMMode detailedModeDescription]
+-[DSMMode parentDSM]
+-[DSMMode supportedStreams]
+-[DSMMode .cxx_destruct]
+-[DSMDataStreamDescription initWithStreamName:andDetailedDescription:andStreamType:andUsesKernelTracing:andMetaDataDescriptions:]
+-[DSMDataStreamDescription encodeWithCoder:]
+-[DSMDataStreamDescription initWithCoder:]
+-[DSMDataStreamDescription streamName]
+-[DSMDataStreamDescription detailedDescription]
+-[DSMDataStreamDescription streamType]
+-[DSMDataStreamDescription usesKernelTracing]
+-[DSMDataStreamDescription metaDataDescriptions]
+-[DSMDataStreamDescription .cxx_destruct]
+-[DSMDataStreamMetaDataDescription initWithName:andDetailedDescription:andMetaDataType:]
+-[DSMDataStreamMetaDataDescription encodeWithCoder:]
+-[DSMDataStreamMetaDataDescription initWithCoder:]
+-[DSMDataStreamMetaDataDescription name]
+-[DSMDataStreamMetaDataDescription detailedDescription]
+-[DSMDataStreamMetaDataDescription metaDataType]
+-[DSMDataStreamMetaDataDescription .cxx_destruct]
+__newDataStreamElementFromDataElement
+-[DSMBasicDataStreamEvent wallclockTime]
+-[DSMBasicDataStreamEvent durationInNs]
+-[DSMBasicDataStreamEvent value]
+-[DSMBasicDataStreamEvent initWithMachAbsoluteTimestampInNs:andWallclockTime:andMetaDataArray:]
+-[DSMBasicDataStreamEvent dataType]
+-[DSMBasicDataStreamEvent encodeWithCoder:]
+-[DSMBasicDataStreamEvent initWithCoder:]
+-[DSMBasicDataStreamEvent machAbsoluteTimestampInNs]
+-[DSMBasicDataStreamEvent metaDataArray]
+-[DSMBasicDataStreamEvent .cxx_destruct]
+-[DSMBasicDataStreamValue initWithMachAbsoluteTimestampInNs:andWallclockTime:andMetaDataArray:andValue:]
+-[DSMBasicDataStreamValue dataType]
+-[DSMBasicDataStreamValue encodeWithCoder:]
+-[DSMBasicDataStreamValue initWithCoder:]
+-[DSMBasicDataStreamValue value]
+-[DSMBasicDataStreamInterval initWithStartMachAbsoluteTimestampInNs:andWallclockTime:andMetaDataArray:andDurationInNs:]
+-[DSMBasicDataStreamInterval dataType]
+-[DSMBasicDataStreamInterval encodeWithCoder:]
+-[DSMBasicDataStreamInterval initWithCoder:]
+-[DSMBasicDataStreamInterval durationInNs]
+-[DSMBasicDataStreamValueInterval initWithStartMachAbsoluteTimestampInNs:andWallclockTime:andMetaDataArray:andDurationInNs:andValue:]
+-[DSMBasicDataStreamValueInterval dataType]
+-[DSMBasicDataStreamValueInterval encodeWithCoder:]
+-[DSMBasicDataStreamValueInterval initWithCoder:]
+-[DSMBasicDataStreamValueInterval durationInNs]
+-[DSMBasicDataStreamValueInterval value]
+-[DSMBasicDataStream initWithDataStreamDescription:andDataStreamType:]
+-[DSMBasicDataStream _initWithDataStream:]
+-[DSMBasicDataStream addStreamDataElement:]
+___43-[DSMBasicDataStream addStreamDataElement:]_block_invoke
+-[DSMBasicDataStream encodeWithCoder:]
+-[DSMBasicDataStream initWithCoder:]
+-[DSMBasicDataStream dataStreamDescription]
+-[DSMBasicDataStream dataStreamElements]
+-[DSMBasicDataStream dataStreamType]
+-[DSMBasicDataStream .cxx_destruct]
+-[DSMFileSystemIO initWithTracePoint:]
+-[DSMFileSystemIO netIOSizeInBytes]
+-[DSMFileSystemIO valueIntervalFromIO]
+-[DSMFileSystemIO endWithTracePoint:]
+-[DSMFileSystemIO blockPointer]
+-[DSMFileSystemIO device]
+-[DSMFileSystemIO blockNumber]
+-[DSMFileSystemIO requestedIOSizeInBytes]
+-[DSMFileSystemIO residentSizeInBytes]
+-[DSMFileSystemIO debugId]
+-[DSMFileSystemIO startTimeInMachAbsoluteTime]
+-[DSMFileSystemIO endTimeInMachAbsoluteTime]
+-[DSMFileSystemIO vnodeId]
+-[DSMFileSystemIO ioErrno]
+-[DSMFileSystemIO processName]
+-[DSMFileSystemIO path]
+-[DSMFileSystemIO setPath:]
+-[DSMFileSystemIO hasReceivedEndTracePoint]
+-[DSMFileSystemIO .cxx_destruct]
+-[VnodeInfo initWithVnodeID:andStartingPath:]
+-[VnodeInfo vnodeId]
+-[VnodeInfo path]
+-[VnodeInfo setPath:]
+-[VnodeInfo .cxx_destruct]
++[DSMFileSystemIOManager sharedInstance]
+___40+[DSMFileSystemIOManager sharedInstance]_block_invoke
++[DSMFileSystemIOManager _metaDataDescriptionArray]
+___51+[DSMFileSystemIOManager _metaDataDescriptionArray]_block_invoke
+-[DSMFileSystemIOManager dataSourceName]
+-[DSMFileSystemIOManager detailedDescription]
+-[DSMFileSystemIOManager supportedModes]
+-[DSMFileSystemIOManager selectDataStreamsByName:withDataManagerMode:]
+-[DSMFileSystemIOManager usesKernelTracingInMode:]
+-[DSMFileSystemIOManager dataGatheringWillStart]
+-[DSMFileSystemIOManager _accumulatePathSnippet:forThreadID:]
+-[DSMFileSystemIOManager _completeVnodeIdToPathMappingForThreadId:]
+-[DSMFileSystemIOManager _pathForVnodeId:]
+-[DSMFileSystemIOManager dataGatheringHasFinished]
+-[DSMFileSystemIOManager processingHasCompleted]
+-[DSMFileSystemIOManager getProcessedDataStreams]
+-[DSMFileSystemIOManager _blockForStartEventProcessing]
+___55-[DSMFileSystemIOManager _blockForStartEventProcessing]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DSMFileSystemIOManager _configureIOStartEventDataStream]
+-[DSMFileSystemIOManager _blockForIOValueIntervalProcessing]
+___60-[DSMFileSystemIOManager _blockForIOValueIntervalProcessing]_block_invoke
+___copy_helper_block_206
+___destroy_helper_block_207
+-[DSMFileSystemIOManager _blockForPathProcessing]
+___49-[DSMFileSystemIOManager _blockForPathProcessing]_block_invoke
+__pathSnippetForTracePoint
+___copy_helper_block_215
+___destroy_helper_block_216
+-[DSMFileSystemIOManager _configureIOValueIntervalDataStream]
+-[DSMFileSystemIOManager init]
+-[DSMFileSystemIOManager setMinimumPollingIntervalInNs:]
+-[DSMFileSystemIOManager .cxx_destruct]
+-[DataSourceManagerTestClient_Private listAllModes]
+-[DataSourceManagerTestClient_Private listAllDataStreamsForAllModes]
++[DataSourceManagerTestClient_Private printStreamDescription:withErrorArray:]
+__stringForStreamType
+__getUnknownStreamTypeError
+-[DataSourceManagerTestClient_Private listDataStreamsForModeWithName:]
+__getExpectedModeNotFoundError
+__getMissingDataStreamListForModeError
+-[DataSourceManagerTestClient_Private listDataStreamsForModesWithNames:]
++[DataSourceManagerTestClient_Private reportResultsForDataStream:]
+__getMetaDataTypeMismatchError
+-[DataSourceManagerTestClient_Private testAllModesAndAllDataStreams]
+-[DataSourceManagerTestClient_Private testAllDataStreamsForModeWithName:]
+-[DataSourceManagerTestClient_Private testModeWithName:andDataStreamWithName:]
+-[DataSourceManagerTestClient_Private testModeWithName:andDataStreamsWithNames:]
+___80-[DataSourceManagerTestClient_Private testModeWithName:andDataStreamsWithNames:]_block_invoke
+-[DataSourceManagerTestClient_Private initWithDataSourceManager:andKernelDataBufferSizeInMB:]
+-[DataSourceManagerTestClient_Private dsmToTest]
+-[DataSourceManagerTestClient_Private kernelDataBufferSizeInMB]
+-[DataSourceManagerTestClient_Private .cxx_destruct]
+__getErrorWithCodeAndString
+__getInvalidParameterError
+____getInvalidParameterError_block_invoke
+GCC_except_table34
+GCC_except_table35
+GCC_except_table36
+GCC_except_table50
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp140
+___block_literal_global141
+___block_descriptor_tmp191
+___block_descriptor_tmp208
+___block_descriptor_tmp217
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp221
+___block_literal_global222
+_OBJC_IVAR_$_DSMMode._modeName
+_OBJC_IVAR_$_DSMMode._detailedModeDescription
+_OBJC_IVAR_$_DSMMode._parentDSM
+_OBJC_IVAR_$_DSMMode._supportedStreams
+_OBJC_IVAR_$_DSMDataStreamDescription._streamName
+_OBJC_IVAR_$_DSMDataStreamDescription._detailedDescription
+_OBJC_IVAR_$_DSMDataStreamDescription._streamType
+_OBJC_IVAR_$_DSMDataStreamDescription._usesKernelTracing
+_OBJC_IVAR_$_DSMDataStreamDescription._metaDataDescriptions
+_OBJC_IVAR_$_DSMDataStreamMetaDataDescription._detailedDescription
+_OBJC_IVAR_$_DSMDataStreamMetaDataDescription._metaDataType
+_OBJC_IVAR_$_DSMDataStreamMetaDataDescription._name
+_OBJC_IVAR_$_DSMBasicDataStreamEvent._wallclockTime
+_OBJC_IVAR_$_DSMBasicDataStreamEvent._machAbsoluteTimestampInNs
+_OBJC_IVAR_$_DSMBasicDataStreamEvent._metaDataArray
+_OBJC_IVAR_$_DSMBasicDataStreamValue._value
+_OBJC_IVAR_$_DSMBasicDataStreamInterval._durationInNs
+_OBJC_IVAR_$_DSMBasicDataStreamValueInterval._durationInNs
+_OBJC_IVAR_$_DSMBasicDataStreamValueInterval._value
+_OBJC_IVAR_$_DSMBasicDataStream._dataStreamDescription
+_OBJC_IVAR_$_DSMBasicDataStream._dataStreamType
+_OBJC_IVAR_$_DSMBasicDataStream._dataStreamElements
+_OBJC_IVAR_$_DSMFileSystemIO._blockPointer
+_OBJC_IVAR_$_DSMFileSystemIO._device
+_OBJC_IVAR_$_DSMFileSystemIO._blockNumber
+_OBJC_IVAR_$_DSMFileSystemIO._requestedIOSizeInBytes
+_OBJC_IVAR_$_DSMFileSystemIO._startTimeInMachAbsoluteTime
+_OBJC_IVAR_$_DSMFileSystemIO._hasReceivedEndTracePoint
+_OBJC_IVAR_$_DSMFileSystemIO._debugId
+_OBJC_IVAR_$_DSMFileSystemIO._processName
+_OBJC_IVAR_$_DSMFileSystemIO._path
+_OBJC_IVAR_$_DSMFileSystemIO._residentSizeInBytes
+_OBJC_IVAR_$_DSMFileSystemIO._endTimeInMachAbsoluteTime
+_OBJC_IVAR_$_DSMFileSystemIO._vnodeId
+_OBJC_IVAR_$_DSMFileSystemIO._ioErrno
+_OBJC_IVAR_$_VnodeInfo._vnodeId
+_OBJC_IVAR_$_VnodeInfo._path
+_OBJC_IVAR_$_DSMFileSystemIOManager._modeDictionary
+_OBJC_IVAR_$_DSMFileSystemIOManager._currentResultsDictionary
+_OBJC_IVAR_$_DSMFileSystemIOManager._willDoStartEventProcessing
+_OBJC_IVAR_$_DSMFileSystemIOManager._willDoIOValueIntervalProcessing
+_OBJC_IVAR_$_DSMFileSystemIOManager._outstandingIOs
+_OBJC_IVAR_$_DSMFileSystemIOManager._outstandingThreadIdToVnodeInfoMapping
+_OBJC_IVAR_$_DSMFileSystemIOManager._vnodeIdToVnodePathMapping
+_OBJC_IVAR_$_DSMFileSystemIOManager._completedIOs
+_OBJC_IVAR_$_DSMFileSystemIOManager._willDoEndValueProcessing
+_OBJC_IVAR_$_DataSourceManagerTestClient_Private._dsmToTest
+_OBJC_IVAR_$_DataSourceManagerTestClient_Private._kernelDataBufferSizeInMB
++[DSMFileSystemIOManager sharedInstance].singletonInstance
++[DSMFileSystemIOManager sharedInstance].onceToken
++[DSMFileSystemIOManager _metaDataDescriptionArray].metaDataDescriptionArray
++[DSMFileSystemIOManager _metaDataDescriptionArray].onceToken
+__getInvalidParameterError.invalidParameterError
+__getInvalidParameterError.onceToken
+_DSMEncodableResultsDictionaryFromResultsDictionary
+_DSMFileSystem_IOValueIntervalStreamKey
+_DSMFileSystem_StartEventStreamKey
+_DSMTruncateResultsDictionaryToTimeRangeAndMakeEncodable
+_OBJC_CLASS_$_DSMBasicDataStream
+_OBJC_CLASS_$_DSMBasicDataStreamEvent
+_OBJC_CLASS_$_DSMBasicDataStreamInterval
+_OBJC_CLASS_$_DSMBasicDataStreamValue
+_OBJC_CLASS_$_DSMBasicDataStreamValueInterval
+_OBJC_CLASS_$_DSMDataStreamDescription
+_OBJC_CLASS_$_DSMDataStreamMetaDataDescription
+_OBJC_CLASS_$_DSMFileSystemIO
+_OBJC_CLASS_$_DSMFileSystemIOManager
+_OBJC_CLASS_$_DSMMode
+_OBJC_CLASS_$_DataSourceManagerTestClient_Private
+_OBJC_CLASS_$_VnodeInfo
+_OBJC_METACLASS_$_DSMBasicDataStream
+_OBJC_METACLASS_$_DSMBasicDataStreamEvent
+_OBJC_METACLASS_$_DSMBasicDataStreamInterval
+_OBJC_METACLASS_$_DSMBasicDataStreamValue
+_OBJC_METACLASS_$_DSMBasicDataStreamValueInterval
+_OBJC_METACLASS_$_DSMDataStreamDescription
+_OBJC_METACLASS_$_DSMDataStreamMetaDataDescription
+_OBJC_METACLASS_$_DSMFileSystemIO
+_OBJC_METACLASS_$_DSMFileSystemIOManager
+_OBJC_METACLASS_$_DSMMode
+_OBJC_METACLASS_$_DataSourceManagerTestClient_Private
+_OBJC_METACLASS_$_VnodeInfo
+_NSLocalizedDescriptionKey
+_NSLog
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_dispatch_once
+_dispatch_queue_create
+_dispatch_sync
+_mach_absolute_time
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_getProperty
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_printf
+_putchar
+_sleep
+_trace_collect_and_process
+_trace_disable
+_trace_enable
+_trace_initialize
+_trace_range
+_trace_remove
+_trace_reset
+_trace_setup
+dyld_stub_binder

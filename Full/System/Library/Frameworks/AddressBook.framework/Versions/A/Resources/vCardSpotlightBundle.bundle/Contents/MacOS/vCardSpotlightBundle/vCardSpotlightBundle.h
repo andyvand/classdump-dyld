@@ -1,0 +1,1 @@
+#import <vCardSpotlightBundle/vCardShim.h>

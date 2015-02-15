@@ -1,0 +1,2447 @@
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDAdditions.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDAdditions.o
+-[NSString(nsurlsessiond_Additions) _sha1Hash]
+-[NSError(nsurlsessiond_Additions) _isRecoverableErrorForBackgroundTaskWithStartTime:resourceTimeout:]
+-[NSError(nsurlsessiond_Additions) _isPriorityChangedError]
+-[NSError(nsurlsessiond_Additions) _shouldRemoveCacheFileForError]
+-[NSError(nsurlsessiond_Additions) _errorShouldSuppressWake]
+-[NSError(nsurlsessiond_Additions) _errorShouldBeRewritten]
+-[NSError(nsurlsessiond_Additions) _cancelledReasonForError]
+-[NSURLSessionTask(nsurlsessiond_Additions) _setPriority:withMonitoredApplication:]
+-[NSXPCConnection(nsurlsessiond_Additions) _connectionHasEntitlement:]
++[NSKeyedUnarchiver(nsurlsessiond_Additions) _safe_unarchiveObjectWithFile:]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table9
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+main.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/main.o
+_main
+___main_block_invoke
+GCC_except_table0
+___block_descriptor_tmp
+___block_literal_global
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDSessionManager.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDSessionManager.o
+-[NDSessionManager initWithDelegate:bundleID:isSpringBoardApp:]
+-[NDSessionManager archivePath]
+-[NDSessionManager downloadDirectoryDataPath]
+-[NDSessionManager restoreOptionsFromArchivePath:]
+-[NDSessionManager restoreState:]
+-[NDSessionManager archiveState]
+___32-[NDSessionManager archiveState]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDSessionManager boost]
+___25-[NDSessionManager boost]_block_invoke
+___copy_helper_block_122
+___destroy_helper_block_123
+-[NDSessionManager dropBoost]
+___29-[NDSessionManager dropBoost]_block_invoke
+___copy_helper_block_127
+___destroy_helper_block_128
+-[NDSessionManager copyAndSanitizeClientConfiguration:]
+-[NDSessionManager connection:canUseSharedContainerIdentifier:]
+-[NDSessionManager createSessionWithConfiguration:clientProxy:cachesDirectory:options:reply:]
+-[NDSessionManager sendPendingCallbacksForIdentifier:reply:]
+___60-[NDSessionManager sendPendingCallbacksForIdentifier:reply:]_block_invoke
+___copy_helper_block_259
+___destroy_helper_block_260
+-[NDSessionManager getActiveSessionIdentifiersWithReply:]
+-[NDSessionManager obliterateAllSessionsWithReply:]
+___51-[NDSessionManager obliterateAllSessionsWithReply:]_block_invoke
+-[NDSessionManager cleanupWithCompletionHandler:]
+___49-[NDSessionManager cleanupWithCompletionHandler:]_block_invoke
+___copy_helper_block_284
+___destroy_helper_block_285
+-[NDSessionManager sessionCompleted:withCompletionHandler:]
+-[NDSessionManager getSessionWithIdentifier:]
+-[NDSessionManager clientApplicationWasReinstalled]
+___51-[NDSessionManager clientApplicationWasReinstalled]_block_invoke
+___51-[NDSessionManager clientApplicationWasReinstalled]_block_invoke_2
+___copy_helper_block_295
+___destroy_helper_block_296
+-[NDSessionManager obliterate]
+___30-[NDSessionManager obliterate]_block_invoke
+___30-[NDSessionManager obliterate]_block_invoke_2
+___copy_helper_block_302
+___destroy_helper_block_303
+-[NDSessionManager queue]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDSessionManager.h
+-[NDSessionManager setQueue:]
+-[NDSessionManager xpcConn]
+-[NDSessionManager setXpcConn:]
+-[NDSessionManager delegate]
+-[NDSessionManager setDelegate:]
+-[NDSessionManager isSpringBoardApp]
+-[NDSessionManager setIsSpringBoardApp:]
+-[NDSessionManager obliterationCompletion]
+-[NDSessionManager setObliterationCompletion:]
+-[NDSessionManager .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table9
+GCC_except_table10
+GCC_except_table14
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table24
+GCC_except_table25
+GCC_except_table27
+GCC_except_table28
+GCC_except_table31
+___block_descriptor_tmp
+___block_descriptor_tmp124
+___block_descriptor_tmp129
+___block_descriptor_tmp261
+___block_descriptor_tmp277
+___block_literal_global
+___block_descriptor_tmp286
+___block_descriptor_tmp293
+___block_literal_global294
+___block_descriptor_tmp297
+___block_descriptor_tmp300
+___block_literal_global301
+___block_descriptor_tmp304
+_OBJC_IVAR_$_NDSessionManager._delegate
+_OBJC_IVAR_$_NDSessionManager._clientBundleID
+_OBJC_IVAR_$_NDSessionManager._sessions
+_OBJC_IVAR_$_NDSessionManager._reconnectingProxies
+_OBJC_IVAR_$_NDSessionManager._bundleDirectory
+_OBJC_IVAR_$_NDSessionManager._queue
+_OBJC_IVAR_$_NDSessionManager._sessionArchiveQueue
+_OBJC_IVAR_$_NDSessionManager._boost
+_OBJC_IVAR_$_NDSessionManager._isSpringBoardApp
+_OBJC_IVAR_$_NDSessionManager._xpcConn
+_OBJC_IVAR_$_NDSessionManager._obliterationCompletion
+_OBJC_CLASS_$_NDSessionManager
+_OBJC_METACLASS_$_NDSessionManager
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDBackgroundSession.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDBackgroundSession.o
+-[DummyQueue initWithDispatchQueue:]
+-[DummyQueue addOperationWithBlock:]
+-[DummyQueue maxConcurrentOperationCount]
+-[DummyQueue queue]
+-[DummyQueue setQueue:]
+-[DummyQueue .cxx_destruct]
+-[NDBackgroundSession defaultWindowDurationForResourceTimeout:]
+-[NDBackgroundSession configurationWithClientConfiguration:discretionary:]
+-[NDBackgroundSession initWithConfiguration:bundleID:isSpringBoardApp:downloadDirectory:options:clientProxy:delegate:workQueue:archiveQueue:]
+-[NDBackgroundSession sessionForDiscretionaryStatus:]
+-[NDBackgroundSession setXPCConnection:]
+-[NDBackgroundSession hasConnectedClient]
+-[NDBackgroundSession applicationWasSuspended:]
+___47-[NDBackgroundSession applicationWasSuspended:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDBackgroundSession clientApplicationWasReinstalled]
+-[NDBackgroundSession setupDownloadDirectory]
+-[NDBackgroundSession cleanupSessionWithCompletionHandler:]
+-[NDBackgroundSession obliterate]
+-[NDBackgroundSession tasksArchivePath]
+-[NDBackgroundSession archiveTaskInfo]
+___38-[NDBackgroundSession archiveTaskInfo]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[NDBackgroundSession archiveTaskInfo]_block_invoke293
+___copy_helper_block_296
+___destroy_helper_block_297
+___copy_helper_block_303
+___destroy_helper_block_304
+-[NDBackgroundSession descriptionForTaskWithIdentifier:]
+-[NDBackgroundSession descriptionForRequest:]
+-[NDBackgroundSession descriptionForTCPConnectionWaitingReason:]
+-[NDBackgroundSession requestWithAdjustedWindowForTaskInfo:]
+-[NDBackgroundSession adjustDiscretionaryStatusForTaskInfo:]
+-[NDBackgroundSession initializeTask:fromTaskInfo:]
+-[NDBackgroundSession createNewTaskFromInfo:]
+-[NDBackgroundSession restoreInProgressTask:]
+-[NDBackgroundSession restoreCompletedTask:]
+-[NDBackgroundSession restoreTask:isOutstanding:]
+-[NDBackgroundSession restoreTasksFromArchivedInfo:]
+___52-[NDBackgroundSession restoreTasksFromArchivedInfo:]_block_invoke
+___copy_helper_block_512
+___destroy_helper_block_513
+-[NDBackgroundSession restoreTasks:]
+-[NDBackgroundSession clientErrorForError:]
+-[NDBackgroundSession retryTask:originalError:timingData:]
+___58-[NDBackgroundSession retryTask:originalError:timingData:]_block_invoke
+___copy_helper_block_561
+___destroy_helper_block_562
+___58-[NDBackgroundSession retryTask:originalError:timingData:]_block_invoke573
+___copy_helper_block_574
+___destroy_helper_block_575
+-[NDBackgroundSession removeDownloadFileForTaskInfo:]
+-[NDBackgroundSession removeUploadFileForTaskInfo:]
+-[NDBackgroundSession sessionHasOutstandingTasks]
+-[NDBackgroundSession clientIsActive]
+-[NDBackgroundSession handleCompletionOfTask:identifier:taskInfo:isRecoverable:suppressWake:]
+-[NDBackgroundSession finalizeTaskCompletionWithSuppressedWake:]
+-[NDBackgroundSession cancelTasksRequiringClientConnectionAndResumeUnstartedTasks]
+-[NDBackgroundSession clientDidDisconnect]
+-[NDBackgroundSession reconnectClient:withCompletion:]
+___54-[NDBackgroundSession reconnectClient:withCompletion:]_block_invoke
+___copy_helper_block_601
+___destroy_helper_block_602
+-[NDBackgroundSession fillInByteCountsForTaskInfo:withTaskID:]
+-[NDBackgroundSession getTasksForReconnection]
+___46-[NDBackgroundSession getTasksForReconnection]_block_invoke
+___copy_helper_block_626
+___destroy_helper_block_627
+-[NDBackgroundSession priorityForDiscretionaryStatus:]
+-[NDBackgroundSession currentDiscretionaryStatus]
+-[NDBackgroundSession cancelMonitorForTask:]
+-[NDBackgroundSession _onqueue_taskShouldResume:]
+-[NDBackgroundSession _onqueue_taskShouldSuspend:]
+-[NDBackgroundSession enqueueTaskWithIdentifier:]
+-[NDBackgroundSession addOutstandingTaskWithIdentifier:]
+-[NDBackgroundSession removeOutstandingTaskWithIdentifier:]
+-[NDBackgroundSession requeueTask:]
+___35-[NDBackgroundSession requeueTask:]_block_invoke
+___copy_helper_block_678
+___destroy_helper_block_679
+-[NDBackgroundSession makeTempUploadFile:withExtensionData:]
+-[NDBackgroundSession inputStreamWithFileHandle:]
+-[NDBackgroundSession getClientProxy]
+-[NDBackgroundSession errorOccurredDuringFinishedCallbackDelivery:]
+-[NDBackgroundSession errorOccurredDuringAuthCallbackDelivery:completionHandler:]
+-[NDBackgroundSession clientAcknowledgedTerminalCallbackForTask:]
+-[NDBackgroundSession wakeUpClient]
+-[NDBackgroundSession performCommonSetupForTask:taskInfo:identifier:discretionaryStatus:]
+-[NDBackgroundSession downloadTaskWithResumeData:identifier:reply:]
+-[NDBackgroundSession downloadTaskWithRequest:originalRequest:downloadFilePath:identifier:reply:]
+-[NDBackgroundSession uploadTaskWithRequest:originalRequest:fromFile:sandboxExtensionData:identifier:reply:]
+-[NDBackgroundSession dataTaskWithRequest:originalRequest:identifier:reply:]
+-[NDBackgroundSession avAssetDownloadTaskWithURL:destinationURL:options:identifier:reply:]
+-[NDBackgroundSession cancelTaskWithIdentifier:byProducingResumeData:]
+___70-[NDBackgroundSession cancelTaskWithIdentifier:byProducingResumeData:]_block_invoke
+___copy_helper_block_787
+___destroy_helper_block_788
+-[NDBackgroundSession cancelTaskWithIdentifier:]
+-[NDBackgroundSession suspendTaskWithIdentifier:]
+-[NDBackgroundSession resumeTaskWithIdentifier:]
+-[NDBackgroundSession setDescription:forTask:]
+-[NDBackgroundSession setPriority:forTaskWithIdentifier:]
+-[NDBackgroundSession resetStorageWithReply:]
+-[NDBackgroundSession invalidateWithReply:]
+-[NDBackgroundSession URLSession:didBecomeInvalidWithError:]
+__Z23isSessionLevelChallengeP28NSURLAuthenticationChallenge
+-[NDBackgroundSession trustPassesExtendedValidation:]
+-[NDBackgroundSession URLSession:task:didReceiveChallenge:completionHandler:]
+___77-[NDBackgroundSession URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke
+___copy_helper_block_843
+___destroy_helper_block_844
+-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke
+___copy_helper_block_875
+___destroy_helper_block_876
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke889
+___copy_helper_block_890
+___destroy_helper_block_891
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke896
+___copy_helper_block_897
+___destroy_helper_block_898
+-[NDBackgroundSession URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[NDBackgroundSession URLSession:task:needNewBodyStream:]
+___57-[NDBackgroundSession URLSession:task:needNewBodyStream:]_block_invoke
+___copy_helper_block_908
+___destroy_helper_block_909
+___57-[NDBackgroundSession URLSession:task:needNewBodyStream:]_block_invoke913
+___copy_helper_block_916
+___destroy_helper_block_917
+-[NDBackgroundSession URLSession:task:didCompleteWithError:]
+-[NDBackgroundSession URLSession:dataTask:willCacheResponse:completionHandler:]
+-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]
+___80-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+___copy_helper_block_958
+___destroy_helper_block_959
+___80-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke961
+___copy_helper_block_964
+___destroy_helper_block_965
+-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]
+___77-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]_block_invoke
+___copy_helper_block_974
+___destroy_helper_block_975
+___77-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]_block_invoke977
+___copy_helper_block_978
+___destroy_helper_block_979
+-[NDBackgroundSession URLSession:dataTask:didBecomeDownloadTask:]
+-[NDBackgroundSession URLSession:downloadTask:didFinishDownloadingToURL:]
+-[NDBackgroundSession URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[NDBackgroundSession URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[NDBackgroundSession URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:]
+___98-[NDBackgroundSession URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:]_block_invoke
+___copy_helper_block_1025
+___destroy_helper_block_1026
+-[NDBackgroundSession URLSession:task:_isWaitingForConnectionWithReason:]
+-[NDBackgroundSession URLSession:task:_conditionalRequirementsChanged:]
+-[NDBackgroundSession _URLSession:downloadTask:didReceiveResponse:]
+-[NDBackgroundSession _URLSession:downloadTaskNeedsDownloadDirectory:]
+-[NDBackgroundSession _URLSession:openFileAtPath:mode:completionHandler:]
+___73-[NDBackgroundSession _URLSession:openFileAtPath:mode:completionHandler:]_block_invoke
+___copy_helper_block_1043
+___destroy_helper_block_1044
+-[NDBackgroundSession delegate]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDBackgroundSession.h
+-[NDBackgroundSession setDelegate:]
+-[NDBackgroundSession identifier]
+-[NDBackgroundSession clientBundleID]
+-[NDBackgroundSession monitoredAppBundleID]
+-[NDBackgroundSession secondaryID]
+-[NDBackgroundSession invalidateReply]
+-[NDBackgroundSession setInvalidateReply:]
+-[NDBackgroundSession sharedContainerIdentifier]
+-[NDBackgroundSession setSharedContainerIdentifier:]
+-[NDBackgroundSession .cxx_destruct]
+GCC_except_table0
+GCC_except_table7
+GCC_except_table8
+GCC_except_table10
+GCC_except_table13
+GCC_except_table16
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table22
+GCC_except_table31
+GCC_except_table33
+GCC_except_table34
+GCC_except_table35
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table41
+GCC_except_table44
+GCC_except_table45
+GCC_except_table46
+GCC_except_table53
+GCC_except_table54
+GCC_except_table59
+GCC_except_table61
+GCC_except_table65
+GCC_except_table66
+GCC_except_table67
+GCC_except_table71
+GCC_except_table72
+GCC_except_table73
+GCC_except_table74
+GCC_except_table75
+GCC_except_table76
+GCC_except_table77
+GCC_except_table79
+GCC_except_table82
+GCC_except_table83
+GCC_except_table86
+GCC_except_table87
+GCC_except_table88
+GCC_except_table89
+GCC_except_table90
+GCC_except_table91
+GCC_except_table92
+GCC_except_table93
+GCC_except_table95
+GCC_except_table96
+GCC_except_table99
+GCC_except_table100
+GCC_except_table101
+GCC_except_table102
+GCC_except_table103
+GCC_except_table104
+GCC_except_table105
+GCC_except_table106
+GCC_except_table107
+GCC_except_table109
+GCC_except_table113
+GCC_except_table114
+GCC_except_table123
+GCC_except_table124
+GCC_except_table128
+GCC_except_table131
+GCC_except_table133
+GCC_except_table134
+GCC_except_table137
+GCC_except_table140
+GCC_except_table147
+GCC_except_table148
+GCC_except_table149
+GCC_except_table150
+GCC_except_table151
+GCC_except_table152
+GCC_except_table155
+GCC_except_table156
+GCC_except_table157
+GCC_except_table158
+GCC_except_table159
+GCC_except_table160
+___block_descriptor_tmp
+___block_descriptor_tmp298
+___block_descriptor_tmp305
+___block_descriptor_tmp515
+___block_descriptor_tmp564
+___block_descriptor_tmp576
+___block_descriptor_tmp603
+___block_descriptor_tmp628
+___block_descriptor_tmp680
+___block_descriptor_tmp790
+___block_descriptor_tmp845
+___block_descriptor_tmp878
+___block_descriptor_tmp893
+___block_descriptor_tmp899
+___block_descriptor_tmp910
+___block_descriptor_tmp919
+___block_descriptor_tmp960
+___block_descriptor_tmp967
+___block_descriptor_tmp976
+___block_descriptor_tmp980
+___block_descriptor_tmp1028
+___block_descriptor_tmp1045
+_OBJC_IVAR_$_DummyQueue._queue
+_OBJC_IVAR_$_NDBackgroundSession._credentialStorage
+_OBJC_IVAR_$_NDBackgroundSession._monitoredAppBundleID
+_OBJC_IVAR_$_NDBackgroundSession._secondaryID
+_OBJC_IVAR_$_NDBackgroundSession._delegate
+_OBJC_IVAR_$_NDBackgroundSession._clientBundleID
+_OBJC_IVAR_$_NDBackgroundSession._monitoredApplication
+_OBJC_IVAR_$_NDBackgroundSession._clientApplication
+_OBJC_IVAR_$_NDBackgroundSession._identifier
+_OBJC_IVAR_$_NDBackgroundSession._sharedContainerIdentifier
+_OBJC_IVAR_$_NDBackgroundSession._sessionDirectory
+_OBJC_IVAR_$_NDBackgroundSession._downloadDirectory
+_OBJC_IVAR_$_NDBackgroundSession._uploadsDirectory
+_OBJC_IVAR_$_NDBackgroundSession._workQueue
+_OBJC_IVAR_$_NDBackgroundSession._archiveQueue
+_OBJC_IVAR_$_NDBackgroundSession._clientProxy
+_OBJC_IVAR_$_NDBackgroundSession._discretionary
+_OBJC_IVAR_$_NDBackgroundSession._sendsLaunchEvents
+_OBJC_IVAR_$_NDBackgroundSession._performsEVCertCheck
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsWillSendRequest
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsSessionChallenge
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsTaskChallenge
+_OBJC_IVAR_$_NDBackgroundSession._userInitiatedSession
+_OBJC_IVAR_$_NDBackgroundSession._discretionaryPrioritySession
+_OBJC_IVAR_$_NDBackgroundSession._callbackQueue
+_OBJC_IVAR_$_NDBackgroundSession._tasksToIdentifiers
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToTasks
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToTaskInfo
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToMonitors
+_OBJC_IVAR_$_NDBackgroundSession._outstandingTaskIDs
+_OBJC_IVAR_$_NDBackgroundSession._shouldPullInitialCredentials
+_OBJC_IVAR_$_NDBackgroundSession._retryDataTasks
+_OBJC_IVAR_$_NDBackgroundSession._infersDiscretionary
+_OBJC_IVAR_$_NDBackgroundSession._obliterated
+_OBJC_IVAR_$_NDBackgroundSession._cleanedUp
+_OBJC_IVAR_$_NDBackgroundSession._clientPID
+_OBJC_IVAR_$_NDBackgroundSession._xpcConn
+_OBJC_IVAR_$_NDBackgroundSession._connectedExtension
+_OBJC_IVAR_$_NDBackgroundSession._lastArchiveTime
+_OBJC_IVAR_$_NDBackgroundSession._hasBeenSignalledToDeliverPendingEvents
+_OBJC_IVAR_$_NDBackgroundSession._completeReconnectionBlock
+_OBJC_IVAR_$_NDBackgroundSession._invalidateReply
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToStreamQueues
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToStreams
+_OBJC_CLASS_$_DummyQueue
+_OBJC_METACLASS_$_DummyQueue
+_OBJC_CLASS_$_NDBackgroundSession
+_OBJC_METACLASS_$_NDBackgroundSession
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDFileLogger.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDFileLogger.o
++[NDFileLogger sharedFileLogger]
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.Internal.sdk/usr/include/dispatch/once.h
+___32+[NDFileLogger sharedFileLogger]_block_invoke
+-[NDFileLogger init]
+-[NDFileLogger dealloc]
+-[NDFileLogger _onqeue_logFilePathWithIndex:]
+-[NDFileLogger _onqueue_activePath]
+-[NDFileLogger logString:]
+___26-[NDFileLogger logString:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDFileLogger _onqueue_openFile]
+___33-[NDFileLogger _onqueue_openFile]_block_invoke
+___copy_helper_block_55
+___destroy_helper_block_56
+___33-[NDFileLogger _onqueue_openFile]_block_invoke58
+-[NDFileLogger _onqueue_closeFile]
+-[NDFileLogger _onqueue_checkFileSize]
+-[NDFileLogger _onqueue_rollFiles]
+-[NDFileLogger .cxx_destruct]
+GCC_except_table2
+GCC_except_table4
+GCC_except_table7
+GCC_except_table10
+GCC_except_table16
+GCC_except_table17
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp40
+___block_descriptor_tmp57
+___block_descriptor_tmp59
+_OBJC_IVAR_$_NDFileLogger._workQueue
+_OBJC_IVAR_$_NDFileLogger._lastFileStatTime
+_OBJC_IVAR_$_NDFileLogger._logsDirectoryPath
+_OBJC_IVAR_$_NDFileLogger._fileObserverSource
+_OBJC_IVAR_$_NDFileLogger._fileHandle
+_OBJC_CLASS_$_NDFileLogger
+_OBJC_METACLASS_$_NDFileLogger
+__ZZ32+[NDFileLogger sharedFileLogger]E7sLogger
+__ZZ32+[NDFileLogger sharedFileLogger]E9onceToken
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDStatusMonitor.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDStatusMonitor.o
++[NDStatusMonitor sharedMonitor]
+___32+[NDStatusMonitor sharedMonitor]_block_invoke
+-[NDStatusMonitor init]
+-[NDStatusMonitor dealloc]
+-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]
+___80-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]_block_invoke
+___80-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_33
+___destroy_helper_block_34
+-[NDStatusMonitor handleDynamicStoreCallback:changedKeys:]
+___58-[NDStatusMonitor handleDynamicStoreCallback:changedKeys:]_block_invoke
+___copy_helper_block_44
+___destroy_helper_block_45
+-[NDStatusMonitor handleBetterNetworkEvent]
+-[NDStatusMonitor startMonitoringDynamicStore]
+__ZL21_dynamicStoreCallbackPK16__SCDynamicStorePK9__CFArrayPv
+-[NDStatusMonitor stopMonitoringDynamicStore]
+-[NDStatusMonitor start]
+-[NDStatusMonitor stop]
+-[NDStatusMonitor .cxx_destruct]
+___clang_call_terminate
+GCC_except_table2
+GCC_except_table3
+GCC_except_table6
+GCC_except_table7
+GCC_except_table13
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp32
+___block_descriptor_tmp35
+___block_descriptor_tmp46
+_OBJC_IVAR_$_NDStatusMonitor._dynamicStoreSource
+_OBJC_IVAR_$_NDStatusMonitor._blocksToExecuteAfterNetworkChange
+_OBJC_IVAR_$_NDStatusMonitor._networkChangeEventCount
+_OBJC_IVAR_$_NDStatusMonitor._queue
+_OBJC_IVAR_$_NDStatusMonitor._symptomToken
+_OBJC_CLASS_$_NDStatusMonitor
+_OBJC_METACLASS_$_NDStatusMonitor
+__ZZ32+[NDStatusMonitor sharedMonitor]E4once
+__ZZ32+[NDStatusMonitor sharedMonitor]E13sharedMonitor
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDUserEventAgentConnection.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDUserEventAgentConnection.o
++[NDUserEventAgentConnection sharedUserEventAgentConnection]
+___60+[NDUserEventAgentConnection sharedUserEventAgentConnection]_block_invoke
+-[NDUserEventAgentConnection init]
+-[NDUserEventAgentConnection start]
+___35-[NDUserEventAgentConnection start]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDUserEventAgentConnection handleNewConnection:]
+___50-[NDUserEventAgentConnection handleNewConnection:]_block_invoke
+___copy_helper_block_45
+___destroy_helper_block_46
+-[NDUserEventAgentConnection canLaunchProcessWithIdentifier:]
+-[NDUserEventAgentConnection launchProcessWithIdentifier:sessionIdentifier:]
+___76-[NDUserEventAgentConnection launchProcessWithIdentifier:sessionIdentifier:]_block_invoke
+___copy_helper_block_56
+___destroy_helper_block_57
+-[NDUserEventAgentConnection wakeClientUponNotification:sessionIdentifier:]
+___75-[NDUserEventAgentConnection wakeClientUponNotification:sessionIdentifier:]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+-[NDUserEventAgentConnection removePendingWakeForClient:sessionIdentifier:]
+___75-[NDUserEventAgentConnection removePendingWakeForClient:sessionIdentifier:]_block_invoke
+___copy_helper_block_71
+___destroy_helper_block_72
+-[NDUserEventAgentConnection .cxx_destruct]
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table8
+GCC_except_table13
+GCC_except_table17
+GCC_except_table21
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp28
+___block_descriptor_tmp47
+___block_descriptor_tmp58
+___block_descriptor_tmp68
+___block_descriptor_tmp73
+_OBJC_IVAR_$_NDUserEventAgentConnection._queue
+_OBJC_IVAR_$_NDUserEventAgentConnection._pendingWakes
+_OBJC_IVAR_$_NDUserEventAgentConnection._listener
+_OBJC_IVAR_$_NDUserEventAgentConnection._connection
+_OBJC_IVAR_$_NDUserEventAgentConnection._registeredClients
+_OBJC_CLASS_$_NDUserEventAgentConnection
+_OBJC_METACLASS_$_NDUserEventAgentConnection
+__ZZ60+[NDUserEventAgentConnection sharedUserEventAgentConnection]E31sSharedUserEventAgentConnection
+__ZZ60+[NDUserEventAgentConnection sharedUserEventAgentConnection]E9onceToken
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDFileUtilities.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDFileUtilities.o
++[NDFileUtilities oldDaemonPath]
++[NDFileUtilities nsurlsessiondPath]
++[NDFileUtilities bundleManagerPath:]
++[NDFileUtilities sessionPath:forBundleID:]
++[NDFileUtilities removeItemAtPath:]
++[NDFileUtilities removeItemAtURL:]
++[NDFileUtilities createDirectoryAtPath:]
++[NDFileUtilities createDirectoryAtURL:]
++[NDFileUtilities defaultDownloadDirectoryForBundleID:]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+_OBJC_CLASS_$_NDFileUtilities
+_OBJC_METACLASS_$_NDFileUtilities
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDApplication.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDApplication.o
++[NDApplication initialize]
+___27+[NDApplication initialize]_block_invoke
++[NDApplication applicationWithIdentifier:]
++[NDApplication cloudContainerWithIdentifier:]
+-[NDApplication initWithIdentifier:]
+-[NDApplication containerURL]
+-[NDApplication supportsWakes]
+-[NDApplication wakeForSessionIdentifier:]
+-[NDApplication hasForegroundBackgroundStates]
+-[NDApplication isForeground]
+-[NDApplication isAwake]
+-[NDApplication canBeSuspended]
+-[NDApplication isSuspended]
+-[NDApplication isBeingDebugged]
+-[NDApplication hasBackgroundTaskCompletion]
+-[NDApplication isHandlingBackgroudURLSessionWithIdentifier:]
+-[NDApplication addObserver:]
+-[NDApplication removeObserver:]
+-[NDApplication invokeSelectorForAllObservers:]
+___47-[NDApplication invokeSelectorForAllObservers:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDApplication bundleIdentifier]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDApplication.h
+-[NDApplication setBundleIdentifier:]
+-[NDApplication currentRequestDelay]
+-[NDApplication setCurrentRequestDelay:]
+-[NDApplication .cxx_destruct]
+-[NDUserApplication observeValueForKeyPath:ofObject:change:context:]
+-[NDUserApplication addObserver:]
+-[NDUserApplication removeObserver:]
+-[NDUserApplication hasForegroundBackgroundStates]
+-[NDUserApplication isForeground]
++[NDCloudContainer containerIDForPrimaryIdentifier:secondaryIdentifier:]
+-[NDCloudContainer initWithIdentifier:]
+-[NDCloudContainer hasForegroundBackgroundStates]
+-[NDCloudContainer isForeground]
+-[NDCloudContainer supportsWakes]
+-[NDCloudContainer wakeForSessionIdentifier:]
+-[NDCloudContainer addObserver:]
+-[NDCloudContainer removeObserver:]
+-[NDCloudContainer containerDidEnterBackground:]
+-[NDCloudContainer containerDidEnterForeground:]
+-[NDCloudContainer .cxx_destruct]
+__ZL23initBRContainersMonitorv
+__ZL27BRContainersMonitorFunctionv
+____ZL13LoadCloudDocsv_block_invoke
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table6
+GCC_except_table7
+GCC_except_table16
+GCC_except_table17
+GCC_except_table19
+GCC_except_table27
+GCC_except_table28
+GCC_except_table29
+GCC_except_table31
+GCC_except_table32
+GCC_except_table33
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table41
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp52
+___block_descriptor_tmp194
+___block_literal_global195
+_OBJC_IVAR_$_NDApplication._bundleIdentifier
+_OBJC_IVAR_$_NDApplication._observers
+_OBJC_IVAR_$_NDApplication._currentRequestDelay
+_OBJC_IVAR_$_NDCloudContainer._monitor
+_OBJC_IVAR_$_NDCloudContainer._initializedForegroundState
+_OBJC_IVAR_$_NDCloudContainer._isForeground
+_OBJC_CLASS_$_NDApplication
+_OBJC_CLASS_$_NDUserApplication
+_OBJC_CLASS_$_NDCloudContainer
+_OBJC_METACLASS_$_NDApplication
+_OBJC_METACLASS_$_NDUserApplication
+_OBJC_METACLASS_$_NDCloudContainer
+__ZL27getBRContainersMonitorClass
+__ZL13gApplications
+__ZZ27+[NDApplication initialize]E9onceToken
+__ZL24classBRContainersMonitor
+__ZZL13LoadCloudDocsvE16frameworkLibrary
+__ZZL13LoadCloudDocsvE13loadPredicate
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDCredentialStorage.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDCredentialStorage.o
+-[NDCredentialStorage initWithDelegate:]
+-[NDCredentialStorage populateWithInitialCredentials]
+___53-[NDCredentialStorage populateWithInitialCredentials]_block_invoke
+___53-[NDCredentialStorage populateWithInitialCredentials]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_13
+___destroy_helper_block_14
+-[NDCredentialStorage credentialsForProtectionSpace:]
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke
+___copy_helper_block_19
+___destroy_helper_block_20
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke25
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke_2
+___copy_helper_block_30
+___destroy_helper_block_31
+___copy_helper_block_33
+___destroy_helper_block_34
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke39
+___copy_helper_block_42
+___destroy_helper_block_43
+-[NDCredentialStorage allCredentials]
+___37-[NDCredentialStorage allCredentials]_block_invoke
+___copy_helper_block_45
+___destroy_helper_block_46
+___37-[NDCredentialStorage allCredentials]_block_invoke48
+___37-[NDCredentialStorage allCredentials]_block_invoke_2
+___copy_helper_block_51
+___destroy_helper_block_52
+___copy_helper_block_54
+___destroy_helper_block_55
+___37-[NDCredentialStorage allCredentials]_block_invoke59
+___copy_helper_block_61
+___destroy_helper_block_62
+-[NDCredentialStorage setCredential:forProtectionSpace:]
+___56-[NDCredentialStorage setCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_68
+___destroy_helper_block_69
+-[NDCredentialStorage removeCredential:forProtectionSpace:]
+___59-[NDCredentialStorage removeCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+-[NDCredentialStorage defaultCredentialForProtectionSpace:]
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke
+___copy_helper_block_76
+___destroy_helper_block_77
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke79
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke_2
+___copy_helper_block_80
+___destroy_helper_block_81
+___copy_helper_block_83
+___destroy_helper_block_84
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke89
+___copy_helper_block_90
+___destroy_helper_block_91
+-[NDCredentialStorage setDefaultCredential:forProtectionSpace:]
+___63-[NDCredentialStorage setDefaultCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_95
+___destroy_helper_block_96
+-[NDCredentialStorage reset]
+___28-[NDCredentialStorage reset]_block_invoke
+___copy_helper_block_98
+___destroy_helper_block_99
+-[NDCredentialStorage delegate]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDCredentialStorage.h
+-[NDCredentialStorage setDelegate:]
+-[NDCredentialStorage .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table8
+GCC_except_table13
+GCC_except_table23
+GCC_except_table36
+GCC_except_table37
+GCC_except_table40
+GCC_except_table41
+GCC_except_table44
+GCC_except_table49
+GCC_except_table54
+GCC_except_table57
+GCC_except_table58
+___block_descriptor_tmp
+___block_descriptor_tmp16
+___block_descriptor_tmp22
+___block_descriptor_tmp32
+___block_descriptor_tmp36
+___block_descriptor_tmp44
+___block_descriptor_tmp47
+___block_descriptor_tmp53
+___block_descriptor_tmp56
+___block_descriptor_tmp63
+___block_descriptor_tmp70
+___block_descriptor_tmp75
+___block_descriptor_tmp78
+___block_descriptor_tmp82
+___block_descriptor_tmp86
+___block_descriptor_tmp92
+___block_descriptor_tmp97
+___block_descriptor_tmp100
+_OBJC_IVAR_$_NDCredentialStorage._delegate
+_OBJC_IVAR_$_NDCredentialStorage._cachedCredentials
+_OBJC_IVAR_$_NDCredentialStorage._cachedDefaultCredentialUsers
+_OBJC_IVAR_$_NDCredentialStorage._queue
+_OBJC_CLASS_$_NDCredentialStorage
+_OBJC_METACLASS_$_NDCredentialStorage
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDTaskMonitor.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDTaskMonitor.o
+-[NDTaskMonitor initWithTask:clientBundleIdentifier:secondaryIdentifier:monitoredApplication:priority:options:queue:]
+-[NDTaskMonitor currentThroughputThreshold]
+-[NDTaskMonitor currentIntervalEndDelta]
+-[NDTaskMonitor _onqueue_calculateThroughput]
+-[NDTaskMonitor _onqueue_setThroughputTimerForCurrentInterval]
+___62-[NDTaskMonitor _onqueue_setThroughputTimerForCurrentInterval]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDTaskMonitor _onqueue_taskTransferredData:countOfBytesReceived:]
+-[NDTaskMonitor taskTransferredData:countOfBytesReceived:]
+___58-[NDTaskMonitor taskTransferredData:countOfBytesReceived:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+-[NDTaskMonitor _onqueue_startThroughputMonitoring]
+-[NDTaskMonitor _onqueue_stopThroughputMonitoring]
+-[NDTaskMonitor _onqueue_taskWillResume]
+-[NDTaskMonitor _onqueue_taskWillSuspend]
+-[NDTaskMonitor _onqueue_cancel]
+-[NDTaskMonitor applicationWasQuitFromAppSwitcher:]
+___51-[NDTaskMonitor applicationWasQuitFromAppSwitcher:]_block_invoke
+___copy_helper_block_91
+___destroy_helper_block_92
+-[NDTaskMonitor backgroundUpdatesDisabledForApplication:]
+___57-[NDTaskMonitor backgroundUpdatesDisabledForApplication:]_block_invoke
+___copy_helper_block_94
+___destroy_helper_block_95
+-[NDTaskMonitor applicationEnteredForeground:]
+___46-[NDTaskMonitor applicationEnteredForeground:]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[NDTaskMonitor applicationNoLongerInForeground:]
+___49-[NDTaskMonitor applicationNoLongerInForeground:]_block_invoke
+___copy_helper_block_102
+___destroy_helper_block_103
+-[NDTaskMonitor basePriority]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDTaskMonitor.h
+-[NDTaskMonitor setBasePriority:]
+-[NDTaskMonitor .cxx_destruct]
+GCC_except_table0
+GCC_except_table3
+GCC_except_table4
+GCC_except_table8
+GCC_except_table15
+GCC_except_table19
+GCC_except_table23
+GCC_except_table27
+__ZL25kNDThroughputKBThresholds
+__ZL31kNDThroughputIntervalEndMinutes
+___block_descriptor_tmp
+___block_descriptor_tmp75
+___block_descriptor_tmp93
+___block_descriptor_tmp96
+___block_descriptor_tmp101
+___block_descriptor_tmp104
+_OBJC_IVAR_$_NDTaskMonitor._task
+_OBJC_IVAR_$_NDTaskMonitor._queue
+_OBJC_IVAR_$_NDTaskMonitor._clientBundleIdentifier
+_OBJC_IVAR_$_NDTaskMonitor._clientSecondaryIdentifier
+_OBJC_IVAR_$_NDTaskMonitor._monitoredApplication
+_OBJC_IVAR_$_NDTaskMonitor._basePriority
+_OBJC_IVAR_$_NDTaskMonitor._discretionary
+_OBJC_IVAR_$_NDTaskMonitor._explicitlyDiscretionary
+_OBJC_IVAR_$_NDTaskMonitor._performsNonDiscretionaryThrougputMonitoring
+_OBJC_IVAR_$_NDTaskMonitor._throughputInterval
+_OBJC_IVAR_$_NDTaskMonitor._progressValues
+_OBJC_IVAR_$_NDTaskMonitor._progressTimestamps
+_OBJC_IVAR_$_NDTaskMonitor._throughputTimer
+_OBJC_IVAR_$_NDTaskMonitor._hasTransferredData
+_OBJC_IVAR_$_NDTaskMonitor._startedDuetReporter
+_OBJC_IVAR_$_NDTaskMonitor._duetReporter
+_OBJC_IVAR_$_NDTaskMonitor._connectionIsCellular
+_OBJC_CLASS_$_NDTaskMonitor
+_OBJC_METACLASS_$_NDTaskMonitor
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDUtilities.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDUtilities.o
+__Z5NDLog10NDLogLevelP8NSStringz
+____ZL12setupLoggingv_block_invoke
+____ZL23debugFileLoggingEnabledv_block_invoke
+__ZL25booleanValueForPreferencePK10__CFStringa
+GCC_except_table0
+GCC_except_table2
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp36
+___block_literal_global37
+__ZL7gLogger
+__ZL14gDateFormatter
+__ZZL12setupLoggingvE9onceToken
+__ZZL23debugFileLoggingEnabledvE16hasAppleInternal
+__ZZL23debugFileLoggingEnabledvE9onceToken
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+Daemon.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/Daemon.o
++[Daemon sharedDaemon]
+___22+[Daemon sharedDaemon]_block_invoke
+-[Daemon createDaemonDirectory]
+-[Daemon init]
+-[Daemon archivePath]
+-[Daemon applicationIsInstalled:]
+-[Daemon setupNewClassMappingsForUnarchiver]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/CoreCore/Headers/CoreCompilerStuff.h
+-[Daemon restoreState]
+___22-[Daemon restoreState]_block_invoke
+-[Daemon archiveState]
+___22-[Daemon archiveState]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___22-[Daemon archiveState]_block_invoke134
+___copy_helper_block_140
+___destroy_helper_block_141
+-[Daemon listener:shouldAcceptNewConnection:]
+___45-[Daemon listener:shouldAcceptNewConnection:]_block_invoke
+___copy_helper_block_193
+___destroy_helper_block_194
+-[Daemon getSessionWithIdentifier:forBundleID:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[Daemon getSessionWithIdentifier:forBundleID:]_block_invoke
+___copy_helper_block_204
+___destroy_helper_block_205
+-[Daemon managerBecameEmpty:bundleID:withCompletionHandler:]
+___60-[Daemon managerBecameEmpty:bundleID:withCompletionHandler:]_block_invoke
+___copy_helper_block_211
+___destroy_helper_block_212
+-[Daemon addTransaction]
+___24-[Daemon addTransaction]_block_invoke
+-[Daemon releaseTransaction]
+___28-[Daemon releaseTransaction]_block_invoke
+-[Daemon waitUntilDeviceIsUnlocked]
+-[Daemon start]
+___15-[Daemon start]_block_invoke
+-[Daemon queue]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/Daemon.h
+-[Daemon isPrivileged]
+-[Daemon setPrivileged:]
+-[Daemon .cxx_destruct]
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table8
+GCC_except_table9
+GCC_except_table10
+GCC_except_table16
+GCC_except_table17
+GCC_except_table23
+GCC_except_table27
+GCC_except_table35
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp112
+___block_literal_global113
+___block_descriptor_tmp131
+___block_descriptor_tmp142
+___block_descriptor_tmp195
+___block_descriptor_tmp206
+___block_descriptor_tmp213
+___block_descriptor_tmp217
+___block_literal_global218
+___block_descriptor_tmp221
+___block_literal_global222
+___block_descriptor_tmp243
+___block_literal_global244
+_OBJC_IVAR_$_Daemon._clients
+_OBJC_IVAR_$_Daemon._queue
+_OBJC_IVAR_$_Daemon._transactionQueue
+_OBJC_IVAR_$_Daemon._privileged
+_OBJC_CLASS_$_Daemon
+_OBJC_METACLASS_$_Daemon
+__ZZ22+[Daemon sharedDaemon]E4once
+__ZZ22+[Daemon sharedDaemon]E7manager
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDCallbackQueue.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDCallbackQueue.o
+-[PendingCallback initWithCallbackType:taskIdentifier:args:]
++[PendingCallback supportsSecureCoding]
+-[PendingCallback encodeWithCoder:]
+-[PendingCallback initWithCoder:]
+-[PendingCallback type]
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/NDCallbackQueue.h
+-[PendingCallback setType:]
+-[PendingCallback taskIdentifier]
+-[PendingCallback setTaskIdentifier:]
+-[PendingCallback args]
+-[PendingCallback setArgs:]
+-[PendingCallback .cxx_destruct]
+-[NDCallbackQueue initWithDelegate:]
+-[NDCallbackQueue performCallback:]
+___35-[NDCallbackQueue performCallback:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___35-[NDCallbackQueue performCallback:]_block_invoke93
+___copy_helper_block_102
+___destroy_helper_block_103
+___35-[NDCallbackQueue performCallback:]_block_invoke110
+___copy_helper_block_113
+___destroy_helper_block_114
+___35-[NDCallbackQueue performCallback:]_block_invoke120
+___copy_helper_block_123
+___destroy_helper_block_124
+___35-[NDCallbackQueue performCallback:]_block_invoke126
+___copy_helper_block_129
+___destroy_helper_block_130
+___35-[NDCallbackQueue performCallback:]_block_invoke137
+___copy_helper_block_140
+___destroy_helper_block_141
+___35-[NDCallbackQueue performCallback:]_block_invoke143
+___copy_helper_block_146
+___destroy_helper_block_147
+___35-[NDCallbackQueue performCallback:]_block_invoke156
+___copy_helper_block_159
+___destroy_helper_block_160
+___35-[NDCallbackQueue performCallback:]_block_invoke162
+___copy_helper_block_165
+___destroy_helper_block_166
+-[NDCallbackQueue addPendingCallback:forceWakeup:]
+-[NDCallbackQueue performAllCallbacks]
+-[NDCallbackQueue count]
+-[NDCallbackQueue delegate]
+-[NDCallbackQueue setDelegate:]
+-[NDCallbackQueue .cxx_destruct]
+GCC_except_table0
+GCC_except_table2
+GCC_except_table3
+GCC_except_table11
+GCC_except_table12
+GCC_except_table13
+GCC_except_table16
+GCC_except_table19
+GCC_except_table22
+GCC_except_table25
+GCC_except_table28
+GCC_except_table31
+GCC_except_table34
+GCC_except_table37
+GCC_except_table40
+GCC_except_table41
+___block_descriptor_tmp
+___block_descriptor_tmp105
+___block_descriptor_tmp115
+___block_descriptor_tmp125
+___block_descriptor_tmp132
+___block_descriptor_tmp142
+___block_descriptor_tmp149
+___block_descriptor_tmp161
+___block_descriptor_tmp168
+_OBJC_IVAR_$_PendingCallback._type
+_OBJC_IVAR_$_PendingCallback._taskIdentifier
+_OBJC_IVAR_$_PendingCallback._args
+_OBJC_IVAR_$_NDCallbackQueue._callbacks
+_OBJC_IVAR_$_NDCallbackQueue._delegate
+_OBJC_CLASS_$_PendingCallback
+_OBJC_METACLASS_$_PendingCallback
+_OBJC_CLASS_$_NDCallbackQueue
+_OBJC_METACLASS_$_NDCallbackQueue
+/SourceCache/nsnetworkd/CFNetwork-720.2.4/nsurlsessiond/
+NDDuetReporter.mm
+/BinaryCache/nsnetworkd/nsnetworkd-720.2.4~1/Objects/CFNetwork.build/nsurlsessiond only.build/Objects-normal/x86_64/NDDuetReporter.o
++[NDDuetReporter session]
+___25+[NDDuetReporter session]_block_invoke
++[NDDuetReporter associateAttributeToBudgets:withSession:]
++[NDDuetReporter bundleIDAttribute]
+___35+[NDDuetReporter bundleIDAttribute]_block_invoke
++[NDDuetReporter nonDiscretionaryAttribute]
+___43+[NDDuetReporter nonDiscretionaryAttribute]_block_invoke
+-[NDDuetReporter performBlockOnDuetQueue:]
+___42-[NDDuetReporter performBlockOnDuetQueue:]_block_invoke
+-[NDDuetReporter initWithBundleIdentifier:discretionary:]
+-[NDDuetReporter initWithSecondaryIdentifier:]
+-[NDDuetReporter transferStarted]
+___33-[NDDuetReporter transferStarted]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDDuetReporter updateProgressWithBytesSent:bytesReceived:cellularBytesSent:cellularBytesReceived:]
+___100-[NDDuetReporter updateProgressWithBytesSent:bytesReceived:cellularBytesSent:cellularBytesReceived:]_block_invoke
+___copy_helper_block_93
+___destroy_helper_block_94
+-[NDDuetReporter transferStopped]
+___33-[NDDuetReporter transferStopped]_block_invoke
+___copy_helper_block_100
+___destroy_helper_block_101
+-[NDDuetReporter .cxx_destruct]
+GCC_except_table2
+GCC_except_table4
+GCC_except_table6
+GCC_except_table9
+GCC_except_table10
+GCC_except_table11
+GCC_except_table12
+GCC_except_table15
+GCC_except_table16
+GCC_except_table19
+GCC_except_table20
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp31
+___block_literal_global32
+___block_descriptor_tmp41
+___block_literal_global42
+___block_descriptor_tmp44
+___block_literal_global45
+___block_descriptor_tmp75
+___block_descriptor_tmp95
+___block_descriptor_tmp102
+_OBJC_IVAR_$_NDDuetReporter._attribute
+_OBJC_IVAR_$_NDDuetReporter._value
+_OBJC_IVAR_$_NDDuetReporter._xferID
+_OBJC_CLASS_$_NDDuetReporter
+_OBJC_METACLASS_$_NDDuetReporter
+__ZZ25+[NDDuetReporter session]E11sessionOnce
+__ZZ25+[NDDuetReporter session]E7session
+__ZZ35+[NDDuetReporter bundleIDAttribute]E9onceToken
+__ZZ35+[NDDuetReporter bundleIDAttribute]E17bundleIDAttribute
+__ZZ43+[NDDuetReporter nonDiscretionaryAttribute]E9onceToken
+__ZZ43+[NDDuetReporter nonDiscretionaryAttribute]E25nonDiscretionaryAttribute
+__ZZ42-[NDDuetReporter performBlockOnDuetQueue:]E9onceToken
+__ZZ42-[NDDuetReporter performBlockOnDuetQueue:]E9duetQueue
+-[NSString(nsurlsessiond_Additions) _sha1Hash]
+-[NSError(nsurlsessiond_Additions) _isRecoverableErrorForBackgroundTaskWithStartTime:resourceTimeout:]
+-[NSError(nsurlsessiond_Additions) _isPriorityChangedError]
+-[NSError(nsurlsessiond_Additions) _shouldRemoveCacheFileForError]
+-[NSError(nsurlsessiond_Additions) _errorShouldSuppressWake]
+-[NSError(nsurlsessiond_Additions) _errorShouldBeRewritten]
+-[NSError(nsurlsessiond_Additions) _cancelledReasonForError]
+-[NSURLSessionTask(nsurlsessiond_Additions) _setPriority:withMonitoredApplication:]
+-[NSXPCConnection(nsurlsessiond_Additions) _connectionHasEntitlement:]
++[NSKeyedUnarchiver(nsurlsessiond_Additions) _safe_unarchiveObjectWithFile:]
+_main
+___main_block_invoke
+-[NDSessionManager initWithDelegate:bundleID:isSpringBoardApp:]
+-[NDSessionManager archivePath]
+-[NDSessionManager downloadDirectoryDataPath]
+-[NDSessionManager restoreOptionsFromArchivePath:]
+-[NDSessionManager restoreState:]
+-[NDSessionManager archiveState]
+___32-[NDSessionManager archiveState]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDSessionManager boost]
+___25-[NDSessionManager boost]_block_invoke
+___copy_helper_block_122
+___destroy_helper_block_123
+-[NDSessionManager dropBoost]
+___29-[NDSessionManager dropBoost]_block_invoke
+___copy_helper_block_127
+___destroy_helper_block_128
+-[NDSessionManager copyAndSanitizeClientConfiguration:]
+-[NDSessionManager connection:canUseSharedContainerIdentifier:]
+-[NDSessionManager createSessionWithConfiguration:clientProxy:cachesDirectory:options:reply:]
+-[NDSessionManager sendPendingCallbacksForIdentifier:reply:]
+___60-[NDSessionManager sendPendingCallbacksForIdentifier:reply:]_block_invoke
+___copy_helper_block_259
+___destroy_helper_block_260
+-[NDSessionManager getActiveSessionIdentifiersWithReply:]
+-[NDSessionManager obliterateAllSessionsWithReply:]
+___51-[NDSessionManager obliterateAllSessionsWithReply:]_block_invoke
+-[NDSessionManager cleanupWithCompletionHandler:]
+___49-[NDSessionManager cleanupWithCompletionHandler:]_block_invoke
+___copy_helper_block_284
+___destroy_helper_block_285
+-[NDSessionManager sessionCompleted:withCompletionHandler:]
+-[NDSessionManager getSessionWithIdentifier:]
+-[NDSessionManager clientApplicationWasReinstalled]
+___51-[NDSessionManager clientApplicationWasReinstalled]_block_invoke
+___51-[NDSessionManager clientApplicationWasReinstalled]_block_invoke_2
+___copy_helper_block_295
+___destroy_helper_block_296
+-[NDSessionManager obliterate]
+___30-[NDSessionManager obliterate]_block_invoke
+___30-[NDSessionManager obliterate]_block_invoke_2
+___copy_helper_block_302
+___destroy_helper_block_303
+-[NDSessionManager queue]
+-[NDSessionManager setQueue:]
+-[NDSessionManager xpcConn]
+-[NDSessionManager setXpcConn:]
+-[NDSessionManager delegate]
+-[NDSessionManager setDelegate:]
+-[NDSessionManager isSpringBoardApp]
+-[NDSessionManager setIsSpringBoardApp:]
+-[NDSessionManager obliterationCompletion]
+-[NDSessionManager setObliterationCompletion:]
+-[NDSessionManager .cxx_destruct]
+-[DummyQueue initWithDispatchQueue:]
+-[DummyQueue addOperationWithBlock:]
+-[DummyQueue maxConcurrentOperationCount]
+-[DummyQueue queue]
+-[DummyQueue setQueue:]
+-[DummyQueue .cxx_destruct]
+-[NDBackgroundSession defaultWindowDurationForResourceTimeout:]
+-[NDBackgroundSession configurationWithClientConfiguration:discretionary:]
+-[NDBackgroundSession initWithConfiguration:bundleID:isSpringBoardApp:downloadDirectory:options:clientProxy:delegate:workQueue:archiveQueue:]
+-[NDBackgroundSession sessionForDiscretionaryStatus:]
+-[NDBackgroundSession setXPCConnection:]
+-[NDBackgroundSession hasConnectedClient]
+-[NDBackgroundSession applicationWasSuspended:]
+___47-[NDBackgroundSession applicationWasSuspended:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDBackgroundSession clientApplicationWasReinstalled]
+-[NDBackgroundSession setupDownloadDirectory]
+-[NDBackgroundSession cleanupSessionWithCompletionHandler:]
+-[NDBackgroundSession obliterate]
+-[NDBackgroundSession tasksArchivePath]
+-[NDBackgroundSession archiveTaskInfo]
+___38-[NDBackgroundSession archiveTaskInfo]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[NDBackgroundSession archiveTaskInfo]_block_invoke293
+___copy_helper_block_296
+___destroy_helper_block_297
+___copy_helper_block_303
+___destroy_helper_block_304
+-[NDBackgroundSession descriptionForTaskWithIdentifier:]
+-[NDBackgroundSession descriptionForRequest:]
+-[NDBackgroundSession descriptionForTCPConnectionWaitingReason:]
+-[NDBackgroundSession requestWithAdjustedWindowForTaskInfo:]
+-[NDBackgroundSession adjustDiscretionaryStatusForTaskInfo:]
+-[NDBackgroundSession initializeTask:fromTaskInfo:]
+-[NDBackgroundSession createNewTaskFromInfo:]
+-[NDBackgroundSession restoreInProgressTask:]
+-[NDBackgroundSession restoreCompletedTask:]
+-[NDBackgroundSession restoreTask:isOutstanding:]
+-[NDBackgroundSession restoreTasksFromArchivedInfo:]
+___52-[NDBackgroundSession restoreTasksFromArchivedInfo:]_block_invoke
+___copy_helper_block_512
+___destroy_helper_block_513
+-[NDBackgroundSession restoreTasks:]
+-[NDBackgroundSession clientErrorForError:]
+-[NDBackgroundSession retryTask:originalError:timingData:]
+___58-[NDBackgroundSession retryTask:originalError:timingData:]_block_invoke
+___copy_helper_block_561
+___destroy_helper_block_562
+___58-[NDBackgroundSession retryTask:originalError:timingData:]_block_invoke573
+___copy_helper_block_574
+___destroy_helper_block_575
+-[NDBackgroundSession removeDownloadFileForTaskInfo:]
+-[NDBackgroundSession removeUploadFileForTaskInfo:]
+-[NDBackgroundSession sessionHasOutstandingTasks]
+-[NDBackgroundSession clientIsActive]
+-[NDBackgroundSession handleCompletionOfTask:identifier:taskInfo:isRecoverable:suppressWake:]
+-[NDBackgroundSession finalizeTaskCompletionWithSuppressedWake:]
+-[NDBackgroundSession cancelTasksRequiringClientConnectionAndResumeUnstartedTasks]
+-[NDBackgroundSession clientDidDisconnect]
+-[NDBackgroundSession reconnectClient:withCompletion:]
+___54-[NDBackgroundSession reconnectClient:withCompletion:]_block_invoke
+___copy_helper_block_601
+___destroy_helper_block_602
+-[NDBackgroundSession fillInByteCountsForTaskInfo:withTaskID:]
+-[NDBackgroundSession getTasksForReconnection]
+___46-[NDBackgroundSession getTasksForReconnection]_block_invoke
+___copy_helper_block_626
+___destroy_helper_block_627
+-[NDBackgroundSession priorityForDiscretionaryStatus:]
+-[NDBackgroundSession currentDiscretionaryStatus]
+-[NDBackgroundSession cancelMonitorForTask:]
+-[NDBackgroundSession _onqueue_taskShouldResume:]
+-[NDBackgroundSession _onqueue_taskShouldSuspend:]
+-[NDBackgroundSession enqueueTaskWithIdentifier:]
+-[NDBackgroundSession addOutstandingTaskWithIdentifier:]
+-[NDBackgroundSession removeOutstandingTaskWithIdentifier:]
+-[NDBackgroundSession requeueTask:]
+___35-[NDBackgroundSession requeueTask:]_block_invoke
+___copy_helper_block_678
+___destroy_helper_block_679
+-[NDBackgroundSession makeTempUploadFile:withExtensionData:]
+-[NDBackgroundSession inputStreamWithFileHandle:]
+-[NDBackgroundSession getClientProxy]
+-[NDBackgroundSession errorOccurredDuringFinishedCallbackDelivery:]
+-[NDBackgroundSession errorOccurredDuringAuthCallbackDelivery:completionHandler:]
+-[NDBackgroundSession clientAcknowledgedTerminalCallbackForTask:]
+-[NDBackgroundSession wakeUpClient]
+-[NDBackgroundSession performCommonSetupForTask:taskInfo:identifier:discretionaryStatus:]
+-[NDBackgroundSession downloadTaskWithResumeData:identifier:reply:]
+-[NDBackgroundSession downloadTaskWithRequest:originalRequest:downloadFilePath:identifier:reply:]
+-[NDBackgroundSession uploadTaskWithRequest:originalRequest:fromFile:sandboxExtensionData:identifier:reply:]
+-[NDBackgroundSession dataTaskWithRequest:originalRequest:identifier:reply:]
+-[NDBackgroundSession avAssetDownloadTaskWithURL:destinationURL:options:identifier:reply:]
+-[NDBackgroundSession cancelTaskWithIdentifier:byProducingResumeData:]
+___70-[NDBackgroundSession cancelTaskWithIdentifier:byProducingResumeData:]_block_invoke
+___copy_helper_block_787
+___destroy_helper_block_788
+-[NDBackgroundSession cancelTaskWithIdentifier:]
+-[NDBackgroundSession suspendTaskWithIdentifier:]
+-[NDBackgroundSession resumeTaskWithIdentifier:]
+-[NDBackgroundSession setDescription:forTask:]
+-[NDBackgroundSession setPriority:forTaskWithIdentifier:]
+-[NDBackgroundSession resetStorageWithReply:]
+-[NDBackgroundSession invalidateWithReply:]
+-[NDBackgroundSession URLSession:didBecomeInvalidWithError:]
+__Z23isSessionLevelChallengeP28NSURLAuthenticationChallenge
+-[NDBackgroundSession trustPassesExtendedValidation:]
+-[NDBackgroundSession URLSession:task:didReceiveChallenge:completionHandler:]
+___77-[NDBackgroundSession URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke
+___copy_helper_block_843
+___destroy_helper_block_844
+-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke
+___copy_helper_block_875
+___destroy_helper_block_876
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke889
+___copy_helper_block_890
+___destroy_helper_block_891
+___95-[NDBackgroundSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke896
+___copy_helper_block_897
+___destroy_helper_block_898
+-[NDBackgroundSession URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[NDBackgroundSession URLSession:task:needNewBodyStream:]
+___57-[NDBackgroundSession URLSession:task:needNewBodyStream:]_block_invoke
+___copy_helper_block_908
+___destroy_helper_block_909
+___57-[NDBackgroundSession URLSession:task:needNewBodyStream:]_block_invoke913
+___copy_helper_block_916
+___destroy_helper_block_917
+-[NDBackgroundSession URLSession:task:didCompleteWithError:]
+-[NDBackgroundSession URLSession:dataTask:willCacheResponse:completionHandler:]
+-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]
+___80-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+___copy_helper_block_958
+___destroy_helper_block_959
+___80-[NDBackgroundSession URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke961
+___copy_helper_block_964
+___destroy_helper_block_965
+-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]
+___77-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]_block_invoke
+___copy_helper_block_974
+___destroy_helper_block_975
+___77-[NDBackgroundSession _URLSession:dataTask:didReceiveData:completionHandler:]_block_invoke977
+___copy_helper_block_978
+___destroy_helper_block_979
+-[NDBackgroundSession URLSession:dataTask:didBecomeDownloadTask:]
+-[NDBackgroundSession URLSession:downloadTask:didFinishDownloadingToURL:]
+-[NDBackgroundSession URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[NDBackgroundSession URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[NDBackgroundSession URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:]
+___98-[NDBackgroundSession URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:]_block_invoke
+___copy_helper_block_1025
+___destroy_helper_block_1026
+-[NDBackgroundSession URLSession:task:_isWaitingForConnectionWithReason:]
+-[NDBackgroundSession URLSession:task:_conditionalRequirementsChanged:]
+-[NDBackgroundSession _URLSession:downloadTask:didReceiveResponse:]
+-[NDBackgroundSession _URLSession:downloadTaskNeedsDownloadDirectory:]
+-[NDBackgroundSession _URLSession:openFileAtPath:mode:completionHandler:]
+___73-[NDBackgroundSession _URLSession:openFileAtPath:mode:completionHandler:]_block_invoke
+___copy_helper_block_1043
+___destroy_helper_block_1044
+-[NDBackgroundSession delegate]
+-[NDBackgroundSession setDelegate:]
+-[NDBackgroundSession identifier]
+-[NDBackgroundSession clientBundleID]
+-[NDBackgroundSession monitoredAppBundleID]
+-[NDBackgroundSession secondaryID]
+-[NDBackgroundSession invalidateReply]
+-[NDBackgroundSession setInvalidateReply:]
+-[NDBackgroundSession sharedContainerIdentifier]
+-[NDBackgroundSession setSharedContainerIdentifier:]
+-[NDBackgroundSession .cxx_destruct]
++[NDFileLogger sharedFileLogger]
+___32+[NDFileLogger sharedFileLogger]_block_invoke
+-[NDFileLogger init]
+-[NDFileLogger dealloc]
+-[NDFileLogger _onqeue_logFilePathWithIndex:]
+-[NDFileLogger _onqueue_activePath]
+-[NDFileLogger logString:]
+___26-[NDFileLogger logString:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDFileLogger _onqueue_openFile]
+___33-[NDFileLogger _onqueue_openFile]_block_invoke
+___copy_helper_block_55
+___destroy_helper_block_56
+___33-[NDFileLogger _onqueue_openFile]_block_invoke58
+-[NDFileLogger _onqueue_closeFile]
+-[NDFileLogger _onqueue_checkFileSize]
+-[NDFileLogger _onqueue_rollFiles]
+-[NDFileLogger .cxx_destruct]
++[NDStatusMonitor sharedMonitor]
+___32+[NDStatusMonitor sharedMonitor]_block_invoke
+-[NDStatusMonitor init]
+-[NDStatusMonitor dealloc]
+-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]
+___80-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]_block_invoke
+___80-[NDStatusMonitor performBlockAfterNetworkChangedEvent:numberOfPreviousRetries:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_33
+___destroy_helper_block_34
+-[NDStatusMonitor handleDynamicStoreCallback:changedKeys:]
+___58-[NDStatusMonitor handleDynamicStoreCallback:changedKeys:]_block_invoke
+___copy_helper_block_44
+___destroy_helper_block_45
+-[NDStatusMonitor handleBetterNetworkEvent]
+-[NDStatusMonitor startMonitoringDynamicStore]
+__ZL21_dynamicStoreCallbackPK16__SCDynamicStorePK9__CFArrayPv
+-[NDStatusMonitor stopMonitoringDynamicStore]
+-[NDStatusMonitor start]
+-[NDStatusMonitor stop]
+-[NDStatusMonitor .cxx_destruct]
+___clang_call_terminate
++[NDUserEventAgentConnection sharedUserEventAgentConnection]
+___60+[NDUserEventAgentConnection sharedUserEventAgentConnection]_block_invoke
+-[NDUserEventAgentConnection init]
+-[NDUserEventAgentConnection start]
+___35-[NDUserEventAgentConnection start]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDUserEventAgentConnection handleNewConnection:]
+___50-[NDUserEventAgentConnection handleNewConnection:]_block_invoke
+___copy_helper_block_45
+___destroy_helper_block_46
+-[NDUserEventAgentConnection canLaunchProcessWithIdentifier:]
+-[NDUserEventAgentConnection launchProcessWithIdentifier:sessionIdentifier:]
+___76-[NDUserEventAgentConnection launchProcessWithIdentifier:sessionIdentifier:]_block_invoke
+___copy_helper_block_56
+___destroy_helper_block_57
+-[NDUserEventAgentConnection wakeClientUponNotification:sessionIdentifier:]
+___75-[NDUserEventAgentConnection wakeClientUponNotification:sessionIdentifier:]_block_invoke
+___copy_helper_block_66
+___destroy_helper_block_67
+-[NDUserEventAgentConnection removePendingWakeForClient:sessionIdentifier:]
+___75-[NDUserEventAgentConnection removePendingWakeForClient:sessionIdentifier:]_block_invoke
+___copy_helper_block_71
+___destroy_helper_block_72
+-[NDUserEventAgentConnection .cxx_destruct]
++[NDFileUtilities oldDaemonPath]
++[NDFileUtilities nsurlsessiondPath]
++[NDFileUtilities bundleManagerPath:]
++[NDFileUtilities sessionPath:forBundleID:]
++[NDFileUtilities removeItemAtPath:]
++[NDFileUtilities removeItemAtURL:]
++[NDFileUtilities createDirectoryAtPath:]
++[NDFileUtilities createDirectoryAtURL:]
++[NDFileUtilities defaultDownloadDirectoryForBundleID:]
++[NDApplication initialize]
+___27+[NDApplication initialize]_block_invoke
++[NDApplication applicationWithIdentifier:]
++[NDApplication cloudContainerWithIdentifier:]
+-[NDApplication initWithIdentifier:]
+-[NDApplication containerURL]
+-[NDApplication supportsWakes]
+-[NDApplication wakeForSessionIdentifier:]
+-[NDApplication hasForegroundBackgroundStates]
+-[NDApplication isForeground]
+-[NDApplication isAwake]
+-[NDApplication canBeSuspended]
+-[NDApplication isSuspended]
+-[NDApplication isBeingDebugged]
+-[NDApplication hasBackgroundTaskCompletion]
+-[NDApplication isHandlingBackgroudURLSessionWithIdentifier:]
+-[NDApplication addObserver:]
+-[NDApplication removeObserver:]
+-[NDApplication invokeSelectorForAllObservers:]
+___47-[NDApplication invokeSelectorForAllObservers:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDApplication bundleIdentifier]
+-[NDApplication setBundleIdentifier:]
+-[NDApplication currentRequestDelay]
+-[NDApplication setCurrentRequestDelay:]
+-[NDApplication .cxx_destruct]
+-[NDUserApplication observeValueForKeyPath:ofObject:change:context:]
+-[NDUserApplication addObserver:]
+-[NDUserApplication removeObserver:]
+-[NDUserApplication hasForegroundBackgroundStates]
+-[NDUserApplication isForeground]
++[NDCloudContainer containerIDForPrimaryIdentifier:secondaryIdentifier:]
+-[NDCloudContainer initWithIdentifier:]
+-[NDCloudContainer hasForegroundBackgroundStates]
+-[NDCloudContainer isForeground]
+-[NDCloudContainer supportsWakes]
+-[NDCloudContainer wakeForSessionIdentifier:]
+-[NDCloudContainer addObserver:]
+-[NDCloudContainer removeObserver:]
+-[NDCloudContainer containerDidEnterBackground:]
+-[NDCloudContainer containerDidEnterForeground:]
+-[NDCloudContainer .cxx_destruct]
+__ZL23initBRContainersMonitorv
+__ZL27BRContainersMonitorFunctionv
+____ZL13LoadCloudDocsv_block_invoke
+-[NDCredentialStorage initWithDelegate:]
+-[NDCredentialStorage populateWithInitialCredentials]
+___53-[NDCredentialStorage populateWithInitialCredentials]_block_invoke
+___53-[NDCredentialStorage populateWithInitialCredentials]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_13
+___destroy_helper_block_14
+-[NDCredentialStorage credentialsForProtectionSpace:]
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke
+___copy_helper_block_19
+___destroy_helper_block_20
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke25
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke_2
+___copy_helper_block_30
+___destroy_helper_block_31
+___copy_helper_block_33
+___destroy_helper_block_34
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___53-[NDCredentialStorage credentialsForProtectionSpace:]_block_invoke39
+___copy_helper_block_42
+___destroy_helper_block_43
+-[NDCredentialStorage allCredentials]
+___37-[NDCredentialStorage allCredentials]_block_invoke
+___copy_helper_block_45
+___destroy_helper_block_46
+___37-[NDCredentialStorage allCredentials]_block_invoke48
+___37-[NDCredentialStorage allCredentials]_block_invoke_2
+___copy_helper_block_51
+___destroy_helper_block_52
+___copy_helper_block_54
+___destroy_helper_block_55
+___37-[NDCredentialStorage allCredentials]_block_invoke59
+___copy_helper_block_61
+___destroy_helper_block_62
+-[NDCredentialStorage setCredential:forProtectionSpace:]
+___56-[NDCredentialStorage setCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_68
+___destroy_helper_block_69
+-[NDCredentialStorage removeCredential:forProtectionSpace:]
+___59-[NDCredentialStorage removeCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+-[NDCredentialStorage defaultCredentialForProtectionSpace:]
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke
+___copy_helper_block_76
+___destroy_helper_block_77
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke79
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke_2
+___copy_helper_block_80
+___destroy_helper_block_81
+___copy_helper_block_83
+___destroy_helper_block_84
+___59-[NDCredentialStorage defaultCredentialForProtectionSpace:]_block_invoke89
+___copy_helper_block_90
+___destroy_helper_block_91
+-[NDCredentialStorage setDefaultCredential:forProtectionSpace:]
+___63-[NDCredentialStorage setDefaultCredential:forProtectionSpace:]_block_invoke
+___copy_helper_block_95
+___destroy_helper_block_96
+-[NDCredentialStorage reset]
+___28-[NDCredentialStorage reset]_block_invoke
+___copy_helper_block_98
+___destroy_helper_block_99
+-[NDCredentialStorage delegate]
+-[NDCredentialStorage setDelegate:]
+-[NDCredentialStorage .cxx_destruct]
+-[NDTaskMonitor initWithTask:clientBundleIdentifier:secondaryIdentifier:monitoredApplication:priority:options:queue:]
+-[NDTaskMonitor currentThroughputThreshold]
+-[NDTaskMonitor currentIntervalEndDelta]
+-[NDTaskMonitor _onqueue_calculateThroughput]
+-[NDTaskMonitor _onqueue_setThroughputTimerForCurrentInterval]
+___62-[NDTaskMonitor _onqueue_setThroughputTimerForCurrentInterval]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDTaskMonitor _onqueue_taskTransferredData:countOfBytesReceived:]
+-[NDTaskMonitor taskTransferredData:countOfBytesReceived:]
+___58-[NDTaskMonitor taskTransferredData:countOfBytesReceived:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+-[NDTaskMonitor _onqueue_startThroughputMonitoring]
+-[NDTaskMonitor _onqueue_stopThroughputMonitoring]
+-[NDTaskMonitor _onqueue_taskWillResume]
+-[NDTaskMonitor _onqueue_taskWillSuspend]
+-[NDTaskMonitor _onqueue_cancel]
+-[NDTaskMonitor applicationWasQuitFromAppSwitcher:]
+___51-[NDTaskMonitor applicationWasQuitFromAppSwitcher:]_block_invoke
+___copy_helper_block_91
+___destroy_helper_block_92
+-[NDTaskMonitor backgroundUpdatesDisabledForApplication:]
+___57-[NDTaskMonitor backgroundUpdatesDisabledForApplication:]_block_invoke
+___copy_helper_block_94
+___destroy_helper_block_95
+-[NDTaskMonitor applicationEnteredForeground:]
+___46-[NDTaskMonitor applicationEnteredForeground:]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[NDTaskMonitor applicationNoLongerInForeground:]
+___49-[NDTaskMonitor applicationNoLongerInForeground:]_block_invoke
+___copy_helper_block_102
+___destroy_helper_block_103
+-[NDTaskMonitor basePriority]
+-[NDTaskMonitor setBasePriority:]
+-[NDTaskMonitor .cxx_destruct]
+__Z5NDLog10NDLogLevelP8NSStringz
+____ZL12setupLoggingv_block_invoke
+____ZL23debugFileLoggingEnabledv_block_invoke
+__ZL25booleanValueForPreferencePK10__CFStringa
++[Daemon sharedDaemon]
+___22+[Daemon sharedDaemon]_block_invoke
+-[Daemon createDaemonDirectory]
+-[Daemon init]
+-[Daemon archivePath]
+-[Daemon applicationIsInstalled:]
+-[Daemon setupNewClassMappingsForUnarchiver]
+-[Daemon restoreState]
+___22-[Daemon restoreState]_block_invoke
+-[Daemon archiveState]
+___22-[Daemon archiveState]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___22-[Daemon archiveState]_block_invoke134
+___copy_helper_block_140
+___destroy_helper_block_141
+-[Daemon listener:shouldAcceptNewConnection:]
+___45-[Daemon listener:shouldAcceptNewConnection:]_block_invoke
+___copy_helper_block_193
+___destroy_helper_block_194
+-[Daemon getSessionWithIdentifier:forBundleID:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___47-[Daemon getSessionWithIdentifier:forBundleID:]_block_invoke
+___copy_helper_block_204
+___destroy_helper_block_205
+-[Daemon managerBecameEmpty:bundleID:withCompletionHandler:]
+___60-[Daemon managerBecameEmpty:bundleID:withCompletionHandler:]_block_invoke
+___copy_helper_block_211
+___destroy_helper_block_212
+-[Daemon addTransaction]
+___24-[Daemon addTransaction]_block_invoke
+-[Daemon releaseTransaction]
+___28-[Daemon releaseTransaction]_block_invoke
+-[Daemon waitUntilDeviceIsUnlocked]
+-[Daemon start]
+___15-[Daemon start]_block_invoke
+-[Daemon queue]
+-[Daemon isPrivileged]
+-[Daemon setPrivileged:]
+-[Daemon .cxx_destruct]
+-[PendingCallback initWithCallbackType:taskIdentifier:args:]
++[PendingCallback supportsSecureCoding]
+-[PendingCallback encodeWithCoder:]
+-[PendingCallback initWithCoder:]
+-[PendingCallback type]
+-[PendingCallback setType:]
+-[PendingCallback taskIdentifier]
+-[PendingCallback setTaskIdentifier:]
+-[PendingCallback args]
+-[PendingCallback setArgs:]
+-[PendingCallback .cxx_destruct]
+-[NDCallbackQueue initWithDelegate:]
+-[NDCallbackQueue performCallback:]
+___35-[NDCallbackQueue performCallback:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___35-[NDCallbackQueue performCallback:]_block_invoke93
+___copy_helper_block_102
+___destroy_helper_block_103
+___35-[NDCallbackQueue performCallback:]_block_invoke110
+___copy_helper_block_113
+___destroy_helper_block_114
+___35-[NDCallbackQueue performCallback:]_block_invoke120
+___copy_helper_block_123
+___destroy_helper_block_124
+___35-[NDCallbackQueue performCallback:]_block_invoke126
+___copy_helper_block_129
+___destroy_helper_block_130
+___35-[NDCallbackQueue performCallback:]_block_invoke137
+___copy_helper_block_140
+___destroy_helper_block_141
+___35-[NDCallbackQueue performCallback:]_block_invoke143
+___copy_helper_block_146
+___destroy_helper_block_147
+___35-[NDCallbackQueue performCallback:]_block_invoke156
+___copy_helper_block_159
+___destroy_helper_block_160
+___35-[NDCallbackQueue performCallback:]_block_invoke162
+___copy_helper_block_165
+___destroy_helper_block_166
+-[NDCallbackQueue addPendingCallback:forceWakeup:]
+-[NDCallbackQueue performAllCallbacks]
+-[NDCallbackQueue count]
+-[NDCallbackQueue delegate]
+-[NDCallbackQueue setDelegate:]
+-[NDCallbackQueue .cxx_destruct]
++[NDDuetReporter session]
+___25+[NDDuetReporter session]_block_invoke
++[NDDuetReporter associateAttributeToBudgets:withSession:]
++[NDDuetReporter bundleIDAttribute]
+___35+[NDDuetReporter bundleIDAttribute]_block_invoke
++[NDDuetReporter nonDiscretionaryAttribute]
+___43+[NDDuetReporter nonDiscretionaryAttribute]_block_invoke
+-[NDDuetReporter performBlockOnDuetQueue:]
+___42-[NDDuetReporter performBlockOnDuetQueue:]_block_invoke
+-[NDDuetReporter initWithBundleIdentifier:discretionary:]
+-[NDDuetReporter initWithSecondaryIdentifier:]
+-[NDDuetReporter transferStarted]
+___33-[NDDuetReporter transferStarted]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NDDuetReporter updateProgressWithBytesSent:bytesReceived:cellularBytesSent:cellularBytesReceived:]
+___100-[NDDuetReporter updateProgressWithBytesSent:bytesReceived:cellularBytesSent:cellularBytesReceived:]_block_invoke
+___copy_helper_block_93
+___destroy_helper_block_94
+-[NDDuetReporter transferStopped]
+___33-[NDDuetReporter transferStopped]_block_invoke
+___copy_helper_block_100
+___destroy_helper_block_101
+-[NDDuetReporter .cxx_destruct]
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table9
+GCC_except_table0
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table9
+GCC_except_table10
+GCC_except_table14
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table24
+GCC_except_table25
+GCC_except_table27
+GCC_except_table28
+GCC_except_table31
+GCC_except_table0
+GCC_except_table7
+GCC_except_table8
+GCC_except_table10
+GCC_except_table13
+GCC_except_table16
+GCC_except_table17
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table22
+GCC_except_table31
+GCC_except_table33
+GCC_except_table34
+GCC_except_table35
+GCC_except_table36
+GCC_except_table37
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table41
+GCC_except_table44
+GCC_except_table45
+GCC_except_table46
+GCC_except_table53
+GCC_except_table54
+GCC_except_table59
+GCC_except_table61
+GCC_except_table65
+GCC_except_table66
+GCC_except_table67
+GCC_except_table71
+GCC_except_table72
+GCC_except_table73
+GCC_except_table74
+GCC_except_table75
+GCC_except_table76
+GCC_except_table77
+GCC_except_table79
+GCC_except_table82
+GCC_except_table83
+GCC_except_table86
+GCC_except_table87
+GCC_except_table88
+GCC_except_table89
+GCC_except_table90
+GCC_except_table91
+GCC_except_table92
+GCC_except_table93
+GCC_except_table95
+GCC_except_table96
+GCC_except_table99
+GCC_except_table100
+GCC_except_table101
+GCC_except_table102
+GCC_except_table103
+GCC_except_table104
+GCC_except_table105
+GCC_except_table106
+GCC_except_table107
+GCC_except_table109
+GCC_except_table113
+GCC_except_table114
+GCC_except_table123
+GCC_except_table124
+GCC_except_table128
+GCC_except_table131
+GCC_except_table133
+GCC_except_table134
+GCC_except_table137
+GCC_except_table140
+GCC_except_table147
+GCC_except_table148
+GCC_except_table149
+GCC_except_table150
+GCC_except_table151
+GCC_except_table152
+GCC_except_table155
+GCC_except_table156
+GCC_except_table157
+GCC_except_table158
+GCC_except_table159
+GCC_except_table160
+GCC_except_table2
+GCC_except_table4
+GCC_except_table7
+GCC_except_table10
+GCC_except_table16
+GCC_except_table17
+GCC_except_table2
+GCC_except_table3
+GCC_except_table6
+GCC_except_table7
+GCC_except_table13
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table8
+GCC_except_table13
+GCC_except_table17
+GCC_except_table21
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table7
+GCC_except_table8
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table6
+GCC_except_table7
+GCC_except_table16
+GCC_except_table17
+GCC_except_table19
+GCC_except_table27
+GCC_except_table28
+GCC_except_table29
+GCC_except_table31
+GCC_except_table32
+GCC_except_table33
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table41
+GCC_except_table0
+GCC_except_table1
+GCC_except_table8
+GCC_except_table13
+GCC_except_table23
+GCC_except_table36
+GCC_except_table37
+GCC_except_table40
+GCC_except_table41
+GCC_except_table44
+GCC_except_table49
+GCC_except_table54
+GCC_except_table57
+GCC_except_table58
+GCC_except_table0
+GCC_except_table3
+GCC_except_table4
+GCC_except_table8
+GCC_except_table15
+GCC_except_table19
+GCC_except_table23
+GCC_except_table27
+GCC_except_table0
+GCC_except_table2
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table8
+GCC_except_table9
+GCC_except_table10
+GCC_except_table16
+GCC_except_table17
+GCC_except_table23
+GCC_except_table27
+GCC_except_table35
+GCC_except_table0
+GCC_except_table2
+GCC_except_table3
+GCC_except_table11
+GCC_except_table12
+GCC_except_table13
+GCC_except_table16
+GCC_except_table19
+GCC_except_table22
+GCC_except_table25
+GCC_except_table28
+GCC_except_table31
+GCC_except_table34
+GCC_except_table37
+GCC_except_table40
+GCC_except_table41
+GCC_except_table2
+GCC_except_table4
+GCC_except_table6
+GCC_except_table9
+GCC_except_table10
+GCC_except_table11
+GCC_except_table12
+GCC_except_table15
+GCC_except_table16
+GCC_except_table19
+GCC_except_table20
+__ZL25kNDThroughputKBThresholds
+__ZL31kNDThroughputIntervalEndMinutes
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp124
+___block_descriptor_tmp129
+___block_descriptor_tmp261
+___block_descriptor_tmp277
+___block_literal_global
+___block_descriptor_tmp286
+___block_descriptor_tmp293
+___block_literal_global294
+___block_descriptor_tmp297
+___block_descriptor_tmp300
+___block_literal_global301
+___block_descriptor_tmp304
+___block_descriptor_tmp
+___block_descriptor_tmp298
+___block_descriptor_tmp305
+___block_descriptor_tmp515
+___block_descriptor_tmp564
+___block_descriptor_tmp576
+___block_descriptor_tmp603
+___block_descriptor_tmp628
+___block_descriptor_tmp680
+___block_descriptor_tmp790
+___block_descriptor_tmp845
+___block_descriptor_tmp878
+___block_descriptor_tmp893
+___block_descriptor_tmp899
+___block_descriptor_tmp910
+___block_descriptor_tmp919
+___block_descriptor_tmp960
+___block_descriptor_tmp967
+___block_descriptor_tmp976
+___block_descriptor_tmp980
+___block_descriptor_tmp1028
+___block_descriptor_tmp1045
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp40
+___block_descriptor_tmp57
+___block_descriptor_tmp59
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp32
+___block_descriptor_tmp35
+___block_descriptor_tmp46
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp28
+___block_descriptor_tmp47
+___block_descriptor_tmp58
+___block_descriptor_tmp68
+___block_descriptor_tmp73
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp52
+___block_descriptor_tmp194
+___block_literal_global195
+___block_descriptor_tmp
+___block_descriptor_tmp16
+___block_descriptor_tmp22
+___block_descriptor_tmp32
+___block_descriptor_tmp36
+___block_descriptor_tmp44
+___block_descriptor_tmp47
+___block_descriptor_tmp53
+___block_descriptor_tmp56
+___block_descriptor_tmp63
+___block_descriptor_tmp70
+___block_descriptor_tmp75
+___block_descriptor_tmp78
+___block_descriptor_tmp82
+___block_descriptor_tmp86
+___block_descriptor_tmp92
+___block_descriptor_tmp97
+___block_descriptor_tmp100
+___block_descriptor_tmp
+___block_descriptor_tmp75
+___block_descriptor_tmp93
+___block_descriptor_tmp96
+___block_descriptor_tmp101
+___block_descriptor_tmp104
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp36
+___block_literal_global37
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp112
+___block_literal_global113
+___block_descriptor_tmp131
+___block_descriptor_tmp142
+___block_descriptor_tmp195
+___block_descriptor_tmp206
+___block_descriptor_tmp213
+___block_descriptor_tmp217
+___block_literal_global218
+___block_descriptor_tmp221
+___block_literal_global222
+___block_descriptor_tmp243
+___block_literal_global244
+___block_descriptor_tmp
+___block_descriptor_tmp105
+___block_descriptor_tmp115
+___block_descriptor_tmp125
+___block_descriptor_tmp132
+___block_descriptor_tmp142
+___block_descriptor_tmp149
+___block_descriptor_tmp161
+___block_descriptor_tmp168
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp31
+___block_literal_global32
+___block_descriptor_tmp41
+___block_literal_global42
+___block_descriptor_tmp44
+___block_literal_global45
+___block_descriptor_tmp75
+___block_descriptor_tmp95
+___block_descriptor_tmp102
+_OBJC_IVAR_$_NDSessionManager._delegate
+_OBJC_IVAR_$_NDSessionManager._clientBundleID
+_OBJC_IVAR_$_NDSessionManager._sessions
+_OBJC_IVAR_$_NDSessionManager._reconnectingProxies
+_OBJC_IVAR_$_NDSessionManager._bundleDirectory
+_OBJC_IVAR_$_NDSessionManager._queue
+_OBJC_IVAR_$_NDSessionManager._sessionArchiveQueue
+_OBJC_IVAR_$_NDSessionManager._boost
+_OBJC_IVAR_$_NDSessionManager._isSpringBoardApp
+_OBJC_IVAR_$_NDSessionManager._xpcConn
+_OBJC_IVAR_$_NDSessionManager._obliterationCompletion
+_OBJC_IVAR_$_DummyQueue._queue
+_OBJC_IVAR_$_NDBackgroundSession._credentialStorage
+_OBJC_IVAR_$_NDBackgroundSession._monitoredAppBundleID
+_OBJC_IVAR_$_NDBackgroundSession._secondaryID
+_OBJC_IVAR_$_NDBackgroundSession._delegate
+_OBJC_IVAR_$_NDBackgroundSession._clientBundleID
+_OBJC_IVAR_$_NDBackgroundSession._monitoredApplication
+_OBJC_IVAR_$_NDBackgroundSession._clientApplication
+_OBJC_IVAR_$_NDBackgroundSession._identifier
+_OBJC_IVAR_$_NDBackgroundSession._sharedContainerIdentifier
+_OBJC_IVAR_$_NDBackgroundSession._sessionDirectory
+_OBJC_IVAR_$_NDBackgroundSession._downloadDirectory
+_OBJC_IVAR_$_NDBackgroundSession._uploadsDirectory
+_OBJC_IVAR_$_NDBackgroundSession._workQueue
+_OBJC_IVAR_$_NDBackgroundSession._archiveQueue
+_OBJC_IVAR_$_NDBackgroundSession._clientProxy
+_OBJC_IVAR_$_NDBackgroundSession._discretionary
+_OBJC_IVAR_$_NDBackgroundSession._sendsLaunchEvents
+_OBJC_IVAR_$_NDBackgroundSession._performsEVCertCheck
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsWillSendRequest
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsSessionChallenge
+_OBJC_IVAR_$_NDBackgroundSession._clientImplementsTaskChallenge
+_OBJC_IVAR_$_NDBackgroundSession._userInitiatedSession
+_OBJC_IVAR_$_NDBackgroundSession._discretionaryPrioritySession
+_OBJC_IVAR_$_NDBackgroundSession._callbackQueue
+_OBJC_IVAR_$_NDBackgroundSession._tasksToIdentifiers
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToTasks
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToTaskInfo
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToMonitors
+_OBJC_IVAR_$_NDBackgroundSession._outstandingTaskIDs
+_OBJC_IVAR_$_NDBackgroundSession._shouldPullInitialCredentials
+_OBJC_IVAR_$_NDBackgroundSession._retryDataTasks
+_OBJC_IVAR_$_NDBackgroundSession._infersDiscretionary
+_OBJC_IVAR_$_NDBackgroundSession._obliterated
+_OBJC_IVAR_$_NDBackgroundSession._cleanedUp
+_OBJC_IVAR_$_NDBackgroundSession._clientPID
+_OBJC_IVAR_$_NDBackgroundSession._xpcConn
+_OBJC_IVAR_$_NDBackgroundSession._connectedExtension
+_OBJC_IVAR_$_NDBackgroundSession._lastArchiveTime
+_OBJC_IVAR_$_NDBackgroundSession._hasBeenSignalledToDeliverPendingEvents
+_OBJC_IVAR_$_NDBackgroundSession._completeReconnectionBlock
+_OBJC_IVAR_$_NDBackgroundSession._invalidateReply
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToStreamQueues
+_OBJC_IVAR_$_NDBackgroundSession._identifiersToStreams
+_OBJC_IVAR_$_NDFileLogger._workQueue
+_OBJC_IVAR_$_NDFileLogger._lastFileStatTime
+_OBJC_IVAR_$_NDFileLogger._logsDirectoryPath
+_OBJC_IVAR_$_NDFileLogger._fileObserverSource
+_OBJC_IVAR_$_NDFileLogger._fileHandle
+_OBJC_IVAR_$_NDStatusMonitor._dynamicStoreSource
+_OBJC_IVAR_$_NDStatusMonitor._blocksToExecuteAfterNetworkChange
+_OBJC_IVAR_$_NDStatusMonitor._networkChangeEventCount
+_OBJC_IVAR_$_NDStatusMonitor._queue
+_OBJC_IVAR_$_NDStatusMonitor._symptomToken
+_OBJC_IVAR_$_NDUserEventAgentConnection._queue
+_OBJC_IVAR_$_NDUserEventAgentConnection._pendingWakes
+_OBJC_IVAR_$_NDUserEventAgentConnection._listener
+_OBJC_IVAR_$_NDUserEventAgentConnection._connection
+_OBJC_IVAR_$_NDUserEventAgentConnection._registeredClients
+_OBJC_IVAR_$_NDApplication._bundleIdentifier
+_OBJC_IVAR_$_NDApplication._observers
+_OBJC_IVAR_$_NDApplication._currentRequestDelay
+_OBJC_IVAR_$_NDCloudContainer._monitor
+_OBJC_IVAR_$_NDCloudContainer._initializedForegroundState
+_OBJC_IVAR_$_NDCloudContainer._isForeground
+_OBJC_IVAR_$_NDCredentialStorage._delegate
+_OBJC_IVAR_$_NDCredentialStorage._cachedCredentials
+_OBJC_IVAR_$_NDCredentialStorage._cachedDefaultCredentialUsers
+_OBJC_IVAR_$_NDCredentialStorage._queue
+_OBJC_IVAR_$_NDTaskMonitor._task
+_OBJC_IVAR_$_NDTaskMonitor._queue
+_OBJC_IVAR_$_NDTaskMonitor._clientBundleIdentifier
+_OBJC_IVAR_$_NDTaskMonitor._clientSecondaryIdentifier
+_OBJC_IVAR_$_NDTaskMonitor._monitoredApplication
+_OBJC_IVAR_$_NDTaskMonitor._basePriority
+_OBJC_IVAR_$_NDTaskMonitor._discretionary
+_OBJC_IVAR_$_NDTaskMonitor._explicitlyDiscretionary
+_OBJC_IVAR_$_NDTaskMonitor._performsNonDiscretionaryThrougputMonitoring
+_OBJC_IVAR_$_NDTaskMonitor._throughputInterval
+_OBJC_IVAR_$_NDTaskMonitor._progressValues
+_OBJC_IVAR_$_NDTaskMonitor._progressTimestamps
+_OBJC_IVAR_$_NDTaskMonitor._throughputTimer
+_OBJC_IVAR_$_NDTaskMonitor._hasTransferredData
+_OBJC_IVAR_$_NDTaskMonitor._startedDuetReporter
+_OBJC_IVAR_$_NDTaskMonitor._duetReporter
+_OBJC_IVAR_$_NDTaskMonitor._connectionIsCellular
+_OBJC_IVAR_$_Daemon._clients
+_OBJC_IVAR_$_Daemon._queue
+_OBJC_IVAR_$_Daemon._transactionQueue
+_OBJC_IVAR_$_Daemon._privileged
+_OBJC_IVAR_$_PendingCallback._type
+_OBJC_IVAR_$_PendingCallback._taskIdentifier
+_OBJC_IVAR_$_PendingCallback._args
+_OBJC_IVAR_$_NDCallbackQueue._callbacks
+_OBJC_IVAR_$_NDCallbackQueue._delegate
+_OBJC_IVAR_$_NDDuetReporter._attribute
+_OBJC_IVAR_$_NDDuetReporter._value
+_OBJC_IVAR_$_NDDuetReporter._xferID
+_OBJC_CLASS_$_NDSessionManager
+_OBJC_METACLASS_$_NDSessionManager
+_OBJC_CLASS_$_DummyQueue
+_OBJC_METACLASS_$_DummyQueue
+_OBJC_CLASS_$_NDBackgroundSession
+_OBJC_METACLASS_$_NDBackgroundSession
+_OBJC_CLASS_$_NDFileLogger
+_OBJC_METACLASS_$_NDFileLogger
+_OBJC_CLASS_$_NDStatusMonitor
+_OBJC_METACLASS_$_NDStatusMonitor
+_OBJC_CLASS_$_NDUserEventAgentConnection
+_OBJC_METACLASS_$_NDUserEventAgentConnection
+_OBJC_CLASS_$_NDFileUtilities
+_OBJC_METACLASS_$_NDFileUtilities
+_OBJC_CLASS_$_NDApplication
+_OBJC_CLASS_$_NDUserApplication
+_OBJC_CLASS_$_NDCloudContainer
+_OBJC_METACLASS_$_NDApplication
+_OBJC_METACLASS_$_NDUserApplication
+_OBJC_METACLASS_$_NDCloudContainer
+_OBJC_CLASS_$_NDCredentialStorage
+_OBJC_METACLASS_$_NDCredentialStorage
+_OBJC_CLASS_$_NDTaskMonitor
+_OBJC_METACLASS_$_NDTaskMonitor
+_OBJC_CLASS_$_Daemon
+_OBJC_METACLASS_$_Daemon
+_OBJC_CLASS_$_PendingCallback
+_OBJC_METACLASS_$_PendingCallback
+_OBJC_CLASS_$_NDCallbackQueue
+_OBJC_METACLASS_$_NDCallbackQueue
+_OBJC_CLASS_$_NDDuetReporter
+_OBJC_METACLASS_$_NDDuetReporter
+__ZL27getBRContainersMonitorClass
+__ZZ32+[NDFileLogger sharedFileLogger]E7sLogger
+__ZZ32+[NDFileLogger sharedFileLogger]E9onceToken
+__ZZ32+[NDStatusMonitor sharedMonitor]E4once
+__ZZ32+[NDStatusMonitor sharedMonitor]E13sharedMonitor
+__ZZ60+[NDUserEventAgentConnection sharedUserEventAgentConnection]E31sSharedUserEventAgentConnection
+__ZZ60+[NDUserEventAgentConnection sharedUserEventAgentConnection]E9onceToken
+__ZL13gApplications
+__ZZ27+[NDApplication initialize]E9onceToken
+__ZL24classBRContainersMonitor
+__ZZL13LoadCloudDocsvE16frameworkLibrary
+__ZZL13LoadCloudDocsvE13loadPredicate
+__ZL7gLogger
+__ZL14gDateFormatter
+__ZZL12setupLoggingvE9onceToken
+__ZZL23debugFileLoggingEnabledvE16hasAppleInternal
+__ZZL23debugFileLoggingEnabledvE9onceToken
+__ZZ22+[Daemon sharedDaemon]E4once
+__ZZ22+[Daemon sharedDaemon]E7manager
+__ZZ25+[NDDuetReporter session]E11sessionOnce
+__ZZ25+[NDDuetReporter session]E7session
+__ZZ35+[NDDuetReporter bundleIDAttribute]E9onceToken
+__ZZ35+[NDDuetReporter bundleIDAttribute]E17bundleIDAttribute
+__ZZ43+[NDDuetReporter nonDiscretionaryAttribute]E9onceToken
+__ZZ43+[NDDuetReporter nonDiscretionaryAttribute]E25nonDiscretionaryAttribute
+__ZZ42-[NDDuetReporter performBlockOnDuetQueue:]E9onceToken
+__ZZ42-[NDDuetReporter performBlockOnDuetQueue:]E9duetQueue
+__mh_execute_header
+_CC_SHA1
+_CFAbsoluteTimeGetCurrent
+_CFArrayAppendValue
+_CFArrayCreateMutable
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyInfoDictionaryForURL
+_CFDateFormatterCreate
+_CFDateFormatterCreateStringWithAbsoluteTime
+_CFDateFormatterSetFormat
+_CFEqual
+_CFGetTypeID
+_CFLog
+_CFPreferencesCopyAppValue
+_CFReadStreamSetProperty
+_CFRelease
+_CFRunLoopAddSource
+_CFRunLoopGetMain
+_CFRunLoopSourceInvalidate
+_CFStreamCreatePairWithSocket
+_CFStringGetTypeID
+_CFURLCopyLastPathComponent
+_NSFileHandleOperationException
+_NSKeyValueChangeKindKey
+_NSKeyValueChangeNewKey
+_NSKeyValueChangeOldKey
+_NSLog
+_NSSearchPathForDirectoriesInDomains
+_NSTemporaryDirectory
+_NSURLAuthenticationMethodServerTrust
+_NSURLErrorDomain
+_NSURLSessionDownloadTaskResumeData
+_OBJC_CLASS_$_CDAttribute
+_OBJC_CLASS_$_CDSession
+_OBJC_CLASS_$_LSApplicationProxy
+_OBJC_CLASS_$_LSApplicationWorkspace
+_OBJC_CLASS_$_LSPlugInKitProxy
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLCredential
+_OBJC_CLASS_$_NSURLCredentialStorage
+_OBJC_CLASS_$_NSURLSession
+_OBJC_CLASS_$_NSURLSessionConfiguration
+_OBJC_CLASS_$_NSURLSessionTask
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCListener
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSURLCredentialStorage
+_SCDynamicStoreCreate
+_SCDynamicStoreCreateRunLoopSource
+_SCDynamicStoreKeyCreateNetworkGlobalEntity
+_SCDynamicStoreKeyCreateNetworkInterfaceEntity
+_SCDynamicStoreSetNotificationKeys
+_SCError
+_SCErrorString
+_SecCodeCopyGuestWithAttributes
+_SecCodeCopyPath
+_SecTrustEvaluate
+__Block_object_assign
+__Block_object_dispose
+__CFXPCCreateCFObjectFromXPCObject
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZSt9terminatev
+___CFConstantStringClassReference
+___cxa_begin_catch
+___error
+___gxx_personality_v0
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_source_type_signal
+__dispatch_source_type_timer
+__dispatch_source_type_vnode
+__kCFStreamPropertyIndefiniteConnectionKickInterval
+__kCFStreamPropertyLargeDownload
+__kCFStreamPropertyWatchdogTimeout
+__objc_empty_cache
+__xpc_type_connection
+__xpc_type_dictionary
+_close
+_dispatch_after
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_main
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_sync
+_dispatch_time
+_dlopen
+_dup
+_exit
+_exp2
+_free
+_getpid
+_kCFBooleanTrue
+_kCFBundleIdentifierKey
+_kCFErrorDomainCFNetwork
+_kCFRunLoopDefaultMode
+_kCFStreamPropertyAccountIdentifier
+_kCFStreamPropertyConditionalConnectionProperties
+_kCFStreamPropertyDUETConditional
+_kCFStreamPropertyIndefiniteConnection
+_kCFStreamPropertyNoCellular
+_kCFStreamPropertyShouldCloseNativeSocket
+_kCFStreamPropertySourceApplicationBundleIdentifier
+_kCFTypeArrayCallBacks
+_kConditionalConnectionRequirementPowerPluggedIn
+_kConditionalConnectionRequirementTimeWindowDelay
+_kConditionalConnectionRequirementTimeWindowDuration
+_kConditionalConnectionRequirementWorkload
+_kNSURLSessionLaunchOnDemandClientIdentifierKey
+_kNSURLSessionLaunchOnDemandSessionIdentifierKey
+_kNetworkdStartedNotificationName
+_kSCCompAnyRegex
+_kSCDynamicStoreDomainState
+_kSCEntNetIPv4
+_kSCEntNetIPv6
+_kSecGuestAttributePid
+_malloc
+_network_config_pool_set_limit
+_notify_post
+_notify_register_dispatch
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_getClass
+_objc_getProperty
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_open
+_rename
+_sandbox_container_path_for_pid
+_sandbox_extension_consume
+_sandbox_extension_release
+_stat$INODE64
+_strcmp
+_strlen
+_xpc_connection_cancel
+_xpc_connection_copy_bundle_id
+_xpc_connection_create_mach_service
+_xpc_connection_is_extension
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_connection_set_target_queue
+_xpc_dictionary_create
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_string
+_xpc_get_type
+_xpc_track_activity
+dyld_stub_binder

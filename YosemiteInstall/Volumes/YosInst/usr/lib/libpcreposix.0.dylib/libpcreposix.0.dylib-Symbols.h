@@ -1,0 +1,17 @@
+radr://5614542
+_regcomp
+_regerror
+_regexec
+_regfree
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+_free
+_malloc
+_pcre_compile2
+_pcre_exec
+_pcre_free
+_pcre_info
+_strlen
+_strncpy
+dyld_stub_binder

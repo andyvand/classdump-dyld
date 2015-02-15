@@ -1,0 +1,15 @@
+radr://5614542
+_pam_sm_acct_mgmt
+___stack_chk_fail
+___stack_chk_guard
+__openpam_log
+_asprintf
+_free
+_getgrnam
+_getpwnam_r
+_mbr_check_service_membership
+_mbr_user_name_to_uuid
+_openpam_get_option
+_pam_get_user
+_strrchr
+dyld_stub_binder

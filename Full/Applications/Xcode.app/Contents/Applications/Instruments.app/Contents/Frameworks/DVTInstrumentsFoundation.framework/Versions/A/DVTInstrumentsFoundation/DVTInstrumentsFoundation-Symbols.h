@@ -1,0 +1,3087 @@
+-[_XRExpiredPidCache .cxx_destruct]
+-[XRExpiredPidCacheServiceProtected init]
+-[XRExpiredPidCacheServiceProtected _performOnCache:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___53-[XRExpiredPidCacheServiceProtected _performOnCache:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XRExpiredPidCacheServiceProtected .cxx_destruct]
+-[DTExpiredPidCacheService init]
+___32-[DTExpiredPidCacheService init]_block_invoke
+__reset_signatures
+-[DTExpiredPidCacheService dealloc]
+___35-[DTExpiredPidCacheService dealloc]_block_invoke
++[DTExpiredPidCacheService disableExpiredPidCaching]
++[DTExpiredPidCacheService defaultCache]
+___40+[DTExpiredPidCacheService defaultCache]_block_invoke
+-[DTExpiredPidCacheService signatureForExpiredPid:]
+___51-[DTExpiredPidCacheService signatureForExpiredPid:]_block_invoke
+___51-[DTExpiredPidCacheService signatureForExpiredPid:]_block_invoke_2
+__importSignatures
+___copy_helper_block_41
+___destroy_helper_block_42
+___copy_helper_block_54
+___destroy_helper_block_55
+-[DTExpiredPidCacheService allExpiredSignatures]
+___48-[DTExpiredPidCacheService allExpiredSignatures]_block_invoke
+___copy_helper_block_60
+___destroy_helper_block_61
+-[DTExpiredPidCacheService enableCaching:]
+___42-[DTExpiredPidCacheService enableCaching:]_block_invoke
+___42-[DTExpiredPidCacheService enableCaching:]_block_invoke_2
+___copy_helper_block_66
+___destroy_helper_block_67
+___activity_start_monitoring_block_invoke
+___activity_stop_monitoring_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___activity_collect_statistics_block_invoke
+___activity_collect_statistics_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_14
+___destroy_helper_block_15
+___powermetrics_start_block_invoke
+___powermetrics_start_block_invoke_2
+___powermetrics_start_block_invoke_3
+___powermetrics_start_block_invoke_4
+___copy_helper_block_40
+___destroy_helper_block_41
+___copy_helper_block_49
+___destroy_helper_block_50
+___copy_helper_block_55
+___destroy_helper_block_56
+___copy_helper_block_58
+___destroy_helper_block_59
+___powermetrics_stop_block_invoke
++[DTApplicationWorkspaceObserver sharedInstance]
+___48+[DTApplicationWorkspaceObserver sharedInstance]_block_invoke
+-[DTApplicationWorkspaceObserver init]
+-[DTApplicationWorkspaceObserver _notifyWithDictionaryRepresentation:addition:]
+___79-[DTApplicationWorkspaceObserver _notifyWithDictionaryRepresentation:addition:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___79-[DTApplicationWorkspaceObserver _notifyWithDictionaryRepresentation:addition:]_block_invoke56
+___copy_helper_block_57
+___destroy_helper_block_58
+-[DTApplicationWorkspaceObserver registerNotificationToken:observer:query:]
+__transposeApplicationProxy
+__transposePluginKitProxy
+__internalToken
+___75-[DTApplicationWorkspaceObserver registerNotificationToken:observer:query:]_block_invoke
+__dictionaryRepresentationMatchesQuery
+___copy_helper_block_101
+___destroy_helper_block_102
+___75-[DTApplicationWorkspaceObserver registerNotificationToken:observer:query:]_block_invoke108
+___copy_helper_block_109
+___destroy_helper_block_110
+-[DTApplicationWorkspaceObserver _unregisterNotificationTokenInternal:]
+-[DTApplicationWorkspaceObserver unregisterNotificationToken:observer:]
+-[DTApplicationWorkspaceObserver applicationsDidInstall:]
+-[DTApplicationWorkspaceObserver pluginsDidInstall:]
+-[DTApplicationWorkspaceObserver applicationsDidUninstall:]
+-[DTApplicationWorkspaceObserver pluginsDidUninstall:]
+-[DTApplicationWorkspaceObserver .cxx_destruct]
+____dictionaryRepresentationMatchesQuery_block_invoke
+___copy_helper_block_196
+___destroy_helper_block_197
+__mutableDictRepresentation
+__conditionallySet
+__transposeType
+-[XRNetworkingServiceObservationTuple initWithKind:count:]
+-[XRNetworkingServiceObservationTuple initWithKind:count:source:indexToKeyMap:]
+-[XRNetworkingServiceObservationTuple dealloc]
+-[XRNetworkingServiceObservationTuple kind]
+-[XRNetworkingServiceObservationTuple setKind:]
+-[XRNetworkingServiceObservationTuple count]
+-[XRNetworkingServiceObservationTuple setCount:]
++[DTNetworkingService registerCapabilities:]
+-[DTNetworkingService initWithChannel:]
+_InterfaceIndexForName
+-[DTNetworkingService messageReceived:]
+-[DTNetworkingService startMonitoring]
+___38-[DTNetworkingService startMonitoring]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[DTNetworkingService serviceName]
+-[DTNetworkingService stopMonitoring]
+___37-[DTNetworkingService stopMonitoring]_block_invoke
+___copy_helper_block_72
+___destroy_helper_block_73
+-[DTNetworkingService setTargetPID:]
+___36-[DTNetworkingService setTargetPID:]_block_invoke
+___copy_helper_block_81
+___destroy_helper_block_82
+-[DTNetworkingService replayLastRecordedSession]
+___48-[DTNetworkingService replayLastRecordedSession]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[DTNetworkingService .cxx_destruct]
+____startMonitoring_block_invoke
+____startMonitoring_block_invoke_2
+_PassesPIDFilter
+_SendTupleToClient
+___copy_helper_block_192
+___destroy_helper_block_193
+____startMonitoring_block_invoke196
+___copy_helper_block_202
+___destroy_helper_block_203
+____startMonitoring_block_invoke205
+___copy_helper_block_206
+___destroy_helper_block_207
+___copy_helper_block_209
+___destroy_helper_block_210
+____startMonitoring_block_invoke213
+____startMonitoring_block_invoke_2214
+___copy_helper_block_215
+___destroy_helper_block_216
+___copy_helper_block_218
+___destroy_helper_block_219
+____startMonitoring_block_invoke221
+___copy_helper_block_222
+___destroy_helper_block_223
+___NetworkInterfaceSeen_block_invoke
+_InterfaceNameAtIndex
+___NetworkInterfaceSeen_block_invoke_2
+___NetworkInterfaceSeen_block_invoke_3
+___copy_helper_block_230
+___destroy_helper_block_231
+___copy_helper_block_235
+___destroy_helper_block_236
+___copy_helper_block_239
+___destroy_helper_block_240
+___InterfaceIndexForName_block_invoke
+___copy_helper_block_249
+___destroy_helper_block_250
++[DTDeviceInfoService registerCapabilities:]
++[DTDeviceInfoService isApplication:]
+-[DTDeviceInfoService initWithChannel:]
+-[DTDeviceInfoService dealloc]
+-[DTDeviceInfoService messageReceived:]
+-[DTDeviceInfoService machTimeInfo]
+-[DTDeviceInfoService runningProcesses]
+-[DTDeviceInfoService nameForUID:]
+-[DTDeviceInfoService nameForGID:]
+-[DTDeviceInfoService execnameForPid:]
+-[DTDeviceInfoService isRunningPid:]
+-[DTDeviceInfoService pidIs64Bit:]
+-[DTDeviceInfoService machKernelName]
+-[DTDeviceInfoService symbolicatorSignatureForPid:trackingSelector:]
+___68-[DTDeviceInfoService symbolicatorSignatureForPid:trackingSelector:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DTDeviceInfoService unregisterSignatureTrackingForPid:]
+-[DTDeviceInfoService symbolicatorSignaturesForExpiredPids]
+-[DTDeviceInfoService directoryListingForPath:]
+-[DTDeviceInfoService iconDescriptionFileForAppPath:]
+-[DTDeviceInfoService iconDescriptionForIconPath:]
+-[DTDeviceInfoService numberOfPhysicalCpus]
+-[DTDeviceInfoService numberOfCpus]
+-[DTDeviceInfoService speedOfCpus]
+-[DTDeviceInfoService hwCPUsubtype]
+_integerSysctlByName
+-[DTDeviceInfoService hwCPUtype]
+-[DTDeviceInfoService hwCPU64BitCapable]
+-[DTDeviceInfoService hardwareInformation]
+-[DTDeviceInfoService lookupSysctl:]
+-[DTDeviceInfoService uniqueID]
+-[DTDeviceInfoService productVersion]
+-[DTDeviceInfoService systemInformation]
+-[DTDeviceInfoService cpKDebugEventsAsXML]
+___42-[DTDeviceInfoService cpKDebugEventsAsXML]_block_invoke
+-[DTDeviceInfoService cpDeviceInfoAsXML]
+-[DTDeviceInfoService cpDeviceName]
+-[DTDeviceInfoService networkInformation]
+__currentCPDevice
++[DTSamplingService registerCapabilities:]
+-[DTSamplingService initWithChannel:]
+-[DTSamplingService dealloc]
+-[DTSamplingService setSamplingRate:]
+-[DTSamplingService setOutputRate:]
+-[DTSamplingService setTargetPid:]
+-[DTSamplingService startSampling]
+-[DTSamplingService stopSampling]
+-[DTSamplingService _outputData]
+-[DTSamplingService _allocateBuffer]
+-[DTSamplingService collectData]
+-[DTSamplingService addSampleWithTimeInfo:useZeroDelta:]
++[DTLaunchDaemonService registerCapabilities:]
+-[DTLaunchDaemonService setupOneShotDaemonWithDevicePath:environment:arguments:options:]
+___DTCPProcessorsForCurrentSystem_block_invoke
+___DTCPEventSetForCurrentOS_block_invoke
+__with_service_connection
+___oneshot_xpc_sync_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___oneshot_xpc_sync_block_invoke4
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_6
+___destroy_helper_block_7
+___oneshot_xpc_async_block_invoke
+___oneshot_xpc_async_block_invoke_2
+___copy_helper_block_10
+___destroy_helper_block_11
+___copy_helper_block_13
+___destroy_helper_block_14
+____with_service_connection_block_invoke
+_XRProcessWatcherAdd
+_XRProcessWatcherCopySignatures
+____ZN23XRProcessWatcherService26copySignatureBlobForClientEjPPhPjj_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+____ZN23XRProcessWatcherService10addWatcherEj_block_invoke
+___copy_helper_block_7
+___destroy_helper_block_8
+____ZN23XRProcessWatcherService9singletonEv_block_invoke
+___copy_helper_block_11
+___destroy_helper_block_12
+____ZN23XRProcessWatcherService21startMaintenanceTicksEP30XRProcessMaintenanceTickClient_block_invoke
+__ZN23XRProcessWatcherService9singletonEv
+__ZN23XRProcessWatcherService10addWatcherEj
+__ZN23XRProcessWatcherService26copySignatureBlobForClientEjPPhPjj
+__ZN23XRProcessWatcherService27_copySignatureBlobForClientEjPPhPjj
+__ZN23XRProcessWatcherService21startMaintenanceTicksEP30XRProcessMaintenanceTickClient
+__ZN23XRProcessWatcherService20stopMaintenanceTicksEP30XRProcessMaintenanceTickClient
+__ZNK23XRProcessWatcherService23maintenanceTickIntervalEv
+__ZN23XRProcessWatcherService17watcherWillAttachERK16XRProcessWatcheri
+__ZN23XRProcessWatcherService16watcherDidAttachERK16XRProcessWatcheri
+__ZN23XRProcessWatcherService20watcherDidDisconnectERK16XRProcessWatcher
+__ZN23XRProcessWatcherService17watcherNeedsQueueERK16XRProcessWatcher
+__ZN23XRProcessWatcherService20processWillTerminateER22XRProcessTableObserveri
+__ZN23XRProcessWatcherService19processDidTerminateER22XRProcessTableObserveri
+__ZN23XRProcessWatcherService18newProcessDetectedER22XRProcessTableObserveri
+__ZThn8_N23XRProcessWatcherService20processWillTerminateER22XRProcessTableObserveri
+__ZThn8_N23XRProcessWatcherService19processDidTerminateER22XRProcessTableObserveri
+__ZThn8_N23XRProcessWatcherService18newProcessDetectedER22XRProcessTableObserveri
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE14__erase_uniqueIS2_EEmRKT_
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE4findIS2_EENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEE
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEE
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE15__insert_uniqueERKS2_
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE6rehashEm
+__ZNSt3__112__hash_tableIP30XRProcessMaintenanceTickClientNS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE8__rehashEm
+_verify_instruments_rights
+__is_authorized_for_right
+___verify_instruments_rights_block_invoke
+__ApplyBlock
+___verify_instruments_rights_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+____instrumentsRightConfig_block_invoke
+__createRightsConfigForKeysAndValues
+__ZN16XRProcessWatcherC2EjP24XRProcessWatcherDelegate
+____ZN16XRProcessWatcherC2EjP24XRProcessWatcherDelegate_block_invoke
+__ZN16XRProcessWatcher23_receiverInClientIsDownEv
+__ZN16XRProcessWatcherC1EjP24XRProcessWatcherDelegate
+__ZN16XRProcessWatcherD2Ev
+__ZN16XRProcessWatcher19_releaseAllHeldPidsEv
+__ZN16XRProcessWatcher24_releaseAllSymbolicatorsEv
+__ZN16XRProcessWatcherD1Ev
+__ZN16XRProcessWatcher27trackSymbolicationSignatureEi
+__ZN16XRProcessWatcher14copySignaturesEv
+___clang_call_terminate
+__ZNSt3__16vectorI10_CSTypeRefNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_
+__ZNSt3__114__split_bufferI10_CSTypeRefRNS_9allocatorIS1_EEED2Ev
+__ZNSt3__16vectorIiNS_9allocatorIiEEE21__push_back_slow_pathIRKiEEvOT_
+__ZNSt3__114__split_bufferIiRNS_9allocatorIiEEED2Ev
+__ZNSt3__113__vector_baseIiNS_9allocatorIiEEED2Ev
+__ZNSt3__113__vector_baseI10_CSTypeRefNS_9allocatorIS1_EEED2Ev
+-[NSFileHandle(DVTInstrumentsFoundationAdditions) writeCPRecordArraysByCore:startingAtAbsoluteTime:error:]
+___106-[NSFileHandle(DVTInstrumentsFoundationAdditions) writeCPRecordArraysByCore:startingAtAbsoluteTime:error:]_block_invoke
+-[NSFileHandle(DVTInstrumentsFoundationAdditions) enumerateDTKDebugEventsWithBlock:progressTracker:]
+__ZNK10PageBuffer18convertEventToHostERNS_5EventE
+__ZN10PageBuffer20ForwardEventIteratorppEv
+__ZNK10PageBuffer5Event4sizeEv
+__ZN10PageBuffer5Event20setArgsAndBacktracesERK17DTKDebugArgumentsRK13DTKDebugStackS6_
+__ZN10PageBuffer15markEndOfBufferERKNS_23ForwardEventOutIteratorE
+__ZN10PageBuffer23ForwardEventOutIteratorppEv
+__ZN10PageBufferC2EPv
+-[_RecordContainerStrategy startTap:guard:]
+-[_RecordContainerStrategy stopTap:guard:]
+-[_RecordContainerStrategy pauseTap:guard:]
+-[_RecordContainerStrategy unpauseTap:guard:]
+-[_RecordContainerStrategy fetchFromTap:guard:]
+-[_RecordContainerStrategy reset:]
+-[_RecordContainerStrategy willInvokeClientHandlers:]
+-[_RecordContainerStrategy invokeClientHandlers:]
+___49-[_RecordContainerStrategy invokeClientHandlers:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+__DestroyContainers
+-[_RecordContainerStrategy isSessionBased]
+-[_RecordContainerStrategy setSessionHandler:guard:]
+-[_RecordContainerStrategy receivedRecordContainers:count:guard:]
+-[_RecordContainerStrategy dealloc]
+-[_RecordContainerStrategy tapRecordContainerHandler]
+-[_RecordContainerStrategy setTapRecordContainerHandler:]
+-[_RecordContainerStrategy .cxx_destruct]
+-[_SessionContainerStrategy startTap:guard:]
+-[_SessionContainerStrategy stopTap:guard:]
+-[_SessionContainerStrategy pauseTap:guard:]
+-[_SessionContainerStrategy unpauseTap:guard:]
+-[_SessionContainerStrategy fetchFromTap:guard:]
+-[_SessionContainerStrategy reset:]
+-[_SessionContainerStrategy isSessionBased]
+-[_SessionContainerStrategy willInvokeClientHandlers:]
+-[_SessionContainerStrategy invokeClientHandlers:]
+___50-[_SessionContainerStrategy invokeClientHandlers:]_block_invoke
+___copy_helper_block_154
+___destroy_helper_block_155
+-[_SessionContainerStrategy setSessionHandler:guard:]
+-[_SessionContainerStrategy receivedRecordContainers:count:guard:]
+-[_SessionContainerStrategy .cxx_destruct]
+-[_CPTapGuarded reset]
+-[_CPTapGuarded dealloc]
+-[_CPTapGuarded setSession:]
+-[_CPTapGuarded session]
+-[_CPTapGuarded setUnprocessedSession:]
+-[_CPTapGuarded unprocessedSession]
+-[_CPTapGuarded UUID]
+-[_CPTapGuarded setUUID:]
+-[_CPTapGuarded internalSrc]
+-[_CPTapGuarded setInternalSrc:]
+-[_CPTapGuarded suspendCount]
+-[_CPTapGuarded setSuspendCount:]
+-[_CPTapGuarded stoppedWhileSuspended]
+-[_CPTapGuarded setStoppedWhileSuspended:]
+-[_CPTapGuarded removeValidatedPathWhenComplete]
+-[_CPTapGuarded setRemoveValidatedPathWhenComplete:]
+-[_CPTapGuarded latestConfig]
+-[_CPTapGuarded setLatestConfig:]
+-[_CPTapGuarded latestValidatedPath]
+-[_CPTapGuarded setLatestValidatedPath:]
+-[_CPTapGuarded currentConfig]
+-[_CPTapGuarded setCurrentConfig:]
+-[_CPTapGuarded currentContainerPath]
+-[_CPTapGuarded setCurrentContainerPath:]
+-[_CPTapGuarded hasAtLeastOneRecordHandler]
+-[_CPTapGuarded setHasAtLeastOneRecordHandler:]
+-[_CPTapGuarded recordHandlers]
+-[_CPTapGuarded setRecordHandlers:]
+-[_CPTapGuarded recordContainerHandlers]
+-[_CPTapGuarded setRecordContainerHandlers:]
+-[_CPTapGuarded containersCreated]
+-[_CPTapGuarded setContainersCreated:]
+-[_CPTapGuarded running]
+-[_CPTapGuarded setRunning:]
+-[_CPTapGuarded connectionEnabled]
+-[_CPTapGuarded setConnectionEnabled:]
+-[_CPTapGuarded paused]
+-[_CPTapGuarded setPaused:]
+-[_CPTapGuarded preserveContainerFiles]
+-[_CPTapGuarded setPreserveContainerFiles:]
+-[_CPTapGuarded coreCount]
+-[_CPTapGuarded setCoreCount:]
+-[_CPTapGuarded triggerCount]
+-[_CPTapGuarded setTriggerCount:]
+-[_CPTapGuarded metadataByTriggerIndex]
+-[_CPTapGuarded setMetadataByTriggerIndex:]
+-[_CPTapGuarded sessionMetadata]
+-[_CPTapGuarded setSessionMetadata:]
+-[_CPTapGuarded triggerIDs]
+-[_CPTapGuarded setTriggerIDs:]
+-[_CPTapGuarded errorString]
+-[_CPTapGuarded setErrorString:]
+-[_CPTapGuarded .cxx_destruct]
++[DTCoreProfileTap initialize]
+__Strategy
+___DTCoreProfileTapGetSessionMetadata_block_invoke
+___copy_helper_block_364
+___destroy_helper_block_365
+__Access
+___DTCoreProfileTapConnectionBroken_block_invoke
+___DTCoreProfileTapSetConnection_block_invoke
+___copy_helper_block_386
+___destroy_helper_block_387
+___DTCoreProfileTapFetch_block_invoke
+___copy_helper_block_391
+___destroy_helper_block_392
+-[DTCoreProfileTap initWithCoreCount:]
+_myCFRelease
+___38-[DTCoreProfileTap initWithCoreCount:]_block_invoke
+___copy_helper_block_403
+___destroy_helper_block_404
+-[DTCoreProfileTap dealloc]
+___27-[DTCoreProfileTap dealloc]_block_invoke
+-[DTCoreProfileTap setSessionHandler:]
+___38-[DTCoreProfileTap setSessionHandler:]_block_invoke
+___copy_helper_block_409
+___destroy_helper_block_410
+-[DTCoreProfileTap _setConfiguration:withRecordHandler:recordContainerHandler:]
+___79-[DTCoreProfileTap _setConfiguration:withRecordHandler:recordContainerHandler:]_block_invoke
+___copy_helper_block_417
+___destroy_helper_block_418
+-[DTCoreProfileTap setConfiguration:withRecordHandler:]
+-[DTCoreProfileTap setConfiguration:withRecordContainerHandler:]
+-[DTCoreProfileTap setConfiguration:withSessionHandler:]
+___56-[DTCoreProfileTap setConfiguration:withSessionHandler:]_block_invoke
+___copy_helper_block_422
+___destroy_helper_block_423
+-[DTCoreProfileTap addTriggerConfig:recordHandler:]
+___51-[DTCoreProfileTap addTriggerConfig:recordHandler:]_block_invoke
+___copy_helper_block_435
+___destroy_helper_block_436
+-[DTCoreProfileTap addTriggerConfig:recordContainerHandler:]
+___60-[DTCoreProfileTap addTriggerConfig:recordContainerHandler:]_block_invoke
+___copy_helper_block_442
+___destroy_helper_block_443
+-[DTCoreProfileTap bufferMode]
+___30-[DTCoreProfileTap bufferMode]_block_invoke
+___copy_helper_block_447
+___destroy_helper_block_448
+-[DTCoreProfileTap windowSize]
+___30-[DTCoreProfileTap windowSize]_block_invoke
+___copy_helper_block_453
+___destroy_helper_block_454
+-[DTCoreProfileTap displayInterval]
+___35-[DTCoreProfileTap displayInterval]_block_invoke
+___copy_helper_block_459
+___destroy_helper_block_460
+-[DTCoreProfileTap setBufferMode:]
+___34-[DTCoreProfileTap setBufferMode:]_block_invoke
+-[DTCoreProfileTap setWindowSize:]
+___34-[DTCoreProfileTap setWindowSize:]_block_invoke
+-[DTCoreProfileTap setDisplayInterval:]
+___39-[DTCoreProfileTap setDisplayInterval:]_block_invoke
+-[DTCoreProfileTap setRecordingPriority:]
+___41-[DTCoreProfileTap setRecordingPriority:]_block_invoke
+-[DTCoreProfileTap suspend]
+___27-[DTCoreProfileTap suspend]_block_invoke
+-[DTCoreProfileTap resume]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___26-[DTCoreProfileTap resume]_block_invoke
+___copy_helper_block_485
+___destroy_helper_block_486
+___26-[DTCoreProfileTap resume]_block_invoke488
+___copy_helper_block_490
+___destroy_helper_block_491
+___26-[DTCoreProfileTap resume]_block_invoke494
+___copy_helper_block_498
+___destroy_helper_block_499
+-[DTCoreProfileTap pause]
+___25-[DTCoreProfileTap pause]_block_invoke
+___copy_helper_block_505
+___destroy_helper_block_506
+-[DTCoreProfileTap unpause]
+___27-[DTCoreProfileTap unpause]_block_invoke
+___copy_helper_block_510
+___destroy_helper_block_511
+-[DTCoreProfileTap start]
+___25-[DTCoreProfileTap start]_block_invoke
+___copy_helper_block_524
+___destroy_helper_block_525
+-[DTCoreProfileTap stop]
+___24-[DTCoreProfileTap stop]_block_invoke
+___copy_helper_block_529
+___destroy_helper_block_530
+___24-[DTCoreProfileTap stop]_block_invoke532
+___copy_helper_block_533
+___destroy_helper_block_534
+___24-[DTCoreProfileTap stop]_block_invoke536
+___copy_helper_block_537
+___destroy_helper_block_538
+-[DTCoreProfileTap setArchivingPath:error:]
+___43-[DTCoreProfileTap setArchivingPath:error:]_block_invoke
+___copy_helper_block_543
+___destroy_helper_block_544
+-[DTCoreProfileTap isArchiving]
+___31-[DTCoreProfileTap isArchiving]_block_invoke
+___copy_helper_block_548
+___destroy_helper_block_549
+-[DTCoreProfileTap _isArchiving:]
+-[DTCoreProfileTap setFilePreservation:]
+___40-[DTCoreProfileTap setFilePreservation:]_block_invoke
+-[DTCoreProfileTap metadataForTriggerIndex:]
+___44-[DTCoreProfileTap metadataForTriggerIndex:]_block_invoke
+___copy_helper_block_554
+___destroy_helper_block_555
+-[DTCoreProfileTap metadataForSession]
+___38-[DTCoreProfileTap metadataForSession]_block_invoke
+___copy_helper_block_557
+___destroy_helper_block_558
+-[DTCoreProfileTap coreCount]
+___29-[DTCoreProfileTap coreCount]_block_invoke
+___copy_helper_block_560
+___destroy_helper_block_561
+-[DTCoreProfileTap triggerCount]
+___32-[DTCoreProfileTap triggerCount]_block_invoke
+___copy_helper_block_563
+___destroy_helper_block_564
+-[DTCoreProfileTap isRunning]
+___29-[DTCoreProfileTap isRunning]_block_invoke
+___copy_helper_block_566
+___destroy_helper_block_567
+-[DTCoreProfileTap requiresCPSession]
+___37-[DTCoreProfileTap requiresCPSession]_block_invoke
+___copy_helper_block_569
+___destroy_helper_block_570
+-[DTCoreProfileTap UUID]
+___24-[DTCoreProfileTap UUID]_block_invoke
+___copy_helper_block_573
+___destroy_helper_block_574
+-[DTCoreProfileTap errorString]
+___31-[DTCoreProfileTap errorString]_block_invoke
+___copy_helper_block_577
+___destroy_helper_block_578
+-[DTCoreProfileTap fetchDataNow]
+___32-[DTCoreProfileTap fetchDataNow]_block_invoke
+___copy_helper_block_582
+___destroy_helper_block_583
+-[DTCoreProfileTap _containerStrategy:]
+-[DTCoreProfileTap _pause:]
+-[DTCoreProfileTap _unpause:]
+-[DTCoreProfileTap _start:]
+-[DTCoreProfileTap _stop:]
+-[DTCoreProfileTap _reset:]
+-[DTCoreProfileTap _setConnection:guarded:]
+-[DTCoreProfileTap _fetch:]
+-[DTCoreProfileTap .cxx_destruct]
+____SetInternalSourceWithQueue_block_invoke
+____SetInternalSourceWithQueue_block_invoke_2
+___copy_helper_block_628
+___destroy_helper_block_629
+___copy_helper_block_631
+___destroy_helper_block_632
+____Access_block_invoke
+___copy_helper_block_634
+___destroy_helper_block_635
++[DTFSUsageActivityService registerCapabilities:]
+-[DTFSUsageActivityService initWithChannel:]
+-[DTFSUsageActivityService messageReceived:]
+-[DTFSUsageActivityService configureLaunchEnvironment:]
+-[DTFSUsageActivityService startSamplingWithPid:]
+___49-[DTFSUsageActivityService startSamplingWithPid:]_block_invoke
+___49-[DTFSUsageActivityService startSamplingWithPid:]_block_invoke_2
+___49-[DTFSUsageActivityService startSamplingWithPid:]_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___49-[DTFSUsageActivityService startSamplingWithPid:]_block_invoke64
+___copy_helper_block_69
+___destroy_helper_block_70
+___copy_helper_block_79
+___destroy_helper_block_80
+___copy_helper_block_83
+___destroy_helper_block_84
+-[DTFSUsageActivityService stopSampling]
+-[DTFSUsageActivityService valueForSwitch:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[DTFSUsageActivityService valueForSwitch:]_block_invoke
+___copy_helper_block_94
+___destroy_helper_block_95
+-[DTFSUsageActivityService setValue:forSwitchName:]
+-[DTFSUsageActivityService initialSwitches]
+___43-[DTFSUsageActivityService initialSwitches]_block_invoke
+___copy_helper_block_109
+___destroy_helper_block_110
+-[DTFSUsageActivityService .cxx_destruct]
+-[XRRecentArray initWithMaximumRecentCount:]
+-[XRRecentArray setMaximumRecentCount:]
+-[XRRecentArray maximumRecentCount]
+-[XRRecentArray addEntry:]
+-[XRRecentArray removeEntry:]
+-[XRRecentArray removeEntryAtIndex:]
+-[XRRecentArray entries]
+-[XRRecentArray entryAtIndex:]
+-[XRRecentArray containsEntry:]
+-[XRRecentArray .cxx_destruct]
++[XRRecentArrayStoredPrefs sharedInstanceForPreferencePath:]
+___60+[XRRecentArrayStoredPrefs sharedInstanceForPreferencePath:]_block_invoke
+-[XRRecentArrayStoredPrefs initWithMaximumRecentCount:preferencePath:]
+-[XRRecentArrayStoredPrefs dealloc]
+-[XRRecentArrayStoredPrefs _readUserDefaults]
+-[XRRecentArrayStoredPrefs synchronize]
+-[XRRecentArrayStoredPrefs .cxx_destruct]
+___authorized_preauthorize_rights_block_invoke
+___authorized_preauthorize_rights_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_3
+___destroy_helper_block_4
+___authorized_task_for_pid_block_invoke
+___authorized_task_for_pid_block_invoke_2
+___copy_helper_block_9
+___destroy_helper_block_10
+___copy_helper_block_12
+___destroy_helper_block_13
+___authorized_kill_process_block_invoke
+___authorized_kill_process_block_invoke_2
+___copy_helper_block_16
+___destroy_helper_block_17
+___copy_helper_block_19
+___destroy_helper_block_20
+___authorized_coreprofile_bless_pid_block_invoke
+___authorized_coreprofile_bless_pid_block_invoke_2
+___copy_helper_block_23
+___destroy_helper_block_24
+___copy_helper_block_26
+___destroy_helper_block_27
+___authorized_coreprofile_core_control_block_invoke
+___authorized_coreprofile_core_control_block_invoke_2
+___copy_helper_block_32
+___destroy_helper_block_33
+___copy_helper_block_35
+___destroy_helper_block_36
+___setup_launch_daemon_block_invoke
+___setup_launch_daemon_block_invoke_2
+___copy_helper_block_40
+___destroy_helper_block_41
+___copy_helper_block_43
+___destroy_helper_block_44
+___authorized_xpc_attach_block_invoke
+___copy_helper_block_52
+___destroy_helper_block_53
+___authorized_xpc_attach_block_invoke56
+___copy_helper_block_59
+___destroy_helper_block_60
+___authorize_analysis_process_block_invoke
+___authorize_analysis_process_block_invoke_2
+___copy_helper_block_64
+___destroy_helper_block_65
+___copy_helper_block_67
+___destroy_helper_block_68
+___with_analysis_task_for_pid_block_invoke
+___copy_helper_block_70
+___destroy_helper_block_71
+___pid_watcher_connect_block_invoke
+___pid_watcher_connect_block_invoke_2
+___copy_helper_block_75
+___destroy_helper_block_76
+___copy_helper_block_78
+___destroy_helper_block_79
+__dump_to_client
+____dump_to_client_block_invoke
+____dump_to_client_block_invoke_2
+____dump_to_client_block_invoke_3
+___copy_helper_block_84
+___destroy_helper_block_85
+___copy_helper_block_87
+___destroy_helper_block_88
+____dump_to_client_block_invoke90
+___copy_helper_block_91
+___destroy_helper_block_92
+___copy_helper_block_95
+___destroy_helper_block_96
+___DTWaitForLibraryLoad_block_invoke
+___DTWaitForLibraryLoad_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_1
+___destroy_helper_block_2
+___DTWaitForLibraryLoad_block_invoke5
+___copy_helper_block_6
+___destroy_helper_block_7
+-[DTCoreProfileLocalTap init]
+__ErrorHandler
+___29-[DTCoreProfileLocalTap init]_block_invoke
+-[DTCoreProfileLocalTap setTaskForPidBlock:]
+-[DTCoreProfileLocalTap bufferSizeForConfiguration:]
+___52-[DTCoreProfileLocalTap bufferSizeForConfiguration:]_block_invoke
+___52-[DTCoreProfileLocalTap bufferSizeForConfiguration:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___52-[DTCoreProfileLocalTap bufferSizeForConfiguration:]_block_invoke52
+___copy_helper_block_53
+___destroy_helper_block_54
+___copy_helper_block_62
+___destroy_helper_block_63
+-[DTCoreProfileLocalTap eventLimitForConfiguration:]
+___52-[DTCoreProfileLocalTap eventLimitForConfiguration:]_block_invoke
+___52-[DTCoreProfileLocalTap eventLimitForConfiguration:]_block_invoke_2
+___copy_helper_block_70
+___destroy_helper_block_71
+___52-[DTCoreProfileLocalTap eventLimitForConfiguration:]_block_invoke73
+___copy_helper_block_76
+___destroy_helper_block_77
+___copy_helper_block_79
+___destroy_helper_block_80
+-[DTCoreProfileLocalTap triggerIDs]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+__ForEachTrigger
+___35-[DTCoreProfileLocalTap triggerIDs]_block_invoke
+___copy_helper_block_92
+___destroy_helper_block_93
+-[DTCoreProfileLocalTap _start:]
+___32-[DTCoreProfileLocalTap _start:]_block_invoke
+___32-[DTCoreProfileLocalTap _start:]_block_invoke_2
+___copy_helper_block_106
+___destroy_helper_block_107
+___copy_helper_block_114
+___destroy_helper_block_115
+___32-[DTCoreProfileLocalTap _start:]_block_invoke131
+___copy_helper_block_134
+___destroy_helper_block_135
+-[DTCoreProfileLocalTap _stop:]
+___31-[DTCoreProfileLocalTap _stop:]_block_invoke
+___copy_helper_block_146
+___destroy_helper_block_147
+-[DTCoreProfileLocalTap _containerStrategy:]
+___44-[DTCoreProfileLocalTap _containerStrategy:]_block_invoke
+-[DTCoreProfileLocalTap _triggers]
+-[DTCoreProfileLocalTap .cxx_destruct]
+-[_RecordContainerLocalStrategy startTap:guard:]
+___48-[_RecordContainerLocalStrategy startTap:guard:]_block_invoke
+___copy_helper_block_176
+___destroy_helper_block_177
+-[_RecordContainerLocalStrategy stopTap:guard:]
+___47-[_RecordContainerLocalStrategy stopTap:guard:]_block_invoke
+-[_RecordContainerLocalStrategy pauseTap:guard:]
+___48-[_RecordContainerLocalStrategy pauseTap:guard:]_block_invoke
+-[_RecordContainerLocalStrategy unpauseTap:guard:]
+___50-[_RecordContainerLocalStrategy unpauseTap:guard:]_block_invoke
+-[_RecordContainerLocalStrategy fetchFromTap:guard:]
+___52-[_RecordContainerLocalStrategy fetchFromTap:guard:]_block_invoke
+___copy_helper_block_185
+___destroy_helper_block_186
+-[_SessionContainerLocalStrategy startTap:guard:]
+-[_SessionContainerLocalStrategy stopTap:guard:]
+-[_SessionContainerLocalStrategy pauseTap:guard:]
+-[_SessionContainerLocalStrategy unpauseTap:guard:]
+-[_SessionContainerLocalStrategy fetchFromTap:guard:]
+-[_SessionContainerLocalStrategy reset:]
+____SetActions_block_invoke
+__AllocCounterForNameAndDevice
+___copy_helper_block_257
+___destroy_helper_block_258
+____SetThreadStateFilter_block_invoke
+___copy_helper_block_271
+___destroy_helper_block_272
+____SetPidFilter_block_invoke
+___copy_helper_block_278
+___destroy_helper_block_279
+____AddPMITriggers_block_invoke
+___copy_helper_block_300
+___destroy_helper_block_301
+__SortDevices
+____ForEachTrigger_block_invoke
+___copy_helper_block_308
+___destroy_helper_block_309
++[DTVMTrackingService registerCapabilities:]
+-[DTVMTrackingService configureLaunchEnvironment:]
+-[DTVMTrackingService setTargetPid:referenceDate:]
+-[DTVMTrackingService requestVMSnapshot]
+-[DTVMTrackingService startTracking]
+-[DTVMTrackingService stopTracking]
+-[DTVMTrackingService .cxx_destruct]
++[XRVMRegion regionIndexInArray:forAddress:]
++[XRVMRegion initialize]
+-[XRVMRegion initWithAddress:size:regionInfo:]
+-[XRVMRegion copyWithZone:]
+-[XRVMRegion encodeWithCoder:]
+-[XRVMRegion initWithCoder:]
+-[XRVMRegion description]
+-[XRVMRegion isEqual:]
+-[XRVMRegion matchesAddr:size:regionInfo:]
+-[XRVMRegion regionMatch:]
+-[XRVMRegion typeMatches:]
+-[XRVMRegion isAdjacentTo:]
+-[XRVMRegion setPath:type:]
+-[XRVMRegion setAddress:size:]
+-[XRVMRegion _setResident:dirty:swapped:speculative:]
+-[XRVMRegion isSubmapRegion]
+-[XRVMRegion location]
+-[XRVMRegion virtualSize]
+-[XRVMRegion virtualPages]
+-[XRVMRegion residentSize]
+-[XRVMRegion dirtySize]
+-[XRVMRegion swappedSize]
+-[XRVMRegion pageSize]
+-[XRVMRegion tag]
+-[XRVMRegion type]
+-[XRVMRegion path]
+-[XRVMRegion currentProtection]
+-[XRVMRegion maxProtection]
+-[XRVMRegion displayType]
+-[XRVMRegion displayPath]
+-[XRVMRegion .cxx_destruct]
+-[XRVMRegionAnnotation initSamplingRegion:inTask:updateRegionStatistics:]
+-[XRVMRegionAnnotation dispositionForPage:]
+-[XRVMRegionAnnotation dealloc]
+-[XRVMRegionAnnotation encodeWithCoder:]
+-[XRVMRegionAnnotation initWithCoder:]
+-[XRVMCoalescedRegion initWithRegions:groupName:]
+-[XRVMCoalescedRegion addRegion:]
+-[XRVMCoalescedRegion virtualSize]
+-[XRVMCoalescedRegion subRegions]
+-[XRVMCoalescedRegion isFakeAggregate]
+-[XRVMCoalescedRegion sortSubregionsWithComparator:]
+-[XRVMCoalescedRegion encodeWithCoder:]
+-[XRVMCoalescedRegion initWithCoder:]
+-[XRVMCoalescedRegion displayType]
+-[XRVMCoalescedRegion displayPath]
+-[XRVMCoalescedRegion .cxx_destruct]
++[DTCoreProfileTriggerConfig deviceSignPostConfig]
+-[DTCoreProfileTriggerConfig init]
+-[DTCoreProfileTriggerConfig initWithPlist:]
+-[DTCoreProfileTriggerConfig initWithUUIDString:]
+-[DTCoreProfileTriggerConfig dealloc]
+-[DTCoreProfileTriggerConfig kind]
+-[DTCoreProfileTriggerConfig setKind:]
+-[DTCoreProfileTriggerConfig sampleInterval]
+-[DTCoreProfileTriggerConfig setSampleInterval:]
+-[DTCoreProfileTriggerConfig eventLimitHint]
+-[DTCoreProfileTriggerConfig setEventLimitHint:]
+-[DTCoreProfileTriggerConfig hasThreadStateFilter]
+-[DTCoreProfileTriggerConfig setHasThreadStateFilter:]
+-[DTCoreProfileTriggerConfig includeThreadState:]
+-[DTCoreProfileTriggerConfig enumerateThreadStatesToInclude:]
+-[DTCoreProfileTriggerConfig isAllProcesses]
+-[DTCoreProfileTriggerConfig setIsAllProcesses:]
+-[DTCoreProfileTriggerConfig includePID:]
+-[DTCoreProfileTriggerConfig enumeratePIDsInFilter:]
+-[DTCoreProfileTriggerConfig addAction:]
+-[DTCoreProfileTriggerConfig enumerateActions:]
+-[DTCoreProfileTriggerConfig pmiCounterName]
+-[DTCoreProfileTriggerConfig setPmiCounterName:]
+-[DTCoreProfileTriggerConfig pmiEventMnemonic]
+-[DTCoreProfileTriggerConfig setPmiEventMnemonic:]
+-[DTCoreProfileTriggerConfig pmiEventThreshold]
+-[DTCoreProfileTriggerConfig setPmiEventThreshold:]
+-[DTCoreProfileTriggerConfig pmiDeviceIndices]
+-[DTCoreProfileTriggerConfig setPmiDeviceIndices:]
+-[DTCoreProfileTriggerConfig uuid]
+-[DTCoreProfileTriggerConfig setUuid:]
+-[DTCoreProfileTriggerConfig setKdebugFilter:]
+-[DTCoreProfileTriggerConfig kdebugFilter]
+-[DTCoreProfileTriggerConfig callstackFrameDepth]
+-[DTCoreProfileTriggerConfig setCallstackFrameDepth:]
+-[DTCoreProfileTriggerConfig plist]
+-[DTCoreProfileTriggerConfig .cxx_destruct]
+-[DTCoreProfileTapConfig init]
+-[DTCoreProfileTapConfig initWithPlist:]
+-[DTCoreProfileTapConfig isDeferredDisplay]
+-[DTCoreProfileTapConfig setIsDeferredDisplay:]
+-[DTCoreProfileTapConfig spoolToDiskWhenPossible]
+-[DTCoreProfileTapConfig setSpoolToDiskWhenPossible:]
+-[DTCoreProfileTapConfig displayInterval]
+_getCPTimeProperty
+-[DTCoreProfileTapConfig setDisplayInterval:]
+_setCPTimeProperty
+-[DTCoreProfileTapConfig setBufferMode:]
+-[DTCoreProfileTapConfig bufferMode]
+-[DTCoreProfileTapConfig setRecordingPriority:]
+-[DTCoreProfileTapConfig recordingPriority]
+-[DTCoreProfileTapConfig windowSize]
+-[DTCoreProfileTapConfig setWindowSize:]
+-[DTCoreProfileTapConfig enumerateTriggerConfigs:]
+-[DTCoreProfileTapConfig triggerConfigCount]
+-[DTCoreProfileTapConfig addTriggerConfig:]
+-[DTCoreProfileTapConfig plist]
+-[DTCoreProfileTapConfig plistForTrigger:]
+-[DTCoreProfileTapConfig reset]
+-[DTCoreProfileTapConfig copyWithZone:]
+___39-[DTCoreProfileTapConfig copyWithZone:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DTCoreProfileTapConfig .cxx_destruct]
+-[XRIndexSet init]
+-[XRIndexSet initWithIndex:]
+-[XRIndexSet initWithIndexes:]
+-[XRIndexSet dealloc]
+-[XRIndexSet copyWithZone:]
++[XRIndexSet indexSetWithIndex:]
++[XRIndexSet indexSetWithIndexesInRange:]
+-[XRIndexSet _queryRange:]
+-[XRIndexSet count]
+-[XRIndexSet firstIndex]
+-[XRIndexSet lastIndex]
+-[XRIndexSet containsIndex:]
+-[XRIndexSet intersectsIndexesInRange:]
+-[XRIndexSet enumerateIndexesUsingBlock:]
+-[XRIndexSet enumerateRangesUsingBlock:]
+-[XRMutableIndexSet growArray]
+-[XRMutableIndexSet _insertRange:atIndex:]
+-[XRMutableIndexSet _mergeRangesFromIndex:]
+-[XRMutableIndexSet _addRange:]
+-[XRMutableIndexSet addIndex:]
+-[XRMutableIndexSet addIndexesInRange:]
++[DTFileBrowserService registerCapabilities:]
+-[DTFileBrowserService entriesAtPath:]
+-[DTFileBrowserService entriesInPathsArray:]
+-[DTFileBrowserService dataFromFileAtPath:]
+-[DTFileBrowserService contentsOfDirectoryAtPath:]
+-[DTFileBrowserService updateAttributesForItem:]
+___DVTIFIsAppleInternalEnvironment_block_invoke
+-[DTCoreProfileRemoteTap init]
+-[DTCoreProfileRemoteTap initWithConnection:serviceName:version:coreCount:requiresCPSession:]
+__makeTapChannel
+-[DTCoreProfileRemoteTap dealloc]
+__ClearContainerList
+-[DTCoreProfileRemoteTap setConnection:]
+-[DTCoreProfileRemoteTap _setConnection:guarded:]
+-[DTCoreProfileRemoteTap messageReceived:]
+___42-[DTCoreProfileRemoteTap messageReceived:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___42-[DTCoreProfileRemoteTap messageReceived:]_block_invoke12
+___copy_helper_block_13
+___destroy_helper_block_14
++[DTCoreProfileRemoteTap startOnChannel:withConfiguration:]
+___59+[DTCoreProfileRemoteTap startOnChannel:withConfiguration:]_block_invoke
+___copy_helper_block_30
+___destroy_helper_block_31
+___59+[DTCoreProfileRemoteTap startOnChannel:withConfiguration:]_block_invoke38
+___copy_helper_block_43
+___destroy_helper_block_44
++[DTCoreProfileRemoteTap pauseOnChannel:]
+___41+[DTCoreProfileRemoteTap pauseOnChannel:]_block_invoke
+___copy_helper_block_55
+___destroy_helper_block_56
++[DTCoreProfileRemoteTap unpauseOnChannel:]
+___43+[DTCoreProfileRemoteTap unpauseOnChannel:]_block_invoke
+___copy_helper_block_64
+___destroy_helper_block_65
++[DTCoreProfileRemoteTap stopOnChannel:]
+___40+[DTCoreProfileRemoteTap stopOnChannel:]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+-[DTCoreProfileRemoteTap _start:]
+-[DTCoreProfileRemoteTap _stop:]
+_DTCoreProfileTapProcessMessages
+-[DTCoreProfileRemoteTap _pause:]
+-[DTCoreProfileRemoteTap _unpause:]
+-[DTCoreProfileRemoteTap _fetch:]
+___33-[DTCoreProfileRemoteTap _fetch:]_block_invoke
+-[DTCoreProfileRemoteTap _reset:]
+-[DTCoreProfileRemoteTap _containerStrategy:]
+-[DTCoreProfileRemoteTap .cxx_destruct]
+-[_SessionContainerRemoteStrategy startTap:guard:]
+-[_SessionContainerRemoteStrategy stopTap:guard:]
+___DTCoreProfileTapProcessMessages_block_invoke
+___copy_helper_block_159
+___destroy_helper_block_160
+____WireUpReceivedMessageHandler_block_invoke
+___copy_helper_block_162
+___destroy_helper_block_163
+____HandleMessage_block_invoke
+___copy_helper_block_217
+___destroy_helper_block_218
+____makeTapChannel_block_invoke
+___copy_helper_block_259
+___destroy_helper_block_260
+-[_DTCoreProfileTapService initWithChannel:]
+___44-[_DTCoreProfileTapService initWithChannel:]_block_invoke
+-[_DTCoreProfileTapService .cxx_destruct]
++[DTCoreProfileTapService registerCapabilities:]
+-[DTCoreProfileTapService initWithChannel:]
+-[DTCoreProfileTapService _validateConfig:]
+___43-[DTCoreProfileTapService _validateConfig:]_block_invoke
+___43-[DTCoreProfileTapService _validateConfig:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_47
+___destroy_helper_block_48
+-[DTCoreProfileTapService setConfig:]
+__Access
+___37-[DTCoreProfileTapService setConfig:]_block_invoke
+___37-[DTCoreProfileTapService setConfig:]_block_invoke_2
+___37-[DTCoreProfileTapService setConfig:]_block_invoke_3
+___copy_helper_block_67
+___destroy_helper_block_68
+___37-[DTCoreProfileTapService setConfig:]_block_invoke73
+___37-[DTCoreProfileTapService setConfig:]_block_invoke_274
+___copy_helper_block_77
+___destroy_helper_block_78
+___37-[DTCoreProfileTapService setConfig:]_block_invoke83
+___copy_helper_block_86
+___destroy_helper_block_87
+___copy_helper_block_89
+___destroy_helper_block_90
+-[DTCoreProfileTapService requiresCPSession]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___44-[DTCoreProfileTapService requiresCPSession]_block_invoke
+___copy_helper_block_95
+___destroy_helper_block_96
+-[DTCoreProfileTapService start]
+___32-[DTCoreProfileTapService start]_block_invoke
+__SendMsgToServiceQueue
+___32-[DTCoreProfileTapService start]_block_invoke_2
+___copy_helper_block_119
+___destroy_helper_block_120
+-[DTCoreProfileTapService stop]
+___31-[DTCoreProfileTapService stop]_block_invoke
+___31-[DTCoreProfileTapService stop]_block_invoke_2
+___31-[DTCoreProfileTapService stop]_block_invoke_3
+-[DTCoreProfileTapService pause]
+___32-[DTCoreProfileTapService pause]_block_invoke
+-[DTCoreProfileTapService unpause]
+___34-[DTCoreProfileTapService unpause]_block_invoke
+-[DTCoreProfileTapService fetchDataNow]
+___39-[DTCoreProfileTapService fetchDataNow]_block_invoke
+-[DTCoreProfileTapService .cxx_destruct]
+____SendContainerDataToServiceQueue_block_invoke
+___copy_helper_block_223
+___destroy_helper_block_224
+____SendContainerDataToServiceQueue_block_invoke226
+____SendContainerDataToServiceQueue_block_invoke_2
+___copy_helper_block_235
+___destroy_helper_block_236
+___copy_helper_block_238
+___destroy_helper_block_239
+____SendContainerDataToServiceQueue_block_invoke244
+____SendSessionDataToServiceQueue_block_invoke
+___copy_helper_block_251
+___destroy_helper_block_252
+____SendSessionDataToServiceQueue_block_invoke254
+___copy_helper_block_255
+___destroy_helper_block_256
+____SendSessionDataToServiceQueue_block_invoke259
+-[DTProcessControlService initWithChannel:]
+-[DTProcessControlService startObservingPid:]
+___45-[DTProcessControlService startObservingPid:]_block_invoke
+___45-[DTProcessControlService startObservingPid:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_33
+___destroy_helper_block_34
+-[DTProcessControlService stopObservingPid:]
+___44-[DTProcessControlService stopObservingPid:]_block_invoke
+___copy_helper_block_44
+___destroy_helper_block_45
+-[DTProcessControlService resumePid:]
+-[DTProcessControlService suspendPid:]
+-[DTProcessControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:]
+-[DTProcessControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:options:]
+-[DTProcessControlService killPid:]
+-[DTProcessControlService _performMemoryWarningForPid:]
+-[DTProcessControlService sendProcessControlEvent:toPid:]
+-[DTProcessControlService cleanupPid:]
+-[DTProcessControlService watchOutputFileDescriptor:forPid:]
+___60-[DTProcessControlService watchOutputFileDescriptor:forPid:]_block_invoke
+___60-[DTProcessControlService watchOutputFileDescriptor:forPid:]_block_invoke_2
+___copy_helper_block_90
+___destroy_helper_block_91
+___60-[DTProcessControlService watchOutputFileDescriptor:forPid:]_block_invoke93
+___copy_helper_block_99
+___destroy_helper_block_100
+-[DTProcessControlService .cxx_destruct]
+-[DTProcessControlEvent initWithCoder:]
+-[DTProcessControlEvent encodeWithCoder:]
++[DTProcessControlEvent supportsSecureCoding]
++[DTInstrumentServer isAppleInternal]
+-[DTInstrumentServer initWithTransport:]
+___40-[DTInstrumentServer initWithTransport:]_block_invoke
+___40-[DTInstrumentServer initWithTransport:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+-[DTInstrumentServer resume]
+-[DTInstrumentServer cancel]
+-[DTInstrumentServer setMaxConnectionEnqueue:]
+-[DTInstrumentServer loadServicesAtPath:]
+-[DTInstrumentServer restrictChannelsWithBlock:]
++[DTInstrumentServer takeOwnershipOfSharedAuthorization:]
++[DTInstrumentServer sharedAuthorization]
++[DTInstrumentServer taskForPid:]
+___33+[DTInstrumentServer taskForPid:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___33+[DTInstrumentServer taskForPid:]_block_invoke100
+___copy_helper_block_103
+___destroy_helper_block_104
++[DTInstrumentServer _taskInvalid:forPid:]
++[DTInstrumentServer _tfpPortReceived:]
+-[DTInstrumentServer _notifyOfTFPCommunicationsPort:]
+-[DTInstrumentServer connection]
+-[DTInstrumentServer channelRestrictBlock]
+-[DTInstrumentServer setChannelRestrictBlock:]
+-[DTInstrumentServer .cxx_destruct]
+___DTInstrumentsServicePlaybackThroughChannel_block_invoke
+___DTInstrumentsServicePlaybackThroughChannel_block_invoke_2
+___DTInstrumentsServicePlaybackThroughChannel_block_invoke_3
+___DTInstrumentsServicePlaybackThroughChannel_block_invoke_4
+___copy_helper_block_212
+___destroy_helper_block_213
+___copy_helper_block_215
+___destroy_helper_block_216
+___copy_helper_block_220
+___destroy_helper_block_221
++[DTPosixSpawnProcessControlService registerCapabilities:]
++[DTPosixSpawnProcessControlService posixSpawnWithPath:environment:arguments:options:fileDescriptorHandler:]
+___108+[DTPosixSpawnProcessControlService posixSpawnWithPath:environment:arguments:options:fileDescriptorHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DTPosixSpawnProcessControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:options:]
+___121-[DTPosixSpawnProcessControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:options:]_block_invoke
+___copy_helper_block_77
+___destroy_helper_block_78
+-[DTPosixSpawnProcessControlService cleanupPid:]
+-[DTCoreProfileTapMessage init]
+-[DTCoreProfileTapMessage encodeWithCoder:]
+-[DTCoreProfileTapMessage initWithCoder:]
+-[DTCoreProfileTapMessage kind]
+-[DTCoreProfileTapMessage setKind:]
+-[DTCoreProfileTapMessage coreCount]
+-[DTCoreProfileTapMessage setCoreCount:]
+-[DTCoreProfileTapMessage triggerCount]
+-[DTCoreProfileTapMessage setTriggerCount:]
+-[DTCoreProfileTapMessage triggerIndex]
+-[DTCoreProfileTapMessage setTriggerIndex:]
+-[DTCoreProfileTapMessage logicalProcessorCore]
+-[DTCoreProfileTapMessage setLogicalProcessorCore:]
+-[DTCoreProfileTapMessage recordCount]
+-[DTCoreProfileTapMessage setRecordCount:]
+-[DTCoreProfileTapMessage triggerMetadata]
+-[DTCoreProfileTapMessage setTriggerMetadata:]
+-[DTCoreProfileTapMessage sessionMetadata]
+-[DTCoreProfileTapMessage setSessionMetadata:]
+-[DTCoreProfileTapMessage .cxx_destruct]
+__ZN29XRProcessWatcherExceptionPortC2Ev
+__ZN29XRProcessWatcherExceptionPortC1Ev
+__ZN29XRProcessWatcherExceptionPort9singletonEv
+__ZN29XRProcessWatcherExceptionPort13connectToPortEPj
+__ZN29XRProcessWatcherExceptionPort11restorePortEv
+_catch_exception_raise
+_catch_exception_raise_state
+_catch_exception_raise_state_identity
+__ZN29XRProcessWatcherExceptionPort18waitForTerminationEPiP28XRProcessWatcherExceptionMsg
+__ZN29XRProcessWatcherExceptionPort9sendReplyER28XRProcessWatcherExceptionMsg
+-[DTPerfMonEvent initWithCPCounterEvent:]
+-[DTPerfMonEvent initWithMnemonic:alias:]
+-[DTPerfMonEvent dealloc]
+-[DTPerfMonEvent mnemonic]
+-[DTPerfMonEvent alias]
+-[DTPerfMonEvent aliasOrMnemonic]
+-[DTPerfMonEvent explanation]
+-[DTPerfMonEvent displayName]
+-[DTPerfMonEvent counterEvent]
+-[DTPerfMonEvent allocCounterForDeviceInstance:]
+-[DTPerfMonEvent .cxx_destruct]
+__ZN22XRProcessTableObserverC2EP30XRProcessTableObserverDelegateP16dispatch_queue_s
+__ZN22XRProcessTableObserverC1EP30XRProcessTableObserverDelegateP16dispatch_queue_s
+__ZN22XRProcessTableObserverD2Ev
+__ZN22XRProcessTableObserverD1Ev
+__ZN22XRProcessTableObserver21safeToHoldOpenProcessEi
+__ZN22XRProcessTableObserver6enableEb
+____ZN22XRProcessTableObserver6enableEb_block_invoke
+____ZN22XRProcessTableObserver6enableEb_block_invoke_2
+__ZN22XRProcessTableObserver22holdProcessFromExitingEi
+__ZN22XRProcessTableObserver18releaseProcessHoldEi
+__ZN22XRProcessTableObserver18releaseProcessHoldER19XRProcessTableEntryi
+__ZN19XRProcessTableEntry19setTerminationReplyERK28XRProcessWatcherExceptionMsg
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEE4findIiEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEE5clearEv
+__ZNSt3__113unordered_mapIi19XRProcessTableEntryNS_4hashIiEENS_8equal_toIiEENS_9allocatorINS_4pairIKiS1_EEEEEixERS8_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEE20__node_insert_uniqueEPNS_11__hash_nodeIS3_PvEE
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEE6rehashEm
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEE8__rehashEm
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIi19XRProcessTableEntryEENS_22__unordered_map_hasherIiS3_NS_4hashIiEELb1EEENS_21__unordered_map_equalIiS3_NS_8equal_toIiEELb1EEENS_9allocatorIS3_EEED2Ev
++[DTLeaksService registerCapabilities:]
+-[DTLeaksService initWithChannel:]
+-[DTLeaksService messageReceived:]
+-[DTLeaksService dealloc]
+-[DTLeaksService spawnHelperTaskForPid:]
+___40-[DTLeaksService spawnHelperTaskForPid:]_block_invoke
+___40-[DTLeaksService spawnHelperTaskForPid:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_24
+___destroy_helper_block_25
+-[DTLeaksService requestLeaksForPid:context:provideBacktraces:]
+___63-[DTLeaksService requestLeaksForPid:context:provideBacktraces:]_block_invoke
+___63-[DTLeaksService requestLeaksForPid:context:provideBacktraces:]_block_invoke_2
+___63-[DTLeaksService requestLeaksForPid:context:provideBacktraces:]_block_invoke_3
+___copy_helper_block_85
+___destroy_helper_block_86
+___copy_helper_block_88
+___destroy_helper_block_89
+___copy_helper_block_91
+___destroy_helper_block_92
+-[DTLeaksService cancelAllRequests]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[DTLeaksService cancelAllRequests]_block_invoke
+___copy_helper_block_94
+___destroy_helper_block_95
+___35-[DTLeaksService cancelAllRequests]_block_invoke97
+___copy_helper_block_98
+___destroy_helper_block_99
+___35-[DTLeaksService cancelAllRequests]_block_invoke103
+-[DTLeaksService .cxx_destruct]
++[DTPerfMonManager sharedDTPerfMonManager]
++[DTPerfMonManager allocWithZone:]
+-[DTPerfMonManager copyWithZone:]
+-[DTPerfMonManager init]
+-[DTPerfMonManager loadDeviceAtURL:forName:]
+-[DTPerfMonManager refreshDevices]
+-[DTPerfMonManager _addLocalDevice]
+_sortDevices
+-[DTPerfMonManager _addKnownDevices]
+-[DTPerfMonManager _addKnownDevice:]
+-[DTPerfMonManager deviceNames]
+-[DTPerfMonManager localDevice]
+-[DTPerfMonManager deviceForName:]
+-[DTPerfMonManager processorNames]
+-[DTPerfMonManager counterNames]
+-[DTPerfMonManager .cxx_destruct]
++[DTCoreProfileTapPlaybackService registerCapabilities:]
+-[DTCoreProfileTapPlaybackService start]
+___40-[DTCoreProfileTapPlaybackService start]_block_invoke
+-[DTCoreProfileTapPlaybackService stop]
+-[DTCoreProfileTapPlaybackService unpause]
+-[DTCoreProfileTapPlaybackService pause]
+-[DTCoreProfileTapPlaybackService setConfig:]
+-[DTCoreProfileTapPlaybackService fetchDataNow]
+-[DTCoreProfileTapPlaybackService .cxx_destruct]
+-[XRSpace initWithQueue:]
+-[XRSpace init]
+-[XRSpace dealloc]
+-[XRSpace _postQueueStateChanged]
+___33-[XRSpace _postQueueStateChanged]_block_invoke
+-[XRSpace observeValueForKeyPath:ofObject:change:context:]
+-[XRSpace addOperation:]
+-[XRSpace afterOperation:block:]
+-[XRSpace afterOperation:spaceBlock:]
+-[XRSpace afterOperationsRunBlock:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[XRSpace afterOperationsRunBlock:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XRSpace storeUserData:]
+___25-[XRSpace storeUserData:]_block_invoke
+___copy_helper_block_88
+___destroy_helper_block_89
+-[XRSpace replaceUserData:forToken:]
+___36-[XRSpace replaceUserData:forToken:]_block_invoke
+___copy_helper_block_96
+___destroy_helper_block_97
+-[XRSpace removeUserDataForToken:]
+___34-[XRSpace removeUserDataForToken:]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[XRSpace userDataForToken:]
+___28-[XRSpace userDataForToken:]_block_invoke
+___copy_helper_block_106
+___destroy_helper_block_107
+-[XRSpace isOpValidForSpace:]
+-[XRSpace spaceName]
+-[XRSpace isSerial]
+-[XRSpace currentlyInThisSpace]
+-[XRSpace operationCount]
+-[XRSpace isBusy]
+-[XRSpace .cxx_destruct]
+-[XRSpaceBlockOp initWithSpaceBlock:]
+-[XRSpaceBlockOp main]
+-[XRSpaceBlockOp .cxx_destruct]
+-[DTPerfMonEventAllocation initWithMnemonic:groupName:]
+-[DTPerfMonEventAllocation _setAllocatedCounterName:]
+-[DTPerfMonEventAllocation mnemonic]
+-[DTPerfMonEventAllocation groupName]
+-[DTPerfMonEventAllocation allocatedCounterName]
+-[DTPerfMonEventAllocation warningString]
+-[DTPerfMonEventAllocation setWarningString:]
+-[DTPerfMonEventAllocation .cxx_destruct]
+-[DTPerfMonDevice initWithName:fromDevice:]
+-[DTPerfMonDevice isRealDevice]
+-[DTPerfMonDevice dealloc]
+-[DTPerfMonDevice deviceInstances]
+-[DTPerfMonDevice setDeviceInstances:]
+-[DTPerfMonDevice name]
+-[DTPerfMonDevice counterNames]
+-[DTPerfMonDevice eventMnemonics]
+-[DTPerfMonDevice eventMnemonicsForCounter:]
+-[DTPerfMonDevice eventByMnemonic:forCounter:]
+-[DTPerfMonDevice eventMaskForMnemonic:]
+-[DTPerfMonDevice newCounterArrayForMnemonic:]
+-[DTPerfMonDevice _numFreeCounters]
+-[DTPerfMonDevice _allocateCounters:doAllocation:]
+-[DTPerfMonDevice canAllocateCounters:]
+-[DTPerfMonDevice allocateCounters:]
+-[DTPerfMonDevice deallocateCounters:]
+-[DTPerfMonDevice .cxx_destruct]
+-[DTCoreProfilePlaybackTap initWithNextMessageBlock:requiresCPSession:]
+-[DTCoreProfilePlaybackTap start]
+-[DTCoreProfilePlaybackTap .cxx_destruct]
+-[DTNStatSourceMapEntry serialNumber]
+-[DTNStatSourceMapEntry pid]
+-[DTNStatSourceMapEntry setPid:]
+-[DTNStatSourceMapEntry lastStats]
+-[DTNStatSourceMapEntry setLastStats:]
+-[DTNStatSourceMapEntry .cxx_destruct]
+___DTCoreProfilePreloadOnce_block_invoke
+___DTCoreProfilePreloadOnce_block_invoke_2
+___DTCoreProfileWaitUntilLoaded_block_invoke
++[XRInternalizedSettingsStore initialize]
++[XRInternalizedSettingsStore internalizedSettings]
++[XRInternalizedSettingsStore objectForKey:]
++[DTCPRemoteCache sharedDTCPRemoteCache]
+___40+[DTCPRemoteCache sharedDTCPRemoteCache]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[DTCPRemoteCache kindToString:]
++[DTCPRemoteCache allocWithZone:]
+-[DTCPRemoteCache copyWithZone:]
+-[DTCPRemoteCache init]
+-[DTCPRemoteCache dealloc]
+-[DTCPRemoteCache _directoryForDevice:]
+-[DTCPRemoteCache _filePathForKind:fileType:directoryURL:]
+-[DTCPRemoteCache accessFileKind:device:fileType:block:]
++[DTXPCServiceController sharedInstance]
+___40+[DTXPCServiceController sharedInstance]_block_invoke
+-[DTXPCServiceController init]
+-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke69
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke_270
+__registrationMatches
+___copy_helper_block_71
+___destroy_helper_block_72
+___copy_helper_block_94
+___destroy_helper_block_95
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke99
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke_2100
+___copy_helper_block_101
+___destroy_helper_block_102
+___copy_helper_block_104
+___destroy_helper_block_105
+___93-[DTXPCServiceController registerClient:forXPCService:environment:arguments:options:handler:]_block_invoke124
+___copy_helper_block_125
+___destroy_helper_block_126
+-[DTXPCServiceController _matchRemove:]
+___39-[DTXPCServiceController _matchRemove:]_block_invoke
+___39-[DTXPCServiceController _matchRemove:]_block_invoke_2
+___copy_helper_block_140
+___destroy_helper_block_141
+___copy_helper_block_148
+___destroy_helper_block_149
+-[DTXPCServiceController unregisterClient:withIdentifier:parent:]
+___65-[DTXPCServiceController unregisterClient:withIdentifier:parent:]_block_invoke
+___65-[DTXPCServiceController unregisterClient:withIdentifier:parent:]_block_invoke_2
+___copy_helper_block_152
+___destroy_helper_block_153
+___copy_helper_block_155
+___destroy_helper_block_156
+-[DTXPCServiceController .cxx_destruct]
++[DTXPCControlService registerCapabilities:]
+-[DTXPCControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:options:]
+___107-[DTXPCControlService launchSuspendedProcessWithDevicePath:bundleIdentifier:environment:arguments:options:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DTXPCControlService messageReceived:]
+-[DTXPCControlService observeServicesWithIdentifier:requestingProcess:environment:arguments:options:]
+___101-[DTXPCControlService observeServicesWithIdentifier:requestingProcess:environment:arguments:options:]_block_invoke
+___copy_helper_block_50
+___destroy_helper_block_51
+-[DTXPCControlService stopObservationsForIdentifier:requestingProcess:]
++[DTObjectAllocService registerCapabilities:]
+-[DTObjectAllocService initWithChannel:]
+___40-[DTObjectAllocService initWithChannel:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[DTObjectAllocService messageReceived:]
+-[DTObjectAllocService preparedEnvironmentForLaunch:eventsMask:]
+-[DTObjectAllocService attachToPid:eventsMask:]
+-[DTObjectAllocService startCollectionWithPid:]
+-[DTObjectAllocService stopCollection]
+-[DTObjectAllocService .cxx_destruct]
++[DTNetworkInterfaceInfo addInterface:toNameMapping:]
++[DTNetworkInterfaceInfo interfaceNameMappings]
+-[XRIntKeyedDictionary initWithCoder:]
+-[XRIntKeyedDictionary encodeWithCoder:]
+-[XRIntKeyedDictionary objectForIntegerKey:]
+-[XRIntKeyedDictionary setObject:forIntergerKey:]
+-[XRIntKeyedDictionary setObject:forIntegerKey:]
+-[XRIntKeyedDictionary removeObjectForIntegerKey:]
+-[XRIntKeyedDictionary allObjects]
+___34-[XRIntKeyedDictionary allObjects]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[XRIntKeyedDictionary enumerateObjectsAndIntegerKeys:]
+-[XRIntKeyedDictionary count]
+-[XRIntKeyedDictionary .cxx_destruct]
+-[XRIntKeyedDictionary .cxx_construct]
+__ZNSt3__113unordered_mapIyU8__strongP11objc_objectNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS3_EEEEEixERSA_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE14__erase_uniqueIyEEmRKT_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE15__insert_uniqueINS_4pairIKyS4_EEEENSI_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEOT_
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE20__node_insert_uniqueEPNS_11__hash_nodeIS5_PvEE
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE6rehashEm
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE8__rehashEm
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEED2Ev
+__ZNSt3__112__hash_tableINS_17__hash_value_typeIyU8__strongP11objc_objectEENS_22__unordered_map_hasherIyS5_NS_4hashIyEELb1EEENS_21__unordered_map_equalIyS5_NS_8equal_toIyEELb1EEENS_9allocatorIS5_EEE12__deallocateEPNS_11__hash_nodeIS5_PvEE
+-[XRShimSupport init]
++[XRShimSupport sharedInstance]
+___31+[XRShimSupport sharedInstance]_block_invoke
+-[XRShimSupport copyShimsAndTrampolinesTo:]
+-[XRShimSupport _newSubmitJobAuth]
+-[XRShimSupport _libSimShimURL]
+-[XRShimSupport _trampolineURL]
+-[XRShimSupport _exposedLibSimShimURL]
+-[XRShimSupport _exposedTrampolineURL]
+-[XRShimSupport addSimShimToEnvironment:]
+-[XRShimSupport kickstart:]
+-[XRShimSupport startTrampolinedDaemonWithDevicePath:environment:arguments:options:kickstart:]
+-[XRShimSupport .cxx_destruct]
+-[XRTrampolinedLaunchOp initWithDevicePath:environment:arguments:options:kickstart:]
+-[XRTrampolinedLaunchOp main]
+___29-[XRTrampolinedLaunchOp main]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___29-[XRTrampolinedLaunchOp main]_block_invoke161
+___copy_helper_block_164
+___destroy_helper_block_165
+___29-[XRTrampolinedLaunchOp main]_block_invoke168
+___copy_helper_block_169
+___destroy_helper_block_170
+-[XRTrampolinedLaunchOp launchedPID]
+-[XRTrampolinedLaunchOp setLaunchedPID:]
+-[XRTrampolinedLaunchOp .cxx_destruct]
+-[XRSpaceDataToken hash]
+-[XRSpaceDataToken isEqual:]
+-[XRSpaceDataToken initWithSpaceTag:sequenceID:]
+-[XRSpaceDataToken copyWithZone:]
+-[XRSpaceDataToken .cxx_destruct]
++[LeakAnalyzer deserializeLeakData:withBlock:]
++[LeakAnalyzer serializedLeakDataWithCount:leaks:contents:references:layouts:timestamp:]
++[LeakAnalyzer descriptionForLeakErrorCode:]
+-[LeakAnalyzer initWithTask:]
+-[LeakAnalyzer findLeaksWithOptions:block:]
+___43-[LeakAnalyzer findLeaksWithOptions:block:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___43-[LeakAnalyzer findLeaksWithOptions:block:]_block_invoke95
+__appendEdge
+___copy_helper_block_98
+___destroy_helper_block_99
+___43-[LeakAnalyzer findLeaksWithOptions:block:]_block_invoke113
++[DTActivityMonitoringService registerCapabilities:]
+-[DTActivityMonitoringService initWithChannel:]
+-[DTActivityMonitoringService setSamplingRate:]
+-[DTActivityMonitoringService startSamplingWithPid:]
+-[DTActivityMonitoringService stopSampling]
+-[DTActivityMonitoringService killPid:withSignal:]
+-[DTActivityMonitoringService configureLaunchEnvironment:]
+-[DTActivityMonitoringService collectData]
+___dtrace_run_script_block_invoke
+___dtrace_run_script_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_19
+___destroy_helper_block_20
+-[DTAllocationsRecorder init]
+-[DTAllocationsRecorder dealloc]
++[DTAllocationsRecorder allEventsMask]
++[DTAllocationsRecorder vmEventsMask]
++[DTAllocationsRecorder retainReleaseAutoEventsMask]
++[DTAllocationsRecorder mallocReallocFreeEventsMask]
++[DTAllocationsRecorder zombieEventsMask]
++[DTAllocationsRecorder cppClassNamesMask]
++[DTAllocationsRecorder serviceIdentifier]
++[DTAllocationsRecorder currentVersion]
++[DTAllocationsRecorder configureLocalLaunchEnvironment:recordedEventsMask:]
+-[DTAllocationsRecorder _setupSharedMemoryInTask:error:]
+__allocationsError
+-[DTAllocationsRecorder startAttachingToRunningTask:recordedEventsMask:error:]
+-[DTAllocationsRecorder startWithLaunchedTask:error:]
+___53-[DTAllocationsRecorder startWithLaunchedTask:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___53-[DTAllocationsRecorder startWithLaunchedTask:error:]_block_invoke114
+___copy_helper_block_115
+___destroy_helper_block_116
+-[DTAllocationsRecorder startForProcessingBuffersWithError:]
+-[DTAllocationsRecorder _startWithError:]
+___41-[DTAllocationsRecorder _startWithError:]_block_invoke
+___copy_helper_block_132
+___destroy_helper_block_133
+___41-[DTAllocationsRecorder _startWithError:]_block_invoke138
+___copy_helper_block_141
+___destroy_helper_block_142
+-[DTAllocationsRecorder processBufferMessage:]
+___46-[DTAllocationsRecorder processBufferMessage:]_block_invoke
+___copy_helper_block_147
+___destroy_helper_block_148
+-[DTAllocationsRecorder stop]
+-[DTAllocationsRecorder cancel]
+-[DTAllocationsRecorder _endAndTossResources:]
+___46-[DTAllocationsRecorder _endAndTossResources:]_block_invoke
+___copy_helper_block_154
+___destroy_helper_block_155
+-[DTAllocationsRecorder eventCount]
+-[DTAllocationsRecorder _processIncomingData]
+___45-[DTAllocationsRecorder _processIncomingData]_block_invoke
+___copy_helper_block_159
+___destroy_helper_block_160
+___45-[DTAllocationsRecorder _processIncomingData]_block_invoke163
+___copy_helper_block_164
+___destroy_helper_block_165
+-[DTAllocationsRecorder eventHandler]
+-[DTAllocationsRecorder setEventHandler:]
+-[DTAllocationsRecorder bufferHandler]
+-[DTAllocationsRecorder setBufferHandler:]
+-[DTAllocationsRecorder readStackLogsUponAttach]
+-[DTAllocationsRecorder setReadStackLogsUponAttach:]
+-[DTAllocationsRecorder sharedMemorySize]
+-[DTAllocationsRecorder setSharedMemorySize:]
+-[DTAllocationsRecorder .cxx_destruct]
+__stack_logs_block_adaptor
+___DTXMapSharedMemory_block_invoke
+___copy_helper_block_237
+___destroy_helper_block_238
+___watchForChildDeath_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[XRVMState initialize]
+-[XRVMState init]
+-[XRVMState dealloc]
+-[XRVMState encodeWithCoder:]
+-[XRVMState initWithCoder:]
+-[XRVMState description]
++[XRVMState currentStateForTask:pid:previousState:dehydratedDiffVersion:]
+___73+[XRVMState currentStateForTask:pid:previousState:dehydratedDiffVersion:]_block_invoke
+___73+[XRVMState currentStateForTask:pid:previousState:dehydratedDiffVersion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_68
+___destroy_helper_block_69
+-[XRVMState _recalculateSizes]
+-[XRVMState detailsForRegion:]
+-[XRVMState hydrateWithPreviousState:]
+-[XRVMState regionForAddress:]
+-[XRVMState virtualSize]
+-[XRVMState residentSize]
+-[XRVMState dirtySize]
+-[XRVMState swappedSize]
+-[XRVMState regions]
+-[XRVMState machAbsoluteTimestamp]
+-[XRVMState traceRelativeTimestamp]
+-[XRVMState _addRegion:annotation:new:]
+-[XRVMState _annotationForRegion:]
+-[XRVMState _annotateRange:withPath:type:]
+-[XRVMState regionsWithOptions:]
+-[XRVMState summaryRegionsWithOptions:]
+-[XRVMState .cxx_destruct]
+-[DTApplicationListingService applicationInstalled:]
+-[DTApplicationListingService applicationUninstalled:]
+-[DTApplicationListingService _sendNotification:install:]
+-[DTApplicationListingService installedApplicationsMatching:registerUpdateToken:]
+-[DTApplicationListingService unregisterUpdateToken:]
+__with_string_components
+___main_block_invoke
+___main_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+__Xexception_raise
+__Xexception_raise_state
+__Xexception_raise_state_identity
+GCC_except_table2
+GCC_except_table5
+GCC_except_table17
+GCC_except_table25
+GCC_except_table4
+GCC_except_table13
+GCC_except_table3
+GCC_except_table10
+GCC_except_table15
+GCC_except_table21
+GCC_except_table9
+GCC_except_table12
+GCC_except_table29
+GCC_except_table21
+GCC_except_table5
+GCC_except_table22
+GCC_except_table9
+GCC_except_table12
+GCC_except_table33
+GCC_except_table0
+GCC_except_table4
+GCC_except_table1
+GCC_except_table2
+GCC_except_table5
+GCC_except_table7
+GCC_except_table120
+GCC_except_table139
+GCC_except_table143
+GCC_except_table259
+GCC_except_table6
+GCC_except_table18
+GCC_except_table0
+GCC_except_table7
+GCC_except_table14
+GCC_except_table21
+GCC_except_table28
+GCC_except_table35
+GCC_except_table42
+GCC_except_table49
+GCC_except_table60
+GCC_except_table70
+GCC_except_table4
+GCC_except_table5
+GCC_except_table14
+GCC_except_table15
+GCC_except_table24
+GCC_except_table32
+GCC_except_table33
+GCC_except_table69
+GCC_except_table8
+GCC_except_table14
+GCC_except_table21
+GCC_except_table25
+GCC_except_table29
+GCC_except_table33
+GCC_except_table5
+GCC_except_table13
+GCC_except_table20
+GCC_except_table28
+GCC_except_table41
+GCC_except_table34
+GCC_except_table9
+GCC_except_table13
+GCC_except_table20
+GCC_except_table21
+GCC_except_table29
+GCC_except_table30
+GCC_except_table1
+GCC_except_table3
+GCC_except_table14
+GCC_except_table21
+GCC_except_table9
+GCC_except_table15
+GCC_except_table19
+GCC_except_table23
+GCC_except_table27
+GCC_except_table21
+GCC_except_table24
+GCC_except_table11
+GCC_except_table3
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table5
+GCC_except_table7
+GCC_except_table11
+GCC_except_table19
+GCC_except_table4
+GCC_except_table11
+GCC_except_table14
+GCC_except_table6
+-[DTDeviceInfoService uniqueID].timeout
+__ZTS23XRProcessWatcherService
+__ZTS24XRProcessWatcherDelegate
+__ZTS32XRProcessMaintenanceTickProvider
+__ZTS30XRProcessTableObserverDelegate
+___block_descriptor_tmp
+___block_descriptor_tmp23
+___block_literal_global
+___block_descriptor_tmp25
+___block_literal_global26
+___block_descriptor_tmp37
+___block_literal_global38
+___block_descriptor_tmp44
+___block_descriptor_tmp56
+___block_descriptor_tmp62
+___block_descriptor_tmp68
+___block_descriptor_tmp72
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp4
+___block_literal_global5
+___block_descriptor_tmp13
+___block_descriptor_tmp16
+___block_descriptor_tmp43
+___block_descriptor_tmp52
+___block_descriptor_tmp57
+___block_descriptor_tmp60
+___block_descriptor_tmp62
+___block_literal_global63
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp49
+___block_descriptor_tmp59
+___block_descriptor_tmp104
+___block_descriptor_tmp112
+___block_descriptor_tmp199
+___block_descriptor_tmp
+___block_descriptor_tmp74
+___block_descriptor_tmp83
+___block_descriptor_tmp101
+_kConnectionInfoMapping
+___block_descriptor_tmp195
+_kConnectionStatMapping
+___block_descriptor_tmp204
+___block_descriptor_tmp208
+___block_descriptor_tmp212
+___block_descriptor_tmp217
+___block_descriptor_tmp220
+___block_descriptor_tmp224
+___block_descriptor_tmp232
+___block_descriptor_tmp238
+___block_descriptor_tmp241
+_newEnumFromProviderString.s_connStringToKindMap
+___block_descriptor_tmp251
+___block_descriptor_tmp
+___block_descriptor_tmp303
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp12
+___block_literal_global13
+___block_descriptor_tmp
+___block_descriptor_tmp9
+___block_descriptor_tmp12
+___block_descriptor_tmp15
+___block_descriptor_tmp28
+___block_descriptor_tmp
+___block_descriptor_tmp9
+___block_descriptor_tmp13
+___block_descriptor_tmp16
+___block_descriptor_tmp
+___block_descriptor_tmp16
+___block_descriptor_tmp35
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp157
+___block_descriptor_tmp367
+___block_descriptor_tmp383
+___block_literal_global
+___block_descriptor_tmp388
+___block_descriptor_tmp393
+___block_descriptor_tmp405
+___block_descriptor_tmp406
+___block_literal_global407
+___block_descriptor_tmp411
+___block_descriptor_tmp419
+___block_descriptor_tmp424
+___block_descriptor_tmp437
+___block_descriptor_tmp444
+___block_descriptor_tmp449
+___block_descriptor_tmp455
+___block_descriptor_tmp461
+___block_descriptor_tmp465
+___block_descriptor_tmp469
+___block_descriptor_tmp473
+___block_descriptor_tmp477
+___block_descriptor_tmp480
+___block_literal_global481
+___block_descriptor_tmp487
+___block_descriptor_tmp493
+___block_descriptor_tmp500
+___block_descriptor_tmp507
+___block_descriptor_tmp512
+___block_descriptor_tmp526
+___block_descriptor_tmp531
+___block_descriptor_tmp535
+___block_descriptor_tmp539
+___block_descriptor_tmp545
+___block_descriptor_tmp550
+___block_descriptor_tmp553
+___block_descriptor_tmp556
+___block_descriptor_tmp559
+___block_descriptor_tmp562
+___block_descriptor_tmp565
+___block_descriptor_tmp568
+___block_descriptor_tmp571
+___block_descriptor_tmp575
+___block_descriptor_tmp579
+___block_descriptor_tmp584
+___block_descriptor_tmp630
+___block_descriptor_tmp633
+___block_descriptor_tmp636
+___block_descriptor_tmp
+___block_descriptor_tmp72
+___block_descriptor_tmp82
+___block_descriptor_tmp86
+___block_descriptor_tmp96
+___block_descriptor_tmp111
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp5
+___block_descriptor_tmp11
+___block_descriptor_tmp14
+___block_descriptor_tmp18
+___block_descriptor_tmp21
+___block_descriptor_tmp25
+___block_descriptor_tmp28
+___block_descriptor_tmp34
+___block_descriptor_tmp37
+___block_descriptor_tmp42
+___block_descriptor_tmp45
+___block_descriptor_tmp54
+___block_descriptor_tmp61
+___block_descriptor_tmp66
+___block_descriptor_tmp69
+___block_descriptor_tmp73
+___block_descriptor_tmp77
+___block_descriptor_tmp80
+___block_descriptor_tmp86
+___block_descriptor_tmp89
+___block_descriptor_tmp94
+___block_descriptor_tmp97
+___block_descriptor_tmp
+___block_descriptor_tmp4
+___block_descriptor_tmp8
+-[DTCoreProfileLocalTap init].s_ActionNamesByKind
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp43
+___block_descriptor_tmp55
+___block_descriptor_tmp65
+___block_descriptor_tmp72
+___block_descriptor_tmp78
+___block_descriptor_tmp81
+___block_descriptor_tmp95
+___block_descriptor_tmp109
+___block_descriptor_tmp116
+___block_descriptor_tmp137
+___block_descriptor_tmp148
+___block_descriptor_tmp149
+___block_literal_global150
+___block_descriptor_tmp178
+___block_descriptor_tmp179
+___block_literal_global180
+___block_descriptor_tmp181
+___block_literal_global182
+___block_descriptor_tmp183
+___block_literal_global184
+___block_descriptor_tmp187
+___block_descriptor_tmp259
+___block_descriptor_tmp273
+___block_descriptor_tmp280
+___block_descriptor_tmp303
+___block_descriptor_tmp310
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp15
+___block_descriptor_tmp33
+___block_descriptor_tmp45
+___block_descriptor_tmp57
+___block_descriptor_tmp66
+___block_descriptor_tmp75
+___block_descriptor_tmp99
+___block_literal_global
+___block_descriptor_tmp161
+___block_descriptor_tmp164
+___block_descriptor_tmp220
+___block_descriptor_tmp261
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp44
+___block_descriptor_tmp50
+___block_descriptor_tmp66
+___block_descriptor_tmp70
+___block_descriptor_tmp76
+___block_descriptor_tmp80
+___block_descriptor_tmp88
+___block_descriptor_tmp91
+___block_descriptor_tmp97
+___block_descriptor_tmp122
+___block_descriptor_tmp123
+___block_literal_global124
+___block_descriptor_tmp129
+___block_literal_global130
+___block_descriptor_tmp132
+___block_literal_global133
+___block_descriptor_tmp140
+___block_literal_global141
+___block_descriptor_tmp144
+___block_literal_global145
+___block_descriptor_tmp148
+___block_literal_global149
+___block_descriptor_tmp152
+___block_literal_global153
+___block_descriptor_tmp225
+___block_descriptor_tmp237
+___block_descriptor_tmp241
+___block_descriptor_tmp246
+___block_descriptor_tmp253
+___block_descriptor_tmp258
+___block_descriptor_tmp260
+___block_literal_global261
+___block_descriptor_tmp
+___block_descriptor_tmp35
+___block_descriptor_tmp46
+___block_descriptor_tmp80
+___block_descriptor_tmp92
+___block_descriptor_tmp101
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp21
+___block_descriptor_tmp91
+___block_literal_global92
+___block_descriptor_tmp105
+___block_descriptor_tmp190
+___block_literal_global191
+___block_descriptor_tmp214
+___block_descriptor_tmp217
+___block_descriptor_tmp222
+___block_descriptor_tmp
+___block_descriptor_tmp80
+___block_descriptor_tmp
+___block_descriptor_tmp5
+___block_descriptor_tmp
+___block_descriptor_tmp27
+___block_descriptor_tmp87
+___block_descriptor_tmp90
+___block_descriptor_tmp93
+___block_descriptor_tmp96
+___block_descriptor_tmp100
+___block_descriptor_tmp104
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp83
+___block_descriptor_tmp90
+___block_descriptor_tmp98
+___block_descriptor_tmp101
+___block_descriptor_tmp108
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp5
+___block_literal_global6
+___block_descriptor_tmp7
+___block_literal_global8
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp40
+___block_literal_global41
+___block_descriptor_tmp68
+___block_descriptor_tmp74
+___block_descriptor_tmp96
+___block_descriptor_tmp103
+___block_descriptor_tmp107
+___block_descriptor_tmp128
+___block_descriptor_tmp143
+___block_descriptor_tmp151
+___block_descriptor_tmp154
+___block_descriptor_tmp157
+___block_descriptor_tmp
+___block_descriptor_tmp52
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp154
+___block_descriptor_tmp167
+___block_descriptor_tmp171
+___block_descriptor_tmp
+___block_descriptor_tmp101
+___block_descriptor_tmp115
+___block_descriptor_tmp
+___block_descriptor_tmp21
+___block_descriptor_tmp
+___block_descriptor_tmp118
+___block_descriptor_tmp135
+___block_descriptor_tmp144
+___block_descriptor_tmp149
+___block_descriptor_tmp156
+___block_descriptor_tmp162
+___block_descriptor_tmp167
+___block_descriptor_tmp239
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp70
+___block_descriptor_tmp
+___block_descriptor_tmp6
+___block_literal_global
+_OBJC_IVAR_$_XRExpiredPidCacheServiceProtected._cacheQ
+_OBJC_IVAR_$_XRExpiredPidCacheServiceProtected._cache
+_OBJC_IVAR_$_DTApplicationWorkspaceObserver._registrationsByToken
+_OBJC_IVAR_$_DTApplicationWorkspaceObserver._knownAppsByPath
+_OBJC_IVAR_$_XRNetworkingServiceObservationTuple._kind
+_OBJC_IVAR_$_XRNetworkingServiceObservationTuple._count
+_OBJC_IVAR_$_DTNetworkingService._filteredToPid
+_OBJC_IVAR_$_DTNetworkingService._workQueue
+_OBJC_IVAR_$_DTNetworkingService._netstatMan
+_OBJC_IVAR_$_DTNetworkingService._isAppleInternal
+_OBJC_IVAR_$_DTNetworkingService._hiddenInterfaces
+_OBJC_IVAR_$_DTNetworkingService._seenInterfaces
+_OBJC_IVAR_$_DTNetworkingService._isDisconnected
+_OBJC_IVAR_$_DTNetworkingService._interval
+_OBJC_IVAR_$_DTNetworkingService._dispatchTimer
+_OBJC_IVAR_$_DTNetworkingService._sources
+_OBJC_IVAR_$_DTDeviceInfoService._trackingSymbolicatorsByPid
+_OBJC_IVAR_$_DTSamplingService._samplingRate
+_OBJC_IVAR_$_DTSamplingService._outputRate
+_OBJC_IVAR_$_DTSamplingService._backtraceBuffer
+_OBJC_IVAR_$_DTSamplingService._task
+_OBJC_IVAR_$_DTSamplingService._targetIs64Bit
+_OBJC_IVAR_$_DTSamplingService._doCollectData
+_OBJC_IVAR_$_DTSamplingService._backtraceBufferUsedSize
+_OBJC_IVAR_$_DTSamplingService._backtraceBufferSize
+_OBJC_IVAR_$_DTSamplingService._outputRateDelta
+_OBJC_IVAR_$__RecordContainerStrategy._containers
+_OBJC_IVAR_$__RecordContainerStrategy._tapRecordContainerHandler
+_OBJC_IVAR_$__SessionContainerStrategy._sessionHandler
+_OBJC_IVAR_$__CPTapGuarded._triggerIDs
+_OBJC_IVAR_$__CPTapGuarded._removeValidatedPathWhenComplete
+_OBJC_IVAR_$__CPTapGuarded._latestValidatedPath
+_OBJC_IVAR_$__CPTapGuarded._latestConfig
+_OBJC_IVAR_$__CPTapGuarded._currentConfig
+_OBJC_IVAR_$__CPTapGuarded._hasAtLeastOneRecordHandler
+_OBJC_IVAR_$__CPTapGuarded._recordHandlers
+_OBJC_IVAR_$__CPTapGuarded._recordContainerHandlers
+_OBJC_IVAR_$__CPTapGuarded._currentContainerPath
+_OBJC_IVAR_$__CPTapGuarded._containersCreated
+_OBJC_IVAR_$__CPTapGuarded._running
+_OBJC_IVAR_$__CPTapGuarded._preserveContainerFiles
+_OBJC_IVAR_$__CPTapGuarded._triggerCount
+_OBJC_IVAR_$__CPTapGuarded._metadataByTriggerIndex
+_OBJC_IVAR_$__CPTapGuarded._errorString
+_OBJC_IVAR_$__CPTapGuarded._internalSrc
+_OBJC_IVAR_$__CPTapGuarded._session
+_OBJC_IVAR_$__CPTapGuarded._unprocessedSession
+_OBJC_IVAR_$__CPTapGuarded._UUID
+_OBJC_IVAR_$__CPTapGuarded._suspendCount
+_OBJC_IVAR_$__CPTapGuarded._stoppedWhileSuspended
+_OBJC_IVAR_$__CPTapGuarded._connectionEnabled
+_OBJC_IVAR_$__CPTapGuarded._paused
+_OBJC_IVAR_$__CPTapGuarded._coreCount
+_OBJC_IVAR_$__CPTapGuarded._sessionMetadata
+_OBJC_IVAR_$_DTCoreProfileTap._guardQueue
+_OBJC_IVAR_$_DTCoreProfileTap._sourceAndHandlerQueue
+_OBJC_IVAR_$_DTFSUsageActivityService._switches
+_OBJC_IVAR_$_DTFSUsageActivityService._targetConnection
+_OBJC_IVAR_$_XRRecentArrayStoredPrefs._preferencePathArray
+_OBJC_IVAR_$_XRRecentArrayStoredPrefs._preferencePathMaxCount
+_OBJC_IVAR_$_DTCoreProfileLocalTap._actionTypesByKind
+_OBJC_IVAR_$_DTCoreProfileLocalTap._taskForPid
+_OBJC_IVAR_$_DTCoreProfileLocalTap._triggers
+_OBJC_IVAR_$_DTCoreProfileLocalTap._pollTimer
+_OBJC_IVAR_$_DTVMTrackingService._targetTask
+_OBJC_IVAR_$_DTVMTrackingService._targetPid
+_OBJC_IVAR_$_DTVMTrackingService._currentState
+_OBJC_IVAR_$_XRVMRegionAnnotation._baseAddress
+_OBJC_IVAR_$_XRVMRegionAnnotation._vpages
+_OBJC_IVAR_$_XRVMRegionAnnotation._pageMap
+_OBJC_IVAR_$_XRVMCoalescedRegion._groupName
+_OBJC_IVAR_$_XRVMCoalescedRegion._subRegions
+_OBJC_IVAR_$_XRVMCoalescedRegion._virtualSize
+_OBJC_IVAR_$_XRVMCoalescedRegion._multiplicityFlags
+_OBJC_IVAR_$_DTCoreProfileTriggerConfig._dict
+_OBJC_IVAR_$_DTCoreProfileTriggerConfig._kdebugFilterSet
+_OBJC_IVAR_$_DTCoreProfileTapConfig._dict
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._serviceName
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._version
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._connection
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._channel
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._containersByTrigger
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._unprocessedMessageQueue
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._rawBufferAccumulator
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._receivedMessage
+_OBJC_IVAR_$_DTCoreProfileTapService._lockedObj
+_OBJC_IVAR_$_DTCoreProfileTapService._lock
+_OBJC_IVAR_$_DTProcessControlService._deathNoteQueue
+_OBJC_IVAR_$_DTProcessControlService._pids
+_OBJC_IVAR_$_DTProcessControlService._sources
+_OBJC_IVAR_$_DTProcessControlService._activeIODispatchSources
+_OBJC_IVAR_$_DTInstrumentServer._connection
+_OBJC_IVAR_$_DTInstrumentServer._channelRestrictBlock
+_OBJC_IVAR_$_DTCoreProfileTapMessage._plist
+_OBJC_IVAR_$_DTPerfMonEvent._counterEvent
+_OBJC_IVAR_$_DTPerfMonEvent._mnemonic
+_OBJC_IVAR_$_DTPerfMonEvent._alias
+_OBJC_IVAR_$_DTPerfMonEvent._explanation
+_OBJC_IVAR_$_DTPerfMonEvent._displayName
+_OBJC_IVAR_$_DTLeaksService._coordinationQueue
+_OBJC_IVAR_$_DTLeaksService._helperConnection
+_OBJC_IVAR_$_DTCoreProfileTapPlaybackService._op
+_OBJC_IVAR_$_XRSpace._queue
+_OBJC_IVAR_$_XRSpace._tag
+_OBJC_IVAR_$_XRSpace._userDataByToken
+_OBJC_IVAR_$_XRSpace._seqNum
+_OBJC_IVAR_$_XRSpaceBlockOp._block
+_OBJC_IVAR_$_DTPerfMonEventAllocation._mnemonic
+_OBJC_IVAR_$_DTPerfMonEventAllocation._groupName
+_OBJC_IVAR_$_DTPerfMonEventAllocation._allocatedCounterName
+_OBJC_IVAR_$_DTPerfMonEventAllocation._warningString
+_OBJC_IVAR_$_DTCoreProfilePlaybackTap._nextMessageBlock
+_OBJC_IVAR_$_DTNStatSourceMapEntry._pid
+_OBJC_IVAR_$_DTNStatSourceMapEntry._lastStats
+_OBJC_IVAR_$_DTXPCServiceController._registrationDictsByPid
+_OBJC_IVAR_$_DTXPCServiceController._guard
+_OBJC_IVAR_$_DTObjectAllocService._recorder
+_OBJC_IVAR_$_DTObjectAllocService._task
+_OBJC_IVAR_$_XRIntKeyedDictionary._hash_map
+_OBJC_IVAR_$_XRShimSupport._backgroundQ
+_OBJC_IVAR_$_XRShimSupport._exposedResources
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._path
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._environment
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._arguments
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._options
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._kickstart
+_OBJC_IVAR_$_XRTrampolinedLaunchOp._launchedPID
+_OBJC_IVAR_$_XRSpaceDataToken._seq
+_OBJC_IVAR_$_XRSpaceDataToken._tag
+_OBJC_IVAR_$_LeakAnalyzer._task
+_OBJC_IVAR_$_DTActivityMonitoringService._samplingRate
+_OBJC_IVAR_$_DTActivityMonitoringService._doCollectData
+_OBJC_IVAR_$_DTAllocationsRecorder._processingQueue
+_OBJC_IVAR_$_DTAllocationsRecorder._stopCollection
+_OBJC_IVAR_$_DTAllocationsRecorder._shmem
+_OBJC_IVAR_$_DTAllocationsRecorder._targetTask
+_OBJC_IVAR_$_DTAllocationsRecorder._partialEvent
+_OBJC_IVAR_$_DTAllocationsRecorder._partialFilled
+_OBJC_IVAR_$_DTAllocationsRecorder._partialSize
+_OBJC_IVAR_$_DTAllocationsRecorder._eventTotal
+_OBJC_IVAR_$_DTAllocationsRecorder._eventHandler
+_OBJC_IVAR_$_DTAllocationsRecorder._bufferHandler
+_OBJC_IVAR_$_DTAllocationsRecorder._readStackLogsUponAttach
+_OBJC_IVAR_$_DTAllocationsRecorder._sharedMemorySize
+_OBJC_IVAR_$_XRVMState._regions
+_OBJC_IVAR_$_XRVMState._pageAnnotationsByRegion
+_OBJC_IVAR_$_XRVMState._machAbsolute
+_OBJC_IVAR_$_XRVMState._totalSize
+_OBJC_IVAR_$_XRVMState._sharedRegionStart
+_OBJC_IVAR_$_XRVMState._sharedRegionLength
+_OBJC_IVAR_$_XRVMState._traceRelative
+_OBJC_IVAR_$_XRVMState._task
+_OBJC_IVAR_$_XRVMState._swapSize
+_OBJC_IVAR_$_XRVMState._dirtySize
+_OBJC_IVAR_$_XRVMState._residentSize
+__ZZN23XRProcessWatcherService9singletonEvE9s_service
+__ZZN23XRProcessWatcherService9singletonEvE7s_guard
+__ZTV23XRProcessWatcherService
+__ZTI32XRProcessMaintenanceTickProvider
+__ZTI24XRProcessWatcherDelegate
+__ZTI30XRProcessTableObserverDelegate
+__ZTI23XRProcessWatcherService
+_s_pidExiting
+__serviceDisabled
++[DTExpiredPidCacheService defaultCache].onceToken
++[DTExpiredPidCacheService defaultCache].s_instance
++[DTApplicationWorkspaceObserver sharedInstance].onceToken
++[DTApplicationWorkspaceObserver sharedInstance].s_sharedInstance
+-[DTDeviceInfoService nameForUID:].uidCache
+-[DTDeviceInfoService nameForGID:].gidCache
+-[DTDeviceInfoService uniqueID].__hostUUIDString
+-[DTDeviceInfoService cpDeviceInfoAsXML].deviceInfo
+-[DTDeviceInfoService cpDeviceName].deviceName
+__currentCPDevice._device
+_DTCPProcessorsForCurrentSystem.processors
+_DTCPProcessorsForCurrentSystem.onceToken
+_DTCPEventSetForCurrentOS.sDefaultEventSet
+_DTCPEventSetForCurrentOS.onceToken
+__instrumentsRightConfig.onceToken
+__instrumentsRightConfig.s_tfp_rightConfig
+__instrumentsRightConfig.s_kill_rightConfig
++[XRRecentArrayStoredPrefs sharedInstanceForPreferencePath:].instances
++[XRRecentArrayStoredPrefs sharedInstanceForPreferencePath:].lock
++[XRRecentArrayStoredPrefs sharedInstanceForPreferencePath:].onceToken
+-[DTCoreProfileLocalTap _containerStrategy:].s_sessionRequired
+-[DTCoreProfileLocalTap _containerStrategy:].onceToken
+_DVTIFIsAppleInternalEnvironment._isInternal
+_DVTIFIsAppleInternalEnvironment.onceToken
+_DTInstrumentServer_Authorization
++[DTInstrumentServer taskForPid:].onceToken
+_s_taskPortsByPid
+_s_deathSourcesByPid
+_s_tfpCommPort
+_DTInstrumentsServicePlaybackThroughChannel.s_activeConnections
+_DTInstrumentsServicePlaybackThroughChannel.onceToken
+__ZZN29XRProcessWatcherExceptionPort9singletonEvE11s_singleton
+__sharedDTPerfMonManager
+-[XRSpace _postQueueStateChanged].onceToken
+-[XRSpace _postQueueStateChanged].s_modeArray
+__cpDispatchOnce
+__cpQueue
+__coreProfileIsLoaded
+_sSettings
++[DTCPRemoteCache sharedDTCPRemoteCache]._sharedDTCPRemoteCache
++[DTCPRemoteCache sharedDTCPRemoteCache].onceToken
++[DTXPCServiceController sharedInstance].onceToken
++[DTXPCServiceController sharedInstance].s_sharedInstance
++[XRShimSupport sharedInstance].s_instance
++[XRShimSupport sharedInstance].onceToken
+_DTApplicationListingServiceCapability
+_DTCPCreateEventsFilterSetHelper
+_DTCPEventSetForCurrentOS
+_DTCPProcessorsForCurrentSystem
+_DTCPThreadStateIsRunning
+_DTCoreProfileIsLoaded
+_DTCoreProfileLoadedNotification
+_DTCoreProfilePreloadOnce
+_DTCoreProfileRunAsync
+_DTCoreProfileRunSync
+_DTCoreProfileSessionTapServiceIdentifier
+_DTCoreProfileTapActiveConfig
+_DTCoreProfileTapActiveContainerPath
+_DTCoreProfileTapCallbackQueue
+_DTCoreProfileTapConnectionBroken
+_DTCoreProfileTapCreateContainer
+_DTCoreProfileTapFetch
+_DTCoreProfileTapGetSessionMetadata
+_DTCoreProfileTapGetTriggerMetadata
+_DTCoreProfileTapIsConnectionEnabled
+_DTCoreProfileTapIsRunning
+_DTCoreProfileTapReceivedContainer
+_DTCoreProfileTapReceivedSessionData
+_DTCoreProfileTapSetConnection
+_DTCoreProfileTapSetCoreCount
+_DTCoreProfileTapSetRunning
+_DTCoreProfileTapSetTriggerCount
+_DTCoreProfileTapSetTriggerMetadata
+_DTCoreProfileTapStrategy
+_DTCoreProfileWaitUntilLoaded
+_DTDefaultDeviceInfoServiceIdentifier
+_DTDefaultProcessControlServiceIdentifier
+_DTFetchAtLaunchOptionKey
+_DTInstrumentsServicePlaybackThroughChannel
+_DTKDebugEnumerateEventsFromPage
+_DTKDebugEnumerateFilePagesForCPRecords
+_DTKDebugGetOptimalSerializedPageSize
+_DTNStatSourceMapAddSource
+_DTNStatSourceMapDestroy
+_DTNStatSourceMapGetSource
+_DTNStatSourceMapInitialize
+_DTNStatSourceMapRemoveSource
+_DTProcessControlEventData_WidgetIdentifierKey
+_DTProcessControlEventType_BackgroundFetchEvent
+_DTProcessControlEventType_MemoryWarningEvent
+_DTProcessControlEventType_ShowNotificationCenter
+_DTProcessControlEventUnarchive
+_DTProcessControlEvent_EventTypeKey
+_DTProcessControlOptionsGetEvent
+_DTProcessControlOptionsSetEvent
+_DTProcessControlSendEventToPid
+_DTProcessControlServiceByDictionaryIdentifier
+_DTProcessControlServiceOption_Allow64Bit
+_DTProcessControlServiceOption_EnableExtensionKey
+_DTProcessControlServiceOption_KillExistingKey
+_DTProcessControlServiceOption_LeaveSuspendedKey
+_DTProcessControlServiceOption_OnceOnlyKey
+_DTProcessControlServiceOption_OutputRedirectionKey
+_DTProcessControlServiceOption_RequestingPidKey
+_DTProcessControlServiceOption_WorkingDirectory
+_DTWaitForLibraryLoad
+_DTXPCControlServiceCapability
+_DVTIFAssertMainThread
+_DVTIFAssertNotMainThread
+_DVTIFAssertRecover
+_DVTIFCurrentDylibRootPath
+_DVTIFIsAppleInternalEnvironment
+_DVTIFUidForPid
+_DVTInstrumentsFoundationVersionNumber
+_DVTInstrumentsFoundationVersionString
+_OBJC_CLASS_$_DTActivityMonitoringService
+_OBJC_CLASS_$_DTAllocationsRecorder
+_OBJC_CLASS_$_DTApplicationListingService
+_OBJC_CLASS_$_DTApplicationWorkspaceObserver
+_OBJC_CLASS_$_DTCPRemoteCache
+_OBJC_CLASS_$_DTCoreProfileLocalTap
+_OBJC_CLASS_$_DTCoreProfilePlaybackTap
+_OBJC_CLASS_$_DTCoreProfileRemoteTap
+_OBJC_CLASS_$_DTCoreProfileTap
+_OBJC_CLASS_$_DTCoreProfileTapConfig
+_OBJC_CLASS_$_DTCoreProfileTapMessage
+_OBJC_CLASS_$_DTCoreProfileTapPlaybackService
+_OBJC_CLASS_$_DTCoreProfileTapService
+_OBJC_CLASS_$_DTCoreProfileTriggerConfig
+_OBJC_CLASS_$_DTDeviceInfoService
+_OBJC_CLASS_$_DTExpiredPidCacheService
+_OBJC_CLASS_$_DTFSUsageActivityService
+_OBJC_CLASS_$_DTFileBrowserService
+_OBJC_CLASS_$_DTInstrumentServer
+_OBJC_CLASS_$_DTLaunchDaemonService
+_OBJC_CLASS_$_DTLeaksService
+_OBJC_CLASS_$_DTNStatSourceMapEntry
+_OBJC_CLASS_$_DTNetworkInterfaceInfo
+_OBJC_CLASS_$_DTNetworkingService
+_OBJC_CLASS_$_DTObjectAllocService
+_OBJC_CLASS_$_DTPerfMonDevice
+_OBJC_CLASS_$_DTPerfMonEvent
+_OBJC_CLASS_$_DTPerfMonEventAllocation
+_OBJC_CLASS_$_DTPerfMonManager
+_OBJC_CLASS_$_DTPosixSpawnProcessControlService
+_OBJC_CLASS_$_DTProcessControlApplicationMemoryWarning
+_OBJC_CLASS_$_DTProcessControlBackgroundFetchEvent
+_OBJC_CLASS_$_DTProcessControlEvent
+_OBJC_CLASS_$_DTProcessControlService
+_OBJC_CLASS_$_DTSamplingService
+_OBJC_CLASS_$_DTVMTrackingService
+_OBJC_CLASS_$_DTXPCControlService
+_OBJC_CLASS_$_DTXPCServiceController
+_OBJC_CLASS_$_LeakAnalyzer
+_OBJC_CLASS_$_XRExpiredPidCacheServiceProtected
+_OBJC_CLASS_$_XRIndexSet
+_OBJC_CLASS_$_XRIntKeyedDictionary
+_OBJC_CLASS_$_XRInternalizedSettingsStore
+_OBJC_CLASS_$_XRMutableIndexSet
+_OBJC_CLASS_$_XRNetworkingServiceObservationTuple
+_OBJC_CLASS_$_XRRecentArray
+_OBJC_CLASS_$_XRRecentArrayStoredPrefs
+_OBJC_CLASS_$_XRShimSupport
+_OBJC_CLASS_$_XRSpace
+_OBJC_CLASS_$_XRSpaceBlockOp
+_OBJC_CLASS_$_XRSpaceDataToken
+_OBJC_CLASS_$_XRTrampolinedLaunchOp
+_OBJC_CLASS_$_XRVMCoalescedRegion
+_OBJC_CLASS_$_XRVMRegion
+_OBJC_CLASS_$_XRVMRegionAnnotation
+_OBJC_CLASS_$_XRVMState
+_OBJC_CLASS_$__CPTapGuarded
+_OBJC_CLASS_$__DTCoreProfileTapService
+_OBJC_CLASS_$__RecordContainerLocalStrategy
+_OBJC_CLASS_$__RecordContainerRemoteStrategy
+_OBJC_CLASS_$__RecordContainerStrategy
+_OBJC_CLASS_$__SessionContainerLocalStrategy
+_OBJC_CLASS_$__SessionContainerRemoteStrategy
+_OBJC_CLASS_$__SessionContainerStrategy
+_OBJC_CLASS_$__XRExpiredPidCache
+_OBJC_IVAR_$_DTCPRemoteCache._locks
+_OBJC_IVAR_$_DTCoreProfileRemoteTap._requiresCPSession
+_OBJC_IVAR_$_DTNStatSourceMapEntry._serialNumber
+_OBJC_IVAR_$_DTPerfMonDevice._counterMaskToName
+_OBJC_IVAR_$_DTPerfMonDevice._counterNameToMask
+_OBJC_IVAR_$_DTPerfMonDevice._counterNames
+_OBJC_IVAR_$_DTPerfMonDevice._countersDict
+_OBJC_IVAR_$_DTPerfMonDevice._countersInUseMask
+_OBJC_IVAR_$_DTPerfMonDevice._deviceInstances
+_OBJC_IVAR_$_DTPerfMonDevice._eventMnemonicToMask
+_OBJC_IVAR_$_DTPerfMonDevice._eventMnemonicsByCounter
+_OBJC_IVAR_$_DTPerfMonDevice._name
+_OBJC_IVAR_$_DTPerfMonDevice._sortedEventMnemonics
+_OBJC_IVAR_$_DTPerfMonManager._deviceNames
+_OBJC_IVAR_$_DTPerfMonManager._devicesDict
+_OBJC_IVAR_$_DTPerfMonManager._localDevice
+_OBJC_IVAR_$_DTPerfMonManager._processorNames
+_OBJC_IVAR_$_XRIndexSet._arraySize
+_OBJC_IVAR_$_XRIndexSet._numRanges
+_OBJC_IVAR_$_XRIndexSet._range
+_OBJC_IVAR_$_XRIndexSet._rangeArray
+_OBJC_IVAR_$_XRNetworkingServiceObservationTuple.data
+_OBJC_IVAR_$_XRRecentArray._entries
+_OBJC_IVAR_$_XRRecentArray._lock
+_OBJC_IVAR_$_XRRecentArray._maximumRecentCount
+_OBJC_IVAR_$_XRVMRegion.current_prot
+_OBJC_IVAR_$_XRVMRegion.external_pager
+_OBJC_IVAR_$_XRVMRegion.is_submap
+_OBJC_IVAR_$_XRVMRegion.length
+_OBJC_IVAR_$_XRVMRegion.max_prot
+_OBJC_IVAR_$_XRVMRegion.pages_dirtied
+_OBJC_IVAR_$_XRVMRegion.pages_resident
+_OBJC_IVAR_$_XRVMRegion.pages_shared_now_private
+_OBJC_IVAR_$_XRVMRegion.pages_swapped_out
+_OBJC_IVAR_$_XRVMRegion.path
+_OBJC_IVAR_$_XRVMRegion.ref_count
+_OBJC_IVAR_$_XRVMRegion.region_page_shift
+_OBJC_IVAR_$_XRVMRegion.share_mode
+_OBJC_IVAR_$_XRVMRegion.start
+_OBJC_IVAR_$_XRVMRegion.type
+_OBJC_IVAR_$_XRVMRegion.user_tag
+_OBJC_IVAR_$__CPTapGuarded.containerStrategy
+_OBJC_IVAR_$__DTCoreProfileTapService.channel
+_OBJC_IVAR_$__DTCoreProfileTapService.metadataSentIndexSet
+_OBJC_IVAR_$__DTCoreProfileTapService.sessionMetaDataSent
+_OBJC_IVAR_$__DTCoreProfileTapService.tap
+_OBJC_IVAR_$__DTCoreProfileTapService.useExpiredPidCache
+_OBJC_IVAR_$__XRExpiredPidCache.enableCount
+_OBJC_IVAR_$__XRExpiredPidCache.pidWatcher
+_OBJC_IVAR_$__XRExpiredPidCache.signatures
+_OBJC_METACLASS_$_DTActivityMonitoringService
+_OBJC_METACLASS_$_DTAllocationsRecorder
+_OBJC_METACLASS_$_DTApplicationListingService
+_OBJC_METACLASS_$_DTApplicationWorkspaceObserver
+_OBJC_METACLASS_$_DTCPRemoteCache
+_OBJC_METACLASS_$_DTCoreProfileLocalTap
+_OBJC_METACLASS_$_DTCoreProfilePlaybackTap
+_OBJC_METACLASS_$_DTCoreProfileRemoteTap
+_OBJC_METACLASS_$_DTCoreProfileTap
+_OBJC_METACLASS_$_DTCoreProfileTapConfig
+_OBJC_METACLASS_$_DTCoreProfileTapMessage
+_OBJC_METACLASS_$_DTCoreProfileTapPlaybackService
+_OBJC_METACLASS_$_DTCoreProfileTapService
+_OBJC_METACLASS_$_DTCoreProfileTriggerConfig
+_OBJC_METACLASS_$_DTDeviceInfoService
+_OBJC_METACLASS_$_DTExpiredPidCacheService
+_OBJC_METACLASS_$_DTFSUsageActivityService
+_OBJC_METACLASS_$_DTFileBrowserService
+_OBJC_METACLASS_$_DTInstrumentServer
+_OBJC_METACLASS_$_DTLaunchDaemonService
+_OBJC_METACLASS_$_DTLeaksService
+_OBJC_METACLASS_$_DTNStatSourceMapEntry
+_OBJC_METACLASS_$_DTNetworkInterfaceInfo
+_OBJC_METACLASS_$_DTNetworkingService
+_OBJC_METACLASS_$_DTObjectAllocService
+_OBJC_METACLASS_$_DTPerfMonDevice
+_OBJC_METACLASS_$_DTPerfMonEvent
+_OBJC_METACLASS_$_DTPerfMonEventAllocation
+_OBJC_METACLASS_$_DTPerfMonManager
+_OBJC_METACLASS_$_DTPosixSpawnProcessControlService
+_OBJC_METACLASS_$_DTProcessControlApplicationMemoryWarning
+_OBJC_METACLASS_$_DTProcessControlBackgroundFetchEvent
+_OBJC_METACLASS_$_DTProcessControlEvent
+_OBJC_METACLASS_$_DTProcessControlService
+_OBJC_METACLASS_$_DTSamplingService
+_OBJC_METACLASS_$_DTVMTrackingService
+_OBJC_METACLASS_$_DTXPCControlService
+_OBJC_METACLASS_$_DTXPCServiceController
+_OBJC_METACLASS_$_LeakAnalyzer
+_OBJC_METACLASS_$_XRExpiredPidCacheServiceProtected
+_OBJC_METACLASS_$_XRIndexSet
+_OBJC_METACLASS_$_XRIntKeyedDictionary
+_OBJC_METACLASS_$_XRInternalizedSettingsStore
+_OBJC_METACLASS_$_XRMutableIndexSet
+_OBJC_METACLASS_$_XRNetworkingServiceObservationTuple
+_OBJC_METACLASS_$_XRRecentArray
+_OBJC_METACLASS_$_XRRecentArrayStoredPrefs
+_OBJC_METACLASS_$_XRShimSupport
+_OBJC_METACLASS_$_XRSpace
+_OBJC_METACLASS_$_XRSpaceBlockOp
+_OBJC_METACLASS_$_XRSpaceDataToken
+_OBJC_METACLASS_$_XRTrampolinedLaunchOp
+_OBJC_METACLASS_$_XRVMCoalescedRegion
+_OBJC_METACLASS_$_XRVMRegion
+_OBJC_METACLASS_$_XRVMRegionAnnotation
+_OBJC_METACLASS_$_XRVMState
+_OBJC_METACLASS_$__CPTapGuarded
+_OBJC_METACLASS_$__DTCoreProfileTapService
+_OBJC_METACLASS_$__RecordContainerLocalStrategy
+_OBJC_METACLASS_$__RecordContainerRemoteStrategy
+_OBJC_METACLASS_$__RecordContainerStrategy
+_OBJC_METACLASS_$__SessionContainerLocalStrategy
+_OBJC_METACLASS_$__SessionContainerRemoteStrategy
+_OBJC_METACLASS_$__SessionContainerStrategy
+_OBJC_METACLASS_$__XRExpiredPidCache
+_XRApplicationBundleIdentifierKey
+_XRApplicationBundlePathKey
+_XRApplicationExecutableNameKey
+_XRApplicationIsPlaceholderKey
+_XRApplicationIsRestrictedKey
+_XRApplicationPluginContainerBundleIdentifierKey
+_XRApplicationPluginContainerBundlePathKey
+_XRApplicationPluginExtensionPointKey
+_XRApplicationPluginIdentifierKey
+_XRApplicationPluginUUIDKey
+_XRApplicationTypeInternalApplication
+_XRApplicationTypeKey
+_XRApplicationTypePluginKitPlugin
+_XRApplicationTypeSystemApplication
+_XRApplicationTypeUserApplication
+_XRApplicationVendedAppExtensionUUIDsKey
+_XRAuthorizationCreateWithPrivileges
+_XRAuthorizationHasPrivileges
+_XRDisplayStringFromTimeRange
+_XRIntersectionTimeRange
+_XRInvalidOperationForSpaceException
+_XRLeakOptions
+_XRMakeInclusiveTimeRange
+_XRRegionTypeDescriptionForTagShareProtAndPager
+_XRSpaceQueueCountChangedNotification
+_XRStringFromTimeRange
+_XRTimeRangeFromString
+_XRUnionTimeRange
+_XRVMAllRegionAggregateName
+_XRVMDirtyRegionAggregateName
+_XRVMUnusedSharedLibraryPath
+_activity_collect_statistics
+_activity_start_monitoring
+_activity_stop_monitoring
+_authorization_create_from_xpc_message
+_authorize_analysis_process
+_authorized_coreprofile_bless_pid
+_authorized_coreprofile_core_control
+_authorized_kill_process
+_authorized_preauthorize_rights
+_authorized_task_for_pid
+_authorized_xpc_attach
+_catch_exc_subsystem
+_cleanupLeakAgent
+_dtrace_run_script
+_exc_server
+_exc_server_routine
+_isKperfRequiredByiOSVersion
+_kTapRecordBarrier
+_launchLeakAgent
+_main
+_oneshot_xpc_async
+_oneshot_xpc_sync
+_pid_watcher_collect
+_pid_watcher_connect
+_pid_watcher_disconnect
+_powermetrics_start
+_powermetrics_stop
+_setup_launch_daemon
+_with_analysis_task_for_pid
+_with_authorized_xpc_message
+_xpc_dictionary_get_archived_object
+_xpc_dictionary_set_archived_object
+_xpc_message_get_status
+_xpc_message_has_privileges
+_AuthorizationCopyRights
+_AuthorizationCreate
+_AuthorizationCreateFromExternalForm
+_AuthorizationFree
+_AuthorizationFreeItemSet
+_AuthorizationMakeExternalForm
+_AuthorizationRightGet
+_AuthorizationRightSet
+_CFAbsoluteTimeGetCurrent
+_CFArrayAppendValue
+_CFArrayCreate
+_CFArrayCreateMutable
+_CFArrayCreateMutableCopy
+_CFArrayCreateWithDTXPrimitiveArray
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFArrayRemoveAllValues
+_CFArraySetValueAtIndex
+_CFArraySortValues
+_CFBundleCopyExecutableURL
+_CFBundleCreate
+_CFDataCreateWithBytesNoCopy
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFDictionaryAddValue
+_CFDictionaryApplyFunction
+_CFDictionaryContainsKey
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryGetCount
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetValue
+_CFDictionaryGetValueIfPresent
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFEqual
+_CFErrorCopyDescription
+_CFErrorGetCode
+_CFNumberCompare
+_CFNumberCreate
+_CFNumberGetValue
+_CFPropertyListCreateData
+_CFPropertyListCreateWithData
+_CFRelease
+_CFRetain
+_CFSetAddValue
+_CFSetContainsValue
+_CFSetCreateMutable
+_CFShow
+_CFStringCompare
+_CFStringCreateWithCString
+_CFStringGetLength
+_CFURLCopyAbsoluteURL
+_CFURLCopyFileSystemPath
+_CFURLCreateWithFileSystemPath
+_CFUUIDCreate
+_CFUUIDCreateFromUUIDBytes
+_CFUUIDCreateString
+_CGBitmapContextCreate
+_CGColorSpaceCreateDeviceRGB
+_CGColorSpaceRelease
+_CGContextDrawImage
+_CGContextRelease
+_CGImageGetHeight
+_CGImageGetWidth
+_CGImageRelease
+_CGImageSourceCreateThumbnailAtIndex
+_CGImageSourceCreateWithURL
+_CGImageSourceGetCount
+_CPActionCreate
+_CPActionSetPropertyValue
+_CPCopyCurrentMacOSX
+_CPCopyModelDeviceList
+_CPCopyProcessForMachPort
+_CPCopyProcessForProcessID
+_CPCounterEventGetCounter
+_CPCounterGetDefinedEvents
+_CPCounterGetType
+_CPCounterSetEvent
+_CPDeviceCopyXML
+_CPDeviceCreateCounterOfType
+_CPDeviceCreateModel
+_CPDeviceGetCounterTypes
+_CPDeviceGetName
+_CPEventGetAlias
+_CPEventGetMnemonic
+_CPEventGetTitle
+_CPEventSetAddEvent
+_CPEventSetCopyEvents
+_CPEventSetCopyEventsPassingTest
+_CPEventSetCopySignposts
+_CPEventSetCopyXML
+_CPEventSetCreateEmpty
+_CPEventSetCreateFromXML
+_CPEventSetGetCount
+_CPGetActionTypeIDForName
+_CPGetCurrentSystem
+_CPKDebugEventCreate
+_CPKDebugEventGetClass
+_CPKDebugTriggerCreate
+_CPKDebugTriggerSetEventFilter
+_CPLoadDeviceDescriptionsFromURL
+_CPLoggingSessionCreateFileBacked
+_CPLoggingSessionCreateMemoryBacked
+_CPLoggingSessionImportComplete
+_CPLoggingSessionImportData
+_CPOSXGetKDebugEvents
+_CPPMITriggerCreateWithCounter
+_CPPMITriggerSetEventCountThreshold
+_CPPrintCFError
+_CPProcessGetProcessID
+_CPProcessorCoreGetLogicalIndex
+_CPProcessorCoreGetTypeID
+_CPRecordContainerCopyTriggerMetadata
+_CPRecordContainerCreate
+_CPRecordContainerCreateWithTriggerMetadata
+_CPRecordContainerDeallocate
+_CPRecordContainerEnumerate
+_CPRecordContainerExposeRawData
+_CPRecordContainerInjectRawData
+_CPRecordContainerRetainFiles
+_CPRecordGetEntryAtIndex
+_CPRecordGetEntryCount
+_CPRecordGetProcessorCoreNumber
+_CPRecordGetTypeID
+_CPRecordingSessionAddTriggers
+_CPRecordingSessionCreateFileBacked
+_CPRecordingSessionCreateMemoryBacked
+_CPRecordingSessionPause
+_CPRecordingSessionResume
+_CPRecordingSessionSetBufferSize
+_CPRecordingSessionSetCollectionMode
+_CPRecordingSessionSetPriority
+_CPRecordingSessionStart
+_CPRecordingSessionStop
+_CPSessionEnumerateRecords
+_CPSessionExportData
+_CPSessionRequiredForRecording
+_CPSystemCopyDevicesOfType
+_CPSystemCopyDevicesOfTypeAndRetainXML
+_CPThreadGetProcess
+_CPThreadGetThreadID
+_CPTimeTriggerCreate
+_CPTimeTriggerSetSampleInterval
+_CPTriggerFlushKernelEvents
+_CPTriggerGetIdentifier
+_CPTriggerPause
+_CPTriggerResume
+_CPTriggerSetActions
+_CPTriggerSetCollectionMode
+_CPTriggerSetExecutionContextFilter
+_CPTriggerSetRecordLimit
+_CPTriggerSetRecordWindowLimit
+_CPTriggerSetThreadStateFilter
+_CPTriggerStart
+_CPTriggerStop
+_CPTriggerSwapRecordContainer
+_CSIsNull
+_CSRangeContainsRange
+_CSRegionGetName
+_CSRegionGetRange
+_CSRelease
+_CSRetain
+_CSSymbolGetRange
+_CSSymbolOwnerCreateSignature
+_CSSymbolOwnerForeachRegion
+_CSSymbolOwnerGetFlags
+_CSSymbolOwnerGetName
+_CSSymbolOwnerGetPath
+_CSSymbolOwnerGetSymbolWithName
+_CSSymbolicatorCreateSignature
+_CSSymbolicatorCreateWithMachKernel
+_CSSymbolicatorCreateWithPid
+_CSSymbolicatorCreateWithSignature
+_CSSymbolicatorCreateWithTaskFlagsAndNotification
+_CSSymbolicatorForeachSymbolOwnerAtTime
+_CSSymbolicatorGetAOutSymbolOwner
+_CSSymbolicatorGetFlagsForNListOnlyData
+_CSSymbolicatorGetPid
+_CSSymbolicatorGetSymbolOwnerWithNameAtTime
+_DTXPrimitiveArrayAppendValues
+_DTXPrimitiveArrayCreateWithTypesAndValues
+_DTXPrimitiveArrayDestroy
+_DTXPrimitiveArrayGetSerialized
+_DTXPrimitiveArrayReferencingSerialized
+_LSInternalApplicationType
+_LSPlugInKitType
+_LSSystemApplicationType
+_LSUserApplicationType
+_LSVPNPluginType
+_NDR_record
+_NSClassFromString
+_NSDefaultRunLoopMode
+_NSFileSize
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLog
+_NSSelectorFromString
+_NSStringFromClass
+_NSTemporaryDirectory
+_NStatManagerAddAllTCP
+_NStatManagerAddAllUDP
+_NStatManagerCreate
+_NStatManagerDestroy
+_NStatManagerQueryAllSources
+_NStatSourceCopyProperty
+_NStatSourceQueryDescription
+_NStatSourceRemove
+_NStatSourceSetCountsBlock
+_NStatSourceSetDescriptionBlock
+_NStatSourceSetRemovedBlock
+_OBJC_CLASS_$_DTXConnection
+_OBJC_CLASS_$_DTXFoundationURLTransport
+_OBJC_CLASS_$_DTXMessage
+_OBJC_CLASS_$_DTXRemoteInvocationReceipt
+_OBJC_CLASS_$_DTXService
+_OBJC_CLASS_$_DTXSharedMemoryTransport
+_OBJC_CLASS_$_DTXSocketTransport
+_OBJC_CLASS_$_DVT_VMUBacktrace
+_OBJC_CLASS_$_DVT_VMUClassInfo
+_OBJC_CLASS_$_DVT_VMUClassInfoMap
+_OBJC_CLASS_$_DVT_VMUObjectIdentifier
+_OBJC_CLASS_$_DVT_VMUProcInfo
+_OBJC_CLASS_$_DVT_VMUProcList
+_OBJC_CLASS_$_LSApplicationWorkspace
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableIndexSet
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotification
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNotificationQueue
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperation
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRecursiveLock
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_PKHost
+_OBJC_CLASS_$_RemoteBundleLoader
+_OBJC_CLASS_$_SFAuthorization
+_OBJC_EHTYPE_$_NSException
+_OBJC_IVAR_$_DVT_VMUBacktrace._callstack
+_OBJC_IVAR_$_DVT_VMUBacktrace._flavor
+_OBJC_IVAR_$_DVT_VMURangeArray._ranges
+_OBJC_METACLASS_$_DTXService
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSOperation
+_OSAtomicCompareAndSwap32Barrier
+_PKIdentifierAttribute
+_SCNetworkInterfaceCopyAll
+_SCNetworkInterfaceGetBSDName
+_SCNetworkInterfaceGetLocalizedDisplayName
+_SMJobRemove
+_SMJobSubmit
+_VMURegionTypeDescriptionForTagShareProtAndPager
+__Block_object_assign
+__Block_object_dispose
+__CFRuntimeCreateInstance
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv
+__ZNSt3__112__next_primeEm
+__ZSt9terminatev
+__ZTIi
+__ZTVN10__cxxabiv117__class_type_infoE
+__ZTVN10__cxxabiv120__si_class_type_infoE
+__ZTVN10__cxxabiv121__vmi_class_type_infoE
+__ZdlPv
+__Znwm
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___cxa_allocate_exception
+___cxa_begin_catch
+___cxa_end_catch
+___cxa_throw
+___error
+___gxx_personality_v0
+___mach_stack_logging_enumerate_records
+___mach_stack_logging_frames_for_uniqued_stack
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdinp
+___tolower
+__dispatch_main_q
+__dispatch_source_type_data_add
+__dispatch_source_type_mach_recv
+__dispatch_source_type_mach_send
+__dispatch_source_type_proc
+__dispatch_source_type_read
+__dispatch_source_type_timer
+__objc_empty_cache
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_type_dictionary
+_abort
+_asl_log
+_atoi
+_calloc
+_ceilf
+_close
+_dispatch_after
+_dispatch_async
+_dispatch_get_context
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_resume
+_dispatch_retain
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_set_context
+_dispatch_set_finalizer_f
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_merge_data
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_source_testcancel
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_dup
+_execvp
+_exit
+_fcntl
+_fgets
+_fprintf
+_fputc
+_free
+_fwrite
+_getcwd
+_getenv
+_geteuid
+_getgrgid
+_gethostuuid
+_getlogin
+_getpass
+_getpid
+_getprogname
+_getpwuid
+_host_set_exception_ports
+_host_swap_exception_ports
+_isatty
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFNull
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCGImageSourceCreateThumbnailFromImageAlways
+_kCGImageSourceThumbnailMaxPixelSize
+_kCPDeviceClassKey
+_kCPDeviceNameKey
+_kCSTypeDictionaryValueCallBacks
+_kDTXAckBarrierMessage
+_kDTXBarrierMessage
+_kDTXInterruptionMessage
+_kNStatProviderRoute
+_kNStatProviderTCP
+_kNStatProviderUDP
+_kNStatSrcKeyAvgRTT
+_kNStatSrcKeyInterface
+_kNStatSrcKeyLocal
+_kNStatSrcKeyMinRTT
+_kNStatSrcKeyPID
+_kNStatSrcKeyProvider
+_kNStatSrcKeyRcvBufSize
+_kNStatSrcKeyRcvBufUsed
+_kNStatSrcKeyRemote
+_kNStatSrcKeyRxBytes
+_kNStatSrcKeyRxDupeBytes
+_kNStatSrcKeyRxOOOBytes
+_kNStatSrcKeyRxPackets
+_kNStatSrcKeyTxBytes
+_kNStatSrcKeyTxPackets
+_kNStatSrcKeyTxReTx
+_kSMDomainSystemLaunchd
+_kSMDomainUserLaunchd
+_kill
+_launch_data_alloc
+_launch_data_dict_insert
+_launch_data_free
+_launch_data_new_string
+_launch_msg
+_lround
+_mach_absolute_time
+_mach_error_string
+_mach_host_self
+_mach_msg
+_mach_msg_destroy
+_mach_msg_receive
+_mach_msg_send
+_mach_port_allocate
+_mach_port_deallocate
+_mach_port_insert_right
+_mach_port_mod_refs
+_mach_task_self_
+_mach_timebase_info
+_mach_vm_deallocate
+_mach_vm_page_query
+_mach_vm_region_recurse
+_mach_vm_remap
+_malloc
+_malloc_size
+_memchr
+_memcpy
+_memmove
+_mkdtemp
+_mmap
+_notify_cancel
+_notify_get_state
+_notify_post
+_notify_register_check
+_notify_register_dispatch
+_notify_set_state
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_exception_throw
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic_copy
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_objc_terminate
+_perror
+_pipe
+_posix_spawn
+_posix_spawn_file_actions_addclose
+_posix_spawn_file_actions_adddup2
+_posix_spawn_file_actions_addopen
+_posix_spawn_file_actions_destroy
+_posix_spawn_file_actions_init
+_posix_spawnattr_destroy
+_posix_spawnattr_getflags
+_posix_spawnattr_init
+_posix_spawnattr_setbinpref_np
+_posix_spawnattr_setflags
+_posix_spawnattr_setpgroup
+_proc_pidpath
+_proc_regionfilename
+_read
+_realloc
+_realpath$DARWIN_EXTSN
+_round
+_roundf
+_sel_getName
+_setenv
+_shm_unlink
+_snprintf
+_sscanf
+_stat$INODE64
+_strchr
+_strcmp
+_strcpy
+_strdup
+_strerror
+_strlen
+_strncmp
+_syscall
+_sysctl
+_sysctlbyname
+_syslog
+_task_find_leaks
+_task_for_pid
+_task_get_malloc_ptrs
+_task_resume
+_task_start_peeking
+_task_stop_peeking
+_task_suspend
+_task_threads
+_task_try_peek
+_thread_get_state
+_thread_info
+_unsetenv
+_usleep
+_valloc
+_vm_allocate
+_vm_copy
+_vm_deallocate
+_vm_kernel_page_shift
+_vm_kernel_page_size
+_vm_page_shift
+_vm_page_size
+_waitpid
+_write
+_xpc_connection_cancel
+_xpc_connection_create
+_xpc_connection_get_euid
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_send_message_with_reply
+_xpc_connection_send_message_with_reply_sync
+_xpc_connection_set_event_handler
+_xpc_data_create
+_xpc_data_get_bytes_ptr
+_xpc_data_get_length
+_xpc_dictionary_copy_mach_send
+_xpc_dictionary_create
+_xpc_dictionary_dup_fd
+_xpc_dictionary_get_bool
+_xpc_dictionary_get_data
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_string
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_bool
+_xpc_dictionary_set_data
+_xpc_dictionary_set_int64
+_xpc_dictionary_set_mach_send
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_release
+_xpc_transaction_begin
+_xpc_transaction_end
+dyld_stub_binder

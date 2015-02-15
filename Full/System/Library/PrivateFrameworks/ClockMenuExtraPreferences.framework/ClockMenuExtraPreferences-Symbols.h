@@ -1,0 +1,174 @@
+-[CLKClockExtraPreferences _registerForMenuExtraDidChangeNotifications]
+-[CLKClockExtraPreferences _unregisterForMenuExtraDidChangeNotifications]
++[CLKClockExtraPreferences __clockMenuExtraBundleURL]
++[CLKClockExtraPreferences _clockMenuExtraBundleURL]
++[CLKClockExtraPreferences __clockMenuExtraBundleIdentifier]
++[CLKClockExtraPreferences _clockMenuExtraBundleIdentifier]
++[CLKClockExtraPreferences _clockCoreMenuExtraID]
+-[CLKClockExtraPreferences isClockMenuExtraVisible]
+-[CLKClockExtraPreferences _verifyClockMenuExtraWasAdded]
+-[CLKClockExtraPreferences _addClockMenuExtra]
+-[CLKClockExtraPreferences _removeClockMenuExtra]
+-[CLKClockExtraPreferences setIsClockMenuExtraVisible:]
+-[CLKClockExtraPreferences _menuExtraAddedNotificationHandler:]
+-[CLKClockExtraPreferences _menuExtraRemovedNotificationHandler:]
+-[CLKClockExtraPreferences _dateFormatWithSeconds:using24Hours:AMPM:dayOfTheWeek:dayOfTheMonth:month:resetToDefaultTimeFormat:]
+-[CLKClockExtraPreferences _setAttribute:state:getterSelector:]
+-[CLKClockExtraPreferences _setDateFormatWithSeconds:using24Hours:AMPM:dayOfTheWeek:dayOfTheMonth:month:resetToDefaultTimeFormat:]
+-[CLKClockExtraPreferences _reloadDateFormat]
+-[CLKClockExtraPreferences _reloadDateFormatFromUserLocale]
+-[CLKClockExtraPreferences locale]
+-[CLKClockExtraPreferences setLocale:resetToDefaultDateFormat:]
+-[CLKClockExtraPreferences setLocale:]
+-[CLKClockExtraPreferences _shouldResetDateFormatSwitchingToLocale:]
+-[CLKClockExtraPreferences _refreshLocale]
+-[CLKClockExtraPreferences _currentLocaleDidChangeNotificationHandler:]
+-[CLKClockExtraPreferences _registerForCurrentLocaleDidChangeNotification]
+-[CLKClockExtraPreferences _unregisterForCurrentLocaleDidChangeNotification]
+-[CLKClockExtraPreferences _loadLegacyPreferences]
+-[CLKClockExtraPreferences init]
+-[CLKClockExtraPreferences initWithLocale:persistentDomainName:]
+-[CLKClockExtraPreferences addObserver:forKeyPath:options:context:]
+-[CLKClockExtraPreferences dealloc]
++[CLKClockExtraPreferences _getComponentsFromDateFormat:showSeconds:use24Hours:showAMPM:showDayOfTheWeek:showDayOfTheMonth:showMonth:]
+-[CLKClockExtraPreferences setDateFormat:]
+-[CLKClockExtraPreferences keyPathsForValuesAffectingFlashDateSeparators]
+-[CLKClockExtraPreferences hasColonTimeSeparator]
+-[CLKClockExtraPreferences showSeconds]
+-[CLKClockExtraPreferences setShowSeconds:]
+-[CLKClockExtraPreferences localeSupportsAMPM]
+-[CLKClockExtraPreferences setLocaleAllows12Hour:]
+-[CLKClockExtraPreferences localeAllows12Hour]
+-[CLKClockExtraPreferences showAMPM]
+-[CLKClockExtraPreferences setShowAMPM:]
+-[CLKClockExtraPreferences use24Hours]
+-[CLKClockExtraPreferences setUse24Hours:]
+-[CLKClockExtraPreferences showDayOfTheWeek]
+-[CLKClockExtraPreferences setShowDayOfTheWeek:]
+-[CLKClockExtraPreferences showDayOfTheMonth]
+-[CLKClockExtraPreferences setShowDayOfTheMonth:]
+-[CLKClockExtraPreferences showMonth]
+-[CLKClockExtraPreferences setShowMonth:]
+-[CLKClockExtraPreferences showDate]
+-[CLKClockExtraPreferences setShowDate:]
+-[CLKClockExtraPreferences _extraDescription]
+-[CLKDistribuitedPreferences _persistentDomainDidChangeNotificationHandler:]
+-[CLKDistribuitedPreferences _postPersistentDomainDidChangeNotification]
+-[CLKDistribuitedPreferences _registerForPersistentDomainDidChangeNotification]
+-[CLKDistribuitedPreferences _unregisterForPersistentDomainDidChangeNotification]
+-[CLKDistribuitedPreferences _savePreferencesToPersistentDomain]
+-[CLKDistribuitedPreferences reloadFromPersistentDomain]
+-[CLKDistribuitedPreferences _savePreferencesAndNotify]
+-[CLKDistribuitedPreferences initWithLocale:persistentDomainName:]
+-[CLKDistribuitedPreferences finalize]
+-[CLKDistribuitedPreferences dealloc]
+-[CLKDistribuitedPreferences observeValueForKeyPath:ofObject:change:context:]
+-[CLKDistribuitedPreferences willChangePreferences]
+-[CLKDistribuitedPreferences didChangePreferences]
+-[CLKDistribuitedPreferences preferences]
+-[CLKDistribuitedPreferences persistentDomainName]
+-[CLKDistribuitedPreferences setPersistentDomainName:]
+-[CLKDistribuitedPreferences setIsAnalog:]
+-[CLKDistribuitedPreferences setDateFormat:]
+-[CLKDistribuitedPreferences setFlashDateSeparators:]
+-[CLKDistribuitedPreferences _extraDescription]
+-[CLKDistribuitedPreferences isPersistentDomainNameNew]
++[CLKPreferences _defaultDateFormatWithLocale:]
+-[CLKPreferences initWithLocale:]
+-[CLKPreferences dealloc]
+-[CLKPreferences _extraDescription]
+-[CLKPreferences description]
+-[CLKPreferences isAnalog]
+-[CLKPreferences setIsAnalog:]
+-[CLKPreferences dateFormat]
+-[CLKPreferences setDateFormat:]
+-[CLKPreferences flashDateSeparators]
+-[CLKPreferences setFlashDateSeparators:]
+-[NSString(DateFormat) containsString:]
+-[NSString(DateFormat) dateFormatHasSeconds]
+-[NSString(DateFormat) dateFormatHasAMPM]
+-[NSString(DateFormat) dateFormatHasDayOfTheWeek]
+-[NSString(DateFormat) dateFormatUses24Hours]
+-[NSString(DateFormat) dateFormatHasDayOfTheMonth]
+-[NSString(DateFormat) dateFormatHasMonth]
+-[NSString(DateFormat) timeSeparatorString]
++[CLKLegacyPreferences legacyPreferencesIfAvailable]
+-[CLKLegacyPreferences init]
+-[CLKLegacyPreferences dealloc]
+-[CLKLegacyPreferences preferencesDictionary]
+-[CLKLegacyPreferences removeLegacyPreferencesFile]
++[CLKClockExtraPreferences _clockMenuExtraBundleURL].result
++[CLKClockExtraPreferences _clockMenuExtraBundleIdentifier].result
+_CLKAppendAMPMLegacyKey
+_CLKAppleDatePreferencesChangedNotification
+_CLKDisplaySecondsLegacyKey
+_CLKErrorLog
+_CLKFlashSeparatorsLegacyKey
+_CLKIsDigitalClockLegacyKey
+_CLKLegacyPreferencesDomainName
+_CLKNoticeLog
+_CLKShowDayOfTheWeekLegacyKey
+_CLKUse24HourClockLegacyKey
+_OBJC_CLASS_$_CLKClockExtraPreferences
+_OBJC_CLASS_$_CLKDistribuitedPreferences
+_OBJC_CLASS_$_CLKLegacyPreferences
+_OBJC_CLASS_$_CLKPreferences
+_OBJC_IVAR_$_CLKClockExtraPreferences.is24HourForced
+_OBJC_IVAR_$_CLKClockExtraPreferences.locale
+_OBJC_IVAR_$_CLKClockExtraPreferences.userWantsToShowAMPM
+_OBJC_IVAR_$_CLKDistribuitedPreferences.atomicChangePreferencesCount
+_OBJC_IVAR_$_CLKDistribuitedPreferences.disablePersistentDomainDidChangeNotification
+_OBJC_IVAR_$_CLKDistribuitedPreferences.isPersistentDomainNameNew
+_OBJC_IVAR_$_CLKDistribuitedPreferences.persistentDomainName
+_OBJC_IVAR_$_CLKLegacyPreferences.preferencesDictionary
+_OBJC_IVAR_$_CLKPreferences.dateFormat
+_OBJC_IVAR_$_CLKPreferences.flashDateSeparators
+_OBJC_IVAR_$_CLKPreferences.isAnalog
+_OBJC_METACLASS_$_CLKClockExtraPreferences
+_OBJC_METACLASS_$_CLKDistribuitedPreferences
+_OBJC_METACLASS_$_CLKLegacyPreferences
+_OBJC_METACLASS_$_CLKPreferences
+__CLKDateFormatKey
+__CLKFlashDateSeparatorsKey
+__CLKIsAnalogKey
+__CLKLog
+__CLKMenuExtraAddedNotification
+__CLKMenuExtraRemovedNotification
+__CLKNotificationSenderNameKey
+_CFPreferencesGetAppBooleanValue
+_CoreMenuExtraAddMenuExtra
+_CoreMenuExtraGetMenuExtra
+_CoreMenuExtraRemoveMenuExtra
+_NSCurrentLocaleDidChangeNotification
+_NSLogv
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_kCFPreferencesCurrentApplication
+_objc_assign_global
+_objc_assign_ivar
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+dyld_stub_binder

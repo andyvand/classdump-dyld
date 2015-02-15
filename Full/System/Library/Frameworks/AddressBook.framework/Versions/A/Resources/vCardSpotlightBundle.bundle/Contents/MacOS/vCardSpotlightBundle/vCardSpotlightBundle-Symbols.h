@@ -1,0 +1,13 @@
+radr://5614542
+_OBJC_CLASS_$_vCardShim
+_OBJC_METACLASS_$_vCardShim
+_NSLog
+_OBJC_CLASS_$_CNVCardReading
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

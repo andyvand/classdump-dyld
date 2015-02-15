@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+_bsearch
+_err
+_errx
+_exit
+_fwrite
+_getopt
+_mknod
+_optarg
+_optind
+_strcmp
+_strtoul
+dyld_stub_binder

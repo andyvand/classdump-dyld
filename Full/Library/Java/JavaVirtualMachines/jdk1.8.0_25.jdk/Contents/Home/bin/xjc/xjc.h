@@ -1,0 +1,1 @@
+#import <xjc/JavaLaunchHelper.h>

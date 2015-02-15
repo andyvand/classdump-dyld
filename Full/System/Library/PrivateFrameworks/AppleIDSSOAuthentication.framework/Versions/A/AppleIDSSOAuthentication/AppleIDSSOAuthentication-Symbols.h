@@ -1,0 +1,61 @@
+-[ACAccount(AppleIDAuthentication) aida_tokenForService:]
+-[ACAccount(AppleIDAuthentication) aida_tokenWithExpiryCheckForService:]
+-[ACAccount(AppleIDAuthentication) aida_tokenWithExpirationCheck]
+-[ACAccount(AppleIDAuthentication) aida_alternateDSID]
+-[ACAccount(AppleIDAuthentication) aida_dsid]
+-[ACAccount(AppleIDAuthentication) aida_deviceProvisioningInfo]
+-[ACAccountStore(AppleIDAuthentication) _primaryiCloudAccount]
+-[ACAccountStore(AppleIDAuthentication) aida_AppleIDAuthenticationAccountType]
+-[ACAccountStore(AppleIDAuthentication) aida_AppleIDAuthenticationAccounts]
+-[ACAccountStore(AppleIDAuthentication) aida_accountForiCloudAccount:]
+-[ACAccountStore(AppleIDAuthentication) aida_accountForPrimaryiCloudAccount]
+-[ACAccountStore(AppleIDAuthentication) aida_renewCredentialsForAccount:services:completion:]
+-[ACAccountStore(AppleIDAuthentication) aida_renewCredentialsForAccount:services:force:completion:]
+_jk24uiwqrg
+_uv5t6nhkui
+_madsvsfvjk
+_p435tmhbla
+_rsegvyrt87
+_ksbafgljkb
+_tn46gtiuhw
+_zcamdt242h
+_aslgmuibau
+_qi864985u0
+_fy34trz2st
+_asabc800ag
+_AppleIDAuthenticationAppleIDSettingsTokenIdentifier
+_AppleIDAuthenticationServicesKey
+_AppleIDAuthenticationiCloudSettingsTokenIdentifier
+_kAlternateDSIDKey
+_kDSIDKey
+_kDeviceProvisioningMIDKey
+_kDeviceProvisioningOTPKey
+_kiCloudPersonIDKey
+_kiCloudPrimaryAccountKey
+_ACAccountTypeIdentifierAppleAccount
+_ACAccountTypeIdentifierAppleIDAuthentication
+_NSLog
+_OBJC_CLASS_$_ACAccount
+_OBJC_CLASS_$_ACAccountStore
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSScanner
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+_dlopen
+_dlsym
+_free
+_kACRenewCredentialsShouldForceKey
+_malloc
+_objc_autoreleaseReturnValue
+_objc_enumerationMutation
+_objc_msgSend
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_pthread_rwlock_unlock
+_pthread_rwlock_wrlock
+dyld_stub_binder

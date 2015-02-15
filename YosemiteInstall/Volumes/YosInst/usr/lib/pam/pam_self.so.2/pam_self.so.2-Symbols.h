@@ -1,0 +1,9 @@
+radr://5614542
+_pam_sm_acct_mgmt
+___stack_chk_fail
+___stack_chk_guard
+__openpam_log
+_getpwnam_r
+_pam_get_item
+_pam_get_user
+dyld_stub_binder

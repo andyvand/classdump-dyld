@@ -1,0 +1,84 @@
++[BrightnessPanel fidelityForDisplayID:]
+-[BrightnessPanel nibName]
+-[BrightnessPanel willSelect]
+-[BrightnessPanel willUnselect]
+-[BrightnessPanel dealloc]
+-[BrightnessPanel finalize]
+-[BrightnessPanel activatePanel]
+-[BrightnessPanel deactivatePanel]
+-[BrightnessPanel updatePanel]
+-[BrightnessPanel volatileSettingsTimerFired:]
+-[BrightnessPanel setMouseUpTimer:]
+-[BrightnessPanel brightnessChanged:]
+-[BrightnessPanel brightnessChangedNotification]
+-[BrightnessPanel ambientBrightnessChangedNotification:]
+-[BrightnessPanel ambientResetChangedNotification]
+-[BrightnessPanel setCheckboxState:]
+-[BrightnessPanel setSliderPosition:]
+-[BrightnessPanel smoothingComplete]
+-[BrightnessPanel autoAdjustChanged:]
+-[BrightnessModule initBrightnessModuleWithDisplayID:]
+-[BrightnessModule brightnessModuleDisplayIsBuiltIn]
+-[BrightnessModule brightnessModuleGetALSEnabled:]
+-[BrightnessModule brightnessModuleSetALSEnabled:]
+-[BrightnessModule brightnessModuleRegisterForNotifications:]
+-[BrightnessModule brightnessModuleUnregisterForNotifications:]
+_OBJC_CLASS_$_BrightnessModule
+_OBJC_CLASS_$_BrightnessPanel
+_OBJC_IVAR_$_BrightnessModule._builtIn
+_OBJC_IVAR_$_BrightnessModule._displayID
+_OBJC_IVAR_$_BrightnessModule._hasALSCompensation
+_OBJC_IVAR_$_BrightnessModule._hasALSReset
+_OBJC_IVAR_$_BrightnessPanel._autoSwitch
+_OBJC_IVAR_$_BrightnessPanel._brightnessSlider
+_OBJC_IVAR_$_BrightnessPanel._bsMouseDown
+_OBJC_IVAR_$_BrightnessPanel._checkboxState
+_OBJC_IVAR_$_BrightnessPanel._instOffFlag
+_OBJC_IVAR_$_BrightnessPanel._isActivated
+_OBJC_IVAR_$_BrightnessPanel._manualTimer
+_OBJC_IVAR_$_BrightnessPanel._module
+_OBJC_IVAR_$_BrightnessPanel._panelType
+_OBJC_IVAR_$_BrightnessPanel._resetFlag
+_OBJC_IVAR_$_BrightnessPanel._smallestBrightnessIncrement
+_OBJC_IVAR_$_BrightnessPanel._volatileSettingsTimer
+_OBJC_METACLASS_$_BrightnessModule
+_OBJC_METACLASS_$_BrightnessPanel
+_ambientBrightnessChangedCallBack
+_ambientResetChangedCallBack
+_brightnessChangedCallBack
+_displayUSBHotplugCallBack
+_ALCDisplayFeatureAvailable
+_ALCGetDisplayAutoBrightnessEnabled
+_ALCSetDisplayAutoBrightnessEnabled
+_CFDictionaryGetValue
+_CFNumberGetValue
+_CGDisplayIsOnline
+_DisplayServicesAmbientLightCompensationEnabled
+_DisplayServicesCanChangeBrightness
+_DisplayServicesCanResetAmbientLight
+_DisplayServicesCommitSettings
+_DisplayServicesEnableAmbientLightCompensation
+_DisplayServicesGetBrightness
+_DisplayServicesGetBrightnessIncrement
+_DisplayServicesGetCommitInterval
+_DisplayServicesHasAmbientLightCompensation
+_DisplayServicesIsBuiltInDisplay
+_DisplayServicesRegisterForNotification
+_DisplayServicesSetBrightnessWithType
+_DisplayServicesUnregisterForNotification
+_NSAccessibilityDescriptionAttribute
+_OBJC_CLASS_$_MonitorPanel
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSTimer
+_OBJC_IVAR_$_MonitorPanel._displayID
+_OBJC_METACLASS_$_MonitorPanel
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_decrementVolatileCount
+_incrementVolatileCount
+_objc_assign_ivar
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

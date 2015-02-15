@@ -1,0 +1,12 @@
+_tda8425VersRec
+_Detect_tda8425
+_tda8425ModuleData
+_tda8425_init
+_tda8425_mute
+_tda8425_setaudio
+_calloc
+_free
+_xf86I2CDevInit
+_xf86I2CProbeAddress
+_xf86I2CWriteRead
+dyld_stub_binder

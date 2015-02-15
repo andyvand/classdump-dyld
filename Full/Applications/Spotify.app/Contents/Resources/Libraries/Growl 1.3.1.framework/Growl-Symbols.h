@@ -1,0 +1,1448 @@
++[GrowlApplicationBridge attempts]
++[GrowlApplicationBridge setGrowlDelegate:]
++[GrowlApplicationBridge growlDelegate]
++[GrowlApplicationBridge notifyWithTitle:description:notificationName:iconData:priority:isSticky:clickContext:]
++[GrowlApplicationBridge notifyWithTitle:description:notificationName:iconData:priority:isSticky:clickContext:identifier:]
++[GrowlApplicationBridge notifyWithDictionary:]
+___47+[GrowlApplicationBridge notifyWithDictionary:]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
++[GrowlApplicationBridge isNotificationDefaultEnabled:]
++[GrowlApplicationBridge isMistEnabled]
++[GrowlApplicationBridge setShouldUseBuiltInNotifications:]
++[GrowlApplicationBridge shouldUseBuiltInNotifications]
++[GrowlApplicationBridge _fireMiniDispatch:]
++[GrowlApplicationBridge isGrowlInstalled]
++[GrowlApplicationBridge isGrowlRunning]
++[GrowlApplicationBridge registerWithDictionary:]
++[GrowlApplicationBridge reregisterGrowlNotifications]
++[GrowlApplicationBridge setWillRegisterWhenGrowlIsReady:]
++[GrowlApplicationBridge willRegisterWhenGrowlIsReady]
++[GrowlApplicationBridge registrationDictionaryFromDelegate]
++[GrowlApplicationBridge registrationDictionaryFromBundle:]
++[GrowlApplicationBridge bestRegistrationDictionary]
++[GrowlApplicationBridge registrationDictionaryByFillingInDictionary:]
++[GrowlApplicationBridge registrationDictionaryByFillingInDictionary:restrictToKeys:]
++[GrowlApplicationBridge notificationDictionaryByFillingInDictionary:]
++[GrowlApplicationBridge frameworkInfoDictionary]
++[GrowlApplicationBridge _applicationNameForGrowlSearchingRegistrationDictionary:]
++[GrowlApplicationBridge _applicationIconDataForGrowlSearchingRegistrationDictionary:]
++[GrowlApplicationBridge growlNotificationWasClicked:]
++[GrowlApplicationBridge growlNotificationTimedOut:]
++[GrowlApplicationBridge _emptyQueue]
++[GrowlApplicationBridge _growlIsReady:]
++[GrowlApplicationBridge _growlIsReachableUpdateCache:]
++[GrowlApplicationBridge _checkSandbox]
++[GrowlApplicationBridge attemptDidSucceed:]
++[GrowlApplicationBridge attemptDidFail:]
++[GrowlApplicationBridge finishedWithAttempt:]
++[GrowlApplicationBridge queueAndReregister:]
++[GrowlApplicationBridge notificationClicked:context:]
++[GrowlApplicationBridge notificationTimedOut:context:]
+-[GrowlDelegate initWithAllNotifications:defaultNotifications:]
+-[GrowlDelegate dealloc]
+-[GrowlDelegate applicationNameForGrowl]
+-[GrowlDelegate setApplicationNameForGrowl:]
+-[GrowlDelegate applicationIconDataForGrowl]
+-[GrowlDelegate setApplicationIconDataForGrowl:]
+-[GrowlDelegate registrationDictionaryForGrowl]
+-[GrowlDelegate setRegistrationDictionaryForGrowl:]
++[GrowlPathUtilities bundleForProcessWithBundleIdentifier:]
++[GrowlPathUtilities runningHelperAppBundle]
++[GrowlPathUtilities growlPrefPaneBundle]
++[GrowlPathUtilities helperAppBundle]
++[GrowlPathUtilities searchPathForDirectory:inDomains:mustBeWritable:]
++[GrowlPathUtilities searchPathForDirectory:inDomains:]
++[GrowlPathUtilities growlSupportDirectory]
++[GrowlPathUtilities screenshotsDirectory]
++[GrowlPathUtilities ticketsDirectory]
++[GrowlPathUtilities nextScreenshotName]
++[GrowlPathUtilities nextScreenshotNameInDirectory:]
++[GrowlPathUtilities defaultSavePathForTicketWithApplicationName:]
+-[NSImage(GrowlImageAdditions) drawScaledInRect:operation:fraction:]
+-[NSImage(GrowlImageAdditions) adjustSizeToDrawAtSize:]
+-[NSImage(GrowlImageAdditions) bestRepresentationForSize:]
+-[NSImage(GrowlImageAdditions) representationOfSize:]
+-[NSImage(GrowlImageAdditions) replacementObjectForPortCoder:]
+-[NSImage(GrowlImageAdditions) GrowlBitmapImageRep]
+-[NSImage(GrowlImageAdditions) PNGRepresentation]
+-[NSImage(GrowlImageAdditions) JPEGRepresentation]
+-[GrowlMiniDispatch init]
+-[GrowlMiniDispatch dealloc]
+-[GrowlMiniDispatch queueWindow:]
+-[GrowlMiniDispatch insertWindow:]
+___34-[GrowlMiniDispatch insertWindow:]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
+-[GrowlMiniDispatch dequeueWindows]
+___35-[GrowlMiniDispatch dequeueWindows]_block_invoke_0
+___copy_helper_block_29
+___destroy_helper_block_30
+-[GrowlMiniDispatch displayNotification:]
+-[GrowlMiniDispatch mistNotificationDismissed:]
+-[GrowlMiniDispatch mistNotificationClicked:]
+-[GrowlMiniDispatch closeAllNotifications:]
+___43-[GrowlMiniDispatch closeAllNotifications:]_block_invoke_0
+-[GrowlMiniDispatch delegate]
+-[GrowlMiniDispatch setDelegate:]
+-[GrowlMistView initWithFrame:]
+-[GrowlMistView dealloc]
+-[GrowlMistView setNotificationImage:]
+-[GrowlMistView setFrame:]
+-[GrowlMistView isOpaque]
+-[GrowlMistView isFlipped]
+-[GrowlMistView sizeToFit]
+-[GrowlMistView drawRect:]
+-[GrowlMistView mouseEntered:]
+-[GrowlMistView mouseExited:]
+-[GrowlMistView mouseDown:]
+-[GrowlMistView notificationText]
+-[GrowlMistView setNotificationText:]
+-[GrowlMistView notificationTitle]
+-[GrowlMistView setNotificationTitle:]
+-[GrowlMistView notificationImage]
+-[GrowlMistView delegate]
+-[GrowlMistView setDelegate:]
+-[GrowlMistWindowController initWithNotificationTitle:text:image:sticky:userInfo:delegate:]
+-[GrowlMistWindowController dealloc]
+-[GrowlMistWindowController fadeIn]
+-[GrowlMistWindowController animationDidEnd:]
+-[GrowlMistWindowController animationDidStop:]
+-[GrowlMistWindowController fadeOut]
+-[GrowlMistWindowController mistViewDismissed:]
+-[GrowlMistWindowController lifetimeExpired:]
+-[GrowlMistWindowController mistViewSelected:]
+-[GrowlMistWindowController closeAllNotifications]
+-[GrowlMistWindowController sticky]
+-[GrowlMistWindowController userInfo]
+-[GrowlMistWindowController visible]
+-[GrowlMistWindowController delegate]
+-[GrowlMistWindowController setDelegate:]
+-[GrowlMistWindowController selected]
+-[NSImage(GrowlAdditions) flippedImage]
+-[NSImage(GrowlAdditions) imageSizedToDimension:]
+-[NSImage(GrowlAdditions) imageSizedToDimensionScalingUp:]
+-[NSImage(GrowlAdditions) imageSizedToDimensionSquaring:]
+-[NSImage(GrowlAdditions) drawInRect:]
++[GrowlCommunicationAttempt attemptType]
+-[GrowlCommunicationAttempt init]
+-[GrowlCommunicationAttempt initWithDictionary:]
+-[GrowlCommunicationAttempt dealloc]
+-[GrowlCommunicationAttempt makeNextAttemptOfClass:]
+-[GrowlCommunicationAttempt begin]
+-[GrowlCommunicationAttempt queueAndReregister]
+-[GrowlCommunicationAttempt stopAttempts]
+-[GrowlCommunicationAttempt succeeded]
+-[GrowlCommunicationAttempt failed]
+-[GrowlCommunicationAttempt finished]
+-[GrowlCommunicationAttempt dictionary]
+-[GrowlCommunicationAttempt attemptType]
+-[GrowlCommunicationAttempt nextAttempt]
+-[GrowlCommunicationAttempt setNextAttempt:]
+-[GrowlCommunicationAttempt delegate]
+-[GrowlCommunicationAttempt setDelegate:]
+-[GrowlCommunicationAttempt error]
+-[GrowlCommunicationAttempt setError:]
++[GrowlApplicationBridgeRegistrationAttempt attemptType]
+-[GrowlApplicationBridgeRegistrationAttempt begin]
+-[GrowlApplicationBridgeRegistrationAttempt applicationName]
+-[GrowlApplicationBridgeRegistrationAttempt setApplicationName:]
++[GrowlApplicationBridgeNotificationAttempt attemptType]
+-[GrowlApplicationBridgeNotificationAttempt dealloc]
+-[GrowlApplicationBridgeNotificationAttempt connectionDidDie:]
+-[GrowlApplicationBridgeNotificationAttempt growlProxy]
+-[GrowlApplicationBridgeNotificationAttempt begin]
++[GrowlGNTPRegistrationAttempt attemptType]
+-[GrowlGNTPRegistrationAttempt packet]
++[GrowlGNTPNotificationAttempt attemptType]
+-[GrowlGNTPNotificationAttempt packet]
+-[GrowlGNTPNotificationAttempt expectsCallback]
+-[GrowlGNTPCommunicationAttempt dealloc]
+-[GrowlGNTPCommunicationAttempt packet]
+-[GrowlGNTPCommunicationAttempt expectsCallback]
+-[GrowlGNTPCommunicationAttempt failed]
+-[GrowlGNTPCommunicationAttempt couldNotParseResponseWithReason:responseString:]
+-[GrowlGNTPCommunicationAttempt begin]
+-[GrowlGNTPCommunicationAttempt readRestOfPacket:]
+-[GrowlGNTPCommunicationAttempt readOneLineFromSocket:tag:]
+-[GrowlGNTPCommunicationAttempt socket:didConnectToHost:port:]
+-[GrowlGNTPCommunicationAttempt socket:didReadData:withTag:]
+-[GrowlGNTPCommunicationAttempt parseError]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[GrowlGNTPCommunicationAttempt parseError]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
+-[GrowlGNTPCommunicationAttempt parseFeedback]
+___46-[GrowlGNTPCommunicationAttempt parseFeedback]_block_invoke_0
+___copy_helper_block_126
+___destroy_helper_block_127
+-[GrowlGNTPCommunicationAttempt socketDidDisconnect:withError:]
+-[GrowlGNTPCommunicationAttempt responseParseErrorString]
+-[GrowlGNTPCommunicationAttempt setResponseParseErrorString:]
+-[GrowlGNTPCommunicationAttempt bogusResponse]
+-[GrowlGNTPCommunicationAttempt setBogusResponse:]
+-[GrowlGNTPCommunicationAttempt host]
+-[GrowlGNTPCommunicationAttempt setHost:]
+-[GrowlGNTPCommunicationAttempt password]
+-[GrowlGNTPCommunicationAttempt setPassword:]
+-[GrowlGNTPCommunicationAttempt callbackHeaderItems]
+-[GrowlGNTPCommunicationAttempt setCallbackHeaderItems:]
+-[GrowlGNTPCommunicationAttempt connection]
+-[GrowlGNTPCommunicationAttempt setConnection:]
+-[GrowlGCDAsyncReadPacket initWithData:startOffset:maxLength:timeout:readLength:terminator:tag:]
+-[GrowlGCDAsyncReadPacket ensureCapacityForAdditionalDataOfLength:]
+-[GrowlGCDAsyncReadPacket optimalReadLengthWithDefault:shouldPreBuffer:]
+-[GrowlGCDAsyncReadPacket readLengthForNonTermWithHint:]
+-[GrowlGCDAsyncReadPacket readLengthForTermWithHint:shouldPreBuffer:]
+-[GrowlGCDAsyncReadPacket readLengthForTermWithPreBuffer:found:]
+-[GrowlGCDAsyncReadPacket searchForTermAfterPreBuffering:]
+-[GrowlGCDAsyncReadPacket dealloc]
+-[GrowlGCDAsyncWritePacket initWithData:timeout:tag:]
+-[GrowlGCDAsyncWritePacket dealloc]
+-[GrowlGCDAsyncSpecialPacket initWithTLSSettings:]
+-[GrowlGCDAsyncSpecialPacket dealloc]
+-[GrowlGCDAsyncSocket init]
+-[GrowlGCDAsyncSocket initWithSocketQueue:]
+-[GrowlGCDAsyncSocket initWithDelegate:delegateQueue:]
+-[GrowlGCDAsyncSocket initWithDelegate:delegateQueue:socketQueue:]
+-[GrowlGCDAsyncSocket dealloc]
+___30-[GrowlGCDAsyncSocket dealloc]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
+-[GrowlGCDAsyncSocket delegate]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___31-[GrowlGCDAsyncSocket delegate]_block_invoke_0
+___copy_helper_block_76
+___destroy_helper_block_77
+-[GrowlGCDAsyncSocket setDelegate:synchronously:]
+___49-[GrowlGCDAsyncSocket setDelegate:synchronously:]_block_invoke_0
+___copy_helper_block_80
+___destroy_helper_block_81
+-[GrowlGCDAsyncSocket setDelegate:]
+-[GrowlGCDAsyncSocket synchronouslySetDelegate:]
+-[GrowlGCDAsyncSocket delegateQueue]
+___36-[GrowlGCDAsyncSocket delegateQueue]_block_invoke_0
+___copy_helper_block_86
+___destroy_helper_block_87
+-[GrowlGCDAsyncSocket setDelegateQueue:synchronously:]
+___54-[GrowlGCDAsyncSocket setDelegateQueue:synchronously:]_block_invoke_0
+___copy_helper_block_90
+___destroy_helper_block_91
+-[GrowlGCDAsyncSocket setDelegateQueue:]
+-[GrowlGCDAsyncSocket synchronouslySetDelegateQueue:]
+-[GrowlGCDAsyncSocket getDelegate:delegateQueue:]
+___49-[GrowlGCDAsyncSocket getDelegate:delegateQueue:]_block_invoke_0
+___copy_helper_block_96
+___destroy_helper_block_97
+-[GrowlGCDAsyncSocket setDelegate:delegateQueue:synchronously:]
+___63-[GrowlGCDAsyncSocket setDelegate:delegateQueue:synchronously:]_block_invoke_0
+___copy_helper_block_100
+___destroy_helper_block_101
+-[GrowlGCDAsyncSocket setDelegate:delegateQueue:]
+-[GrowlGCDAsyncSocket synchronouslySetDelegate:delegateQueue:]
+-[GrowlGCDAsyncSocket autoDisconnectOnClosedReadStream]
+___55-[GrowlGCDAsyncSocket autoDisconnectOnClosedReadStream]_block_invoke_0
+___copy_helper_block_106
+___destroy_helper_block_107
+-[GrowlGCDAsyncSocket setAutoDisconnectOnClosedReadStream:]
+___59-[GrowlGCDAsyncSocket setAutoDisconnectOnClosedReadStream:]_block_invoke_0
+___copy_helper_block_110
+___destroy_helper_block_111
+-[GrowlGCDAsyncSocket isIPv4Enabled]
+___36-[GrowlGCDAsyncSocket isIPv4Enabled]_block_invoke_0
+___copy_helper_block_114
+___destroy_helper_block_115
+-[GrowlGCDAsyncSocket setIPv4Enabled:]
+___38-[GrowlGCDAsyncSocket setIPv4Enabled:]_block_invoke_0
+___copy_helper_block_118
+___destroy_helper_block_119
+-[GrowlGCDAsyncSocket isIPv6Enabled]
+___36-[GrowlGCDAsyncSocket isIPv6Enabled]_block_invoke_0
+___copy_helper_block_122
+___destroy_helper_block_123
+-[GrowlGCDAsyncSocket setIPv6Enabled:]
+___38-[GrowlGCDAsyncSocket setIPv6Enabled:]_block_invoke_0
+___copy_helper_block_126
+___destroy_helper_block_127
+-[GrowlGCDAsyncSocket isIPv4PreferredOverIPv6]
+___46-[GrowlGCDAsyncSocket isIPv4PreferredOverIPv6]_block_invoke_0
+___copy_helper_block_130
+___destroy_helper_block_131
+-[GrowlGCDAsyncSocket setPreferIPv4OverIPv6:]
+___45-[GrowlGCDAsyncSocket setPreferIPv4OverIPv6:]_block_invoke_0
+___copy_helper_block_134
+___destroy_helper_block_135
+-[GrowlGCDAsyncSocket userData]
+___31-[GrowlGCDAsyncSocket userData]_block_invoke_0
+___copy_helper_block_138
+___destroy_helper_block_139
+-[GrowlGCDAsyncSocket setUserData:]
+___35-[GrowlGCDAsyncSocket setUserData:]_block_invoke_0
+___copy_helper_block_143
+___destroy_helper_block_144
+-[GrowlGCDAsyncSocket acceptOnPort:error:]
+-[GrowlGCDAsyncSocket acceptOnInterface:port:error:]
+___52-[GrowlGCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_0
+___copy_helper_block_161
+___destroy_helper_block_162
+___52-[GrowlGCDAsyncSocket acceptOnInterface:port:error:]_block_invoke_0166
+___block_global_0
+___copy_helper_block_198
+___destroy_helper_block_199
+___block_global_1
+___block_global_2
+___copy_helper_block_204
+___destroy_helper_block_205
+___block_global_3
+___copy_helper_block_210
+___destroy_helper_block_211
+-[GrowlGCDAsyncSocket doAccept:]
+___32-[GrowlGCDAsyncSocket doAccept:]_block_invoke_0
+___block_global_4
+___copy_helper_block_223
+___destroy_helper_block_224
+___copy_helper_block_229
+___destroy_helper_block_230
+-[GrowlGCDAsyncSocket preConnectWithInterface:error:]
+-[GrowlGCDAsyncSocket connectToHost:onPort:error:]
+-[GrowlGCDAsyncSocket connectToHost:onPort:withTimeout:error:]
+-[GrowlGCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]
+___75-[GrowlGCDAsyncSocket connectToHost:onPort:viaInterface:withTimeout:error:]_block_invoke_0
+___block_global_5
+___copy_helper_block_247
+___destroy_helper_block_248
+___copy_helper_block_253
+___destroy_helper_block_254
+-[GrowlGCDAsyncSocket connectToAddress:error:]
+-[GrowlGCDAsyncSocket connectToAddress:withTimeout:error:]
+-[GrowlGCDAsyncSocket connectToAddress:viaInterface:withTimeout:error:]
+___71-[GrowlGCDAsyncSocket connectToAddress:viaInterface:withTimeout:error:]_block_invoke_0
+___copy_helper_block_267
+___destroy_helper_block_268
+-[GrowlGCDAsyncSocket lookup:host:port:]
+___40-[GrowlGCDAsyncSocket lookup:host:port:]_block_invoke_0
+___copy_helper_block_287
+___destroy_helper_block_288
+___40-[GrowlGCDAsyncSocket lookup:host:port:]_block_invoke_0291
+___copy_helper_block_294
+___destroy_helper_block_295
+-[GrowlGCDAsyncSocket lookup:didSucceedWithAddress4:address6:]
+-[GrowlGCDAsyncSocket lookup:didFail:]
+-[GrowlGCDAsyncSocket connectWithAddress4:address6:error:]
+___58-[GrowlGCDAsyncSocket connectWithAddress4:address6:error:]_block_invoke_0
+___block_global_6
+___copy_helper_block_311
+___destroy_helper_block_312
+___block_global_7
+___copy_helper_block_319
+___destroy_helper_block_320
+___copy_helper_block_323
+___destroy_helper_block_324
+-[GrowlGCDAsyncSocket didConnect:]
+___34-[GrowlGCDAsyncSocket didConnect:]_block_invoke_0
+___copy_helper_block_333
+___destroy_helper_block_334
+-[GrowlGCDAsyncSocket didNotConnect:error:]
+-[GrowlGCDAsyncSocket startConnectTimeout:]
+___43-[GrowlGCDAsyncSocket startConnectTimeout:]_block_invoke_0
+___copy_helper_block_343
+___destroy_helper_block_344
+___43-[GrowlGCDAsyncSocket startConnectTimeout:]_block_invoke_0347
+-[GrowlGCDAsyncSocket endConnectTimeout]
+-[GrowlGCDAsyncSocket doConnectTimeout]
+-[GrowlGCDAsyncSocket closeWithError:]
+___38-[GrowlGCDAsyncSocket closeWithError:]_block_invoke_0
+___copy_helper_block_364
+___destroy_helper_block_365
+-[GrowlGCDAsyncSocket disconnect]
+___33-[GrowlGCDAsyncSocket disconnect]_block_invoke_0
+___copy_helper_block_368
+___destroy_helper_block_369
+-[GrowlGCDAsyncSocket disconnectAfterReading]
+___45-[GrowlGCDAsyncSocket disconnectAfterReading]_block_invoke_0
+___copy_helper_block_374
+___destroy_helper_block_375
+-[GrowlGCDAsyncSocket disconnectAfterWriting]
+___45-[GrowlGCDAsyncSocket disconnectAfterWriting]_block_invoke_0
+___copy_helper_block_378
+___destroy_helper_block_379
+-[GrowlGCDAsyncSocket disconnectAfterReadingAndWriting]
+___55-[GrowlGCDAsyncSocket disconnectAfterReadingAndWriting]_block_invoke_0
+___copy_helper_block_382
+___destroy_helper_block_383
+-[GrowlGCDAsyncSocket maybeClose]
+-[GrowlGCDAsyncSocket badConfigError:]
+-[GrowlGCDAsyncSocket badParamError:]
+-[GrowlGCDAsyncSocket gaiError:]
+-[GrowlGCDAsyncSocket errnoErrorWithReason:]
+-[GrowlGCDAsyncSocket errnoError]
+-[GrowlGCDAsyncSocket sslError:]
+-[GrowlGCDAsyncSocket connectTimeoutError]
+-[GrowlGCDAsyncSocket readMaxedOutError]
+-[GrowlGCDAsyncSocket readTimeoutError]
+-[GrowlGCDAsyncSocket writeTimeoutError]
+-[GrowlGCDAsyncSocket connectionClosedError]
+-[GrowlGCDAsyncSocket otherError:]
+-[GrowlGCDAsyncSocket isDisconnected]
+___37-[GrowlGCDAsyncSocket isDisconnected]_block_invoke_0
+___copy_helper_block_432
+___destroy_helper_block_433
+-[GrowlGCDAsyncSocket isConnected]
+___34-[GrowlGCDAsyncSocket isConnected]_block_invoke_0
+___copy_helper_block_436
+___destroy_helper_block_437
+-[GrowlGCDAsyncSocket connectedHost]
+___36-[GrowlGCDAsyncSocket connectedHost]_block_invoke_0
+___copy_helper_block_444
+___destroy_helper_block_445
+-[GrowlGCDAsyncSocket connectedPort]
+___36-[GrowlGCDAsyncSocket connectedPort]_block_invoke_0
+___copy_helper_block_452
+___destroy_helper_block_453
+-[GrowlGCDAsyncSocket localHost]
+___32-[GrowlGCDAsyncSocket localHost]_block_invoke_0
+___copy_helper_block_460
+___destroy_helper_block_461
+-[GrowlGCDAsyncSocket localPort]
+___32-[GrowlGCDAsyncSocket localPort]_block_invoke_0
+___copy_helper_block_468
+___destroy_helper_block_469
+-[GrowlGCDAsyncSocket connectedHost4]
+-[GrowlGCDAsyncSocket connectedHost6]
+-[GrowlGCDAsyncSocket connectedPort4]
+-[GrowlGCDAsyncSocket connectedPort6]
+-[GrowlGCDAsyncSocket localHost4]
+-[GrowlGCDAsyncSocket localHost6]
+-[GrowlGCDAsyncSocket localPort4]
+-[GrowlGCDAsyncSocket localPort6]
+-[GrowlGCDAsyncSocket connectedHostFromSocket4:]
+-[GrowlGCDAsyncSocket connectedHostFromSocket6:]
+-[GrowlGCDAsyncSocket connectedPortFromSocket4:]
+-[GrowlGCDAsyncSocket connectedPortFromSocket6:]
+-[GrowlGCDAsyncSocket localHostFromSocket4:]
+-[GrowlGCDAsyncSocket localHostFromSocket6:]
+-[GrowlGCDAsyncSocket localPortFromSocket4:]
+-[GrowlGCDAsyncSocket localPortFromSocket6:]
+-[GrowlGCDAsyncSocket connectedAddress]
+___39-[GrowlGCDAsyncSocket connectedAddress]_block_invoke_0
+___copy_helper_block_482
+___destroy_helper_block_483
+-[GrowlGCDAsyncSocket localAddress]
+___35-[GrowlGCDAsyncSocket localAddress]_block_invoke_0
+___copy_helper_block_486
+___destroy_helper_block_487
+-[GrowlGCDAsyncSocket isIPv4]
+___29-[GrowlGCDAsyncSocket isIPv4]_block_invoke_0
+___copy_helper_block_490
+___destroy_helper_block_491
+-[GrowlGCDAsyncSocket isIPv6]
+___29-[GrowlGCDAsyncSocket isIPv6]_block_invoke_0
+___copy_helper_block_494
+___destroy_helper_block_495
+-[GrowlGCDAsyncSocket getInterfaceAddress4:address6:fromDescription:port:]
+-[GrowlGCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]
+___71-[GrowlGCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_0
+___copy_helper_block_507
+___destroy_helper_block_508
+___71-[GrowlGCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_0511
+___copy_helper_block_514
+___destroy_helper_block_515
+___71-[GrowlGCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_0518
+___copy_helper_block_519
+___destroy_helper_block_520
+___71-[GrowlGCDAsyncSocket setupReadAndWriteSourcesForNewlyConnectedSocket:]_block_invoke_0523
+___copy_helper_block_524
+___destroy_helper_block_525
+-[GrowlGCDAsyncSocket usingCFStream]
+-[GrowlGCDAsyncSocket suspendReadSource]
+-[GrowlGCDAsyncSocket resumeReadSource]
+-[GrowlGCDAsyncSocket suspendWriteSource]
+-[GrowlGCDAsyncSocket resumeWriteSource]
+-[GrowlGCDAsyncSocket readDataWithTimeout:tag:]
+-[GrowlGCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:tag:]
+-[GrowlGCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:maxLength:tag:]
+___77-[GrowlGCDAsyncSocket readDataWithTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke_0
+___copy_helper_block_533
+___destroy_helper_block_534
+-[GrowlGCDAsyncSocket readDataToLength:withTimeout:tag:]
+-[GrowlGCDAsyncSocket readDataToLength:withTimeout:buffer:bufferOffset:tag:]
+___76-[GrowlGCDAsyncSocket readDataToLength:withTimeout:buffer:bufferOffset:tag:]_block_invoke_0
+___copy_helper_block_539
+___destroy_helper_block_540
+-[GrowlGCDAsyncSocket readDataToData:withTimeout:tag:]
+-[GrowlGCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:tag:]
+-[GrowlGCDAsyncSocket readDataToData:withTimeout:maxLength:tag:]
+-[GrowlGCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:maxLength:tag:]
+___84-[GrowlGCDAsyncSocket readDataToData:withTimeout:buffer:bufferOffset:maxLength:tag:]_block_invoke_0
+___copy_helper_block_545
+___destroy_helper_block_546
+-[GrowlGCDAsyncSocket maybeDequeueRead]
+-[GrowlGCDAsyncSocket doReadData]
+___33-[GrowlGCDAsyncSocket doReadData]_block_invoke_0
+___copy_helper_block_583
+___destroy_helper_block_584
+-[GrowlGCDAsyncSocket doReadEOF]
+___32-[GrowlGCDAsyncSocket doReadEOF]_block_invoke_0
+___copy_helper_block_591
+___destroy_helper_block_592
+-[GrowlGCDAsyncSocket completeCurrentRead]
+___42-[GrowlGCDAsyncSocket completeCurrentRead]_block_invoke_0
+___copy_helper_block_599
+___destroy_helper_block_600
+-[GrowlGCDAsyncSocket endCurrentRead]
+-[GrowlGCDAsyncSocket setupReadTimerWithTimeout:]
+___49-[GrowlGCDAsyncSocket setupReadTimerWithTimeout:]_block_invoke_0
+___copy_helper_block_605
+___destroy_helper_block_606
+___49-[GrowlGCDAsyncSocket setupReadTimerWithTimeout:]_block_invoke_0609
+-[GrowlGCDAsyncSocket doReadTimeout]
+___36-[GrowlGCDAsyncSocket doReadTimeout]_block_invoke_0
+___block_global_8
+___copy_helper_block_616
+___destroy_helper_block_617
+___copy_helper_block_620
+___destroy_helper_block_621
+-[GrowlGCDAsyncSocket doReadTimeoutWithExtension:]
+-[GrowlGCDAsyncSocket writeData:withTimeout:tag:]
+___49-[GrowlGCDAsyncSocket writeData:withTimeout:tag:]_block_invoke_0
+___copy_helper_block_628
+___destroy_helper_block_629
+-[GrowlGCDAsyncSocket maybeDequeueWrite]
+-[GrowlGCDAsyncSocket doWriteData]
+___34-[GrowlGCDAsyncSocket doWriteData]_block_invoke_0
+___copy_helper_block_642
+___destroy_helper_block_643
+-[GrowlGCDAsyncSocket completeCurrentWrite]
+___43-[GrowlGCDAsyncSocket completeCurrentWrite]_block_invoke_0
+___copy_helper_block_648
+___destroy_helper_block_649
+-[GrowlGCDAsyncSocket endCurrentWrite]
+-[GrowlGCDAsyncSocket setupWriteTimerWithTimeout:]
+___50-[GrowlGCDAsyncSocket setupWriteTimerWithTimeout:]_block_invoke_0
+___copy_helper_block_654
+___destroy_helper_block_655
+___50-[GrowlGCDAsyncSocket setupWriteTimerWithTimeout:]_block_invoke_0658
+-[GrowlGCDAsyncSocket doWriteTimeout]
+___37-[GrowlGCDAsyncSocket doWriteTimeout]_block_invoke_0
+___block_global_9
+___copy_helper_block_665
+___destroy_helper_block_666
+___copy_helper_block_669
+___destroy_helper_block_670
+-[GrowlGCDAsyncSocket doWriteTimeoutWithExtension:]
+-[GrowlGCDAsyncSocket startTLS:]
+___32-[GrowlGCDAsyncSocket startTLS:]_block_invoke_0
+___copy_helper_block_678
+___destroy_helper_block_679
+-[GrowlGCDAsyncSocket sslReadWithBuffer:length:]
+-[GrowlGCDAsyncSocket sslWriteWithBuffer:length:]
+-[GrowlGCDAsyncSocket maybeStartTLS]
+-[GrowlGCDAsyncSocket continueSSLHandshake]
+___43-[GrowlGCDAsyncSocket continueSSLHandshake]_block_invoke_0
+___copy_helper_block_717
+___destroy_helper_block_718
+-[GrowlGCDAsyncSocket performBlock:]
+-[GrowlGCDAsyncSocket socketFD]
+-[GrowlGCDAsyncSocket socket4FD]
+-[GrowlGCDAsyncSocket socket6FD]
+-[GrowlGCDAsyncSocket sslContext]
++[GrowlGCDAsyncSocket hostFromAddress4:]
++[GrowlGCDAsyncSocket hostFromAddress6:]
++[GrowlGCDAsyncSocket portFromAddress4:]
++[GrowlGCDAsyncSocket portFromAddress6:]
++[GrowlGCDAsyncSocket hostFromAddress:]
++[GrowlGCDAsyncSocket portFromAddress:]
++[GrowlGCDAsyncSocket getHost:port:fromAddress:]
++[GrowlGCDAsyncSocket CRLFData]
++[GrowlGCDAsyncSocket CRData]
++[GrowlGCDAsyncSocket LFData]
++[GrowlGCDAsyncSocket ZeroData]
++[GrowlGNTPInitialHeaderItem initialHeaderItemWithAction:]
+-[GrowlGNTPInitialHeaderItem initWithAction:]
+-[GrowlGNTPInitialHeaderItem dealloc]
+-[GrowlGNTPInitialHeaderItem GNTPRepresentationAsString]
+-[GrowlGNTPInitialHeaderItem GNTPRepresentation]
+-[GrowlGNTPInitialHeaderItem action]
+-[GrowlGNTPInitialHeaderItem setAction:]
+-[GrowlGNTPInitialHeaderItem encryption]
+-[GrowlGNTPInitialHeaderItem setEncryption:]
+-[GrowlGNTPInitialHeaderItem key]
+-[GrowlGNTPInitialHeaderItem setKey:]
++[GrowlGNTPEndHeaderItem endHeaderItem]
+-[GrowlGNTPEndHeaderItem init]
+-[GrowlGNTPEndHeaderItem GNTPRepresentationAsString]
+-[GrowlGNTPEndHeaderItem GNTPRepresentation]
+-[GrowlGNTPEndHeaderItem connectionType]
+-[GrowlGNTPEndHeaderItem setConnectionType:]
++[GrowlGNTPOutgoingPacket outgoingPacket]
++[GrowlGNTPOutgoingPacket outgoingPacketOfType:forDict:]
++[GrowlGNTPOutgoingPacket outgoingPacketForNotification:]
++[GrowlGNTPOutgoingPacket outgoingPacketForRegistrationWithNotifications:]
+-[GrowlGNTPOutgoingPacket init]
+-[GrowlGNTPOutgoingPacket dealloc]
+-[GrowlGNTPOutgoingPacket setKey:]
+-[GrowlGNTPOutgoingPacket key]
+-[GrowlGNTPOutgoingPacket addHeaderItem:]
+-[GrowlGNTPOutgoingPacket addHeaderItems:]
+-[GrowlGNTPOutgoingPacket addBinaryChunk:]
+-[GrowlGNTPOutgoingPacket addBinaryChunks:]
+-[GrowlGNTPOutgoingPacket packetID]
+-[GrowlGNTPOutgoingPacket setPacketID:]
+-[GrowlGNTPOutgoingPacket outgoingItems]
+-[GrowlGNTPOutgoingPacket writeToSocket:]
+-[GrowlGNTPOutgoingPacket needsPersistentConnectionForCallback]
+-[GrowlGNTPOutgoingPacket description]
+-[GrowlGNTPOutgoingPacket action]
+-[GrowlGNTPOutgoingPacket setAction:]
+-[GrowlGNTPOutgoingPacket growlDictionary]
+-[GrowlGNTPOutgoingPacket setGrowlDictionary:]
+-[GrowlGNTPOutgoingPacket headerItems]
+-[GrowlGNTPOutgoingPacket setHeaderItems:]
++[GrowlGNTPEncryptedHeaders headerItemFromData:error:]
+-[GrowlGNTPEncryptedHeaders initForData:error:]
+-[GrowlGNTPEncryptedHeaders GNTPRepresentation]
+-[GrowlGNTPEncryptedHeaders GNTPRepresentationAsString]
+-[GrowlGNTPEncryptedHeaders headers]
+-[GrowlGNTPEncryptedHeaders setHeaders:]
++[GrowlGNTPHeaderItem headerItemFromData:error:]
++[GrowlGNTPHeaderItem headerItemWithName:value:]
++[GrowlGNTPHeaderItem separatorHeaderItem]
+-[GrowlGNTPHeaderItem initForData:error:]
+-[GrowlGNTPHeaderItem dealloc]
+-[GrowlGNTPHeaderItem headerName]
+-[GrowlGNTPHeaderItem setHeaderName:]
+-[GrowlGNTPHeaderItem headerValue]
+-[GrowlGNTPHeaderItem setHeaderValue:]
+-[GrowlGNTPHeaderItem GNTPRepresentationAsString]
+-[GrowlGNTPHeaderItem GNTPRepresentation]
+-[GrowlGNTPHeaderItem description]
++[GrowlGNTPBinaryChunk chunkForData:withIdentifier:]
+-[GrowlGNTPBinaryChunk initWithData:identifier:]
+-[GrowlGNTPBinaryChunk dealloc]
+-[GrowlGNTPBinaryChunk length]
+-[GrowlGNTPBinaryChunk stringThatPrecedesTheData]
+-[GrowlGNTPBinaryChunk stringThatFollowsTheData]
+-[GrowlGNTPBinaryChunk GNTPRepresentation]
+-[GrowlGNTPBinaryChunk GNTPRepresentationAsString]
++[GrowlGNTPBinaryChunk identifierForBinaryData:]
+-[GrowlGNTPBinaryChunk data]
+-[GrowlGNTPBinaryChunk setData:]
+-[GrowlGNTPBinaryChunk identifier]
+-[GrowlGNTPBinaryChunk setIdentifier:]
++[GrowlISO8601DateFormatter initialize]
++[GrowlISO8601DateFormatter purgeGlobalCaches]
+-[GrowlISO8601DateFormatter makeCalendarWithDesiredConfiguration]
+-[GrowlISO8601DateFormatter init]
+-[GrowlISO8601DateFormatter dealloc]
+-[GrowlISO8601DateFormatter setDefaultTimeZone:]
+-[GrowlISO8601DateFormatter dateComponentsFromString:]
+-[GrowlISO8601DateFormatter dateComponentsFromString:timeZone:]
+-[GrowlISO8601DateFormatter dateComponentsFromString:timeZone:range:]
+_read_segment
+_read_segment_2digits
+_read_double
+-[GrowlISO8601DateFormatter dateFromString:]
+-[GrowlISO8601DateFormatter dateFromString:timeZone:]
+-[GrowlISO8601DateFormatter dateFromString:timeZone:range:]
+-[GrowlISO8601DateFormatter getObjectValue:forString:errorDescription:]
+-[GrowlISO8601DateFormatter replaceColonsInString:withTimeSeparator:]
+-[GrowlISO8601DateFormatter stringFromDate:]
+-[GrowlISO8601DateFormatter stringFromDate:timeZone:]
+-[GrowlISO8601DateFormatter stringFromDate:formatString:timeZone:]
+-[GrowlISO8601DateFormatter stringForObjectValue:]
+-[GrowlISO8601DateFormatter weekDateStringForDate:timeZone:]
+-[GrowlISO8601DateFormatter defaultTimeZone]
+-[GrowlISO8601DateFormatter parsesStrictly]
+-[GrowlISO8601DateFormatter setParsesStrictly:]
+-[GrowlISO8601DateFormatter format]
+-[GrowlISO8601DateFormatter setFormat:]
+-[GrowlISO8601DateFormatter includeTime]
+-[GrowlISO8601DateFormatter setIncludeTime:]
+-[GrowlISO8601DateFormatter timeSeparator]
+-[GrowlISO8601DateFormatter setTimeSeparator:]
+-[GrowlOkGNTPPacket dealloc]
+-[GrowlOkGNTPPacket receivedHeaderItem:]
+-[GrowlOkGNTPPacket callbackResultSendBehavior]
+-[GrowlOkGNTPPacket responseAction]
+-[GrowlOkGNTPPacket setResponseAction:]
++[GrowlGNTPPacket addSentAndReceivedHeadersFromDict:toArray:]
+-[GrowlGNTPPacket packetDidFinishReading:]
+-[GrowlGNTPPacket packetDidDisconnect:]
+-[GrowlGNTPPacket packet:failedReadingWithError:]
+-[GrowlGNTPPacket packet:willChangePacketIDFrom:to:]
+-[GrowlGNTPPacket delegate]
+-[GrowlGNTPPacket setDelegate:]
++[GrowlRegisterGNTPPacket getHeaders:andBinaryChunks:forRegistrationDict:]
++[GrowlNotificationGNTPPacket callbackResultSendBehaviorForHeaders:]
++[GrowlNotificationGNTPPacket getHeaders:binaryChunks:notificationID:forNotificationDict:]
+-[GrowlErrorGNTPPacket init]
+-[GrowlErrorGNTPPacket dealloc]
+-[GrowlErrorGNTPPacket receivedHeaderItem:]
+-[GrowlErrorGNTPPacket callbackResultSendBehavior]
+-[GrowlErrorGNTPPacket errorDescription]
+-[GrowlErrorGNTPPacket setErrorDescription:]
+-[GrowlErrorGNTPPacket errorCode]
+-[GrowlErrorGNTPPacket setErrorCode:]
++[GNTPKey isSupportedHashAlgorithm:]
++[GNTPKey isSupportedEncryptionAlgorithm:]
++[GNTPKey encryptionAlgorithmFromString:]
++[GNTPKey hashingAlgorithmFromString:]
+-[GNTPKey initWithPassword:hashAlgorithm:encryptionAlgorithm:]
++[GNTPKey generateSalt:]
+-[GNTPKey generateSalt]
+-[GNTPKey generateKey]
+-[GNTPKey hashAlgorithmString]
+-[GNTPKey encryptionAlgorithmString]
+-[GNTPKey encrypt:]
+-[GNTPKey decrypt:]
+-[GNTPKey generateIV]
+-[GNTPKey key]
+-[GNTPKey encryption]
+-[GNTPKey hashAlgorithm]
+-[GNTPKey setHashAlgorithm:]
+-[GNTPKey encryptionAlgorithm]
+-[GNTPKey setEncryptionAlgorithm:]
+-[GNTPKey encryptionKey]
+-[GNTPKey setEncryptionKey:]
+-[GNTPKey keyHash]
+-[GNTPKey setKeyHash:]
+-[GNTPKey password]
+-[GNTPKey setPassword:]
+-[GNTPKey salt]
+-[GNTPKey setSalt:]
+-[GNTPKey IV]
+-[GNTPKey setIV:]
++[GrowlXPCCommunicationAttempt XPCBundleID]
++[GrowlXPCCommunicationAttempt canCreateConnection]
+-[GrowlXPCCommunicationAttempt purpose]
+-[GrowlXPCCommunicationAttempt begin]
+-[GrowlXPCCommunicationAttempt finished]
+-[GrowlXPCCommunicationAttempt establishConnection]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___51-[GrowlXPCCommunicationAttempt establishConnection]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
+-[GrowlXPCCommunicationAttempt handleReply:]
+-[GrowlXPCCommunicationAttempt sendMessageWithPurpose:]
++[GrowlXPCNotificationAttempt attemptType]
+-[GrowlXPCNotificationAttempt purpose]
++[GrowlXPCRegistrationAttempt attemptType]
+-[GrowlXPCRegistrationAttempt purpose]
++[NSObject(NSObject_XPCHelpers) xpcObjectToNSObject:]
+___53+[NSObject(NSObject_XPCHelpers) xpcObjectToNSObject:]_block_invoke_0
+___copy_helper_block_
+___destroy_helper_block_
+___53+[NSObject(NSObject_XPCHelpers) xpcObjectToNSObject:]_block_invoke_011
+___copy_helper_block_13
+___destroy_helper_block_14
+-[NSObject(NSObject_XPCHelpers) newXPCObject]
+___45-[NSObject(NSObject_XPCHelpers) newXPCObject]_block_invoke_0
+___copy_helper_block_41
+___destroy_helper_block_42
+___45-[NSObject(NSObject_XPCHelpers) newXPCObject]_block_invoke_055
+___copy_helper_block_56
+___destroy_helper_block_57
++[GrowlNetworkUtilities localHostName]
+GCC_except_table3
+GCC_except_table3
+GCC_except_table4
+GCC_except_table10
+GCC_except_table16
+GCC_except_table84
+GCC_except_table93
+GCC_except_table118
+GCC_except_table127
+GCC_except_table195
+GCC_except_table199
+GCC_except_table203
+GCC_except_table211
+GCC_except_table235
+GCC_except_table239
+GCC_except_table5
+GCC_except_table7
+_shouldUseBuiltInNotifications
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp32
+___block_descriptor_tmp80
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp129
+___block_descriptor_tmp
+___block_descriptor_tmp79
+___block_descriptor_tmp83
+___block_descriptor_tmp89
+___block_descriptor_tmp93
+___block_descriptor_tmp99
+___block_descriptor_tmp103
+___block_descriptor_tmp109
+___block_descriptor_tmp113
+___block_descriptor_tmp117
+___block_descriptor_tmp121
+___block_descriptor_tmp125
+___block_descriptor_tmp129
+___block_descriptor_tmp133
+___block_descriptor_tmp137
+___block_descriptor_tmp141
+___block_descriptor_tmp146
+___block_descriptor_tmp165
+___block_descriptor_tmp201
+___block_descriptor_tmp203
+___block_descriptor_tmp207
+___block_descriptor_tmp209
+___block_descriptor_tmp213
+___block_descriptor_tmp226
+___block_descriptor_tmp232
+___block_descriptor_tmp250
+___block_descriptor_tmp256
+___block_descriptor_tmp270
+___block_descriptor_tmp290
+___block_descriptor_tmp297
+___block_descriptor_tmp314
+___block_descriptor_tmp322
+___block_descriptor_tmp326
+___block_descriptor_tmp336
+___block_descriptor_tmp346
+___block_descriptor_tmp349
+___block_descriptor_tmp367
+___block_descriptor_tmp371
+___block_descriptor_tmp377
+___block_descriptor_tmp381
+___block_descriptor_tmp385
+___block_descriptor_tmp435
+___block_descriptor_tmp439
+___block_descriptor_tmp447
+___block_descriptor_tmp455
+___block_descriptor_tmp463
+___block_descriptor_tmp471
+___block_descriptor_tmp485
+___block_descriptor_tmp489
+___block_descriptor_tmp493
+___block_descriptor_tmp497
+___block_descriptor_tmp510
+___block_descriptor_tmp517
+___block_descriptor_tmp522
+___block_descriptor_tmp527
+___block_descriptor_tmp536
+___block_descriptor_tmp542
+___block_descriptor_tmp548
+___block_descriptor_tmp586
+___block_descriptor_tmp594
+___block_descriptor_tmp602
+___block_descriptor_tmp608
+___block_descriptor_tmp611
+___block_descriptor_tmp619
+___block_descriptor_tmp623
+___block_descriptor_tmp631
+___block_descriptor_tmp645
+___block_descriptor_tmp651
+___block_descriptor_tmp657
+___block_descriptor_tmp660
+___block_descriptor_tmp668
+___block_descriptor_tmp672
+___block_descriptor_tmp681
+___block_descriptor_tmp720
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp17
+___block_descriptor_tmp45
+___block_descriptor_tmp60
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.callbackHeaderItems
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.socket
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.responseParseErrorString
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.responseReadType
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.host
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.password
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.attemptSucceeded
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.bogusResponse
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.connection
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.packet
+_OBJC_IVAR_$_GrowlGNTPCommunicationAttempt.callbackType
+_OBJC_IVAR_$_GrowlXPCCommunicationAttempt.xpcConnection
+_OBJC_IVAR_$_GrowlXPCCommunicationAttempt.notificationUuid
+__attempts
+_delegate
+_cachedRegistrationDictionary
+_appName
+_appIconData
+_registeredWithGrowl.b
+_hasGNTP.b
+_networkClient
+_sandboxed.b
+_queuedGrowlNotifications
+_attemptingToRegister.b
+_miniDispatch
+_registerWhenGrowlIsReady
++[GrowlApplicationBridge _growlIsReachableUpdateCache:]._cached.b
++[GrowlApplicationBridge _growlIsReachableUpdateCache:]._reachable
++[GrowlApplicationBridge _checkSandbox].checked.b
+_prefPaneBundle
+_helperAppBundle
+-[GrowlGNTPCommunicationAttempt readRestOfPacket:].triple
++[GrowlGNTPHeaderItem separatorHeaderItem].separatorHeaderItem
+_timeZonesByOffset
++[GrowlGNTPPacket addSentAndReceivedHeadersFromDict:toArray:].determinedMachineInfo.b
++[GrowlGNTPPacket addSentAndReceivedHeadersFromDict:toArray:].growlName
++[GrowlGNTPPacket addSentAndReceivedHeadersFromDict:toArray:].growlVersion
++[GrowlGNTPPacket addSentAndReceivedHeadersFromDict:toArray:].platformVersion
++[GrowlXPCCommunicationAttempt canCreateConnection].searched.b
++[GrowlXPCCommunicationAttempt canCreateConnection].found.b
+_ComputeHash
+_GCDAsyncSocketErrorDomain
+_GCDAsyncSocketException
+_GCDAsyncSocketSSLCipherSuites
+_GCDAsyncSocketSSLDiffieHellmanParameters
+_GrowlGNTP3DES
+_GrowlGNTPAES
+_GrowlGNTPApplicationBundleIDHeader
+_GrowlGNTPApplicationDataPrefix
+_GrowlGNTPApplicationIconHeader
+_GrowlGNTPApplicationNameHeader
+_GrowlGNTPApplicationPIDHeader
+_GrowlGNTPCallbackClick
+_GrowlGNTPCallbackClicked
+_GrowlGNTPCallbackClose
+_GrowlGNTPCallbackClosed
+_GrowlGNTPCallbackTimedout
+_GrowlGNTPCallbackTimeout
+_GrowlGNTPCallbackTypeHeader
+_GrowlGNTPDES
+_GrowlGNTPErrorResponseType
+_GrowlGNTPExtensionPrefix
+_GrowlGNTPMD5
+_GrowlGNTPNone
+_GrowlGNTPNotificationCallbackContext
+_GrowlGNTPNotificationCallbackContextType
+_GrowlGNTPNotificationCallbackResult
+_GrowlGNTPNotificationCallbackTarget
+_GrowlGNTPNotificationCallbackTimestamp
+_GrowlGNTPNotificationCountHeader
+_GrowlGNTPNotificationDisplayName
+_GrowlGNTPNotificationEnabled
+_GrowlGNTPNotificationID
+_GrowlGNTPNotificationIcon
+_GrowlGNTPNotificationMessageType
+_GrowlGNTPNotificationName
+_GrowlGNTPNotificationPriority
+_GrowlGNTPNotificationSticky
+_GrowlGNTPNotificationText
+_GrowlGNTPNotificationTitle
+_GrowlGNTPOKResponseType
+_GrowlGNTPOriginMachineName
+_GrowlGNTPOriginPlatformName
+_GrowlGNTPOriginPlatformVersion
+_GrowlGNTPOriginSoftwareName
+_GrowlGNTPOriginSoftwareVersion
+_GrowlGNTPRegisterMessageType
+_GrowlGNTPResponseSubscriptionTTL
+_GrowlGNTPSHA1
+_GrowlGNTPSHA256
+_GrowlGNTPSHA512
+_GrowlGNTPSubscribeMessageType
+_GrowlGNTPSubscriberID
+_GrowlGNTPSubscriberName
+_GrowlGNTPSubscriberPort
+_GrowlGetSystemVersion
+_Growl_GetPSNForProcessWithBundlePath
+_Growl_HelperAppIsRunning
+_Growl_ProcessExistsWithBundleIdentifier
+_HexEncode
+_HexUnencode
+_ISO8601DefaultTimeSeparatorCharacter
+_OBJC_CLASS_$_GNTPKey
+_OBJC_CLASS_$_GrowlApplicationBridge
+_OBJC_CLASS_$_GrowlApplicationBridgeNotificationAttempt
+_OBJC_CLASS_$_GrowlApplicationBridgeRegistrationAttempt
+_OBJC_CLASS_$_GrowlCommunicationAttempt
+_OBJC_CLASS_$_GrowlDelegate
+_OBJC_CLASS_$_GrowlErrorGNTPPacket
+_OBJC_CLASS_$_GrowlGCDAsyncReadPacket
+_OBJC_CLASS_$_GrowlGCDAsyncSocket
+_OBJC_CLASS_$_GrowlGCDAsyncSpecialPacket
+_OBJC_CLASS_$_GrowlGCDAsyncWritePacket
+_OBJC_CLASS_$_GrowlGNTPBinaryChunk
+_OBJC_CLASS_$_GrowlGNTPCommunicationAttempt
+_OBJC_CLASS_$_GrowlGNTPEncryptedHeaders
+_OBJC_CLASS_$_GrowlGNTPEndHeaderItem
+_OBJC_CLASS_$_GrowlGNTPHeaderItem
+_OBJC_CLASS_$_GrowlGNTPInitialHeaderItem
+_OBJC_CLASS_$_GrowlGNTPNotificationAttempt
+_OBJC_CLASS_$_GrowlGNTPOutgoingPacket
+_OBJC_CLASS_$_GrowlGNTPPacket
+_OBJC_CLASS_$_GrowlGNTPRegistrationAttempt
+_OBJC_CLASS_$_GrowlISO8601DateFormatter
+_OBJC_CLASS_$_GrowlMiniDispatch
+_OBJC_CLASS_$_GrowlMistView
+_OBJC_CLASS_$_GrowlMistWindowController
+_OBJC_CLASS_$_GrowlNetworkUtilities
+_OBJC_CLASS_$_GrowlNotificationGNTPPacket
+_OBJC_CLASS_$_GrowlOkGNTPPacket
+_OBJC_CLASS_$_GrowlPathUtilities
+_OBJC_CLASS_$_GrowlRegisterGNTPPacket
+_OBJC_CLASS_$_GrowlXPCCommunicationAttempt
+_OBJC_CLASS_$_GrowlXPCNotificationAttempt
+_OBJC_CLASS_$_GrowlXPCRegistrationAttempt
+_OBJC_IVAR_$_GNTPKey._encryptionAlgorithm
+_OBJC_IVAR_$_GNTPKey._encryptionKey
+_OBJC_IVAR_$_GNTPKey._hashAlgorithm
+_OBJC_IVAR_$_GNTPKey._iv
+_OBJC_IVAR_$_GNTPKey._keyHash
+_OBJC_IVAR_$_GNTPKey._password
+_OBJC_IVAR_$_GNTPKey._salt
+_OBJC_IVAR_$_GrowlApplicationBridgeNotificationAttempt.growlConnection
+_OBJC_IVAR_$_GrowlApplicationBridgeNotificationAttempt.growlProxy
+_OBJC_IVAR_$_GrowlApplicationBridgeRegistrationAttempt.applicationName
+_OBJC_IVAR_$_GrowlCommunicationAttempt.attemptType
+_OBJC_IVAR_$_GrowlCommunicationAttempt.delegate
+_OBJC_IVAR_$_GrowlCommunicationAttempt.dictionary
+_OBJC_IVAR_$_GrowlCommunicationAttempt.error
+_OBJC_IVAR_$_GrowlCommunicationAttempt.nextAttempt
+_OBJC_IVAR_$_GrowlDelegate.applicationIconDataForGrowl
+_OBJC_IVAR_$_GrowlDelegate.applicationNameForGrowl
+_OBJC_IVAR_$_GrowlDelegate.registrationDictionary
+_OBJC_IVAR_$_GrowlErrorGNTPPacket.errorCode
+_OBJC_IVAR_$_GrowlErrorGNTPPacket.errorDescription
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.buffer
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.bufferOwner
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.bytesDone
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.maxLength
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.originalBufferLength
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.readLength
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.startOffset
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.tag
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.term
+_OBJC_IVAR_$_GrowlGCDAsyncReadPacket.timeout
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.accept4Source
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.accept6Source
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.config
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.connectIndex
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.connectInterface4
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.connectInterface6
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.connectTimer
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.currentRead
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.currentWrite
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.delegate
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.delegateQueue
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.flags
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.partialReadBuffer
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.readQueue
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.readSource
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.readTimer
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.socket4FD
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.socket6FD
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.socketFDBytesAvailable
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.socketQueue
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.sslContext
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.sslReadBuffer
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.sslWriteCachedLength
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.userData
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.writeQueue
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.writeSource
+_OBJC_IVAR_$_GrowlGCDAsyncSocket.writeTimer
+_OBJC_IVAR_$_GrowlGCDAsyncSpecialPacket.tlsSettings
+_OBJC_IVAR_$_GrowlGCDAsyncWritePacket.buffer
+_OBJC_IVAR_$_GrowlGCDAsyncWritePacket.bytesDone
+_OBJC_IVAR_$_GrowlGCDAsyncWritePacket.tag
+_OBJC_IVAR_$_GrowlGCDAsyncWritePacket.timeout
+_OBJC_IVAR_$_GrowlGNTPBinaryChunk._data
+_OBJC_IVAR_$_GrowlGNTPBinaryChunk._identifier
+_OBJC_IVAR_$_GrowlGNTPEncryptedHeaders._headers
+_OBJC_IVAR_$_GrowlGNTPEndHeaderItem._connectionType
+_OBJC_IVAR_$_GrowlGNTPHeaderItem.headerName
+_OBJC_IVAR_$_GrowlGNTPHeaderItem.headerValue
+_OBJC_IVAR_$_GrowlGNTPInitialHeaderItem.mAction
+_OBJC_IVAR_$_GrowlGNTPInitialHeaderItem.mEncryption
+_OBJC_IVAR_$_GrowlGNTPInitialHeaderItem.mKey
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.binaryChunks
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.growlDictionary
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.headerItems
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.mAction
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.mKey
+_OBJC_IVAR_$_GrowlGNTPOutgoingPacket.packetID
+_OBJC_IVAR_$_GrowlGNTPPacket.binaryDataByIdentifier
+_OBJC_IVAR_$_GrowlGNTPPacket.connectedHost
+_OBJC_IVAR_$_GrowlGNTPPacket.currentBinaryIdentifier
+_OBJC_IVAR_$_GrowlGNTPPacket.currentBinaryLength
+_OBJC_IVAR_$_GrowlGNTPPacket.customHeaders
+_OBJC_IVAR_$_GrowlGNTPPacket.encryptionAlgorithm
+_OBJC_IVAR_$_GrowlGNTPPacket.error
+_OBJC_IVAR_$_GrowlGNTPPacket.host
+_OBJC_IVAR_$_GrowlGNTPPacket.mAction
+_OBJC_IVAR_$_GrowlGNTPPacket.mDelegate
+_OBJC_IVAR_$_GrowlGNTPPacket.mKey
+_OBJC_IVAR_$_GrowlGNTPPacket.networkReadComplete
+_OBJC_IVAR_$_GrowlGNTPPacket.originPacket
+_OBJC_IVAR_$_GrowlGNTPPacket.packetID
+_OBJC_IVAR_$_GrowlGNTPPacket.pendingBinaryIdentifiers
+_OBJC_IVAR_$_GrowlGNTPPacket.socket
+_OBJC_IVAR_$_GrowlGNTPPacket.specificPacket
+_OBJC_IVAR_$_GrowlGNTPPacket.wasInitiatedLocally
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.defaultTimeZone
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.format
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.includeTime
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.lastUsedFormatString
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.parsesStrictly
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.parsingCalendar
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.timeSeparator
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.unparsingCalendar
+_OBJC_IVAR_$_GrowlISO8601DateFormatter.unparsingFormatter
+_OBJC_IVAR_$_GrowlMiniDispatch.delegate
+_OBJC_IVAR_$_GrowlMiniDispatch.queuedWindows
+_OBJC_IVAR_$_GrowlMiniDispatch.windows
+_OBJC_IVAR_$_GrowlMistView.clipPath
+_OBJC_IVAR_$_GrowlMistView.delegate
+_OBJC_IVAR_$_GrowlMistView.notificationImage
+_OBJC_IVAR_$_GrowlMistView.notificationText
+_OBJC_IVAR_$_GrowlMistView.notificationTextAttrs
+_OBJC_IVAR_$_GrowlMistView.notificationTextFont
+_OBJC_IVAR_$_GrowlMistView.notificationTitle
+_OBJC_IVAR_$_GrowlMistView.notificationTitleAttrs
+_OBJC_IVAR_$_GrowlMistView.notificationTitleFont
+_OBJC_IVAR_$_GrowlMistView.selected
+_OBJC_IVAR_$_GrowlMistView.strokePath
+_OBJC_IVAR_$_GrowlMistView.trackingArea
+_OBJC_IVAR_$_GrowlMistWindowController.closed
+_OBJC_IVAR_$_GrowlMistWindowController.delegate
+_OBJC_IVAR_$_GrowlMistWindowController.fadeAnimation
+_OBJC_IVAR_$_GrowlMistWindowController.lifetime
+_OBJC_IVAR_$_GrowlMistWindowController.mistView
+_OBJC_IVAR_$_GrowlMistWindowController.selected
+_OBJC_IVAR_$_GrowlMistWindowController.sticky
+_OBJC_IVAR_$_GrowlMistWindowController.userInfo
+_OBJC_IVAR_$_GrowlMistWindowController.visible
+_OBJC_IVAR_$_GrowlNotificationGNTPPacket.callbackTargetMethod
+_OBJC_IVAR_$_GrowlNotificationGNTPPacket.iconID
+_OBJC_IVAR_$_GrowlNotificationGNTPPacket.iconURL
+_OBJC_IVAR_$_GrowlNotificationGNTPPacket.notificationDict
+_OBJC_IVAR_$_GrowlOkGNTPPacket.responseAction
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.applicationIconID
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.currentNotification
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.currentStep
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.mApplicationIconURL
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.notifications
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.numberOfNotifications
+_OBJC_IVAR_$_GrowlRegisterGNTPPacket.registrationDict
+_OBJC_METACLASS_$_GNTPKey
+_OBJC_METACLASS_$_GrowlApplicationBridge
+_OBJC_METACLASS_$_GrowlApplicationBridgeNotificationAttempt
+_OBJC_METACLASS_$_GrowlApplicationBridgeRegistrationAttempt
+_OBJC_METACLASS_$_GrowlCommunicationAttempt
+_OBJC_METACLASS_$_GrowlDelegate
+_OBJC_METACLASS_$_GrowlErrorGNTPPacket
+_OBJC_METACLASS_$_GrowlGCDAsyncReadPacket
+_OBJC_METACLASS_$_GrowlGCDAsyncSocket
+_OBJC_METACLASS_$_GrowlGCDAsyncSpecialPacket
+_OBJC_METACLASS_$_GrowlGCDAsyncWritePacket
+_OBJC_METACLASS_$_GrowlGNTPBinaryChunk
+_OBJC_METACLASS_$_GrowlGNTPCommunicationAttempt
+_OBJC_METACLASS_$_GrowlGNTPEncryptedHeaders
+_OBJC_METACLASS_$_GrowlGNTPEndHeaderItem
+_OBJC_METACLASS_$_GrowlGNTPHeaderItem
+_OBJC_METACLASS_$_GrowlGNTPInitialHeaderItem
+_OBJC_METACLASS_$_GrowlGNTPNotificationAttempt
+_OBJC_METACLASS_$_GrowlGNTPOutgoingPacket
+_OBJC_METACLASS_$_GrowlGNTPPacket
+_OBJC_METACLASS_$_GrowlGNTPRegistrationAttempt
+_OBJC_METACLASS_$_GrowlISO8601DateFormatter
+_OBJC_METACLASS_$_GrowlMiniDispatch
+_OBJC_METACLASS_$_GrowlMistView
+_OBJC_METACLASS_$_GrowlMistWindowController
+_OBJC_METACLASS_$_GrowlNetworkUtilities
+_OBJC_METACLASS_$_GrowlNotificationGNTPPacket
+_OBJC_METACLASS_$_GrowlOkGNTPPacket
+_OBJC_METACLASS_$_GrowlPathUtilities
+_OBJC_METACLASS_$_GrowlRegisterGNTPPacket
+_OBJC_METACLASS_$_GrowlXPCCommunicationAttempt
+_OBJC_METACLASS_$_GrowlXPCNotificationAttempt
+_OBJC_METACLASS_$_GrowlXPCRegistrationAttempt
+_SSLReadFunction
+_SSLWriteFunction
+_TCPServerErrorDomain
+_createAliasDataWithURL
+_dockDescriptionWithURL
+_fileURLWithAliasData
+_fileURLWithDockDescription
+_AEDisposeDesc
+_AESendMessage
+_AEStreamClose
+_AEStreamCreateEvent
+_AEStreamWriteKeyDesc
+_CC_MD5
+_CC_SHA1
+_CC_SHA256_Final
+_CC_SHA256_Init
+_CC_SHA256_Update
+_CC_SHA512_Final
+_CC_SHA512_Init
+_CC_SHA512_Update
+_CFBundleGetBundleWithIdentifier
+_CFBundleGetIdentifier
+_CFBundleGetInfoDictionary
+_CFBundleGetMainBundle
+_CFDataCreate
+_CFMakeCollectable
+_CFRelease
+_CFStringCompare
+_CFStringGetMaximumSizeOfFileSystemRepresentation
+_CFURLCopyFileSystemPath
+_CFURLCopyScheme
+_CFURLCreateWithFileSystemPath
+_CFURLGetFSRef
+_CFUUIDCreate
+_CFUUIDCreateString
+_CGRectIntersectsRect
+_CGWindowLevelForKey
+_DisposeHandle
+_FSCopyAliasInfo
+_FSNewAlias
+_Gestalt
+_GetHandleSize
+_GetMacOSStatusCommentString
+_GetNextProcess
+_HLock
+_HUnlock
+_NSApp
+_NSCocoaErrorDomain
+_NSConnectionDidDieNotification
+_NSEqualSizes
+_NSFontAttributeName
+_NSForegroundColorAttributeName
+_NSGregorianCalendar
+_NSHomeDirectory
+_NSInsetRect
+_NSInternalInconsistencyException
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSLocalizedRecoverySuggestionErrorKey
+_NSLog
+_NSPOSIXErrorDomain
+_NSParagraphStyleAttributeName
+_NSSearchPathForDirectoriesInDomains
+_NSStringFromClass
+_NSTemporaryDirectory
+_NSViewAnimationEffectKey
+_NSViewAnimationFadeInEffect
+_NSViewAnimationFadeOutEffect
+_NSViewAnimationTargetKey
+_NSZeroRect
+_OBJC_CLASS_$_NSAffineTransform
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBezierPath
+_OBJC_CLASS_$_NSBitmapImageRep
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCalendar
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSConnection
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateComponents
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSFont
+_OBJC_CLASS_$_NSFormatter
+_OBJC_CLASS_$_NSGraphicsContext
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSIndexSet
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPanel
+_OBJC_CLASS_$_NSParagraphStyle
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSScreen
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSTrackingArea
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSView
+_OBJC_CLASS_$_NSViewAnimation
+_OBJC_CLASS_$_NSWindowController
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSFormatter
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSView
+_OBJC_METACLASS_$_NSWindowController
+_ProcessInformationCopyDictionary
+_PtrToHand
+_SCDynamicStoreCopyLocalHostName
+_SSLDisposeContext
+_SSLHandshake
+_SSLNewContext
+_SSLRead
+_SSLSetAllowsAnyRoot
+_SSLSetAllowsExpiredCerts
+_SSLSetAllowsExpiredRoots
+_SSLSetCertificate
+_SSLSetConnection
+_SSLSetDiffieHellmanParams
+_SSLSetEnableCertVerify
+_SSLSetEnabledCiphers
+_SSLSetIOFuncs
+_SSLSetPeerDomainName
+_SSLSetProtocolVersionEnabled
+_SSLWrite
+_SecRandomCopyBytes
+__Block_object_assign
+__Block_object_dispose
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___error
+___maskrune
+___objc_personality_v0
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_source_type_read
+__dispatch_source_type_timer
+__dispatch_source_type_write
+__objc_empty_cache
+__objc_empty_vtable
+__xpc_error_connection_interrupted
+__xpc_error_connection_invalid
+__xpc_error_key_description
+__xpc_type_array
+__xpc_type_bool
+__xpc_type_data
+__xpc_type_dictionary
+__xpc_type_double
+__xpc_type_error
+__xpc_type_int64
+__xpc_type_string
+__xpc_type_uint64
+_accept
+_bind
+_calloc
+_ceil
+_close
+_connect
+_dispatch_async
+_dispatch_get_current_queue
+_dispatch_get_global_queue
+_dispatch_queue_create
+_dispatch_release
+_dispatch_resume
+_dispatch_retain
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_get_data
+_dispatch_source_set_cancel_handler
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_fcntl
+_floor
+_free
+_freeaddrinfo
+_freeifaddrs
+_fstat$INODE64
+_gai_strerror
+_getaddrinfo
+_getifaddrs
+_getpeername
+_getpid
+_getsockname
+_in6addr_any
+_in6addr_loopback
+_inet_ntop
+_kCFAllocatorDefault
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFBundleIdentifierKey
+_kCFBundleNameKey
+_kCFBundleVersionKey
+_kCFStreamSSLAllowsAnyRoot
+_kCFStreamSSLAllowsExpiredCertificates
+_kCFStreamSSLAllowsExpiredRoots
+_kCFStreamSSLCertificates
+_kCFStreamSSLIsServer
+_kCFStreamSSLLevel
+_kCFStreamSSLPeerName
+_kCFStreamSSLValidatesCertificateChain
+_kCFStreamSocketSecurityLevelNegotiatedSSL
+_kCFStreamSocketSecurityLevelSSLv2
+_kCFStreamSocketSecurityLevelSSLv3
+_kCFStreamSocketSecurityLevelTLSv1
+_kSecRandomDefault
+_listen
+_malloc
+_memcmp
+_memcpy
+_modf
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_objc_msgSend_stret
+_objc_setProperty
+_open
+_poll
+_read
+_setsockopt
+_socket
+_strcmp
+_strerror
+_strlen
+_strtol
+_truncf
+_write
+_xpc_array_apply
+_xpc_array_create
+_xpc_array_get_count
+_xpc_array_set_value
+_xpc_bool_create
+_xpc_bool_get_value
+_xpc_connection_create
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_data_create
+_xpc_data_get_bytes_ptr
+_xpc_data_get_length
+_xpc_dictionary_apply
+_xpc_dictionary_create
+_xpc_dictionary_get_count
+_xpc_dictionary_get_string
+_xpc_dictionary_set_string
+_xpc_dictionary_set_value
+_xpc_double_create
+_xpc_double_get_value
+_xpc_get_type
+_xpc_int64_create
+_xpc_int64_get_value
+_xpc_release
+_xpc_string_create
+_xpc_string_get_string_ptr
+_xpc_uint64_create
+_xpc_uint64_get_value
+dyld_stub_binder

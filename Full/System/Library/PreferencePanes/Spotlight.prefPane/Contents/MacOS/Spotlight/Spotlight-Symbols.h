@@ -1,0 +1,312 @@
+-[SpotlightPref mainViewDidLoad]
+-[SpotlightPrefItemTable setProposedDropRow:]
+-[SpotlightPref _setupConflictUI]
+-[SpotlightPref _setupComboBox]
+-[SpotlightPref numberOfItemsInComboBox:]
+-[SpotlightPref _getStoredSpotlightItems]
+-[SpotlightPref setSpotlightItems:]
+-[SpotlightPref _getRealSpotlightHotKey]
+-[SpotlightPref reflectUI]
+-[SpotlightPref numberOfRowsInTableView:]
+-[SpotlightPref tableView:objectValueForTableColumn:row:]
+-[SpotlightPrefItemTable drawGridInClipRect:]
+-[SpotlightPref windowWillReturnFieldEditor:toObject:]
+-[SpotlightPref didSelect]
+-[SpotlightPref _getSymbolicHotKeys]
+-[SpotlightPref _refreshConflicts]
+-[SpotlightPref _findConflictingSymbolicHotKeyFor:]
+-[SpotlightPrefConfigKeyEditor initConfigKeyEditorWithMaster:]
+-[SpotlightPrefConfigKeyEditor setTextField:]
+-[SpotlightPrefItemTable resetCursorRects]
+-[SpotlightPref tabView:willSelectTabViewItem:]
+-[SpotlightPrefPrivacyController init]
+-[SpotlightPrefPrivacyController awakeFromNib]
+-[SpotlightPrefPrivacyController _getPrivateItems]
+-[SpotlightPrefPrivateItem initWithPath:]
+-[SpotlightPrefPrivateItem setPath:]
+-[SpotlightPrefPrivateItem setName:]
+-[SpotlightPrefPrivateItem setIcon:]
+-[SpotlightPrefPrivacyController numberOfRowsInTableView:]
+-[SpotlightPrefPrivacyController _addKeyEquivalentsToDeleteButton]
+-[SpotlightPrefPrivacyController privacyView]
+-[SpotlightPrefPrivacyController setParent:]
+-[SpotlightPrefPrivacyController willSelect]
+-[SpotlightPref tabView:didSelectTabViewItem:]
+-[SpotlightPref _sendCumulativePrefChangeNotification]
+-[SpotlightPrefPrivacyController tableView:objectValueForTableColumn:row:]
+-[SpotlightPrefPrivateItem icon]
+-[SpotlightPrefPrivateItem name]
+-[SpotlightPrefPrivacyController addItem:]
+-[SpotlightPrefConfigKeyEditor _windowDidResignKeyNotification:]
+-[SpotlightPrefConfigKeyEditor _windowDidBecomeKeyNotification:]
+-[SpotlightPrefPrivacyController _pathCouldBreakAppsAndUserCanceled:]
+-[SpotlightPrefPrivacyController _setPathsThatCouldBreakApps]
+-[SpotlightPrefPrivacyController _checkPathsThatCouldBreakApps:]
+-[SpotlightPrefPrivacyController _itemIsDuplicate:]
+-[SpotlightPrefPrivateItem path]
+-[SpotlightPrefPrivateItem nameCompare:]
+-[SpotlightPref undo]
+-[SpotlightPref window]
+-[SpotlightPrefItemTable mouseDown:]
+-[SpotlightPrefItemTable _highlightColorForCell:]
+-[SpotlightPref tableView:setObjectValue:forTableColumn:row:]
+-[SpotlightPref _syncSpotlightItems]
+-[SpotlightPref _filteredArrayWithArray:]
+-[SpotlightPref _sendImmediatePrefChangeNotification]
+-[SpotlightPref tableViewSelectionDidChange:]
+-[SpotlightPrefConfigKeyEditor becomeFirstResponder]
+-[SpotlightPrefConfigKeyEditor _disableHotKeyOperationMode]
+-[SpotlightPrefConfigKeyEditor mouseDown:]
+-[SpotlightPrefConfigKeyEditor performKeyEquivalent:]
+-[SpotlightPrefConfigKeyEditor keyDown:]
+-[SpotlightPrefConfigKeyEditor resignFirstResponder]
+-[SpotlightPrefConfigKeyEditor _restoreHotKeyOperationMode]
+-[SpotlightPref willResignActive]
+-[SpotlightPref _syncUserAssignableKeys]
+-[SpotlightPrefPrivacyController willResignActive]
+_cgsNotifyProc
++[SpotlightPref shared]
+-[SpotlightPref dealloc]
+-[SpotlightPref _xcodePath]
+-[SpotlightPref _hasDeveloperToolsInstalled]
+-[SpotlightPref _defaultSpotlightItems]
+-[SpotlightPref _getSpotlightCategoriesDisplayNames]
+-[SpotlightPref _xmlStringFromDictionary:]
+-[SpotlightPref _removeOldIconCache]
+-[SpotlightPref getBOOLDefaultValueForKey:]
+-[SpotlightPref revealElementForKey:]
+-[SpotlightPref prefIcon]
+-[SpotlightPref comboBox:objectValueForItemAtIndex:]
+-[SpotlightPref comboBoxSelectionIsChanging:]
+-[SpotlightPref comboBoxSelectionDidChange:]
+-[SpotlightPref comboBox:indexOfItemWithStringValue:]
+-[SpotlightPref tableView:writeRowsWithIndexes:toPasteboard:]
+-[SpotlightPref tableView:validateDrop:proposedRow:proposedDropOperation:]
+-[SpotlightPref tableView:acceptDrop:row:dropOperation:]
+-[SpotlightPref tableView:willDisplayCell:forTableColumn:row:]
+-[SpotlightPref controlTextDidCancelEditing:]
+-[SpotlightPref keyEditorFinished:forTextView:virtualKey:modifiers:]
+-[SpotlightPref toggleSpotlightMenuHotKey:]
+-[SpotlightPref toggleSpotlightWindowHotKey:]
+-[SpotlightPref gotoKbdPref:]
+-[SpotlightPref help:]
+-[SpotlightPref aboutSpotlightPrivacyPressed:]
+-[SpotlightPref closeAboutSpotlightPrivacyPressed:]
+-[SpotlightPref spotlightItems]
+-[NSTableView(RTLSupport) adjustUIForRTL]
+-[SpotlightItem enabled]
+-[SpotlightItem setEnabled:]
+-[SpotlightItem icon]
+-[SpotlightItem setIcon:]
+-[PrivacyItemTable initWithFrame:]
+-[PrivacyItemTable initWithCoder:]
+-[SpotlightPrefItemTable initWithFrame:]
+-[SpotlightPrefItemTable initWithCoder:]
+-[SpotlightPrefItemTable gridLineXPositionFromLayoutDirection:andTableColumns:]
+-[SpotlightPrefItemTable dragImageForRowsWithIndexes:tableColumns:event:offset:]
+-[SpotlightPrefItemTable accessibilityAttributeValue:]
+-[SpotlightPrefConfigKeyEditor dealloc]
+-[SpotlightPrefConfigKeyEditor validateMenuItem:]
+-[SpotlightPrefConfigKeyEditor key]
+-[SpotlightPrefConfigKeyEditor modifier]
+-[SpotlightPrefConfigKeyEditor textField]
+-[SpotlightPrefPrivacyController _reloadExclusions:]
+-[SpotlightPrefPrivacyController _handlePrivacyError:forPath:]
+-[SpotlightPrefPrivacyController tableViewSelectionDidChange:]
+-[SpotlightPrefPrivacyController tableView:validateDrop:proposedRow:proposedDropOperation:]
+-[SpotlightPrefPrivacyController tableView:acceptDrop:row:dropOperation:]
+-[SpotlightPrefPrivacyController tableView:toolTipForCell:rect:tableColumn:row:mouseLocation:]
+-[SpotlightPrefPrivacyController _tableDoubleClick:]
+___42-[SpotlightPrefPrivacyController addItem:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SpotlightPrefPrivacyController openPanelFinished:returnCode:]
+-[SpotlightPrefPrivacyController deleteItem:]
+-[SpotlightPrefPrivacyController undoAddDelete:]
+-[SpotlightPrefPrivateItem getIcon]
+-[SpotlightPrefPrivateItem initWithCoder:]
+-[SpotlightPrefPrivateItem encodeWithCoder:]
+-[NSArray(SpotlightPrefExtras) containsString:]
+-[NSArray(SpotlightPrefExtras) intersectionWithArray:]
+-[NSImage(SpotlightPrefExtras) highQualityInterpolationToSize:]
+-[NSImage(SpotlightPrefExtras) mySetName:]
+GCC_except_table20
+GCC_except_table9
+___block_descriptor_tmp
+-[SpotlightPrefPrivacyController addItem:].firstVisit
+_JSBeginAlertSheet
+_JSRunAlertPanel
+_OBJC_CLASS_$_PrivacyItemTable
+_OBJC_CLASS_$_SpotlightItem
+_OBJC_CLASS_$_SpotlightPref
+_OBJC_CLASS_$_SpotlightPrefConfigKeyEditor
+_OBJC_CLASS_$_SpotlightPrefItemTable
+_OBJC_CLASS_$_SpotlightPrefPrivacyController
+_OBJC_CLASS_$_SpotlightPrefPrivateItem
+_OBJC_IVAR_$_SpotlightItem.enabled
+_OBJC_IVAR_$_SpotlightItem.icon
+_OBJC_IVAR_$_SpotlightPref._cachedHasDeveloperTools
+_OBJC_IVAR_$_SpotlightPref._draggedRow
+_OBJC_IVAR_$_SpotlightPref._hotKeyTable
+_OBJC_IVAR_$_SpotlightPref._itemTable
+_OBJC_IVAR_$_SpotlightPref._keyboardMenuShortcutCheckbox
+_OBJC_IVAR_$_SpotlightPref._keyboardMenuShortcutComboBox
+_OBJC_IVAR_$_SpotlightPref._keyboardWindowShortcutCheckbox
+_OBJC_IVAR_$_SpotlightPref._keyboardWindowShortcutComboBox
+_OBJC_IVAR_$_SpotlightPref._locGroupNames
+_OBJC_IVAR_$_SpotlightPref._menuComboBoxItems
+_OBJC_IVAR_$_SpotlightPref._menuConflictButton
+_OBJC_IVAR_$_SpotlightPref._menuHotKeyEnabled
+_OBJC_IVAR_$_SpotlightPref._menuHotKeyFieldEditor
+_OBJC_IVAR_$_SpotlightPref._menuKeyChar
+_OBJC_IVAR_$_SpotlightPref._menuMods
+_OBJC_IVAR_$_SpotlightPref._menuVirtKey
+_OBJC_IVAR_$_SpotlightPref._privacyController
+_OBJC_IVAR_$_SpotlightPref._savedMenuComboBoxText
+_OBJC_IVAR_$_SpotlightPref._savedWindowComboBoxText
+_OBJC_IVAR_$_SpotlightPref._spotlightItems
+_OBJC_IVAR_$_SpotlightPref._spotlightPrivacyPanel
+_OBJC_IVAR_$_SpotlightPref._spotlightPrivacyPanelTextView
+_OBJC_IVAR_$_SpotlightPref._tabView
+_OBJC_IVAR_$_SpotlightPref._undo
+_OBJC_IVAR_$_SpotlightPref._windowComboBoxItems
+_OBJC_IVAR_$_SpotlightPref._windowConflictButton
+_OBJC_IVAR_$_SpotlightPref._windowHotKeyEnabled
+_OBJC_IVAR_$_SpotlightPref._windowHotKeyFieldEditor
+_OBJC_IVAR_$_SpotlightPref._windowKeyChar
+_OBJC_IVAR_$_SpotlightPref._windowMods
+_OBJC_IVAR_$_SpotlightPref._windowVirtKey
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._master
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._modifiers
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._operationModeEnabled
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._savedHotKeyOperatingMode
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._textField
+_OBJC_IVAR_$_SpotlightPrefConfigKeyEditor._virtualKey
+_OBJC_IVAR_$_SpotlightPrefItemTable._proposedDropRow
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._addRemoveView
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._excludedSpotlightPaths
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._parent
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._pathsThatCouldBreakApps
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._privacyItems
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._privacyTable
+_OBJC_IVAR_$_SpotlightPrefPrivacyController._privacyView
+_OBJC_IVAR_$_SpotlightPrefPrivateItem._icon
+_OBJC_IVAR_$_SpotlightPrefPrivateItem._name
+_OBJC_IVAR_$_SpotlightPrefPrivateItem._path
+_OBJC_METACLASS_$_PrivacyItemTable
+_OBJC_METACLASS_$_SpotlightItem
+_OBJC_METACLASS_$_SpotlightPref
+_OBJC_METACLASS_$_SpotlightPrefConfigKeyEditor
+_OBJC_METACLASS_$_SpotlightPrefItemTable
+_OBJC_METACLASS_$_SpotlightPrefPrivacyController
+_OBJC_METACLASS_$_SpotlightPrefPrivateItem
+_ReloadExclusions
+_StringForKey
+_gPrefIcon
+_gSharedSpotlightPref
+_AECreateDesc
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFMakeCollectable
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyAppValue
+_CFPreferencesSetAppValue
+_CFPreferencesSetValue
+_CFPreferencesSynchronize
+_CFPropertyListCreateDeepCopy
+_CFPropertyListCreateXMLData
+_CFRelease
+_CFStringCreateWithBytes
+_CGSGetGlobalHotKeyOperatingMode
+_CGSGetSymbolicHotKeyValue
+_CGSIsSymbolicHotKeyEnabled
+_CGSMainConnectionID
+_CGSRegisterNotifyProc
+_CGSRemoveNotifyProc
+_CGSSetGlobalHotKeyOperatingMode
+_CGSSetSymbolicHotKeyEnabled
+_CGSSetSymbolicHotKeyValue
+_LSOpenFromURLSpec
+_NSAccessibilityDescriptionAttribute
+_NSApp
+_NSBeep
+_NSFileTypeForHFSTypeCode
+_NSFilenamesPboardType
+_NSHelpManagerSystemBook
+_NSLog
+_NSPointInRect
+_NSRunAlertPanel
+_NSWindowDidBecomeKeyNotification
+_NSWindowDidResignKeyNotification
+_NSZeroPoint
+_OBJC_CLASS_$_NSAdminPreference
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBezierPath
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSButtonCell
+_OBJC_CLASS_$_NSCursor
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSDistributedNotificationCenter
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSGraphicsContext
+_OBJC_CLASS_$_NSHelpManager
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSIndexSet
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLayoutConstraint
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableIndexSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOpenPanel
+_OBJC_CLASS_$_NSPrefPaneUtils
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTableView
+_OBJC_CLASS_$_NSTextView
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSAdminPreference
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSTableView
+_OBJC_METACLASS_$_NSTextView
+_SetSymbolicHotKeyEnabled
+_SetSymbolicHotKeyValue
+__Block_object_assign
+__Block_object_dispose
+__MDCopyExclusionList
+__MDCopyLocalizedGroupNameDictionary
+__MDSetExclusion
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_copySymbolicHotKeyPreferences
+_kCFAllocatorDefault
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kMDConfigChangedNotification
+_kMDExclusionsNotification
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_strlen
+dyld_stub_binder

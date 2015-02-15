@@ -1,0 +1,13 @@
+_tda9885VersRec
+_Detect_tda9885
+_tda9885ModuleData
+_tda9885_dumpstatus
+_tda9885_getstatus
+_tda9885_init
+_tda9885_setparameters
+_calloc
+_free
+_xf86DrvMsg
+_xf86I2CDevInit
+_xf86I2CWriteRead
+dyld_stub_binder

@@ -1,0 +1,71 @@
+_mt_log_automation_automator_tool_run
+_main
+_AMHandleUncaughtException
+-[AMMain init]
+-[AMMain dealloc]
+-[AMMain displayHelp]
+-[AMMain processArguments]
+-[AMMain workflowRunnerWillRun:]
+-[AMMain workflowRunnerDidRun:]
+-[AMMain workflowRunnerDidStop:]
+-[AMMain workflowRunner:willRunAction:]
+-[AMMain workflowRunner:didRunAction:]
+-[AMMain workflowRunner:didError:]
+-[AMMain workflowRunner:didLogMessage:ofType:fromAction:]
+-[AMMain automatorRunnerDied]
+-[AMMain runnerInterface]
+-[AMMain setRunnerInterface:]
+-[AMMain UUID]
+_OBJC_IVAR_$_AMMain._runnerInterface
+_OBJC_IVAR_$_AMMain._uuid
+_OBJC_IVAR_$_AMMain._useVerboseLogging
+_OBJC_IVAR_$_AMMain._useDebugLogging
+_OBJC_IVAR_$_AMMain._logResult
+_OBJC_IVAR_$_AMMain._didError
+_OBJC_CLASS_$_AMMain
+_OBJC_METACLASS_$_AMMain
+__mh_execute_header
+_AMVariablePropertyListIdentifierKey
+_AMVariablePropertyListNameKey
+_AMVariablePropertyListValueKey
+_AMWorkflowPropertyListVariablesKey
+_CFMakeCollectable
+_CFUUIDCreate
+_CFUUIDCreateString
+_NSSetUncaughtExceptionHandler
+_OBJC_CLASS_$_AMRunnerInterface
+_OBJC_CLASS_$_AMWorkflow
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__AMAutomatorFrameworkString
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdoutp
+___strlcpy_chk
+__objc_empty_cache
+_abort
+_exit
+_fprintf
+_fwrite
+_getppid
+_msgtracer_log_with_keys
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty_atomic
+_proc_name
+_puts
+_realpath$DARWIN_EXTSN
+dyld_stub_binder

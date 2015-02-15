@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+___stdinp
+_clearerr
+_exit
+_fclose
+_ferror
+_fgetwln
+_fopen
+_fwrite
+_getopt
+_optind
+_putwchar
+_setlocale
+_warn
+dyld_stub_binder

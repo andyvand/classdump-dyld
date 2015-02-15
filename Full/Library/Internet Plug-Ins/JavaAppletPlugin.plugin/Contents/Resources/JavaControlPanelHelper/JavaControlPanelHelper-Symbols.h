@@ -1,0 +1,12 @@
+radr://5614542
+__mh_execute_header
+_exit
+_lstat$INODE64
+_mkdir
+_stat$INODE64
+_strcmp
+_symlink
+_syslog
+_unlink
+_utimes
+dyld_stub_binder

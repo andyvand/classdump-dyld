@@ -1,0 +1,16 @@
+radr://5614542
+_pam_sm_close_session
+_pam_sm_open_session
+_populate_struct
+___strlcpy_chk
+__openpam_log
+_calloc
+_free
+_getpid
+_gettimeofday
+_openpam_free_data
+_pam_get_data
+_pam_get_item
+_pam_set_data
+_pututxline
+dyld_stub_binder

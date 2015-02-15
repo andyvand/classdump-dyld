@@ -1,0 +1,7 @@
+_pam_sm_acct_mgmt
+_pam_sm_authenticate
+_pam_sm_chauthtok
+_pam_sm_close_session
+_pam_sm_open_session
+_pam_sm_setcred
+dyld_stub_binder

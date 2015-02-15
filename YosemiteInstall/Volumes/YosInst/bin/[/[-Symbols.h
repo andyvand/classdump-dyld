@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+__DefaultRuneLocale
+___error
+___maskrune
+_abort
+_access
+_errx
+_getegid
+_geteuid
+_isatty
+_lstat$INODE64
+_stat$INODE64
+_strcmp
+_strtol
+dyld_stub_binder

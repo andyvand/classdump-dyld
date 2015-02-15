@@ -1,0 +1,15 @@
+radr://5614542
+__mh_execute_header
+___error
+___snprintf_chk
+___stderrp
+_bcopy
+_execve
+_exit
+_fork
+_fwrite
+_getuid
+_signal
+_sigprocmask
+_wait4
+dyld_stub_binder

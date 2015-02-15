@@ -1,0 +1,788 @@
++[BKItemSequenceNavNode findItemWithIdentifier:]
+-[BKItemSequenceNavNode initWithItems:indicies:prefixString:suffixString:numberZeroPaddingDigits:]
+-[BKItemSequenceNavNode dealloc]
+-[BKItemSequenceNavNode finalize]
+-[BKItemSequenceNavNode itemsProviderKeys]
+-[BKItemSequenceNavNode itemIsLeaf]
+-[BKItemSequenceNavNode itemUniqueIdentifier]
+-[BKItemSequenceNavNode itemPasteboardObjectForType:]
+-[BKItemSequenceNavNode itemPasteboardDataTypes]
+-[BKItemSequenceNavNode itemPreviewRepresentationType]
+-[BKItemSequenceNavNode itemPreview]
+-[BKItemSequenceNavNode parent]
+-[BKItemSequenceNavNode name]
+-[BKItemSequenceNavNode displayName]
+-[BKItemSequenceNavNode path]
+-[BKItemSequenceNavNode getNodeAsResolvedNode:withError:]
+-[BKItemSequenceNavNode getNodeAsDeepResolvedNode:]
+-[BKItemSequenceNavNode copyIcon]
+-[BKItemSequenceNavNode copyPreviewIcon]
+-[BKItemSequenceNavNode previewThumbnailImage]
+-[BKItemSequenceNavNode sync]
+-[BKItemSequenceNavNode isContainer]
+-[BKItemSequenceNavNode isVisible]
+-[BKItemSequenceNavNode isPackage]
+-[BKItemSequenceNavNode isAlias]
+-[BKItemSequenceNavNode isVolume]
+-[BKItemSequenceNavNode isExtensionHidden]
+-[BKItemSequenceNavNode isDisconnectedMountPoint]
+-[BKItemSequenceNavNode isUnauthenticatedMountPoint]
+-[BKItemSequenceNavNode eject]
+-[BKItemSequenceNavNode isEjectable]
+-[BKItemSequenceNavNode modDate]
+-[BKItemSequenceNavNode creationDate]
+-[BKItemSequenceNavNode physicalSize]
+-[BKItemSequenceNavNode logicalSize]
+-[BKItemSequenceNavNode usedSize]
+-[BKItemSequenceNavNode kind]
+-[BKItemSequenceNavNode fileType]
+-[BKItemSequenceNavNode shortVersion]
+-[BKItemSequenceNavNode comment]
+-[BKItemSequenceNavNode _labelColorIndex]
+-[BKItemSequenceNavNode labelColor]
+-[BKItemSequenceNavNode children]
+-[BKItemSequenceNavNode copyWithZone:]
+-[BKItemSequenceNavNode acceptsRootNode]
+-[BKItemSequenceNavNode itemsIndices]
+-[BKItemSequenceNavNode itemsPrefixString]
+-[BKItemSequenceNavNode itemsSuffixString]
+-[BKItemSequenceNavNode itemsNumberZeroPaddingDigits]
++[BKItemSequenceNavNode(Private) _identifierToItemMap]
+-[BKItemSequenceNavNode(Private) _addToMap]
+-[BKItemSequenceNavNode(Private) _removeFromMap]
+-[BKItemSequenceNavNodeIdentifier initWithItems:indicies:prefixString:suffixString:numberZeroPaddingDigits:]
+-[BKItemSequenceNavNodeIdentifier dealloc]
+-[BKItemSequenceNavNodeIdentifier hash]
+-[BKItemSequenceNavNodeIdentifier isEqual:]
+-[BKItemSequenceNavNodeIdentifier copyWithZone:]
+-[BKItemSequenceNavNodeIdentifier encodeWithCoder:]
+-[BKItemSequenceNavNodeIdentifier initWithCoder:]
+-[BKItemSequenceNavNodeIdentifier itemUniqueIdentifiers]
+-[BKItemSequenceNavNodeIdentifier itemsIndices]
+-[BKItemSequenceNavNodeIdentifier itemsPrefixString]
+-[BKItemSequenceNavNodeIdentifier itemsSuffixString]
+-[BKItemSequenceNavNodeIdentifier itemsNumberZeroPaddingDigits]
+-[BKNavNodeIdentifier initWithNavNode:]
+-[BKNavNodeIdentifier initWithURL:]
+-[BKNavNodeIdentifier initWithPath:]
+-[BKNavNodeIdentifier dealloc]
+-[BKNavNodeIdentifier navNode]
+-[BKNavNodeIdentifier encodeWithCoder:]
+-[BKNavNodeIdentifier initWithCoder:]
+-[BKNavNodeIdentifier copyWithZone:]
+-[BKNavNodeIdentifier isEqual:]
+-[BKNavNodeIdentifier hash]
+-[BKNavNodeIdentifier _tryToConvertToURLIfNeeded]
+-[BKNavSidebarController initWithModule:]
+-[BKNavSidebarController outlineViewSelectionDidChange:]
+-[BKNavSidebarController menuForEvent:item:]
+-[BKNavSidebarController _handleRootNodeChanged:]
+-[NSEvent(BrowserKitPrivateIvarAccess) browserKitSetProtectedEventLocation:]
+-[BKNavSplitView dividerRect]
+-[BKNavSplitView expandedDividerRect]
+-[BKNavSplitView discardTrackingRect]
+-[BKNavSplitView resetCursorRects]
+-[BKNavSplitView adjustMouseEventLocation:]
+-[BKNavSplitView shouldTrackMouse]
+-[BKNavSplitView mouseEntered:]
+-[BKNavSplitView drawDividerInRect:]
+-[BKNavSplitView dividerThickness]
+-[BKNavSplitView awakeFromNib]
+-[BKNavSplitView _getNextResizeEventInvalidatingLiveResizeCacheIfNecessary:]
+-[BKNavSplitView viewWillMoveToWindow:]
+-[BKNavSplitViewController leftView]
+-[BKNavSplitViewController rightView]
+-[BKNavSplitViewController filelistDelegate]
+-[BKNavSplitViewController awakeFromNib]
+-[BKNavSplitViewController _saveSplitPositionToDefaults]
+-[BKNavSplitViewController _restoreSplitPositionFromDefaults]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItems]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemsLoading]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemDisplayName]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemIcon]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemPreviewRepresentationType]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemPreview]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemIsLeaf]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemContentType]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemKind]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemPath]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFSLabel]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFSSize]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFSCreationDate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFSContentChangeDate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFSFreeSpace]
+-[NSNavNode(BKNSNavNodeAdditions) isEqual:]
+-[NSNavNode(BKNSNavNodeAdditions) itemsProviderKeys]
++[NSNavNode(BKNSNavNodeAdditions) imageKeys]
++[NSNavNode(BKNSNavNodeAdditions) audioKeys]
++[NSNavNode(BKNSNavNodeAdditions) videoKeys]
+-[NSNavNode(BKNSNavNodeAdditions) itemKeys]
+-[NSNavNode(BKNSNavNodeAdditions) itemIsLeaf]
+-[NSNavNode(BKNSNavNodeAdditions) itemIsSourceLeaf]
+-[NSNavNode(BKNSNavNodeAdditions) itemUniqueIdentifier]
+-[NSNavNode(BKNSNavNodeAdditions) itemPasteboardObjectForType:]
+-[NSNavNode(BKNSNavNodeAdditions) itemPasteboardDataTypes]
+-[NSNavNode(BKNSNavNodeAdditions) itemIconRepresentationType]
+-[NSNavNode(BKNSNavNodeAdditions) itemIcon]
+-[NSNavNode(BKNSNavNodeAdditions) _itemIconRef]
+-[NSNavNode(BKNSNavNodeAdditions) itemPreviewRepresentationType]
+-[NSNavNode(BKNSNavNodeAdditions) itemPreview]
+-[NSNavNode(BKNSNavNodeAdditions) itemDisplayName]
+-[NSNavNode(BKNSNavNodeAdditions) itemContentType]
+-[NSNavNode(BKNSNavNodeAdditions) itemKind]
+-[NSNavNode(BKNSNavNodeAdditions) itemPath]
+-[NSNavNode(BKNSNavNodeAdditions) itemConfigurationClassString]
+-[NSNavNode(BKNSNavNodeAdditions) itemFSLabel]
+-[NSNavNode(BKNSNavNodeAdditions) itemFSSize]
+-[NSNavNode(BKNSNavNodeAdditions) itemFSCreationDate]
+-[NSNavNode(BKNSNavNodeAdditions) itemFSContentChangeDate]
+-[NSNavNode(BKNSNavNodeAdditions) itemFSFreeSpace]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemPixelHeight]
+-[NSNavNode(BKNSNavNodeAdditions) itemPixelHeight]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemPixelWidth]
+-[NSNavNode(BKNSNavNodeAdditions) itemPixelWidth]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemColorSpace]
+-[NSNavNode(BKNSNavNodeAdditions) itemColorSpace]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemBitsPerSample]
+-[NSNavNode(BKNSNavNodeAdditions) itemBitsPerSample]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFlashOnOff]
+-[NSNavNode(BKNSNavNodeAdditions) itemFlashOnOff]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFocalLength]
+-[NSNavNode(BKNSNavNodeAdditions) itemFocalLength]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAcquisitionMake]
+-[NSNavNode(BKNSNavNodeAdditions) itemAcquisitionMake]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAcquisitionModel]
+-[NSNavNode(BKNSNavNodeAdditions) itemAcquisitionModel]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemISOSpeed]
+-[NSNavNode(BKNSNavNodeAdditions) itemISOSpeed]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemOrientation]
+-[NSNavNode(BKNSNavNodeAdditions) itemOrientation]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemLayerNames]
+-[NSNavNode(BKNSNavNodeAdditions) itemLayerNames]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemWhiteBalance]
+-[NSNavNode(BKNSNavNodeAdditions) itemWhiteBalance]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAperture]
+-[NSNavNode(BKNSNavNodeAdditions) itemAperture]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemProfileName]
+-[NSNavNode(BKNSNavNodeAdditions) itemProfileName]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemResolutionWidthDPI]
+-[NSNavNode(BKNSNavNodeAdditions) itemResolutionWidthDPI]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemResolutionHeightDPI]
+-[NSNavNode(BKNSNavNodeAdditions) itemResolutionHeightDPI]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemExposureMode]
+-[NSNavNode(BKNSNavNodeAdditions) itemExposureMode]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemExposureTimeSeconds]
+-[NSNavNode(BKNSNavNodeAdditions) itemExposureTimeSeconds]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemEXIFVersion]
+-[NSNavNode(BKNSNavNodeAdditions) itemEXIFVersion]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAlbum]
+-[NSNavNode(BKNSNavNodeAdditions) itemAlbum]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemHasAlphaChannel]
+-[NSNavNode(BKNSNavNodeAdditions) itemHasAlphaChannel]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemRedEyeOnOff]
+-[NSNavNode(BKNSNavNodeAdditions) itemRedEyeOnOff]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMeteringMode]
+-[NSNavNode(BKNSNavNodeAdditions) itemMeteringMode]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMaxAperture]
+-[NSNavNode(BKNSNavNodeAdditions) itemMaxAperture]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemFNumber]
+-[NSNavNode(BKNSNavNodeAdditions) itemFNumber]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemExposureProgram]
+-[NSNavNode(BKNSNavNodeAdditions) itemExposureProgram]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemExposureTimeString]
+-[NSNavNode(BKNSNavNodeAdditions) itemExposureTimeString]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAppleLoopDescriptors]
+-[NSNavNode(BKNSNavNodeAdditions) itemAppleLoopDescriptors]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAppleLoopsKeyFilterType]
+-[NSNavNode(BKNSNavNodeAdditions) itemAppleLoopsKeyFilterType]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAppleLoopsLoopMode]
+-[NSNavNode(BKNSNavNodeAdditions) itemAppleLoopsLoopMode]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAppleLoopsRootKey]
+-[NSNavNode(BKNSNavNodeAdditions) itemAppleLoopsRootKey]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAudioChannelCount]
+-[NSNavNode(BKNSNavNodeAdditions) itemAudioChannelCount]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAudioEncodingApplication]
+-[NSNavNode(BKNSNavNodeAdditions) itemAudioEncodingApplication]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAudioSampleRate]
+-[NSNavNode(BKNSNavNodeAdditions) itemAudioSampleRate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAudioTrackNumber]
+-[NSNavNode(BKNSNavNodeAdditions) itemAudioTrackNumber]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemComposer]
+-[NSNavNode(BKNSNavNodeAdditions) itemComposer]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemDurationSeconds]
+-[NSNavNode(BKNSNavNodeAdditions) itemDurationSeconds]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemIsGeneralMIDISequence]
+-[NSNavNode(BKNSNavNodeAdditions) itemIsGeneralMIDISequence]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemKeySignature]
+-[NSNavNode(BKNSNavNodeAdditions) itemKeySignature]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemLyricist]
+-[NSNavNode(BKNSNavNodeAdditions) itemLyricist]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMusicalGenre]
+-[NSNavNode(BKNSNavNodeAdditions) itemMusicalGenre]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMusicalInstrumentCategory]
+-[NSNavNode(BKNSNavNodeAdditions) itemMusicalInstrumentCategory]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMusicalInstrumentName]
+-[NSNavNode(BKNSNavNodeAdditions) itemMusicalInstrumentName]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemRecordingDate]
+-[NSNavNode(BKNSNavNodeAdditions) itemRecordingDate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemRecordingYear]
+-[NSNavNode(BKNSNavNodeAdditions) itemRecordingYear]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemTempo]
+-[NSNavNode(BKNSNavNodeAdditions) itemTempo]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemTimeSignature]
+-[NSNavNode(BKNSNavNodeAdditions) itemTimeSignature]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemAudioBitRate]
+-[NSNavNode(BKNSNavNodeAdditions) itemAudioBitRate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemCodecs]
+-[NSNavNode(BKNSNavNodeAdditions) itemCodecs]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemDeliveryType]
+-[NSNavNode(BKNSNavNodeAdditions) itemDeliveryType]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemMediaTypes]
+-[NSNavNode(BKNSNavNodeAdditions) itemMediaTypes]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemStreamable]
+-[NSNavNode(BKNSNavNodeAdditions) itemStreamable]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemTotalBitRate]
+-[NSNavNode(BKNSNavNodeAdditions) itemTotalBitRate]
++[NSNavNode(BKNSNavNodeAdditions) keyPathsForValuesAffectingItemVideoBitRate]
+-[NSNavNode(BKNSNavNodeAdditions) itemVideoBitRate]
+-[NSNavNode(BKNSNavNodeAdditions) items]
+-[NSNavNode(BKNSNavNodeAdditions) itemsLeavesOnly]
+-[NSNavNode(BKNSNavNodeAdditions) itemSearchScope]
+-[NSNavNode(BKNSNavNodeAdditions) itemsSearchKeywordAttributes]
+-[NSNavNode(BKNSNavNodeAdditions) itemsLoading]
++[NSNavNode(BKNSNavNodeAdditions) _rewriteSortDescriptorsForSpotlight:]
++[NSNavNode(BKNSNavNodeAdditions) _addUTIQualifiers:]
+-[NSNavNode(BKNSNavNodeAdditions) searchResultsForPredicate:withSortDescriptors:]
+-[NSPredicate(BKFileSystemProvider_Private) browserKitRewriteForSpotlight]
+-[NSCompoundPredicate(BKFileSystemProvider_Private) browserKitRewriteForSpotlight]
+-[NSComparisonPredicate(BKFileSystemProvider_Private) browserKitRewriteForSpotlight]
+-[NSExpression(BKFileSystemProvider_Private) browserKitRewriteForSpotlight]
+-[NSSortDescriptor(BKFileSystemProvider_Private) browserKitRewriteForSpotlight]
+-[BKSequencer(BKSequencerNavDataSourceAdditions) filterNodeList:]
++[BKNavNodeWrapper startTrackingWrapper:]
++[BKNavNodeWrapper findWraperWithNavNode:]
++[BKNavNodeWrapper stopTrackingWrapper:]
++[BKNavNodeWrapper navNodeKeysToObserve]
++[BKNavNodeWrapper wrapperWithNavNode:]
++[BKNavNodeWrapper wrapBins:]
++[BKNavNodeWrapper wrapBinIfNeeded:]
+-[BKNavNodeWrapper initWithNavNode:]
+-[BKNavNodeWrapper wrappedNode]
+-[BKNavNodeWrapper dealloc]
+-[BKNavNodeWrapper finalize]
+-[BKNavNodeWrapper isEqual:]
+-[BKNavNodeWrapper hash]
+-[BKNavNodeWrapper fbeNode]
+-[BKNavNodeWrapper itemsProviderKeys]
+-[BKNavNodeWrapper itemKeys]
+-[BKNavNodeWrapper itemIsLeaf]
+-[BKNavNodeWrapper itemUniqueIdentifier]
+-[BKNavNodeWrapper itemPasteboardObjectForType:]
+-[BKNavNodeWrapper itemPasteboardDataTypes]
+-[BKNavNodeWrapper copyWithZone:]
+-[BKNavNodeWrapper itemIconRepresentationType]
+-[BKNavNodeWrapper itemIcon]
+-[BKNavNodeWrapper _itemIconRef]
+-[BKNavNodeWrapper itemDisplayName]
+-[BKNavNodeWrapper itemContentType]
+-[BKNavNodeWrapper itemPreviewRepresentationType]
+-[BKNavNodeWrapper itemPreview]
+-[BKNavNodeWrapper items]
+-[BKNavNodeWrapper itemsLeavesOnly]
+-[BKNavNodeWrapper itemsLoading]
+-[BKNavNodeWrapper _childrenChanged]
+-[BKNavNodeWrapper _addChild:]
+-[BKNavNodeWrapper _removeChild:]
+-[BKNavNodeWrapper observeValueForKeyPath:ofObject:change:context:]
+-[BKNavNodeWrapper parent]
+-[BKNavNodeWrapper parentVolume]
+-[BKNavNodeWrapper name]
+-[BKNavNodeWrapper displayName]
+-[BKNavNodeWrapper path]
+-[BKNavNodeWrapper URL]
+-[BKNavNodeWrapper icon]
+-[BKNavNodeWrapper modDate]
+-[BKNavNodeWrapper creationDate]
+-[BKNavNodeWrapper lastOpenedDate]
+-[BKNavNodeWrapper physicalSize]
+-[BKNavNodeWrapper logicalSize]
+-[BKNavNodeWrapper usedSize]
+-[BKNavNodeWrapper kind]
+-[BKNavNodeWrapper fileType]
+-[BKNavNodeWrapper typeIdentifier]
+-[BKNavNodeWrapper shortVersion]
+-[BKNavNodeWrapper comment]
+-[BKNavNodeWrapper _labelColorIndex]
+-[BKNavNodeWrapper labelName]
+-[BKNavNodeWrapper sortingGroup]
+-[BKNavNodeWrapper isLocked]
+-[BKNavNodeWrapper isContainer]
+-[BKNavNodeWrapper isVisible]
+-[BKNavNodeWrapper isPackage]
+-[BKNavNodeWrapper isAlias]
+-[BKNavNodeWrapper isAliasResolving]
+-[BKNavNodeWrapper isAliasInvalid]
+-[BKNavNodeWrapper isVolume]
+-[BKNavNodeWrapper isExtensionHidden]
+-[BKNavNodeWrapper isNil]
+-[BKNavNodeWrapper isValid]
+-[BKNavNodeWrapper isEjectable]
+-[BKNavNodeWrapper isDisconnectedMountPoint]
+-[BKNavNodeWrapper isUnauthenticatedMountPoint]
+-[BKNavNodeWrapper isComputerNode]
+-[BKNavNodeWrapper isNetworkNode]
+-[BKNavNodeWrapper isHomeNode]
+-[BKNavNodeWrapper isSharedServer]
+-[BKNavNodeWrapper openSyncStarted]
+-[BKNavNodeWrapper previewAttributes]
+-[BKNavNodeWrapper serverUserName]
+-[BKNavNodeWrapper networkConnectionState]
+-[BKNavNodeWrapper supportsFileSharing]
+-[BKNavNodeWrapper supportsScreenSharing]
+-[BKNavNodeWrapper children]
++[BKFileSystemBrowserModule defaultModuleNibName]
+-[BKFileSystemBrowserModule viewMinSize]
+-[BKFileSystemBrowserModule sidebarModule]
+-[BKFileSystemBrowserModule contentModule]
+-[BKFileSystemBrowserModule moduleViewWasInstalled:]
+-[BKFileSystemBrowserModule awakeFromNib]
+-[BKFileSystemBrowserModule setSelectedItems:]
+-[BKFileSystemBrowserModule selectedItems]
+-[BKFileSystemBrowserModule selectedFolderItems]
+-[BKFileSystemBrowserModule observeValueForKeyPath:ofObject:change:context:]
+-[BKFileSystemBrowserModule itemsLoading]
++[BKFileSystemContentModule viewTypeMenuLabel]
++[BKFileSystemContentModule viewTypeMenuGlyph]
++[BKFileSystemContentModule defaultModuleNibName]
+-[BKFileSystemContentModule init]
+-[BKFileSystemContentModule viewMinSize]
+-[BKFileSystemContentModule moduleEnforcesViewMinSize]
+-[BKFileSystemContentModule awakeFromNib]
+-[BKFileSystemContentModule dealloc]
+-[BKFileSystemContentModule finalize]
+-[BKFileSystemContentModule setItems:]
+-[BKFileSystemContentModule itemsLoading]
+-[BKFileSystemContentModule selectedFolderItems]
+-[BKFileSystemContentModule setSelectedItems:]
+-[BKFileSystemContentModule setSelectedItemsInternal:]
+-[BKFileSystemContentModule setSelectionPath:]
+-[BKFileSystemContentModule rootObjectsFromSelectionPath:]
+-[BKFileSystemContentModule handlesRootedSelectionPaths]
+-[BKFileSystemContentModule viewControlsSorting]
+-[BKFileSystemContentModule setModuleConnector:]
+-[BKFileSystemContentModule browser:writeRowsWithIndexes:inColumn:toPasteboard:]
+-[BKFileSystemContentModule browser:menuForEvent:cell:]
+-[BKFileSystemContentModule browser:doubleClicked:cell:]
+-[BKFileSystemContentModule _saveSelectionPath]
+-[BKFileSystemContentModule _toggleSequencing:]
++[BKFileSystemProvider _moduleDelegate]
++[BKFileSystemProvider initialize]
++[BKFileSystemProvider _dataSource]
++[BKFileSystemProvider standardProvider]
++[BKFileSystemProvider rootProvider]
++[BKFileSystemProvider volumesProvider]
++[BKFileSystemProvider favoritesProvider]
++[BKFileSystemProvider sidebarProvider]
++[BKFileSystemProvider networkSidebarProvider]
++[BKFileSystemProvider nodeWithURL:]
++[BKFileSystemProvider serversScopeProvider]
++[BKFileSystemProvider computerScopeProvider]
++[BKFileSystemProvider homeScopeProvider]
++[BKFileSystemProvider findItemWithNavNodeIdentifier:]
++[BKFileSystemProvider findItemWithScope:]
++[BKFileSystemProvider itemUniqueIdentifierForPath:]
++[BKFileSystemProvider itemUniqueIdentifierForNode:]
++[BKFileSystemProvider itemUniqueIdentifierForURL:]
+-[BKFileSystemProvider itemDisplayName]
+-[BKFileSystemProvider itemIsSourceLeaf]
+-[BKFileSystemProvider dealloc]
+-[BKFileSystemProvider copyWithZone:]
+-[BKFileSystemProvider itemUniqueIdentifier]
+-[BKFileSystemProvider itemSearchScope]
+-[BKFileSystemProvider setItemSearchScope:]
+-[BKFileSystemProvider setItemDisplayName:]
++[BKFileSystemSidebarModule defaultModuleNibName]
+-[BKFileSystemSidebarModule initWithTableViewAsView]
+-[BKFileSystemSidebarModule dataSource]
+-[BKFileSystemSidebarModule setInsetAppearance:]
+-[BKFileSystemSidebarModule insetAppearance]
+-[BKFileSystemSidebarModule menuForEvent:item:]
+-[BKFileSystemSidebarModule expandedState]
+-[BKFileSystemSidebarModule setExpandedState:]
+-[BKFileSystemSidebarModule setSelectedItems:]
+-[BKFileSystemSidebarModule itemsLoading]
+-[BKFileSystemSidebarModule setSelectedItemsInternal:]
+-[BKFileSystemSidebarModule selectedItemsInternal]
+-[BKFileSystemSidebarModule setModuleConnector:]
+-[BKFileSystemSidebarModule setSelectionPath:]
+-[BKFileSystemSidebarModule view]
+-[BKFileSystemSidebarModule viewMinSize]
+-[BKFileSystemSidebarModule moduleEnforcesViewMinSize]
+-[BKFileSystemSidebarModule init]
+-[BKFileSystemSidebarModule dealloc]
+-[BKFileSystemSidebarModule awakeFromNib]
+-[BKFileSystemSidebarModule tableView]
+-[BKFileSystemModuleDelegate module:doubleClickedItem:]
+-[BKModuleConnector(FileSystemAdditions) _moduleConnectorFileSystemData]
+-[BKModuleConnector(FileSystemAdditions) isNavDataSourceSequenceFiltering]
+-[BKModuleConnector(FileSystemAdditions) setNavDataSourceSequenceFiltering:]
+-[BKModuleConnector(FileSystemAdditions) navDataSource]
+-[BKModuleConnectorFileSystemData dealloc]
+-[BKModuleConnectorFileSystemData navDataSource]
+-[BKModuleConnectorFileSystemData setNavDataSource:]
+-[BKModuleConnectorFileSystemData sequenceFiltering]
+-[BKModuleConnectorFileSystemData setSequenceFiltering:]
+-[BKDefaultNavNodeFilter filterNodeList:]
+_OBJC_IVAR_$_BKFileSystemSidebarModule._viewIsTableView
+_OBJC_IVAR_$_BKFileSystemSidebarModule._outlineView
+_OBJC_IVAR_$_BKFileSystemSidebarModule._controller
+_identifierToItemMap
+-[BKItemSequenceNavNode itemsProviderKeys].standardKeys
+-[BKItemSequenceNavNode itemPasteboardDataTypes].pasteboardDataTypes
+-[NSNavNode(BKNSNavNodeAdditions) itemsProviderKeys].standardKeys
++[NSNavNode(BKNSNavNodeAdditions) imageKeys].fileSystemImageItemMediaKeys
++[NSNavNode(BKNSNavNodeAdditions) audioKeys].fileSystemAudioItemMediaKeys
++[NSNavNode(BKNSNavNodeAdditions) videoKeys].fileSystemVideoItemMediaKeys
+-[NSNavNode(BKNSNavNodeAdditions) itemKeys].standardKeys
+-[NSNavNode(BKNSNavNodeAdditions) itemKeys].imageKeys
+-[NSNavNode(BKNSNavNodeAdditions) itemKeys].audioKeys
+-[NSNavNode(BKNSNavNodeAdditions) itemKeys].videoKeys
+-[NSNavNode(BKNSNavNodeAdditions) itemPasteboardDataTypes].pasteboardDataTypes
+-[NSNavNode(BKNSNavNodeAdditions) itemConfigurationClassString].configurationClassString
+-[NSNavNode(BKNSNavNodeAdditions) itemsSearchKeywordAttributes].keywordAttributes
+_navNodeToWrapperMap
++[BKNavNodeWrapper navNodeKeysToObserve].navNodeKeysToObserve
+-[BKNavNodeWrapper itemsProviderKeys].standardKeys
+-[BKNavNodeWrapper itemKeys].standardKeys
++[BKFileSystemProvider _moduleDelegate].moduleDelegate
++[BKFileSystemProvider _dataSource].dataSource
++[BKFileSystemProvider serversScopeProvider].serversScopeProvider
++[BKFileSystemProvider computerScopeProvider].computerScopeProvider
++[BKFileSystemProvider homeScopeProvider].homeProvider
+_BKModuleConnectorFileSystemDataKey
+_BKNavNodeAdvancedQueryStringKey
+_BKNavNodeScopeLocationsKey
+_BKNavNodeSortDescriptorsKey
+_BKSplitterGravity
+_FileSystemVersionNumber
+_FileSystemVersionString
+_OBJC_CLASS_$_BKDefaultNavNodeFilter
+_OBJC_CLASS_$_BKFileSystemBrowserModule
+_OBJC_CLASS_$_BKFileSystemContentModule
+_OBJC_CLASS_$_BKFileSystemModuleDelegate
+_OBJC_CLASS_$_BKFileSystemProvider
+_OBJC_CLASS_$_BKFileSystemSidebarModule
+_OBJC_CLASS_$_BKItemSequenceNavNode
+_OBJC_CLASS_$_BKItemSequenceNavNodeIdentifier
+_OBJC_CLASS_$_BKModuleConnectorFileSystemData
+_OBJC_CLASS_$_BKNavNodeIdentifier
+_OBJC_CLASS_$_BKNavNodeWrapper
+_OBJC_CLASS_$_BKNavSidebarController
+_OBJC_CLASS_$_BKNavSplitView
+_OBJC_CLASS_$_BKNavSplitViewController
+_OBJC_IVAR_$_BKFileSystemBrowserModule._blockSelectionPathUpdates
+_OBJC_IVAR_$_BKFileSystemBrowserModule._splitView
+_OBJC_IVAR_$_BKFileSystemBrowserModule._splitViewController
+_OBJC_IVAR_$_BKFileSystemContentModule._browser
+_OBJC_IVAR_$_BKFileSystemContentModule._fileSystemContentModuleFlags
+_OBJC_IVAR_$_BKFileSystemContentModule._selectedFolderItems
+_OBJC_IVAR_$_BKFileSystemProvider._itemDisplayName
+_OBJC_IVAR_$_BKFileSystemProvider._itemSearchScope
+_OBJC_IVAR_$_BKItemSequenceNavNode._displayName
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemContentType
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemKeys
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemUniqueIdentifier
+_OBJC_IVAR_$_BKItemSequenceNavNode._items
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemsIndices
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemsNumberZeroPaddingDigits
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemsPrefixString
+_OBJC_IVAR_$_BKItemSequenceNavNode._itemsSuffixString
+_OBJC_IVAR_$_BKItemSequenceNavNode._previewMovie
+_OBJC_IVAR_$_BKItemSequenceNavNodeIdentifier._itemUniqueIdentifiers
+_OBJC_IVAR_$_BKItemSequenceNavNodeIdentifier._itemsIndices
+_OBJC_IVAR_$_BKItemSequenceNavNodeIdentifier._itemsNumberZeroPaddingDigits
+_OBJC_IVAR_$_BKItemSequenceNavNodeIdentifier._itemsPrefixString
+_OBJC_IVAR_$_BKItemSequenceNavNodeIdentifier._itemsSuffixString
+_OBJC_IVAR_$_BKModuleConnectorFileSystemData._navDataSource
+_OBJC_IVAR_$_BKModuleConnectorFileSystemData._sequenceFiltering
+_OBJC_IVAR_$_BKNavNodeIdentifier._identifier
+_OBJC_IVAR_$_BKNavNodeWrapper._items
+_OBJC_IVAR_$_BKNavNodeWrapper._itemsLeavesOnly
+_OBJC_IVAR_$_BKNavNodeWrapper._navNode
+_OBJC_IVAR_$_BKNavSidebarController._sidebarModule
+_OBJC_IVAR_$_BKNavSplitView._gravityOnLeft
+_OBJC_IVAR_$_BKNavSplitView._gravityOnRight
+_OBJC_IVAR_$_BKNavSplitView._mouseEventYDelta
+_OBJC_IVAR_$_BKNavSplitView._trackingRectTag
+_OBJC_METACLASS_$_BKDefaultNavNodeFilter
+_OBJC_METACLASS_$_BKFileSystemBrowserModule
+_OBJC_METACLASS_$_BKFileSystemContentModule
+_OBJC_METACLASS_$_BKFileSystemModuleDelegate
+_OBJC_METACLASS_$_BKFileSystemProvider
+_OBJC_METACLASS_$_BKFileSystemSidebarModule
+_OBJC_METACLASS_$_BKItemSequenceNavNode
+_OBJC_METACLASS_$_BKItemSequenceNavNodeIdentifier
+_OBJC_METACLASS_$_BKModuleConnectorFileSystemData
+_OBJC_METACLASS_$_BKNavNodeIdentifier
+_OBJC_METACLASS_$_BKNavNodeWrapper
+_OBJC_METACLASS_$_BKNavSidebarController
+_OBJC_METACLASS_$_BKNavSplitView
+_OBJC_METACLASS_$_BKNavSplitViewController
+_BKItemAcquisitionMakeKey
+_BKItemAcquisitionModelKey
+_BKItemAlbumKey
+_BKItemApertureKey
+_BKItemAppleLoopDescriptorsKey
+_BKItemAppleLoopsKeyFilterTypeKey
+_BKItemAppleLoopsLoopModeKey
+_BKItemAppleLoopsRootKeyKey
+_BKItemAudioBitRateKey
+_BKItemAudioChannelCountKey
+_BKItemAudioEncodingApplicationKey
+_BKItemAudioSampleRateKey
+_BKItemAudioTrackNumberKey
+_BKItemBitsPerSampleKey
+_BKItemCodecsKey
+_BKItemColorSpaceKey
+_BKItemCommentKey
+_BKItemComposerKey
+_BKItemConfigurationClassStringKey
+_BKItemContentTypeKey
+_BKItemDeliveryTypeKey
+_BKItemDisplayNameKey
+_BKItemDurationSecondsKey
+_BKItemEXIFVersionKey
+_BKItemExposureModeKey
+_BKItemExposureProgramKey
+_BKItemExposureTimeSecondsKey
+_BKItemExposureTimeStringKey
+_BKItemFNumberKey
+_BKItemFSContentChangeDateKey
+_BKItemFSCreationDateKey
+_BKItemFSFreeSpaceKey
+_BKItemFSLabelKey
+_BKItemFSSizeKey
+_BKItemFlashOnOffKey
+_BKItemFocalLengthKey
+_BKItemHasAlphaChannelKey
+_BKItemISOSpeedKey
+_BKItemIconKey
+_BKItemIconRepresentationTypeKey
+_BKItemIsGeneralMIDISequenceKey
+_BKItemKeySignatureKey
+_BKItemKindKey
+_BKItemLastUsedDateKey
+_BKItemLayerNamesKey
+_BKItemLyricistKey
+_BKItemMaxApertureKey
+_BKItemMediaTypesKey
+_BKItemMeteringModeKey
+_BKItemMusicalGenreKey
+_BKItemMusicalInstrumentCategoryKey
+_BKItemMusicalInstrumentNameKey
+_BKItemOrientationKey
+_BKItemPathKey
+_BKItemPixelHeightKey
+_BKItemPixelWidthKey
+_BKItemPreviewKey
+_BKItemPreviewRepresentationTypeKey
+_BKItemProfileNameKey
+_BKItemRecordingDateKey
+_BKItemRecordingYearKey
+_BKItemRedEyeOnOffKey
+_BKItemResolutionHeightDPIKey
+_BKItemResolutionWidthDPIKey
+_BKItemStreamableKey
+_BKItemTempoKey
+_BKItemTimeSignatureKey
+_BKItemTotalBitRateKey
+_BKItemVideoBitRateKey
+_BKItemWhiteBalanceKey
+_BKItemsKey
+_BKItemsLeavesOnlyKey
+_BKItemsLoadingKey
+_BKItemsSearchKeywordAttributesKey
+_BKNSImageRepresentationType
+_BKPathRepresentationType
+_BKQCCompositionPathRepresentationType
+_BKQTMoviePathRepresentationType
+_BKQTMovieRepresentationType
+_BKSelectedFolderItemsKey
+_BKSelectedItemsInternalKey
+_BKSelectedItemsKey
+_BKUniqueIdentifiersPboardType
+_BrowserKitCopyImplementationsForKeyPathsForValuesAffectingItemKeysToClass
+_BrowserKitCopyImplementationsForKeyPathsForValuesAffectingItemProviderKeysToClass
+_BrowserKitItemURLKey
+_CFPropertyListCreateXMLData
+_NSApp
+_NSClassFromString
+_NSFilenamesPboardType
+_NSInsetRect
+_NSInvalidArgumentException
+_NSKeyValueChangeIndexesKey
+_NSKeyValueChangeKindKey
+_NSKeyValueChangeNewKey
+_NSKeyValueChangeNotificationIsPriorKey
+_NSKeyValueChangeOldKey
+_NSLog
+_NSMouseInRect
+_NSNavNodePropertyChildren
+_NSNavNodePropertyCreationDate
+_NSNavNodePropertyDisplayName
+_NSNavNodePropertyIcon
+_NSNavNodePropertyIsContainer
+_NSNavNodePropertyKind
+_NSNavNodePropertyLabelColor
+_NSNavNodePropertyLastOpenedDate
+_NSNavNodePropertyLogicalSize
+_NSNavNodePropertyModDate
+_NSNavNodePropertyOpenSyncStarted
+_NSNavNodePropertyPhysicalSize
+_NSNavNodePropertyPreviewAttributes
+_NSNavNodePropertyShortVersion
+_NSNavNodePropertyTypeIdentifier
+_NSProCurrentLookSupportsLarge
+_NSRectFill
+_NSStringFromClass
+_NSStringFromSelector
+_NSZeroPoint
+_NodeIsVirtual
+_OBJC_CLASS_$_BKBrowserManager
+_OBJC_CLASS_$_BKItem
+_OBJC_CLASS_$_BKItemUniqueIdentifier
+_OBJC_CLASS_$_BKItemsModule
+_OBJC_CLASS_$_BKModuleConnector
+_OBJC_CLASS_$_BKSelectionPathComponent
+_OBJC_CLASS_$_BKSequencer
+_OBJC_CLASS_$_BKThemeColor
+_OBJC_CLASS_$_BKThemeInfo
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSComparisonPredicate
+_OBJC_CLASS_$_NSCompoundPredicate
+_OBJC_CLASS_$_NSCursor
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSExpression
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSMapTable
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableIndexSet
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNavNode
+_OBJC_CLASS_$_NSNavSidebarController
+_OBJC_CLASS_$_NSNavSplitView
+_OBJC_CLASS_$_NSNavSplitViewController
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProCursor
+_OBJC_CLASS_$_NSProThemeFacet
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSSortDescriptor
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_QTMovie
+_OBJC_IVAR_$_NSEvent._location
+_OBJC_IVAR_$_NSView._bounds
+_OBJC_METACLASS_$_BKItemsModule
+_OBJC_METACLASS_$_NSNavNode
+_OBJC_METACLASS_$_NSNavSidebarController
+_OBJC_METACLASS_$_NSNavSplitView
+_OBJC_METACLASS_$_NSNavSplitViewController
+_OBJC_METACLASS_$_NSObject
+_QTAddImageCodecQuality
+_QTAddImageCodecType
+_QTMakeTime
+_QTMovieEditableAttribute
+__BrowserKitString
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_floor
+_kCFAllocatorDefault
+_kCFRunLoopDefaultMode
+_kMDItemAcquisitionMake
+_kMDItemAcquisitionModel
+_kMDItemAlbum
+_kMDItemAperture
+_kMDItemAppleLoopDescriptors
+_kMDItemAppleLoopsKeyFilterType
+_kMDItemAppleLoopsLoopMode
+_kMDItemAppleLoopsRootKey
+_kMDItemAudioBitRate
+_kMDItemAudioChannelCount
+_kMDItemAudioEncodingApplication
+_kMDItemAudioSampleRate
+_kMDItemAudioTrackNumber
+_kMDItemBitsPerSample
+_kMDItemCodecs
+_kMDItemColorSpace
+_kMDItemComposer
+_kMDItemDeliveryType
+_kMDItemDurationSeconds
+_kMDItemEXIFVersion
+_kMDItemExposureMode
+_kMDItemExposureProgram
+_kMDItemExposureTimeSeconds
+_kMDItemExposureTimeString
+_kMDItemFNumber
+_kMDItemFlashOnOff
+_kMDItemFocalLength
+_kMDItemHasAlphaChannel
+_kMDItemISOSpeed
+_kMDItemIsGeneralMIDISequence
+_kMDItemKeySignature
+_kMDItemLayerNames
+_kMDItemLyricist
+_kMDItemMaxAperture
+_kMDItemMediaTypes
+_kMDItemMeteringMode
+_kMDItemMusicalGenre
+_kMDItemMusicalInstrumentCategory
+_kMDItemMusicalInstrumentName
+_kMDItemOrientation
+_kMDItemPixelHeight
+_kMDItemPixelWidth
+_kMDItemProfileName
+_kMDItemRecordingDate
+_kMDItemRecordingYear
+_kMDItemRedEyeOnOff
+_kMDItemResolutionHeightDPI
+_kMDItemResolutionWidthDPI
+_kMDItemStreamable
+_kMDItemTempo
+_kMDItemTimeSignature
+_kMDItemTotalBitRate
+_kMDItemVideoBitRate
+_kMDItemWhiteBalance
+_kMDQueryScopeComputer
+_kMDQueryScopeHome
+_kMDQueryScopeNetwork
+_kUTTypeAudio
+_kUTTypeData
+_kUTTypeImage
+_kUTTypeMovie
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_assign_weak
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_read_weak
+_objc_setAssociatedObject
+_objc_setProperty
+_tmpnam
+dyld_stub_binder

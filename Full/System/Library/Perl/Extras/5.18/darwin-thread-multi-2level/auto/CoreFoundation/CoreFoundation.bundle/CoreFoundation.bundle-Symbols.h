@@ -1,0 +1,9 @@
+radr://5614542
+_boot_CoreFoundation
+_PL_thr_key
+_Perl_call_list
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+_dlopen
+_pthread_getspecific
+dyld_stub_binder

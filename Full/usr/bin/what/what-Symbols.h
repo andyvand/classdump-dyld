@@ -1,0 +1,10 @@
+radr://5614542
+__mh_execute_header
+___stdinp
+_exit
+_freopen
+_getchar
+_perror
+_putchar
+_puts
+dyld_stub_binder

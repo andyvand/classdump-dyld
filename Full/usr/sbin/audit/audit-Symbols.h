@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+_NDR_record
+___error
+___stderrp
+_exit
+_fwrite
+_geteuid
+_getopt
+_host_get_special_port
+_mach_error
+_mach_host_self
+_mach_msg
+_perror
+_puts
+dyld_stub_binder

@@ -1,0 +1,14 @@
+radr://5614542
+__mh_execute_header
+___error
+___stack_chk_fail
+___stack_chk_guard
+___stdoutp
+___strcat_chk
+_errx
+_fputs
+_getvfsbyname
+_printf
+_sysctl
+_warnx
+dyld_stub_binder

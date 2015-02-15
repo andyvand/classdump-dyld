@@ -1,0 +1,2081 @@
++[ITunesSoftwareService service]
+-[ITunesSoftwareApplicationDescription init]
+-[ITunesSoftwareApplicationDescription dealloc]
+-[ITunesSoftwareApplicationDescription attributes]
+-[ITunesSoftwareApplicationDescription setAttributes:]
+-[ITunesSoftwareApplicationDescription fullAttributes]
+-[ITunesSoftwareApplicationDescription setFullAttributes:]
+-[ITunesSoftwareApplicationDescription appleId]
+-[ITunesSoftwareApplicationDescription setAppleId:]
+-[ITunesSoftwareApplicationDescription alertMessage]
+-[ITunesSoftwareApplicationDescription setAlertMessage:]
+-[ITunesSoftwareApplicationDescription operatingSystemQualificationQuestion]
+-[ITunesSoftwareApplicationDescription positiveOperatingSystemQualificationQuestionVersion]
+-[ITunesSoftwareApplicationDescription userInfo]
+-[ITunesSoftwareApplicationDescription descriptionWithLocale:indent:]
+-[ITunesSoftwareApplicationDescription description]
++[ITunesSoftwareServiceImpl isExecutableAtPath:]
++[ITunesSoftwareServiceImpl applicationLoaderBundle]
++[ITunesSoftwareServiceImpl applicationLoaderBinariesPath]
++[ITunesSoftwareServiceImpl applicationLoaderResourcesPath]
++[ITunesSoftwareServiceImpl applicationLoaderTransporterPath]
++[ITunesSoftwareServiceImpl relativeTransporterPath]
++[ITunesSoftwareServiceImpl transporterPaths]
++[ITunesSoftwareServiceImpl overridenTransporterPath]
++[ITunesSoftwareServiceImpl setupTransporterLocationIfAvailable]
++[ITunesSoftwareServiceImpl verifyTransporterEmbeddedJavaIsPresentIfRequired]
++[ITunesSoftwareServiceImpl setupITunesSoftwareServiceConfigurationPath]
++[ITunesSoftwareServiceImpl initialize]
++[ITunesSoftwareServiceImpl createDirectories:]
++[ITunesSoftwareServiceImpl validationConfigurationPersistentDirectory]
++[ITunesSoftwareServiceImpl validationConfigurationPersistentVersionedDirectory]
++[ITunesSoftwareServiceImpl validationConfigurationFilename]
++[ITunesSoftwareServiceImpl validationConfigurationPersistentFile]
++[ITunesSoftwareServiceImpl persistValidationConfigurationData:]
++[ITunesSoftwareServiceImpl persistValidationConfigurationDictionary:]
++[ITunesSoftwareServiceImpl persistValidationConfiguration:]
++[ITunesSoftwareServiceImpl registerValidationConfiguration:]
++[ITunesSoftwareServiceImpl configurationPaths]
++[ITunesSoftwareServiceImpl validationConfigurationFromData:]
++[ITunesSoftwareServiceImpl validationConfigurationFromFile:]
++[ITunesSoftwareServiceImpl loadValidationConfiguration]
+-[ITunesSoftwareServiceImpl init]
+-[ITunesSoftwareServiceImpl dealloc]
+-[ITunesSoftwareServiceImpl validatePurpleApplicationAtPath:]
+-[ITunesSoftwareServiceImpl validateFirenzeApplicationAtPath:]
+-[ITunesSoftwareServiceImpl validateApplicationAtPath:type:]
+-[ITunesSoftwareServiceImpl validatePurpleApplicationArchiveAtPath:]
+-[ITunesSoftwareServiceImpl validateFirenzeApplicationArchiveAtPath:]
+-[ITunesSoftwareServiceImpl validateIAPHostedContentArchiveAtPath:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:type:]
+-[ITunesSoftwareServiceImpl authorizationTokenForDefaultHostnameAndAppIdKeyWithUsername:password:error:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:packageSource:application:]
+-[ITunesSoftwareServiceImpl descriptionAtIndex:operation:]
+-[ITunesSoftwareServiceImpl convertResultsToDescriptions:]
+-[ITunesSoftwareServiceImpl validateSPIUsageWithBinaryContentsAtPath:authenticationServiceResponse:type:delegate:]
+-[ITunesSoftwareServiceImpl bundleIdentifierForArchiveAtPath:error:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:authenticationServiceResponse:application:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:application:delegate:userInfo:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:application:delegate:userInfo:workSeries:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:delegate:userInfo:]
+-[ITunesSoftwareServiceImpl allApplicationsWithAuthenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl allApplicationsWithAuthenticationServiceResponse:error:operation:workSeries:]
+-[ITunesSoftwareServiceImpl applicationVersionsOfApplication:authenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl symbolURLsForApplicationVersion:authenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl applicationsWithContentHostedInAppPurchasesWithAuthenticationServiceResponse:operation:workSeries:]
+-[ITunesSoftwareServiceImpl contentHostedInAppPurchasesForApplication:authenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl contentHostedInAppPurchasesForApplication:authenticationServiceResponse:operation:workSeries:]
+-[ITunesSoftwareServiceImpl applicationsEligibleForUploadForUsername:password:]
+-[ITunesSoftwareServiceImpl applicationsWithInAppPurchasesForUsername:password:]
+-[ITunesSoftwareServiceImpl inAppPurchasesForApplication:username:password:]
+-[ITunesSoftwareServiceImpl applicationsWithContentHostedInAppPurchasesWithAuthenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl extractProductIdentifierAndVersionInfoFromArchiveAtPath:errors:]
+-[ITunesSoftwareServiceImpl validateApplicationAtPath:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:username:password:description:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:description:delegate:userInfo:workSeries:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:description:delegate:]
+-[ITunesSoftwareServiceImpl uploadApplicationArchiveAtPath:username:password:description:delegate:userInfo:]
+-[ITunesSoftwareServiceImpl applicationsEligibleForUploadForUsername:password:error:]
+-[ITunesSoftwareServiceImpl applicationsEligibleForUploadForUsername:password:error:operation:workSeries:]
+-[ITunesSoftwareServiceImpl codesignParametersForUsername:password:type:mainApplication:otherApplications:]
+-[ITunesSoftwareServiceImpl applicationForBundleIdentifier:authenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl applicationForBundleIdentifier:authenticationServiceResponse:operation:workSeries:]
+-[ITunesSoftwareServiceImpl applicationForBundleIdentifier:username:password:operation:workSeries:]
+-[ITunesSoftwareServiceImpl applicationWithAttributesWorker:operationPtr:workSeriesPtr:]
+-[ITunesSoftwareServiceImpl applicationsEligibleForUploadForUsername:password:operation:workSeries:]
+-[ITunesSoftwareServiceImpl applicationsWithContentHostedInAppPurchasesForUsername:password:]
+-[ITunesSoftwareServiceImpl contentHostedInAppPurchasesForApplication:username:password:]
+-[ITunesSoftwareServiceImpl validateSPIUsageWithBinaryContentsAtPath:username:password:type:delegate:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:authenticationServiceResponse:]
+-[ITunesSoftwareServiceImpl validateApplicationArchiveAtPath:username:password:application:]
+-[PNGInfo init]
+-[PNGInfo dealloc]
+-[PNGInfo width]
+-[PNGInfo setWidth:]
+-[PNGInfo height]
+-[PNGInfo setHeight:]
+-[PNGInfo isDevicePNG]
+-[PNGInfo setDevicePNG:]
+-[PNGInfo error]
+-[PNGInfo setError:]
+-[PNGInfo description]
++[SIPSPNGAnalyzer analyzerWithFile:]
++[SIPSPNGAnalyzer analyzerWithData:]
+-[SIPSPNGAnalyzer initWithFile:]
+-[SIPSPNGAnalyzer writeDataToTemporaryFile:]
+-[SIPSPNGAnalyzer initWithData:]
+-[SIPSPNGAnalyzer cleanupFile]
+-[SIPSPNGAnalyzer dealloc]
+-[SIPSPNGAnalyzer parseOutput:]
+-[SIPSPNGAnalyzer taskWithError:]
+-[SIPSPNGAnalyzer processExitCode:]
+-[SIPSPNGAnalyzer executeSIPS]
+-[SIPSPNGAnalyzer analyze]
++[XarCommandExecutor xarExecutablePath]
++[XarCommandExecutor initialize]
+-[XarCommandExecutor init]
+-[XarCommandExecutor initWithPath:]
+-[XarCommandExecutor dealloc]
+-[XarCommandExecutor taskWithError:]
+-[XarCommandExecutor processExitCode:]
+-[XarCommandExecutor executorResultClass]
+-[XarCommandExecutor path]
+-[XarCommandExecutor setPath:]
+-[XarCommandExecutorResult describeAsPlist]
++[AbstractDeviceValidationContext defaultSupportedArchitectures]
++[AbstractDeviceValidationContext supportedArchitectures]
++[AbstractDeviceValidationContext setSupportedArchitectures:]
++[AbstractDeviceValidationContext initialize]
+-[AbstractDeviceValidationContext initWithInfoPlist:]
+-[AbstractDeviceValidationContext dealloc]
+-[AbstractDeviceValidationContext infoPlist]
+-[AbstractDeviceValidationContext deviceKey]
+-[AbstractDeviceValidationContext operatingSystemKey]
+-[AbstractDeviceValidationContext deviceFamilyKey]
+-[AbstractDeviceValidationContext deviceName]
+-[AbstractDeviceValidationContext plistObjectForKey:]
+-[AbstractDeviceValidationContext plistObjectForKey:actualKey:searchDictionary:]
+-[AbstractDeviceValidationContext plistObjectForKey:actualKey:]
+-[AbstractDeviceValidationContext iconNamesWithError:]
+_ITunesPurpleBundleIconValidateClassWithErrorCode
+-[AbstractDeviceValidationContext minimumOSVersion]
+-[AbstractDeviceValidationContext minimumOSVersionWithFallback]
+-[AbstractDeviceValidationContext requiredDeviceCapabilities]
+-[AbstractDeviceValidationContext typeSafeRequiredDeviceCapabilities]
+-[AbstractDeviceValidationContext allowedIconSizeRanges]
+-[AbstractDeviceValidationContext defaultIconNames]
+-[AbstractDeviceValidationContext preferredDefaultIconName]
+-[AbstractDeviceValidationContext supportedArchitectures]
+-[AbstractDeviceValidationContext requiredArchitectures]
++[CodesignEntitlementAnalyzer codesignExecutablePath]
++[CodesignEntitlementAnalyzer initialize]
++[CodesignEntitlementAnalyzer analyzerWithExecutablePath:]
+-[CodesignEntitlementAnalyzer initWithExecutablePath:]
+-[CodesignEntitlementAnalyzer dealloc]
+-[CodesignEntitlementAnalyzer parseXMLString:]
+-[CodesignEntitlementAnalyzer parseOutput:]
+-[CodesignEntitlementAnalyzer taskWithError:]
+-[CodesignEntitlementAnalyzer junkAwareStandardOutputString:]
+-[CodesignEntitlementAnalyzer processExitCode:]
+-[CodesignEntitlementAnalyzer analyze]
+-[CodesignEntitlementAnalyzer rawEntitlements]
+-[CodesignEntitlementAnalyzer entitlements]
+-[DeviceContextIPad deviceKey]
+-[DeviceContextIPad operatingSystemKey]
+-[DeviceContextIPad deviceFamilyKey]
+-[DeviceContextIPad deviceName]
+-[DeviceContextIPad minimumOSVersionWithFallback]
+-[DeviceContextIPad defaultIconNames]
+-[DeviceContextIPad preferredDefaultIconName]
+-[DeviceContextIPad allowedIconSizeRanges]
+-[DeviceContextIPad requiredArchitectures]
+-[DeviceContextIPhone deviceKey]
+-[DeviceContextIPhone operatingSystemKey]
+-[DeviceContextIPhone deviceFamilyKey]
+-[DeviceContextIPhone deviceName]
+-[DeviceContextIPodTouch deviceKey]
+-[DeviceContextIPodTouch operatingSystemKey]
+-[DeviceContextIPodTouch deviceFamilyKey]
+-[DeviceContextIPodTouch deviceName]
+-[ITunesSoftwareServiceApplicationVersionsResponse descriptionWithLocale:indent:]
+-[ITunesSoftwareServiceApplicationVersionsResponse applicationVersions]
+-[ITunesSoftwareServiceApplicationVersionsResponse setApplicationVersions:]
+-[ITunesSoftwareServiceApplicationVersionsResponse alertMessage]
+-[ITunesSoftwareServiceApplicationVersionsResponse setAlertMessage:]
++[DeviceValidationContextFactory factory]
+-[DeviceValidationContextFactory convertDeviceFamilyNumber:error:]
+-[DeviceValidationContextFactory convertDeviceFamilyArray:error:]
+-[DeviceValidationContextFactory processDeviceFamilies:error:]
+-[DeviceValidationContextFactory shouldUseIPodTouchContextWithInfoPlist:error:]
+-[DeviceValidationContextFactory buildDeviceContextsWithDeviceFamilies:infoPlist:error:]
+-[DeviceValidationContextFactory deviceContextsWithInfoPlist:error:]
+-[MachDwarfdumpAnalyzer initWithExecutablePath:]
+-[MachDwarfdumpAnalyzer dealloc]
+-[MachDwarfdumpAnalyzer parseOutputLine:]
+-[MachDwarfdumpAnalyzer parseOutput:]
+-[MachDwarfdumpAnalyzer processExitCode:]
+-[MachDwarfdumpAnalyzer analyze]
+-[MachDwarfdumpAnalyzer allArchitectures]
+-[MachDwarfdumpAnalyzer architecturesMask]
+-[MachDwarfdumpAnalyzer containsArchitecture:]
+-[MachDwarfdumpAnalyzer containsArchitectureString:]
+-[MachDwarfdumpAnalyzer uuidForArchitectureString:]
+-[MachDwarfdumpAnalyzer uuidForArchitecture:]
+-[MachDwarfdumpAnalyzer uuids]
+-[MachDwarfdumpAnalyzerEntry initWithUUID:architecture:]
+-[MachDwarfdumpAnalyzerEntry dealloc]
+-[MachDwarfdumpAnalyzerEntry uuid]
+-[MachDwarfdumpAnalyzerEntry architecture]
+-[ITunesPurpleSoftwarePackageBuilderWorker initWithFile:packageDirectory:md5Worker:attributes:metadataTemplate:]
+-[ITunesPurpleSoftwarePackageBuilderWorker dealloc]
+-[ITunesPurpleSoftwarePackageBuilderWorker delegate]
+-[ITunesPurpleSoftwarePackageBuilderWorker setDelegate:]
+-[ITunesPurpleSoftwarePackageBuilderWorker fileCopy:toPath:error:]
+-[ITunesPurpleSoftwarePackageBuilderWorker cancel]
+-[ITunesPurpleSoftwarePackageBuilderWorker metadataTemplateName]
+-[ITunesPurpleSoftwarePackageBuilderWorker loadBundleMetadataTemplate]
+-[ITunesPurpleSoftwarePackageBuilderWorker metadataTemplate]
+-[ITunesPurpleSoftwarePackageBuilderWorker substituteKeyValueTokens:inString:error:]
+-[ITunesPurpleSoftwarePackageBuilderWorker substituteOptionalKeyValueTokens:inString:]
+-[ITunesPurpleSoftwarePackageBuilderWorker generateMetadataWithAttributes:]
+-[ITunesPurpleSoftwarePackageBuilderWorker generateMetadataXMLForSourceFile:md5:size:inDirectory:]
+-[ITunesPurpleSoftwarePackageBuilderWorker createPackageAtDirectory:forSourceFile:md5:]
+-[ITunesPurpleSoftwarePackageBuilderWorker deleteDirectoryIfExisting:]
+-[ITunesPurpleSoftwarePackageBuilderWorker createPackage]
+-[ITunesPurpleSoftwarePackageBuilderWorker packagePath]
+-[ITunesPurpleSoftwarePackageBuilderWorker run]
+-[ITunesPurpleSoftwarePackageBuilderWorker percentComplete]
+-[ITunesSoftwareDeviceDescription initWithDeviceDictionary:]
+-[ITunesSoftwareDeviceDescription dealloc]
+-[ITunesSoftwareDeviceDescription marketingName]
+-[ITunesSoftwareDeviceDescription internalName]
+-[ITunesFirenzeSoftwarePackageBuilderWorker metadataTemplateName]
+-[FirenzeApplicationVerifier initWithPath:]
+-[FirenzeApplicationVerifier dealloc]
+-[FirenzeApplicationVerifier defaultSupportedProductArchitectures]
+-[FirenzeApplicationVerifier supportedProductArchitecturesWithFallback]
+-[FirenzeApplicationVerifier validateArchitecturesAreSupportedWithAnalyzer:]
+-[FirenzeApplicationVerifier requiredProductArchitectures]
+-[FirenzeApplicationVerifier validateArchitecturesRequiredArePresentWithAnalyzer:]
+-[FirenzeApplicationVerifier validateArchitecturesWithAnalyzer:]
+-[FirenzeApplicationVerifier verifyProductBundle:]
+-[FirenzeApplicationVerifier verifyProductArchitectures]
+-[FirenzeApplicationVerifier verifySymlinks]
+-[FirenzeApplicationVerifier validate]
+-[FirenzeApplicationVerifier takeValuesFromConfiguration:]
+-[FirenzeApplicationArchiveVerifier initWithPath:]
+-[FirenzeApplicationArchiveVerifier dealloc]
+-[FirenzeApplicationArchiveVerifier validateProductSignature]
+-[FirenzeApplicationArchiveVerifier setValidateProductSignature:]
+-[FirenzeApplicationArchiveVerifier validateProductErrors]
+-[FirenzeApplicationArchiveVerifier setValidateProductErrors:]
+-[FirenzeApplicationArchiveVerifier archiveOutput]
+-[FirenzeApplicationArchiveVerifier setProductFilesToSendOverride:]
+-[FirenzeApplicationArchiveVerifier productFilesToSendOverride]
+-[FirenzeApplicationArchiveVerifier convertProductErrorsToNSErrors:]
+-[FirenzeApplicationArchiveVerifier validatePackageBundleAtPath:]
+-[FirenzeApplicationArchiveVerifier validatePackageBundle:payloadPath:]
+_ValidateClass
+-[FirenzeApplicationArchiveVerifier validatePackageEntry:]
+-[FirenzeApplicationArchiveVerifier analyzeExpanderOutput:]
+-[FirenzeApplicationArchiveVerifier validate]
+-[FirenzeApplicationArchiveVerifier cleanupExtractionDirectory]
+-[FirenzeApplicationArchiveVerifier extractionPath]
+-[FirenzeApplicationArchiveVerifier productFilesToSend]
+-[FirenzeApplicationArchiveVerifier filesAtPath:]
+-[FirenzeApplicationArchiveVerifier findFilesWithNameIgnoringCase:atPath:]
+-[FirenzeApplicationArchiveVerifier mainBundleInOutputWithRelativePath:error:]
+_ValidateClassWithError
+-[FirenzeApplicationArchiveVerifier findFileDirectlyUnderApplicationNamed:error:]
+-[FirenzeApplicationArchiveVerifier mainBundlePathWithError:]
+-[FirenzeApplicationArchiveVerifier getProductFilePathsToSendInMainBundle:]
+-[FirenzeApplicationArchiveVerifier takeValuesFromConfiguration:]
+-[ITunesAbstractVerifier init]
+-[ITunesAbstractVerifier initWithPath:]
+-[ITunesAbstractVerifier dealloc]
+-[ITunesAbstractVerifier path]
+-[ITunesAbstractVerifier setPath:]
+-[ITunesAbstractVerifier setDelegate:]
+-[ITunesAbstractVerifier delegate]
+-[ITunesAbstractVerifier addError:]
+-[ITunesAbstractVerifier addErrors:]
+-[ITunesAbstractVerifier validationErrors]
+-[ITunesAbstractVerifier(RequiredOverrides) validate]
++[FirenzeArchiveExpander initialize]
+-[FirenzeArchiveExpander initWithArchivePath:]
+-[FirenzeArchiveExpander extractionPath]
+-[FirenzeArchiveExpander cleanupDestinationDirectory]
+-[FirenzeArchiveExpander dealloc]
+-[FirenzeArchiveExpander destinationDirectoryWithError:]
+-[FirenzeArchiveExpander taskWithError:]
+-[FirenzeArchiveExpander parseXMLString:]
+-[FirenzeArchiveExpander parseOutput:]
+-[FirenzeArchiveExpander processExitCode:]
+-[FirenzeArchiveExpander output]
+-[FirenzeArchiveExpander archivePath]
++[ITunesSoftwareServiceValidationConfiguration publicPurpleConfigurationKeys]
++[ITunesSoftwareServiceValidationConfiguration publicFirenzeConfigurationKeys]
++[ITunesSoftwareServiceValidationConfiguration publicConfigurationKeys]
++[ITunesSoftwareServiceValidationConfiguration defaultConfigurationValueForNilKey:]
++[ITunesSoftwareServiceValidationConfiguration dictionaryToConfiguration:]
++[ITunesSoftwareServiceValidationConfiguration configurationToDictionary:]
++[ITunesSoftwareServiceValidationConfiguration convertSizesToRanges:]
+-[ITunesSoftwareServiceValidationConfiguration init]
+-[ITunesSoftwareServiceValidationConfiguration dealloc]
+-[ITunesSoftwareServiceValidationConfiguration setServerSideVerification:]
+-[ITunesSoftwareServiceValidationConfiguration serverSideVerification]
+-[ITunesSoftwareServiceValidationConfiguration setValidateZip:]
+-[ITunesSoftwareServiceValidationConfiguration validateZip]
+-[ITunesSoftwareServiceValidationConfiguration setValidateIcon:]
+-[ITunesSoftwareServiceValidationConfiguration validateIcon]
+-[ITunesSoftwareServiceValidationConfiguration setValidatePayload:]
+-[ITunesSoftwareServiceValidationConfiguration validatePayload]
+-[ITunesSoftwareServiceValidationConfiguration setValidateIconSize:]
+-[ITunesSoftwareServiceValidationConfiguration validateIconSize]
+-[ITunesSoftwareServiceValidationConfiguration setValidateBundleResource:]
+-[ITunesSoftwareServiceValidationConfiguration validateBundleResource]
+-[ITunesSoftwareServiceValidationConfiguration setValidateDeviceFamily:]
+-[ITunesSoftwareServiceValidationConfiguration validateDeviceFamily]
+-[ITunesSoftwareServiceValidationConfiguration setRequireDeviceFamily:]
+-[ITunesSoftwareServiceValidationConfiguration requireDeviceFamily]
+-[ITunesSoftwareServiceValidationConfiguration setValidateCodeResources:]
+-[ITunesSoftwareServiceValidationConfiguration validateCodeResources]
+-[ITunesSoftwareServiceValidationConfiguration setValidateFatArchitecturesBasedOnMinimumOSVersion:]
+-[ITunesSoftwareServiceValidationConfiguration validateFatArchitecturesBasedOnMinimumOSVersion]
+-[ITunesSoftwareServiceValidationConfiguration setValidateSupportedArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration validateSupportedArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateRequiredArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration validateRequiredArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateCodesignEntitlements:]
+-[ITunesSoftwareServiceValidationConfiguration validateCodesignEntitlements]
+-[ITunesSoftwareServiceValidationConfiguration validateSymlinkExists]
+-[ITunesSoftwareServiceValidationConfiguration setValidateSymlinkExists:]
+-[ITunesSoftwareServiceValidationConfiguration validateSymlinkResolvesLocally]
+-[ITunesSoftwareServiceValidationConfiguration setValidateSymlinkResolvesLocally:]
+-[ITunesSoftwareServiceValidationConfiguration setValidatePurpleSPIUsage:]
+-[ITunesSoftwareServiceValidationConfiguration validatePurpleSPIUsage]
+-[ITunesSoftwareServiceValidationConfiguration setSupportedArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration supportedArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setDeviceFamilyOverrides:]
+-[ITunesSoftwareServiceValidationConfiguration deviceFamilyOverrides]
+-[ITunesSoftwareServiceValidationConfiguration setDisallowedPaths:]
+-[ITunesSoftwareServiceValidationConfiguration disallowedPaths]
+-[ITunesSoftwareServiceValidationConfiguration setFilesToSendOverride:]
+-[ITunesSoftwareServiceValidationConfiguration filesToSendOverride]
+-[ITunesSoftwareServiceValidationConfiguration setMetadataTemplate:]
+-[ITunesSoftwareServiceValidationConfiguration metadataTemplate]
+-[ITunesSoftwareServiceValidationConfiguration validateProductSignature]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductSignature:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductErrors]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductErrors:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductMetadataServerSide]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductMetadataServerSide:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductSymlinkExists]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductSymlinkExists:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductSymlinkResolvesLocally]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductSymlinkResolvesLocally:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductBundleArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductBundleArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductSupportedArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductSupportedArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration validateProductRequiredArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setValidateProductRequiredArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration setValidateFirenzeSPIUsage:]
+-[ITunesSoftwareServiceValidationConfiguration validateFirenzeSPIUsage]
+-[ITunesSoftwareServiceValidationConfiguration supportedProductArchitectures]
+-[ITunesSoftwareServiceValidationConfiguration setSupportedProductArchitectures:]
+-[ITunesSoftwareServiceValidationConfiguration setProductMetadataTemplate:]
+-[ITunesSoftwareServiceValidationConfiguration productMetadataTemplate]
+-[ITunesSoftwareServiceValidationConfiguration setProductFilesToSendOverride:]
+-[ITunesSoftwareServiceValidationConfiguration productFilesToSendOverride]
+-[ITunesSoftwareVersionDescription init]
+-[ITunesSoftwareVersionDescription initWithDictionary:]
+-[ITunesSoftwareVersionDescription dealloc]
+-[ITunesSoftwareVersionDescription parseInitializationDictionary:]
+-[ITunesSoftwareVersionDescription marketingVersion]
+-[ITunesSoftwareVersionDescription setMarketingVersion:]
+-[ITunesSoftwareVersionDescription shortVersion]
+-[ITunesSoftwareVersionDescription setShortVersion:]
+-[ITunesSoftwareVersionDescription version]
+-[ITunesSoftwareVersionDescription setVersion:]
+-[ITunesSoftwareVersionDescription binaryUUIDs]
+-[ITunesSoftwareVersionDescription setBinaryUUIDs:]
++[ITunesSymlinkAnalyzer analyzeSymbolicLinkAtPath:basePath:]
+_ComputeRelativePath
+-[ITunesSymlinkAnalyzer init]
+-[ITunesSymlinkAnalyzer initWithPath:]
+-[ITunesSymlinkAnalyzer initWithBasePath:]
+-[ITunesSymlinkAnalyzer dealloc]
+-[ITunesSymlinkAnalyzer path]
+-[ITunesSymlinkAnalyzer setPath:]
+-[ITunesSymlinkAnalyzer basePath]
+-[ITunesSymlinkAnalyzer setBasePath:]
+-[ITunesSymlinkAnalyzer validateSymlinkExists]
+-[ITunesSymlinkAnalyzer setValidateSymlinkExists:]
+-[ITunesSymlinkAnalyzer validateSymlinkResolvesLocally]
+-[ITunesSymlinkAnalyzer setValidateSymlinkResolvesLocally:]
+-[ITunesSymlinkAnalyzer analyzeSymbolicLink:atPath:basePath:errors:]
+-[ITunesSymlinkAnalyzer analyzeFileAtPath:errors:]
+-[ITunesSymlinkAnalyzer analyzePath:errors:]
+-[ITunesSymlinkAnalyzer analyzeFile]
+-[ITunesSymlinkAnalyzer analyze]
++[PurpleApplicationArchiveExpander initialize]
++[PurpleApplicationArchiveExpander expanderWithArchivePath:]
+-[PurpleApplicationArchiveExpander initWithArchivePath:]
+-[PurpleApplicationArchiveExpander dealloc]
+-[PurpleApplicationArchiveExpander archivePath]
+-[PurpleApplicationArchiveExpander expandToPath:]
+_deleteTemporaryFiles
+-[PurpleApplicationArchiveExpander parseOutput:]
+-[PurpleApplicationArchiveExpander expectsStandardOutputWithSuccessfulExit]
+-[PurpleApplicationArchiveExpander processExitCode:]
+-[PurpleApplicationArchiveExpander taskWithError:]
+-[PurpleApplicationArchiveExpander extractionPath]
+-[PurpleApplicationArchiveExpander cleanupDestinationDirectory]
+-[MZWebServiceLookupSoftwareVersionsForApplication dealloc]
+-[MZWebServiceLookupSoftwareVersionsForApplication operationMethod]
+-[MZWebServiceLookupSoftwareVersionsForApplication generateArguments]
+-[MZWebServiceLookupSoftwareVersionsForApplication processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupSoftwareVersionsForApplication application]
+-[MZWebServiceLookupSoftwareVersionsForApplication setApplication:]
+-[MZWebServiceLookupSoftwareVersionsForApplication applicationVersions]
+-[MZWebServiceLookupSoftwareVersionsForApplication setApplicationVersions:]
+__cleanup
++[ITunesCodesignAllocateExecutor codesignAllocateExecutablePath]
++[ITunesCodesignAllocateExecutor initialize]
+-[ITunesCodesignAllocateExecutor initWithExecutablePath:]
+-[ITunesCodesignAllocateExecutor dealloc]
+-[ITunesCodesignAllocateExecutor fullPath]
+-[ITunesCodesignAllocateExecutor expectsStandardOutputWithSuccessfulExit]
+-[ITunesCodesignAllocateExecutor taskWithError:]
+-[ITunesCodesignAllocateExecutor processExitCode:]
+-[ITunesCodesignAllocateExecutor executablePath]
+-[ITunesCodesignAllocateExecutor setExecutablePath:]
+-[ITunesCodesignAllocateExecutor architectures]
+-[ITunesCodesignAllocateExecutor setArchitectures:]
+-[ITunesCodesignAllocateExecutor uniqueTemporaryOutputPath]
+-[ITunesCodesignAllocateExecutor setUniqueTemporaryOutputPath:]
+-[ITunesSoftwareServiceApplicationsResponse dealloc]
+-[ITunesSoftwareServiceApplicationsResponse applications]
+-[ITunesSoftwareServiceApplicationsResponse setApplications:]
+-[ITunesSoftwareServiceApplicationsResponse alertMessage]
+-[ITunesSoftwareServiceApplicationsResponse setAlertMessage:]
+-[ITunesSoftwareServiceApplicationsResponse descriptionWithLocale:indent:]
++[ITunesSoftwareServiceResponse responseWithSeries:]
++[ITunesSoftwareServiceResponse responseWithErrors:]
++[ITunesSoftwareServiceResponse responseWithError:]
++[ITunesSoftwareServiceResponse response]
++[ITunesSoftwareServiceResponse cancelledResponse]
+-[ITunesSoftwareServiceResponse dealloc]
+-[ITunesSoftwareServiceResponse isSuccessful]
+-[ITunesSoftwareServiceResponse isCancelled]
+-[ITunesSoftwareServiceResponse setCancelled:]
+-[ITunesSoftwareServiceResponse errors]
+-[ITunesSoftwareServiceResponse setErrors:]
+-[ITunesSoftwareServiceResponse warnings]
+-[ITunesSoftwareServiceResponse setWarnings:]
+-[ITunesSoftwareServiceResponse setError:]
+-[ITunesSoftwareServiceResponse takeValuesFromSeries:]
+-[ITunesSoftwareServiceResponse descriptionWithLocale:indent:]
+-[ITunesSoftwareServiceResponse description]
+-[ITunesSoftwareServiceResponse infoMessages]
+-[ITunesSoftwareServiceResponse setInfoMessages:]
+-[ITunesSoftwareServiceUploadResponse dealloc]
+-[ITunesSoftwareServiceUploadResponse isUploadFailure]
+-[ITunesSoftwareServiceUploadResponse setUploadFailure:]
+-[ITunesSoftwareServiceUploadResponse username]
+-[ITunesSoftwareServiceUploadResponse setUsername:]
+-[ITunesSoftwareServiceUploadResponse password]
+-[ITunesSoftwareServiceUploadResponse setPassword:]
+-[ITunesSoftwareServiceUploadResponse failureLog]
+-[ITunesSoftwareServiceUploadResponse setFailureLog:]
+-[ITunesSoftwareServiceUploadResponse sendUploadFailureToApple]
+-[ITunesSoftwareServiceUploadResponse descriptionWithLocale:indent:]
++[ITunesSoftwareServiceWorkSeriesFactory factoryWithApplication:]
++[ITunesSoftwareServiceWorkSeriesFactory factory]
+-[ITunesSoftwareServiceWorkSeriesFactory initWithApplication:]
+-[ITunesSoftwareServiceWorkSeriesFactory init]
+-[ITunesSoftwareServiceWorkSeriesFactory dealloc]
+-[ITunesSoftwareServiceWorkSeriesFactory validateSPIUsageSeriesWithBinaryContentsAtPath:packageSource:softwareTypeEnum:error:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildFirenzeValidationSeriesWithArchiveAtPath:packageSource:application:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildPurpleValidationSeriesWithArchiveAtPath:packageSource:application:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildIAPHostedContentValidationSeriesWithArchiveAtPath:packageSource:application:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildFirenzeUploadSeriesWithArchiveAtPath:packageSource:application:userInfo:uploader:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildPurpleUploadSeriesWithArchiveAtPath:packageSource:application:userInfo:uploader:]
+-[ITunesSoftwareServiceWorkSeriesFactory buildIAPHostedContentUploadSeriesWithArchiveAtPath:packageSource:application:userInfo:uploader:]
++[ITunesSoftwareServiceWorkSeriesFactory itunesSoftwareApplicationTypeForPackageAtPath:]
+-[ITunesSoftwareServiceWorkSeriesFactory validateSeriesWithArchiveAtPath:packageSource:error:]
+-[ITunesSoftwareServiceWorkSeriesFactory uploadSeriesWithArchiveAtPath:packageSource:userInfo:uploader:error:]
+-[ITunesSoftwareServiceWorkSeriesFactory verifyIconSizeAtPath:ranges:]
+-[ITunesPackageSource(ITunesSoftwareServiceExtensions) packageBuilderDidComplete:]
+-[ITunesSoftwareServiceFactoryDelegate initWithFactory:serverValidator:extractor:]
+-[ITunesSoftwareServiceFactoryDelegate initWithFactory:firenzeServerValidator:validator:extractor:]
+-[ITunesSoftwareServiceFactoryDelegate dealloc]
+-[ITunesSoftwareServiceFactoryDelegate validationWorker:didProduceOutput:]
++[ITunesSoftwareBundleDescription stringWithApplicationType:]
++[ITunesSoftwareBundleDescription applicationTypeWithString:]
++[ITunesSoftwareBundleDescription automaticallyNotifiesObserversForKey:]
+-[ITunesSoftwareBundleDescription init]
+-[ITunesSoftwareBundleDescription dealloc]
+-[ITunesSoftwareBundleDescription descriptionWithLocale:indent:]
+-[ITunesSoftwareBundleDescription displayableDescription]
+-[ITunesSoftwareBundleDescription setDisplayableDescription:]
+-[ITunesSoftwareBundleDescription existingBundleIdentifier]
+-[ITunesSoftwareBundleDescription setExistingBundleIdentifier:]
+-[ITunesSoftwareBundleDescription applicationType]
+-[ITunesSoftwareBundleDescription setApplicationType:]
+-[ITunesSoftwareServiceSPIUsageResponse dealloc]
+-[ITunesSoftwareServiceSPIUsageResponse clientInfoFileContents]
+-[ITunesSoftwareServiceSPIUsageResponse setClientInfoFileContents:]
+-[ITunesSoftwareServiceSPIUsageResponse takeValuesFromSeries:]
++[ITunesApplicationSPIExtractor toolPath]
++[ITunesApplicationSPIExtractor initialize]
+-[ITunesApplicationSPIExtractor initWithInputDirectory:outputFilePath:]
+-[ITunesApplicationSPIExtractor dealloc]
+-[ITunesApplicationSPIExtractor inputDirectory]
+-[ITunesApplicationSPIExtractor outputFilePath]
+-[ITunesApplicationSPIExtractor output]
+-[ITunesApplicationSPIExtractor cleanupOutputFile]
+-[ITunesApplicationSPIExtractor expectsStandardOutputWithSuccessfulExit]
+-[ITunesApplicationSPIExtractor taskWithError:]
+-[ITunesApplicationSPIExtractor extractErrorMessagesFromOutput:]
+-[ITunesApplicationSPIExtractor extractErrorMessageFromOutput:]
+-[ITunesApplicationSPIExtractor errors]
+-[ITunesApplicationSPIExtractor parseXMLString:]
+-[ITunesApplicationSPIExtractor parseOutput:]
+-[ITunesApplicationSPIExtractor processExitCode:]
+-[ITunesApplicationSPIExtractorWorker init]
+-[ITunesApplicationSPIExtractorWorker initWithInputDirectory:]
+-[ITunesApplicationSPIExtractorWorker dealloc]
+-[ITunesApplicationSPIExtractorWorker inputDirectory]
+-[ITunesApplicationSPIExtractorWorker setInputDirectory:]
+-[ITunesApplicationSPIExtractorWorker delegate]
+-[ITunesApplicationSPIExtractorWorker setDelegate:]
+-[ITunesApplicationSPIExtractorWorker outputFilePath]
+-[ITunesApplicationSPIExtractorWorker outputFileContents]
+-[ITunesApplicationSPIExtractorWorker run]
+-[ITunesApplicationSPIExtractorWorker cleanupOutputFile]
+-[ITunesApplicationSPIExtractorWorker seriesCompleted]
++[MachFileCommandExecutor determineFileExecutablePath]
++[MachFileCommandExecutor initialize]
+-[MachFileCommandExecutor init]
+-[MachFileCommandExecutor initWithFilePath:]
+-[MachFileCommandExecutor dealloc]
+-[MachFileCommandExecutor filePath]
+-[MachFileCommandExecutor setFilePath:]
+-[MachFileCommandExecutor taskWithError:]
+-[MachFileCommandExecutor processExitCode:]
+-[MachFileCommandExecutor executeWithError:]
+_MachFileCommandAnalyzerExecutablePath
+_MZDeveloperXcodeDeveloperPathWithBundle
+_MZMutableArrayAddObjectsIfAbsent
+_MZDeveloperPathStringsByAppendingPaths
+_MZDeveloperDirectoriesInEnvironmentPathWithKeyCheckingExistence
+_MZDeveloperAppendSubdirectoriesAtPathWithExtension
+-[AbstractValidateSoftwareAttributes dealloc]
+-[AbstractValidateSoftwareAttributes getResultDictionary]
+-[AbstractValidateSoftwareAttributes applicationAttributesFilename]
+-[AbstractValidateSoftwareAttributes skipProcessingMessage]
+-[AbstractValidateSoftwareAttributes processResult:message:]
+-[AbstractValidateSoftwareAttributes generateArgumentsWithError:]
+-[AbstractValidateSoftwareAttributes errorMessage]
+-[AbstractValidateSoftwareAttributes errorMessages]
+-[AbstractValidateSoftwareAttributes applicationAttributes]
+-[AbstractValidateSoftwareAttributes setApplicationAttributes:]
+-[AbstractValidateSoftwareAttributes appleId]
+-[AbstractValidateSoftwareAttributes setAppleId:]
+-[AbstractValidateSoftwareAttributes validationOnly]
+-[AbstractValidateSoftwareAttributes setValidationOnly:]
+-[AbstractValidateSoftwareAttributes bundleId]
+-[AbstractValidateSoftwareAttributes setBundleId:]
+-[ITunesFirenzeSoftwareValidationWorker initWithConfiguration:delegate:file:]
+-[ITunesFirenzeSoftwareValidationWorker dealloc]
+-[ITunesFirenzeSoftwareValidationWorker delegate]
+-[ITunesFirenzeSoftwareValidationWorker setDelegate:]
+-[ITunesFirenzeSoftwareValidationWorker run]
+-[ITunesFirenzeSoftwareValidationWorker seriesCompleted]
+-[ITunesFirenzeSoftwareValidationWorker archiveOutput]
+-[ITunesFirenzeSoftwareValidationWorker extractionPath]
+-[ITunesFirenzeSoftwareValidationWorker mainBundlePathWithError:]
+-[ITunesFirenzeSoftwareValidationWorker getProductFilePathsToSendInMainBundle:]
+-[MZAbstractWebServiceFileSender dealloc]
+-[MZAbstractWebServiceFileSender encodedFileAtPath:error:]
+-[MZAbstractWebServiceFileSender filePathsAsEncodedDictionaryWithError:]
+-[MZAbstractWebServiceFileSender generateArgumentsWithError:]
+-[MZAbstractWebServiceFileSender filePathsToSend]
+-[MZAbstractWebServiceFileSender setFilePathsToSend:]
+-[MZAbstractWebServiceFileSender setFilePathsToSendCachingImmediately:]
++[MZWebServiceValidateSoftwareSPIUsage initialize]
+-[MZWebServiceValidateSoftwareSPIUsage init]
+-[MZWebServiceValidateSoftwareSPIUsage dealloc]
+-[MZWebServiceValidateSoftwareSPIUsage operationMethod]
+-[MZWebServiceValidateSoftwareSPIUsage initialMessage]
+-[MZWebServiceValidateSoftwareSPIUsage runningMessage]
+-[MZWebServiceValidateSoftwareSPIUsage completedMessage]
+-[MZWebServiceValidateSoftwareSPIUsage skipProcessingMessage]
+-[MZWebServiceValidateSoftwareSPIUsage shouldSkipRequest]
+-[MZWebServiceValidateSoftwareSPIUsage processResult:message:]
+-[MZWebServiceValidateSoftwareSPIUsage generateArgumentsWithError:]
+-[MZWebServiceValidateSoftwareSPIUsage appleId]
+-[MZWebServiceValidateSoftwareSPIUsage setAppleId:]
+-[MZWebServiceValidateSoftwareSPIUsage softwareTypeEnum]
+-[MZWebServiceValidateSoftwareSPIUsage setSoftwareTypeEnum:]
+-[MZWebServiceValidateSoftwareSPIUsage validationOnly]
+-[MZWebServiceValidateSoftwareSPIUsage setValidationOnly:]
+-[MZWebServiceValidateSoftwareSPIUsage clientInfoFileContents]
+-[MZWebServiceValidateSoftwareSPIUsage processUncancelledSuccessfulResult:]
+-[MZWebServiceValidateSoftwareSPIUsage workerDidExtractFiles:]
+-[MZWebServiceValidateSoftwareSPIUsage worker]
+-[MZWebServiceValidateSoftwareSPIUsage setRunningMessage:]
+-[MZWebServiceValidateSoftwareSPIUsage willSendRequest]
+-[MZWebServiceValidateSoftwareSPIUsage didSendRequest]
+-[MZWebServiceValidateSoftwareSPIUsage willReceiveResponse]
+-[MZWebServiceValidateSoftwareSPIUsage didReceiveResponse]
+-[MZWebServiceValidateSoftwareSPIUsage bundleId]
+-[MZWebServiceValidateSoftwareSPIUsage setBundleId:]
+-[MZWebServiceLookupSoftwareVersions dealloc]
+-[MZWebServiceLookupSoftwareVersions operationMethod]
+-[MZWebServiceLookupSoftwareVersions initialMessage]
+-[MZWebServiceLookupSoftwareVersions runningMessage]
+-[MZWebServiceLookupSoftwareVersions completedMessage]
+-[MZWebServiceLookupSoftwareVersions operationWillStart]
+-[MZWebServiceLookupSoftwareVersions convertDeviceFamilyOverrides:]
+-[MZWebServiceLookupSoftwareVersions processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupSoftwareVersions applications]
+-[MZWebServiceLookupSoftwareVersions applicationMapping]
+-[MZWebServiceLookupSoftwareVersions applicationAttributes]
+-[MZWebServiceLookupSoftwareVersions displayableKeys]
+-[MZWebServiceLookupSoftwareVersions metadataTemplate]
+-[MZWebServiceLookupSoftwareVersions disableSigniantTCP]
+-[MZWebServiceLookupSoftwareVersions transportOverride]
+-[MZWebServiceLookupSoftwareVersions enableValidation]
+-[MZWebServiceLookupSoftwareVersions validateIcon]
+-[MZWebServiceLookupSoftwareVersions validatePayload]
+-[MZWebServiceLookupSoftwareVersions validateZip]
+-[MZWebServiceLookupSoftwareVersions serverSideVerification]
+-[MZWebServiceLookupSoftwareVersions validateIconSize]
+-[MZWebServiceLookupSoftwareVersions validateBundleResource]
+-[MZWebServiceLookupSoftwareVersions validateDeviceFamily]
+-[MZWebServiceLookupSoftwareVersions requireDeviceFamily]
+-[MZWebServiceLookupSoftwareVersions validateCodeResources]
+-[MZWebServiceLookupSoftwareVersions validateFatArchitecturesBasedOnMinimumOSVersion]
+-[MZWebServiceLookupSoftwareVersions validateSupportedArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateRequiredArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateCodesignEntitlements]
+-[MZWebServiceLookupSoftwareVersions validateSymlinkExists]
+-[MZWebServiceLookupSoftwareVersions setValidateSymlinkExists:]
+-[MZWebServiceLookupSoftwareVersions validateSymlinkResolvesLocally]
+-[MZWebServiceLookupSoftwareVersions setValidateSymlinkResolvesLocally:]
+-[MZWebServiceLookupSoftwareVersions validatePurpleSPIUsage]
+-[MZWebServiceLookupSoftwareVersions supportedArchitectures]
+-[MZWebServiceLookupSoftwareVersions deviceFamilyOverrides]
+-[MZWebServiceLookupSoftwareVersions disallowedPaths]
+-[MZWebServiceLookupSoftwareVersions overallAlertMessage]
+-[MZWebServiceLookupSoftwareVersions applicationAlertMessages]
+-[MZWebServiceLookupSoftwareVersions filesToSendOverride]
+-[MZWebServiceLookupSoftwareVersions validateProductSignature]
+-[MZWebServiceLookupSoftwareVersions validateProductErrors]
+-[MZWebServiceLookupSoftwareVersions validateProductMetadataServerSide]
+-[MZWebServiceLookupSoftwareVersions validateProductSymlinkExists]
+-[MZWebServiceLookupSoftwareVersions setValidateProductSymlinkExists:]
+-[MZWebServiceLookupSoftwareVersions validateProductSymlinkResolvesLocally]
+-[MZWebServiceLookupSoftwareVersions setValidateProductSymlinkResolvesLocally:]
+-[MZWebServiceLookupSoftwareVersions productMetadataTemplate]
+-[MZWebServiceLookupSoftwareVersions validateProductArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateProductBundleArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateProductSupportedArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateProductRequiredArchitectures]
+-[MZWebServiceLookupSoftwareVersions validateFirenzeSPIUsage]
+-[MZWebServiceLookupSoftwareVersions supportedProductArchitectures]
+-[MZWebServiceLookupSoftwareVersions productFilesToSendOverride]
+-[MZWebServiceValidateFirenzeProductAttributes dealloc]
+-[MZWebServiceValidateFirenzeProductAttributes operationMethod]
+-[MZWebServiceValidateFirenzeProductAttributes initialMessage]
+-[MZWebServiceValidateFirenzeProductAttributes runningMessage]
+-[MZWebServiceValidateFirenzeProductAttributes completedMessage]
+-[MZWebServiceValidateFirenzeProductAttributes skipProcessingMessage]
+-[MZWebServiceValidatePurpleSoftwareAttributes dealloc]
+-[MZWebServiceValidatePurpleSoftwareAttributes operationMethod]
+-[MZWebServiceValidatePurpleSoftwareAttributes initialMessage]
+-[MZWebServiceValidatePurpleSoftwareAttributes runningMessage]
+-[MZWebServiceValidatePurpleSoftwareAttributes completedMessage]
+-[MZWebServiceValidatePurpleSoftwareAttributes applicationAttributesFilename]
+-[MZWebServiceValidatePurpleSoftwareAttributes skipProcessingMessage]
+-[MZWebServiceValidatePurpleSoftwareAttributes generateArgumentsWithError:]
+-[MZWebServiceValidatePurpleSoftwareAttributes path]
+-[MZWebServiceValidatePurpleSoftwareAttributes setPath:]
++[ITunesPurpleSoftwareInfoPlistLoader loaderWithPath:]
+-[ITunesPurpleSoftwareInfoPlistLoader init]
+-[ITunesPurpleSoftwareInfoPlistLoader initWithPath:]
+-[ITunesPurpleSoftwareInfoPlistLoader dealloc]
+-[ITunesPurpleSoftwareInfoPlistLoader path]
+-[ITunesPurpleSoftwareInfoPlistLoader setPath:]
+-[ITunesPurpleSoftwareInfoPlistLoader findFileDirectlyUnderPathNamed:]
+-[ITunesPurpleSoftwareInfoPlistLoader findInfoPlist]
+-[ITunesPurpleSoftwareInfoPlistLoader readInfoPlistWithError:]
+-[ITunesPurpleSoftwareInfoPlistLoader loadInfoPlistWithError:]
++[ITunesPurpleSoftwareSigningDescriber describerWithContext:]
+-[ITunesPurpleSoftwareSigningDescriber initWithContext:]
+-[ITunesPurpleSoftwareSigningDescriber dealloc]
+-[ITunesPurpleSoftwareSigningDescriber context]
+-[ITunesPurpleSoftwareSigningDescriber execute]
+-[ITunesSigningAnalyzer initWithPath:]
+-[ITunesSigningAnalyzer dealloc]
+-[ITunesSigningAnalyzer path]
+-[ITunesSigningAnalyzer executablePath]
+-[ITunesSigningAnalyzer staticCodeWithPath:error:]
+_GenerateErrorWithOSStatus
+-[ITunesSigningAnalyzer validateCodeSigningAtPathWithError:]
+-[ITunesSigningAnalyzer analyzeExecutableAtPath:error:]
+-[ITunesSigningAnalyzer analyzeWithError:]
+-[ITunesSigningAnalyzer analyzeExecutableAtPathWithError:]
++[ITunesSigningAnalyzerResult resultWithDictionary:]
+-[ITunesSigningAnalyzerResult initWithCertificates:entitlements:entitlementsData:signingIdentifier:signingTeamIdentifier:]
+-[ITunesSigningAnalyzerResult dealloc]
+-[ITunesSigningAnalyzerResult certificates]
+-[ITunesSigningAnalyzerResult entitlements]
+-[ITunesSigningAnalyzerResult entitlementsData]
+-[ITunesSigningAnalyzerResult hasData]
+-[ITunesSigningAnalyzerResult describeAsPlist]
+-[ITunesSigningAnalyzerResult descriptionWithLocale:indent:]
+-[ITunesSigningAnalyzerResult description]
+-[ITunesSigningAnalyzerResult signingIdentifier]
+-[ITunesSigningAnalyzerResult setSigningIdentifier:]
+-[ITunesSigningAnalyzerResult signingTeamIdentifier]
+-[ITunesSigningAnalyzerResult setSigningTeamIdentifier:]
+-[ITunesIconAnalyzer initWithPath:]
+-[ITunesIconAnalyzer dealloc]
+-[ITunesIconAnalyzer path]
+-[ITunesIconAnalyzer analyzeWithError:]
++[ITunesIconAnalyzerResult resultWithDictionary:]
+-[ITunesIconAnalyzerResult initWithType:sizes:]
+-[ITunesIconAnalyzerResult dealloc]
+-[ITunesIconAnalyzerResult sizes]
+-[ITunesIconAnalyzerResult type]
+-[ITunesIconAnalyzerResult path]
+-[ITunesIconAnalyzerResult setPath:]
+-[ITunesIconAnalyzerResult describeAsPlist]
+-[ITunesIconAnalyzerResult descriptionWithLocale:indent:]
+-[ITunesIconAnalyzerResult description]
++[ITunesPurpleSoftwareArchitectureDescriber describerWithContext:]
+-[ITunesPurpleSoftwareArchitectureDescriber initWithContext:]
+-[ITunesPurpleSoftwareArchitectureDescriber dealloc]
+-[ITunesPurpleSoftwareArchitectureDescriber context]
+-[ITunesPurpleSoftwareArchitectureDescriber execute]
++[MachFileCommandArchitectureAnalyzer executablePathFromAppWrapperPath:]
++[MachFileCommandArchitectureAnalyzer analyzerWithAppWrapperPath:]
++[MachFileCommandArchitectureAnalyzer analyzerWithExecutablePath:]
+-[MachFileCommandArchitectureAnalyzer initWithAppWrapperPath:]
+-[MachFileCommandArchitectureAnalyzer initWithExecutablePath:]
+-[MachFileCommandArchitectureAnalyzer dealloc]
++[MachFileCommandArchitectureAnalyzer architectureExpressionWithError:]
+-[MachFileCommandArchitectureAnalyzer parseOutputLine:]
+-[MachFileCommandArchitectureAnalyzer parseOutput:]
+-[MachFileCommandArchitectureAnalyzer analyze]
+-[MachFileCommandArchitectureAnalyzer allArchitectures]
+-[MachFileCommandArchitectureAnalyzer architecturesMask]
+-[MachFileCommandArchitectureAnalyzer containsArchitecture:]
+-[MachFileCommandArchitectureAnalyzer containsArchitectureString:]
+-[MachFileCommandArchitectureAnalyzerEntry initWithArchitecture:family:]
+-[MachFileCommandArchitectureAnalyzerEntry dealloc]
+-[MachFileCommandArchitectureAnalyzerEntry architecture]
+-[MachFileCommandArchitectureAnalyzerEntry family]
+-[MZWebServiceLookupSoftwareForBundleId dealloc]
+-[MZWebServiceLookupSoftwareForBundleId operationMethod]
+-[MZWebServiceLookupSoftwareForBundleId initialMessage]
+-[MZWebServiceLookupSoftwareForBundleId runningMessage]
+-[MZWebServiceLookupSoftwareForBundleId completedMessage]
+-[MZWebServiceLookupSoftwareForBundleId generateArgumentsWithError:]
+-[MZWebServiceLookupSoftwareForBundleId processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupSoftwareForBundleId bundleId]
+-[MZWebServiceLookupSoftwareForBundleId setBundleId:]
++[MachLipoArchitectureAnalyzer lipoExecutablePath]
++[MachLipoArchitectureAnalyzer initialize]
++[MachLipoArchitectureAnalyzer executablePathFromAppWrapperPath:]
++[MachLipoArchitectureAnalyzer analyzerWithAppWrapperPath:]
++[MachLipoArchitectureAnalyzer analyzerWithExecutablePath:]
+-[MachLipoArchitectureAnalyzer initWithAppWrapperPath:]
+-[MachLipoArchitectureAnalyzer initWithExecutablePath:]
+-[MachLipoArchitectureAnalyzer dealloc]
+-[MachLipoArchitectureAnalyzer executablePath]
+-[MachLipoArchitectureAnalyzer path]
+-[MachLipoArchitectureAnalyzer setExecutablePath:]
+-[MachLipoArchitectureAnalyzer setPath:]
++[MachLipoArchitectureAnalyzer architectureExpressionWithError:]
++[MachLipoArchitectureAnalyzer architectureSeparatorExpressionWithError:]
++[MachLipoArchitectureAnalyzer unknownArchitectureExpressionWithError:]
++[MachLipoArchitectureAnalyzer undefinedArchitectureExpressionWithError:]
+-[MachLipoArchitectureAnalyzer parseUnprocessedArchitectures:]
+-[MachLipoArchitectureAnalyzer parseOutput:]
+-[MachLipoArchitectureAnalyzer taskWithError:]
+-[MachLipoArchitectureAnalyzer processExitCode:]
+-[MachLipoArchitectureAnalyzer analyze]
+-[MachLipoArchitectureAnalyzer allArchitectures]
+-[MachLipoArchitectureAnalyzer allStandardizedArchitectures]
+-[MachLipoArchitectureAnalyzer architecturesMask]
+-[MachLipoArchitectureAnalyzer containsArchitecture:]
+-[MachLipoArchitectureAnalyzer containsArchitectureString:]
+-[MachLipoArchitectureAnalyzer isAnyArchitectureStandardizedOrUnknown]
+-[MachLipoArchitectureAnalyzerEntry initWithArchitecture:]
+-[MachLipoArchitectureAnalyzerEntry dealloc]
+-[MachLipoArchitectureAnalyzerEntry architecture]
+-[MachLipoArchitectureAnalyzerEntry machArchitecture]
+-[MachLipoArchitectureAnalyzerEntry standardizedArchitecture]
+-[MachLipoArchitectureAnalyzerEntry wasStandardized]
+-[MachLipoArchitectureAnalyzerEntry setWasStandardized:]
+-[ITunesSoftwareServiceCodesignParametersResponse dealloc]
+-[ITunesSoftwareServiceCodesignParametersResponse takeValuesFromSeries:]
+-[ITunesSoftwareServiceCodesignParametersResponse parameters]
+-[ITunesSoftwareServiceCodesignParametersResponse setParameters:]
++[ITunesSoftwareCodesignApplication applicationWithApplication:]
++[ITunesSoftwareCodesignApplication applicationWithDictionary:]
+-[ITunesSoftwareCodesignApplication initWithDictionary:]
+-[ITunesSoftwareCodesignApplication initWithApplication:]
+-[ITunesSoftwareCodesignApplication dealloc]
+-[ITunesSoftwareCodesignApplication bundleIdentifier]
+-[ITunesSoftwareCodesignApplication setBundleIdentifier:]
+-[ITunesSoftwareCodesignApplication filename]
+-[ITunesSoftwareCodesignApplication setFilename:]
+-[ITunesSoftwareCodesignApplication webServiceDescription]
+-[ITunesSoftwareCodesignApplication descriptionWithLocale:indent:]
+-[ITunesSoftwareCodesignApplication description]
++[ITunesSoftwareCodesignParameter parameterWithDictionary:]
+-[ITunesSoftwareCodesignParameter initWithDictionary:]
+-[ITunesSoftwareCodesignParameter dealloc]
+-[ITunesSoftwareCodesignParameter application]
+-[ITunesSoftwareCodesignParameter setApplication:]
+-[ITunesSoftwareCodesignParameter designatedRequirement]
+-[ITunesSoftwareCodesignParameter setDesignatedRequirement:]
+-[ITunesSoftwareCodesignParameter signingIdentifier]
+-[ITunesSoftwareCodesignParameter setSigningIdentifier:]
+-[ITunesSoftwareCodesignParameter descriptionWithLocale:indent:]
+-[ITunesSoftwareCodesignParameter description]
+-[MZWebServiceSoftwareCodesignParameters dealloc]
+-[MZWebServiceSoftwareCodesignParameters generateArguments]
+-[MZWebServiceSoftwareCodesignParameters operationMethod]
+-[MZWebServiceSoftwareCodesignParameters initialMessage]
+-[MZWebServiceSoftwareCodesignParameters runningMessage]
+-[MZWebServiceSoftwareCodesignParameters completedMessage]
+-[MZWebServiceSoftwareCodesignParameters operationWillStart]
+-[MZWebServiceSoftwareCodesignParameters type]
+-[MZWebServiceSoftwareCodesignParameters setType:]
+-[MZWebServiceSoftwareCodesignParameters application]
+-[MZWebServiceSoftwareCodesignParameters setApplication:]
+-[MZWebServiceSoftwareCodesignParameters otherApplications]
+-[MZWebServiceSoftwareCodesignParameters setOtherApplications:]
+-[MZWebServiceSoftwareCodesignParameters buildParameters:withResponse:]
+-[MZWebServiceSoftwareCodesignParameters processUncancelledSuccessfulResult:]
+-[MZWebServiceSoftwareCodesignParameters parameters]
++[PNGAnalyzer analyzerWithFile:]
+-[PNGAnalyzer initWithFile:]
+-[PNGAnalyzer dealloc]
+-[PNGAnalyzer analyze]
+-[PNGAnalyzer analyzeData:file:]
++[MZWebServiceValidateHostedContentIAPPackage initialize]
+-[MZWebServiceValidateHostedContentIAPPackage init]
+-[MZWebServiceValidateHostedContentIAPPackage dealloc]
+-[MZWebServiceValidateHostedContentIAPPackage operationMethod]
+-[MZWebServiceValidateHostedContentIAPPackage initialMessage]
+-[MZWebServiceValidateHostedContentIAPPackage runningMessage]
+-[MZWebServiceValidateHostedContentIAPPackage completedMessage]
+-[MZWebServiceValidateHostedContentIAPPackage skipProcessingMessage]
+-[MZWebServiceValidateHostedContentIAPPackage generateArgumentsWithError:]
+-[MZWebServiceValidateHostedContentIAPPackage appleId]
+-[MZWebServiceValidateHostedContentIAPPackage setAppleId:]
+-[MZWebServiceValidateHostedContentIAPPackage packagePath]
+-[MZWebServiceValidateHostedContentIAPPackage setPackagePath:]
+-[MZWebServiceValidateHostedContentIAPPackage productId]
+-[MZWebServiceValidateHostedContentIAPPackage setProductId:]
++[OtoolCommandExecutor otoolExecutablePath]
++[OtoolCommandExecutor initialize]
+-[OtoolCommandExecutor init]
+-[OtoolCommandExecutor initWithPath:]
+-[OtoolCommandExecutor dealloc]
+-[OtoolCommandExecutor taskWithError:]
+-[OtoolCommandExecutor processExitCode:]
+-[OtoolCommandExecutor executorResultClass]
+-[OtoolCommandExecutor path]
+-[OtoolCommandExecutor setPath:]
+-[OtoolCommandExecutor isMainBundleExecutable]
+-[OtoolCommandExecutor setMainBundleExecutable:]
+-[OtoolCommandExecutorResult describeAsPlist]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware dealloc]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware operationMethod]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware initialMessage]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware runningMessage]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware completedMessage]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware inAppPurchases]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware operationWillStart]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware generateArgumentsWithError:]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware appleId]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware setAppleId:]
+-[MZWebServiceLookupHostedContentInAppPurchasesForSoftware displayableKeys]
+-[MZWebServiceLookupSoftwareWithHostedContent dealloc]
+-[MZWebServiceLookupSoftwareWithHostedContent operationMethod]
+-[MZWebServiceLookupSoftwareWithHostedContent initialMessage]
+-[MZWebServiceLookupSoftwareWithHostedContent runningMessage]
+-[MZWebServiceLookupSoftwareWithHostedContent completedMessage]
+-[MZWebServiceLookupSoftwareWithHostedContent applications]
+-[MZWebServiceLookupSoftwareWithHostedContent applicationAttributes]
+-[MZWebServiceLookupSoftwareWithHostedContent operationWillStart]
+-[MZWebServiceLookupSoftwareWithHostedContent processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupSoftwareWithHostedContent displayableKeys]
+-[ITunesSoftwareServiceSymbolURLResponse urls]
+-[ITunesSoftwareServiceSymbolURLResponse setUrls:]
+-[ITunesInAppPurchasePackageBuilderWorker metadataTemplateName]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion dealloc]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion operationMethod]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion initialMessage]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion runningMessage]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion generateArguments]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion completedMessage]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion operationWillStart]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion processUncancelledSuccessfulResult:]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion symbolURLs]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion setSymbolURLs:]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion symbolUUIDs]
+-[MZWebServiceLookupSymbolURLsForSoftwareVersion setSymbolUUIDs:]
++[ITunesPurplePackageDescriberContext contextWithPath:]
+-[ITunesPurplePackageDescriberContext initWithPath:]
+-[ITunesPurplePackageDescriberContext dealloc]
+-[ITunesPurplePackageDescriberContext files]
+-[ITunesPurplePackageDescriberContext addFile:]
+-[ITunesPurplePackageDescriberContext unbundledPaths]
+-[ITunesPurplePackageDescriberContext addUnbundledPath:]
+-[ITunesPurplePackageDescriberContext describeAllErrors]
+-[ITunesPurplePackageDescriberContext describeAllWarnings]
+-[ITunesPurplePackageDescriberContext describeAsPlist]
+-[ITunesPurplePackageDescriberContext payloadPaths]
+-[ITunesPurplePackageDescriberContext setPayloadPaths:]
++[ITunesPurpleBundleDescriberContext contextWithInfoPlist:]
++[ITunesPurpleBundleDescriberContext operatingSystemKeyVariants]
++[ITunesPurpleBundleDescriberContext deviceKeyVariants]
++[ITunesPurpleBundleDescriberContext deviceAndOperatingSystemSuffixPermutations]
+-[ITunesPurpleBundleDescriberContext initWithInfoPlist:]
+-[ITunesPurpleBundleDescriberContext dealloc]
+-[ITunesPurpleBundleDescriberContext bundleIdentifier]
+-[ITunesPurpleBundleDescriberContext setBundleIdentifier:]
+-[ITunesPurpleBundleDescriberContext bundlePath]
+-[ITunesPurpleBundleDescriberContext setBundlePath:]
+-[ITunesPurpleBundleDescriberContext fullBundlePath]
+-[ITunesPurpleBundleDescriberContext CFBundleShortVersionString]
+-[ITunesPurpleBundleDescriberContext CFBundleVersion]
+-[ITunesPurpleBundleDescriberContext infoPlist]
+-[ITunesPurpleBundleDescriberContext infoPlistPath]
+-[ITunesPurpleBundleDescriberContext setInfoPlistPath:]
+-[ITunesPurpleBundleDescriberContext iconAnalysisResults]
+-[ITunesPurpleBundleDescriberContext addIconAnalysisResults:]
+-[ITunesPurpleBundleDescriberContext launchImageAnalysisResults]
+-[ITunesPurpleBundleDescriberContext addLaunchImageAnalysisResults:]
+-[ITunesPurpleBundleDescriberContext infoPlistKeyVariantsForKey:]
+-[ITunesPurpleBundleDescriberContext infoPlistKeyVariantsForKey:keySuffixes:]
+-[ITunesPurpleBundleDescriberContext hasMASReceipt]
+-[ITunesPurpleBundleDescriberContext setHasMASReceipt:]
+-[ITunesPurpleBundleDescriberContext signingAnalyzerResult]
+-[ITunesPurpleBundleDescriberContext setSigningAnalyzerResult:]
+-[ITunesPurpleBundleDescriberContext archs]
+-[ITunesPurpleBundleDescriberContext addArchs:]
+-[ITunesPurpleBundleDescriberContext isFramework]
+-[ITunesPurpleBundleDescriberContext parentContext]
+-[ITunesPurpleBundleDescriberContext setParentContext:]
+-[ITunesPurpleBundleDescriberContext describeAllErrors]
+-[ITunesPurpleBundleDescriberContext describeAllWarnings]
+-[ITunesPurpleBundleDescriberContext coerceURL:]
+-[ITunesPurpleBundleDescriberContext isInfoPlistUTF8Compliant]
+-[ITunesPurpleBundleDescriberContext describeAsPlist]
+-[ITunesPurpleBundleDescriberContext description]
++[ITunesPurpleProductMetadataDescriberContext defaultCodesToUnique]
++[ITunesPurpleProductMetadataDescriberContext initialize]
++[ITunesPurpleProductMetadataDescriberContext context]
+-[ITunesPurpleProductMetadataDescriberContext init]
+-[ITunesPurpleProductMetadataDescriberContext dealloc]
+-[ITunesPurpleProductMetadataDescriberContext toolVersion]
+-[ITunesPurpleProductMetadataDescriberContext osVersion]
+-[ITunesPurpleProductMetadataDescriberContext versionDictionaryWithPath:]
+-[ITunesPurpleProductMetadataDescriberContext versionPathWithBundlePath:]
+-[ITunesPurpleProductMetadataDescriberContext xcodeVersionDictionaryWithVersion:path:]
+-[ITunesPurpleProductMetadataDescriberContext xcodeVersions]
+-[ITunesPurpleProductMetadataDescriberContext archiveBytes]
+-[ITunesPurpleProductMetadataDescriberContext setArchiveBytes:]
+-[ITunesPurpleProductMetadataDescriberContext fileName]
+-[ITunesPurpleProductMetadataDescriberContext setFileName:]
+-[ITunesPurpleProductMetadataDescriberContext productutilOutput]
+-[ITunesPurpleProductMetadataDescriberContext setProductutilOutput:]
+-[ITunesPurpleProductMetadataDescriberContext packages]
+-[ITunesPurpleProductMetadataDescriberContext addPackage:]
+-[ITunesPurpleProductMetadataDescriberContext mergeFromArray:intoArray:]
++[ITunesPurpleProductMetadataDescriberContext uniqueErrorCodes]
+-[ITunesPurpleProductMetadataDescriberContext uniqueErrors:]
+-[ITunesPurpleProductMetadataDescriberContext describeAllErrors]
+-[ITunesPurpleProductMetadataDescriberContext describeAllWarnings]
+-[ITunesPurpleProductMetadataDescriberContext mergeFromDictionary:intoDictionary:]
+-[ITunesPurpleProductMetadataDescriberContext describeXarResultAsPlist:]
+-[ITunesPurpleProductMetadataDescriberContext describeVersionAsPlist]
+-[ITunesPurpleProductMetadataDescriberContext describeAsPlist]
+-[ITunesPurpleProductMetadataDescriberContext xarCommandResult]
+-[ITunesPurpleProductMetadataDescriberContext setXarCommandResult:]
+-[ITunesSoftwareApplicationVersionDescription dealloc]
+-[ITunesSoftwareApplicationVersionDescription initWithDictionary:]
+-[ITunesSoftwareApplicationVersionDescription extractApplicationVersionMetadata:]
+-[ITunesSoftwareApplicationVersionDescription extractBaseProperties:]
+-[ITunesSoftwareApplicationVersionDescription extractChildApplications:]
+-[ITunesSoftwareApplicationVersionDescription extractExtensions:]
+-[ITunesSoftwareApplicationVersionDescription extractXPCServices:]
+-[ITunesSoftwareApplicationVersionDescription extractSupportedDevices:]
+-[ITunesSoftwareApplicationVersionDescription extractSupportedOSVersions:]
+-[ITunesSoftwareApplicationVersionDescription extractApplicationType:]
+-[ITunesSoftwareApplicationVersionDescription descriptionWithLocale:indent:]
+-[ITunesSoftwareApplicationVersionDescription imageURL]
+-[ITunesSoftwareApplicationVersionDescription setImageURL:]
+-[ITunesSoftwareApplicationVersionDescription extensions]
+-[ITunesSoftwareApplicationVersionDescription setExtensions:]
+-[ITunesSoftwareApplicationVersionDescription XPCServices]
+-[ITunesSoftwareApplicationVersionDescription setXPCServices:]
+-[ITunesSoftwareApplicationVersionDescription childApplications]
+-[ITunesSoftwareApplicationVersionDescription setChildApplications:]
+-[ITunesSoftwareApplicationVersionDescription supportedDevices]
+-[ITunesSoftwareApplicationVersionDescription setSupportedDevices:]
+-[ITunesSoftwareApplicationVersionDescription wasApprovedForPrereleaseDistribution]
+-[ITunesSoftwareApplicationVersionDescription setWasApprovedForPrereleaseDistribution:]
+-[ITunesSoftwareApplicationVersionDescription wasApprovedForSaleDistribution]
+-[ITunesSoftwareApplicationVersionDescription setWasApprovedForSaleDistribution:]
+-[ITunesSoftwareApplicationVersionDescription supportedOSVersions]
+-[ITunesSoftwareApplicationVersionDescription marketingVersion]
+-[ITunesSoftwareApplicationVersionDescription setMarketingVersion:]
+-[ITunesSoftwareApplicationVersionDescription shortVersion]
+-[ITunesSoftwareApplicationVersionDescription setShortVersion:]
+-[ITunesSoftwareApplicationVersionDescription version]
+-[ITunesSoftwareApplicationVersionDescription setVersion:]
+-[ITunesSoftwareApplicationVersionDescription binaryUUIDs]
+-[ITunesSoftwareApplicationVersionDescription setBinaryUUIDs:]
++[MachDwarfdumpExecutor dwarfdumpExecutablePath]
++[MachDwarfdumpExecutor initialize]
++[MachDwarfdumpExecutor executablePathFromAppWrapperPath:]
+-[MachDwarfdumpExecutor initWithAppWrapperPath:]
+-[MachDwarfdumpExecutor initWithExecutablePath:]
+-[MachDwarfdumpExecutor dealloc]
+-[MachDwarfdumpExecutor executablePath]
+-[MachDwarfdumpExecutor path]
+-[MachDwarfdumpExecutor setExecutablePath:]
+-[MachDwarfdumpExecutor setPath:]
+-[MachDwarfdumpExecutor taskWithError:]
+-[MachDwarfdumpExecutor processExitCode:]
+-[MachDwarfdumpExecutor executeWithError:]
++[ITunesPurpleProductMetadataDescriber initialize]
+-[ITunesPurpleProductMetadataDescriber init]
+-[ITunesPurpleProductMetadataDescriber initWithPath:]
+-[ITunesPurpleProductMetadataDescriber dealloc]
+-[ITunesPurpleProductMetadataDescriber checkFilenameOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkIncludedImagesOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkResourceSpecifications:context:]
+-[ITunesPurpleProductMetadataDescriber checkHasACLOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkHasResourceForkOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkHasExtendedAttributesOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkExternalAttributesOnFile:]
+-[ITunesPurpleProductMetadataDescriber checkFileIsExecutable:]
+-[ITunesPurpleProductMetadataDescriber determineIfWeShouldIncludeFileData:]
+-[ITunesPurpleProductMetadataDescriber checkFrameworkFilesOnFile:]
+-[ITunesPurpleProductMetadataDescriber foundPath:inBundleExecutables:]
+-[ITunesPurpleProductMetadataDescriber checkBundleExecutable:bundleExecutables:context:]
+-[ITunesPurpleProductMetadataDescriber determineIfFileOfInterest:context:isDirectory:bundleExecutables:]
+-[ITunesPurpleProductMetadataDescriber describeFilesAtPath:context:]
+-[ITunesPurpleProductMetadataDescriber signingAnalysis:withError:]
+-[ITunesPurpleProductMetadataDescriber describeBundle:context:]
+-[ITunesPurpleProductMetadataDescriber determinePayloadPath:parentContext:]
+-[ITunesPurpleProductMetadataDescriber determineBundlePayloadPath:parentContext:]
+-[ITunesPurpleProductMetadataDescriber createBundleAndAddExecutable:parentContext:]
+-[ITunesPurpleProductMetadataDescriber describeBundlesAtPath:context:]
+-[ITunesPurpleProductMetadataDescriber describePackageAtPath:payloadPaths:]
+-[ITunesPurpleProductMetadataDescriber describeProductMetadataAtPath:productutilOutput:]
+-[ITunesPurpleProductMetadataDescriber describeWithErrors:]
+-[ITunesPurpleProductMetadataDescriber describeFirenzeArchiveWithErrors:]
+-[ITunesPurpleProductMetadataDescriber describePurpleArchiveWithErrors:]
+-[ITunesPurpleProductMetadataDescriber describeVersionAsPlist]
+-[ITunesPurpleProductMetadataDescriber describeArchiveWithErrors:]
+-[ITunesPurpleProductMetadataDescriber path]
+-[ITunesPurpleProductMetadataDescriber setPath:]
+-[ITunesPurpleProductMetadataDescriber extractionPath]
+-[ITunesPurpleProductMetadataDescriber setExtractionPath:]
++[ITunesPurpleBundleIconDescriber initialize]
++[ITunesPurpleBundleIconDescriber describerWithContext:]
++[ITunesPurpleBundleIconDescriber allowedIconExtensions]
+-[ITunesPurpleBundleIconDescriber initWithContext:]
+-[ITunesPurpleBundleIconDescriber dealloc]
+-[ITunesPurpleBundleIconDescriber context]
+-[ITunesPurpleBundleIconDescriber findAllIconsWithPrefixNames:inDirectory:]
+-[ITunesPurpleBundleIconDescriber allReferencedIconNamesRegardlessOfOSVersionWithError:]
+-[ITunesPurpleBundleIconDescriber findIconDirectlyUnderPathNamed:]
+-[ITunesPurpleBundleIconDescriber describeIconNamed:required:error:]
+-[ITunesPurpleBundleIconDescriber describeIconsNamed:errorIfAbsent:]
++[ITunesPurpleBundleIconDescriber defaultImageNames]
+-[ITunesPurpleBundleIconDescriber addDefaultImages:]
+-[ITunesPurpleBundleIconDescriber allIconsNamesRemovingAllowedIconExtensions:]
+-[ITunesPurpleBundleIconDescriber findAllImagesUsingImagesAsPrefixName:]
+-[ITunesPurpleBundleIconDescriber execute]
+-[ITunesAbstractPurpleSoftwareDescriberContext init]
+-[ITunesAbstractPurpleSoftwareDescriberContext dealloc]
+-[ITunesAbstractPurpleSoftwareDescriberContext errors]
+-[ITunesAbstractPurpleSoftwareDescriberContext describeErrors]
+_TransformErrorsToArrayOfDictionaries
+-[ITunesAbstractPurpleSoftwareDescriberContext describeWarnings]
+-[ITunesAbstractPurpleSoftwareDescriberContext addError:]
+-[ITunesAbstractPurpleSoftwareDescriberContext addErrors:]
+-[ITunesAbstractPurpleSoftwareDescriberContext warnings]
+-[ITunesAbstractPurpleSoftwareDescriberContext addWarning:]
+-[ITunesAbstractPurpleSoftwareDescriberContext addWarnings:]
+-[ITunesAbstractPurpleSoftwareDescriberContext bundles]
+-[ITunesAbstractPurpleSoftwareDescriberContext addBundle:]
+-[ITunesAbstractPurpleSoftwareDescriberContext path]
+-[ITunesAbstractPurpleSoftwareDescriberContext setPath:]
+-[ITunesAbstractPurpleSoftwareDescriberContext fullPath]
+-[ITunesAbstractPurpleSoftwareDescriberContext setFullPath:]
+-[ITunesAbstractPurpleSoftwareDescriberContext relativePath]
+-[ITunesAbstractPurpleSoftwareDescriberContext setRelativePath:]
+-[ITunesAbstractPurpleSoftwareDescriberContext frameworkFiles]
+-[ITunesAbstractPurpleSoftwareDescriberContext addFrameworkFile:]
+-[ITunesAbstractPurpleSoftwareDescriberContext addFrameworkFiles:]
+-[ITunesAbstractPurpleSoftwareDescriberContext bundleExecutables]
+-[ITunesAbstractPurpleSoftwareDescriberContext addBundleExecutable:]
+-[ITunesAbstractPurpleSoftwareDescriberContext mainBundleExecutablePath]
+-[ITunesAbstractPurpleSoftwareDescriberContext setMainBundleExecutablePath:]
++[ITunesPurpleFileOfInterest initialize]
++[ITunesPurpleFileOfInterest fileOfInterestWithPath:context:]
+-[ITunesPurpleFileOfInterest initWithPath:context:]
+-[ITunesPurpleFileOfInterest dealloc]
+-[ITunesPurpleFileOfInterest context]
+-[ITunesPurpleFileOfInterest addReasonCode:]
+-[ITunesPurpleFileOfInterest path]
+-[ITunesPurpleFileOfInterest fileName]
+-[ITunesPurpleFileOfInterest hasResourceFork]
+-[ITunesPurpleFileOfInterest setHasResourceFork:]
+-[ITunesPurpleFileOfInterest hasFinderInfo]
+-[ITunesPurpleFileOfInterest setHasFinderInfo:]
+-[ITunesPurpleFileOfInterest hasExtendedAttributes]
+-[ITunesPurpleFileOfInterest setHasExtendedAttributes:]
+-[ITunesPurpleFileOfInterest hasACL]
+-[ITunesPurpleFileOfInterest setHasACL:]
+-[ITunesPurpleFileOfInterest isFileOfInterest]
+-[ITunesPurpleFileOfInterest setConsideredExecutable:]
+-[ITunesPurpleFileOfInterest isConsideredExecutable]
+-[ITunesPurpleFileOfInterest skipSymlinkDescription]
+-[ITunesPurpleFileOfInterest checkFileCommand]
+-[ITunesPurpleFileOfInterest checkOtoolCommand]
+-[ITunesPurpleFileOfInterest shouldIncludeLipoErrorExtractingArchitectureInfo:]
+-[ITunesPurpleFileOfInterest checkCodesignAllocate:]
+-[ITunesPurpleFileOfInterest checkLipoCommand]
+-[ITunesPurpleFileOfInterest checkCodeSigningisValid]
+-[ITunesPurpleFileOfInterest checkCerts]
+-[ITunesPurpleFileOfInterest checkDwarfdumpCommand]
+-[ITunesPurpleFileOfInterest checkFileUti]
+-[ITunesPurpleFileOfInterest checkFileSize]
+-[ITunesPurpleFileOfInterest checkInfoPlistStringsFile]
+-[ITunesPurpleFileOfInterest execute]
+-[ITunesPurpleFileOfInterest describeAsPlist]
+-[ITunesPurpleFileOfInterest isMachOExecutable]
+-[ITunesPurpleFileOfInterest setMachOExecutable:]
+-[ITunesPurpleFileOfInterest isExecutableScript]
+-[ITunesPurpleFileOfInterest setExecutableScript:]
+-[ITunesPurpleFileOfInterest isBundleExecutable]
+-[ITunesPurpleFileOfInterest setBundleExecutable:]
+-[ITunesPurpleFileOfInterest isMainBundleExecutable]
+-[ITunesPurpleFileOfInterest setMainBundleExecutable:]
+-[ITunesPurpleFileOfInterest fullPath]
+-[ITunesPurpleFileOfInterest setFullPath:]
+-[ITunesPurpleFileOfInterest posixValue]
+-[ITunesPurpleFileOfInterest setPosixValue:]
+-[ITunesPurpleFileOfInterest fileCommandOutput]
+-[ITunesPurpleFileOfInterest setFileCommandOutput:]
+-[ITunesPurpleFileOfInterest otoolCommandOutput]
+-[ITunesPurpleFileOfInterest setOtoolCommandOutput:]
+-[ITunesPurpleFileOfInterest lipoCommandOutput]
+-[ITunesPurpleFileOfInterest setLipoCommandOutput:]
+-[ITunesPurpleFileOfInterest dwarfdumpCommandOutput]
+-[ITunesPurpleFileOfInterest setDwarfdumpCommandOutput:]
+-[ITunesPurpleFileOfInterest codesignAllocateResult]
+-[ITunesPurpleFileOfInterest setCodesignAllocateResult:]
+-[ITunesPurpleFileOfInterest uti]
+-[ITunesPurpleFileOfInterest setUti:]
+-[ITunesPurpleFileOfInterest type]
+-[ITunesPurpleFileOfInterest setType:]
+-[ITunesPurpleFileOfInterest size]
+-[ITunesPurpleFileOfInterest setSize:]
+-[ITunesPurpleFileOfInterest symlinkTarget]
+-[ITunesPurpleFileOfInterest setSymlinkTarget:]
+-[ITunesPurpleFileOfInterest isSymlink]
+-[ITunesPurpleFileOfInterest setIsSymlink:]
+-[ITunesPurpleFileOfInterest fileData]
+-[ITunesPurpleFileOfInterest setFileData:]
+-[ITunesPurpleFileOfInterest isDirectory]
+-[ITunesPurpleFileOfInterest setIsDirectory:]
+-[ITunesPurpleFileOfInterest signingAnalyzerResult]
+-[ITunesPurpleFileOfInterest setSigningAnalyzerResult:]
+-[ITunesPurpleFileOfInterest archBoundSigningAnalyzerResult]
+-[ITunesPurpleFileOfInterest setArchBoundSigningAnalyzerResult:]
+-[ITunesPurpleFileOfInterest infoPlistStrings]
+-[ITunesPurpleFileOfInterest setInfoPlistStrings:]
+-[ITunesPurpleBundleLaunchImageDescriber allReferencedLaunchImageNamesRegardlessOfOSVersionWithErrors:]
+-[ITunesPurpleBundleLaunchImageDescriber describeLaunchImagesNamed:errorIfAbsent:]
++[ITunesPurpleBundleLaunchImageDescriber defaultImageNames]
+-[ITunesPurpleBundleLaunchImageDescriber execute]
+-[MZWebServicePurpleArchiveExtractorWorker initWithArchivePath:]
+-[MZWebServicePurpleArchiveExtractorWorker run]
+-[MZWebServicePurpleArchiveExtractorWorker seriesCompleted]
+-[MZWebServicePurpleArchiveExtractorWorker expander]
+-[MZWebServicePurpleArchiveExtractorWorker setExpander:]
+-[MZWebServicePurpleArchiveExtractorWorker archivePath]
+-[MZWebServicePurpleArchiveExtractorWorker setArchivePath:]
+-[MZWebServicePurpleArchiveExtractorWorker extractionPath]
+-[MZWebServicePurpleArchiveExtractorWorker setExtractionPath:]
+-[MZWebServicePurpleArchiveExtractorWorker delegate]
+-[MZWebServicePurpleArchiveExtractorWorker setDelegate:]
+-[MZWebServiceFirenzeArchiveExtractorWorker initWithArchivePath:]
+-[MZWebServiceFirenzeArchiveExtractorWorker mainBundlePathWithData:error:]
+-[MZWebServiceFirenzeArchiveExtractorWorker run]
+-[MZWebServiceFirenzeArchiveExtractorWorker cleanupDestinationDirectory]
+-[MZWebServiceFirenzeArchiveExtractorWorker expander]
+-[MZWebServiceFirenzeArchiveExtractorWorker setExpander:]
+-[MZWebServiceFirenzeArchiveExtractorWorker archivePath]
+-[MZWebServiceFirenzeArchiveExtractorWorker setArchivePath:]
+-[MZWebServiceFirenzeArchiveExtractorWorker extractionPath]
+-[MZWebServiceFirenzeArchiveExtractorWorker setExtractionPath:]
+-[MZWebServiceFirenzeArchiveExtractorWorker delegate]
+-[MZWebServiceFirenzeArchiveExtractorWorker setDelegate:]
+-[NSError(ITunesSoftwareServiceExtensions) describeAsPlist]
++[ITunesContextualError errorWithError:]
+-[ITunesContextualError initWithError:]
+-[ITunesContextualError dealloc]
+-[ITunesContextualError describeAsPlist]
+-[ITunesContextualError path]
+-[ITunesContextualError setPath:]
+-[ITunesContextualError osStatus]
+-[ITunesContextualError setOsStatus:]
+-[ITunesSigningAnalyzerArchBound initWithPath:]
+-[ITunesSigningAnalyzerArchBound dealloc]
+-[ITunesSigningAnalyzerArchBound path]
+-[ITunesSigningAnalyzerArchBound executablePath]
+-[ITunesSigningAnalyzerArchBound cleanFormatString:]
+-[ITunesSigningAnalyzerArchBound extractArchitecturesForURL:error:]
+_GenerateErrorWithOSStatus
+-[ITunesSigningAnalyzerArchBound extractResultForURL:attributes:error:]
+-[ITunesSigningAnalyzerArchBound analyzeExecutableAtPath:error:]
+-[ITunesSigningAnalyzerArchBound analyzeWithError:]
+-[ITunesSigningAnalyzerArchBound analyzeExecutableAtPathWithError:]
+-[ITunesSigningAnalyzerArchBound architectures]
+-[ITunesSigningAnalyzerArchBound setArchitectures:]
++[ITunesSigningAnalyzerArchBoundResult signingAnalysisWithCertificates:entitlements:entitlementsData:signingIdentifier:signingTeamIdentifier:]
++[ITunesSigningAnalyzerArchBoundResult resultWithArchBoundData:]
+-[ITunesSigningAnalyzerArchBoundResult initWithArchBoundData:]
+-[ITunesSigningAnalyzerArchBoundResult dealloc]
+-[ITunesSigningAnalyzerArchBoundResult hasData]
+-[ITunesSigningAnalyzerArchBoundResult describeAsPlist]
+-[ITunesSigningAnalyzerArchBoundResult descriptionWithLocale:indent:]
+-[ITunesSigningAnalyzerArchBoundResult description]
+-[ITunesSigningAnalyzerArchBoundResult archDataBoundData]
+-[ITunesSigningAnalyzerArchBoundResult setArchDataBoundData:]
+GCC_except_table31
+GCC_except_table38
+GCC_except_table39
+GCC_except_table40
+GCC_except_table42
+GCC_except_table45
+GCC_except_table46
+GCC_except_table47
+GCC_except_table48
+GCC_except_table50
+GCC_except_table55
+GCC_except_table64
+GCC_except_table68
+GCC_except_table69
+GCC_except_table70
+GCC_except_table71
+GCC_except_table72
+GCC_except_table73
+GCC_except_table74
+GCC_except_table15
+GCC_except_table16
+GCC_except_table17
+GCC_except_table9
+GCC_except_table10
+GCC_except_table9
+GCC_except_table5
+GCC_except_table6
+GCC_except_table9
+GCC_except_table6
+GCC_except_table7
+GCC_except_table9
+GCC_except_table15
+GCC_except_table15
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table9
+GCC_except_table10
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table6
+GCC_except_table4
+GCC_except_table0
+GCC_except_table2
+GCC_except_table2
+GCC_except_table26
+GCC_except_table27
+GCC_except_table28
+GCC_except_table21
+GCC_except_table23
+GCC_except_table24
+GCC_except_table27
+GCC_except_table1
+GCC_except_table2
+GCC_except_table2
+GCC_except_table5
+GCC_except_table7
+-[PNGAnalyzer analyzeData:file:].signature
+__knownArchitectures
+_OBJC_IVAR_$_XarCommandExecutor._path
+_OBJC_IVAR_$_ITunesSoftwareServiceApplicationVersionsResponse._applicationVersions
+_OBJC_IVAR_$_ITunesSoftwareServiceApplicationVersionsResponse._alertMessage
+_OBJC_IVAR_$_ITunesSoftwareDeviceDescription._internalName
+_OBJC_IVAR_$_ITunesSoftwareDeviceDescription._marketingName
+_OBJC_IVAR_$_ITunesSoftwareVersionDescription._marketingVersion
+_OBJC_IVAR_$_ITunesSoftwareVersionDescription._shortVersion
+_OBJC_IVAR_$_ITunesSoftwareVersionDescription._version
+_OBJC_IVAR_$_ITunesSoftwareVersionDescription._binaryUUIDs
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersionsForApplication._application
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersionsForApplication._applicationVersions
+_OBJC_IVAR_$_ITunesCodesignAllocateExecutor._executablePath
+_OBJC_IVAR_$_ITunesCodesignAllocateExecutor._uniqueTemporaryOutputPath
+_OBJC_IVAR_$_ITunesCodesignAllocateExecutor._architectures
+_OBJC_IVAR_$_ITunesSoftwareServiceResponse._infoMessages
+_OBJC_IVAR_$_ITunesSoftwareBundleDescription._applicationType
+_OBJC_IVAR_$_ITunesSoftwareBundleDescription._existingBundleIdentifier
+_OBJC_IVAR_$_ITunesSoftwareBundleDescription._displayableDescription
+_OBJC_IVAR_$_AbstractValidateSoftwareAttributes._bundleId
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._bundleId
+_OBJC_IVAR_$_MZWebServiceValidatePurpleSoftwareAttributes._path
+_OBJC_IVAR_$_ITunesSigningAnalyzerResult._signingIdentifier
+_OBJC_IVAR_$_ITunesSigningAnalyzerResult._signingTeamIdentifier
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareForBundleId._bundleId
+_OBJC_IVAR_$_MachLipoArchitectureAnalyzerEntry._wasStandardized
+_OBJC_IVAR_$_OtoolCommandExecutor._path
+_OBJC_IVAR_$_OtoolCommandExecutor._mainBundleExecutable
+_OBJC_IVAR_$_ITunesSoftwareServiceSymbolURLResponse._urls
+_OBJC_IVAR_$_MZWebServiceLookupSymbolURLsForSoftwareVersion._symbolURLs
+_OBJC_IVAR_$_MZWebServiceLookupSymbolURLsForSoftwareVersion._symbolUUIDs
+_OBJC_IVAR_$_ITunesPurplePackageDescriberContext._payloadPaths
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriberContext._xarCommandResult
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._imageURL
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._extensions
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._XPCServices
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._childApplications
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._supportedDevices
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._supportedOSVersions
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._marketingVersion
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._shortVersion
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._version
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._binaryUUIDs
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._wasApprovedForPrereleaseDistribution
+_OBJC_IVAR_$_ITunesSoftwareApplicationVersionDescription._wasApprovedForSaleDistribution
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._path
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._extractionPath
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._mainBundleExecutablePath
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._fullPath
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._isDirectory
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._machOExecutable
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._executableScript
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._posixValue
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._fileCommandOutput
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._otoolCommandOutput
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._lipoCommandOutput
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._dwarfdumpCommandOutput
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._codesignAllocateResult
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._uti
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._size
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._symlinkTarget
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._fileData
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._signingAnalyzerResult
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._type
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._isSymlink
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._archBoundSigningAnalyzerResult
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._infoPlistStrings
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._bundleExecutable
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._mainBundleExecutable
+_OBJC_IVAR_$_MZWebServicePurpleArchiveExtractorWorker._archivePath
+_OBJC_IVAR_$_MZWebServicePurpleArchiveExtractorWorker._expander
+_OBJC_IVAR_$_MZWebServicePurpleArchiveExtractorWorker._delegate
+_OBJC_IVAR_$_MZWebServicePurpleArchiveExtractorWorker._extractionPath
+_OBJC_IVAR_$_MZWebServiceFirenzeArchiveExtractorWorker._archivePath
+_OBJC_IVAR_$_MZWebServiceFirenzeArchiveExtractorWorker._expander
+_OBJC_IVAR_$_MZWebServiceFirenzeArchiveExtractorWorker._delegate
+_OBJC_IVAR_$_MZWebServiceFirenzeArchiveExtractorWorker._extractionPath
+_OBJC_IVAR_$_ITunesContextualError._path
+_OBJC_IVAR_$_ITunesContextualError._osStatus
+_OBJC_IVAR_$_ITunesSigningAnalyzerArchBound._architectures
+_OBJC_IVAR_$_ITunesSigningAnalyzerArchBoundResult._archDataBoundData
++[ITunesSoftwareServiceImpl applicationLoaderBundle]._logged
+__supportedArchitectures
++[DeviceValidationContextFactory factory]._factory
+__ITunesSoftwareServiceErrorCodeToStringMappingDictionary
++[ITunesSoftwareServiceValidationConfiguration publicPurpleConfigurationKeys]._publicPurpleConfigurationKeys
++[ITunesSoftwareServiceValidationConfiguration publicFirenzeConfigurationKeys]._publicFirenzeConfigurationKeys
++[ITunesSoftwareServiceValidationConfiguration publicConfigurationKeys]._publicConfigurationKeys
+__securityFramework
+__teamIdentifierPtr
+-[MachFileCommandExecutor taskWithError:]._checkedExecutableStatus
+_MachFileCommandAnalyzerExecutablePath._executablePath
+_MZDeveloperToolSearchPaths._paths
+_MZDeveloperSubdirectoriesToSearch._subdirectories
++[MachFileCommandArchitectureAnalyzer architectureExpressionWithError:]._expression
++[MachLipoArchitectureAnalyzer architectureExpressionWithError:]._expression
++[MachLipoArchitectureAnalyzer architectureSeparatorExpressionWithError:]._expression
++[MachLipoArchitectureAnalyzer unknownArchitectureExpressionWithError:]._expression
++[MachLipoArchitectureAnalyzer undefinedArchitectureExpressionWithError:]._expression
++[ITunesPurpleBundleDescriberContext deviceAndOperatingSystemSuffixPermutations]._variants
+_CodesignEntitlementVerifierExecutable
+_DeviceValidationDefaultSupportedArchitectures
+_FirenzeArchiveExpanderProductutilExecutable
+_FixProductutilErrorKeys
+_ITunesApplicationSPIExtractorExecutable
+_ITunesContextualErrorPlistsAreTheSame
+_ITunesPurpleBundleIconValidateClassWithErrorCode
+_ITunesPurpleBundleIconValidateClassesWithErrorCode
+_ITunesPurpleFileOfInterestRegularExpression
+_ITunesPurpleNormalFileRegularExpression
+_ITunesPurpleReservedDirectoryExpression
+_ITunesPurpleShouldIncludeDataExpression
+_ITunesSoftwareApplicationFalseResponse
+_ITunesSoftwareApplicationLatestOperatingSystemQualificationQuestionVersion
+_ITunesSoftwareApplicationTestedOn30
+_ITunesSoftwareApplicationTestedOn40
+_ITunesSoftwareApplicationTrueResponse
+_ITunesSoftwareServiceConfigurationPath
+_ITunesSoftwareServiceErrorDomain
+_ITunesSoftwareServiceErrorFromException
+_ITunesSoftwareServiceGenerateError
+_ITunesSoftwareServiceGenerateFullError
+_ITunesSoftwareServiceGenerateFullErrorWithUnderlying
+_ITunesSoftwareServiceSoftwareTypeKey
+_ITunesSoftwareServiceStringEnumerationForErrorInteger
+_ITunesSoftwareServiceSwinfoShouldSkipSymlinkDescription
+_ITunesSoftwareServiceVersionNumber
+_ITunesSoftwareServiceVersionString
+_ITunesSoftwareServicesPurpleUtilIconAllowedExtensions
+_ITunesSoftwareServicesPurpleUtilLaunchImageAllowedExtensions
+_ITunesSoftwareServicesUtilIconAllowedExtensions
+_ITunesSwinfoBlackListedProductutilKeys
+_ITunesSwinfoCodesToUnique
+_ITunesWeakLoader_TeamSigningIdentifierKey
+_MZAbstractWebServiceFileSenderBase64EncodedFilesKey
+_MZDeveloperDirectories
+_MZDeveloperFindXcodeBundleIfAvailable
+_MZDeveloperKnownXcodeApplicationBundles
+_MZDeveloperKnownXcodeApplicationDeveloperPaths
+_MZDeveloperPlaformPaths
+_MZDeveloperPlaformPathsWithPlatformType
+_MZDeveloperToolPathForExecutable
+_MZDeveloperToolPathForExecutableInSearchPaths
+_MZDeveloperToolSearchPaths
+_MZDeveloperToolSearchPathsWithPlatformType
+_MZDeveloperToolchainPaths
+_MZDeveloperXcodeDeveloperPathIfAvailable
+_MZMachArchitectureFatIOS
+_MZMachArchitectureStringWithArchtecture
+_MZMachArchitectureWithString
+_MZMachArchitectureWithStringAndWasStandardized
+_MZWebServiceValidateSoftwareSPIUsageMaximumSize
+_MachDwarfdumpExecutable
+_MachFileCommandArchitectureExecutable
+_OBJC_CLASS_$_AbstractDeviceValidationContext
+_OBJC_CLASS_$_AbstractValidateSoftwareAttributes
+_OBJC_CLASS_$_CodesignEntitlementAnalyzer
+_OBJC_CLASS_$_DeviceContextIPad
+_OBJC_CLASS_$_DeviceContextIPhone
+_OBJC_CLASS_$_DeviceContextIPodTouch
+_OBJC_CLASS_$_DeviceValidationContextFactory
+_OBJC_CLASS_$_FirenzeApplicationArchiveVerifier
+_OBJC_CLASS_$_FirenzeApplicationVerifier
+_OBJC_CLASS_$_FirenzeArchiveExpander
+_OBJC_CLASS_$_ITunesAbstractPurpleSoftwareDescriberContext
+_OBJC_CLASS_$_ITunesAbstractVerifier
+_OBJC_CLASS_$_ITunesApplicationSPIExtractor
+_OBJC_CLASS_$_ITunesApplicationSPIExtractorWorker
+_OBJC_CLASS_$_ITunesCodesignAllocateExecutor
+_OBJC_CLASS_$_ITunesContextualError
+_OBJC_CLASS_$_ITunesFirenzeSoftwarePackageBuilderWorker
+_OBJC_CLASS_$_ITunesFirenzeSoftwareValidationWorker
+_OBJC_CLASS_$_ITunesIconAnalyzer
+_OBJC_CLASS_$_ITunesIconAnalyzerResult
+_OBJC_CLASS_$_ITunesInAppPurchasePackageBuilderWorker
+_OBJC_CLASS_$_ITunesPurpleBundleDescriberContext
+_OBJC_CLASS_$_ITunesPurpleBundleIconDescriber
+_OBJC_CLASS_$_ITunesPurpleBundleLaunchImageDescriber
+_OBJC_CLASS_$_ITunesPurpleFileOfInterest
+_OBJC_CLASS_$_ITunesPurplePackageDescriberContext
+_OBJC_CLASS_$_ITunesPurpleProductMetadataDescriber
+_OBJC_CLASS_$_ITunesPurpleProductMetadataDescriberContext
+_OBJC_CLASS_$_ITunesPurpleSoftwareArchitectureDescriber
+_OBJC_CLASS_$_ITunesPurpleSoftwareInfoPlistLoader
+_OBJC_CLASS_$_ITunesPurpleSoftwarePackageBuilderWorker
+_OBJC_CLASS_$_ITunesPurpleSoftwareSigningDescriber
+_OBJC_CLASS_$_ITunesSigningAnalyzer
+_OBJC_CLASS_$_ITunesSigningAnalyzerArchBound
+_OBJC_CLASS_$_ITunesSigningAnalyzerArchBoundResult
+_OBJC_CLASS_$_ITunesSigningAnalyzerResult
+_OBJC_CLASS_$_ITunesSoftwareApplicationDescription
+_OBJC_CLASS_$_ITunesSoftwareApplicationVersionDescription
+_OBJC_CLASS_$_ITunesSoftwareBundleDescription
+_OBJC_CLASS_$_ITunesSoftwareCodesignApplication
+_OBJC_CLASS_$_ITunesSoftwareCodesignParameter
+_OBJC_CLASS_$_ITunesSoftwareDeviceDescription
+_OBJC_CLASS_$_ITunesSoftwareExtensionVersionDescription
+_OBJC_CLASS_$_ITunesSoftwareService
+_OBJC_CLASS_$_ITunesSoftwareServiceApplicationVersionsResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceApplicationsResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceCodesignParametersResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceConnectedValidationResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceFactoryDelegate
+_OBJC_CLASS_$_ITunesSoftwareServiceImpl
+_OBJC_CLASS_$_ITunesSoftwareServicePathUtilities
+_OBJC_CLASS_$_ITunesSoftwareServiceResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceSPIUsageResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceSymbolURLResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceUploadResponse
+_OBJC_CLASS_$_ITunesSoftwareServiceValidationConfiguration
+_OBJC_CLASS_$_ITunesSoftwareServiceWorkSeriesFactory
+_OBJC_CLASS_$_ITunesSoftwareVersionDescription
+_OBJC_CLASS_$_ITunesSoftwareXPCServiceVersionDescription
+_OBJC_CLASS_$_ITunesSymlinkAnalyzer
+_OBJC_CLASS_$_MZAbstractWebServiceFileSender
+_OBJC_CLASS_$_MZWebServiceFirenzeArchiveExtractorWorker
+_OBJC_CLASS_$_MZWebServiceLookupHostedContentInAppPurchasesForSoftware
+_OBJC_CLASS_$_MZWebServiceLookupSoftwareForBundleId
+_OBJC_CLASS_$_MZWebServiceLookupSoftwareVersions
+_OBJC_CLASS_$_MZWebServiceLookupSoftwareVersionsForApplication
+_OBJC_CLASS_$_MZWebServiceLookupSoftwareWithHostedContent
+_OBJC_CLASS_$_MZWebServiceLookupSymbolURLsForSoftwareVersion
+_OBJC_CLASS_$_MZWebServicePurpleArchiveExtractorWorker
+_OBJC_CLASS_$_MZWebServiceSoftwareCodesignParameters
+_OBJC_CLASS_$_MZWebServiceValidateFirenzeProductAttributes
+_OBJC_CLASS_$_MZWebServiceValidateHostedContentIAPPackage
+_OBJC_CLASS_$_MZWebServiceValidatePurpleSoftwareAttributes
+_OBJC_CLASS_$_MZWebServiceValidateSoftwareSPIUsage
+_OBJC_CLASS_$_MachDwarfdumpAnalyzer
+_OBJC_CLASS_$_MachDwarfdumpAnalyzerEntry
+_OBJC_CLASS_$_MachDwarfdumpExecutor
+_OBJC_CLASS_$_MachFileCommandArchitectureAnalyzer
+_OBJC_CLASS_$_MachFileCommandArchitectureAnalyzerEntry
+_OBJC_CLASS_$_MachFileCommandExecutor
+_OBJC_CLASS_$_MachLipoArchitectureAnalyzer
+_OBJC_CLASS_$_MachLipoArchitectureAnalyzerEntry
+_OBJC_CLASS_$_OtoolCommandExecutor
+_OBJC_CLASS_$_OtoolCommandExecutorResult
+_OBJC_CLASS_$_PNGAnalyzer
+_OBJC_CLASS_$_PNGInfo
+_OBJC_CLASS_$_PurpleApplicationArchiveExpander
+_OBJC_CLASS_$_SIPSPNGAnalyzer
+_OBJC_CLASS_$_XarCommandExecutor
+_OBJC_CLASS_$_XarCommandExecutorResult
+_OBJC_IVAR_$_AbstractDeviceValidationContext._infoPlist
+_OBJC_IVAR_$_AbstractValidateSoftwareAttributes._appleId
+_OBJC_IVAR_$_AbstractValidateSoftwareAttributes._applicationAttributes
+_OBJC_IVAR_$_AbstractValidateSoftwareAttributes._validationOnly
+_OBJC_IVAR_$_CodesignEntitlementAnalyzer._entitlements
+_OBJC_IVAR_$_CodesignEntitlementAnalyzer._executablePath
+_OBJC_IVAR_$_CodesignEntitlementAnalyzer._rawEntitlements
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._archiveOutput
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._config
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._expander
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._extractionPath
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._productFilesToSendOverride
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._validateProductBundles
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._validateProductErrors
+_OBJC_IVAR_$_FirenzeApplicationArchiveVerifier._validateProductSignature
+_OBJC_IVAR_$_FirenzeApplicationVerifier._supportedProductArchitectures
+_OBJC_IVAR_$_FirenzeApplicationVerifier._symlinkAnalyzer
+_OBJC_IVAR_$_FirenzeApplicationVerifier._validateProductArchitectures
+_OBJC_IVAR_$_FirenzeApplicationVerifier._validateProductBundleArchitectures
+_OBJC_IVAR_$_FirenzeApplicationVerifier._validateProductRequiredArchitectures
+_OBJC_IVAR_$_FirenzeApplicationVerifier._validateProductSupportedArchitectures
+_OBJC_IVAR_$_FirenzeArchiveExpander._extractionPath
+_OBJC_IVAR_$_FirenzeArchiveExpander._output
+_OBJC_IVAR_$_FirenzeArchiveExpander._path
+_OBJC_IVAR_$_FirenzeArchiveExpander._rawOutput
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._bundleExecutables
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._bundles
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._errors
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._frameworkFiles
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._fullPath
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._path
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._relativePath
+_OBJC_IVAR_$_ITunesAbstractPurpleSoftwareDescriberContext._warnings
+_OBJC_IVAR_$_ITunesAbstractVerifier._nonretainedDelegate
+_OBJC_IVAR_$_ITunesAbstractVerifier._path
+_OBJC_IVAR_$_ITunesAbstractVerifier._validationErrors
+_OBJC_IVAR_$_ITunesApplicationSPIExtractor._inputDirectory
+_OBJC_IVAR_$_ITunesApplicationSPIExtractor._output
+_OBJC_IVAR_$_ITunesApplicationSPIExtractor._outputFilePath
+_OBJC_IVAR_$_ITunesApplicationSPIExtractorWorker._extractor
+_OBJC_IVAR_$_ITunesApplicationSPIExtractorWorker._inputDirectory
+_OBJC_IVAR_$_ITunesApplicationSPIExtractorWorker._nonretainedDelegate
+_OBJC_IVAR_$_ITunesApplicationSPIExtractorWorker._outputFilePath
+_OBJC_IVAR_$_ITunesFirenzeSoftwareValidationWorker._archiveOutput
+_OBJC_IVAR_$_ITunesFirenzeSoftwareValidationWorker._config
+_OBJC_IVAR_$_ITunesFirenzeSoftwareValidationWorker._file
+_OBJC_IVAR_$_ITunesFirenzeSoftwareValidationWorker._nonretainedDelegate
+_OBJC_IVAR_$_ITunesFirenzeSoftwareValidationWorker._verifier
+_OBJC_IVAR_$_ITunesIconAnalyzer._path
+_OBJC_IVAR_$_ITunesIconAnalyzerResult._path
+_OBJC_IVAR_$_ITunesIconAnalyzerResult._sizes
+_OBJC_IVAR_$_ITunesIconAnalyzerResult._type
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._CFBundleShortVersionString
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._CFBundleVersion
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._archs
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._bundleIdentifier
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._bundlePath
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._hasMASReceipt
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._iconAnalysisResults
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._infoPlist
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._infoPlistPath
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._launchImageAnalysisResults
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._nonretainedParentContext
+_OBJC_IVAR_$_ITunesPurpleBundleDescriberContext._signingAnalyzerResult
+_OBJC_IVAR_$_ITunesPurpleBundleIconDescriber._context
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._hasACL
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._hasExtendedAttributes
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._hasFinderInfo
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._hasResourceFork
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._isConsideredExecutable
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._nonretainedContext
+_OBJC_IVAR_$_ITunesPurpleFileOfInterest._reasons
+_OBJC_IVAR_$_ITunesPurplePackageDescriberContext._files
+_OBJC_IVAR_$_ITunesPurplePackageDescriberContext._productutilOutput
+_OBJC_IVAR_$_ITunesPurplePackageDescriberContext._unbundledPaths
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._expander
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._iconFiles
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._macExpander
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriber._resourceSpecifications
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriberContext._archiveBytes
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriberContext._fileName
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriberContext._packages
+_OBJC_IVAR_$_ITunesPurpleProductMetadataDescriberContext._productutilOutput
+_OBJC_IVAR_$_ITunesPurpleSoftwareArchitectureDescriber._context
+_OBJC_IVAR_$_ITunesPurpleSoftwareInfoPlistLoader._path
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._attributes
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._copy
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._file
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._md5Worker
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._metadataTemplate
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._nonretainedDelegate
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._packageDirectory
+_OBJC_IVAR_$_ITunesPurpleSoftwarePackageBuilderWorker._size
+_OBJC_IVAR_$_ITunesPurpleSoftwareSigningDescriber._context
+_OBJC_IVAR_$_ITunesSigningAnalyzer._path
+_OBJC_IVAR_$_ITunesSigningAnalyzerArchBound._path
+_OBJC_IVAR_$_ITunesSigningAnalyzerResult._certificates
+_OBJC_IVAR_$_ITunesSigningAnalyzerResult._entitlements
+_OBJC_IVAR_$_ITunesSigningAnalyzerResult._entitlementsData
+_OBJC_IVAR_$_ITunesSoftwareApplicationDescription._alertMessage
+_OBJC_IVAR_$_ITunesSoftwareApplicationDescription._appleId
+_OBJC_IVAR_$_ITunesSoftwareApplicationDescription._attributes
+_OBJC_IVAR_$_ITunesSoftwareApplicationDescription._fullAttributes
+_OBJC_IVAR_$_ITunesSoftwareApplicationDescription._userInfo
+_OBJC_IVAR_$_ITunesSoftwareCodesignApplication._bundleIdentifier
+_OBJC_IVAR_$_ITunesSoftwareCodesignApplication._filename
+_OBJC_IVAR_$_ITunesSoftwareCodesignParameter._application
+_OBJC_IVAR_$_ITunesSoftwareCodesignParameter._designatedRequirement
+_OBJC_IVAR_$_ITunesSoftwareCodesignParameter._parametersFromServer
+_OBJC_IVAR_$_ITunesSoftwareCodesignParameter._signingIdentifier
+_OBJC_IVAR_$_ITunesSoftwareServiceApplicationsResponse._alertMessage
+_OBJC_IVAR_$_ITunesSoftwareServiceApplicationsResponse._applications
+_OBJC_IVAR_$_ITunesSoftwareServiceCodesignParametersResponse._parameters
+_OBJC_IVAR_$_ITunesSoftwareServiceFactoryDelegate._nonretainedExtractorWorker
+_OBJC_IVAR_$_ITunesSoftwareServiceFactoryDelegate._nonretainedFactory
+_OBJC_IVAR_$_ITunesSoftwareServiceFactoryDelegate._nonretainedFirenzeValidationWorker
+_OBJC_IVAR_$_ITunesSoftwareServiceFactoryDelegate._nonretainedFirenzeValidator
+_OBJC_IVAR_$_ITunesSoftwareServiceFactoryDelegate._nonretainedValidator
+_OBJC_IVAR_$_ITunesSoftwareServiceImpl._lock
+_OBJC_IVAR_$_ITunesSoftwareServiceResponse._cancelled
+_OBJC_IVAR_$_ITunesSoftwareServiceResponse._errors
+_OBJC_IVAR_$_ITunesSoftwareServiceResponse._warnings
+_OBJC_IVAR_$_ITunesSoftwareServiceSPIUsageResponse._clientInfoFileContents
+_OBJC_IVAR_$_ITunesSoftwareServiceUploadResponse._failureLog
+_OBJC_IVAR_$_ITunesSoftwareServiceUploadResponse._password
+_OBJC_IVAR_$_ITunesSoftwareServiceUploadResponse._uploadFailure
+_OBJC_IVAR_$_ITunesSoftwareServiceUploadResponse._username
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._deviceFamilyOverrides
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._disallowedPaths
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._filesToSendOverride
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._metadataTemplate
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._productFilesToSendOverride
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._productMetadataTemplate
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._requireDeviceFamily
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._serverSideVerification
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._supportedArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._supportedProductArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateBundleResource
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateCodeResources
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateCodesignEntitlements
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateDeviceFamily
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateFatArchitecturesBasedOnMinimumOSVersion
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateFirenzeSPIUsage
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateIcon
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateIconSize
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validatePayload
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductBundleArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductErrors
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductMetadataServerSide
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductRequiredArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductSignature
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductSupportedArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductSymlinkExists
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateProductSymlinkResolvesLocally
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validatePurpleSPIUsage
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateRequiredArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateSupportedArchitectures
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateSymlinkExists
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateSymlinkResolvesLocally
+_OBJC_IVAR_$_ITunesSoftwareServiceValidationConfiguration._validateZip
+_OBJC_IVAR_$_ITunesSoftwareServiceWorkSeriesFactory._application
+_OBJC_IVAR_$_ITunesSymlinkAnalyzer._basePath
+_OBJC_IVAR_$_ITunesSymlinkAnalyzer._path
+_OBJC_IVAR_$_ITunesSymlinkAnalyzer._validateSymlinkExists
+_OBJC_IVAR_$_ITunesSymlinkAnalyzer._validateSymlinkResolvesLocally
+_OBJC_IVAR_$_MZAbstractWebServiceFileSender._filePathsContents
+_OBJC_IVAR_$_MZAbstractWebServiceFileSender._filePathsError
+_OBJC_IVAR_$_MZAbstractWebServiceFileSender._filePathsToSend
+_OBJC_IVAR_$_MZWebServiceLookupHostedContentInAppPurchasesForSoftware._appleId
+_OBJC_IVAR_$_MZWebServiceLookupHostedContentInAppPurchasesForSoftware._displayableKeys
+_OBJC_IVAR_$_MZWebServiceLookupHostedContentInAppPurchasesForSoftware._inAppPurchases
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._applicationAlertMessages
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._applicationAttributes
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._applicationMapping
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._applications
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._bundleResourceVerification
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._deviceFamilyOverrides
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._disableSigniantTCP
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._disallowedPaths
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._displayableKeys
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._enableValidation
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._filesToSendOverride
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._iconSizeVerification
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._iconVerification
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._metadataTemplate
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._overallAlertMessage
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._productFilesToSendOverride
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._productMetadataTemplate
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._requireDeviceFamily
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._requirePayloadDirectory
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._serverSideVerification
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._supportedArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._supportedProductArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._transportOverride
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateCodeResources
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateCodesignEnitlements
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateDeviceFamily
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateFatArchitecturesBasedOnMinimumOSVersion
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateFirenzeSPIUsage
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductBundleArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductErrors
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductMetadataServerSide
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductRequiredArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductSignature
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductSupportedArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductSymlinkExists
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateProductSymlinkResolvesLocally
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validatePurpleSPIUsage
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateRequiredArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateSupportedArchitectures
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateSymlinkExists
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._validateSymlinkResolvesLocally
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._zipFilenameVerification
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareVersions._zipIntegrity
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareWithHostedContent._applicationAttributes
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareWithHostedContent._applications
+_OBJC_IVAR_$_MZWebServiceLookupSoftwareWithHostedContent._displayableKeys
+_OBJC_IVAR_$_MZWebServiceSoftwareCodesignParameters._application
+_OBJC_IVAR_$_MZWebServiceSoftwareCodesignParameters._otherApplications
+_OBJC_IVAR_$_MZWebServiceSoftwareCodesignParameters._parameters
+_OBJC_IVAR_$_MZWebServiceSoftwareCodesignParameters._type
+_OBJC_IVAR_$_MZWebServiceValidateHostedContentIAPPackage._appleId
+_OBJC_IVAR_$_MZWebServiceValidateHostedContentIAPPackage._packagePath
+_OBJC_IVAR_$_MZWebServiceValidateHostedContentIAPPackage._productId
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._appleId
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._clientInfoFileContents
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._runningMessage
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._skipSending
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._softwareTypeEnum
+_OBJC_IVAR_$_MZWebServiceValidateSoftwareSPIUsage._validationOnly
+_OBJC_IVAR_$_MachDwarfdumpAnalyzer._architectures
+_OBJC_IVAR_$_MachDwarfdumpAnalyzerEntry._architecture
+_OBJC_IVAR_$_MachDwarfdumpAnalyzerEntry._uuid
+_OBJC_IVAR_$_MachDwarfdumpExecutor._executablePath
+_OBJC_IVAR_$_MachFileCommandArchitectureAnalyzer._architectures
+_OBJC_IVAR_$_MachFileCommandArchitectureAnalyzerEntry._architecture
+_OBJC_IVAR_$_MachFileCommandArchitectureAnalyzerEntry._family
+_OBJC_IVAR_$_MachFileCommandExecutor._filePath
+_OBJC_IVAR_$_MachLipoArchitectureAnalyzer._architectures
+_OBJC_IVAR_$_MachLipoArchitectureAnalyzer._executablePath
+_OBJC_IVAR_$_MachLipoArchitectureAnalyzerEntry._architecture
+_OBJC_IVAR_$_PNGAnalyzer._file
+_OBJC_IVAR_$_PNGInfo._error
+_OBJC_IVAR_$_PNGInfo._height
+_OBJC_IVAR_$_PNGInfo._isDevicePNG
+_OBJC_IVAR_$_PNGInfo._width
+_OBJC_IVAR_$_PurpleApplicationArchiveExpander._archivePath
+_OBJC_IVAR_$_PurpleApplicationArchiveExpander._extractionPath
+_OBJC_IVAR_$_SIPSPNGAnalyzer._cleanupFile
+_OBJC_IVAR_$_SIPSPNGAnalyzer._file
+_OBJC_IVAR_$_SIPSPNGAnalyzer._info
+_OBJC_METACLASS_$_AbstractDeviceValidationContext
+_OBJC_METACLASS_$_AbstractValidateSoftwareAttributes
+_OBJC_METACLASS_$_CodesignEntitlementAnalyzer
+_OBJC_METACLASS_$_DeviceContextIPad
+_OBJC_METACLASS_$_DeviceContextIPhone
+_OBJC_METACLASS_$_DeviceContextIPodTouch
+_OBJC_METACLASS_$_DeviceValidationContextFactory
+_OBJC_METACLASS_$_FirenzeApplicationArchiveVerifier
+_OBJC_METACLASS_$_FirenzeApplicationVerifier
+_OBJC_METACLASS_$_FirenzeArchiveExpander
+_OBJC_METACLASS_$_ITunesAbstractPurpleSoftwareDescriberContext
+_OBJC_METACLASS_$_ITunesAbstractVerifier
+_OBJC_METACLASS_$_ITunesApplicationSPIExtractor
+_OBJC_METACLASS_$_ITunesApplicationSPIExtractorWorker
+_OBJC_METACLASS_$_ITunesCodesignAllocateExecutor
+_OBJC_METACLASS_$_ITunesContextualError
+_OBJC_METACLASS_$_ITunesFirenzeSoftwarePackageBuilderWorker
+_OBJC_METACLASS_$_ITunesFirenzeSoftwareValidationWorker
+_OBJC_METACLASS_$_ITunesIconAnalyzer
+_OBJC_METACLASS_$_ITunesIconAnalyzerResult
+_OBJC_METACLASS_$_ITunesInAppPurchasePackageBuilderWorker
+_OBJC_METACLASS_$_ITunesPurpleBundleDescriberContext
+_OBJC_METACLASS_$_ITunesPurpleBundleIconDescriber
+_OBJC_METACLASS_$_ITunesPurpleBundleLaunchImageDescriber
+_OBJC_METACLASS_$_ITunesPurpleFileOfInterest
+_OBJC_METACLASS_$_ITunesPurplePackageDescriberContext
+_OBJC_METACLASS_$_ITunesPurpleProductMetadataDescriber
+_OBJC_METACLASS_$_ITunesPurpleProductMetadataDescriberContext
+_OBJC_METACLASS_$_ITunesPurpleSoftwareArchitectureDescriber
+_OBJC_METACLASS_$_ITunesPurpleSoftwareInfoPlistLoader
+_OBJC_METACLASS_$_ITunesPurpleSoftwarePackageBuilderWorker
+_OBJC_METACLASS_$_ITunesPurpleSoftwareSigningDescriber
+_OBJC_METACLASS_$_ITunesSigningAnalyzer
+_OBJC_METACLASS_$_ITunesSigningAnalyzerArchBound
+_OBJC_METACLASS_$_ITunesSigningAnalyzerArchBoundResult
+_OBJC_METACLASS_$_ITunesSigningAnalyzerResult
+_OBJC_METACLASS_$_ITunesSoftwareApplicationDescription
+_OBJC_METACLASS_$_ITunesSoftwareApplicationVersionDescription
+_OBJC_METACLASS_$_ITunesSoftwareBundleDescription
+_OBJC_METACLASS_$_ITunesSoftwareCodesignApplication
+_OBJC_METACLASS_$_ITunesSoftwareCodesignParameter
+_OBJC_METACLASS_$_ITunesSoftwareDeviceDescription
+_OBJC_METACLASS_$_ITunesSoftwareExtensionVersionDescription
+_OBJC_METACLASS_$_ITunesSoftwareService
+_OBJC_METACLASS_$_ITunesSoftwareServiceApplicationVersionsResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceApplicationsResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceCodesignParametersResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceConnectedValidationResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceFactoryDelegate
+_OBJC_METACLASS_$_ITunesSoftwareServiceImpl
+_OBJC_METACLASS_$_ITunesSoftwareServicePathUtilities
+_OBJC_METACLASS_$_ITunesSoftwareServiceResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceSPIUsageResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceSymbolURLResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceUploadResponse
+_OBJC_METACLASS_$_ITunesSoftwareServiceValidationConfiguration
+_OBJC_METACLASS_$_ITunesSoftwareServiceWorkSeriesFactory
+_OBJC_METACLASS_$_ITunesSoftwareVersionDescription
+_OBJC_METACLASS_$_ITunesSoftwareXPCServiceVersionDescription
+_OBJC_METACLASS_$_ITunesSymlinkAnalyzer
+_OBJC_METACLASS_$_MZAbstractWebServiceFileSender
+_OBJC_METACLASS_$_MZWebServiceFirenzeArchiveExtractorWorker
+_OBJC_METACLASS_$_MZWebServiceLookupHostedContentInAppPurchasesForSoftware
+_OBJC_METACLASS_$_MZWebServiceLookupSoftwareForBundleId
+_OBJC_METACLASS_$_MZWebServiceLookupSoftwareVersions
+_OBJC_METACLASS_$_MZWebServiceLookupSoftwareVersionsForApplication
+_OBJC_METACLASS_$_MZWebServiceLookupSoftwareWithHostedContent
+_OBJC_METACLASS_$_MZWebServiceLookupSymbolURLsForSoftwareVersion
+_OBJC_METACLASS_$_MZWebServicePurpleArchiveExtractorWorker
+_OBJC_METACLASS_$_MZWebServiceSoftwareCodesignParameters
+_OBJC_METACLASS_$_MZWebServiceValidateFirenzeProductAttributes
+_OBJC_METACLASS_$_MZWebServiceValidateHostedContentIAPPackage
+_OBJC_METACLASS_$_MZWebServiceValidatePurpleSoftwareAttributes
+_OBJC_METACLASS_$_MZWebServiceValidateSoftwareSPIUsage
+_OBJC_METACLASS_$_MachDwarfdumpAnalyzer
+_OBJC_METACLASS_$_MachDwarfdumpAnalyzerEntry
+_OBJC_METACLASS_$_MachDwarfdumpExecutor
+_OBJC_METACLASS_$_MachFileCommandArchitectureAnalyzer
+_OBJC_METACLASS_$_MachFileCommandArchitectureAnalyzerEntry
+_OBJC_METACLASS_$_MachFileCommandExecutor
+_OBJC_METACLASS_$_MachLipoArchitectureAnalyzer
+_OBJC_METACLASS_$_MachLipoArchitectureAnalyzerEntry
+_OBJC_METACLASS_$_OtoolCommandExecutor
+_OBJC_METACLASS_$_OtoolCommandExecutorResult
+_OBJC_METACLASS_$_PNGAnalyzer
+_OBJC_METACLASS_$_PNGInfo
+_OBJC_METACLASS_$_PurpleApplicationArchiveExpander
+_OBJC_METACLASS_$_SIPSPNGAnalyzer
+_OBJC_METACLASS_$_XarCommandExecutor
+_OBJC_METACLASS_$_XarCommandExecutorResult
+_PurpleApplicationArchiveExpanderExecutable
+_ValidateHostedContentIAPPackageShouldBypassOSValidation
+_VendorIdentifierAttributeKey
+_deviceUILaunchImagesKey
+_iPhoneOSBundleIconFileKey
+_iPhoneOSBundleIconFilesKey
+_iPhoneOSBundleIconsKey
+_iPhoneOSBundleIdentifier
+_iPhoneOSBundlePrimaryIconsKey
+_iPhoneOSDeviceFamily1
+_iPhoneOSDeviceFamily2
+_iPhoneOSDeviceFamilyKey
+_iPhoneOSMinimumOSVersionKey
+_iPhoneOSRequiredDeviceCapabilities
+_iPhoneOSVersion20
+_iPhoneOSVersion21
+_iPhoneOSVersion22
+_iPhoneOSVersion30
+_iPhoneOSVersion31
+_iPhoneOSVersion32
+_iPhoneOSVersion40
+_iPhoneOSVersion41
+_iPhoneOSVersion42
+_iPhoneOSVersion43
+_iPhoneOSVersion50
+_uiLaunchImageFileKey
+_uiLaunchImageNameKey
+_CFDictionaryGetValue
+_CFRelease
+_CFURLGetString
+_CFUUIDCreate
+_CFUUIDCreateString
+_CGImageSourceCopyProperties
+_CGImageSourceCopyPropertiesAtIndex
+_CGImageSourceCreateWithURL
+_CGImageSourceGetCount
+_CGImageSourceGetType
+_ITunesConnectFoundationGenerateError
+_ITunesPackageExtension
+_ITunesSoftwareServiceAddress
+_ITunesTransporterExecutablePath
+_ITunesTransporterRelativeExecutablePath
+_ITunesTransporterRelativeJavaExecutablePath
+_LSCopyApplicationURLsForURL
+_LSFindApplicationForInfo
+_MZLogDebug
+_MZLogError
+_MZLogInfo
+_MZLogWarning
+_MZLoggingIsLogLevelEnabled
+_MZOperatingSystemVersion100700
+_MZOperatingSystemVersion100704
+_MZTemporaryDirectory
+_MZUTF8DecodeBytesTo32Bits
+_NSCocoaErrorDomain
+_NSFilePosixPermissions
+_NSFileSize
+_NSFileType
+_NSFileTypeDirectory
+_NSFileTypeSymbolicLink
+_NSInternalInconsistencyException
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSSearchPathForDirectoriesInDomains
+_NSStringFromClass
+_NSStringFromSelector
+_NSURLIsDirectoryKey
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_ITunesPackage
+_OBJC_CLASS_$_ITunesPackageBuilder
+_OBJC_CLASS_$_ITunesPackageSource
+_OBJC_CLASS_$_ITunesTransporter
+_OBJC_CLASS_$_ITunesTransporterUploadWorker
+_OBJC_CLASS_$_MZAbstractToolExecutor
+_OBJC_CLASS_$_MZAbstractWorker
+_OBJC_CLASS_$_MZAuthorizationTokenManager
+_OBJC_CLASS_$_MZBase64EncodingUtilities
+_OBJC_CLASS_$_MZFileCopyOperation
+_OBJC_CLASS_$_MZITunesProducerServiceClient
+_OBJC_CLASS_$_MZIconSizeRange
+_OBJC_CLASS_$_MZMD5Worker
+_OBJC_CLASS_$_MZOperatingSystemUtilities
+_OBJC_CLASS_$_MZRegularExpression
+_OBJC_CLASS_$_MZTask
+_OBJC_CLASS_$_MZToolExecutorResult
+_OBJC_CLASS_$_MZWebServiceOperationRequestResponseWorker
+_OBJC_CLASS_$_MZWebServiceReportUploadFailureToApple
+_OBJC_CLASS_$_MZWebServiceWorker
+_OBJC_CLASS_$_MZWorkItem
+_OBJC_CLASS_$_MZWorkSeries
+_OBJC_CLASS_$_MZWorkSeriesManager
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSBundleUtilities
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRecursiveLock
+_OBJC_CLASS_$_NSRegularExpression
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_EHTYPE_$_NSException
+_OBJC_IVAR_$_ITunesPackageBuilder._packagePath
+_OBJC_IVAR_$_MZAbstractWorker._cancelled
+_OBJC_IVAR_$_MZAbstractWorker._percentComplete
+_OBJC_METACLASS_$_ITunesPackageBuilder
+_OBJC_METACLASS_$_MZAbstractToolExecutor
+_OBJC_METACLASS_$_MZAbstractWorker
+_OBJC_METACLASS_$_MZITunesProducerServiceClient
+_OBJC_METACLASS_$_MZToolExecutorResult
+_OBJC_METACLASS_$_NSError
+_OBJC_METACLASS_$_NSObject
+_SecCertificateCopyData
+_SecCodeCopyDesignatedRequirement
+_SecCodeCopySigningInformation
+_SecStaticCodeCheckValidity
+_SecStaticCodeCreateWithPath
+_SecStaticCodeCreateWithPathAndAttributes
+_TRANSPORTER_PATH
+_UTTypeCreatePreferredIdentifierForTag
+__Unwind_Resume
+___CFConstantStringClassReference
+___error
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_acl_free
+_acl_get_link_np
+_dlclose
+_dlopen
+_dlsym
+_kCGImagePropertyPixelHeight
+_kCGImagePropertyPixelWidth
+_kSecCodeAttributeArchitecture
+_kSecCodeInfoCertificates
+_kSecCodeInfoEntitlements
+_kSecCodeInfoFormat
+_kSecCodeInfoIdentifier
+_kUTTagClassFilenameExtension
+_listxattr
+_mktemp
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty_nonatomic
+_objc_sync_enter
+_objc_sync_exit
+_objc_terminate
+_strerror
+dyld_stub_binder

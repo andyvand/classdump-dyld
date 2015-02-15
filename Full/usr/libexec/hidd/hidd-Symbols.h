@@ -1,0 +1,10 @@
+radr://5614542
+__mh_execute_header
+_CFRelease
+_CFRunLoopRun
+_IOHIDEventSystemCreate
+_IOHIDEventSystemOpen
+_kCFAllocatorDefault
+_mach_task_self_
+_task_policy_set
+dyld_stub_binder

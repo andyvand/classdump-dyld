@@ -1,0 +1,1 @@
+#import <automator/AMMain.h>

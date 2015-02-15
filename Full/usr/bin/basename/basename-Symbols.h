@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_basename
+_err
+_exit
+_fwrite
+_getopt
+_optarg
+_optind
+_putchar
+_puts
+_strchr
+_strcmp
+_strlen
+dyld_stub_binder

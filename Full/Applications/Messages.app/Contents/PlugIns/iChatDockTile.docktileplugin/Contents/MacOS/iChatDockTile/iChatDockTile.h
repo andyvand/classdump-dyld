@@ -1,0 +1,1 @@
+#import <iChatDockTile/iChatDockTilePlugin.h>

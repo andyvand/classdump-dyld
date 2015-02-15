@@ -1,0 +1,203 @@
+-[AXBBundleManager init]
+-[AXBBundleManager loadedAXBundles]
+-[AXBBundleManager _axBundlePaths]
+-[AXBBundleManager _axBundlePathsForBundle:]
+-[AXBBundleManager _axBundleWithFilename:searchPaths:]
+_AXBBundleManagerCheckBundleIsCodesignedByApple
+-[AXBBundleManager _axBundleForBundle:]
+-[AXBBundleManager _subBundlesForBundle:]
+-[AXBBundleManager _loadAXBundle:didLoad:]
+-[AXBBundleManager _loadAXBundleForBundle:didLoad:forceLoad:]
+-[AXBBundleManager _processesBundlesToLoad:]
+-[AXBBundleManager loadAXBundleForBundle:]
+-[AXBBundleManager loadAXBundles]
++[AXBBundleManager defaultManager]
++[AXBBundleManager allocWithZone:]
++[AXBBundleManager initialize]
+-[AXBBundleManager copyWithZone:]
+-[AXBBundleManager retain]
+-[AXBBundleManager retainCount]
+-[AXBBundleManager release]
+-[AXBBundleManager autorelease]
++[AXBSafeCategory__NSObject resolveClassMethod:]
+-[AXBSafeCategory__NSObject forwardingTargetForSelector:]
++[AXBSafeCategory initialize]
++[AXBSafeCategory installCategoryOnClassNamed:]
++[AXBSafeCategory _addCategoryMethod:toClass:isClass:]
+-[NSObject(AXBSafeCategory) safeValueForKey:]
+-[NSObject(AXBSafeCategory) safeValueForKeyPath:]
+-[NSObject(AXBSafeCategory) safeValueForKey:expectedReturnClass:]
+-[NSObject(AXBSafeCategory) safeValueForKeyPath:expectedReturnClass:]
+-[NSObject(AXBSafeCategory) safeValueForSelector:expectedReturnClass:argumentTypesAndPointers:]
+-[NSObject(AXBSafeCategory) handleFailoversForClassNamed:]
+___AXBValidationAppendError_block_invoke
+__AXBRelevantBacktraceLocation
++[NSObject(NSBundleAXBAccessibility) _AXBInitializeBundle]
++[NSObject(NSBundleAXBAccessibility) _AXBBundles]
+-[NSObject(NSObjectAXBAccessibility) _AXBValueForKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetValue:forKey:storageMode:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetAssignedValue:forKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetRetainedValue:forKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetBoolValue:forKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetIntegerValue:forKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBSetUnsignedIntegerValue:forKey:]
+-[NSObject(NSObjectAXBAccessibility) _AXBRemoveValueForKey:]
++[NSObject__Accessibility _initializeSafeCategory]
+-[NSBundle(NSBundleAccessibility) accessibilityBundlePath]
++[NSBundle__Accessibility _initializeSafeCategory]
+-[NSBundle__Accessibility(SafeCategory) _loadAXBundleForBundleOnMainThread]
+-[NSBundle__Accessibility(SafeCategory) loadAndReturnError:]
+___60-[NSBundle__Accessibility(SafeCategory) loadAndReturnError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+_AXBBundleManagerCheckBundleIsCodesignedByApple.kCodeSignRequirement
+GCC_except_table6
+GCC_except_table7
+GCC_except_table10
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+__SingletonObject
+__FailoverHandlers
+__Symbols
+__InternalIvars
+__ValidationErrors
+__AXBLocalizedString.axBundle
+_AXBBundleManagerLoadAXBundles
+_AXBSafeCategoryInstall
+_AXBSafeCategoryObjectIvarForKey
+_AXBSafeCategorySetObjectIvarForKey
+_AXBSafeCategorySymbolWithName
+_AXBValidationAppendError
+_AXBValidationLog
+_AXBValidationLogAbort
+_AXBValidationPerformChecks
+_AXBValidationSetRunningUnitTests
+_AXBValidationShouldCrashOnErrors
+_AXBValidationShouldLogErrors
+_AXBValidationShouldReportErrors
+_OBJC_CLASS_$_AXBBundleManager
+_OBJC_CLASS_$_AXBSafeCategory
+_OBJC_CLASS_$_AXBSafeCategory__NSObject
+_OBJC_CLASS_$_NSBundle__Accessibility
+_OBJC_CLASS_$_NSBundle__Accessibility_super
+_OBJC_CLASS_$_NSObject__Accessibility
+_OBJC_CLASS_$_NSObject__Accessibility_super
+_OBJC_IVAR_$_AXBBundleManager._blacklistedBundles
+_OBJC_IVAR_$_AXBBundleManager._bundlesWithoutAXBundles
+_OBJC_IVAR_$_AXBBundleManager._loadedBundlePaths
+_OBJC_IVAR_$_AXBBundleManager._loadedBundles
+_OBJC_IVAR_$_AXBBundleManager._lock
+_OBJC_METACLASS_$_AXBBundleManager
+_OBJC_METACLASS_$_AXBSafeCategory
+_OBJC_METACLASS_$_AXBSafeCategory__NSObject
+_OBJC_METACLASS_$_NSBundle__Accessibility
+_OBJC_METACLASS_$_NSBundle__Accessibility_super
+_OBJC_METACLASS_$_NSObject__Accessibility
+_OBJC_METACLASS_$_NSObject__Accessibility_super
+__AXBLocalizedString
+__AXBValidationCheckClassConformsToProtocol
+__AXBValidationCheckClassMethod
+__AXBValidationCheckClassName
+__AXBValidationCheckClassProtocolMethod
+__AXBValidationCheckExpression
+__AXBValidationCheckInstanceMethod
+__AXBValidationCheckInstanceMethodComplete
+__AXBValidationCheckIsKindOfClass
+__AXBValidationCheckIvar
+__AXBValidationCheckIvarType
+__AXBValidationCheckProperty
+__AXBValidationCheckProtocolProperty
+__AXBValidationCheckSymbol
+__RunningUnitTests
+___AXBValidationCheckInstanceMethodArguments
+_CFArrayAppendValue
+_CFArrayCreateMutable
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFDataCreateWithBytesNoCopy
+_CFDictionaryCreateMutable
+_CFDictionaryGetValue
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFRelease
+_NSClassFromString
+_NSLog
+_NSProtocolFromString
+_NSSelectorFromString
+_NSStringFromClass
+_NSStringFromSelector
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMethodSignature
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSURL
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_SecCodeMapMemory
+_SecRequirementCreateWithData
+_SecStaticCodeCheckValidity
+_SecStaticCodeCreateWithPath
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+__objc_empty_vtable
+_class_addMethod
+_class_conformsToProtocol
+_class_copyMethodList
+_class_getClassMethod
+_class_getInstanceMethod
+_class_getInstanceVariable
+_class_getName
+_class_getProperty
+_class_getSuperclass
+_dispatch_after
+_dispatch_async
+_dispatch_time
+_dlsym
+_free
+_ivar_getTypeEncoding
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_method_copyArgumentType
+_method_copyReturnType
+_method_getImplementation
+_method_getName
+_method_getNumberOfArguments
+_method_getTypeEncoding
+_method_setImplementation
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setAssociatedObject
+_object_getClass
+_protocol_getMethodDescription
+_protocol_getProperty
+_strcmp
+dyld_stub_binder

@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+_NSHomeDirectory
+_NSLog
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTask
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+_objc_enumerationMutation
+_objc_msgSend
+_strcmp
+dyld_stub_binder

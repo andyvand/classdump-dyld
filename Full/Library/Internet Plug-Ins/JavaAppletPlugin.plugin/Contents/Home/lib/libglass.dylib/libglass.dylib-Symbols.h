@@ -1,0 +1,1339 @@
+-[GlassAccessible getJAccessible]
+-[GlassAccessible accessibilityNotifiesWhenDestroyed]
+___Java_com_sun_glass_ui_mac_MacAccessible__1initIDs_block_invoke_1
+___Java_com_sun_glass_ui_mac_MacAccessible__1initIDs_block_invoke_2
+-[GlassAccessible initWithEnv:accessible:]
+-[GlassAccessible accessibilityFocusedUIElement]
+-[GlassAccessible accessibilityHitTest:]
+-[GlassAccessible accessibilityIsIgnored]
+-[GlassAccessible accessibilityPerformAction:]
+-[GlassAccessible accessibilityActionDescription:]
+-[GlassAccessible accessibilityActionNames]
+-[GlassAccessible accessibilityAttributeValue:forParameter:]
+-[GlassAccessible accessibilityParameterizedAttributeNames]
+-[GlassAccessible accessibilityArrayAttributeValues:index:maxCount:]
+-[GlassAccessible accessibilityArrayAttributeCount:]
+-[GlassAccessible accessibilityIndexOfChild:]
+-[GlassAccessible accessibilitySetValue:forAttribute:]
+-[GlassAccessible accessibilityIsAttributeSettable:]
+-[GlassAccessible accessibilityAttributeValue:]
+-[GlassAccessible accessibilityAttributeNames]
+-[GlassAccessible dealloc]
+-[GlassRunnable initWithRunnable:]
+-[GlassApplication application:openTempFile:]
+-[GlassApplication applicationShouldOpenUntitledFile:]
+-[GlassApplication applicationOpenUntitledFile:]
+-[GlassApplication started]
++[GlassApplication leaveNestedEventLoopWithEnv:retValue:]
++[GlassApplication syncRenderingDisabled]
+-[GlassApplication application:openFile:]
+-[GlassApplication application:openFileWithoutUI:]
++[GlassApplication enterNestedEventLoopWithEnv:]
++[GlassApplication registerKeyEvent:]
+-[GlassRunnable run]
+-[GlassApplication applicationDidFinishLaunching:]
+-[GlassApplication applicationWillBecomeActive:]
+-[GlassApplication applicationDidBecomeActive:]
+-[GlassApplication applicationWillResignActive:]
+-[GlassApplication applicationDidResignActive:]
+-[GlassApplication applicationWillHide:]
+-[GlassApplication applicationDidHide:]
+-[GlassApplication applicationWillUnhide:]
+-[GlassApplication applicationDidUnhide:]
+-[GlassApplication application:openFiles:]
+-[GlassApplication applicationShouldTerminate:]
++[GlassApplication enterFullScreenExitingLoop]
++[GlassApplication getKeyCodeForChar:]
++[GlassApplication leaveFullScreenExitingLoopIfNeeded]
+-[GlassApplication runLoop:]
+-[GlassApplication applicationWillFinishLaunching:]
+-[GlassApplication GlassApplicationDidChangeScreenParameters]
+-[GlassApplication initWithEnv:application:launchable:taskbarApplication:classLoader:]
+-[GlassRunnable dealloc]
++[NSCursor(Java) performJavaSelector:]
+-[DialogDispatcher exitModalWithEnv:result:]
+-[DialogDispatcher getButton]
+-[DialogDispatcher initWithPanel:owner:]
+-[DialogDispatcher extensionFilterChanged:]
+-[DialogDispatcher applyExtensions:withDefaultIndex:withEnv:]
+-[DialogDispatcher runModally]
+_doPerformKeyEquivalent
+-[GlassSavePanel performKeyEquivalent:]
+-[GlassOpenPanel performKeyEquivalent:]
+___-[DialogDispatcher runModally]_block_invoke_2
+___-[DialogDispatcher runModally]_block_invoke_1
+_convertNSURLtoFile
+___copy_helper_block_1
+___destroy_helper_block_1
+___copy_helper_block_2
+___destroy_helper_block_2
++[GlassDragSource setDelegate:]
++[GlassDragSource mapJavaMaskToNsOperation:]
++[GlassDragSource mapNsOperationToJavaMask:]
++[GlassDragSource setMask:]
++[GlassDragSource getMask]
++[GlassDragSource getSupportedActions]
++[GlassDragSource setSupportedActions:]
++[GlassDragSource flushWithMask:]
++[GlassDragSource getRecommendedActionForMask:]
+_GlassLog
+-[GlassEmbeddedWindow(Overrides) _isParent]
+-[GlassEmbeddedWindow(Overrides) hasShadow]
+-[GlassEmbeddedWindow(Overrides) invalidateShadow]
+-[GlassEmbeddedWindow(Overrides) alphaValue]
+-[GlassEmbeddedWindow(Overrides) isOpaque]
+-[GlassEmbeddedWindow(Overrides) collectionBehavior]
+-[GlassEmbeddedWindow(Overrides) isKeyWindow]
+-[GlassEmbeddedWindow(Overrides) setHasShadow:]
+-[GlassEmbeddedWindow(Overrides) setAlphaValue:]
+-[GlassEmbeddedWindow(Overrides) setOpaque:]
+-[GlassEmbeddedWindow(Overrides) setContentView:]
+-[GlassEmbeddedWindow(Overrides) setFrame:display:]
+-[GlassEmbeddedWindow(Overrides) setFrame:display:animate:]
+-[GlassEmbeddedWindow(Overrides) setContentSize:]
+-[GlassEmbeddedWindow(Overrides) setFrameOrigin:]
+-[GlassEmbeddedWindow(Overrides) setFrameTopLeftPoint:]
+-[GlassEmbeddedWindow(Overrides) makeKeyWindow]
+-[GlassEmbeddedWindow(Overrides) resignKeyWindow]
+-[GlassFrameBufferObject width]
+-[GlassFrameBufferObject height]
+-[GlassFrameBufferObject texture]
+-[GlassFrameBufferObject fbo]
+-[GlassFrameBufferObject _assertContext]
+-[GlassFrameBufferObject _supportsFbo]
+-[GlassFrameBufferObject _checkFbo]
+-[GlassFrameBufferObject _destroyFbo]
+-[GlassFrameBufferObject _createFboIfNeededForWidth:andHeight:]
+-[GlassFrameBufferObject init]
+-[GlassFrameBufferObject blitFromFBO:]
+-[GlassFrameBufferObject blitForWidth:andHeight:]
+-[GlassFrameBufferObject unbind]
+-[GlassFrameBufferObject bindForWidth:andHeight:]
+-[GlassFrameBufferObject dealloc]
+-[GlassBackgroundWindow isReleasedWhenClosed]
+-[GlassBackgroundWindow isOpaque]
+-[GlassBackgroundWindow hasShadow]
+-[GlassBackgroundWindow canBecomeMainWindow]
+-[GlassBackgroundWindow canBecomeKeyWindow]
+-[GlassBackgroundWindow showsResizeIndicator]
+-[GlassFullscreenWindow isReleasedWhenClosed]
+-[GlassFullscreenWindow isOpaque]
+-[GlassFullscreenWindow hasShadow]
+-[GlassFullscreenWindow canBecomeMainWindow]
+-[GlassFullscreenWindow canBecomeKeyWindow]
+-[GlassFullscreenWindow showsResizeIndicator]
+-[GlassFullscreenWindow point]
+-[GlassBackgroundWindow backgroundColor]
+-[GlassBackgroundWindow windowDidResize:]
+-[GlassBackgroundWindow initWithWindow:]
+-[GlassBackgroundWindow dealloc]
+-[GlassFullscreenWindow dealloc]
+-[GlassFullscreenWindow initWithContentRect:withHostView:withView:withScreen:withPoint:]
++[GlassHelper SetGlassClassLoader:withEnv:]
++[GlassHelper ClassForName:withEnv:]
++[GlassHelper ApplicationClass]
++[GlassHelper nsStringWithJavaString:withEnv:]
++[GlassHelper InvokeSelectorIfAvailable:forClass:withArgument:withReturnValue:]
++[GlassHelper ApplicationNotifyWillQuitMethod]
++[GlassHelper ApplicationNotifyOpenFilesMethod]
++[GlassHelper ApplicationNotifyDidUnhideMethod]
++[GlassHelper ApplicationNotifyWillUnhideMethod]
++[GlassHelper ApplicationNotifyDidHideMethod]
++[GlassHelper ApplicationNotifyWillHideMethod]
++[GlassHelper ApplicationNotifyDidResignActiveMethod]
++[GlassHelper ApplicationNotifyWillResignActiveMethod]
++[GlassHelper ApplicationNotifyDidBecomeActiveMethod]
++[GlassHelper ApplicationNotifyWillBecomeActiveMethod]
++[GlassHelper ApplicationNotifyDidFinishLaunchingMethod]
++[GlassHelper ApplicationNotifyWillFinishLaunchingMethod]
+-[GlassHostView isOpaque]
+-[GlassHostView becomeFirstResponder]
+-[GlassHostView acceptsFirstResponder]
+-[GlassHostView canBecomeKeyView]
+-[GlassHostView postsBoundsChangedNotifications]
+-[GlassHostView postsFrameChangedNotifications]
+-[GlassHostView acceptsFirstMouse:]
+-[GlassHostView mouseDownCanMoveWindow]
+-[GlassHostView drawRect:]
+-[GlassHostView isFlipped]
+-[GlassHostView dealloc]
+-[GlassHostView addSubview:]
+-[GlassLayer3D getPainterOffscreen]
+-[GlassLayer3D getGlassOffscreen]
+-[GlassLayer3D _connectToRemoteServer:]
+-[GlassLayer3D dealloc]
+-[GlassLayer3D hostOffscreen:]
+-[GlassLayer3D hostRemoteLayerId:]
+-[GlassLayer3D getRemoteLayerIdForServer:]
+-[GlassLayer3D flush]
+-[GlassLayer3D drawInCGLContext:pixelFormat:forLayerTime:displayTime:]
+-[GlassLayer3D copyCGLPixelFormatForDisplayMask:]
+-[GlassLayer3D copyCGLContextForPixelFormat:]
+-[GlassLayer3D canDrawInCGLContext:pixelFormat:forLayerTime:displayTime:]
+-[GlassLayer3D notifyScaleFactorChanged:]
+-[GlassLayer3D initWithSharedContext:andClientContext:withHiDPIAware:]
+-[GlassMenubar init]
+-[GlassMenubar dealloc]
+-[GlassMenu _setChecked:]
+-[GlassMenu initWithJavajdelegate:jtitle:jenabled:]
+-[GlassMenu _setPixels:]
+-[GlassMenu _setShortcut:modifiers:]
+-[GlassMenu validateMenuItem:]
+-[GlassMenu menuDidClose:]
+-[GlassMenu menuWillOpen:]
+-[GlassMenu action:]
+-[GlassMenu dealloc]
+-[GlassMenu initWithJavajdelegate:jtitle:jshortcut:jmodifiers:jicon:jenabled:jchecked:jcallback:]
+-[GlassNSEvent setNeedsKeyTyped:]
+-[GlassNSEvent needsKeyTyped]
+-[GlassNSEvent setSyntheticKeyTyped:]
+-[GlassNSEvent isSyntheticKeyTyped]
+-[GlassOffscreen getContext]
+-[GlassOffscreen getLayer]
+-[GlassOffscreen setLayer:]
+-[GlassOffscreen isDirty]
+-[GlassOffscreen initWithContext:]
+-[GlassOffscreen blitFromOffscreen:]
+-[GlassOffscreen blitForWidth:andHeight:]
+-[GlassOffscreen texture]
+-[GlassOffscreen blit]
+-[GlassOffscreen unbind]
+-[GlassOffscreen bindForWidth:andHeight:]
+-[GlassOffscreen unsetContext]
+-[GlassOffscreen setContext]
+-[GlassOffscreen height]
+-[GlassOffscreen width]
+-[GlassOffscreen setBackgroundColor:]
+-[GlassOffscreen dealloc]
+-[GlassRobot init]
+-[GlassRobot mouseRelease:]
+-[GlassRobot mousePress:]
+-[GlassRobot getMousePosFlipped]
+-[GlassRobot mouseMove:]
+-[NSScreen(FullscreenAdditions) enterFullscreenAndHideCursor:]
+-[NSScreen(FullscreenAdditions) exitFullscreen:]
+-[GlassTimer initWithRunnable:withEnv:]
+-[GlassTimer initWithRunnable:withEnv:withPeriod:]
+__GlassTimerTask
++[GlassTouches stopTracking:]
+-[GlassTouches(hidden) releaseTouches]
+-[GlassTouches init]
++[GlassTouches terminate]
++[GlassTouches startTracking:]
+_listenTouchEvents
+-[GlassTouches(hidden) notifyTouch:identity:phase:pos:]
+-[GlassTouches(hidden) terminateImpl]
+-[GlassTouches(hidden) enableTouchInputEventTap]
+-[GlassTouches(hidden) sendJavaTouchEvent:]
+-[GlassView2D becomeFirstResponder]
+-[GlassView2D acceptsFirstResponder]
+-[GlassView2D canBecomeKeyView]
+-[GlassView2D postsBoundsChangedNotifications]
+-[GlassView2D postsFrameChangedNotifications]
+-[GlassView2D acceptsFirstMouse:]
+-[GlassView2D isFlipped]
+-[GlassView2D isOpaque]
+-[GlassView2D mouseDownCanMoveWindow]
+-[GlassView2D wantsPeriodicDraggingUpdates]
+-[GlassView2D prepareForDragOperation:]
+-[GlassView2D concludeDragOperation:]
+-[GlassView2D delegate]
+-[GlassView2D setInputMethodEnabled:]
+-[GlassView2D notifyScaleFactorChanged:]
+-[GlassView2D initWithFrame:withJview:withJproperties:]
+-[GlassView2D pushPixels:withWidth:withHeight:withEnv:]
+-[GlassView2D end]
+-[GlassView2D begin]
+-[GlassView2D exitFullscreenWithAnimate:]
+-[GlassView2D enterFullscreenWithAnimate:withKeepRatio:withHideCursor:]
+-[GlassView2D drawRect:]
+-[GlassView2D draggingSourceOperationMaskForLocal:]
+-[GlassView2D draggingExited:]
+-[GlassView2D draggingEnded:]
+-[GlassView2D draggingUpdated:]
+-[GlassView2D draggingEntered:]
+-[GlassView2D performDragOperation:]
+-[GlassView2D flagsChanged:]
+-[GlassView2D keyUp:]
+-[GlassView2D keyDown:]
+-[GlassView2D performKeyEquivalent:]
+-[GlassView2D scrollWheel:]
+-[GlassView2D beginGestureWithEvent:]
+-[GlassView2D endGestureWithEvent:]
+-[GlassView2D magnifyWithEvent:]
+-[GlassView2D swipeWithEvent:]
+-[GlassView2D rotateWithEvent:]
+-[GlassView2D otherMouseUp:]
+-[GlassView2D otherMouseDragged:]
+-[GlassView2D otherMouseDown:]
+-[GlassView2D rightMouseUp:]
+-[GlassView2D rightMouseDragged:]
+-[GlassView2D rightMouseDown:]
+-[GlassView2D mouseUp:]
+-[GlassView2D mouseDragged:]
+-[GlassView2D mouseDown:]
+-[GlassView2D mouseExited:]
+-[GlassView2D mouseMoved:]
+-[GlassView2D mouseEntered:]
+-[GlassView2D menuForEvent:]
+-[GlassView2D updateTrackingAreas]
+-[GlassView2D setFrame:]
+-[GlassView2D setFrameSize:]
+-[GlassView2D setFrameOrigin:]
+-[GlassView2D viewDidMoveToWindow]
+-[GlassView2D dealloc]
+-[GlassView3D(Remote) getRemoteLayerIdForServer:]
+-[GlassView3D(Remote) hostRemoteLayerId:]
+-[GlassView3D becomeFirstResponder]
+-[GlassView3D acceptsFirstResponder]
+-[GlassView3D canBecomeKeyView]
+-[GlassView3D postsBoundsChangedNotifications]
+-[GlassView3D postsFrameChangedNotifications]
+-[GlassView3D acceptsFirstMouse:]
+-[GlassView3D isFlipped]
+-[GlassView3D isOpaque]
+-[GlassView3D mouseDownCanMoveWindow]
+-[GlassView3D wantsPeriodicDraggingUpdates]
+-[GlassView3D prepareForDragOperation:]
+-[GlassView3D concludeDragOperation:]
+-[GlassView3D delegate]
+-[GlassView3D doCommandBySelector:]
+-[GlassView3D hasMarkedText]
+-[GlassView3D markedRange]
+-[GlassView3D attributedSubstringForProposedRange:actualRange:]
+-[GlassView3D characterIndexForPoint:]
+-[GlassView3D _createPixelFormatWithDepth:]
+-[GlassView3D _createContextWithShared:withFormat:]
+-[GlassView3D _initialize3dWithJproperties:]
+-[GlassView3D viewDidMoveToWindow]
+-[GlassView3D mouseEntered:]
+-[GlassView3D mouseMoved:]
+-[GlassView3D mouseExited:]
+-[GlassView3D mouseDown:]
+-[GlassView3D mouseDragged:]
+-[GlassView3D mouseUp:]
+-[GlassView3D rightMouseDown:]
+-[GlassView3D rightMouseDragged:]
+-[GlassView3D rightMouseUp:]
+-[GlassView3D otherMouseDown:]
+-[GlassView3D otherMouseDragged:]
+-[GlassView3D otherMouseUp:]
+-[GlassView3D rotateWithEvent:]
+-[GlassView3D swipeWithEvent:]
+-[GlassView3D magnifyWithEvent:]
+-[GlassView3D endGestureWithEvent:]
+-[GlassView3D beginGestureWithEvent:]
+-[GlassView3D scrollWheel:]
+-[GlassView3D performKeyEquivalent:]
+-[GlassView3D keyDown:]
+-[GlassView3D keyUp:]
+-[GlassView3D flagsChanged:]
+-[GlassView3D performDragOperation:]
+-[GlassView3D draggingEntered:]
+-[GlassView3D draggingUpdated:]
+-[GlassView3D draggingEnded:]
+-[GlassView3D draggingExited:]
+-[GlassView3D draggingSourceOperationMaskForLocal:]
+-[GlassView3D enterFullscreenWithAnimate:withKeepRatio:withHideCursor:]
+-[GlassView3D exitFullscreenWithAnimate:]
+-[GlassView3D end]
+-[GlassView3D drawRect:]
+-[GlassView3D setInputMethodEnabled:]
+-[GlassView3D insertText:replacementRange:]
+-[GlassView3D setMarkedText:selectedRange:replacementRange:]
+-[GlassView3D unmarkText]
+-[GlassView3D selectedRange]
+-[GlassView3D validAttributesForMarkedText]
+-[GlassView3D notifyScaleFactorChanged:]
+-[GlassView3D accessibilityIsIgnored]
+-[GlassView3D initWithFrame:withJview:withJproperties:]
+-[GlassView3D accessibilityFocusedUIElement]
+-[GlassView3D accessibilityHitTest:]
+-[GlassView3D accessibilityAttributeValue:]
+-[GlassView3D accessibilityAttributeNames]
+-[GlassView3D firstRectForCharacterRange:actualRange:]
+-[GlassView3D pushPixels:withWidth:withHeight:withEnv:]
+-[GlassView3D begin]
+-[GlassView3D updateTrackingAreas]
+-[GlassView3D setFrame:]
+-[GlassView3D setFrameSize:]
+-[GlassView3D setFrameOrigin:]
+-[GlassView3D dealloc]
+-[GlassViewDelegate jView]
+-[GlassViewDelegate setFrameOrigin:]
+-[GlassViewDelegate sendJavaGestureBeginEvent:]
+-[GlassViewDelegate draggingSourceOperationMaskForLocal:]
+-[GlassViewDelegate suppressMouseEnterExitOnMouseDown]
+-[GlassViewDelegate dealloc]
+-[GlassViewDelegate getAccessible]
+-[GlassViewDelegate exitFullscreenWithAnimate:]
+-[GlassViewDelegate enterFullscreenWithAnimate:withKeepRatio:withHideCursor:]
+-[GlassViewDelegate sendJavaFullScreenEvent:withNativeWidget:]
+-[GlassViewDelegate getInputMethodCandidatePosRequest:]
+-[GlassViewDelegate notifyInputMethod:attr:length:cursor:]
+-[GlassViewDelegate draggingEnded]
+-[GlassViewDelegate synthesizeMouseUp:]
+-[GlassViewDelegate startDrag:]
+-[GlassViewDelegate sendJavaDndEvent:type:]
+-[GlassViewDelegate sendJavaGestureEndEvent:]
+-[GlassViewDelegate sendJavaGestureEvent:type:]
+-[GlassViewDelegate sendJavaModifierKeyEvent:]
+-[GlassViewDelegate sendJavaKeyEvent:isDown:]
+-[GlassViewDelegate resetMouseTracking]
+-[GlassViewDelegate sendJavaMouseEvent:]
+-[GlassViewDelegate sendJavaMenuEvent:]
+-[GlassViewDelegate drawRect:]
+-[GlassViewDelegate updateTrackingAreas]
+-[GlassViewDelegate setFrame:]
+-[GlassViewDelegate setFrameSize:]
+-[GlassViewDelegate viewDidMoveToWindow]
+-[GlassViewDelegate initWithView:withJview:]
+_isInertialScroll
+-[GlassWindow(Java) _getCurrentWindow]
+-[GlassWindow(Java) _checkUngrab]
+-[GlassWindow(Java) _grabFocus]
+-[GlassWindow(Java) _setResizable]
+-[GlassWindow(Java) _constrainFrame:]
+-[GlassWindow(Java) _setVisible]
+-[GlassWindow(Java) _getScreen]
++[GlassWindow(Java) _resetGrab]
+-[GlassWindow(Java) _sendJavaWindowMoveEventForFrame:]
+-[GlassWindow(Java) _sendJavaWindowResizeEvent:forFrame:]
+-[GlassWindow(Java) _ungrabFocus]
+-[GlassWindow(Java) _sendJavaWindowMoveToAnotherScreenEventIfNeeded]
+-[GlassWindow(Java) _initWithContentRect:styleMask:screen:jwindow:jIsChild:]
+-[GlassWindow(Java) _setWindowFrameWithRect:withDisplay:withAnimate:]
+-[GlassWindow(Java) _setBounds:y:xSet:ySet:w:h:cw:ch:]
+-[GlassWindow(Java) _restorePreZoomedRect]
+-[GlassWindow(Java) _setFlipFrame:display:animate:]
+-[GlassWindow(Java) _flipFrame]
+-[GlassWindow(Overrides) windowWillMove:]
+-[GlassWindow(Overrides) windowWillResize:toSize:]
+-[GlassWindow(Overrides) windowWillEnterFullScreen:]
+-[GlassWindow(Overrides) windowWillExitFullScreen:]
+-[GlassWindow(Overrides) window:shouldPopUpDocumentPathMenu:]
+-[GlassWindow(Overrides) window:shouldDragDocumentWithEvent:from:withPasteboard:]
+-[GlassWindow(Overrides) windowShouldZoom:toFrame:]
+-[GlassWindow(Overrides) windowShouldClose:]
+-[GlassWindow(Overrides) dealloc]
+-[GlassWindow(Overrides) windowDidBecomeKey:]
+-[GlassWindow(Overrides) windowDidResignKey:]
+-[GlassWindow(Overrides) windowWillClose:]
+-[GlassWindow(Overrides) windowDidEnterFullScreen:]
+-[GlassWindow(Overrides) windowDidExitFullScreen:]
+-[GlassWindow(Overrides) windowDidMove:]
+-[GlassWindow(Overrides) windowDidResize:]
+-[GlassWindow(Overrides) windowDidMiniaturize:]
+-[GlassWindow(Overrides) windowDidDeminiaturize:]
+-[GlassWindow(Overrides) windowDidChangeBackingProperties:]
+-[GlassWindow canBecomeMainWindow]
+-[GlassWindow hidesOnDeactivate]
+-[GlassWindow worksWhenModal]
+-[GlassWindow canBecomeKeyWindow]
+-[GlassWindow_Normal dealloc]
+-[GlassWindow_Normal sendEvent:]
+-[GlassWindow_Normal standardWindowButton:]
+-[GlassWindow_Normal setBackgroundColor:]
+-[GlassWindow_Normal worksWhenModal]
+-[GlassWindow_Normal hidesOnDeactivate]
+-[GlassWindow_Normal setHidesOnDeactivate:]
+-[GlassWindow_Normal canBecomeKeyWindow]
+-[GlassWindow_Normal canBecomeMainWindow]
+-[GlassWindow_Normal performKeyEquivalent:]
+-[GlassWindow_Normal close]
+-[GlassWindow_Normal initWithDelegate:frameRect:styleMask:screen:]
+-[GlassWindow_Panel dealloc]
+-[GlassWindow_Panel accessibilityAttributeValue:]
+-[GlassWindow_Panel accessibilityIsIgnored]
+-[GlassWindow_Panel setWorksWhenModal:]
+-[GlassWindow_Panel sendEvent:]
+-[GlassWindow_Panel standardWindowButton:]
+-[GlassWindow_Panel setBackgroundColor:]
+-[GlassWindow_Panel worksWhenModal]
+-[GlassWindow_Panel hidesOnDeactivate]
+-[GlassWindow_Panel setHidesOnDeactivate:]
+-[GlassWindow_Panel canBecomeKeyWindow]
+-[GlassWindow_Panel canBecomeMainWindow]
+-[GlassWindow_Panel performKeyEquivalent:]
+-[GlassWindow_Panel close]
+-[GlassWindow_Panel initWithDelegate:frameRect:styleMask:screen:]
+___-[GlassWindow_Panel accessibilityIsIgnored]_block_invoke_1
+-[GlassWindow close]
+-[GlassWindow setBackgroundColor:]
+-[GlassEmbeddedWindow initWithDelegate:frameRect:styleMask:screen:]
++[GlassEmbeddedWindow exists:]
+-[GlassEmbeddedWindow sendEvent:]
+-[GlassEmbeddedWindow setFullscreenWindow:]
+-[GlassEmbeddedWindow close]
+___copy_helper_block_1
+___destroy_helper_block_1
+-[GlassWindow setFullscreenWindow:]
+-[GlassWindow sendEvent:]
+__createWindowCommon
+____sortArray_block_invoke_1
+__runCommand
+__printArray
+GCC_except_table1
+GCC_except_table29
+GCC_except_table8
+GCC_except_table9
+___FUNCTION__.92781
+___FUNCTION__.92902
+___FUNCTION__.92938
+___FUNCTION__.92972
+___FUNCTION__.93014
+___FUNCTION__.93248
+___FUNCTION__.93279
+___FUNCTION__.93313
+___FUNCTION__.93347
+___FUNCTION__.93213
+___FUNCTION__.92830
+___FUNCTION__.93060
+___FUNCTION__.93104
+___FUNCTION__.93177
+___FUNCTION__.92866
+___FUNCTION__.93142
+___FUNCTION__.97784
+___FUNCTION__.98090
+___FUNCTION__.98140
+___FUNCTION__.98190
+___FUNCTION__.98240
+___FUNCTION__.98290
+___FUNCTION__.98340
+___FUNCTION__.98390
+___FUNCTION__.98440
+___FUNCTION__.98490
+___FUNCTION__.98542
+___FUNCTION__.98708
+___FUNCTION__.99307
+___FUNCTION__.99321
+___FUNCTION__.97827
+___FUNCTION__.97944
+___FUNCTION__.97955
+___FUNCTION__.93499
+___FUNCTION__.93176
+___FUNCTION__.93210
+___FUNCTION__.93243
+___FUNCTION__.93275
+___FUNCTION__.93307
+___FUNCTION__.93339
+___FUNCTION__.93371
+___FUNCTION__.93403
+___FUNCTION__.93435
+___FUNCTION__.93467
+___FUNCTION__.93499
+___FUNCTION__.93531
+___FUNCTION__.93563
+___FUNCTION__.93304
+___FUNCTION__.93470
+___FUNCTION__.93584
+___FUNCTION__.93689
+___FUNCTION__.93719
+___FUNCTION__.93743
+___FUNCTION__.93767
+___FUNCTION__.93913
+___FUNCTION__.95073
+___FUNCTION__.93836
+___FUNCTION__.96847
+___FUNCTION__.97893
+___FUNCTION__.104070
+___FUNCTION__.97513
+___FUNCTION__.98031
+___FUNCTION__.101747
+___FUNCTION__.101892
+___FUNCTION__.101952
+___FUNCTION__.102105
+___FUNCTION__.98391
+___FUNCTION__.98592
+___FUNCTION__.98940
+___FUNCTION__.99133
+___FUNCTION__.99660
+___FUNCTION__.100145
+___FUNCTION__.100477
+___FUNCTION__.100723
+___FUNCTION__.100931
+___FUNCTION__.101010
+___FUNCTION__.93484
+___FUNCTION__.93542
+___FUNCTION__.94198
+___FUNCTION__.93399
+___FUNCTION__.94149
+___FUNCTION__.94291
+___FUNCTION__.93395
+___FUNCTION__.93499
+___FUNCTION__.93692
+___FUNCTION__.93836
+___FUNCTION__.99448
+_gKeyMap
+_OBJC_IVAR_$_GlassAccessible.jAccessible
+_OBJC_IVAR_$_GlassTouches.curConsumer
+_OBJC_IVAR_$_GlassTouches.touches
+_OBJC_IVAR_$_GlassTouches.eventTap
+_OBJC_IVAR_$_GlassTouches.runLoopSource
+_OBJC_IVAR_$_GlassTouches.lastTouchId
+___block_holder_tmp_1.340
+___block_holder_tmp_2.342
+___block_holder_tmp_1.98
+___block_descriptor_tmp_1.341
+___block_descriptor_tmp_2.343
+___block_descriptor_tmp_1.151
+___block_descriptor_tmp_2.153
+___block_descriptor_tmp_1.294
+___block_descriptor_tmp_1.99
+_nestedLoopReturnValue
+_shouldKeepRunningNestedLoop.b
+_disableSyncRendering
+_isEmbedded
+_keyCodeForCharMap
+_isFullScreenExitingLoop.b
+_remoteLayerServerPort.99735
+_gDelegate
+_gMask
+_supportedActions
+_buffer.92589
+_line.92590
+_glassClassLoader
+_classCls.93100
+_forNameMID.93105
+__ApplicationClass.93175
+__ApplicationNotifyWillFinishLaunchingMethod.93209
+__ApplicationNotifyDidFinishLaunchingMethod.93242
+__ApplicationNotifyWillBecomeActiveMethod.93274
+__ApplicationNotifyDidBecomeActiveMethod.93306
+__ApplicationNotifyWillResignActiveMethod.93338
+__ApplicationNotifyDidResignActiveMethod.93370
+__ApplicationNotifyWillHideMethod.93402
+__ApplicationNotifyDidHideMethod.93434
+__ApplicationNotifyWillUnhideMethod.93466
+__ApplicationNotifyDidUnhideMethod.93498
+__ApplicationNotifyOpenFilesMethod.93530
+__ApplicationNotifyWillQuitMethod.93562
+_allModes
+_jMenuActionMethod
+_jMenuValidateMethod
+_jMenuOpeningMethod
+_jMenuClosedMethod
+_jDelegateMenuField
+_lastDragSesionNumber
+_glassTouches
+_selector.97437
+_s_lastKeyEvent
+_s_modifierFlags
+_s_grabWindow
+_embeddedWindowsList
+_isBackgroundOnlyAppChecked.104392.b
+_isBackgroundOnlyApp.104393
+_buffer.96370
+_full.96408
+_CVOutputCallback
+_GetJavaKeyChars
+_GetJavaKeyCode
+_GetJavaKeyCodeFor
+_GetJavaKeyModifiers
+_GetJavaModifiers
+_GetJavaMouseModifiers
+_GetMacKey
+_GetScreenScaleFactor
+_GetStringForJavaKey
+_GlassDisplayLink
+_GlassScreenDidChangeScreenParameters
+_GlassThreadDataKey
+_JNI_OnLoad
+_Java_com_sun_glass_events_mac_NpapiEvent__1dispatchCocoaNpapiDrawEvent
+_Java_com_sun_glass_events_mac_NpapiEvent__1dispatchCocoaNpapiFocusEvent
+_Java_com_sun_glass_events_mac_NpapiEvent__1dispatchCocoaNpapiKeyEvent
+_Java_com_sun_glass_events_mac_NpapiEvent__1dispatchCocoaNpapiMouseEvent
+_Java_com_sun_glass_events_mac_NpapiEvent__1dispatchCocoaNpapiTextInputEvent
+_Java_com_sun_glass_ui_mac_MacAccessible_GlassAccessibleToMacAccessible
+_Java_com_sun_glass_ui_mac_MacAccessible_NSAccessibilityActionDescription
+_Java_com_sun_glass_ui_mac_MacAccessible_NSAccessibilityPostNotification
+_Java_com_sun_glass_ui_mac_MacAccessible_NSAccessibilityRoleDescription
+_Java_com_sun_glass_ui_mac_MacAccessible_NSAccessibilityUnignoredAncestor
+_Java_com_sun_glass_ui_mac_MacAccessible_NSAccessibilityUnignoredChildren
+_Java_com_sun_glass_ui_mac_MacAccessible__1createGlassAccessible
+_Java_com_sun_glass_ui_mac_MacAccessible__1destroyGlassAccessible
+_Java_com_sun_glass_ui_mac_MacAccessible__1initEnum
+_Java_com_sun_glass_ui_mac_MacAccessible__1initIDs
+_Java_com_sun_glass_ui_mac_MacAccessible_getString
+_Java_com_sun_glass_ui_mac_MacAccessible_idToMacVariant
+_Java_com_sun_glass_ui_mac_MacAccessible_isEqualToString
+_Java_com_sun_glass_ui_mac_MacApplication__1enterNestedEventLoopImpl
+_Java_com_sun_glass_ui_mac_MacApplication__1finishTerminating
+_Java_com_sun_glass_ui_mac_MacApplication__1getDataDirectory
+_Java_com_sun_glass_ui_mac_MacApplication__1getKeyCodeForChar
+_Java_com_sun_glass_ui_mac_MacApplication__1getMacKey
+_Java_com_sun_glass_ui_mac_MacApplication__1getRemoteLayerServerName
+_Java_com_sun_glass_ui_mac_MacApplication__1hide
+_Java_com_sun_glass_ui_mac_MacApplication__1hideOtherApplications
+_Java_com_sun_glass_ui_mac_MacApplication__1initIDs
+_Java_com_sun_glass_ui_mac_MacApplication__1invokeAndWait
+_Java_com_sun_glass_ui_mac_MacApplication__1leaveNestedEventLoopImpl
+_Java_com_sun_glass_ui_mac_MacApplication__1runLoop
+_Java_com_sun_glass_ui_mac_MacApplication__1submitForLaterInvocation
+_Java_com_sun_glass_ui_mac_MacApplication__1supportsSystemMenu
+_Java_com_sun_glass_ui_mac_MacApplication__1unhideAllApplications
+_Java_com_sun_glass_ui_mac_MacApplication_staticScreen_1getScreens
+_Java_com_sun_glass_ui_mac_MacApplication_staticScreen_1getVideoRefreshPeriod
+_Java_com_sun_glass_ui_mac_MacCommonDialogs__1initIDs
+_Java_com_sun_glass_ui_mac_MacCommonDialogs__1showFileOpenChooser
+_Java_com_sun_glass_ui_mac_MacCommonDialogs__1showFileSaveChooser
+_Java_com_sun_glass_ui_mac_MacCommonDialogs__1showFolderChooser
+_Java_com_sun_glass_ui_mac_MacCursor__1createCursor
+_Java_com_sun_glass_ui_mac_MacCursor__1getBestSize
+_Java_com_sun_glass_ui_mac_MacCursor__1initIDs
+_Java_com_sun_glass_ui_mac_MacCursor__1set
+_Java_com_sun_glass_ui_mac_MacCursor__1setCustom
+_Java_com_sun_glass_ui_mac_MacCursor__1setVisible
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1createFromBookmark
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1dispose
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1getBookmark
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1initIDs
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1startAccessingSecurityScopedResource
+_Java_com_sun_glass_ui_mac_MacFileNSURL__1stopAccessingSecurityScopedResource
+_Java_com_sun_glass_ui_mac_MacGestureSupport__1initIDs
+_Java_com_sun_glass_ui_mac_MacMenuBarDelegate__1createMenuBar
+_Java_com_sun_glass_ui_mac_MacMenuBarDelegate__1insert
+_Java_com_sun_glass_ui_mac_MacMenuBarDelegate__1remove
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1createMenu
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1createMenuItem
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1initIDs
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1insert
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1remove
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setCallback
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setChecked
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setEnabled
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setPixels
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setShortcut
+_Java_com_sun_glass_ui_mac_MacMenuDelegate__1setTitle
+_Java_com_sun_glass_ui_mac_MacPasteboard__1clear
+_Java_com_sun_glass_ui_mac_MacPasteboard__1createSystemPasteboard
+_Java_com_sun_glass_ui_mac_MacPasteboard__1createUserPasteboard
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getAllowedOperation
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getItemAsRawImage
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getItemBytesForUTF
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getItemStringForUTF
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getName
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getSeed
+_Java_com_sun_glass_ui_mac_MacPasteboard__1getUTFs
+_Java_com_sun_glass_ui_mac_MacPasteboard__1initIDs
+_Java_com_sun_glass_ui_mac_MacPasteboard__1putItemsFromArray
+_Java_com_sun_glass_ui_mac_MacPasteboard__1release
+_Java_com_sun_glass_ui_mac_MacPixels__1attachByte
+_Java_com_sun_glass_ui_mac_MacPixels__1attachInt
+_Java_com_sun_glass_ui_mac_MacPixels__1copyPixels
+_Java_com_sun_glass_ui_mac_MacPixels__1initIDs
+_Java_com_sun_glass_ui_mac_MacRobot__1destroy
+_Java_com_sun_glass_ui_mac_MacRobot__1getMouseX
+_Java_com_sun_glass_ui_mac_MacRobot__1getMouseY
+_Java_com_sun_glass_ui_mac_MacRobot__1getPixelColor
+_Java_com_sun_glass_ui_mac_MacRobot__1getScreenCapture
+_Java_com_sun_glass_ui_mac_MacRobot__1init
+_Java_com_sun_glass_ui_mac_MacRobot__1keyPress
+_Java_com_sun_glass_ui_mac_MacRobot__1keyRelease
+_Java_com_sun_glass_ui_mac_MacRobot__1mouseMove
+_Java_com_sun_glass_ui_mac_MacRobot__1mousePress
+_Java_com_sun_glass_ui_mac_MacRobot__1mouseRelease
+_Java_com_sun_glass_ui_mac_MacRobot__1mouseWheel
+_Java_com_sun_glass_ui_mac_MacSystemClipboard_00024FormatEncoder__1convertMIMEtoUTI
+_Java_com_sun_glass_ui_mac_MacSystemClipboard_00024FormatEncoder__1convertUTItoMIME
+_Java_com_sun_glass_ui_mac_MacSystemClipboard__1convertFileReferencePath
+_Java_com_sun_glass_ui_mac_MacTimer__1getMaxPeriod
+_Java_com_sun_glass_ui_mac_MacTimer__1getMinPeriod
+_Java_com_sun_glass_ui_mac_MacTimer__1initIDs
+_Java_com_sun_glass_ui_mac_MacTimer__1start__Ljava_lang_Runnable_2
+_Java_com_sun_glass_ui_mac_MacTimer__1start__Ljava_lang_Runnable_2I
+_Java_com_sun_glass_ui_mac_MacTimer__1stop
+_Java_com_sun_glass_ui_mac_MacView__1begin
+_Java_com_sun_glass_ui_mac_MacView__1close
+_Java_com_sun_glass_ui_mac_MacView__1create
+_Java_com_sun_glass_ui_mac_MacView__1enableInputMethodEvents
+_Java_com_sun_glass_ui_mac_MacView__1end
+_Java_com_sun_glass_ui_mac_MacView__1enterFullscreen
+_Java_com_sun_glass_ui_mac_MacView__1exitFullscreen
+_Java_com_sun_glass_ui_mac_MacView__1getMultiClickMaxX_1impl
+_Java_com_sun_glass_ui_mac_MacView__1getMultiClickMaxY_1impl
+_Java_com_sun_glass_ui_mac_MacView__1getMultiClickTime_1impl
+_Java_com_sun_glass_ui_mac_MacView__1getNativeLayer
+_Java_com_sun_glass_ui_mac_MacView__1getNativeRemoteLayerId
+_Java_com_sun_glass_ui_mac_MacView__1getX
+_Java_com_sun_glass_ui_mac_MacView__1getY
+_Java_com_sun_glass_ui_mac_MacView__1hostRemoteLayerId
+_Java_com_sun_glass_ui_mac_MacView__1initIDs
+_Java_com_sun_glass_ui_mac_MacView__1scheduleRepaint
+_Java_com_sun_glass_ui_mac_MacView__1setParent
+_Java_com_sun_glass_ui_mac_MacView__1uploadPixelsByteArray
+_Java_com_sun_glass_ui_mac_MacView__1uploadPixelsDirect
+_Java_com_sun_glass_ui_mac_MacView__1uploadPixelsIntArray
+_Java_com_sun_glass_ui_mac_MacWindow__1close
+_Java_com_sun_glass_ui_mac_MacWindow__1createChildWindow
+_Java_com_sun_glass_ui_mac_MacWindow__1createWindow
+_Java_com_sun_glass_ui_mac_MacWindow__1enterModal
+_Java_com_sun_glass_ui_mac_MacWindow__1enterModalWithWindow
+_Java_com_sun_glass_ui_mac_MacWindow__1exitModal
+_Java_com_sun_glass_ui_mac_MacWindow__1getEmbeddedX
+_Java_com_sun_glass_ui_mac_MacWindow__1getEmbeddedY
+_Java_com_sun_glass_ui_mac_MacWindow__1grabFocus
+_Java_com_sun_glass_ui_mac_MacWindow__1initIDs
+_Java_com_sun_glass_ui_mac_MacWindow__1maximize
+_Java_com_sun_glass_ui_mac_MacWindow__1minimize
+_Java_com_sun_glass_ui_mac_MacWindow__1requestFocus
+_Java_com_sun_glass_ui_mac_MacWindow__1setAlpha
+_Java_com_sun_glass_ui_mac_MacWindow__1setBackground
+_Java_com_sun_glass_ui_mac_MacWindow__1setBounds
+_Java_com_sun_glass_ui_mac_MacWindow__1setEnabled
+_Java_com_sun_glass_ui_mac_MacWindow__1setFocusable
+_Java_com_sun_glass_ui_mac_MacWindow__1setIcon
+_Java_com_sun_glass_ui_mac_MacWindow__1setLevel
+_Java_com_sun_glass_ui_mac_MacWindow__1setMaximumSize
+_Java_com_sun_glass_ui_mac_MacWindow__1setMenubar
+_Java_com_sun_glass_ui_mac_MacWindow__1setMinimumSize
+_Java_com_sun_glass_ui_mac_MacWindow__1setResizable
+_Java_com_sun_glass_ui_mac_MacWindow__1setTitle
+_Java_com_sun_glass_ui_mac_MacWindow__1setView
+_Java_com_sun_glass_ui_mac_MacWindow__1setVisible
+_Java_com_sun_glass_ui_mac_MacWindow__1toBack
+_Java_com_sun_glass_ui_mac_MacWindow__1toFront
+_Java_com_sun_glass_ui_mac_MacWindow__1ungrabFocus
+_LOCK
+_OBJC_CLASS_$_DialogDispatcher
+_OBJC_CLASS_$_GlassAccessible
+_OBJC_CLASS_$_GlassApplication
+_OBJC_CLASS_$_GlassBackgroundWindow
+_OBJC_CLASS_$_GlassDragSource
+_OBJC_CLASS_$_GlassEmbeddedWindow
+_OBJC_CLASS_$_GlassFrameBufferObject
+_OBJC_CLASS_$_GlassFullscreenWindow
+_OBJC_CLASS_$_GlassHelper
+_OBJC_CLASS_$_GlassHostView
+_OBJC_CLASS_$_GlassLayer3D
+_OBJC_CLASS_$_GlassMenu
+_OBJC_CLASS_$_GlassMenubar
+_OBJC_CLASS_$_GlassNSEvent
+_OBJC_CLASS_$_GlassOffscreen
+_OBJC_CLASS_$_GlassOpenPanel
+_OBJC_CLASS_$_GlassRobot
+_OBJC_CLASS_$_GlassRunnable
+_OBJC_CLASS_$_GlassSavePanel
+_OBJC_CLASS_$_GlassTimer
+_OBJC_CLASS_$_GlassTouches
+_OBJC_CLASS_$_GlassView2D
+_OBJC_CLASS_$_GlassView3D
+_OBJC_CLASS_$_GlassViewDelegate
+_OBJC_CLASS_$_GlassWindow
+_OBJC_CLASS_$_GlassWindow_Normal
+_OBJC_CLASS_$_GlassWindow_Panel
+_OBJC_IVAR_$_DialogDispatcher.button
+_OBJC_IVAR_$_DialogDispatcher.eventLoop
+_OBJC_IVAR_$_DialogDispatcher.m_filters
+_OBJC_IVAR_$_DialogDispatcher.owner
+_OBJC_IVAR_$_DialogDispatcher.panel
+_OBJC_IVAR_$_GlassApplication.jApplication
+_OBJC_IVAR_$_GlassApplication.jLaunchable
+_OBJC_IVAR_$_GlassApplication.jTaskBarApp
+_OBJC_IVAR_$_GlassApplication.jshareContextPtr
+_OBJC_IVAR_$_GlassApplication.started
+_OBJC_IVAR_$_GlassBackgroundWindow.startingTrackingSize
+_OBJC_IVAR_$_GlassBackgroundWindow.trackWindow
+_OBJC_IVAR_$_GlassEmbeddedWindow.child
+_OBJC_IVAR_$_GlassEmbeddedWindow.fullscreenWindow
+_OBJC_IVAR_$_GlassEmbeddedWindow.isKeyWindow
+_OBJC_IVAR_$_GlassEmbeddedWindow.parent
+_OBJC_IVAR_$_GlassFrameBufferObject._fbo
+_OBJC_IVAR_$_GlassFrameBufferObject._fboToRestore
+_OBJC_IVAR_$_GlassFrameBufferObject._height
+_OBJC_IVAR_$_GlassFrameBufferObject._texture
+_OBJC_IVAR_$_GlassFrameBufferObject._width
+_OBJC_IVAR_$_GlassFullscreenWindow.displayID
+_OBJC_IVAR_$_GlassFullscreenWindow.point
+_OBJC_IVAR_$_GlassHostView.view
+_OBJC_IVAR_$_GlassLayer3D._glassOffscreen
+_OBJC_IVAR_$_GlassLayer3D._painterOffscreen
+_OBJC_IVAR_$_GlassLayer3D._remoteLayer
+_OBJC_IVAR_$_GlassLayer3D._remoteLayerID
+_OBJC_IVAR_$_GlassLayer3D._serverPort
+_OBJC_IVAR_$_GlassLayer3D.isHiDPIAware
+_OBJC_IVAR_$_GlassMenu.item
+_OBJC_IVAR_$_GlassMenu.jCallback
+_OBJC_IVAR_$_GlassMenu.jDelegate
+_OBJC_IVAR_$_GlassMenu.jMenu
+_OBJC_IVAR_$_GlassMenu.menu
+_OBJC_IVAR_$_GlassMenubar.menu
+_OBJC_IVAR_$_GlassNSEvent.m_isSyntheticKeyTyped
+_OBJC_IVAR_$_GlassNSEvent.m_needsKeyTyped
+_OBJC_IVAR_$_GlassOffscreen._backgroundA
+_OBJC_IVAR_$_GlassOffscreen._backgroundB
+_OBJC_IVAR_$_GlassOffscreen._backgroundG
+_OBJC_IVAR_$_GlassOffscreen._backgroundR
+_OBJC_IVAR_$_GlassOffscreen._ctx
+_OBJC_IVAR_$_GlassOffscreen._ctxToRestore
+_OBJC_IVAR_$_GlassOffscreen._dirty
+_OBJC_IVAR_$_GlassOffscreen._layer
+_OBJC_IVAR_$_GlassOffscreen._offscreen
+_OBJC_IVAR_$_GlassRobot.mouseButtons
+_OBJC_IVAR_$_GlassRunnable.jRunnable
+_OBJC_IVAR_$_GlassTimer._env
+_OBJC_IVAR_$_GlassTimer._period
+_OBJC_IVAR_$_GlassTimer._runnable
+_OBJC_IVAR_$_GlassTimer._running
+_OBJC_IVAR_$_GlassTimer._thread
+_OBJC_IVAR_$_GlassView2D.delegate
+_OBJC_IVAR_$_GlassView2D.trackingArea
+_OBJC_IVAR_$_GlassView3D._backgroundA
+_OBJC_IVAR_$_GlassView3D._backgroundB
+_OBJC_IVAR_$_GlassView3D._backgroundG
+_OBJC_IVAR_$_GlassView3D._backgroundR
+_OBJC_IVAR_$_GlassView3D._delegate
+_OBJC_IVAR_$_GlassView3D._drawCounter
+_OBJC_IVAR_$_GlassView3D._texture
+_OBJC_IVAR_$_GlassView3D._textureHeight
+_OBJC_IVAR_$_GlassView3D._textureWidth
+_OBJC_IVAR_$_GlassView3D._trackingArea
+_OBJC_IVAR_$_GlassView3D.imEnabled
+_OBJC_IVAR_$_GlassView3D.isHiDPIAware
+_OBJC_IVAR_$_GlassView3D.nsAttrBuffer
+_OBJC_IVAR_$_GlassView3D.shouldProcessKeyEvent
+_OBJC_IVAR_$_GlassViewDelegate.backgroundWindow
+_OBJC_IVAR_$_GlassViewDelegate.dragOperation
+_OBJC_IVAR_$_GlassViewDelegate.fullscreenHost
+_OBJC_IVAR_$_GlassViewDelegate.fullscreenWindow
+_OBJC_IVAR_$_GlassViewDelegate.gestureInProgress
+_OBJC_IVAR_$_GlassViewDelegate.jView
+_OBJC_IVAR_$_GlassViewDelegate.lastEvent
+_OBJC_IVAR_$_GlassViewDelegate.lastTrackingNumber
+_OBJC_IVAR_$_GlassViewDelegate.mouseDownMask
+_OBJC_IVAR_$_GlassViewDelegate.mouseIsDown
+_OBJC_IVAR_$_GlassViewDelegate.mouseIsOver
+_OBJC_IVAR_$_GlassViewDelegate.nativeFullScreenModeWindow
+_OBJC_IVAR_$_GlassViewDelegate.nsView
+_OBJC_IVAR_$_GlassViewDelegate.parentHost
+_OBJC_IVAR_$_GlassViewDelegate.parentWindow
+_OBJC_IVAR_$_GlassViewDelegate.parentWindowAlpha
+_OBJC_IVAR_$_GlassViewDelegate.trackingRect
+_OBJC_IVAR_$_GlassWindow.currentScreen
+_OBJC_IVAR_$_GlassWindow.enabledStyleMask
+_OBJC_IVAR_$_GlassWindow.fullscreenWindow
+_OBJC_IVAR_$_GlassWindow.isClosed
+_OBJC_IVAR_$_GlassWindow.isDecorated
+_OBJC_IVAR_$_GlassWindow.isEnabled
+_OBJC_IVAR_$_GlassWindow.isFocusable
+_OBJC_IVAR_$_GlassWindow.isLocationAssigned
+_OBJC_IVAR_$_GlassWindow.isResizable
+_OBJC_IVAR_$_GlassWindow.isSizeAssigned
+_OBJC_IVAR_$_GlassWindow.isTransparent
+_OBJC_IVAR_$_GlassWindow.jWindow
+_OBJC_IVAR_$_GlassWindow.lastReportedLocation
+_OBJC_IVAR_$_GlassWindow.menubar
+_OBJC_IVAR_$_GlassWindow.nsWindow
+_OBJC_IVAR_$_GlassWindow.owner
+_OBJC_IVAR_$_GlassWindow.preZoomedRect
+_OBJC_IVAR_$_GlassWindow.suppressWindowMoveEvent
+_OBJC_IVAR_$_GlassWindow.suppressWindowResizeEvent
+_OBJC_IVAR_$_GlassWindow.view
+_OBJC_IVAR_$_GlassWindow_Normal.gWindow
+_OBJC_IVAR_$_GlassWindow_Panel.gWindow
+_OBJC_METACLASS_$_DialogDispatcher
+_OBJC_METACLASS_$_GlassAccessible
+_OBJC_METACLASS_$_GlassApplication
+_OBJC_METACLASS_$_GlassBackgroundWindow
+_OBJC_METACLASS_$_GlassDragSource
+_OBJC_METACLASS_$_GlassEmbeddedWindow
+_OBJC_METACLASS_$_GlassFrameBufferObject
+_OBJC_METACLASS_$_GlassFullscreenWindow
+_OBJC_METACLASS_$_GlassHelper
+_OBJC_METACLASS_$_GlassHostView
+_OBJC_METACLASS_$_GlassLayer3D
+_OBJC_METACLASS_$_GlassMenu
+_OBJC_METACLASS_$_GlassMenubar
+_OBJC_METACLASS_$_GlassNSEvent
+_OBJC_METACLASS_$_GlassOffscreen
+_OBJC_METACLASS_$_GlassOpenPanel
+_OBJC_METACLASS_$_GlassRobot
+_OBJC_METACLASS_$_GlassRunnable
+_OBJC_METACLASS_$_GlassSavePanel
+_OBJC_METACLASS_$_GlassTimer
+_OBJC_METACLASS_$_GlassTouches
+_OBJC_METACLASS_$_GlassView2D
+_OBJC_METACLASS_$_GlassView3D
+_OBJC_METACLASS_$_GlassViewDelegate
+_OBJC_METACLASS_$_GlassWindow
+_OBJC_METACLASS_$_GlassWindow_Normal
+_OBJC_METACLASS_$_GlassWindow_Panel
+_RemoteLayerGetIdForRemote
+_RemoteLayerGetRemoteFromLocal
+_RemoteLayerGetServerName
+_RemoteLayerGetServerPort
+_RemoteLayerHostRemoteIdInLocal
+_RemoteLayerStartServer
+_copyToDragPasteboardIfNeeded
+_createJavaScreen
+_createJavaScreens
+_date
+_getGlassEmbeddedWindow
+_getRam
+_getTimeMicroseconds
+_initJavaIDsArrayList
+_initJavaIDsFile
+_initJavaIDsList
+_intervalLast
+_jAccessibilityActionDescription
+_jAccessibilityActionNames
+_jAccessibilityArrayAttributeCount
+_jAccessibilityArrayAttributeValues
+_jAccessibilityAttributeNames
+_jAccessibilityAttributeValue
+_jAccessibilityAttributeValueForParameter
+_jAccessibilityFocusedUIElement
+_jAccessibilityHitTest
+_jAccessibilityIndexOfChild
+_jAccessibilityIsAttributeSettable
+_jAccessibilityIsIgnored
+_jAccessibilityParameterizedAttributeNames
+_jAccessibilityPerformAction
+_jAccessibilitySetValue
+_jAccessibleClass
+_jApplicationClass
+_jArrayToNSArray
+_jBooleanClass
+_jBooleanValueMethod
+_jEnv
+_jIntToNSNumber
+_jIntegerClass
+_jIntegerInitMethod
+_jIntegerValueMethod
+_jLongClass
+_jLongToID
+_jLongValueMethod
+_jMapClass
+_jMapGetMethod
+_jMenuBarDelegateClass
+_jPixelsAttachData
+_jRunnableRun
+_jScreenClass
+_jScreenNotifySettingsChanged
+_jSizeInit
+_jStringToNSString
+_jVM
+_jVariantClass
+_jVariantDouble1
+_jVariantFloat1
+_jVariantFloat2
+_jVariantFloat3
+_jVariantFloat4
+_jVariantInit
+_jVariantInt1
+_jVariantInt2
+_jVariantIntArray
+_jVariantKey
+_jVariantLength
+_jVariantLocation
+_jVariantLong1
+_jVariantLongArray
+_jVariantString
+_jVariantStringArray
+_jVariantToID
+_jVariantType
+_jVariantVariantArray
+_jViewClass
+_jViewGetAccessible
+_jViewNotifyDragDrop
+_jViewNotifyDragEnd
+_jViewNotifyDragEnter
+_jViewNotifyDragLeave
+_jViewNotifyDragOver
+_jViewNotifyEvent
+_jViewNotifyInputMethod
+_jViewNotifyInputMethodCandidatePosRequest
+_jViewNotifyInputMethodMac
+_jViewNotifyKey
+_jViewNotifyMenu
+_jViewNotifyMouse
+_jViewNotifyRepaint
+_jViewNotifyResize
+_jWindowClass
+_jWindowNotifyClose
+_jWindowNotifyDelegatePtr
+_jWindowNotifyDestroy
+_jWindowNotifyFocus
+_jWindowNotifyFocusDisabled
+_jWindowNotifyFocusUngrab
+_jWindowNotifyMove
+_jWindowNotifyMoveToAnotherScreen
+_jWindowNotifyResize
+_javaIDs
+_printLoadedFiles
+_printLoadedLibraries
+_variantToID
+_AXUIElementCreateSystemWide
+_AXUIElementPostKeyboardEvent
+_CFBundleGetBundleWithIdentifier
+_CFBundleGetDataPointerForName
+_CFDataGetBytePtr
+_CFMachPortCreateRunLoopSource
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetCurrent
+_CFRunLoopRemoveSource
+_CGBitmapContextCreate
+_CGColorSpaceCreateDeviceRGB
+_CGColorSpaceCreateWithName
+_CGColorSpaceRelease
+_CGContextDrawImage
+_CGContextFlush
+_CGContextRelease
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextScaleCTM
+_CGContextSetBlendMode
+_CGContextTranslateCTM
+_CGDataProviderCopyData
+_CGDataProviderCreateWithData
+_CGDataProviderRelease
+_CGDisplayBounds
+_CGDisplayHideCursor
+_CGDisplayScreenSize
+_CGDisplayShowCursor
+_CGEventCreateMouseEvent
+_CGEventCreateScrollWheelEvent
+_CGEventGetLocation
+_CGEventPost
+_CGEventTapCreate
+_CGEventTapEnable
+_CGGetActiveDisplayList
+_CGImageCreate
+_CGImageGetDataProvider
+_CGImageGetHeight
+_CGImageGetWidth
+_CGImageRelease
+_CGLChoosePixelFormat
+_CGLCreateContext
+_CGLGetCurrentContext
+_CGLGetPixelFormat
+_CGLLockContext
+_CGLReleaseContext
+_CGLRetainContext
+_CGLRetainPixelFormat
+_CGLSetCurrentContext
+_CGLUnlockContext
+_CGMainDisplayID
+_CGWarpMouseCursorPosition
+_CGWindowLevelForKey
+_CGWindowListCreateImage
+_CVDisplayLinkCreateWithActiveCGDisplays
+_CVDisplayLinkGetActualOutputVideoRefreshPeriod
+_CVDisplayLinkIsRunning
+_CVDisplayLinkRelease
+_CVDisplayLinkSetCurrentCGDisplay
+_CVDisplayLinkSetOutputCallback
+_CVDisplayLinkStart
+_CVDisplayLinkStop
+_GetCurrentProcess
+_GetProcessInformation
+_NSAccessibilityActionDescription
+_NSAccessibilityChildrenAttribute
+_NSAccessibilityMenuRole
+_NSAccessibilityPostNotification
+_NSAccessibilityRoleAttribute
+_NSAccessibilityRoleDescription
+_NSAccessibilityRoleDescriptionAttribute
+_NSAccessibilityUnignoredAncestor
+_NSAccessibilityUnignoredChildren
+_NSApp
+_NSAppKitVersionNumber
+_NSApplicationDidChangeScreenParametersNotification
+_NSBeep
+_NSBitsPerPixelFromDepth
+_NSDefaultRunLoopMode
+_NSDeviceRGBColorSpace
+_NSDragPboard
+_NSEventTrackingRunLoopMode
+_NSGeneralPboard
+_NSImageNameMultipleDocuments
+_NSLog
+_NSModalPanelRunLoopMode
+_NSPasteboardTypeColor
+_NSPasteboardTypeFindPanelSearchOptions
+_NSPasteboardTypeFont
+_NSPasteboardTypeHTML
+_NSPasteboardTypeMultipleTextSelection
+_NSPasteboardTypePDF
+_NSPasteboardTypePNG
+_NSPasteboardTypeRTF
+_NSPasteboardTypeRTFD
+_NSPasteboardTypeRuler
+_NSPasteboardTypeString
+_NSPasteboardTypeTIFF
+_NSPasteboardTypeTabularText
+_NSPointFromString
+_NSSearchPathForDirectoriesInDomains
+_NSStringFromPoint
+_NSWindowDidBecomeKeyNotification
+_NSWindowDidResignKeyNotification
+_NSZeroPoint
+_NSZeroRect
+_NSZeroSize
+_OBJC_CLASS_$_CAOpenGLLayer
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSCursor
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSGraphicsContext
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSInputManager
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSMenu
+_OBJC_CLASS_$_NSMenuItem
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableAttributedString
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOpenGLView
+_OBJC_CLASS_$_NSOpenPanel
+_OBJC_CLASS_$_NSPanel
+_OBJC_CLASS_$_NSPasteboard
+_OBJC_CLASS_$_NSPasteboardItem
+_OBJC_CLASS_$_NSPopUpButton
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSRunningApplication
+_OBJC_CLASS_$_NSSavePanel
+_OBJC_CLASS_$_NSScreen
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSText
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTrackingArea
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSView
+_OBJC_CLASS_$_NSWindow
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_CAOpenGLLayer
+_OBJC_METACLASS_$_NSEvent
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSOpenGLView
+_OBJC_METACLASS_$_NSOpenPanel
+_OBJC_METACLASS_$_NSPanel
+_OBJC_METACLASS_$_NSSavePanel
+_OBJC_METACLASS_$_NSView
+_OBJC_METACLASS_$_NSWindow
+_TransformProcessType
+_UTTypeCopyPreferredTagWithClass
+_UTTypeCreatePreferredIdentifierForTag
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume_or_Rethrow
+___CFConstantStringClassReference
+___bzero
+___objc_personality_v0
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___strcat_chk
+__dyld_get_image_name
+__dyld_image_count
+__objc_empty_cache
+__objc_empty_vtable
+_fflush
+_fgets
+_floor
+_fprintf
+_free
+_fwrite
+_getenv
+_getpid
+_gettimeofday
+_glActiveTextureARB
+_glBegin
+_glBindFramebuffer
+_glBindFramebufferEXT
+_glBindTexture
+_glBlitFramebuffer
+_glCheckFramebufferStatusEXT
+_glClear
+_glClearColor
+_glDeleteFramebuffersEXT
+_glDeleteTextures
+_glDisable
+_glEnable
+_glEnd
+_glFinish
+_glFramebufferTexture2DEXT
+_glGenFramebuffersEXT
+_glGenTextures
+_glGetIntegerv
+_glGetString
+_glLoadIdentity
+_glMatrixMode
+_glOrtho
+_glPopMatrix
+_glPushMatrix
+_glTexCoord2f
+_glTexEnvf
+_glTexEnvi
+_glTexImage2D
+_glTexParameteri
+_glTexSubImage2D
+_glVertex2f
+_glViewport
+_gluCheckExtension
+_kCAGravityTopLeft
+_kCFAllocatorDefault
+_kCFRunLoopCommonModes
+_kCGColorSpaceGenericRGB
+_kUTTagClassMIMEType
+_kUTTypeFileURL
+_kUTTypeURL
+_mach_task_self_
+_malloc
+_memcpy
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getClass
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_objc_msgSend_stret
+_pclose
+_popen
+_pthread_attr_init
+_pthread_attr_setinheritsched
+_pthread_attr_setschedparam
+_pthread_attr_setschedpolicy
+_pthread_create
+_pthread_detach
+_pthread_getspecific
+_pthread_key_create
+_pthread_main_np
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_pthread_self
+_pthread_setname_np
+_pthread_setspecific
+_pthread_yield_np
+_realloc
+_round
+_sched_get_priority_max
+_sched_yield
+_snprintf
+_strlen
+_strtok
+_task_info
+_usleep
+_vsnprintf
+_waitpid
+dyld_stub_binder

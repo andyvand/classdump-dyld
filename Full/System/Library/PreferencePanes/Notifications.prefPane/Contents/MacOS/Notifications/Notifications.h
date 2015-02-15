@@ -1,0 +1,17 @@
+#import <Notifications/NCShareWidgetService.h>
+#import <Notifications/NotificationCenterPref.h>
+#import <Notifications/NCPreferences.h>
+#import <Notifications/NCPrefAppRowView.h>
+#import <Notifications/NCPrefTableController.h>
+#import <Notifications/NCPrefEntity.h>
+#import <Notifications/NCPrefAppEntity.h>
+#import <Notifications/NCNumberOfRecentsTransformer.h>
+#import <Notifications/NCPrefGroupEntity.h>
+#import <Notifications/NCPrefGroupRowView.h>
+#import <Notifications/NCPrefAlertStyleCell.h>
+#import <Notifications/NCPrefAppDetailController.h>
+#import <Notifications/_NCPrefOptionPart.h>
+#import <Notifications/NCPrefTableCellView.h>
+#import <Notifications/NCPrefDNDEntity.h>
+#import <Notifications/NCPrefDNDViewController.h>
+#import <Notifications/NCPrefDNDRowView.h>

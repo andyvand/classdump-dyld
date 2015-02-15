@@ -1,0 +1,10 @@
+/SourceCache/xcode_select/xcode_select-2339/src/shims/
+tool-shim.c
+/BinaryCache/xcode_select/xcode_select-2339~5/Objects/xcode_select.build/ToolShims.build/Objects/hdxml2manxml.o
+_main
+_shim_marker
+__mh_execute_header
+_main
+_shim_marker
+_xcselect_invoke_xcrun
+dyld_stub_binder

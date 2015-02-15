@@ -1,0 +1,21 @@
++[NSFileHandle(StringExports) NSFileHandleReadCompletionNotification]
++[NSFileHandle(StringExports) NSFileHandleNotificationDataItem]
+-[NSFileHandle(StringExports) outputDidConnect:]
+-[NSFileHandle(StringExports) readOutputStream:]
++[NSData(PerlInitializer) dataWithSV:length:]
++[NSRunLoop(Constants) NSDefaultRunLoopMode]
+_boot_Foundation
+_NSDefaultRunLoopMode
+_NSFileHandleNotificationDataItem
+_NSFileHandleReadCompletionNotification
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSRunLoop
+_PL_thr_key
+_Perl_call_list
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+_dlopen
+_objc_msgSend
+_pthread_getspecific
+dyld_stub_binder

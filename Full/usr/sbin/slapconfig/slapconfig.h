@@ -1,0 +1,10 @@
+#import <slapconfig/LDAPv3RecordType.h>
+#import <slapconfig/LDIFString.h>
+#import <slapconfig/DSConfiguration.h>
+#import <slapconfig/StatusFile.h>
+#import <slapconfig/KRB5Context.h>
+#import <slapconfig/KRB5Credential.h>
+#import <slapconfig/KRB5CredentialCache.h>
+#import <slapconfig/KRB5Keytab.h>
+#import <slapconfig/KRB5KeytabEntry.h>
+#import <slapconfig/KRB5Principal.h>

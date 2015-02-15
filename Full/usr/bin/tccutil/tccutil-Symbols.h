@@ -1,0 +1,15 @@
+radr://5614542
+__mh_execute_header
+_OBJC_CLASS_$_NSString
+_TCCAccessReset
+___CFConstantStringClassReference
+_errx
+_getpid
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_release
+_objc_retainAutoreleasedReturnValue
+_sandbox_check
+_strcmp
+dyld_stub_binder

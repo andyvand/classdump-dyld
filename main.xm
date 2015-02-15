@@ -2846,309 +2846,301 @@ extern "C" int parseImage(char *image,BOOL writeToDisk,NSString *outputDir,BOOL 
 	
 }
 
-
-
 /****** main ******/
 
 int main(int argc, char **argv, char **envp) {
-	
-	
 	@autoreleasepool {
+char * image=nil;
+BOOL writeToDisk=NO;
+BOOL buildOriginalDirs=NO;
+BOOL recursive=NO;
+BOOL simpleHeader=NO;
+BOOL getSymbols=YES;
+BOOL skipAlreadyFound=NO;
+BOOL isSharedCacheRecursive=NO;
+BOOL skipApplications=YES;
 
-		char * image=nil;
-		BOOL writeToDisk=NO;
-		BOOL buildOriginalDirs=NO;
-		BOOL recursive=NO;
-		BOOL simpleHeader=NO;
-		BOOL getSymbols=YES;
-		BOOL skipAlreadyFound=NO;
-		BOOL isSharedCacheRecursive=NO;
-		BOOL skipApplications=YES;
-		
-		NSString *outputDir=nil;
-		NSString *sourceDir=nil;
-		
-		// Check and apply arguments
-		
-		NSString *currentDir=[[[NSProcessInfo processInfo] environment] objectForKey:@"PWD"];
-		NSArray *arguments=[[NSProcessInfo processInfo] arguments];
-		NSMutableArray *argumentsToUse=[arguments mutableCopy];
-		[argumentsToUse removeObjectAtIndex:0];
+NSString *outputDir=nil;
+NSString *sourceDir=nil;
 
-		int argCount=[arguments count];
+// Check and apply arguments
 
-		if (argCount<2){
-			printHelp();
-			exit(0);
-		}
-		
-		for (NSString *arg in arguments){
-		
-			if ([arg isEqual:@"-D"]){
-				inDebug=1;
-				[argumentsToUse removeObject:arg];
-			}
-			
-			if ([arg isEqual:@"-o"]){
+NSString *currentDir=[[[NSProcessInfo processInfo] environment] objectForKey:@"PWD"];
+NSArray *arguments=[[NSProcessInfo processInfo] arguments];
+NSMutableArray *argumentsToUse=[arguments mutableCopy];
+[argumentsToUse removeObjectAtIndex:0];
 
-				int argIndex=[arguments indexOfObject:arg]; 
+int argCount=[arguments count];
 
-				if (argIndex==argCount-1){
-					printHelp();
-					exit(0);
-				}
-
-				outputDir=[arguments objectAtIndex:argIndex+1];
-
-				if ([outputDir rangeOfString:@"-"].location==0){
-					printHelp();
-					exit(0);
-				}
-				writeToDisk=YES;
-				[argumentsToUse removeObject:arg];
-				[argumentsToUse removeObject:outputDir];
-				
-				
-			}
-			
-			if ([arg isEqual:@"-r"]){
-
-				int argIndex=[arguments indexOfObject:arg]; 
-
-				if (argIndex==argCount-1){
-					printHelp();
-					exit(0);
-				}
-				
-				sourceDir=[arguments objectAtIndex:argIndex+1];
-				BOOL isDir;
-				if ([sourceDir rangeOfString:@"-"].location==0 || ![[NSFileManager defaultManager] fileExistsAtPath:sourceDir] || ([[NSFileManager defaultManager] fileExistsAtPath:sourceDir isDirectory:&isDir] && !isDir)){
-					printf("classdump-dyld: error: Directory %s does not exist\n",[sourceDir UTF8String]);
-					exit(0);
-				}
-				recursive=YES;
-				[argumentsToUse removeObject:arg];
-				[argumentsToUse removeObject:sourceDir];
-				
-			}
-			
-			if ([arg isEqual:@"-a"]){
-				skipApplications=NO;
-				[argumentsToUse removeObject:arg];
-			}
-			
-			if ([arg isEqual:@"-e"]){
-				shouldDLopen32BitExecutables=YES;
-				[argumentsToUse removeObject:arg];
-			}
-			
-			
-			if ([arg isEqual:@"-s"]){
-				skipAlreadyFound=YES;
-				[argumentsToUse removeObject:arg];
-				
-			}
-			
-			if ([arg isEqual:@"-b"]){
-				buildOriginalDirs=YES;
-				[argumentsToUse removeObject:arg];
-				
-			}
-			
-			if ([arg isEqual:@"-g"]){
-				getSymbols=NO;
-				[argumentsToUse removeObject:arg];
-				
-			}
-			
-			if ([arg isEqual:@"-u"]){
-				simpleHeader=YES;
-				[argumentsToUse removeObject:arg];				
-			}
-			if ([arg isEqual:@"-c"]){
-				isSharedCacheRecursive=YES;
-				[argumentsToUse removeObject:arg];				
-			}
-			if ([arg isEqual:@"-h"]){
-				addHeadersFolder=YES;
-				[argumentsToUse removeObject:arg];				
-			}
-
-
-		}
-		
-		if (addHeadersFolder && !outputDir){
-			printHelp();
-			exit(0);
-		}
-		
-		if ((recursive || isSharedCacheRecursive) && !outputDir){
-			printHelp();
-			exit(0);
-		}
-		if ((recursive || isSharedCacheRecursive) && [argumentsToUse count]>0){
-			printHelp();
-			exit(0);
-		}
-		if ([argumentsToUse count]>2){
-			printHelp();
-			exit(0);
-		}
-		if (!recursive && !isSharedCacheRecursive){
-			if ([argumentsToUse count]>1){
-				printHelp();
-				exit(0);			
-			}
-			else{
-				if ([argumentsToUse count]>0){
-					image=(char *)[[argumentsToUse objectAtIndex:0] UTF8String];			
-				}
-				else{
-					printHelp();
-					exit(0);
-				}
-			}
-		}
-		
-		
-		// Begin
-		
-		int RESULT=1;
-		
-		allImagesProcessed=[NSMutableArray array];
-		
-		NSString *inoutputDir=outputDir;
-		
-		if (isSharedCacheRecursive){
-			const char *filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv6";
-			FILE* fp=fopen(filename,"r");
-			if (fp==NULL){
-				if ([[NSFileManager defaultManager] fileExistsAtPath:@"/private/var/db/dyld/dyld_shared_cache_x86_64"]){
-					filename="/private/var/db/dyld/dyld_shared_cache_x86_64";
-				}
-				else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/private/var/db/dyld/dyld_shared_cache_i386"]){
-					filename="/private/var/db/dyld/dyld_shared_cache_i386";
-				}
-				else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64"]){
-					filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64";
-				}
-				else if([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s"]){
-					filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s";
-				}
-				else{
-					filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7";
-				}
-			}
-			fclose(fp);
-			printf("\n   Now dumping "BOLDWHITE"%s..."RESET"\n\n",filename);
-			// Thanks to DHowett & KennyTM~ for dyld_shared_cache listing codes
-			struct stat filebuffer;
-			stat(filename, &filebuffer);
-			unsigned long long filesize = filebuffer.st_size;
-			int fd = open(filename, O_RDONLY);
-			_cacheData = (uint8_t *)mmap(NULL, filesize, PROT_READ, MAP_PRIVATE, fd, 0);
-			_cacheHead = (struct cache_header *)_cacheData;
-			uint64_t curoffset = _cacheHead->startaddr;
-			for (unsigned i = 0; i < _cacheHead->numlibs; ++ i) {
-				uint64_t fo = *(uint64_t *)(_cacheData + curoffset + 24);
-				curoffset += 32;
-				char *imageInCache=(char*)_cacheData + fo;
-				
-				// a few blacklisted frameworks that crash
-				if (strstr(imageInCache,"WebKitLegacy") || strstr(imageInCache,"VisualVoicemail") || strstr(imageInCache,"/System/Library/Frameworks/CoreGraphics.framework/Resources/") || strstr(imageInCache,"JavaScriptCore.framework") || strstr(imageInCache,"GameKitServices.framework") || strstr(imageInCache,"VectorKit")){
-					continue;
-				}
-				
-				NSMutableString *imageToNSString=[[NSMutableString alloc] initWithCString:imageInCache encoding:NSUTF8StringEncoding];
-				[imageToNSString replaceOccurrencesOfString:@"///" withString:@"/" options:nil range:NSMakeRange(0, [imageToNSString length])];
-				[imageToNSString replaceOccurrencesOfString:@"//" withString:@"/" options:nil range:NSMakeRange(0, [imageToNSString length])];
-				CDLog(@"Current Image %@",imageToNSString);
-				parseImage((char *)[imageToNSString UTF8String],writeToDisk,outputDir,getSymbols,YES,YES,simpleHeader,skipAlreadyFound,skipApplications);
-				[imageToNSString release];
-				
-			}
-			munmap(_cacheData, filesize);
-			close(fd);	
-			printf("\n   Finished dumping "BOLDWHITE"%s..."RESET"\n\n",filename);	
-		}
-		if (recursive){
-			
-			NSFileManager *fileman=[[NSFileManager alloc ] init];
-			NSError *error;
-			[fileman createDirectoryAtPath:outputDir withIntermediateDirectories:YES attributes:nil error:&error];
-			if (error){
-				NSLog(@"Could not create directory %@. Check permissions.",outputDir);
-				exit(EXIT_FAILURE);
-			}
-			[fileman changeCurrentDirectoryPath:currentDir];
-			[fileman changeCurrentDirectoryPath:outputDir];
-			outputDir=[fileman currentDirectoryPath];
-			[fileman changeCurrentDirectoryPath:currentDir];
-			[fileman changeCurrentDirectoryPath:sourceDir];
-			sourceDir=[fileman currentDirectoryPath];
-			[fileman release];
-			const char* dir_name=[sourceDir UTF8String];
-			list_dir(dir_name,writeToDisk,outputDir,getSymbols,recursive,simpleHeader,skipAlreadyFound,skipApplications);
-
-
-		}
-		else{
-			if (image){
-				
-				NSError *error;
-				NSFileManager *fileman=[[NSFileManager alloc ] init];	
-				NSString *imageString=nil;	
-				if (outputDir){
-					[fileman createDirectoryAtPath:outputDir withIntermediateDirectories:YES attributes:nil error:&error];
-					if (error){
-						NSLog(@"Could not create directory %@. Check permissions.",outputDir);
-						exit(EXIT_FAILURE);
-					}
-					[fileman changeCurrentDirectoryPath:currentDir];
-					[fileman changeCurrentDirectoryPath:outputDir];
-					outputDir=[fileman currentDirectoryPath];
-					
-					imageString=[NSString stringWithCString:image encoding:NSUTF8StringEncoding];
-				
-					if ([imageString rangeOfString:@"/"].location!=0){ // not an absolute path
-							
-						[fileman changeCurrentDirectoryPath:currentDir];
-						NSString *append=[imageString lastPathComponent];
-						NSString *source=[imageString stringByDeletingLastPathComponent];
-						[fileman changeCurrentDirectoryPath:source];
-						imageString=[[fileman currentDirectoryPath] stringByAppendingString:[NSString stringWithFormat:@"/%@",append]];
-						image=(char *)[imageString UTF8String];
-					
-					}
-				}
-				RESULT = parseImage(image,writeToDisk,outputDir,getSymbols,NO,buildOriginalDirs,simpleHeader,NO,skipApplications);
-				[fileman release];
-			}
-		}
-		
-		if (RESULT){
-			if (RESULT==4){
-				printf("  %s cannot be dumped with classdump-dyld.\n",image);
-				exit(1);
-			}
-			else if (RESULT==2){
-				printf("  %s does not implement any classes.\n",image);
-				exit(1);
-			}
-			else if (RESULT==3){
-				exit(1);
-			}
-			else{
-				if (writeToDisk){
-					printf("  Done. Check \"%s\" directory.\n",[inoutputDir UTF8String]);
-				}
-			}
-		}
-
-	}
-	
-	exit(0);
-	
+if (argCount<2){
+printHelp();
+exit(0);
 }
 
- 
+for (NSString *arg in arguments){
+
+if ([arg isEqual:@"-D"]){
+inDebug=1;
+[argumentsToUse removeObject:arg];
+}
+
+if ([arg isEqual:@"-o"]){
+
+int argIndex=[arguments indexOfObject:arg];
+
+if (argIndex==argCount-1){
+printHelp();
+exit(0);
+}
+
+outputDir=[arguments objectAtIndex:argIndex+1];
+
+if ([outputDir rangeOfString:@"-"].location==0){
+printHelp();
+exit(0);
+}
+writeToDisk=YES;
+[argumentsToUse removeObject:arg];
+[argumentsToUse removeObject:outputDir];
+
+
+}
+
+if ([arg isEqual:@"-r"]){
+
+int argIndex=[arguments indexOfObject:arg];
+
+if (argIndex==argCount-1){
+printHelp();
+exit(0);
+}
+
+sourceDir=[arguments objectAtIndex:argIndex+1];
+BOOL isDir;
+if ([sourceDir rangeOfString:@"-"].location==0 || ![[NSFileManager defaultManager] fileExistsAtPath:sourceDir] || ([[NSFileManager defaultManager] fileExistsAtPath:sourceDir isDirectory:&isDir] && !isDir)){
+printf("classdump-dyld: error: Directory %s does not exist\n",[sourceDir UTF8String]);
+exit(0);
+}
+recursive=YES;
+[argumentsToUse removeObject:arg];
+[argumentsToUse removeObject:sourceDir];
+
+}
+
+if ([arg isEqual:@"-a"]){
+skipApplications=NO;
+[argumentsToUse removeObject:arg];
+}
+
+if ([arg isEqual:@"-e"]){
+shouldDLopen32BitExecutables=YES;
+[argumentsToUse removeObject:arg];
+}
+
+
+if ([arg isEqual:@"-s"]){
+skipAlreadyFound=YES;
+[argumentsToUse removeObject:arg];
+
+}
+
+if ([arg isEqual:@"-b"]){
+buildOriginalDirs=YES;
+[argumentsToUse removeObject:arg];
+
+}
+
+if ([arg isEqual:@"-g"]){
+getSymbols=NO;
+[argumentsToUse removeObject:arg];
+
+}
+
+if ([arg isEqual:@"-u"]){
+simpleHeader=YES;
+[argumentsToUse removeObject:arg];
+}
+if ([arg isEqual:@"-c"]){
+isSharedCacheRecursive=YES;
+[argumentsToUse removeObject:arg];
+}
+if ([arg isEqual:@"-h"]){
+addHeadersFolder=YES;
+[argumentsToUse removeObject:arg];
+}
+
+
+}
+
+if (addHeadersFolder && !outputDir){
+printHelp();
+exit(0);
+}
+
+if ((recursive || isSharedCacheRecursive) && !outputDir){
+printHelp();
+exit(0);
+}
+if ((recursive || isSharedCacheRecursive) && [argumentsToUse count]>0){
+printHelp();
+exit(0);
+}
+if ([argumentsToUse count]>2){
+printHelp();
+exit(0);
+}
+if (!recursive && !isSharedCacheRecursive){
+if ([argumentsToUse count]>1){
+printHelp();
+exit(0);
+}
+else{
+if ([argumentsToUse count]>0){
+image=(char *)[[argumentsToUse objectAtIndex:0] UTF8String];
+}
+else{
+printHelp();
+exit(0);
+}
+}
+}
+
+
+// Begin
+
+int RESULT=1;
+
+allImagesProcessed=[NSMutableArray array];
+
+NSString *inoutputDir=outputDir;
+
+if (isSharedCacheRecursive){
+const char *filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv6";
+FILE* fp=fopen(filename,"r");
+if (fp==NULL){
+if ([[NSFileManager defaultManager] fileExistsAtPath:@"/private/var/db/dyld/dyld_shared_cache_x86_64"]){
+filename="/private/var/db/dyld/dyld_shared_cache_x86_64";
+}
+else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/private/var/db/dyld/dyld_shared_cache_i386"]){
+filename="/private/var/db/dyld/dyld_shared_cache_i386";
+}
+else if ([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64"]){
+filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64";
+}
+else if([[NSFileManager defaultManager] fileExistsAtPath:@"/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s"]){
+filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7s";
+}
+else{
+filename="/System/Library/Caches/com.apple.dyld/dyld_shared_cache_armv7";
+}
+}
+fclose(fp);
+printf("\n   Now dumping "BOLDWHITE"%s..."RESET"\n\n",filename);
+// Thanks to DHowett & KennyTM~ for dyld_shared_cache listing codes
+struct stat filebuffer;
+stat(filename, &filebuffer);
+unsigned long long filesize = filebuffer.st_size;
+int fd = open(filename, O_RDONLY);
+_cacheData = (uint8_t *)mmap(NULL, filesize, PROT_READ, MAP_PRIVATE, fd, 0);
+_cacheHead = (struct cache_header *)_cacheData;
+uint64_t curoffset = _cacheHead->startaddr;
+for (unsigned i = 0; i < _cacheHead->numlibs; ++ i) {
+uint64_t fo = *(uint64_t *)(_cacheData + curoffset + 24);
+curoffset += 32;
+char *imageInCache=(char*)_cacheData + fo;
+
+// a few blacklisted frameworks that crash
+if (strstr(imageInCache,"WebKitLegacy") || strstr(imageInCache,"VisualVoicemail") || strstr(imageInCache,"/System/Library/Frameworks/CoreGraphics.framework/Resources/") || strstr(imageInCache,"JavaScriptCore.framework") || strstr(imageInCache,"GameKitServices.framework") || strstr(imageInCache,"VectorKit")){
+continue;
+}
+
+NSMutableString *imageToNSString=[[NSMutableString alloc] initWithCString:imageInCache encoding:NSUTF8StringEncoding];
+[imageToNSString replaceOccurrencesOfString:@"///" withString:@"/" options:nil range:NSMakeRange(0, [imageToNSString length])];
+[imageToNSString replaceOccurrencesOfString:@"//" withString:@"/" options:nil range:NSMakeRange(0, [imageToNSString length])];
+CDLog(@"Current Image %@",imageToNSString);
+parseImage((char *)[imageToNSString UTF8String],writeToDisk,outputDir,getSymbols,YES,YES,simpleHeader,skipAlreadyFound,skipApplications);
+[imageToNSString release];
+
+}
+munmap(_cacheData, filesize);
+close(fd);
+printf("\n   Finished dumping "BOLDWHITE"%s..."RESET"\n\n",filename);
+}
+if (recursive){
+
+NSFileManager *fileman=[[NSFileManager alloc ] init];
+NSError *error;
+[fileman createDirectoryAtPath:outputDir withIntermediateDirectories:YES attributes:nil error:&error];
+if (error){
+NSLog(@"Could not create directory %@. Check permissions.",outputDir);
+exit(EXIT_FAILURE);
+}
+[fileman changeCurrentDirectoryPath:currentDir];
+[fileman changeCurrentDirectoryPath:outputDir];
+outputDir=[fileman currentDirectoryPath];
+[fileman changeCurrentDirectoryPath:currentDir];
+[fileman changeCurrentDirectoryPath:sourceDir];
+sourceDir=[fileman currentDirectoryPath];
+[fileman release];
+const char* dir_name=[sourceDir UTF8String];
+list_dir(dir_name,writeToDisk,outputDir,getSymbols,recursive,simpleHeader,skipAlreadyFound,skipApplications);
+
+
+}
+else{
+if (image){
+
+NSError *error;
+NSFileManager *fileman=[[NSFileManager alloc ] init];
+NSString *imageString=nil;
+if (outputDir){
+[fileman createDirectoryAtPath:outputDir withIntermediateDirectories:YES attributes:nil error:&error];
+if (error){
+NSLog(@"Could not create directory %@. Check permissions.",outputDir);
+exit(EXIT_FAILURE);
+}
+[fileman changeCurrentDirectoryPath:currentDir];
+[fileman changeCurrentDirectoryPath:outputDir];
+outputDir=[fileman currentDirectoryPath];
+
+imageString=[NSString stringWithCString:image encoding:NSUTF8StringEncoding];
+
+if ([imageString rangeOfString:@"/"].location!=0){ // not an absolute path
+
+[fileman changeCurrentDirectoryPath:currentDir];
+NSString *append=[imageString lastPathComponent];
+NSString *source=[imageString stringByDeletingLastPathComponent];
+[fileman changeCurrentDirectoryPath:source];
+imageString=[[fileman currentDirectoryPath] stringByAppendingString:[NSString stringWithFormat:@"/%@",append]];
+image=(char *)[imageString UTF8String];
+
+}
+}
+RESULT = parseImage(image,writeToDisk,outputDir,getSymbols,NO,buildOriginalDirs,simpleHeader,NO,skipApplications);
+[fileman release];
+}
+}
+
+if (RESULT){
+if (RESULT==4){
+printf("  %s cannot be dumped with classdump-dyld.\n",image);
+exit(1);
+}
+else if (RESULT==2){
+printf("  %s does not implement any classes.\n",image);
+exit(1);
+}
+else if (RESULT==3){
+exit(1);
+}
+else{
+if (writeToDisk){
+printf("  Done. Check \"%s\" directory.\n",[inoutputDir UTF8String]);
+}
+}
+}
+	}
+
+	exit(0);
+
+}

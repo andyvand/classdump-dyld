@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+_atoi
+_err
+_execvp
+_exit
+_fwrite
+_getopt
+_getpriority
+_optarg
+_optind
+_setlocale
+_setpriority
+_warn
+dyld_stub_binder

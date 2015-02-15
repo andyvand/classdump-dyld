@@ -1,0 +1,14 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+_err
+_exit
+_fwrite
+_getcwd
+_getenv
+_getopt
+_optind
+_puts
+_stat$INODE64
+dyld_stub_binder

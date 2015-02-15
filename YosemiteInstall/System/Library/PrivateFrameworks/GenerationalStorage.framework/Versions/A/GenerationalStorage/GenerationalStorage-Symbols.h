@@ -1,0 +1,806 @@
+__gs_log_msg
+__gs_do_log
+__GSLogMsg
+_gs_log_set_level
+-[GSAddition sandboxExtension]
+-[GSAddition isSavedConflict]
+-[GSAddition size]
+-[GSAddition name]
+-[GSAddition persistentIdentifier]
+-[GSAddition displayNameWithError:]
+-[GSAddition displayName]
+-[GSAddition originalPOSIXNameWithError:]
+-[GSAddition originalPOSIXName]
+-[GSAddition userInfoWithError:]
+-[GSAddition userInfo]
+-[GSAddition refreshWithError:]
+-[GSAddition isEqual:]
+-[GSAddition hash]
+-[GSAddition description]
+-[GSAddition init]
+-[GSAddition _refreshWithDictionary:]
+-[GSAddition _initWithStorage:andDictionary:]
+-[GSAddition dealloc]
+-[GSAddition setOptions:error:]
+-[GSAddition setDisplayName:error:]
+-[GSAddition setNameSpace:error:]
+-[GSAddition mergeUserInfo:error:]
+-[GSAddition internalStat:]
+-[GSAddition copyAdditionContentToURL:error:]
+-[GSAddition replaceItemAtURL:error:]
++[GSAddition makeNameForUser:name:]
+-[GSAddition url]
+-[GSAddition options]
+-[GSAddition nameSpace]
+-[GSAddition storage]
+-[NSFileManager(GSAdditions) gs_createTemporarySubdirectoryOfItem:withTemplate:error:]
+-[NSFileManager(GSAdditions) gs_createTemporaryFdInDirectory:withTemplate:error:]
+__mkstempWrapper
+-[NSFileManager(GSAdditions) gs_createTemporaryFileInDirectory:withTemplate:andExtension:error:]
+___GSDaemonInterface_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___GSDaemonProxy_block_invoke
+__SetupGSXPCConn
+___copy_helper_block_
+___destroy_helper_block_
+___GSDaemonConnectionClose_block_invoke
+-[GSDaemonProxySync initWithXPCObject:]
+___39-[GSDaemonProxySync initWithXPCObject:]_block_invoke
+___copy_helper_block_116
+___destroy_helper_block_117
++[GSDaemonProxySync proxy]
+-[GSDaemonProxySync dealloc]
+-[GSDaemonProxySync finalize]
+-[GSDaemonProxySync forwardInvocation:]
+-[GSDaemonProxySync methodSignatureForSelector:]
+-[GSDaemonProxySync handleBoolResult:error:]
+-[GSDaemonProxySync handleObjResult:error:]
+-[GSDaemonProxySync waitForResultWithError:]
+-[GSDaemonProxySync waitForResultWithCFError:]
+-[GSDaemonProxySync error]
+-[GSDaemonProxySync setError:]
+-[GSDaemonProxySync result]
+-[GSDaemonProxySync setResult:]
+___GSDaemonConnection_block_invoke
+___copy_helper_block_181
+___destroy_helper_block_182
+____SetupGSXPCConn_block_invoke
+___copy_helper_block_191
+___destroy_helper_block_192
+____SetupGSXPCConn_block_invoke199
+____SetupGSXPCConn_block_invoke_2
+___copy_helper_block_202
+___destroy_helper_block_203
+___copy_helper_block_206
+___destroy_helper_block_207
+____GSDaemonInitialize_block_invoke
+__RemoveTreeInternal
+__PathRename
+__PathUnProtect
+__PathReProtect
+__TransferBirthTime
+__PathSetEA
+___GSMergeInfoValueDictionary_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+_GSGetOriginalPOSIXName
+__GSGetNameXattr
+_GSGetOriginalDisplayName
+_GSGetGenerationOptions
+_GSComputeTreeSize
+_GSStageTree
+__CopyfileCallbackInit
+__CopyfileCallback
+_GSCopyOutGeneration
+__ArchiveItem
+__Remove
+__genInfosFieldsGet
+__copyGenInfos
+-[GSDocumentIdentifier initWithDocumentIdentifier:]
+-[GSDocumentIdentifier copyWithZone:]
+-[GSDocumentIdentifier encodeWithCoder:]
+-[GSDocumentIdentifier initWithCoder:]
++[GSDocumentIdentifier supportsSecureCoding]
+-[GSDocumentIdentifier hash]
+-[GSDocumentIdentifier isEqual:]
+-[GSDocumentIdentifier description]
+-[GSDocumentIdentifier initWithFileDescriptor:forItemAtURL:allocateIfNone:error:]
+-[GSStagingPrefix init]
+-[GSStagingPrefix initWithDocumentID:]
+-[GSStagingPrefix _refreshWithError:]
+___37-[GSStagingPrefix _refreshWithError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[GSStagingPrefix _invalidate:]
+___31-[GSStagingPrefix _invalidate:]_block_invoke
+___copy_helper_block_123
+___destroy_helper_block_124
+-[GSStagingPrefix _connectionWithDaemonWasLost]
+-[GSStagingPrefix finalize]
+-[GSStagingPrefix dealloc]
+-[GSStagingPrefix description]
+-[GSStagingPrefix hash]
+-[GSStagingPrefix isEqual:]
+-[GSStagingPrefix stagingPathforCreatingAdditionWithError:]
+-[GSStagingPrefix isStagedPath:]
+_GSStagingContainer
+-[GSStagingPrefix cleanupStagingPath:]
+_GSAdditionComputePOSIXName
+_GSAdditionComputeDN
+_GSAdditionValidateUInfo
+_GSReplaceDocumentInternal
+_GSRestoreAdditionInternal
+_GSAdditionSaveBlocking
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___GSAdditionSaveBlocking_block_invoke
+___copy_helper_block_242
+___destroy_helper_block_243
+_GSAdditionStatInternal
+-[GSPermanentAdditionEnumerator initWithStorage:nameSpace:withOptions:withoutOptions:ordering:]
+-[GSPermanentAdditionEnumerator dealloc]
+-[GSPermanentAdditionEnumerator _fetchNextBatch]
+___48-[GSPermanentAdditionEnumerator _fetchNextBatch]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[GSPermanentAdditionEnumerator nextObject]
+-[GSPermanentAdditionEnumerator error]
++[GSPermanentStorage storagePrefixForFileDescriptor:error:]
+___59+[GSPermanentStorage storagePrefixForFileDescriptor:error:]_block_invoke
+___copy_helper_block_77
+___destroy_helper_block_78
++[GSPermanentStorage storageIDForItemAtURL:error:]
+___50+[GSPermanentStorage storageIDForItemAtURL:error:]_block_invoke
+___copy_helper_block_99
+___destroy_helper_block_100
+-[GSPermanentStorage init]
+-[GSPermanentStorage initWithFileDescriptor:documentID:forItemAtURL:error:]
+-[GSPermanentStorage pubExtension]
+-[GSPermanentStorage setPubExtension:]
+-[GSPermanentStorage privExtension]
+-[GSPermanentStorage setPrivExtension:]
+-[GSPermanentStorage _refreshRemoteIDWithFileDescriptor:error:]
+___63-[GSPermanentStorage _refreshRemoteIDWithFileDescriptor:error:]_block_invoke
+___copy_helper_block_122
+___destroy_helper_block_123
+-[GSPermanentStorage remoteID]
+-[GSPermanentStorage _connectionWithDaemonWasLost]
+-[GSPermanentStorage _invalidate]
+___33-[GSPermanentStorage _invalidate]_block_invoke
+-[GSPermanentStorage finalize]
+-[GSPermanentStorage dealloc]
+-[GSPermanentStorage isEqual:]
+-[GSPermanentStorage hash]
+-[GSPermanentStorage description]
+-[GSPermanentStorage getAdditionDictionary:error:]
+___50-[GSPermanentStorage getAdditionDictionary:error:]_block_invoke
+___copy_helper_block_153
+___destroy_helper_block_154
+-[GSPermanentStorage setAdditionOptions:value:error:]
+___53-[GSPermanentStorage setAdditionOptions:value:error:]_block_invoke
+___copy_helper_block_160
+___destroy_helper_block_161
+-[GSPermanentStorage setAdditionDisplayName:value:error:]
+___57-[GSPermanentStorage setAdditionDisplayName:value:error:]_block_invoke
+___copy_helper_block_167
+___destroy_helper_block_168
+-[GSPermanentStorage setAdditionNameSpace:value:error:]
+___55-[GSPermanentStorage setAdditionNameSpace:value:error:]_block_invoke
+___copy_helper_block_173
+___destroy_helper_block_174
+-[GSPermanentStorage mergeAdditionUserInfo:value:error:]
+___56-[GSPermanentStorage mergeAdditionUserInfo:value:error:]_block_invoke
+___copy_helper_block_183
+___destroy_helper_block_184
+-[GSPermanentStorage stagingURLforCreatingAdditionWithError:]
+-[GSPermanentStorage URLforReplacingItemWithError:]
+-[GSPermanentStorage cleanupStagingURL:]
+-[GSPermanentStorage prepareAdditionCreationWithItemAtURL:byMoving:creationInfo:error:]
+-[GSPermanentStorage createAdditionStagedAtURL:creationInfo:completionHandler:]
+___79-[GSPermanentStorage createAdditionStagedAtURL:creationInfo:completionHandler:]_block_invoke
+___copy_helper_block_221
+___destroy_helper_block_222
+___79-[GSPermanentStorage createAdditionStagedAtURL:creationInfo:completionHandler:]_block_invoke226
+___copy_helper_block_227
+___destroy_helper_block_228
+-[GSPermanentStorage replaceDocumentWithContentsOfAddition:preservingCurrentVersionWithCreationInfo:createdAddition:error:]
+-[GSPermanentStorage replaceDocumentWithContentsOfItemAtURL:preservingCurrentVersionWithCreationInfo:createdAddition:error:]
+-[GSPermanentStorage additionWithName:inNameSpace:error:]
+___57-[GSPermanentStorage additionWithName:inNameSpace:error:]_block_invoke
+___copy_helper_block_237
+___destroy_helper_block_238
+-[GSPermanentStorage additionsWithNames:inNameSpace:error:]
+___59-[GSPermanentStorage additionsWithNames:inNameSpace:error:]_block_invoke
+___copy_helper_block_241
+___destroy_helper_block_242
+-[GSPermanentStorage enumeratorForAdditionsInNameSpace:withOptions:withoutOptions:ordering:]
+-[GSPermanentStorage removeAdditions:completionHandler:]
+___56-[GSPermanentStorage removeAdditions:completionHandler:]_block_invoke
+___copy_helper_block_253
+___destroy_helper_block_254
+___56-[GSPermanentStorage removeAdditions:completionHandler:]_block_invoke257
+___copy_helper_block_260
+___destroy_helper_block_261
+-[GSPermanentStorage removeAllAdditionsForNamespaces:completionHandler:]
+___72-[GSPermanentStorage removeAllAdditionsForNamespaces:completionHandler:]_block_invoke
+___copy_helper_block_266
+___destroy_helper_block_267
+___72-[GSPermanentStorage removeAllAdditionsForNamespaces:completionHandler:]_block_invoke270
+___copy_helper_block_271
+___destroy_helper_block_272
+-[GSPermanentStorage transferToItemAtURL:error:]
+-[GSPermanentStorage documentURL]
+-[GSPermanentStorage setDocumentURL:]
+-[GSPermanentStorage stagingPrefix]
+-[GSPermanentStorage setStagingPrefix:]
+-[GSPermanentStorage persistentIdentifier]
+-[GSPermanentStorage storageID]
+-[GSClientManagedLibrary storage]
+-[GSClientManagedLibrary nameSpace]
+-[GSClientManagedLibrary initWithURL:error:]
+-[GSClientManagedLibrary dealloc]
+-[GSClientManagedLibrary generationsRemove:error:]
+___50-[GSClientManagedLibrary generationsRemove:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[NSString(GSExtensions) gs_stringWithFileSystemRepresentation:]
+-[NSString(GSExtensions) validateGSName:]
+-[NSString(GSExtensions) validateGSNameAllowingDot:error:]
+-[NSString(GSExtensions) gs_issueExtension:error:]
+-[NSString(GSExtensions) gs_issueReadExtensionIfNeededForPid:]
+-[NSString(GSExtensions) gs_stringByUpdatingPathExtensionWithPathOrURL:]
+-[NSURL(GSExtensions) gs_issueExtension:error:]
+-[NSURL(GSExtensions) gs_issueReadExtensionIfNeededForPid:]
+-[NSURL(GSExtensions) gs_URLByUpdatingPathExtensionWithPathOrURL:]
+-[GSSystemManagedLibrary storage]
+-[GSSystemManagedLibrary nameSpace]
+-[GSSystemManagedLibrary initWithURL:clientID:error:]
+-[GSSystemManagedLibrary dealloc]
+-[GSSystemManagedLibrary generationsRemove:error:]
+___50-[GSSystemManagedLibrary generationsRemove:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___GSLibraryPrivateCreateGenerationArchiveForFile_block_invoke
+___copy_helper_block_84
+___destroy_helper_block_85
+___GSLibraryPrivateImportArchivedGenerationsForFile_block_invoke
+___copy_helper_block_95
+___destroy_helper_block_96
+___GSLibraryPrivateCopyGenerationsForFile_block_invoke
+___copy_helper_block_102
+___destroy_helper_block_103
+___GSLibraryPrivateRequestFreeSpaceOnVolume_block_invoke
+___copy_helper_block_108
+___destroy_helper_block_109
+_validatePathForChunkOperation
+___GSLibraryPrivateMakeChunkBackedFile_block_invoke
+___copy_helper_block_116
+___destroy_helper_block_117
+___GSLibraryPrivateDeleteChunkBackedFile_block_invoke
+___copy_helper_block_122
+___destroy_helper_block_123
+___GSLibraryPrivateCompactChunkStorage_block_invoke
+___copy_helper_block_128
+___destroy_helper_block_129
++[GSStorageManager initialize]
++[GSStorageManager manager]
++[GSStorageManager _isPermanentStorageSupportedForStatFSInfo:error:]
++[GSStorageManager _isPermanentStorageSupportedForFD:error:]
+___60+[GSStorageManager _isPermanentStorageSupportedForFD:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[GSStorageManager isPermanentStorageSupportedAtURL:error:]
+-[GSStorageManager stagingPrefixForDocumentID:]
+-[GSStorageManager permanentStorageForItemAtURL:allocateIfNone:error:]
+-[GSStorageManager _connectionWithDaemonWasLost]
+-[GSStorageManager temporaryStorageForItemAtURL:locatedAtURL:error:]
+-[GSStorageManager persistentIdentifierInStorage:forAdditionNamed:inNameSpace:]
+-[GSStorageManager additionForItemAtURL:forPersistentIdentifier:error:]
+-[GSStorageManager removeTemporaryStorage:error:]
+-[GSStorageManager deallocateDocumentIDOfItemAtURL:error:]
+-[GSStorageManager isItemAtURLInsidePermanentStorage:error:]
+___GSLibraryResolveDocumentId2_block_invoke
+___copy_helper_block_123
+___destroy_helper_block_124
+-[NSString(GSAdditions) chmod:]
+-[NSURL(GSAdditions) chmod:]
+-[GSTemporaryAddtionEnumerator initWithStorage:nameSpace:withOptions:withoutOptions:ordering:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___94-[GSTemporaryAddtionEnumerator initWithStorage:nameSpace:withOptions:withoutOptions:ordering:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___94-[GSTemporaryAddtionEnumerator initWithStorage:nameSpace:withOptions:withoutOptions:ordering:]_block_invoke28
+-[GSTemporaryAddtionEnumerator dealloc]
+-[GSTemporaryAddtionEnumerator _nextURL]
+-[GSTemporaryAddtionEnumerator nextObject]
+-[GSTemporaryAddtionEnumerator error]
+-[GSTemporaryStorage init]
+-[GSTemporaryStorage initWithLibraryURL:forItemAtURL:error:]
+-[GSTemporaryStorage finalize]
+-[GSTemporaryStorage dealloc]
+-[GSTemporaryStorage isEqual:]
+-[GSTemporaryStorage hash]
+-[GSTemporaryStorage persistentIdentifier]
+-[GSTemporaryStorage description]
+-[GSTemporaryStorage __lockWithFlags:error:]
+-[GSTemporaryStorage _writeLock:]
+-[GSTemporaryStorage _readLock:]
+-[GSTemporaryStorage _unlock]
+-[GSTemporaryStorage _protectPath:]
+-[GSTemporaryStorage _unprotectPath:]
+-[GSTemporaryStorage _URLForNameSpace:createIfNeeded:allowMissing:error:]
+-[GSTemporaryStorage getAdditionDictionary:error:]
+-[GSTemporaryStorage setAdditionOptions:value:error:]
+-[GSTemporaryStorage setAdditionDisplayName:value:error:]
+-[GSTemporaryStorage setAdditionNameSpace:value:error:]
+-[GSTemporaryStorage mergeAdditionUserInfo:value:error:]
+-[GSTemporaryStorage stagingURLforCreatingAdditionWithError:]
+-[GSTemporaryStorage URLforReplacingItemWithError:]
+-[GSTemporaryStorage cleanupStagingURL:]
+-[GSTemporaryStorage prepareAdditionCreationWithItemAtURL:byMoving:creationInfo:error:]
+-[GSTemporaryStorage createAdditionStagedAtURL:creationInfo:completionHandler:]
+___79-[GSTemporaryStorage createAdditionStagedAtURL:creationInfo:completionHandler:]_block_invoke
+___copy_helper_block_205
+___destroy_helper_block_206
+-[GSTemporaryStorage replaceDocumentWithContentsOfAddition:preservingCurrentVersionWithCreationInfo:createdAddition:error:]
+-[GSTemporaryStorage replaceDocumentWithContentsOfItemAtURL:preservingCurrentVersionWithCreationInfo:createdAddition:error:]
+-[GSTemporaryStorage additionWithName:inNameSpace:error:]
+-[GSTemporaryStorage additionsWithNames:inNameSpace:error:]
+-[GSTemporaryStorage enumeratorForAdditionsInNameSpace:withOptions:withoutOptions:ordering:]
+-[GSTemporaryStorage _enumerateItemsAtURL:]
+-[GSTemporaryStorage removeAdditions:completionHandler:]
+___56-[GSTemporaryStorage removeAdditions:completionHandler:]_block_invoke
+___copy_helper_block_223
+___destroy_helper_block_224
+___56-[GSTemporaryStorage removeAdditions:completionHandler:]_block_invoke230
+___copy_helper_block_233
+___destroy_helper_block_234
+-[GSTemporaryStorage removeAllAdditionsForNamespaces:completionHandler:]
+___72-[GSTemporaryStorage removeAllAdditionsForNamespaces:completionHandler:]_block_invoke
+___copy_helper_block_239
+___destroy_helper_block_240
+-[GSTemporaryStorage libraryURL]
+-[GSTemporaryStorage documentURL]
+-[GSTemporaryStorage setDocumentURL:]
+GCC_except_table11
+GCC_except_table11
+GCC_except_table15
+GCC_except_table34
+GCC_except_table18
+GCC_except_table19
+GCC_except_table20
+GCC_except_table21
+GCC_except_table26
+GCC_except_table6
+GCC_except_table42
+GCC_except_table8
+GCC_except_table9
+GCC_except_table10
+GCC_except_table17
+GCC_except_table2
+_GenerationalStorageVersionString
+_GenerationalStorageVersionNumber
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp103
+___block_descriptor_tmp112
+___block_literal_global113
+___block_descriptor_tmp120
+___block_descriptor_tmp184
+___block_descriptor_tmp194
+___block_descriptor_tmp205
+___block_descriptor_tmp209
+___block_descriptor_tmp216
+___block_literal_global217
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp127
+___block_descriptor_tmp246
+___block_descriptor_tmp
+___block_descriptor_tmp81
+___block_descriptor_tmp103
+___block_descriptor_tmp126
+___block_descriptor_tmp133
+___block_descriptor_tmp157
+___block_descriptor_tmp164
+___block_descriptor_tmp170
+___block_descriptor_tmp177
+___block_descriptor_tmp186
+___block_descriptor_tmp225
+___block_descriptor_tmp230
+___block_descriptor_tmp240
+___block_descriptor_tmp245
+___block_descriptor_tmp256
+___block_descriptor_tmp263
+___block_descriptor_tmp269
+___block_descriptor_tmp274
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_descriptor_tmp88
+___block_descriptor_tmp99
+___block_descriptor_tmp105
+___block_descriptor_tmp111
+___block_descriptor_tmp119
+___block_descriptor_tmp125
+___block_descriptor_tmp132
+___block_descriptor_tmp
+___block_descriptor_tmp127
+___block_descriptor_tmp
+___block_descriptor_tmp37
+___block_descriptor_tmp209
+___block_descriptor_tmp227
+___block_descriptor_tmp236
+___block_descriptor_tmp242
+_OBJC_IVAR_$_GSAddition._storage
+_OBJC_IVAR_$_GSAddition._url
+_OBJC_IVAR_$_GSAddition._options
+_OBJC_IVAR_$_GSAddition._namespace
+_OBJC_IVAR_$_GSAddition._size
+_OBJC_IVAR_$_GSAddition._displayName
+_OBJC_IVAR_$_GSAddition._originalName
+_OBJC_IVAR_$_GSAddition._userInfo
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._storage
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._nameSpace
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._withOptions
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._withoutOptions
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._proxy
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._token
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._array
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._error
+_OBJC_IVAR_$_GSPermanentAdditionEnumerator._pos
+_OBJC_IVAR_$_GSPermanentStorage._privHandle
+_OBJC_IVAR_$_GSPermanentStorage._pubHandle
+_OBJC_IVAR_$_GSPermanentStorage._documentURL
+_OBJC_IVAR_$_GSPermanentStorage._documentID
+_OBJC_IVAR_$_GSPermanentStorage._pubExtension
+_OBJC_IVAR_$_GSPermanentStorage._privExtension
+_OBJC_IVAR_$_GSPermanentStorage._remoteID
+_OBJC_IVAR_$_GSPermanentStorage._storageID
+_OBJC_IVAR_$_GSPermanentStorage._stagingPrefix
+_OBJC_IVAR_$_GSClientManagedLibrary._ts
+_OBJC_IVAR_$_GSSystemManagedLibrary._ps
+_OBJC_IVAR_$_GSSystemManagedLibrary._clientID
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._withOptions
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._withoutOption
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._nameSpace
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._storage
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._error
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._enumerator
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._array
+_OBJC_IVAR_$_GSTemporaryAddtionEnumerator._pos
+_OBJC_IVAR_$_GSTemporaryStorage._libraryURL
+_OBJC_IVAR_$_GSTemporaryStorage._documentURL
+_OBJC_IVAR_$_GSTemporaryStorage._stagingURL
+_OBJC_IVAR_$_GSTemporaryStorage._lockFd
+_OBJC_CLASS_$_GSPermanentAdditionEnumerator
+_OBJC_METACLASS_$_GSPermanentAdditionEnumerator
+_OBJC_CLASS_$_GSClientManagedLibrary
+_OBJC_METACLASS_$_GSClientManagedLibrary
+_OBJC_CLASS_$_GSSystemManagedLibrary
+_OBJC_METACLASS_$_GSSystemManagedLibrary
+_OBJC_CLASS_$_GSTemporaryAddtionEnumerator
+_OBJC_METACLASS_$_GSTemporaryAddtionEnumerator
+_gs_log_min_priority
+_GSDaemonInterface.init
+_sGSDaemonInterface
+_sDaemonTrackerQueue
+_sDaemonConn
+_sDaemonProxy
+__GSDaemonInitialize.once
+_gPermanentStorageCurrentID
+_gDefaultGSManager
+_gPermanentStores
+_gStagingPrefixes
+_GSAdditionCreationDisplayNameKey
+_GSAdditionCreationInfoValidate
+_GSAdditionCreationKeepFileIDKey
+_GSAdditionCreationNameKey
+_GSAdditionCreationNameSpaceKey
+_GSAdditionCreationOnDuplicateKey
+_GSAdditionCreationOptionsKey
+_GSAdditionCreationPOSIXNameKey
+_GSAdditionCreationUserInfoKey
+_GSAdditionFieldNameSpaceKey
+_GSAdditionFieldOptionsKey
+_GSAdditionFieldSizeKey
+_GSAdditionFieldURLKey
+_GSArchiveTree
+_GSDaemonConnectionClose
+_GSDaemonInterface
+_GSDaemonProxy
+_GSDocumentVersionsNameSpace
+_GSGenerationalStorageErrorDomain
+_GSGetDocumentID
+_GSLibraryAddGenerationWithOptionsByCopyingFile
+_GSLibraryAddGenerationWithOptionsByMovingFile
+_GSLibraryCopyAllGenerationNamesForFile
+_GSLibraryCopyAllGenerationPathsForFile
+_GSLibraryCopyAllGenerationsInfos
+_GSLibraryCopyGeneration
+_GSLibraryCopyGenerationInfoDictionary
+_GSLibraryCopyGenerationInfoValueForKey
+_GSLibraryCopyGenerationInfos
+_GSLibraryCopyGenerationNames
+_GSLibraryCopyGenerationOriginalDisplayName
+_GSLibraryCopyURLForGeneration
+_GSLibraryCreateClientManaged
+_GSLibraryCreateForFile
+_GSLibraryDestroyClientManaged
+_GSLibraryDocumentDidSafeSave
+_GSLibraryDocumentWillSafeSave
+_GSLibraryGetGenerationOptions
+_GSLibraryGetStorageOptions
+_GSLibraryHasGenerationsForPaths
+_GSLibraryInternalStatGeneration
+_GSLibraryPrivateCompactChunkStorage
+_GSLibraryPrivateCopyGenerationsForFile
+_GSLibraryPrivateCreateGenerationArchiveForFile
+_GSLibraryPrivateDeleteChunkBackedFile
+_GSLibraryPrivateDestroyGenerationArchiveForFile
+_GSLibraryPrivateImportArchivedGenerationsForFile
+_GSLibraryPrivateMakeChunkBackedFile
+_GSLibraryPrivatePushGenerationAndOverwriteFile
+_GSLibraryPrivateReleaseReadLockOnVolume
+_GSLibraryPrivateRequestFreeSpaceOnVolume
+_GSLibraryPrivateRequestReadLockOnVolume
+_GSLibraryPrivateSetLogLevel
+_GSLibraryPrivateTransferGenerationToClientName
+_GSLibraryRemoveGenerations
+_GSLibraryResolveDocumentId2
+_GSLibraryRestoreGeneration
+_GSLibrarySetGenerationInfoValueForKey
+_GSLibrarySetGenerationOptions
+_GSLibrarySetGenerationOriginalDisplayName
+_GSLibrarySetStorageOptions
+_GSLibraryStorageMove
+_GSMergeInfoValueDictionary
+_GSMutableInfoDictionary
+_GSSetGenerationOptions
+_GSSetInfoDictionary
+_GSSetOriginalDisplayName
+_GSSetOriginalPOSIXName
+_GSTrackDocument
+_GSUbiquitousConflictsNameSpace
+_OBJC_CLASS_$_GSAddition
+_OBJC_CLASS_$_GSDaemonProxySync
+_OBJC_CLASS_$_GSDocumentIdentifier
+_OBJC_CLASS_$_GSPermanentStorage
+_OBJC_CLASS_$_GSStagingPrefix
+_OBJC_CLASS_$_GSStorageManager
+_OBJC_CLASS_$_GSTemporaryStorage
+_OBJC_IVAR_$_GSDaemonProxySync._error
+_OBJC_IVAR_$_GSDaemonProxySync._group
+_OBJC_IVAR_$_GSDaemonProxySync._proxy
+_OBJC_IVAR_$_GSDaemonProxySync._recursive
+_OBJC_IVAR_$_GSDaemonProxySync._result
+_OBJC_IVAR_$_GSDocumentIdentifier.deviceID
+_OBJC_IVAR_$_GSDocumentIdentifier.documentID
+_OBJC_IVAR_$_GSDocumentIdentifier.volumeUUID
+_OBJC_IVAR_$_GSStagingPrefix._deviceID
+_OBJC_IVAR_$_GSStagingPrefix._extension
+_OBJC_IVAR_$_GSStagingPrefix._path
+_OBJC_IVAR_$_GSStagingPrefix._pathComponents
+_OBJC_IVAR_$_GSStagingPrefix._sandboxHandle
+_OBJC_IVAR_$_GSStagingPrefix._volumeUUID
+_OBJC_METACLASS_$_GSAddition
+_OBJC_METACLASS_$_GSDaemonProxySync
+_OBJC_METACLASS_$_GSDocumentIdentifier
+_OBJC_METACLASS_$_GSPermanentStorage
+_OBJC_METACLASS_$_GSStagingPrefix
+_OBJC_METACLASS_$_GSStorageManager
+_OBJC_METACLASS_$_GSTemporaryStorage
+__BeforePathRemove
+__GSError
+__GSErrorForErrno
+__GSErrorForStatus
+__GSOpenByID
+__PathResolve
+__RemoveSubTrees
+__RemoveTree
+__SetBirthTimeSpecForFD
+_get_volume_uuid
+_kGSLibraryErrorDomain
+_APP_SANDBOX_READ
+_CC_MD4_Final
+_CC_MD4_Init
+_CC_MD4_Update
+_CFEqual
+_CFLog
+_CFMakeCollectable
+_CFRelease
+_CFRetain
+_CFStringAppendFormatAndArguments
+_CFStringCreateMutable
+_CFStringGetCString
+_CFStringGetCStringPtr
+_CFStringGetLength
+_CFStringGetMaximumSizeForEncoding
+_CFStringTrimWhitespace
+_CKCopyChunkCache
+_CKFixupChunkCacheAfterExchangeData
+_NSCocoaErrorDomain
+_NSFilePosixPermissions
+_NSInvalidArgumentException
+_NSPOSIXErrorDomain
+_NSProgressFileOperationKindCopying
+_NSProgressFileOperationKindKey
+_NSProgressFileURLKey
+_NSProgressKindFile
+_NSURLContentModificationDateKey
+_NSURLHasHiddenExtensionKey
+_NSURLLocalizedNameKey
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSCache
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSEnumerator
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileCoordinator
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMapTable
+_OBJC_CLASS_$_NSMethodSignature
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProgress
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSProxy
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_METACLASS_$_NSEnumerator
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSProxy
+_OSAtomicAdd64Barrier
+_OSAtomicCompareAndSwap32Barrier
+_SANDBOX_CHECK_NO_REPORT
+__Block_object_assign
+__Block_object_dispose
+__CFURLAttachSecurityScopeToFileURL
+__CFURLReplaceObject
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSFileSandboxingRequestRelatedItemExtension
+__NSMethodExceptionProem
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___error
+___maskrune
+___objc_personality_v0
+___snprintf_chk
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___vsnprintf_chk
+___vsprintf_chk
+__kCFURLVolumeMountPointStringKey
+__objc_empty_cache
+__protocol_getMethodTypeEncoding
+__xpc_runtime_is_app_sandboxed
+_access
+_acl_clear_flags_np
+_acl_create_entry_np
+_acl_delete_entry
+_acl_free
+_acl_get_entry
+_acl_get_fd_np
+_acl_get_flag_np
+_acl_get_flagset_np
+_acl_get_link_np
+_acl_get_permset_mask_np
+_acl_get_tag_type
+_acl_set_fd_np
+_acl_set_flagset_np
+_acl_set_link_np
+_acl_set_permset_mask_np
+_acl_set_qualifier
+_acl_set_tag_type
+_chflags
+_chmod
+_close
+_closedir
+_copyfile
+_copyfile_state_alloc
+_copyfile_state_free
+_copyfile_state_get
+_copyfile_state_set
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_wait
+_dispatch_once
+_dispatch_queue_create
+_dispatch_queue_get_label
+_dispatch_release
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_exchangedata
+_fchflags
+_fchmod
+_ffsctl
+_fgetattrlist
+_fgetxattr
+_flock
+_free
+_fsctl
+_fsetattrlist
+_fsetxattr
+_fstat$INODE64
+_fstatfs$INODE64
+_fts_close$INODE64
+_fts_open$INODE64
+_fts_read$INODE64
+_getattrlist
+_geteuid
+_getgrnam_r
+_getiopolicy_np
+_getxattr
+_kCFAllocatorDefault
+_kCFErrorDescriptionKey
+_kCFErrorUnderlyingErrorKey
+_lchflags
+_lchmod
+_lstat$INODE64
+_malloc
+_mbr_gid_to_uuid
+_memcmp
+_mkdir
+_mkdtemp
+_mkstemps
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+_objc_sync_enter
+_objc_sync_exit
+_open
+_openbyid_np
+_opendir$INODE64
+_pthread_getschedparam
+_pthread_self
+_readdir$INODE64
+_realpath$DARWIN_EXTSN
+_remove
+_removexattr
+_rename
+_rmdir
+_sandbox_check
+_sandbox_extension_consume
+_sandbox_extension_issue_file
+_sandbox_extension_release
+_sandbox_extension_release_file
+_sched_get_priority_min
+_setattrlist
+_setxattr
+_strchr
+_strcmp
+_strerror
+_strlen
+_strncmp
+_strrchr
+_syscall
+_unlink
+dyld_stub_binder

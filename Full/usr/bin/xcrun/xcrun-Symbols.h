@@ -1,0 +1,6 @@
+radr://5614542
+__mh_execute_header
+_getprogname
+_strcasecmp
+_xcselect_invoke_xcrun
+dyld_stub_binder

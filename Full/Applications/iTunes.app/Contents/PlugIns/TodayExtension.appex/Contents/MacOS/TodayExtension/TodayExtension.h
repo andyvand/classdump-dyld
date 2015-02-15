@@ -1,0 +1,12 @@
+#import <TodayExtension/TodayViewController.h>
+#import <TodayExtension/iTunesPrivateAEEvents.h>
+#import <TodayExtension/iTunesSBAdaptor.h>
+#import <TodayExtension/iTunesAdaptor.h>
+#import <TodayExtension/DurationLabel.h>
+#import <TodayExtension/TodayCaptionView.h>
+#import <TodayExtension/TrackSliderCell.h>
+#import <TodayExtension/TrackSlider.h>
+#import <TodayExtension/TwoStateButton.h>
+#import <TodayExtension/BackButton.h>
+#import <TodayExtension/ForwardButton.h>
+#import <TodayExtension/PlayPauseButton.h>

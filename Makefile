@@ -27,7 +27,7 @@ classdumpdyldlibdir: main.o
 
 classdump-dyld: main.o
 	$(CXX) $(ARCHS) $(OTHER_CFLAGS) -o $@ $^ classdumpdyldlib/libclassdumpdyld.a -framework Foundation
-	$(CODESIGN) $@
+	$(CODESIGN) $@ # --entitlements classdumpdyldlib/entitlements.plist $@
 
 main.o: main.mm
 	$(CXX) $(ARCHS) $(OTHER_CFLAGS) -o $@ -c $^

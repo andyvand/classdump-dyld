@@ -1,0 +1,39 @@
++[PowerModePanel fidelityForDisplayID:]
+-[PowerModePanel nibName]
+-[PowerModePanel didLoadNib]
+-[PowerModePanel willSelect]
+-[PowerModePanel willUnselect]
+-[PowerModePanel dealloc]
+-[PowerModePanel finalize]
+-[PowerModePanel activatePanel]
+-[PowerModePanel deactivatePanel]
+-[PowerModePanel enablePanel:]
+-[PowerModePanel updatePanel]
+-[PowerModePanel authorizationChanged]
+-[PowerModePanel radioButtonClicked:]
+_OBJC_CLASS_$_PowerModePanel
+_OBJC_IVAR_$_PowerModePanel._extendedMode
+_OBJC_IVAR_$_PowerModePanel._instructionText
+_OBJC_IVAR_$_PowerModePanel._radioGroup
+_OBJC_METACLASS_$_PowerModePanel
+_authorizationChangedCallBack
+_displayUSBHotplugCallBack
+_DisplayServicesGetAuthorized
+_DisplayServicesGetPowerButtonEnabled
+_DisplayServicesGetPowerMode
+_DisplayServicesHasPowerMode
+_DisplayServicesHasTouchSwitchDisable
+_DisplayServicesRegisterForNotification
+_DisplayServicesSetPowerButtonEnabled
+_DisplayServicesSetPowerMode
+_DisplayServicesUnregisterForNotification
+_OBJC_CLASS_$_MonitorPanel
+_OBJC_CLASS_$_NSColor
+_OBJC_IVAR_$_MonitorPanel._displayID
+_OBJC_METACLASS_$_MonitorPanel
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

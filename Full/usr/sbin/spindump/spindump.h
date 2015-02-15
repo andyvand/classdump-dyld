@@ -1,0 +1,12 @@
+#import <spindump/SPProcessEvent.h>
+#import <spindump/SPMonitoredProcess.h>
+#import <spindump/SPReparsedProcess.h>
+#import <spindump/SPBinaryFormat.h>
+#import <spindump/SPWatchdog.h>
+#import <spindump/SPSleepWakeFailure.h>
+#import <spindump/SPProgressWatchdog.h>
+#import <spindump/SPWakeMonitor.h>
+#import <spindump/SPTreeHeavyFrame.h>
+#import <spindump/SPTextualReportParser.h>
+#import <spindump/SPStackshotProviderSnapshot.h>
+#import <spindump/SPStackshotProvider.h>

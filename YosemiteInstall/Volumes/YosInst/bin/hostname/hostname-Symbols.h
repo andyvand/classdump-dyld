@@ -1,0 +1,14 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_err
+_exit
+_fwrite
+_gethostname
+_getopt
+_optind
+_puts
+_sethostname
+_strchr
+_strlen
+dyld_stub_binder

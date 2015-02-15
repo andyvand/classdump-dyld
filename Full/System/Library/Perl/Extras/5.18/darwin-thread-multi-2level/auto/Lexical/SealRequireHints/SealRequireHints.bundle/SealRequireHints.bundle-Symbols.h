@@ -1,0 +1,9 @@
+radr://5614542
+_boot_Lexical__SealRequireHints
+_Perl_call_list
+_Perl_croak_nocontext
+_Perl_croak_xs_usage
+_Perl_newXS
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+dyld_stub_binder

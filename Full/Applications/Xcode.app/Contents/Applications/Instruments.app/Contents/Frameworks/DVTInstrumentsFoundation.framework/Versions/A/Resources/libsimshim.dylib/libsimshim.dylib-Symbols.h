@@ -1,0 +1,16 @@
+_instruments_notifier
+_simshimVersionNumber
+_simshimVersionString
+___stderrp
+___stdoutp
+_getenv
+_getpid
+_mach_task_self_
+_notify_cancel
+_notify_get_state
+_notify_post
+_notify_register_check
+_setlinebuf
+_task_suspend
+_unsetenv
+dyld_stub_binder

@@ -1,0 +1,14 @@
+_tda9850VersRec
+_Detect_tda9850
+_tda9850ModuleData
+_tda9850_getstatus
+_tda9850_init
+_tda9850_mute
+_tda9850_sap_mute
+_tda9850_setaudio
+_calloc
+_free
+_xf86DrvMsg
+_xf86I2CDevInit
+_xf86I2CWriteRead
+dyld_stub_binder

@@ -1,0 +1,269 @@
+-[BKSecurePreferences bookstoreDisabled]
+-[BKSecurePreferences _parentalPreferenceBoolForKey:iTunesKey:]
+-[BKAgent init]
+-[BKAgentServiceDelegate init]
+-[BKAgentServiceDelegate setAgent:]
+-[BKAgent addInterruptionHandler:]
+-[BKAgentServiceDelegate lock]
+___34-[BKAgent addInterruptionHandler:]_block_invoke
+-[BKAgent removeInterruptionHandler:]
+___37-[BKAgent removeInterruptionHandler:]_block_invoke
+-[BKAgent _installServiceRestartListener]
+-[BKAgent replyQueue]
+-[BKAgent booksDirectory]
+-[BKAgent _libraryDirectory:]
+___29-[BKAgent _libraryDirectory:]_block_invoke
+-[BKAgent addChangeListener:]
+-[BKAgentServiceDelegate addChangeListener:]
+___44-[BKAgentServiceDelegate addChangeListener:]_block_invoke
+-[BKAgent fetchBooks:]
+-[BKAgent fetchRedactedBooks:]
+-[BKAgent examineBook:withReply:]
+_issueSandboxExtension
+-[BKAgent downloadsDirectory]
+-[BKAgent importBook:withReply:]
+-[BKAgent dealloc]
+-[BKAgent .cxx_destruct]
+-[BKAgentServiceDelegate .cxx_destruct]
+-[BKAgentServiceDelegate bookMetadata:changed:]
+___47-[BKAgentServiceDelegate bookMetadata:changed:]_block_invoke
+-[BKAgent trashBook:withReply:]
+-[BKAgent removeBook:withReply:]
+-[BKAgent updateBook:withMetadata:withReply:]
+-[BKAgent applyPendingUpdates:withReply:]
+-[BKAgent redactBook:withReply:]
+-[BKAgent uncompressBook:withReply:]
+-[BKSecurePreferences initWithInterruptionHandler:]
+-[BKSecurePreferences init]
+-[BKSecurePreferences dealloc]
+-[BKSecurePreferences explicitContentRestricted]
+-[BKSecurePreferences bookstoreDisabledForced]
+-[BKSecurePreferences explicitContentRestrictedForced]
+-[BKSecurePreferences _parentalPreferenceIsForcedForKey:]
+-[BKSecurePreferences ping:]
+-[BKSecurePreferences setExplicitContentRestricted:authBlob:uid:completion:]
+-[BKSecurePreferences setStoreDisabled:authBlob:uid:completion:]
+-[BKSecurePreferences getParentalControlValuesForUID:completion:]
+-[BKSecurePreferences remoteProxy]
+-[BKSecurePreferences _loadConnection]
+___38-[BKSecurePreferences _loadConnection]_block_invoke
+-[BKSecurePreferences connection]
+-[BKSecurePreferences setConnection:]
+-[BKSecurePreferences interruptionHandler]
+-[BKSecurePreferences setInterruptionHandler:]
+-[BKSecurePreferences .cxx_destruct]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___copy_helper_block_
+___destroy_helper_block_
+-[BKAgentServiceDelegate bookLibraryUpdated:]
+___copy_helper_block_21
+___destroy_helper_block_22
+-[BKAgentServiceDelegate removeChangeListener:]
+___47-[BKAgentServiceDelegate removeChangeListener:]_block_invoke
+___copy_helper_block_26
+___destroy_helper_block_27
+-[BKAgentServiceDelegate agent]
+-[BKAgent initWithError:]
+-[BKAgent _startupService]
+___26-[BKAgent _startupService]_block_invoke
+___copy_helper_block_159
+___destroy_helper_block_160
+___26-[BKAgent _startupService]_block_invoke165
+___26-[BKAgent _startupService]_block_invoke_2
+___copy_helper_block_189
+___destroy_helper_block_190
+___copy_helper_block_194
+___destroy_helper_block_195
+___26-[BKAgent _startupService]_block_invoke197
+___copy_helper_block_201
+___destroy_helper_block_202
+___41-[BKAgent _installServiceRestartListener]_block_invoke
+___copy_helper_block_211
+___destroy_helper_block_212
+-[BKAgent _agentServiceRestarted]
+___33-[BKAgent _agentServiceRestarted]_block_invoke
+___copy_helper_block_220
+___destroy_helper_block_221
+-[BKAgent _bookLibraryUpdated:]
+___31-[BKAgent _bookLibraryUpdated:]_block_invoke
+___copy_helper_block_226
+___destroy_helper_block_227
+-[BKAgent setReplyQueue:]
+___copy_helper_block_233
+___destroy_helper_block_234
+-[BKAgent defaultLibraryDirectory]
+-[BKAgent removeChangeListener:]
+___34-[BKAgent addInterruptionHandler:]_block_invoke_2
+___34-[BKAgent addInterruptionHandler:]_block_invoke_3
+___copy_helper_block_254
+___destroy_helper_block_255
+___copy_helper_block_257
+___destroy_helper_block_258
+___copy_helper_block_260
+___destroy_helper_block_261
+___copy_helper_block_263
+___destroy_helper_block_264
+-[BKAgent fetchImportingBooks:]
+-[BKAgent prioritizeImport:withReply:]
+-[BKAgent migrateBook:withMetadata:withReply:]
+-[BKAgent moveLibrary:withReply:]
+-[BKAgent rebuildLibrary:]
+-[BKAgent reconnectToLibrary:]
+-[BKAgent chooseLibrary:withReply:]
+-[BKAgent removeRedactedBook:withReply:]
+-[BKAgent fetchSampleForAssetID:withReply:]
+___43-[BKAgent fetchSampleForAssetID:withReply:]_block_invoke
+___copy_helper_block_294
+___destroy_helper_block_295
+-[BKAgent shutdown:]
+___20-[BKAgent shutdown:]_block_invoke
+___20-[BKAgent shutdown:]_block_invoke_2
+___copy_helper_block_298
+___destroy_helper_block_299
+___copy_helper_block_301
+___destroy_helper_block_302
+___20-[BKAgent shutdown:]_block_invoke305
+___copy_helper_block_309
+___destroy_helper_block_310
+-[BKAgent agentServiceConnection]
+-[BKAgent setAgentServiceConnection:]
+-[BKAgent agentService]
+-[BKAgent setAgentService:]
+-[BKAgent currentLibraryDirectory]
+-[BKAgent libraryOnline]
+-[BKAgent libraryVersion]
+GCC_except_table1
+GCC_except_table23
+GCC_except_table36
+GCC_except_table44
+GCC_except_table49
+GCC_except_table60
+GCC_except_table95
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp23
+___block_descriptor_tmp28
+___block_descriptor_tmp162
+___block_descriptor_tmp192
+___block_descriptor_tmp196
+___block_descriptor_tmp203
+___block_descriptor_tmp214
+___block_descriptor_tmp222
+___block_descriptor_tmp228
+___block_descriptor_tmp235
+___block_descriptor_tmp256
+___block_descriptor_tmp259
+___block_descriptor_tmp262
+___block_descriptor_tmp265
+___block_descriptor_tmp297
+___block_descriptor_tmp300
+___block_descriptor_tmp304
+___block_descriptor_tmp311
+_OBJC_IVAR_$_BKSecurePreferences._interruptionHandler
+_OBJC_IVAR_$_BKSecurePreferences._connection
+_OBJC_IVAR_$_BKAgentServiceDelegate._lock
+_OBJC_IVAR_$_BKAgentServiceDelegate._listeners
+_OBJC_IVAR_$_BKAgentServiceDelegate._agent
+_OBJC_IVAR_$_BKAgent._agentServiceConnection
+_OBJC_IVAR_$_BKAgent._serviceDelegate
+_OBJC_IVAR_$_BKAgent._replyQueue
+_OBJC_IVAR_$_BKAgent._notifyToken
+_OBJC_IVAR_$_BKAgent._agentService
+_OBJC_IVAR_$_BKAgent._currentLibraryDirectory
+_OBJC_IVAR_$_BKAgent._libraryOnline
+_OBJC_IVAR_$_BKAgent._libraryVersion
+_OBJC_IVAR_$_BKAgent._libraryTokens
+_OBJC_IVAR_$_BKAgent._interruptionHandlers
+_BKDisableBookStorePreferenceDidChangeNotification
+_BKDisableBookStorePreferenceKey
+_BKLockParentalPreferencesKey
+_BKParentalControlDistributedNotificationSender
+_BKParentalControlPreferenceValue
+_BKPreferenceApplicationID
+_BKRestrictExplicitContentPreferenceDidChangeNotification
+_BKRestrictExplicitContentPreferenceKey
+_BKUnsecurePreferenceApplicationID
+_BKiTunesDisableBookStoreKey
+_BKiTunesParentalPreferencesLockedKey
+_BKiTunesRestrictExplicitBooksKey
+_BKiTunesSecurePreferencesPath
+_OBJC_CLASS_$_BKAgent
+_OBJC_CLASS_$_BKAgentServiceDelegate
+_OBJC_CLASS_$_BKSecurePreferences
+_OBJC_METACLASS_$_BKAgent
+_OBJC_METACLASS_$_BKAgentServiceDelegate
+_OBJC_METACLASS_$_BKSecurePreferences
+_kBKAgentLibraryUpdatedNotification
+_kBKAgentMetadataCoverImageData
+_kBKAgentMetadataCoverImageDataReplaced
+_kBKAgentMetadataKeyPath
+_kBKAgentRestartedNotification
+_APP_SANDBOX_READ
+_APP_SANDBOX_READ_WRITE
+_CFPreferencesAppValueIsForced
+_CFPreferencesCopyValue
+_CFPreferencesSynchronize
+_CFRelease
+_NSCocoaErrorDomain
+_NSLog
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_dispatch_async
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_suspend
+_dispatch_sync
+_dispatch_time
+_free
+_getuid
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFPreferencesAnyUser
+_kCFPreferencesCurrentHost
+_notify_cancel
+_notify_register_dispatch
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_sandbox_extension_issue_file
+_strlen
+dyld_stub_binder

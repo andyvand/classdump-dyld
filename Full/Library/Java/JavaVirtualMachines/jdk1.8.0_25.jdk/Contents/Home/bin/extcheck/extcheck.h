@@ -1,0 +1,1 @@
+#import <extcheck/JavaLaunchHelper.h>

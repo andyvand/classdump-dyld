@@ -1,0 +1,59 @@
+-[AMCacheUpdateTool possibleArgumentsList]
+-[AMCacheUpdateTool displayHelp]
+___32-[AMCacheUpdateTool displayHelp]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AMCacheUpdateTool run]
+___24-[AMCacheUpdateTool run]_block_invoke
+___copy_helper_block_73
+___destroy_helper_block_74
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___24-[AMCacheUpdateTool run]_block_invoke91
+___copy_helper_block_123
+___destroy_helper_block_124
+_main
+_AMCacheUpdateToolHandleUncaughtException
+_AMLocalizedStringWithTemplate
+GCC_except_table5
+___block_descriptor_tmp
+___block_descriptor_tmp76
+___block_descriptor_tmp126
+_OBJC_METACLASS_$_AMCacheUpdateTool
+_OBJC_CLASS_$_AMCacheUpdateTool
+__mh_execute_header
+_LSRegisterURL
+_NSLog
+_NSSetUncaughtExceptionHandler
+_OBJC_CLASS_$_AMCache
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_METACLASS_$_NSObject
+__AMAutomatorFrameworkString
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdoutp
+__objc_empty_cache
+_abort
+_fprintf
+_fwrite
+_objc_enumerationMutation
+_objc_msgSend
+_printf
+dyld_stub_binder

@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+___stdoutp
+_compat_mode
+_err
+_exit
+_fputs
+_fwrite
+_getenv
+_getopt
+_optind
+_putchar
+_setlocale
+_strncpy
+_uname
+dyld_stub_binder

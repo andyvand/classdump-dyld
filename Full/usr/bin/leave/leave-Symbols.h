@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+___stdinp
+_exit
+_fgets
+_fork
+_fwrite
+_localtime
+_printf
+_setlocale
+_sleep
+_strftime
+_time
+_warn
+_write
+dyld_stub_binder

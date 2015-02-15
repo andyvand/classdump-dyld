@@ -1,0 +1,64 @@
++[NSAttributedString(Hyperlink) hyperlinkFromString:withURL:]
+-[MacOSXShortcutStub application:openFiles:]
+-[MacOSXShortcutStub application:printFiles:withSettings:showPrintPanels:]
+-[MacOSXShortcutStub launchWithLaunchPath:arguments:]
+-[MacOSXShortcutStub launch]
+-[MacOSXShortcutStub applicationDidFinishLaunching:]
+-[MacOSXShortcutStub printFiles]
+-[MacOSXShortcutStub setPrintFiles:]
+-[MacOSXShortcutStub openFiles]
+-[MacOSXShortcutStub setOpenFiles:]
+GCC_except_table6
+_pvars
+_OBJC_IVAR_$_MacOSXShortcutStub.printFiles
+_OBJC_IVAR_$_MacOSXShortcutStub.openFiles
+_isDebug.65450
+_DEBUG_NSLOG
+_NXArgc
+_NXArgv
+_OBJC_CLASS_$_MacOSXShortcutStub
+_OBJC_METACLASS_$_MacOSXShortcutStub
+___progname
+__mh_execute_header
+_environ
+_main
+start
+_NSApp
+_NSForegroundColorAttributeName
+_NSLinkAttributeName
+_NSLogv
+_NSUnderlineStyleAttributeName
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSColor
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableAttributedString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTask
+_OBJC_CLASS_$_NSTextView
+_OBJC_CLASS_$_NSURL
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+__Unwind_Resume_or_Rethrow
+___CFConstantStringClassReference
+___objc_personality_v0
+__objc_empty_cache
+__objc_empty_vtable
+_exit
+_getenv
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_msgSend
+_objc_msgSend_fixup
+_objc_setProperty
+_setenv
+dyld_stub_binder

@@ -1,0 +1,2421 @@
+-[InkContext initWithBundleID:andProcessPSN:]
+-[InkContext initPrivateGlobals]
+_PrefInstanceSet
+_CopyProcessNameToPref
+_addInkContextObserverToNotificationCenter
+_InkCreatePrefsDictionaryMerge
+_updateInkContextSharedGlobalsWithDictionary
+_updateGlobalsWithDictionary
+-[InkContext privateGlobals]
+_InkGetPrefByKeyInDictionary
+_notificationReceiver
+_removeInkContextObserverToNotificationCenter
+_InkInitializeInstanceGlobals
+_InkCreateCStringForLoginSession
+_InkGetEuroCharsArraySize
+_InkGetEuroCharsArray
+-[InkContext cgConnectionID]
+_InkInitializeInstanceGraphics
+_PrefInstanceGetCGContext
+_InkGetBackgroundOpacity
+_PrefInstanceDrawInkModeIs
+-[InkContext softReInitialize]
+_InkContextSetVoidFromBooleanCallback
+_InkAddBooleanCallbackProcToList
+-[InkContext initTerminationTimer]
+_PrefInstanceLocalWritingModeIs
+-[InkContext processTabletProximityEventRef:]
+-[InkContext setUpClientEvent:]
+-[InkClientSideEvent initWithCarbonEvent:andInkContext:]
+-[InkClientSideEvent initCommon]
+-[InkClientSideEvent resetCarbonEvent:]
+-[InkClientSideEvent hasEventParameterKey:]
+-[InkClientSideEvent eventRef]
+-[InkClientSideEvent explicitlySentFromInkServer]
+-[InkContext inkOnDemandIsMode:]
+-[InkContext getSharedUserInkOnDemandMode]
+-[InkContext thisProcessPSN]
+-[InkContext eventTarget]
+-[InkClientSideEvent determineEventTargetWithCurrentTarget:withContextPSN:]
+-[InkClientSideEvent isCarbonMouseEventType:useModifiedEventType:]
+-[InkClientSideEvent modifiedEventType]
+-[InkClientSideEvent cgEventType]
+-[InkClientSideEvent cgsEventPtr]
+_ProcessIDIsSameProcessAsKeyFocus
+-[InkContext setEventTarget:]
+-[InkContext processTabletProximityEvent:]
+-[InkContext stylusInProximity]
+-[InkClientSideEvent isEnteringProximity]
+-[InkClientSideEvent isTabletEventSubType:]
+-[InkContext setStylusInProximity:]
+-[InkContext shouldDisableCoalescingDuringInking]
+-[InkContext coalescingIsDisabled]
+-[InkContext disableMouseCoalescingForProximity:]
+-[InkContext inspectEvent:]
+-[InkClientSideEvent determineEarlyDisposition]
+-[InkClientSideEvent HasValidInkButtonDown]
+-[InkClientSideEvent buttonNumber]
+-[InkClientSideEvent isSimulatingValidInkEvent]
+-[InkContext metaDispatch:triggerEventDisposition:]
+-[InkClientSideEvent dispatchCommand]
+-[InkClientSideEvent setEventParameterKey:]
+-[InkContext hasEventsQueued]
+-[InkClientSideEvent setEventManagerResult:]
+-[InkContext dispatchQueuedEvent:withDisposition:andRepostType:isFinalDispatch:]
+-[InkClientSideEvent eventManagerResult]
+_InkContextPhraseTerminationTimerCallback
+-[InkClientSideEvent cgRecIsFake]
+_InkInInkServerByProcessNumber
+-[InkClientSideEvent hasKeyFocus]
+-[InkContext gatheringDataForAPhrase]
+-[InkContext isCGInstantMousing]
+-[InkContext willRepostToInkPadInInkPadMode]
+-[InkContext trackingMouse]
+-[InkClientSideEvent globalHIMouseLocation]
+-[InkContext eventLocationIsWithinInkBarOrInkWindowBounds:]
+_InkPointInInkPadWindow
+_InkPointInInkBarWindow
+_InkGetInkBarRect
+-[InkClientSideEvent willRepostInkPadIntersectingEventForInInkPadBounds:]
+-[InkClientSideEvent subtype]
+-[InkContext canInkAtThisEventLocation:]
+_InkRecognitionEnabledAtLocation
+_InkPointInInkPad
+-[InkContext determineEventDispositionForClientEvent:]
+-[InkContext mousingTestMode]
+-[InkClientSideEvent HasCGEventFlag:]
+-[InkContext getSharedErasingState]
+-[InkContext determineEventDispositionForClientEventWithNoInkPointsYetAccumlated:]
+-[InkClientSideEvent uint16_pressure]
+-[InkClientSideEvent tabletPointRecPtr]
+-[InkContext setTrackingMouse:]
+-[InkContext clientEventLocationIsInCarbonInstantMouser:]
+_InkInInstantMouser
+-[InkClientSideEvent setDispatchCommand:]
+-[InkContext addEventToQueue:withUpdatedPen:]
+-[InkClientSideEvent initWithInkClientSideEvent:andInkContext:]
+-[InkClientSideEvent nsEventSource]
+-[InkClientSideEvent shouldOverRideEventType]
+-[InkClientSideEvent eventTypeOverride]
+-[InkClientSideEvent overrideTabletData]
+-[InkClientSideEvent overridePressure]
+-[InkClientSideEvent tabletEventTypeCached]
+-[InkClientSideEvent tabletEventType]
+-[InkClientSideEvent mousePointCached]
+-[InkClientSideEvent fixPressureForEventType]
+_PrefInstancePenMovedDelta
+_PrefInstancePenTimeDeltaIsSufficient
+_PrefInstancePenTimeDelta
+-[InkContext metaDispatchForClientEventStartingToInk:]
+-[InkContext setGatheringDataForAPhrase:]
+-[InkContext rewindEventQueue:]
+-[InkContext peekNextEventFromQueue:]
+-[InkContext clientDidChangeInkDisposition:withDisposition:]
+-[InkContext inkIMKPointDispositionForClientSideEvent:]
+_InkIMKPointDisposition
+_PrefInstanceGetPointProcCount
+_SetInkCursor
+_PrefInstanceShouldDrawInk
+-[InkContext pullNextEventFromQueue:]
+-[InkContext processTabletPointEvent:]
+-[InkClientSideEvent carbonEventKind]
+-[InkClientSideEvent modifierFlags]
+-[InkContext hasQueuedPointsOrStrokes]
+-[InkContext setCGSInkingState:cgsBoolValueTo:]
+_PrefInstanceSetupInkRectIfNecessary
+-[InkContext gatheringDataForAStroke]
+-[InkContext setGatheringDataForAStroke:]
+-[InkContext setWaitingForEndOfPhrase:startTimer:]
+_InkPlaySound
+_InkDrawInstanceInk
+_InkExpandInkWindowInstance
+_InkRoundInkWindowInstance
+_InkFrameInkWindowInstance
+_InkPointCreate
+_InkGetInkBarModifiers
+_PrefInstanceUnionPointToInkRect
+_InkSquareInkWindowInstance
+_InkUnframeInkWindowInstance
+-[InkContext clearEventQueue]
+-[InkClientSideEvent dealloc]
+-[InkContext clientEventIsInkPointEvent:]
+-[InkContext terminateStroke:]
+-[InkContext convertPointListToNewStroke:withStrokePtr:]
+_DLListIsEmpty
+__InitInkStrokeRef
+_InkSendStrokeToRecognizer
+_PrefInstanceGetUserITRTerminationMode
+_PrefInstanceUserPhraseTerminationModeHasFlag
+_InkPostInkStrokeEventViaIMK
+-[InkRecognizerStroke initWithInkStrokeRef:]
+-[InkRecognizerStroke initWithInkStrokePtr:]
+-[InkRecognizerBase initWithMajorVers:minorVers:modifers:flags:baseTerm:andBounds:]
+-[InkRecognizerPoint initWithInkPoint:]
+-[InkRecognizerMessageBase initWithInkRecognizerData:andKey:]
+-[InkRecognizerMessageBase setTarget:]
+-[InkRecognizerMessageBase postCarbonEvent]
++[InkRecognizerBase eventKindForInkRecognizerData:]
+-[InkRecognizerStroke createInkStrokeRef]
+-[InkRecognizerPoint inkPoint]
+-[InkRecognizerMessageBase finishPostingCarbonEvent:withEventType:]
+__FinalizeInkStrokeRef
+-[InkContext processInkStroke:]
+-[InkRecognizerMessageBase dealloc]
+-[InkRecognizerStroke dealloc]
+-[InkRecognizerBase dealloc]
+_InkFreePointList
+-[InkContext startPhraseTerminationTimer]
+-[InkRecognizerPoint dealloc]
+-[InkContext terminatePhrase:]
+_InkCopyDataToNewPhrase
+_PrefInstance_LazyInitPhraseList
+-[InkContext finishPhraseRecognition:]
+_InkSendPhraseTerminationToRecognizer
+_InkLabelPhrase
+_InkNewPhraseWordGroup
+_InkNewPhraseWord
+_ITRConvertToUnicode
+_InkConvertSpaceTokens
+_InkFilterPhraseHypotheses
+_InkSetUppercaseText
+_ITRUniStringCompare
+-[InkContext restoreMouseCoalescingState]
+-[InkContext processPhraseList]
+-[InkContext processTerminatedPhrase:]
+_InkPostInkPhraseEventViaIMK
+-[InkRecognizerPhrase initWithInkPhraseRef:andGestureKind:]
+-[InkRecognizerPhrase initWithInkPhrasePtr:]
+-[InkRecognizerWordGroup initWithInkPhraseWordGroup:]
+-[InkRecognizerPhraseWord initWithInkPhraseWord:]
+-[InkRecognizerPhrase isGesturePhrase]
+-[InkRecognizerPhrase isPhraseText]
+-[InkRecognizerPhrase createInkPhraseRef]
+-[InkRecognizerWordGroup createInkPhraseWordGroupWithParent:]
+-[InkRecognizerWordGroup phraseWordGroupCount]
+-[InkRecognizerPhraseWord createInkPhraseWordRefWithWordGroup:]
++[InkRecognizerMessageBase addPhraseRef:toEvent:withEventType:]
+_InkDisposePhraseWordGroup
+_InkDisposePhraseWord
+-[InkRecognizerPhrase dealloc]
+_InkInstanceProcessInkPhrase
+_PrefInstanceLocalRecognitionModeHasFlag
+_InkPhraseIsContextDependentGesture
+-[InkRecognizerPhrase initWithInkPhraseTextRef:andGestureKind:]
+-[InkRecognizerPhrase createInkPhraseTextRef]
+_InkInstancePostInkTextEventViaIMK
+-[InkRecognizerText initWithPhrase:andPhraseWord:andIsFirstWordOfAGroup:]
+-[InkRecognizerText setRemainingWords:]
+-[InkRecognizerBase isKeyboardShortcut]
+-[InkRecognizerText remainingWords]
+-[InkRecognizerText createInkTextRef]
+_InkTextCreate
+__InitInkTextRef
+__FinalizeInkTextRef
+_InkInstanceProcessInkTextEventIMK
+_InkInstancePostTSMTextEventIMK
+-[InkRecognizerText leadingSpacesCountAtIndex:]
+_InkCheckForSpacesAroundSelection
+-[InkRecognizerText stringAtIndex:]
+-[InkRecognizerBase termType]
+_CreateUniCharBufferWithContentsOfNSString
+-[InkRecognizerText dealloc]
+_RestorePreviousCursor
+-[InkContext recognizeAsSystemGesture:]
+_InkPossibleGesture
+_InkSendRecognizeSystemGesture
+_PrefInstanceClearInkIfNecessary
+_InkClearInstanceInk
+-[InkRecognizerWordGroup dealloc]
+-[InkRecognizerPhraseWord dealloc]
+-[InkContext determineEventDispositionForClientEventMousing:]
+-[InkContext metaDispatchRepostEventsForMousing:]
+-[InkClientSideEvent repostCGEventToCGConnection:markAsReposted:]
+-[InkContext lastEventWasOverWindowInOurProcess]
+-[InkContext lastEventWasRepostedAsEraserEvent]
+-[InkContext updateInkStateForMouseUp:andTabletPointEventSubtype:]
+_InkSendUpdateInkBarModifiers
+-[InkContext getSharedInkEnabledState]
+-[InkContext determineEventDispositionForClientEventTapEvent:]
+-[InkContext metaDispatchRepostEventsForTap:]
+-[InkClientSideEvent eventLocationIsOverWindowWithConnectionID:]
+-[InkContext setLastEventWasOverWindowInOurProcess:]
+-[InkContext resumeCGInkingOnTimer]
+_InkContextResumeCGInkingTimerCallback
+-[InkContext resumeCGInkingTimerActive]
+-[InkContext resumeCGInking]
+_InkDefinePhraseAsGesture
+_InkNewGesture
+_InkSetHotSpot
++[InkRecognizerPhrase gestureKindForGesturePtr:]
+-[InkRecognizerGesture initWithInkGesturePtr:]
+-[InkRecognizerGesture createInkGesture]
+-[InkRecognizerPhrase gestureKind]
+-[InkRecognizerMessageBase postCarbonEventAgainAsPhraseEventWithPhraseRef:]
+-[InkRecognizerGesture dealloc]
+_InkConvertGesture
+_InkEventMsg
+_InkReverseMapChar
+_PrefInstanceGetUCHRInverseKeyMap
+_PrefInstanceGetInkGetCurrentUCHR
+__Z21InkBuildInverseKeyMapP10InkGlobalsP16UCKeyboardLayout
+_InkInstanceQueueEvent
+_InkInstancePostEvent
+_InkInstancePostCGKeyEventWithModifiers
+-[InkClientSideEvent eventLocationIsOnMenuClassWindow]
+_InkEliminateDuplicatesInPhraseWordPtr
+_InkContextRecognitionEnabledStateChanged
+-[InkContext recognitionEnabledStateChanged:]
+_InkInstanceTerminateCurrentPhrase
+-[InkContext clientEvent:HasValidInkOnDemandModeButtonForMode:]
+-[InkClientSideEvent tabletButtonMask]
+-[InkContext getSystemInkOnDemandButtonMask]
+-[InkClientSideEvent simulateInvalidMouseEventForInkOnDemand:]
+-[InkClientSideEvent setOverridePressure:]
+-[InkClientSideEvent eventIsInProcessName:]
+-[InkContext processNameMatches:]
+-[InkContext bundleID]
+-[InkContext showCursorForProximityIfNecessary]
+-[InkClientSideEvent simulateTabletPointEventForInkInAir:]
+-[InkClientSideEvent simulateNonTabletPointEventForInkInAirRequireMouseUp:]
+-[InkContext enableLocalRecognition]
+_ITRInitializeShared
+_xDirDirectoryFromFSRef
+_xDirOpenOrPromptForFile
+_GetVolDirFromPOSIXCurDir
+_xDirSubDir
+_xDirCopyDir
+_CharAllocateGlobalArrays
+_CharReadHeader
+_ReadBytes
+_SkipUntil
+_SkipOver
+_ReadUntil
+_CharReadUseFactors
+_CharReadSegmentFacts
+_CharReadCapHeightFacts
+_CharReadContextFacts
+_CharReadCapHackFacts
+_CharReadCharLine
+_CharReadCapAltLine
+_CharReadCharHeightLines
+_xDirOpenDirectory
+_ResolveVolDirNameToFSRef
+_BPNetInitialize
+_BPFixParams
+_readword
+_NetPatternIndexLookup
+_BPNetReadGridKeyWords
+_readwordonline
+_BPNetLoadSpecs1
+_NetPatternNameLookup
+_BPNetAllocateNet
+_ReadShorts
+_WordRecogCreate
+_WordRecogNew
+_WordRecogAllocate
+_xDirGetFileList
+_xDirGetFileDirInfo
+_SetDirectory
+_OpenFile
+_BiGrammarLoad
+_BiGrammarCreate
+_BiGSliceLoad
+_BiGrammarSuckStack
+_BiGrammarReadToken
+_BiGSliceFetch
+_xDirGetPrefsDir
+_xDirNewMacDir
+_BiGSliceCreate
+_ReadOver
+_CloseFile
+_WordRecogReset
+_WordRecogClear
+_InkAddUInt32CallbackProcToList
+_PrefInstanceEnsureFrontProcessPSN
+_StrokeNew
+_WordRecogAddStroke
+_StrokeCentroid
+_WordRecogStrokeNeedsFragmenting
+_WordRecogIsStrokeTooWide
+_ValidFixedRect
+_WordRecogAddStroke2
+_SegmentStrokeData
+_SegmentWordBkVt
+_SegmentWordBack
+_SegmentWordVert
+_SegmentWordXGap
+_SegmentSetWordSpacing100
+_FragmentStroke
+_FindStrokeFragments
+_FindGoodRuns
+_ListAddEntry
+_CheckCusps
+_SubtractFixedPoints
+_CalcXProjection
+_CheckXProjection
+_DefineBreakPoints
+_StrokeCreate
+_SLSet
+_WordRecogStrokeIntersectsTwoVerticalStrokes
+_SegmentWord
+_StrokeSortFrags
+_SegmentChars
+_SegmentStroke
+_SegmentOverlapAr
+_SegmentMultiStrokeMinDistBoundX
+_SegmentMultiStrokeMinDistance
+_SegmentStrokeMinDistance
+_SegmentMakeSegments
+_SLJoinFragments
+_SegmentBoundsDotsEtc
+_WordRecogAnalyzeWord
+_SearchBeginWord
+_SearchAllocateGlobals
+_WordListFreeAll
+_WordRecogNetEvaluate
+_NetPatternizerMultiInitFromBP
+_NetPatternizerCreateForGrid
+_NetPatternizerImageInitFromBP
+_RenderAACreate
+_RenderRecCreate
+_RenderSetDotSize
+_RenderMakeDotStencil
+_RenderRawStencilCreate
+_RenderMakeStencil
+_RenderRawStencilDestroy
+_NetPatternizerStrokeInitFromBP
+_NetPatternizerAspectNormInitFromBP
+_NetPatternizerCountInitFromBP
+_NetPatternMultiCreate
+_NetPatternInit_
+_NetPatternImageCreate
+_NetPatternStrokeCreate
+_NetPatternScalarCreate
+_NetPatternMultiSLToPat
+_NetPatternImageSLToPat
+_RenderClear
+_SLDrawAAAt
+_StrokeDrawAAAt
+_RenderLine
+_RenderAAFlush
+_RenderAAMakeTable
+_NetPatternStrokePUDSLToPat
+_ApproxFixATan2Cycles
+_NetPatternAspectNormSLToPat
+_NetPatternCountSLToPat
+_NetPatternMultiSetInput
+_NetPatternImageSetInput
+_NetPatternStrokeSetInput
+_NetPatternScalarSetInput
+_NetPatternSetNth
+_CharModifyProbs
+_SearchProcessSegment
+_SearchDoViterbStep
+_SearchDoVStepFromNode
+_CapHackDetermineContext
+_GeoContextPenalty
+_GeoCacheAllocate
+_GeoContextAux1
+_GeoContextAux2
+_RegisterNewPath
+_WordTailBlockAllocate
+_SearchSegwordRememberNBest
+_SearchFindBest
+_WordTailCompare
+_WordTailAddRef
+_GeoContextClearCache
+_SearchEndWord
+_SearchSendWords
+_SearchAllocateReturnCache
+_WordTailSprint2
+_WordTailSetSegs
+_WordRecogEndWord
+_WordRecogComputeCapHeight
+_WordRecogReturnWords
+_WordListDeleteRef
+_WordTailDeleteRef
+_WordTailDeallocateGlobals
+_FSfree
+_WordRecogSameChar
+_StrokeJoin
+_CopyFixedPoint
+_StrokeSet
+_InkInstanceTextCreateCFString
+_InkTerminateInstancePhrase
+_SLToNetPattern
+_WordRecogDestroy
+_BPNetDestroy
+_BPNetFree
+_BiGrammarsDestroy
+_LLLangDestroy
+_SegmentQuiesce
+_WordRecogDeallocate
+_ListZap
+_NetPatternDestroy
+_NetPatternMultiDestroy
+_NetPatternImageDestroy
+_NetPatternStrokeDestroy
+_NetPatternScalarDestroy
+_NetPatternizerDestroy
+_NetPatternizerMultiDestroy
+_NetPatternizerImageDestroy
+_RenderAADestroy
+_RenderRecDestroy
+_NetPatternizerStrokeDestroy
+_NetPatternizerScalarDestroy
+_ITRReleaseGestureNet
+_CharFreeGlobalArrays
+_LLLangCountFrom
+_InkReleaseGlobalContext
+-[InkContext softTerminate]
+-[InkContext closePortForMessagesFromInkServer]
+_InkInstanceSetApplicationWritingMode
+__InkUserWritingMode
+_InkInstanceIsOnPriv
+_PrefInstanceSetLocalWritingMode
+_InkInstanceUserWritingMode
+_InkInstanceIsPhraseInProgress
+_InkInstanceSetDrawingMode
+_PrefInstanceSetDrawInkMode
+_InkInstanceSetApplicationRecognitionMode
+_PrefInstanceSetLocalRecognitionModeFlag
+-[InkContext openPortForMessagesFromInkServer]
+_InkInstanceTextAlternatesCount
+_InkInstanceSetPhraseTerminationMode
+_PrefInstanceSetAppPhraseTerminationMode
+_InkInstanceAddStrokeToCurrentPhrase
+_ITRGetFinishedPhrase
+-[InkRecognizerCharInfo initWithInkCharInfo:]
+-[InkRecognizerCharInfo copyInkCharInfoTo:]
+-[InkRecognizerCharInfo numStrokes]
+_MessagesFromInkServerPortCallBack
+-[InkContext extendResumeCGInkingTimer]
+-[InkContext cgsInkingStateAppInkingEnabled]
+_InkInstanceRecognizeApplicationGesture
+_InkInstanceProcessTSMTextEvent
+_InkInstanceExtendResumeCGInkingTimer
+_InkInstancePostInkPhraseTextEvent
+__PostCarbonKeyboardEvent
+_InkInstanceForceRecognizePhrase
+_InkRecognizeSystemGesture
+_InkNumHorizontalSpaces
+_InkNumVerticalSpaces
+_InkGetPhraseLength
+_InkGetUniCharTextFromPhrase
+_InkFilterPhraseWordHypotheses
+_InkPhraseIsApplicationGesture
+_InkSetHorizontalSpaceHotSpot
+_InkSetVerticalSpaceHotSpot
+_InkFilterPhraseWordPtrCommandKeys
+_InkInstanceTextInsertAlternatesInMenu
+_InkInstanceTextKeyModifiers
+_InkInstanceTextCopy
+_InkInstanceTextBounds
+_InkInstanceTextDraw
+_InkDrawInkInCGRect
+_InkInstanceTextFlatten
+_InkInstanceTextCreateFromCFData
+_InkInstanceSetApplicationGesturesPriv
+_InkInstanceSetApplicationGestureNetPriv
+_InkInstanceSetInkOnDemandModePriv
+_InkMenuItemHeightHandler
+_InkMenuItemWidthHandler
+_InkDrawInkMenuItemHandler
+_InkInstanceMenuSelectionHandler
+_InkMenuSelectionHandler
+_InkInstanceAltMenuItemHandler
+_InkAltMenuItemHandler
+_InkFilterTextPtrCommandKeys
+_InkEliminateDuplicatesInTextPtr
+_InkConvertPhrase
+_InkQueueDelete
+_debugShowVirtAndModsArray
+_debugShowVirtAndModsDict
+_debugShowReverseKeyMapDict
+_InkPostEvent
+_InkPostEvents
+_InkQueueTextWithAutoSpace
+_InkTextGestures
+_InkGetGesturesTargeted
+_InkBeginBatchSet
+_InkEndBatchSet
+_InkSetPrefsVersion
+_InkSetGesturesTargeted
+_InkSetInkBarModifiers
+_InkSetDefaultPrefsFromXMLFile
+_KeyboardInputSourceChangedNotificationReceiver
+_InkExecuteBooleanCallbackProcList
+_InkExecuteUInt32CallbackProcList
+_InkDisposeGesture
+_InkCreateEmptyPhrase
+_InkPrintStrokeIndexCount
+_InkPrintGesture
+_InkPrintPhraseWordGroupIndex
+_InkPrintStroke
+_InkPrintStrokeCount
+_InkPrintPhraseWordGroup
+_InkPrintPhraseWord
+_InkPrintPhraseWordIndex
+_InkDebugPrint
+_PrefInstanceOpenMemLog
+_PrefInstanceGetMemLog
+_InkPrintStack
+_PrefInstanceGetMemLogOpened
+_PrefInstanceSetMemLogOpened
+_SLListElementNew
+_SLListElementAppend
+_SLListNew
+_SLListDelete
+_SLListClear
+_SLListIsEmpty
+_SLListCount
+_SLListRewind
+_SLListMark
+_SLListMarkLast
+_SLListGetMark
+_SLListToMark
+_SLListGetCurr
+_SLListSetCurr
+_SLListNext
+_SLListCurrent
+_SLListGetNext
+_SLListInsertElement
+_SLListAppendElement
+_SLListInsert
+_SLListAppendElementHere
+_SLListAppend
+_SLListAppendHere
+_SLListUnlinkFirst
+_SLListRemoveFirst
+_DLListElementNew
+_DLListElementInsert
+_DLListElementAppend
+_DLListElementRemove
+_DLListMark
+_DLListMarkPrev
+_DLListMarkLast
+_DLListGetMark
+_DLListToMark
+_DLListGetCurr
+_DLListCurrent
+_DLListGetPrev
+_DLListInsertElement
+_DLListAppendElement
+_DLListInsertElementHere
+_DLListAppendElementHere
+_DLListInsert
+_DLListAppendHere
+_DLListRemove
+_DLListUnlink
+_DLListRemoveItem
+_DLListUnlinkItem
+_DLListUnlinkElement
+_DLListPrint
+_POSIXPathToHFSPath
+_FSRefToPOSIXPath
+_HFSPathToPOSIXPath
+__Z15ITRWordCallbackPPcPtPP12LLLangStructPP13CharSegStructii
+_strlenns
+_ITREvenlyDistributeCharSLStrokes
+_strcmpms
+_ITRRecognizePhrase
+__Z12ITRGestRecogP11BPNetStructiPP12StrokeStructPiPd
+_ITRRecognizeGesture
+_ITRDoCaptureStrokeData
+_ITRDoCaptureStrokeDataOff
+_ITRDoAllSegmentations
+_ITRDoMemoryDump
+_ITRDoSetContext
+_ITRSetDefaultDirectory
+_ITRInitializeClient
+_ITRGetSR
+_ITRSetContext
+_ITRGetNamedContext
+_ITRGetCurrentContext
+_ITRGetNamedBiGSliceInContext
+_ITRGetNamedBiGSlice
+_ITRGetNamedLangInContext
+_ITRGetNamedLang
+_ITRGetNamedLangInNamedContext
+_ITRGetUserLang
+_ITRSaveUserLang
+_BigToNonLeaf
+_BigToOn
+_BigDictSize
+_BigDictPrint
+_BigNodePrint
+_BigDictDump
+_BigNodeNull
+_BigNodeDump
+_BigNodeSize
+_BigNodeSort
+_BigNodeFreeData
+_BigNodeCreate
+_BigNodeDestroy
+_BigLinkDestroy
+_BigLinkConnect
+_BigLinksDelete
+_BigLinksAdd
+_BigLinksRealloc
+_BigLinkCreate
+_BigNodeConnectAdjust
+_BigNodeConnect
+_BigNodeConnectRemaining
+_BTELFDoNode
+_BigSymbolCompare
+_BTELFGetTokenSet
+_BigSymbolStringCompare
+_BigSymbolName
+_BigSymbolStringCrbncpy
+_BigSymbolStringLength
+_BigSymbolStringParse
+_BigDictAddWord
+_BigNodeSumConnect
+_BigDictAddString
+_BigNodeNormalize
+_BigNodeNormalizeByMaximum
+_BigDictCopy
+_BigNodeCopy
+_BigNodeFindLink
+_BigDictAddWords
+_BigNodeSqueeze
+_BigNodeMerge
+_BigNodeHas
+_BigNodeSameLinks
+_BigNodeMakeList
+_BDBFEParseMany
+_BDBFEParseExpression
+_BDBFEPeekNextSymbol
+_BDBFEParseAssign
+_BDBFEParseHeadRecursive
+_BDBFEParseCharSet
+_BDBFEParseCharList
+_BDBFEParseExprSet
+_BDBFEParseExprList
+_BDBFESyntaxError
+_BDBFEReadProb
+_BDBFEReadTokenBS
+_BDBFEReadToken
+_BDBFEGetVariable
+_BDBFEPrintVariable
+_BDBFEVariableCreate
+_BigDictMakeMostlyDeterministic
+_BDMMDFollowEpsilons
+_BDMMDCompactNodeset
+_BDMMDMakeEquivalentNode
+_BDMMDNodeSetFree
+_BDMMDNodeSetCreate
+_BigDictNGramFromWordList
+_BDNGClear
+_BDNGCountWord
+_BDNGApplyThreshold
+_BDNGFixFallbacks
+_BDNGFindEffectiveNode
+_BigDictRemoveEpsilons
+_BigNodeRemoveEpsilons
+_BNELandOn
+_BNEPrintNodeSet
+_BNENameLookup
+_BigToLangLocateNodes
+_BigToLangDoCopy
+_LBLangFromExpressions
+_LBBigToLangAndSave
+_LBLangNGFromWords
+_LBLangFromWords
+_LBSaveAsErrusLexical
+_LBConvertBigToLang
+_LBPrepareBigDict
+_BiGrammarSkipWhitespace
+_BiGrammarNew
+_BiGSliceNew
+_BiGrammarDestroy
+_BiGrammarFakeLoad
+_BiGrammarDescribe
+_BiGrammarGenPatterns
+_BiGrammarsNew
+_BiGrammarModifyContext
+_BiGrammarClone
+_BiGSliceDestroy
+_BiGrammarFromLang
+_BiGFloatProbForWordInSlice
+_BiGProbForWordInSlice
+_BiGFindSliceIndexByName
+_Read_uint32_t
+_LLLangCreate
+_LLLangGetStringCounts
+_LLLangReloadFromFile
+_Read_int32_t
+_LLLangGetWordsFrom
+_LLLangSave
+_LLLangGetSaveFile
+_LLLangStats
+_LLLangDumpBody
+_LLLangPrint
+_LLLangPrintToStdErr
+_LLLangPrintFromToFile
+_LLLangHasWordFrom
+_toother
+_LLLangDefineAsWord
+_LangVerifyDirectory
+_LangSetGlobals
+_LangClearGlobalInfo
+_strcmp_bw
+_BPNetComputeError
+_BPNetCorrect
+_BPNetCreate
+_BPNetInitializeDataPointers
+_BPNetInitializeClientOptions
+_BPNetError
+_BPNetSetCorrectProc
+_BPNetSetCorrectProc2
+_BPNetSetTrainProc
+_BPNetGuess
+_BPNetInitWeights
+_BPNetLearn
+_BPLimitWeights
+_BPNetReadInputType
+_BPNetLoadSpecs2
+_ConvertOldRepTypes
+_BPNetSetAvgError
+_BPNetSetEps0
+_BPNetSetMomentum
+_BPNetSetToNth
+_BPNetUpdate
+_NetPatternizerNewInstance
+_NetPatternizerInit_
+_SLToNetPattern2
+_NetPatternizerUpdateGraphics
+_NetPatternSetToNth
+_SLInfoCreate
+_SLInfoDestroy
+_NetPatternizerFFTInitFromBP
+_NetPatternFFTCreate
+_NetPatternFFTSLToPat
+_NetPatternFFTSetInput
+_NetPatternFFTDestroy
+_NetPatternizerFFTGraph
+_NetPatternizerFFTDestroy
+_NetPatternizerFFTInit
+_NetPatternizerImageGraph
+_NetPatternizerImageInit
+_NetPatternizerMultiGraph
+_NetPatternizerMultiInit
+_NetPatternizerAspectInitFromBP
+_NetPatternAspectSLToPat
+_NetPatternizerScalarGraph
+_NetPatternizerHeightInitFromBP
+_NetPatternHeightSLToPat
+_NetPatternizerCapHeightInitFromBP
+_NetPatternCapHeightSLToPat
+_NetPatternizerBaseInitFromBP
+_NetPatternBaseSLToPat
+_NetPatternizerScalarInit
+_NetPatternizerScalarInitFromBP
+_NetPatternStrokeSLToPat
+_NetPatternizerStrokeGraph
+_NetPatternStrokeAASLToPat
+_NetPatternStrokePUSLToPat
+_NetPatternizerStrokeInit
+_CharReadNumLines
+_GeoCacheDeallocate
+_GeoCQuiesence
+_SearchClearTimeStep
+_SearchSetContexts
+_SearchBuildContextsWithString
+_ShiftNetValues
+_GetBestPath
+_SearchCheckHashHit
+_GCBestNodes
+_SearchBestPaths
+_StoreFinalPaths
+_SearchLoadDict
+_SearchDeallocateGlobals
+_SearchSetGlobals
+_SearchGetGlobals
+_SearchClearGlobalInfo
+_SearchGetDeviceSizeAtLocation
+_SegmentInit
+_SegmentAspect
+_SegmentCrossed
+_SegmentDot2
+_SegmentLimitStrokesPerCharacter
+_SegmentIntegrated
+_SegmentIsIntegrated
+_SegmentSetStrokes
+_SegmentSetStrokeOverlaps
+_SegmentNonTailLinked
+_SegmentOverlap
+_SegmentOverlapFix
+_SegmentStrokeMinDistanceX
+_SegmentSetWordSpacing
+_CharGetNomBoxBHWSL
+_WordRecogOpenEpoch
+_WordRecogCloseEpoch
+_WordRecogResume
+_WordRecogSaveRun
+_WordRecogStrokeWordProb
+_WRSegWordXGap
+_WRCalcWordBounds
+_WordRecogClearStrokes
+_WordRecogClearCharSLUse
+_WordRecogDetermineMaxHeight
+_WordRecogStrokeType
+_WordRecogStrokeOutlier
+_WordRecogValidSegment
+_WRModifyProbs
+_WordRecogExpCapHeight
+_WordRecogDotIsHigh
+_WordRecogSetCharSLUse
+_WordRecogNumWords
+_WordRecogSameWord
+_WordRecogSuspend
+_WordRecogSetContext
+_WordRecogInvalRun
+_WordRecogInitializeRun
+_WordRecogNetSetInputs
+_FragmentCharSL
+_FragmentSL
+_FindSLFragments
+_StrokeSubsection
+_StrokesAdjoin
+_NewRangeList
+_CalcDeltas
+_ProcessCusps
+_ProcessXProjection
+_XProjectionDestroy
+_IsThisRunGood
+_StrokeIsHorizontal
+_FindFragmentLength
+_FindBreakPoint
+_XProjectionSetPtVals
+_SquashStrokeList
+_StitchStrokeList
+_StrokeListStats
+_ApplySquashStrokeList
+_TrimStrokeList
+_SubStroke
+_ApplySquashStroke
+_StrokeDrawAAAtShift
+_SLDrawAAAtShift
+_StrokeLength
+_SLLength
+_SLResample
+_StrokeResample
+_CharSLSmooth
+_SLSmooth
+_StrokeSmooth
+_CharSLPreprocess
+_SLPreprocess
+_CharSLRenumber
+_SLDeQuantize
+_StrokePreprocess
+_StrokeDeQuantize
+_SLPenDowns
+_SLRenumber
+_CharSLConstrain
+_SLConstrain
+_StrokeConstrain
+_CharSLDeQuantize
+_StrokeCreateVoid
+_StrokeCalcBounds
+_StrokeAdd
+_StrokeOffset
+_SLCreateVoid
+_SLAdd
+_SLDuplicate
+_SLOffset
+_CharSLCountStrokes
+_CharSLNew
+_CharSLCreate
+_CharSLCreate3
+_CharSLCreate2
+_CopyCombBoxMetrics
+_CharSLSet
+_CharSLSet3
+_CharSLSet2
+_CharSLDuplicate
+_CharSLOffset
+_OffsetBoxMetrics
+_CharSLFindStroke
+_CharSLSort
+_CharSLAverages
+_CharSLScale
+_StrokeScale
+_StrokeDump
+_StrokeLoad
+_SLDump
+_SLLoad
+_CharSegDump
+_WordSLDump
+_CharSegLoad
+_CharSLLoadSafe
+_ReadBoxMetrics
+_CharSLLoadNextChar
+_LoadTapFile
+_ParsePage
+_ParseWord
+_ParseStroke
+_ParseChar
+_ParseSeg
+_ParseSample
+_FreeTap
+_TapLoad
+_TapToCharSL
+_TapDump
+_TapInit
+_TapResolutionSet
+_TapPageAppend
+_TapWordAppend
+_TapTextAppend
+_TapStrokeAppend
+_TapSampleAppend
+_TapHeaderFlip
+_TapHeaderInit
+_TapCommentInit
+_TapPointInfoInit
+_TapPageInit
+_LastPagePtr
+_TapPageFlip
+_TapWordInit
+_TapConstraintsInit
+_LastWordPtr
+_TapWordFlip
+_Ustrlen
+_TapTextInit
+_strlenMod4
+_TapPaperAppend
+_TapStrokeInit
+_LastStrokePtr
+_TapStrokeFlip
+_MoveData
+_TapSampleFlip
+_TapCharAppend
+_TapCharInit
+_LastCharPtr
+_TapCharFlip
+_TapSegmentAppend
+_TapSegmentInit
+_LastSegmentPtr
+_TapSegmentFlip
+_TapCommentFlip
+_TapPointInfoFlip
+_Ustrcpy
+_TapTextFlip
+_TapConstraintsFlip
+_TapPaperInit
+_TapPaperFlip
+_Flip2
+_Flip4
+_Flip
+_DGetLine
+_DYankLine
+_YankWord
+_GetWord
+_InsertSpace
+_LoadAndInclude
+_PreScans
+_BuildStrokeList
+_ParseWordSegs
+_ParseCharSegs
+_ParseSpaces
+_UNIPENLoad
+_DealloactePreScan
+_UNIPENDump
+_UNIPENWordDump
+_RandomWarpStrokeList
+_WarpStrokeList
+_WarpStroke
+_SetArPoint
+_CopyArPoint
+_OffsetArPoint
+_ScaleArPoint
+_SubtractArPoints
+_AddArPoints
+_ValidArRect
+_EmptyArRect
+_SetArRect
+_CopyArRect
+_ArRectSize
+_OrArRect
+_OffsetArRect
+_ScaleArRect
+_aspect_figure
+_ClearDirectory
+_CopyDirectory
+_SetPosition
+_GetPosition
+_BackwardChars
+_PeekString
+_ReadString
+_PeekBytes
+_LookingAt
+_ReadLongs
+_ReadFloats
+_ForwardChars
+_OffsetFixedPoint
+_ScaleFixedPoint
+_AddFixedPoints
+_SectFixedRect
+_FixedScaleFixedRect
+_XYScaleFixedRect
+_XYFixedScaleFixedRect
+_FastFixMul
+_FastFixDiv
+_ITRConvertFromUnicodeWithLength
+_ListIndexOk
+_ListAllocate
+_ListBlockAllocate
+_ListEntryAllocate
+_ListEntryBlockAllocate
+_Listbailout
+_ListCopy
+_ListInsertEntry
+_ListAdvance
+_ListRemoveEntryByValue
+_ListFind
+_ListEquivalent
+_RenderRawStencil
+_RenderStencil
+_RenderDot
+_RenderStencilNew
+_RenderStencilDestroy
+_RenderRecNew
+_RenderAANew
+_RenderAANewImage
+_OSTypePString
+_pStrncat
+_pStrncpy
+_pSubstr
+_StringFromWords
+_toLower
+_IsLegalChar
+_difference
+_differenceI
+_FormatTime
+_ShortTime
+_LongTime
+_ShortTime12
+_LongTime12
+_ShortDateAndTime
+_ShortDateAndTime12
+_LongDateAndTime
+_ShortDate
+_LongDate
+_ShortDay
+_LongDay
+_TimeStart
+_TimeFinish
+_TimePrint
+_TimeBeg_
+_TimeEnd_
+_readwords
+_freewords
+_fopen_write
+_fopen_read
+_ErrorPrint
+_isoneof
+_lookup
+_lookfor
+_name_lookup_index
+_GetLine
+_TbxDebugPrint
+_debugstr
+_WordStatCreate
+_WordStatRestartStatistics
+_WordStatReportStatistics
+_WordTailMemoryStats
+_WordTailSprint
+_WordListSprint
+_WordTailStrokesInWord
+_ReadDir
+_FileKind
+_IsFile
+_MoveFile
+_RemoveFile
+_TouchFile
+_IsProcess
+_LockFile
+_xDirNewDir
+_xDirDirectoryFromFSSpec
+_xDirGetCurrentDirectory
+_xDirGetDefaultDirectory
+_xDirGetDirectory
+_xDirChooseFile
+_xDirChooseNewFile
+_xDirGetFile
+_xDirIsSuffix
+_xDirGetPrefix
+_xDirPutFile
+_xDirGetWD
+_xDirGetDirectoryCount
+_xDirGetDirectoryList
+_xDirGetFileCount
+_xDirCloseFileName
+_xDirSetDefaultDirectory
+_xDirSetRelativeDirectory
+_xDirSetRelativeToCurrentDirectory
+_xDirGetExtensionsDir
+_xDirGetControlPanelsDir
+__Z27getCurrentScreenScaleFactor6CGRect
+__Z25InkCreateCGPatternFromPNGd
+__Z26GetInkPadWindowEventTargetP10InkGlobals
+_SetInkPadWindowEventTargetToEvent
+_InkInstanceTerminateGraphics
+_InkAddEventToOutQueue
+_PrefInstanceSetCurrentInputSourceRef
+_PrefInstanceGetCurrentInputSourceRef
+_PrefInstanceSetInverseKeyMapDict
+_PrefInstanceSetKCHR
+_PrefInstanceGetKCHR
+_PrefInstanceUpdateKCHR
+_PrefInstanceInkBuildInverseKCHR
+_PrefInstanceGetKCHRMappedChars
+_PrefInstanceSetEventTarget
+_PrefInstanceSetPenDownTimeToNow
+_PrefInstanceLoadAppGestureNet
+_PrefInstanceReleaseAppGestureNet
+_PrefInstanceGetAppGestureNet
+_PrefInstanceDestroyAppGestureNet
+_PrefInstanceIncrementNumPointsHandled
+_PrefInstanceSetUserITRTerminationMode
+_PrefInstanceSetUserPhraseTerminationMode
+_PrefInstanceValueForDisallowedCharsIndex
+_PrefInstanceEventTargetIs
+_PrefInstanceCheckPointProcsForDisposition
+_PrefInstanceAddPointProc
+_PrefInstanceRemovePointProc
+_InkIMKedPrint
+_InkIMKevProcPrint
+_InkIMKrepostPrint
+_InkIMKr2ipPrint
+-[InkRecognizerCharInfo init]
+-[InkRecognizerCharInfo initWithCoder:]
+-[InkRecognizerCharInfo dealloc]
+-[InkRecognizerCharInfo encodeWithCoder:]
+-[InkRecognizerCharInfo copyWithZone:]
+-[InkRecognizerCharInfo description]
+-[InkRecognizerPhrase initWithCoder:]
+-[InkRecognizerPhrase encodeWithCoder:]
+-[InkRecognizerPhrase copyWithZone:]
+-[InkRecognizerPhrase description]
+-[InkRecognizerPhrase setAppGestureKind:]
+-[InkRecognizerPhraseWord init]
+-[InkRecognizerPhraseWord initWithCoder:]
+-[InkRecognizerPhraseWord encodeWithCoder:]
+-[InkRecognizerPhraseWord copyWithZone:]
+-[InkRecognizerPhraseWord description]
+-[InkRecognizerPoint initWithCoder:]
+-[InkRecognizerPoint encodeWithCoder:]
+-[InkRecognizerPoint copyWithZone:]
+-[InkRecognizerPoint description]
+-[InkRecognizerStroke initWithInkRecognizerStroke:]
+-[InkRecognizerStroke initWithCoder:]
+-[InkRecognizerStroke encodeWithCoder:]
+-[InkRecognizerStroke copyWithZone:]
+-[InkRecognizerStroke description]
+-[InkRecognizerText initWithInkTextRef:]
+-[InkRecognizerText initWithInkTextPtr:]
+-[InkRecognizerText initWithCoder:]
+-[InkRecognizerText encodeWithCoder:]
+-[InkRecognizerText copyWithZone:]
+-[InkRecognizerText description]
+-[InkRecognizerBase initWithInkRecognizerBase:]
+-[InkRecognizerBase initWithCoder:]
+-[InkRecognizerBase encodeWithCoder:]
+-[InkRecognizerBase copyWithZone:]
+-[InkRecognizerBase description]
+-[InkRecognizerBase hasActiveTSM]
+-[InkRecognizerBase setActiveTSM:]
+-[InkRecognizerBase modifiers]
+-[InkRecognizerGesture initWithInkRecognizerGesture:]
+-[InkRecognizerGesture initWithCoder:]
+-[InkRecognizerGesture encodeWithCoder:]
+-[InkRecognizerGesture copyWithZone:]
+-[InkRecognizerGesture description]
+-[InkRecognizerWordGroup init]
+-[InkRecognizerWordGroup initWithCoder:]
+-[InkRecognizerWordGroup encodeWithCoder:]
+-[InkRecognizerWordGroup copyWithZone:]
+-[InkRecognizerWordGroup description]
+-[InkRecognizerMessageBase initWithCoder:]
+-[InkRecognizerMessageBase encodeWithCoder:]
+-[InkRecognizerMessageBase copyWithZone:]
+-[InkRecognizerMessageBase description]
+-[InkContext configForInkServerContext]
+-[InkContext finalize]
+-[InkContext dealloc]
+-[InkContext removeNotificationObservers]
+-[InkContext postTextFromServerCallbackMessage:]
+-[InkContext allowInkWithMouse]
+-[InkContext setAllowInkWithMouse:]
+-[InkContext IsCGInstantMousing:]
+-[InkContext setInkOnDemandModeViaSPI:buttonMask:]
+-[InkContext configureForCGInstantMousing:]
+-[InkContext pullPrevEventFromQueue:]
++[InkContext launchWithFSRef:]
+-[InkContext launchServer]
+-[InkContext setCgConnectionID:]
+-[InkContext setLastEventWasRepostedAsEraserEvent:]
+-[InkContext messagesFromServerPort]
+-[InkContext setMessagesFromServerPort:]
+-[InkContext setMousingTestMode:]
+-[InkContext setIsCGInstantMousing:]
+-[InkContext setCoalescingIsDisabled:]
+-[InkContext setShouldDisableCoalescingDuringInking:]
+-[InkContext setThisProcessPSN:]
+-[InkContext setResumeCGInkingTimerActive:]
+-[InkContext userInkOnDemandModeOverrideValue]
+-[InkContext setUserInkOnDemandModeOverrideValue:]
+-[InkContext userInkOnDemandButtonMask]
+-[InkContext setUserInkOnDemandButtonMask:]
+-[InkClientSideEvent initWithNSEvent:andInkContext:]
+-[InkClientSideEvent resetNSEvent:]
+-[InkClientSideEvent finalize]
+-[InkClientSideEvent pressure]
+-[InkClientSideEvent setPressure:]
+-[InkClientSideEvent simulateTabletPointForMouseUsingModifiedType:]
+-[InkClientSideEvent cgsEventTime]
+-[InkClientSideEvent wasDispatchedByInkServer]
+-[InkClientSideEvent connectionIDMatches:]
+-[InkClientSideEvent LogEventDetails]
+-[InkClientSideEvent setNsEventSource:]
+-[InkClientSideEvent nsEvent]
+-[InkClientSideEvent setNsEvent:]
+-[InkClientSideEvent setHasKeyFocus:]
+-[InkClientSideEvent setShouldOverRideEventType:]
+-[InkClientSideEvent setEventTypeOverride:]
+-[InkClientSideEvent setOverrideTabletData:]
+-[InkClientSideEvent setCgRecIsFake:]
+-[InkClientSideEvent setTabletEventTypeCached:]
+-[InkClientSideEvent setTabletEventType:]
+-[InkClientSideEvent setMousePointCached:]
+-[InkClientSideEvent globalNSMouseLocation]
+-[InkClientSideEvent setGlobalNSMouseLocation:]
+-[InkClientSideEvent setGlobalHIMouseLocation:]
+-[InkClientSideEvent setExplicitlySentFromInkServer:]
+_InkMinimalContextIsInkOn
+_MinimalNotificationReceiver
++[NSString(LoggingAdditions) stringWithEventType:]
++[NSString(LoggingAdditions) stringWithCarbonEventClass:]
++[NSString(LoggingAdditions) stringWithCarbonEventKind:]
++[NSString(LoggingAdditions) stringWithEventSubType:]
++[NSString(LoggingAdditions) stringWithButtonDown:]
++[NSString(LoggingAdditions) stringWithInkEventDisposition:]
++[NSString(LoggingAdditions) stringWithInkModifiers:]
++[NSString(LoggingAdditions) stringWithInkFlags:]
++[NSString(LoggingAdditions) stringWithInkCDFlag:]
++[NSString(LoggingAdditions) stringWithInkTermType:]
++[NSString(LoggingAdditions) stringWithDispatchCommand:]
++[NSString(LoggingAdditions) stringWithDispatchCommandUnCached:]
++[NSString(LoggingAdditions) stringWithInkEventQueueOptions:]
+_InkInvalidCGPoint
+__Z10GestureMap
+_.memset_pattern
+_CorrelationMatrix
+_SearchCheckHashHit.hashKey
+_SearchCheckHashHit.hashHit
+_ArProbEncodeLu1
+_ArProbEncodeLu2
+_QSigLu
+_ArSigLu
+_ArSigSlopeLu
+_endCodes
+_startCodes
+_codeDelta
+_charCodes
+_toUnicode
+_gEuroChars
+_InkVersionString
+_InkVersionNumber
+___InkStrokeRef
+___InkTextRef
+_BPParamName
+_RepTypeLookup
+_NetPatternTypes
+_NetPatternFFTT
+_NetPatternImageT
+_NetPatternMultiT
+_NetPatternAspectT
+_NetPatternAspectNormT
+_NetPatternHeightT
+_NetPatternCapHeightT
+_NetPatternBaseT
+_NetPatternCountT
+_NetPatternStrokeT
+_NetPatternStrokeAAT
+_NetPatternStrokePUT
+_NetPatternStrokePUDT
+_.memset_pattern
+_OBJC_IVAR_$_InkRecognizerCharInfo._strokeIndexes
+_OBJC_IVAR_$_InkRecognizerPhrase._gestureKind
+_OBJC_IVAR_$_InkRecognizerPhrase._isPhraseText
+_OBJC_IVAR_$_InkRecognizerPhrase._strokeArray
+_OBJC_IVAR_$_InkRecognizerPhrase._gesture
+_OBJC_IVAR_$_InkRecognizerPhrase._wordGroupArray
+_OBJC_IVAR_$_InkRecognizerPhrase._refCon
+_OBJC_IVAR_$_InkRecognizerPhraseWord._majorVersion
+_OBJC_IVAR_$_InkRecognizerPhraseWord._minorVersion
+_OBJC_IVAR_$_InkRecognizerPhraseWord._startStroke
+_OBJC_IVAR_$_InkRecognizerPhraseWord._firstWordOfPhrase
+_OBJC_IVAR_$_InkRecognizerPhraseWord._text_WordsArray
+_OBJC_IVAR_$_InkRecognizerPhraseWord._leadingSpacesArray
+_OBJC_IVAR_$_InkRecognizerPhraseWord._charInfoArray
+_OBJC_IVAR_$_InkRecognizerPhraseWord._numStrokes
+_OBJC_IVAR_$_InkRecognizerPoint._inkPoint
+_OBJC_IVAR_$_InkRecognizerStroke._terminationAfterStroke
+_OBJC_IVAR_$_InkRecognizerStroke._hRes
+_OBJC_IVAR_$_InkRecognizerStroke._vRes
+_OBJC_IVAR_$_InkRecognizerStroke._inkPointArray
+_OBJC_IVAR_$_InkRecognizerText._strokeArray
+_OBJC_IVAR_$_InkRecognizerText._firstWordOfPhrase
+_OBJC_IVAR_$_InkRecognizerText._textArray
+_OBJC_IVAR_$_InkRecognizerText._leadingSpacesArray
+_OBJC_IVAR_$_InkRecognizerText._charInfoArray
+_OBJC_IVAR_$_InkRecognizerText._refCon
+_OBJC_IVAR_$_InkRecognizerText._remainingWords
+_OBJC_IVAR_$_InkRecognizerBase._majorVersion
+_OBJC_IVAR_$_InkRecognizerBase._minorVersion
+_OBJC_IVAR_$_InkRecognizerBase._modifiers
+_OBJC_IVAR_$_InkRecognizerBase._flags
+_OBJC_IVAR_$_InkRecognizerBase._bounds
+_OBJC_IVAR_$_InkRecognizerBase._isKeyboardShortcut
+_OBJC_IVAR_$_InkRecognizerBase._baseTermination
+_OBJC_IVAR_$_InkRecognizerBase._hasActiveTSM
+_OBJC_IVAR_$_InkRecognizerGesture._majorVersion
+_OBJC_IVAR_$_InkRecognizerGesture._minorVersion
+_OBJC_IVAR_$_InkRecognizerGesture._type
+_OBJC_IVAR_$_InkRecognizerGesture._cdFlag
+_OBJC_IVAR_$_InkRecognizerGesture._numSpaces
+_OBJC_IVAR_$_InkRecognizerGesture._hotSpot
+_OBJC_IVAR_$_InkRecognizerGesture._confidence
+_OBJC_IVAR_$_InkRecognizerWordGroup._phraseWordArray
+_OBJC_IVAR_$_InkRecognizerMessageBase._inkRecognizerData
+_OBJC_IVAR_$_InkRecognizerMessageBase._dataKey
+_OBJC_IVAR_$_InkRecognizerMessageBase._explicitTarget
+_OBJC_IVAR_$_InkContext._bundleIdentifier
+_OBJC_IVAR_$_InkContext._sEventTarget
+_OBJC_IVAR_$_InkContext._thisProcessPSN
+_OBJC_IVAR_$_InkContext._shouldDisableCoalescingDuringInking
+_OBJC_IVAR_$_InkContext._resumeCGInkingDelay
+_OBJC_IVAR_$_InkContext._userInkOnDemandModeOverrideValue
+_OBJC_IVAR_$_InkContext._queuedEventsArray
+_OBJC_IVAR_$_InkContext._phraseTerminationTimer
+_OBJC_IVAR_$_InkContext._cgsConnectionID
+_OBJC_IVAR_$_InkContext._isSoftTerminated
+_OBJC_IVAR_$_InkContext._privateInkGlobals
+_OBJC_IVAR_$_InkContext._messagesFromServerPort
+_OBJC_IVAR_$_InkContext._clientEvent
+_OBJC_IVAR_$_InkContext._allowInkWithMouse
+_OBJC_IVAR_$_InkContext._inkOnDemandModeOverridden
+_OBJC_IVAR_$_InkContext._inkCGInstantMousing
+_OBJC_IVAR_$_InkContext._userInkOnDemandButtonMask
+_OBJC_IVAR_$_InkContext._oldMouseCoalescingToken
+_OBJC_IVAR_$_InkContext._coalescingDisabled
+_OBJC_IVAR_$_InkContext._resumeCGInkingTimer
+_OBJC_IVAR_$_InkContext._resumeCGInkingTimerActive
+_OBJC_IVAR_$_InkContext._lastEventWasOverWindowInOurProcess
+_OBJC_IVAR_$_InkContext._lastEventWasRepostedAsEraserEvent
+_OBJC_IVAR_$_InkContext._inPhrase
+_OBJC_IVAR_$_InkContext._inStroke
+_OBJC_IVAR_$_InkContext._inProximity
+_OBJC_IVAR_$_InkContext._mousing
+_OBJC_IVAR_$_InkContext._mousingNotEnabled
+_OBJC_IVAR_$_InkClientSideEvent._inkContext
+_OBJC_IVAR_$_InkClientSideEvent._NSEventSourceEvent
+_OBJC_IVAR_$_InkClientSideEvent._event
+_OBJC_IVAR_$_InkClientSideEvent._globalNSMouseLocation
+_OBJC_IVAR_$_InkClientSideEvent._carbonEventRef
+_OBJC_IVAR_$_InkClientSideEvent._globalHIMouseLocation
+_OBJC_IVAR_$_InkClientSideEvent._hasKeyFocus
+_OBJC_IVAR_$_InkClientSideEvent._shouldOverRideEventType
+_OBJC_IVAR_$_InkClientSideEvent._eventTypeOverride
+_OBJC_IVAR_$_InkClientSideEvent._overridetabletData
+_OBJC_IVAR_$_InkClientSideEvent._overridePressure
+_OBJC_IVAR_$_InkClientSideEvent._tabletEventTypeCached
+_OBJC_IVAR_$_InkClientSideEvent._tabletEventType
+_OBJC_IVAR_$_InkClientSideEvent._mousePointCached
+_OBJC_IVAR_$_InkClientSideEvent._explicitlySentFromInkServer
+_OBJC_IVAR_$_InkClientSideEvent._dispatchCommand
+_OBJC_IVAR_$_InkClientSideEvent._cgRecLoaded
+_OBJC_IVAR_$_InkClientSideEvent._cgRecIsFake
+_OBJC_IVAR_$_InkClientSideEvent._cgEventRec
+_OBJC_IVAR_$_InkClientSideEvent._tabletPointRec
+_OBJC_IVAR_$_InkClientSideEvent._eventManagerResult
+_OBJC_CLASS_$_InkClientSideEvent
+_OBJC_METACLASS_$_InkClientSideEvent
+_gInkTextFlattenVersion
+_inkGlobs
+_InkLogHeader.longestFunc
+_gsLanguage
+_notnull
+_BigSymbolBeyond
+_BigDictSqueeze2.x
+_BDBFEParseAssign.x
+_SqueezeFlag
+_LangNGThreshold
+_SaveAsLang
+_StrokeCountUse
+_GotDotUse
+_NotDotUse
+_MinStrokeSize
+_NOTNomStrokeSize
+_MinMaxStrokeGap
+_MinMaxCharGap
+_MinMaxCharBackStep
+_MaxStrokeGapFraction
+_MaxOverlappedStrokeGapFraction
+_MaxCharGapFraction
+_MaxCharGapFracVariation
+_MaxCharBackStepFraction
+_MaxCharCurvature
+_MaxMultiStrokeNonDotCharAspect
+_MaxMultiStrokeCharAspect
+_MaxNonDotCharOverlap
+_MaxNonDotCharOverlapCrossed
+_MaxNonDotCharOverlapNonLinked
+_MaxGapNonDotCharOverlap
+_StrokeTailFrac
+_MaxStrokeGapTouching
+_MaxCharVerticalShiftFraction
+_MinMaxCharVerticalShift
+_CapHeightDivStrkSize
+_CapHeightDivHeight
+_CapHeightDivBoxHt
+_CapHeightDivWidth
+_CapHeightDivRunCapHt
+_CapHeightDivEstCapHt
+_Beam
+_BeamStart
+_NetBeam
+_TokenEmphasis
+_NetEmphasis
+_CapHackUpperBias
+_CapHackLowerBias
+_CapHackNumberBias
+_HiSkipPen
+_MaxSkipPenOverlap
+_MaxSkipPenOverlapI
+_CharFragProb
+_gPartialFact
+_gHashKey1
+_gHashKey2
+_MaxBestNodes
+_SearchPartialWords
+_SearchCheckHashHit.hashHitIndex
+_MinSegOnlyThreshold
+_MidSegOnlyThreshold
+_MaxSegOnlyThreshold
+_gITRAllowPhraseTermination
+_WordSpaceFactor
+_LnWordSpaceFactor
+_WordSpacing
+_FragmentLigatures
+_MinFragmentWidthMultiple
+_gEliminatePoundWords
+_errordialogs
+_wordTailFrees
+_kInkTextCFTypeID
+_gInkTextCFTypeID
+_gInkStrokeCFTypeID
+_InkStatCallback
+_gsITRDefaultDirectory
+_WR
+_GestureNet
+_BigSymbolNil
+_NewSqueezeFlag
+_ProbFlag
+_ADPFlag
+_PenaltyProbsFlag
+_SaveAsLangResource
+_SaveAsErrus
+_LangFileName
+_ErrusFileName
+_gLMLangInfo
+_PositionUse
+_GeoContextUse
+_MaxCharGapVarFact
+_LoSkipPen
+_CharStrokeProb
+_CharGotDotProb
+_CharNotDotProb
+_CharParams
+_CharLegalNet
+_CapHackCaseFlags
+_CapHackAltCase1
+_CapHackAltCase2
+_SearchStartBiG
+_SearchMetasegNumContexts
+_SearchMetasegNumUsed
+_gStrokesPerCharacterLimit
+_SearchOptimist
+_TotNumSegs
+_WordSegOnly
+_RunningAveragesOnly
+_CharHeightOnly
+_Run
+_ChrHeight
+_CapHeight
+_SegOnly
+_gWordsSkipped
+_DotStencils
+_wordTails
+_wordTailTables
+_wordLists
+_freeWordLists
+_gxDirCurrentFileName
+_gxDirCurrentDirectory
+_gInkSavedCursorData
+_gInkRecFailureCFString
+_gInkContext_NO_DIRECT_ACCESS
+_gInkTerminated
+_gCachedDispatchCommandStrings
+_gFakingAppGestureNet
+_CharHeight
+_CharValidParams
+_RUN
+_TapHeader
+_xpavx
+_xasluix
+_xasvx
+_xnasvx
+_xqsvx
+_abs_temp
+_ar_temp_float
+_AAtables
+_TicksTemp
+_lp_temp
+_mtemp
+_mtemp2
+_mtempnum
+_wordListTemp
+_wordTailTmp
+_gInkMinimalContext
+_InkInstanceDrawInkInCGRect.sWarned
+_gsInk
+_InkTime.num
+_InkTime.denom
+_InkLogFile.alerted
+_InkLogHeader.longestFile
+_InkLogHeader.format
+_InkLogHeader.needFormat
+__Z18NumStrokesInPhrase
+__Z13CurrentPhrase
+__Z15CurrentNumWords
+__Z12CurrentWords
+__Z20NumStrokesRecognized
+__Z11gITRNumNets
+__Z8gITRNets
+__Z19gITRNetPatternizers
+__Z15gITRNetPatterns
+_NumNodes
+_numstates
+_numtokensets
+_tokensets
+_BigSymbolName.buf
+_numvars
+_vars
+_NodeSets
+_BNENameLookup.list
+_BNENameLookup.num
+_NumZeroLinkNodes
+_probstackp
+_probstack
+_bp_temp
+_cacheprob
+_cachetokenL
+_cachetokenR
+_cachevalL
+_cachevalR
+_cachesize
+_cachesegmentA
+_cachesegmentB
+_cachehits
+_GeoContextPenalty.once
+_cachemisses
+_maxcachesize
+_SearchMetaseg
+_SearchMetasegAllowWrap
+_SearchMetasegContexts
+_SearchAllocFlag
+_Step
+_SearchSetContextsByCharSL.searchContexts
+_SearchSetContextsByString.searchContexts
+_SAGnetProbs
+_SAGeheightprobs
+_BestWordsReturnCache
+_CharSegsReturnCache
+_gPathSoFar
+_SearchCheckHashHit.hashHitCount
+_SearchCheckHashHit.hashEnabled
+_CacheSize
+_SearchDoViterbStep.virtual_starts
+_CapHackable
+_Temp
+_SAGnip
+_SAGtdp
+_SAGtip
+_XGapProbThreshold
+_tx
+_SegOnlyThreshold
+_szrat
+_WordRecogAddStroke.once
+_WordRecogAddStroke2.strokePrevRight
+_WordRecogAddStroke2.xcenPrev
+_WordRecogAddStroke2.prevStrokeAllowedInAverages
+_DGetLine.line
+_YankWord.word
+_GetWord.word
+_freelis
+_freeles
+_gLastListBlock
+_gLastListEntryBlock
+_TimeStart.theyknow
+_TimeState
+_TicksTotal
+_TimeFinish.theyknow
+_readword.buf
+_readwordonline.buf
+_machtime.num
+_machtime.denom
+_printsSinceRestart
+__ZZ25InkCreateCGPatternFromPNGdE5sDict
+__ZZ25InkCreateCGPatternFromPNGdE17cachedScaleFactor
+__ZGVZ25InkCreateCGPatternFromPNGdE17cachedScaleFactor
+__ZZ26InkExpandInkWindowInstanceE11scalefactor
+-[InkClientSideEvent repostCGEventToCGConnection:markAsReposted:].sAppIsSandboxed
+_InkMinimalContextIsInkOn.didSetUpInkContext
+_ArProbDecodeLu
+_AtEnd
+_BPNetEvaluate
+_BPNetLearnEnable
+_BPNetLoad
+_BiGFindBiGrammarIndexByName
+_BiGHasWord
+_BiGrammarsLoad
+_BigDictAddWordsFrom
+_BigDictBuildFromExpressions
+_BigDictBuildProgress
+_BigDictBuildWithoutProbsFromExpressions
+_BigDictCreate
+_BigDictDescribe
+_BigDictNGramFromWords
+_BigDictNormalize
+_BigDictNormalizeByMaximum
+_BigDictSqueeze
+_BigDictSqueeze2
+_BigToErrusLexFile
+_BigToLang
+_CGRectUnionPoint
+_CWrapperChooseFile
+_CWrapperChooseNewFile
+_CWrapperGetDirectory
+_CharCompoundPart1
+_CharCompoundPart2
+_CharGetAvgBoxBHW
+_CharInitialize
+_CharLegalUse
+_CharOfNetNode
+_CharSLCalcBounds
+_CharSLDestroy
+_CharSLDump
+_CharSLFindBounds
+_CharSLLoad
+_CharToNetNode
+_CopyFixedRect
+_CtoPStrcpy
+_CtoPString
+_DLListAppend
+_DLListClear
+_DLListCount
+_DLListDelete
+_DLListGetNext
+_DLListNew
+_DLListNext
+_DLListPrev
+_DLListRemoveElement
+_DLListRewind
+_DLListSetCurr
+_EmptyFixedRect
+_FixedRectSize
+_HSetVolAndChDir
+_ITRAddStroke
+_ITRAllowPhraseTermination
+_ITRChar2Uni
+_ITRClearPhrase
+_ITRConvertFromUnicode
+_ITRConvertPhraseCharInfoToCharSLSegInfo
+_ITRCreateInkPhraseFromCharSL
+_ITRFinishPhrase
+_ITRGetDefaultDirectory
+_ITRGetFinishedPhraseAsCFDataRef
+_ITRInit
+_ITRReInit
+_ITRRecognizeAsSystemGesture
+_ITRReloadUserLang
+_ITRRestoreCurrentContext
+_ITRUni2Char
+_ITRUniStringLength
+_InkAddStrokeToCurrentPhrase
+_InkBackTrace
+_InkCombinePhrases
+_InkCreateCharTextFromPhrase
+_InkCreateDefaultDictionaryFromXMLFile
+_InkCreatePhraseTextRefFromText
+_InkCreatePrefsDictionary
+_InkCreateProcessPortName
+_InkDebugStr
+_InkDeleteLastStrokeInPhrase
+_InkDisposePhrase
+_InkExtendResumeCGInkingTimer
+_InkFreeProc
+_InkGetCharTextFromPhrase
+_InkGetEndOfPhraseTimeout
+_InkGetErasing
+_InkGetFullInkPadWindowRect
+_InkGetGestureStringFromCode
+_InkGetGesturesEnabled
+_InkGetGlobalContext
+_InkGetInkBarVisible
+_InkGetInkMenuVisible
+_InkGetInkPadFont
+_InkGetInkPadRect
+_InkGetInkPadVisible
+_InkGetInkPhraseRefFromEventRef
+_InkGetInkPhraseTextRefFromEventRef
+_InkGetInkServerPSN
+_InkGetInkSounds
+_InkGetInkStrokeRefFromEventRef
+_InkGetInkWindowVisible
+_InkGetLanguage
+_InkGetLogAPIUse
+_InkGetLogAll
+_InkGetLogCGInking
+_InkGetLogCoalescing
+_InkGetLogEventDisposition
+_InkGetLogEventProcessed
+_InkGetLogInkEvents
+_InkGetLogInputMethod
+_InkGetLogInstantMouser
+_InkGetLogMouseEvents
+_InkGetLogMoves
+_InkGetLogPhraseModifiers
+_InkGetLogPoints
+_InkGetLogReposts
+_InkGetLogRouteToInkPad
+_InkGetLogServerLaunch
+_InkGetLogStrokeModifiers
+_InkGetLogTabletEvents
+_InkGetLogThisProcess
+_InkGetLogToFile
+_InkGetLogging
+_InkGetOldPrivateGlobals
+_InkGetPenToInkDistance
+_InkGetPenToMouseTimeout
+_InkGetPrefByKey
+_InkGetPrefsVersion
+_InkGetPrintPhrases
+_InkGetPrintText
+_InkGetPrivateGlobalsFromInkContext
+_InkGetProximityTermination
+_InkGetRecognitionEnabled
+_InkGetRecognizeEuropeanChars
+_InkGetShowCursorInProximity
+_InkGetShowCursorInking
+_InkGetShowCursorOutOfProximity
+_InkGetSpacing
+_InkGetUserInkOnDemandButtonMask
+_InkGetUserInkOnDemandMode
+_InkGetWordSpacing
+_InkGetWriteInAnyApplication
+_InkInit
+_InkInitSharedGlobals
+_InkInstancePostModifiedKeyEvent
+_InkInstanceRecognizePhrase
+_InkIsOnPriv
+_InkIsPhraseInProgress
+_InkLaunchServer
+_InkLogFile
+_InkLogHeader
+_InkLogProc
+_InkMallocProc
+_InkNewPhrase
+_InkPhraseIsGesture
+_InkPhraseIsSystemGesture
+_InkPhraseLength
+_InkPhraseWasUnrecognizable
+_InkPostTSMTextEvent
+_InkPreferencesCopyKeyList
+_InkPreferencesCopyMultiple
+_InkPreferencesCopyValue
+_InkPreferencesGetBooleanValue
+_InkPreferencesGetIntegerValue
+_InkPreferencesSetMultiple
+_InkPreferencesSetValue
+_InkPreferencesSynchronize
+_InkPrintPhrase
+_InkPrintResFiles
+_InkPrintText
+_InkProcessMouseEvent
+_InkProcessTabletEvent
+_InkPromotePhraseWordHypothesis
+_InkQueuePaste
+_InkQueueText
+_InkReleasePhrase
+_InkResumeCGInking
+_InkRetainPhrase
+_InkSendClearRecognizer
+_InkSendMessageToActiveComponent
+_InkSendMessageToServer
+_InkSendResumeCGInkingMessage
+_InkSetApplicationGestureNetPriv
+_InkSetApplicationGesturesPriv
+_InkSetApplicationRecognitionMode
+_InkSetApplicationWritingMode
+_InkSetBackgroundOpacity
+_InkSetDrawingMode
+_InkSetEndOfPhraseTimeout
+_InkSetErasing
+_InkSetGesturesEnabled
+_InkSetGesturesEnabledLocal
+_InkSetInkBarRect
+_InkSetInkBarVisible
+_InkSetInkMenuVisible
+_InkSetInkOnDemandModePriv
+_InkSetInkPadFont
+_InkSetInkPadRect
+_InkSetInkPadRectLocal
+_InkSetInkPadVisible
+_InkSetInkServerPSN
+_InkSetInkServerPSNLocal
+_InkSetInkSounds
+_InkSetInkWindowVisible
+_InkSetInkWithMousePriv
+_InkSetLanguage
+_InkSetLogAPIUse
+_InkSetLogAll
+_InkSetLogCGInking
+_InkSetLogCoalescing
+_InkSetLogEventDisposition
+_InkSetLogEventProcessed
+_InkSetLogInkEvents
+_InkSetLogInputMethod
+_InkSetLogInstantMouser
+_InkSetLogMouseEvents
+_InkSetLogMoves
+_InkSetLogPhraseModifiers
+_InkSetLogPoints
+_InkSetLogReposts
+_InkSetLogRouteToInkPad
+_InkSetLogServerLaunch
+_InkSetLogStrokeModifiers
+_InkSetLogTabletEvents
+_InkSetLogThisProcess
+_InkSetLogToFile
+_InkSetLogging
+_InkSetPenToInkDistance
+_InkSetPenToMouseTimeout
+_InkSetPhraseTerminationMode
+_InkSetPrefByDictionary
+_InkSetPrefByKey
+_InkSetPrefByKeyNoNotification
+_InkSetPrintPhrases
+_InkSetPrintText
+_InkSetProximityTermination
+_InkSetRecognitionEnabled
+_InkSetRecognitionEnabledLocal
+_InkSetRecognizeEuropeanChars
+_InkSetShowCursorInProximity
+_InkSetShowCursorInking
+_InkSetShowCursorOutOfProximity
+_InkSetUserInkOnDemandButtonMask
+_InkSetUserInkOnDemandMode
+_InkSetVoidFromBooleanCallback
+_InkSetVoidFromUInt32Callback
+_InkSetWordSpacing
+_InkStrokeCreate
+_InkStrokeGetPointCount
+_InkStrokeGetPoints
+_InkStrokeGetTypeID
+_InkTerminate
+_InkTerminateCurrentPhrase
+_InkTerminatePhrase
+_InkTerminateStroke
+_InkTextAlternatesCount
+_InkTextBounds
+_InkTextCopy
+_InkTextCreateCFString
+_InkTextCreateFromCFData
+_InkTextDraw
+_InkTextFlatten
+_InkTextGetStroke
+_InkTextGetStrokeCount
+_InkTextGetTypeID
+_InkTextInsertAlternatesInMenu
+_InkTextKeyModifiers
+_InkTime
+_InkUserWritingMode
+_LLLangDescribe
+_LLLangDescribeToFile
+_LLLangDumpBodyToFile
+_LLLangGetWords
+_LLLangHasWord
+_LLLangLoad
+_LLLangPrintToFile
+_LLLangSaveToFile
+_LLLangSetWords
+_LangFetch
+_LangGetGlobals
+_LangInitialize
+_LangVerifyUserDictionary
+_LangsDestroy
+_ListAppendEntry
+_ListCreate
+_ListDestroy
+_ListRemoveEntry
+_NetPatternCreate
+_NetPatternSetInput
+_NetPatternizerCreateFromBP
+_NextLine
+_OBJC_CLASS_$_InkContext
+_OBJC_CLASS_$_InkRecognizerBase
+_OBJC_CLASS_$_InkRecognizerCharInfo
+_OBJC_CLASS_$_InkRecognizerGesture
+_OBJC_CLASS_$_InkRecognizerMessageBase
+_OBJC_CLASS_$_InkRecognizerPhrase
+_OBJC_CLASS_$_InkRecognizerPhraseWord
+_OBJC_CLASS_$_InkRecognizerPoint
+_OBJC_CLASS_$_InkRecognizerStroke
+_OBJC_CLASS_$_InkRecognizerText
+_OBJC_CLASS_$_InkRecognizerWordGroup
+_OBJC_METACLASS_$_InkContext
+_OBJC_METACLASS_$_InkRecognizerBase
+_OBJC_METACLASS_$_InkRecognizerCharInfo
+_OBJC_METACLASS_$_InkRecognizerGesture
+_OBJC_METACLASS_$_InkRecognizerMessageBase
+_OBJC_METACLASS_$_InkRecognizerPhrase
+_OBJC_METACLASS_$_InkRecognizerPhraseWord
+_OBJC_METACLASS_$_InkRecognizerPoint
+_OBJC_METACLASS_$_InkRecognizerStroke
+_OBJC_METACLASS_$_InkRecognizerText
+_OBJC_METACLASS_$_InkRecognizerWordGroup
+_OSTypeCString
+_OffsetFixedRect
+_OrFixedRect
+_POSIXPathToFSRef
+_PeekChar
+_PrefInstanceGet
+_PrefInstanceGetLoginSession
+_PrefInstanceGetNumDisallowedCharacters
+_PrefInstanceGetProcessName
+_PtoCStrcpy
+_PtoCString
+_ReadChar
+_ReadLine
+_ReadWordInLine
+_SLCalcBounds
+_SLCreate
+_SLDestroy
+_SLFindBounds
+_SLNew
+_SLSort
+_ScaleFixedRect
+_SearchSetContext
+_SearchSetContextsByCharSL
+_SearchSetContextsByString
+_SegmentCreate
+_SegmentDestroy
+_SegmentDot
+_SegmentMinStrokeSize
+_SetFixedPoint
+_SetFixedRect
+_SetPOSIXDirFromVolDir
+_ShowErrorWithFileLine
+_SkipMatch
+_SkipPoundCommentsAndBlanks
+_StrokeAverages
+_StrokeDestroy
+_StrokeDuplicate
+_StrokeFindBounds
+_StrokeSort
+_TickStart
+_TicksUsed
+_TimeCalls
+_WordsFromString
+__InkInspectCarbonEvent
+_gITRFailureString
+_gInkLogFile
+_gUndefinedException
+_ink_stricmp
+_kUserDictionaryName
+_machtime
+_mtemp_eb
+_pStrcat
+_pStrcpy
+_slimewonderbug
+_xDirFreeDir
+_xDirOpenFile
+_xDirOpenOrPromptForDirectory
+_xpsvx
+_AudioServicesPlayAlertSound
+_CFArrayApplyFunction
+_CFArrayContainsValue
+_CFArrayCreate
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyBundleURL
+_CFBundleCopyResourceURLInDirectory
+_CFBundleCopyResourcesDirectoryURL
+_CFBundleCopySharedSupportURL
+_CFBundleGetBundleWithIdentifier
+_CFBundleGetIdentifier
+_CFBundleGetMainBundle
+_CFDataAppendBytes
+_CFDataCreate
+_CFDataCreateMutable
+_CFDataGetBytePtr
+_CFDataGetBytes
+_CFDataGetLength
+_CFDataReplaceBytes
+_CFDictionaryAddValue
+_CFDictionaryContainsKey
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryCreateMutableCopy
+_CFDictionaryGetCount
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFDictionaryGetValueIfPresent
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFGetRetainCount
+_CFGetTypeID
+_CFLocaleCopyCurrent
+_CFMessagePortCreateLocal
+_CFMessagePortCreateRemote
+_CFMessagePortCreateRunLoopSource
+_CFMessagePortInvalidate
+_CFMessagePortSendRequest
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDistributedCenter
+_CFNotificationCenterGetLocalCenter
+_CFNotificationCenterPostNotification
+_CFNotificationCenterRemoveObserver
+_CFNumberCreate
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFNumberIsFloatType
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyValue
+_CFPreferencesSetValue
+_CFPropertyListCreateFromXMLData
+_CFRelease
+_CFRetain
+_CFRunLoopAddSource
+_CFRunLoopGetCurrent
+_CFShow
+_CFStringAppend
+_CFStringCapitalize
+_CFStringCompare
+_CFStringCreateMutableCopy
+_CFStringCreateMutableWithExternalCharactersNoCopy
+_CFStringCreateWithBytes
+_CFStringCreateWithCString
+_CFStringCreateWithCharacters
+_CFStringCreateWithFormat
+_CFStringGetCString
+_CFStringGetCStringPtr
+_CFStringGetLength
+_CFStringGetSystemEncoding
+_CFStringGetTypeID
+_CFStringLowercase
+_CFStringUppercase
+_CFURLCreateCopyAppendingPathComponent
+_CFURLCreateDataAndPropertiesFromResource
+_CFURLCreateFromFSRef
+_CFURLCreateFromFileSystemRepresentation
+_CFURLCreateStringWithFileSystemPath
+_CFURLCreateWithFileSystemPath
+_CFURLCreateWithString
+_CFURLGetFSRef
+_CFURLGetString
+_CGAffineTransformIdentity
+_CGAffineTransformScale
+_CGColorSpaceCreatePattern
+_CGColorSpaceGetModel
+_CGColorSpaceRelease
+_CGContextAddArcToPoint
+_CGContextAddLineToPoint
+_CGContextBeginPath
+_CGContextDrawPath
+_CGContextEOFillPath
+_CGContextErase
+_CGContextFillRect
+_CGContextFlush
+_CGContextGetLineWidth
+_CGContextGetPatternPhase
+_CGContextGetStrokeColor
+_CGContextGetStrokeColorSpace
+_CGContextMoveToPoint
+_CGContextRelease
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextSetCompositeOperation
+_CGContextSetFillColorSpace
+_CGContextSetFillPattern
+_CGContextSetLineCap
+_CGContextSetLineJoin
+_CGContextSetLineWidth
+_CGContextSetPatternPhase
+_CGContextSetRGBFillColor
+_CGContextSetRGBStrokeColor
+_CGContextSetShouldAntialias
+_CGContextSetStrokeColor
+_CGContextSetStrokeColorSpace
+_CGContextSetStrokePattern
+_CGContextStrokePath
+_CGDataProviderCreateWithURL
+_CGDataProviderRelease
+_CGDisplayBounds
+_CGEventCreateData
+_CGEventCreateWithEventRecord
+_CGEventGetFlags
+_CGEventSetFlags
+_CGGetActiveDisplayList
+_CGGetOnlineDisplayList
+_CGImageCreateWithPNGDataProvider
+_CGImageRelease
+_CGPatternCreateWithImage
+_CGPatternCreateWithImage2
+_CGRectContainsRect
+_CGRectIsNull
+_CGRectUnion
+_CGSCopyCurrentSessionDictionary
+_CGSCreateKeyboardEventOfLength
+_CGSCurrentCursorSeed
+_CGSDisableUpdate
+_CGSGetCurrentDisplayMode
+_CGSGetCursorData
+_CGSGetCursorDataSize
+_CGSGetDisplayModeDescriptionOfLength
+_CGSGetInkingState
+_CGSGetWindowOwner
+_CGSNewEmptyRegion
+_CGSNewRegionWithRect
+_CGSNewWindowWithOpaqueShape
+_CGSOrderWindow
+_CGSPostEventRecord
+_CGSReenableUpdate
+_CGSReleaseRegion
+_CGSSetCursorFromPremultipliedDataWithSeed
+_CGSSetInkingState
+_CGSSetWindowAlpha
+_CGSSetWindowLevel
+_CGSSetWindowOpacity
+_CGSSetWindowResolution
+_CGSSetWindowShadowAndRimParameters
+_CGSSetWindowShapeWithWeighting
+_CGSSetWindowTags
+_CGSetLocalEventsFilterDuringSuppressionState
+_CGWindowContextCreate
+_CPSGetKeyFocusProcess
+_CPSProcessInformationCopyDictionary
+_CopyEventCGEvent
+_CopyMenuItemTextAsCFString
+_CopyProcessName
+_CreateEvent
+_CreateEventWithCGEvent
+_DebugStr
+_DisposePtr
+_FSGetCatalogInfo
+_FSPathMakeRef
+_FSRefMakePath
+_FSResolveNodeID
+_FixDiv
+_FixMul
+_GetCGSConnectionID
+_GetCurrentEventLoop
+_GetCurrentEventQueue
+_GetCurrentEventTime
+_GetCurrentProcess
+_GetEventClass
+_GetEventDispatcherTarget
+_GetEventKind
+_GetEventParameter
+_GetFrontProcess
+_GetMenuItemCommandID
+_GetMenuItemRefCon
+_GetScriptManagerVariable
+_GetWRefCon
+_GetWindowClass
+_GetWindowEventTarget
+_HIViewGetKind
+_HIViewGetRoot
+_HIViewGetViewForMouseEvent
+_HIWindowFindAtLocation
+_HideCursor
+_InstallEventLoopTimerInMode
+_IsEventInInstantMouser
+_LMGetKbdType
+_LaunchApplication
+_NSLog
+_NSStringFromClass
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSValue
+_OBJC_METACLASS_$_NSObject
+_PostEventToQueue
+_PtInRect
+_ReleaseEvent
+_RetainEvent
+_SameProcess
+_SendEventToEventTarget
+_SendTextInputEvent
+_SetEventLoopTimerNextFireTime
+_SetEventParameter
+_SetThemeCursor
+_ShowCursor
+_TISCopyCurrentKeyboardLayoutInputSource
+_TISCreateInputSourceList
+_TISGetInputSourceProperty
+_TSMGetActiveDocument
+_TSMGetDocumentProperty
+_TSMSetInkWithMouseEnabled
+_TickCount
+_UCKeyTranslate
+__CFRuntimeCreateInstance
+__CFRuntimeRegisterClass
+__DefaultRuneLocale
+__GetEventPlatformEventRecord
+__PushMouseCoalescingState
+__RemoveMouseCoalescingState
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___cxa_guard_acquire
+___cxa_guard_release
+___error
+___maskrune
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdinp
+___stdoutp
+___strcat_chk
+___strcpy_chk
+___strncpy_chk
+___tolower
+___toupper
+___vsprintf_chk
+__objc_empty_cache
+_abort
+_atan2
+_atof
+_atoi
+_bcopy
+_calloc
+_chdir
+_close
+_closedir
+_exit
+_exp
+_fclose
+_feof
+_ferror
+_fflush
+_fgetc
+_fgets
+_floor
+_fopen
+_fprintf
+_fputc
+_fputs
+_fread
+_free
+_fscanf
+_fseek
+_ftell
+_fwrite
+_getc
+_getcwd
+_getpid
+_gettimeofday
+_kCFAllocatorDefault
+_kCFAllocatorNull
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFPreferencesAnyApplication
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_kCFRunLoopCommonModes
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCGSSessionIDKey
+_kTISCategoryInkInputSource
+_kTISNotifySelectedKeyboardInputSourceChanged
+_kTISPropertyInputSourceCategory
+_kTISPropertyInputSourceID
+_kTISPropertyInputSourceIsSelected
+_kTISPropertyUnicodeKeyLayoutData
+_kill
+_localtime
+_log
+_mach_absolute_time
+_mach_timebase_info
+_malloc
+_memchr
+_memcpy
+_memmove
+_memset
+_memset_pattern16
+_objc_assign_global
+_objc_assign_ivar
+_objc_copyStruct
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_stret
+_objc_setProperty
+_open
+_opendir$INODE64
+_printf
+_putchar
+_puts
+_qsort
+_rand
+_readdir$INODE64
+_realloc
+_rename
+_rewind
+_rintf
+_sin
+_sleep
+_sprintf
+_srand
+_sscanf
+_stat$INODE64
+_strcmp
+_strcpy
+_strcspn
+_strftime
+_strlen
+_strncmp
+_strstr
+_strtok
+_strtol
+_strtoul
+_time
+_ungetc
+_unlink
+dyld_stub_binder

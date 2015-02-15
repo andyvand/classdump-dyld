@@ -1,0 +1,16 @@
+_readFieldInterfaceAttributes
+_jvm_symbols
+_initialized.6151.b
+_Java_sun_tracing_dtrace_JVM_activate0
+_Java_sun_tracing_dtrace_JVM_defineClass0
+_Java_sun_tracing_dtrace_JVM_dispose0
+_Java_sun_tracing_dtrace_JVM_isEnabled0
+_Java_sun_tracing_dtrace_JVM_isSupported0
+_lookupJvmSymbols
+___stack_chk_fail
+___stack_chk_guard
+_calloc
+_dlsym
+_free
+_malloc
+dyld_stub_binder

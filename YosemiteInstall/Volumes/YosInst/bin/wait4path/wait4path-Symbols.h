@@ -1,0 +1,11 @@
+radr://5614542
+__mh_execute_header
+___error
+___stderrp
+_exit
+_fprintf
+_kevent
+_kqueue
+_stat$INODE64
+_strerror
+dyld_stub_binder

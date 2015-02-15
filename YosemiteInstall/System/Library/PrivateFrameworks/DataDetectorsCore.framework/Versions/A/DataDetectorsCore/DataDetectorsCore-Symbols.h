@@ -1,0 +1,2430 @@
+__DDSetupDecalog
+_onDirectoryURL
+__DDCacheCheckCacheAtPath
+_DDCacheCreateFromFileAtPathWithExtraChecks
+_DDmmap
+__DDCacheCreateFromBytesNoCopy
+_DDTypeRegister
+_DDTypeCreateInstance_
+__DDCacheCFInit
+_DDInitializeLogSystem
+__DDFullLogFunction
+____DDFullLogFunction_block_invoke_2
+___DDFullLogFunction
+_DDCacheGetLexerData
+_DDLexerCreateFromCacheData
+_ddutrie_unserialize
+_DDCacheGetParserData
+_DDLRTableCreateFromCacheData
+_DDTableIsCorrect
+_DDLRDispatchTableIsCorrect
+_DDLRDispatchTableCreateFromRawData
+_DDCacheGetLookupTable
+_DDLookupTableCreateFromCacheData
+_DDStaticLookupCreateWithCache
+__DDLookupTableCFInit
+_DDLookupTrieCreate
+__DDScannerCFInit
+_DDTokenCacheCreate
+_DDTokenCacheClear
+_DDLexemCacheCreate
+_DDLexemCacheClear
+_DDLexerSetTokenizerCallBack
+_DDLookupTablePrepareToScan
+__DDScanQueryCFInit
+_DDLexerSetScanQuery
+_DDTokenCacheGetTokenOrSubtokenAfterPosition
+_DDTokenCacheGetTokensAtPosition
+_DDTokenCacheGetItemAtIndexCreateIfNeeded
+_DDTokenCacheMoveStreamOffset
+_DDLexemCacheMoveStreamOffset
+__DDScannerHandleState
+_DDLexemCacheGetLexems
+_DDLexerDeterministicScan
+_nextToken
+_DDTokenCacheGetTokenOrSubtokenAtPosition
+__ZL7getNextP18StateQueryIterator
+_DDLookupTableRefLookupCurrentWord
+_DDStaticLookupIsEmpty
+_DDLookupTrieGetRootCell
+_DDStaticLookupGetRootCell
+_DDTrieLookup
+__DDTrieLookupChar
+_DDStaticTrieLookup
+_DDStaticLookupAccumulateResults
+_DDLexemCacheSetLexems
+_DDLexemCacheItemSet
+_processToken
+_DDLexemCacheInsertItemInFreeArray
+_DDScanQueryReset
+_DDLookupTableLoadSpotlightValuesForAttributeType
+_retrieveDynamicRequest
+_spotlightAttributeForType
+_spotlightAttributeForIndex
+_storeDynamicRequest
+_DDLookupTableLoadContactTableWithName
+_DDABSourceCreate
+_DDABSourceLoadTable
+_DDLookupTableGetQueue
+_DDLookupTableLoadAddressBook
+_DDABSourceLoadData
+_DDABAddContact
+_DDLazy_kABFirstNameProperty
+_DDLookupTableAddTokenForRequest
+_DDLookupTrieInsertKey
+_addUniqueId
+_DDLookupTableGetMetaDataStorage
+_DDLookupTrieGetDataExtra
+__DDMakeExtraData
+_DDLazy_kABLastNameProperty
+_SLDatabaseChanged
+_DDTrieLookupAccumulateResults
+_extraDataAtOffset
+__DDScanQueryCFFinalize
+_DDInsertResultRec
+_DDLRResultIsTopLevel
+_DDLRResultHasToplevelBinder
+_DDInsertResultsFromTopLevelRec
+_DDLRResultCreateScannerResult
+__DDResultCFInit
+_collectSubResultsInResult
+_DDLRTableGetUniqueSymbolStringAtOffset
+_DDRootResultCreate
+__DDResultCFFinalize
+_DDScanQueryComputeCFRangeForQueryRange
++[DDRegexpManager initialize]
++[DDRegexpManager additionalPluginSearchPaths]
+_resultsAreCloseEnoughToCoalesce
+_DDScanQueryCountLinesInRange
+__DDScanQueryCountNewlinesInFragment
+_resultTypeIsCoalescibleInSignatures
+_resultTypeIsAnEmail
+_DDResultSetQueryRange
+_resultTypesAreEquivalent
+__DDResultCFHash
+__DDResultCFEqual
+_copyBestDateForDate
+_DDResultExtractDayMonthYear
+___DDResultExtractDayMonthYear_block_invoke_2
+_extractHourMinuteSecondWithRefCopyTimeZone
+_dateIsPast
+_hourValueForHourAndMeridianResult
+_extractInteger
+___extractInteger_block_invoke_2
+___extractInteger_block_invoke_3
+_resultIsPartial
++[DDScannerResult resultFromCoreResult:]
+-[DDScannerResult initWithCoreResult:]
+-[DDScannerResult type]
+-[DDScannerResult cfRange]
+_DDDistanceBetweenRanges
+-[DDScannerResult range]
+-[DDScannerResult getPhoneValue:label:]
+-[DDScannerResult valueForUndefinedKey:]
+-[DDScannerResult subResults]
+-[DDScannerResult matchedString]
+-[DDScannerResult value]
+-[DDScannerResult dealloc]
+_extractGregorianYear
+_extractDMYFromAmbiguousForm
+-[DDScannerResult getMailValue:label:]
+-[DDScannerResult contextualData]
+-[DDScannerResult getIMScreenNameValue:type:]
+-[DDScannerResult isEqual:]
+-[DDScannerResult extractStartDate:startTimezone:endDate:endTimezone:allDayRef:referenceDate:referenceTimezone:]
+-[DDScannerResult coreResult]
+_yyparse
+_yysyntax_error
+_yyerror
+_DDStartParsingFile
++[DDBindableRegexp regexpMatchingString:binder:caseInsensitive:]
++[DDBindableRegexp regexpMatchingString:binder:]
++[DDBindableRegexp regexpMatchingString:]
++[DDBindableRegexp regexpMatchingBetweenFirstChar:endChar:]
++[DDBindableRegexp kleeneStarOfRegexp:binder:]
++[DDBindableRegexp regexpWithBasicRegexp:binder:]
++[DDBindableRegexp disjunctionWithBinderAndRegexpes:]
++[DDBindableRegexp concatWithBinderAndRegexpes:]
++[DDBindableRegexp bindableRegexpWithBasicRegexp:location:]
++[DDBindableRegexp bindableRegexpWithBindableRegexp:extraBinder:displayName:]
++[DDBindableRegexp bindableRegexpWithBindableRegexp:extraBinder:]
++[DDBindableRegexp errorVariableNotFoundWithName:]
++[DDBindableRegexp errorEmptyPattern]
++[DDBindableRegexp errorInvalidRange]
++[DDBindableRegexp errorDictionary]
+-[DDBindableRegexp initWithRegexp:binder:]
+-[DDBindableRegexp initWithRegexp:binderInfo:]
+-[DDBindableRegexp dealloc]
+-[DDBindableRegexp binderInfo]
+-[DDBindableRegexp setBinderInfo:]
+-[DDBindableRegexp binderName]
+-[DDBindableRegexp coreRegexp]
+-[DDBindableRegexp setCoreRegexp:]
+-[DDBindableRegexp effectiveArgument]
+-[DDBindableRegexp splitRegexpWithDelegate:]
+-[DDBindableRegexp longDescription]
+-[DDBindableRegexp appendDescriptionToString:depth:]
+-[DDBindableRegexp prettyPrintWithPriority:]
+-[DDBindableRegexp prettyPrint]
+-[DDBindableRegexp humanReadableName]
+-[DDBindableRegexp acceptEmptyWordWithManager:]
+-[DDBindableRegexp isSimpleExpression]
+-[DDBindableRegexp setLocationFilename:position:]
+-[DDBindableRegexp locationFilename]
+-[DDBindableRegexp locationPosition]
+-[DDBindableRegexp location]
+-[DDBindableRegexp setLocation:]
+-[DDBindableRegexp nonSkippable]
+-[DDBindableRegexp setNonSkippable:]
++[DDBasicRegexp epsilon]
+-[DDBasicRegexp dealloc]
+-[DDBasicRegexp splitRegexpWithDelegate:owner:]
+-[DDBasicRegexp prettyPrintWithPriority:]
+-[DDBasicRegexp appendDescriptionToString:depth:]
+-[DDBasicRegexp acceptEmptyWordWithManager:]
+-[DDBasicRegexp effectiveArgument]
+-[DDBasicRegexp humanReadableName]
+-[DDBasicRegexp setHumanReadableName:]
+-[DDVariable initWithVariableName:]
+-[DDVariable dealloc]
+-[DDVariable name]
+-[DDVariable splitRegexpWithDelegate:owner:]
+-[DDVariable acceptEmptyWordWithManager:]
+-[DDVariable appendDescriptionToString:depth:]
+-[DDOperatorRegexp initWithFirst:varArgs:]
+-[DDOperatorRegexp initWithVarArgs:]
+-[DDOperatorRegexp initWithSubMatchers:]
+-[DDOperatorRegexp initWithSubMatchersList:]
+-[DDOperatorRegexp dealloc]
+-[DDOperatorRegexp arguments]
+-[DDOperatorRegexp splitRegexpWithDelegate:owner:]
+-[DDOperatorRegexp effectiveArgument]
+-[DDOperatorRegexp prettyPrintWithPriority:operatorPriority:operator:]
+-[DDOperatorRegexp appendDescriptionToString:depth:operator:]
+-[DDDisjunctionRegexp flattenDisjunctionInArray:]
+-[DDDisjunctionRegexp buildEffectiveArguments]
+-[DDDisjunctionRegexp prettyPrintWithPriority:]
+-[DDDisjunctionRegexp appendDescriptionToString:depth:]
+-[DDDisjunctionRegexp acceptEmptyWordWithManager:]
+-[DDConcatenationRegexp prettyPrintWithPriority:]
+-[DDConcatenationRegexp appendDescriptionToString:depth:]
+-[DDConcatenationRegexp acceptEmptyWordWithManager:]
+-[DDUnaryOperator initWithPattern:]
+-[DDUnaryOperator dealloc]
+-[DDUnaryOperator argument]
+-[DDUnaryOperator splitRegexpWithDelegate:owner:]
+-[DDUnaryOperator prettyPrintWithPriority:operatorPriority:operator:]
+-[DDUnaryOperator appendDescriptionToString:depth:operator:]
+-[DDOneOrMoreExp prettyPrintWithPriority:]
+-[DDOneOrMoreExp appendDescriptionToString:depth:]
+-[DDOneOrMoreExp acceptEmptyWordWithManager:]
+-[DDRepeatCount initWithPattern:count:]
+-[DDRepeatCount count]
+-[DDRepeatCount effectiveArgument]
+-[DDRepeatCount prettyPrintWithPriority:]
+-[DDRepeatCount appendDescriptionToString:depth:]
+-[DDRepeatCount acceptEmptyWordWithManager:]
+-[DDRepeatMax initWithPattern:repeatAtMost:]
+-[DDRepeatMax count]
+-[DDRepeatMax prettyPrintWithPriority:]
+-[DDRepeatMax appendDescriptionToString:depth:]
+-[DDRepeatMax acceptEmptyWordWithManager:]
+-[DDOptionalExp initWithPattern:]
+-[DDOptionalExp prettyPrintWithPriority:]
+-[DDOptionalExp appendDescriptionToString:depth:]
+-[DDOptionalExp acceptEmptyWordWithManager:]
+-[DDStarExp prettyPrintWithPriority:]
+-[DDStarExp appendDescriptionToString:depth:]
+-[DDStarExp acceptEmptyWordWithManager:]
+-[DDRepeatMinMax initWithPattern:repeatAtLeast:repeatAtMost:]
+-[DDAtomicRegexp initWithRange:]
+-[DDAtomicRegexp initWithEmptyString]
+-[DDAtomicRegexp initWithCharacter:]
+-[DDAtomicRegexp initWithAnyChar]
+-[DDAtomicRegexp initWithSimplePattern:caseInsensitive:]
+-[DDAtomicRegexp initWithICUPattern:]
+-[DDAtomicRegexp dealloc]
+-[DDAtomicRegexp displayName]
+-[DDAtomicRegexp setDisplayName:]
+-[DDAtomicRegexp caseInsensitive]
+-[DDAtomicRegexp setCaseInsensitive:]
+-[DDAtomicRegexp type]
+-[DDAtomicRegexp range]
+-[DDAtomicRegexp stringPattern]
+-[DDAtomicRegexp splitRegexpWithDelegate:owner:]
+-[DDAtomicRegexp prettyPrintWithPriority:]
+_characterRangeAsString
+-[DDAtomicRegexp appendDescriptionToString:depth:]
+-[DDAtomicRegexp acceptEmptyWordWithManager:]
+-[DDTokenRegexp initWithTokenId:]
+-[DDTokenRegexp splitRegexpWithDelegate:owner:]
+-[DDTokenRegexp token]
+-[DDLookupRegexp initWithTokenId:]
+-[DDLookupRegexp dealloc]
+-[DDLookupRegexp name]
+-[DDLookupRegexp setName:]
+-[DDLookupRegexp token]
+-[DDLookupRegexp acceptEmptyWordWithManager:]
+-[DDLookupRegexp splitRegexpWithDelegate:owner:]
+-[DDLookupRegexp prettyPrintWithPriority:]
+-[DDLookupRegexp appendDescriptionToString:depth:]
+-[DDVariableNotFoundError initWithVariableName:]
+-[DDVariableNotFoundError dealloc]
+-[DDVariableNotFoundError splitRegexpWithDelegate:owner:]
+__ZNK17dd_icu_3_6__5_0_213UnicodeString17getDynamicClassIDEv
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1ERKS0_
+__ZN17dd_icu_3_6__5_0_213UnicodeStringD1Ev
+__ZN17dd_icu_3_6__5_0_213UnicodeString12releaseArrayEv
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1Ev
+__ZN17dd_icu_3_6__5_0_213UnicodeString8allocateEi
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1Et
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1Ei
+__ZN17dd_icu_3_6__5_0_213UnicodeString9doReplaceEiiPKtii
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1EPKt
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1EPKti
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC2EPKciNS0_10EInvariantE
+__ZN17dd_icu_3_6__5_0_213UnicodeString18cloneArrayIfNeededEiiaPPia
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1EPKciNS0_10EInvariantE
+__ZN17dd_icu_3_6__5_0_213UnicodeString8copyFromERKS0_a
+__ZN17dd_icu_3_6__5_0_213UnicodeStringC1ERKS0_ii
+__ZNK17dd_icu_3_6__5_0_213UnicodeString5cloneEv
+__ZN17dd_icu_3_6__5_0_213UnicodeStringD0Ev
+__ZN17dd_icu_3_6__5_0_213UnicodeStringaSERKS0_
+__ZNK17dd_icu_3_6__5_0_213UnicodeString10unescapeAtERi
+__Z20UnicodeString_charAtiPv
+__ZNK17dd_icu_3_6__5_0_213UnicodeString8doEqualsERKS0_i
+__ZNK17dd_icu_3_6__5_0_213UnicodeString9doCompareEiiPKtii
+__ZNK17dd_icu_3_6__5_0_213UnicodeString9getLengthEv
+__ZNK17dd_icu_3_6__5_0_213UnicodeString9getCharAtEi
+__ZNK17dd_icu_3_6__5_0_213UnicodeString11getChar32AtEi
+__ZNK17dd_icu_3_6__5_0_213UnicodeString8char32AtEi
+__ZNK17dd_icu_3_6__5_0_213UnicodeString11moveIndex32Eii
+__ZNK17dd_icu_3_6__5_0_213UnicodeString9doExtractEiiPti
+__ZNK17dd_icu_3_6__5_0_213UnicodeString7extractEPtiR10UErrorCode
+__ZNK17dd_icu_3_6__5_0_213UnicodeString14extractBetweenEiiRS0_
+__ZNK17dd_icu_3_6__5_0_213UnicodeString9doIndexOfEiii
+__ZN17dd_icu_3_6__5_0_213UnicodeString9doReplaceEiiRKS0_ii
+__ZN17dd_icu_3_6__5_0_213UnicodeString20handleReplaceBetweenEiiRKS0_
+__ZN17dd_icu_3_6__5_0_213UnicodeString4copyEiii
+__ZNK17dd_icu_3_6__5_0_213UnicodeString11hasMetaDataEv
+__ZNK17dd_icu_3_6__5_0_213UnicodeString10doHashCodeEv
+-[DDBinderInfo initWithName:]
+-[DDBinderInfo dealloc]
+-[DDBinderInfo encodeWithCoder:]
+-[DDBinderInfo initWithCoder:]
+-[DDBinderInfo name]
+-[DDBinderInfo score]
+-[DDBinderInfo setScore:]
+-[DDBinderInfo value]
+-[DDBinderInfo setValue:]
+-[DDBinderInfo valueType]
+-[DDBinderInfo setValueType:]
+-[DDBinderInfo NLPToken]
+-[DDBinderInfo setNLPToken:]
+-[DDBinderInfo isDummy]
+-[DDBinderInfo description]
+_DDBinderInfoGetName
+-[DDBinderInfo topLevel]
+-[DDBinderInfo setTopLevel:]
+_DDBinderInfoGetBonus
+_DDBinderInfoGetNLPToken
+_DDBinderInfoIsTopLevel
+_DDBinderInfoGetValue
+-[DDRegexpManager init]
+-[DDRegexpManager dealloc]
+-[DDRegexpManager loadString:filename:forLocale:error:]
+-[DDRegexpManager loadString:withSignature:filename:forLocale:error:]
+-[DDRegexpManager loadFileWithName:fromBundle:forLocale:error:]
+-[DDRegexpManager loadAllFilesInDirectory:error:]
+-[DDRegexpManager loadAllPatternsInBundle:forLanguages:error:]
+-[DDRegexpManager loadAllPatternsInBundle:forLanguage:error:]
+-[DDRegexpManager loadAllPatternsForLanguages:error:]
++[DDRegexpManager _defaultLanguages]
+-[DDRegexpManager loadEverything:]
+-[DDRegexpManager _pushFileName:]
+-[DDRegexpManager _popFileName]
+-[DDRegexpManager loadedXMLFiles]
+-[DDRegexpManager defaultSentinelsEnabled]
+-[DDRegexpManager setDefaultSentinelsEnabled:]
+-[DDRegexpManager ruleAcceptancePredicates]
+-[DDRegexpManager(RegexpSplitterImplementation) addElementaryPattern:]
+-[DDRegexpManager(PrivateMethods) _loadKernelFallbackPath:]
+-[DDRegexpManager(PrivateMethods) _tryLoadFileWithName:atPath:error:]
+-[DDRegexpManager(PrivateMethods) _signatureWithProvider:andLanguage:andKind:]
+-[DDRegexpManager(PrivateMethods) _signatureFromXMLDocument:]
+-[DDRegexpManager(PrivateMethods) _reallyLoadFileAtPath:error:]
+_DDPatternLoaderUpdateAnchorDateForPath
+-[DDRegexpManager(PrivateMethods) _setSearchPaths:]
+-[DDRegexpManager(PrivateMethods) _addToSearchPath:]
+-[DDRegexpManager(PrivateMethods) _setLoadPaths:]
+-[DDRegexpManager(PrivateMethods) _pathsForBundle:forLanguages:]
+-[DDRegexpManager(PrivateMethods) _setPathsForBundle:forLanguages:]
+-[DDRegexpManager(PrivateMethods) _setPathsForBundle:locale:]
+-[DDRegexpManager(PrivateMethods) _loadAllPatternsInLoadPaths:]
++[DDRegexpManager(Private) _frameworkBundle]
+-[DDRegexpManager(Private) _loadFromSearchPathFileWithName:error:]
+-[DDRegexpManager(Private) importFileWithName:error:]
+-[DDRegexpManager(Private) includedFileURLForName:]
+-[DDRegexpManager(Private) dumpAll]
+-[DDRegexpManager(Private) allPatterns]
+-[DDRegexpManager(Private) hasPatternWithName:]
+-[DDRegexpManager(Private) patternWithName:]
+-[DDRegexpManager(Private) expressionWithName:]
+-[DDRegexpManager(Private) allowsRedefinition]
+-[DDRegexpManager(Private) setAllowsRedefinition:]
+-[DDRegexpManager(Private) setTypeCheckingMode:]
+-[DDRegexpManager(Private) definePatternWithName:value:info:]
+-[DDRegexpManager(Private) defineTypeWithName:value:location:]
+-[DDRegexpManager(Private) addPattern:]
+-[DDRegexpManager(Private) setRegExpesByName:]
+-[DDRegexpManager(Private) regExpesByName]
+_DDPatternLoaderPushFileName
+_DDPatternLoaderPopFileName
+_DDPatternsLoaderGetCurrentFile
+_DDPatternLoaderCreateAndLoadPatternsFromFile
+_DDPatternLoaderAddError
+_DDPatternLoadeUpdateAnchorDate
+_DDPatternLoaderGetDefaultSentinelsEnabled
+__ZN17dd_icu_3_6__5_0_27UMemorynwEm
+__ZN17dd_icu_3_6__5_0_27UMemorydlEPv
+__ZN17dd_icu_3_6__5_0_27UObjectD2Ev
++[DDScannerResult resultsFromCoreResults:]
+-[DDScannerResult init]
+-[DDScannerResult copyWithZone:]
+-[DDScannerResult setRange:]
+-[DDScannerResult score]
+-[DDScannerResult setType:]
+-[DDScannerResult rawValue]
+-[DDScannerResult location]
+-[DDScannerResult description]
+-[DDScannerResult setSubResults:]
+-[DDScannerResult getDuration]
+-[DDScannerResult dateFromReferenceDate:referenceTimezone:timezoneRef:allDayRef:]
+-[DDScannerResult getStreet:city:state:zip:country:]
+-[DDScannerResult encodeWithCoder:]
+-[DDScannerResult initWithCoder:]
++[DDScannerResult supportsSecureCoding]
++[DDScannerResult verboseXMLDescriptionFromElements:stringToScan:]
+-[DDScannerResult element]
+-[DDScannerResult _addText:currentPos:newPos:offset:query:]
+-[DDScannerResult elementWithQuery:include:]
+-[DDScannerResult verboseElement]
++[DDScannerResult scannerResultFromXML:]
++[DDScannerResult scannerResultFromXML:stringToScan:]
+-[DDScannerResult detailedDescription]
+-[DDScannerResult niceXMLDescription]
+-[DDScannerResult detailedXMLDescription]
+-[DDScannerResult XMLDescription]
+-[DDScannerResult offsetRangeBy:]
+-[DDGrammar init]
+-[DDGrammar dealloc]
+-[DDGrammar encodeWithCoder:]
+-[DDGrammar initWithCoder:]
+-[DDGrammar nextNonTerminalIdentifier]
+-[DDGrammar freshNameWithBase:]
+-[DDGrammar buildNonTerminalSymbolWithName:]
+-[DDGrammar buildNonTerminalSymbol]
+-[DDGrammar terminalSymbolWithTokenId:name:]
+-[DDGrammar terminalSymbolWithLookupTokenId:name:]
+-[DDGrammar feedWithTopLevelExpressions:plCollection:manager:]
+-[DDGrammar grammarAsString]
+-[DDGrammar locationString]
+-[DDGrammar allProductions]
+-[DDGrammar start]
+-[DDGrammar plCollection]
+-[DDGrammar nonTerminalSymbolForVariable:]
+-[DDGrammar setNonTerminalSymbol:forVariable:]
+__DDGrammarGetTerminals
+_DDGrammarGetAllNonTerminals
+_DDSymbolGetIdentifier
+_DDGrammarGetProductionAtIndex
+_DDGrammarGetPLC
+-[DDSymbol initWithNonTerminal:]
+-[DDSymbol initWithTokenId:]
+-[DDSymbol encodeWithCoder:]
+-[DDSymbol initWithCoder:]
+-[DDSymbol dealloc]
+-[DDSymbol displayName]
+-[DDSymbol setDisplayName:]
+-[DDSymbol description]
+-[DDSymbol symbolType]
+_DDSymbolGetType
+_DDSymbolGetNonTerminal
+_DDNonTerminalGetIndex
+_DDSymbolGetDisplayName
+-[DDNonTerminal init]
+-[DDNonTerminal initWithName:inGrammar:]
+-[DDNonTerminal initWithCoder:]
+-[DDNonTerminal encodeWithCoder:]
+-[DDNonTerminal dealloc]
+-[DDNonTerminal description]
+-[DDNonTerminal _reallyAddProductionWithSymbols:location:]
+-[DDNonTerminal addProductionWithSymbols:location:]
+-[DDNonTerminal asSymbols]
+-[DDNonTerminal setProductions:]
+-[DDNonTerminal productions]
+-[DDNonTerminal binderInfo]
+-[DDNonTerminal setBinderInfo:]
+-[DDNonTerminal appendDescription:withIndexRef:]
+-[DDNonTerminal appendLocationDescription:withIndexRef:]
+_DDNonTerminalGetProductions
+_DDNonTerminalGetFollowSet
+_DDNonTerminalSetFollowSet
+_DDNonTerminalSetMatchesEpsilon
+_DDNonTerminalSetSkipable
+_DDNonTerminalIsSkipable
+_DDNonTerminalIsSpecial
+-[DDNonTerminal name]
+-[DDNonTerminal setName:]
+-[DDNonTerminal matchesEpsilon]
+-[DDNonTerminal setMatchesEpsilon:]
+-[DDNonTerminal skippable]
+-[DDNonTerminal setSkippable:]
+-[DDNonTerminal forceNonSkippable]
+-[DDNonTerminal setForceNonSkippable:]
+-[DDProduction initWithSymbols:nonTerminal:]
+-[DDProduction encodeWithCoder:]
+-[DDProduction initWithCoder:]
+-[DDProduction dealloc]
+-[DDProduction descriptionWithMarkerPos:]
+-[DDProduction description]
+-[DDProduction setSymbols:]
+-[DDProduction symbols]
+-[DDProduction nonTerminal]
+-[DDProduction setLocation:]
+-[DDProduction location]
+-[DDProduction locationFilename]
+-[DDProduction locationPosition]
+-[DDProduction locationDescription]
+-[DDProduction recalculateWeakNTGraphAndDottedProdNumber]
+-[DDProduction numberOfWeakNTBeforeIndex:]
+-[DDProduction numberOfDottedProduction]
+-[DDProduction setDottedProductions:]
+-[DDProduction dottedProductions]
+-[DDProduction checkDottedProductionIndex:]
+_DDProductionGetSymbols
+_DDProductionGetLocation
+_DDProductionGetIndex
+_DDProductionGetNumberOfWeakNTBeforeIndex
+_DDProductionGetDottedProductions
+-[DDProduction index]
+-[DDProduction setIndex:]
+_DDProductionGetNonTerminal
+_DDProductionGetItemCount
+_DDNonTerminalGetBinderInfo
+_DDGrammarGetStart
+_DDGrammarGetAllProductions
+__ZL13_matchFromSetPKtS0_a
+_uprv_strCompare
+__ZL15_charPtr_charAtiPv
+-[DDBindableRegexp(ASTConversion) symbolsInGrammar:withManager:]
+-[DDBasicRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDDisjunctionRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDConcatenationRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDOneOrMoreExp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDRepeatCount(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDRepeatMax(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDOptionalExp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDStarExp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDAtomicRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDTokenRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDLookupRegexp(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDVariable(ASTConversion) symbolsInGrammar:container:withManager:]
+-[DDBinderInfo(XMLOutput) monxmlAttributes]
+-[DDBindableRegexp(XMLOutput) monElement]
+-[DDBasicRegexp(XMLOutput) monElement]
+-[DDVariable(XMLOutput) monElement]
+-[DDDisjunctionRegexp(XMLOutput) monElement]
+-[DDConcatenationRegexp(XMLOutput) monElement]
+-[DDOneOrMoreExp(XMLOutput) monElement]
+-[DDRepeatCount(XMLOutput) monElement]
+-[DDRepeatMax(XMLOutput) monElement]
+-[DDOptionalExp(XMLOutput) monElement]
+-[DDAtomicRegexp(XMLOutput) monElement]
+-[DDLookupRegexp(XMLOutput) monElement]
+_DDDotedProductionCopyDescription
+_DDLRTableCreateFromGrammar
+_DDCompleteItemSet
+_DDPushDownBuilderCreateNewStateFromItemSet
+_DDComputeTransitions
+_exploreDestinationsForState
+__DDCompressCellsArray
+_DDItemSetGetAllDottedProductions
+_pointerComparison
+_augmentItemSetWithProduction
+_DDPushDownBuilderAddTransitionFromSymbolIdentifier
+_DDDottedProductionGetNextPointer
+_DDPushDownBuilderGetStateAtIndex
+_indexCopyDescription
+_DDPushDownBuilderCheckConsistency
+_DDCompleteItemSetForIndex
+_itemSetHash
+_DDPDStateDestroyCallback
+_DDCreateAttributesWithObject
+_DDAppendAttributes
+_predicateMatches
+_DDAppendActivationPredicate
+_DDCreateBindAttribute
+_DDCreateBonusAttribute
+_DDCreateValueAttribute
+_DDCreateSpecialValueAttribute
+_DDCreateNLPTokenAttribute
+_DDCreateActivationPredicate
+_DDAppendGlobalActivationPredicate
+_DDCreateAcceptAttributeWithPredicate
+_DDCreateRejectAttributeWithPredicate
+_DDAddPattern
+_shouldBeAccepted
+_DDExpressionCreateConcatenation
+_DDPDefineSymbol
+_binderInfoCreateFromExpressionAttrs
+_DDAddType
+_DDAddTypeAny
+_DDTypeExprCreateFromCString
+_setTypePosition
+_DDTypeExprCreateOptional
+_DDTypeExprCreateConjonction
+_DDTypeExprCreateDisjunction
+_DDPCreateLookupNodeWithCSymbol
+_DDRegexpCreateAnyCharPattern
+_DDRegexpCreateSimplePatternWithCString
+_DDRegexpCreateRangePattern
+_DDExpressionCreateDisjunction
+_DDRegexpCreateUnicodeSet
+_DDRegexpCreateSpecialPattern
+_DDRegexpCreateDictionaryPattern
+_DDRegexpCreateTablePattern
+_DDRegexCreateNERRequest
+_DDRegexpCreateSpotlightPattern
+_DDRegexpCreateEpsilon
+_DDPIncludeFile
+_DDPatternsLoaderLoadDataFile
+_myread
+_DDExpressionCreateAttributed
+_DDExpressionCreateStar
+_DDExpressionCreatePlus
+_DDExpressionCreateOptional
+_DDExpressionCreateRepeat
+_resetPredicate
+_DDGrammarCreateFirstSet
+_DDCreateFirstSetFromContextPartialProduction
+_DDGrammarCreateFollowSet
+_DDGetCurrentSetForProductionOrNonTerminal
+_DDGrammarCreatePLFollowSet
+_ProtoLexemeFollowSetTranslator
+_DDGrammarGetDescriptionOfToken
+_yylex
+_yyensure_buffer_stack
+_yy_create_buffer
+_yy_get_previous_state
+_yy_fatal_error
+_yyrestart
+_yy_init_buffer
+_yy_delete_buffer
+_yy_flush_buffer
+_yypop_buffer_state
+_yylex_init
+_yylex_destroy
+_DDPushStream
+_DDPopStream
+-[NSMutableString(DDCategories) dd_appendSpaces:]
+_DDRaiseException
+-[DDLocation initWithFileName:firstLine:firstColumn:lastLine:lastColumn:]
+-[DDLocation initWithFileName:position:]
+-[DDLocation dealloc]
+-[DDLocation encodeWithCoder:]
+-[DDLocation initWithCoder:]
+-[DDLocation description]
+-[DDLocation position]
+-[DDLocation fileName]
+-[DDLocation firstLine]
+-[DDLocation firstColumn]
+-[DDLocation lastLine]
+-[DDLocation lastColumn]
++[DDCompilationNote noteAtLocation:ofLevel:withFormat:]
+-[DDCompilationNote initWithFileName:position:message:level:]
+-[DDCompilationNote initWithLocation:message:level:]
+-[DDCompilationNote dealloc]
+-[DDCompilationNote message]
+-[DDCompilationNote level]
+_dd_uhash_open
+_dd_uhash_close
+_dd_uhash_setValueDeleter
+_dd_uhash_get
+__ZL14_dd_uhash_findPK12DDUHashtable10DDUHashToki
+_dd_uhash_geti
+_dd_uhash_put
+__ZL13_dd_uhash_putP12DDUHashtable10DDUHashTokS1_aP10UErrorCode
+_dd_uhash_puti
+_dd_uhash_hashUnicodeString
+_dd_uhash_compareUnicodeString
+__ZL16_dd_uhash_rehashP12DDUHashtable
+__ZL20_dd_uhash_setElementP12DDUHashtableP14DDUHashElementi10DDUHashTokS3_a
+__ZL18_dd_uhash_allocateP12DDUHashtableiP10UErrorCode
+-[DDBindableRegexp(DDASTCopy) copyWithZone:]
+-[DDBasicRegexp(DDASTCopy) copyWithZone:]
+-[DDVariable(DDASTCopy) copyWithZone:]
+-[DDOperatorRegexp(DDASTCopy) copyWithZone:]
+-[DDUnaryOperator(DDASTCopy) copyWithZone:]
+-[DDRepeatCount(DDASTCopy) copyWithZone:]
+-[DDRepeatMax(DDASTCopy) copyWithZone:]
+-[DDAtomicRegexp(DDASTCopy) copyWithZone:]
+-[DDLookupRegexp(DDASTCopy) copyWithZone:]
+-[DDVariableNotFoundError(DDASTCopy) copyWithZone:]
+_DDLRTableCreateDataRepresentation
+_computeOffsetOfStringInTable
+_DDPDStateCreate
+_DDPDStateDestroy
+_DDPDStateSetItemSet
+_DDPDStateSetStateIndex
+_DDPDStateAddTransition
+_DDPDStateAddReduction
+-[DDParserState initWithStateIndex:]
+-[DDParserState dealloc]
+-[DDParserState addChild:]
+-[DDParserState addSampleFrom:]
+-[DDParserState setTotalNumberOfSamples:]
+-[DDParserState ratioOfTotalSamples]
+-[DDParserState description]
+-[DDParserState isRootState]
+-[DDParserState setIsRootState:]
+-[DDParserState children]
+-[DDParserState index]
+-[DDParserState setIndex:]
+-[DDParserState numberOfSamples]
+-[DDParserState setNumberOfSamples:]
+_DDScannerUpdateStatisticsForStateAndStack
+-[DDStatsBuilder init]
+-[DDStatsBuilder dealloc]
+-[DDStatsBuilder flush]
+-[DDStatsBuilder handleState:withStack:]
+-[DDStatsBuilder parserStateWithStateIndex:]
+-[DDStatsBuilder rootStates]
+-[DDStatsBuilder allStates]
+-[DDCompilerState initWithGrammar:states:dotedProduction:numberOfDotedProduction:]
+-[DDCompilerState encodeWithCoder:]
+-[DDCompilerState initWithCoder:]
+_DDPushDownStateFree
+-[DDCompilerState dealloc]
+-[DDCompilerState setPlCollection:]
+-[DDCompilerState setTerminalPermutation:]
+__extractPermutation
+-[DDCompilerState setNonTerminalPermutation:]
+-[DDCompilerState copyItemSetDescriptionForStateWithIndex:]
+_my_compare
+-[DDCompilerState copyItemSetForStateIndex:]
+_DDCompilerStateCopyItemSet
+-[DDCompilerState _resolveInternalTerminalID:]
+-[DDCompilerState _resolveInternalNonTerminalID:]
+-[DDCompilerState _copyDescriptionOfInternalToken:]
+_DDCompilerStateGetGrammar
+-[DDCompilerState grammar]
+-[NSMutableAttributedString(DataDetectorsSupport) dd_offsetResultsBy:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___70-[NSMutableAttributedString(DataDetectorsSupport) dd_offsetResultsBy:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NSMutableAttributedString(DataDetectorsSupport) dd_chopResults]
+___65-[NSMutableAttributedString(DataDetectorsSupport) dd_chopResults]_block_invoke
+___copy_helper_block_27
+___destroy_helper_block_28
+-[NSMutableAttributedString(DataDetectorsSupport) dd_appendAttributedString:]
+-[NSAttributedString(DataDetectorsSupport) dd_attributedSubstringFromRange:]
+-[NSAttributedString(DataDetectorsSupport) dd_attributedStringByAppendingAttributedString:]
+-[DDLRItem dealloc]
+-[DDLRItem initWithDotedProduction:]
+-[DDLRItem location]
+-[DDLRItem productionIndex]
+-[DDLRItem description]
+-[DDLRItem production]
+-[DDLRItem setProduction:]
+-[DDLRItem pos]
+-[DDLRItem setPos:]
+-[DDLRItem dotedProductionIndex]
+-[DDLRItem setDotedProductionIndex:]
+-[DDLRItem weight]
+-[DDLRItem setWeight:]
++[DDAbstractType typeWithName:components:kind:location:]
++[DDAbstractType typeWithName:component:kind:location:]
++[DDAbstractType emptyType]
++[DDAbstractType anyType]
+-[DDAbstractType initWithName:components:kind:location:]
+-[DDAbstractType initWithNameType:]
+-[DDAbstractType initWithDisjunctionArg1:arg2:]
+-[DDAbstractType initWithConjunctionArg1:arg2:]
+-[DDAbstractType initWithOptional:]
+-[DDAbstractType dealloc]
+-[DDAbstractType isEmpty]
+-[DDAbstractType isAny]
+-[DDAbstractType argument]
+-[DDAbstractType name]
+-[DDAbstractType isFlatName]
+-[DDAbstractType _appendComponents:]
+-[DDAbstractType appendDescription:]
+-[DDAbstractType verboseDescription]
+-[DDAbstractType description]
+-[DDAbstractType location]
+-[DDAbstractType setLocation:]
+-[DDAbstractType kind]
+-[DDAbstractType arguments]
+-[DDBindableRegexp(TypeBuilder) computeTypeWithManager:]
+-[DDBasicRegexp(TypeBuilder) computeTypeFromParent:withManager:]
+-[DDOperatorRegexp(TypeBuilder) computeTypeFromParent:withManager:kind:]
+-[DDDisjunctionRegexp(TypeBuilder) computeTypeFromParent:withManager:]
+-[DDConcatenationRegexp(TypeBuilder) computeTypeFromParent:withManager:]
+-[DDUnaryOperator(TypeBuilder) computeTypeFromParent:withManager:kind:]
+-[DDUnaryOperator(TypeBuilder) computeTypeFromParent:withManager:]
+-[DDOptionalExp(TypeBuilder) computeTypeFromParent:withManager:]
+-[DDVariable(TypeBuilder) computeTypeFromParent:withManager:]
++[DDTypeInhabitant inhabitantWithName:]
++[DDTypeInhabitant emptyInhabitant]
+-[DDTypeInhabitant init]
+-[DDTypeInhabitant initWithNames:]
+-[DDTypeInhabitant dealloc]
+-[DDTypeInhabitant hash]
+-[DDTypeInhabitant isEqual:]
+-[DDTypeInhabitant compare:]
+-[DDTypeInhabitant typeInhabitantByJoining:]
+-[DDTypeInhabitant description]
+-[DDAbstractType(TypeCheckingTools) computeInhabitant:]
+-[DDTypeChecker initWithTypeCollection:]
+-[DDTypeChecker dealloc]
+-[DDTypeChecker _deepValidateSubComponentRec:]
+-[DDTypeChecker _validateCurrent:]
+-[DDTypeChecker validateNamedType:]
+-[DDTypeChecker _validateRec:]
+-[DDTypeChecker validate:]
+-[DDTypeChecker delegate]
+-[DDTypeChecker setDelegate:]
+-[DDRegexpManager(DDTypeCheckerDelegateImplementation) addTypingError:]
++[DDRegexpManager(CompilerInternal) _standardManager]
+-[DDRegexpManager(CompilerInternal) lookupTable]
+-[DDRegexpManager(CompilerInternal) _split]
+-[DDRegexpManager(CompilerInternal) createCacheWithSignature:]
+-[DDRegexpManager(CompilerInternal) createScannerWithSignature:]
+-[DDRegexpManager(CompilerInternal) copyRulesForIdentifier]
+-[DDRegexpManager(CompilerInternal) ICURulesWithMaxIdentifierRef:]
+-[DDRegexpManager(CompilerInternal) ICULexemRanges]
+-[DDRegexpManager(Compiler) createScanner]
+-[DDRegexpManager(CompilerPrivate) copyLexerTableData]
+-[DDRegexpManager(CompilerPrivate) copyLookupTableData]
+-[DDRegexpManager(CompilerPrivate) isICUVariableDefined:]
+-[DDRegexpManager(CompilerPrivate) defineICUVariableWithName:icuExpression:]
+-[DDRegexpManager(CompilerPrivate) newDictionaryPatternWithFileName:position:]
+-[DDRegexpManager(CompilerPrivate) newDictionaryPatternWithTableName:]
+-[DDRegexpManager(CompilerPrivate) newDictionaryPatternWithAttribute:]
+-[DDRegexpManager(CompilerPrivate) newNERRequest:]
+-[DDRegexpManager(CompilerPrivate) isValidSpotlightAttribute:]
+-[DDRegexpManager(CompilerPrivate) newPatternWithString:stringType:]
+_DDIndexSetGetIndices
+_DDIndexSetAddIndex
+_DDIndexSetContainsIndex
+_DDIndexSetUnion
+_addOneElement
+_DDIndexSetCreate
+_DDIndexSetGetCount
+_DDLexerTableCreateFromString
+_DDCreateProtoLexemeCollectionFromLexerData
+_DDLexerApplyPermutationOnDataRepresentation
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilderC2ERKNS_13UnicodeStringER11UParseErrorR10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilderD2Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilderD1Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilderD0Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilder11flattenDataEv
+__ZN17dd_icu_3_6__5_0_215RBBIRuleBuilder17compileClassifierERKNS_13UnicodeStringER11UParseErrorR10UErrorCode
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilderC1EPNS_15RBBIRuleBuilderE
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilderD2Ev
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilderD1Ev
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder5buildEv
+__ZN17dd_icu_3_6__5_0_215RangeDescriptor5splitEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RangeDescriptor17setDictionaryFlagEv
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder12addValToSetsEPNS_7UVectorEj
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder11addValToSetEPNS_8RBBINodeEj
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder29applyPermutationsOnCategoriesEPii
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder11getTrieSizeEv
+__Z18getFoldedRBBIValueP10DDUNewTrieii
+__ZN17dd_icu_3_6__5_0_214RBBISetBuilder13serializeTrieEPh
+__ZNK17dd_icu_3_6__5_0_214RBBISetBuilder20getNumCharCategoriesEv
+__ZNK17dd_icu_3_6__5_0_214RBBISetBuilder6sawBOFEv
+__ZNK17dd_icu_3_6__5_0_214RBBISetBuilder12getFirstCharEi
+__ZN17dd_icu_3_6__5_0_215RangeDescriptorC2ERKS0_R10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RangeDescriptorC2ER10UErrorCode
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilderC2EPNS_15RBBIRuleBuilderEPPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilderC1EPNS_15RBBIRuleBuilderEPPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilderD2Ev
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilderD1Ev
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder5buildEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder12calcNullableEPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder12calcFirstPosEPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder11calcLastPosEPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder13calcFollowPosEPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder20calcChainedFollowPosEPNS_8RBBINodeE
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder8bofFixupEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder15buildStateTableEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder19flagAcceptingStatesEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder19flagLookAheadStatesEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder16flagTaggedStatesEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder19mergeRuleStatusValsEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder6setAddEPNS_7UVectorES2_
+__ZN17dd_icu_3_6__5_0_2L9nodesHashE10DDUHashTok
+__ZN17dd_icu_3_6__5_0_2L15nodesComparatorE10DDUHashTokS0_
+__ZN17dd_icu_3_6__5_0_2L10myAssignerEP10DDUHashTokS1_
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder9sortedAddEPPNS_7UVectorEi
+__ZNK17dd_icu_3_6__5_0_216RBBITableBuilder12getTableSizeEv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder11exportTableEPv
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder24spatialTableOptimisationEv
+__ZN17dd_icu_3_6__5_0_2L28reverseCompareWeightedStatesEPKvS1_
+__ZN17dd_icu_3_6__5_0_216RBBITableBuilder19makeCompressedTableEPPhPiS2_S3_
+__ZN17dd_icu_3_6__5_0_219RBBIStateDescriptorC2EiP10UErrorCode
+__ZN17dd_icu_3_6__5_0_219RBBIStateDescriptorD2Ev
+__Z29dd_uprv_openRuleWhiteSpaceSetP10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScannerC2EPNS_15RBBIRuleBuilderE
+__Z20RBBISetTable_deleterPv
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScannerC1EPNS_15RBBIRuleBuilderE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScannerD2Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScannerD1Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScannerD0Ev
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner14doParseActionsENS_12EParseActionE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner11pushNewNodeENS_8RBBINode8NodeTypeE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner10fixOpStackENS_8RBBINode12OpPrecedenceE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner10findSetForERKNS_13UnicodeStringEPNS_8RBBINodeEP4USet
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner7scanSetEv
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner10stripRulesERKNS_13UnicodeStringE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner10nextCharLLEv
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner8nextCharERNS0_14DDRBBIRuleCharE
+__ZN17dd_icu_3_6__5_0_215RBBIRuleScanner5parseEv
+__ZN17dd_icu_3_6__5_0_28RBBINodeC2ENS0_8NodeTypeE
+__ZN17dd_icu_3_6__5_0_28RBBINodeC1ENS0_8NodeTypeE
+__ZN17dd_icu_3_6__5_0_28RBBINodeC2ERKS0_
+__ZN17dd_icu_3_6__5_0_28RBBINodeD2Ev
+__ZN17dd_icu_3_6__5_0_28RBBINodeD1Ev
+__ZN17dd_icu_3_6__5_0_28RBBINode9cloneTreeEv
+__ZN17dd_icu_3_6__5_0_28RBBINode16flattenVariablesEv
+__ZN17dd_icu_3_6__5_0_28RBBINode11flattenSetsEv
+__ZN17dd_icu_3_6__5_0_28RBBINode18deepCalcCategoriesEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_28RBBINode14calcCategoriesEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_28RBBINode9findNodesEPNS_7UVectorENS0_8NodeTypeER10UErrorCode
+__ZNK17dd_icu_3_6__5_0_27UVector17getDynamicClassIDEv
+__ZN17dd_icu_3_6__5_0_27UVector5_initEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVectorC1ER10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVectorC1EiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVectorD2Ev
+__ZN17dd_icu_3_6__5_0_27UVector17removeAllElementsEv
+__ZN17dd_icu_3_6__5_0_27UVectorD1Ev
+__ZN17dd_icu_3_6__5_0_27UVectorD0Ev
+__ZN17dd_icu_3_6__5_0_27UVector6assignERKS0_PFvP10DDUHashTokS4_ER10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVector14ensureCapacityEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVector7setSizeEi
+__ZN17dd_icu_3_6__5_0_27UVector10addElementEPvR10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVector10addElementEiR10UErrorCode
+__ZN17dd_icu_3_6__5_0_27UVector12setElementAtEii
+__ZN17dd_icu_3_6__5_0_27UVector15insertElementAtEiiR10UErrorCode
+__ZNK17dd_icu_3_6__5_0_27UVector9elementAtEi
+__ZNK17dd_icu_3_6__5_0_27UVector10elementAtiEi
+__ZNK17dd_icu_3_6__5_0_27UVector7indexOfE10DDUHashTokia
+__ZN17dd_icu_3_6__5_0_27UVector15orphanElementAtEi
+__ZNK17dd_icu_3_6__5_0_27UVector7indexOfEPvi
+__ZNK17dd_icu_3_6__5_0_27UVector6equalsERKS0_
+__ZN17dd_icu_3_6__5_0_215RBBISymbolTableC2EPNS_15RBBIRuleScannerERKNS_13UnicodeStringER10UErrorCode
+__Z28RBBISymbolTableEntry_deleterPv
+__ZN17dd_icu_3_6__5_0_215RBBISymbolTableC1EPNS_15RBBIRuleScannerERKNS_13UnicodeStringER10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RBBISymbolTableD1Ev
+__ZN17dd_icu_3_6__5_0_215RBBISymbolTableD0Ev
+__ZNK17dd_icu_3_6__5_0_215RBBISymbolTable6lookupERKNS_13UnicodeStringE
+__ZNK17dd_icu_3_6__5_0_215RBBISymbolTable14parseReferenceERKNS_13UnicodeStringERNS_13ParsePositionEi
+__ZNK17dd_icu_3_6__5_0_215RBBISymbolTable10lookupNodeERKNS_13UnicodeStringE
+__ZN17dd_icu_3_6__5_0_215RBBISymbolTable8addEntryERKNS_13UnicodeStringEPNS_8RBBINodeER10UErrorCode
+__ZN17dd_icu_3_6__5_0_220RBBISymbolTableEntryD2Ev
+-[DDBindableRegexp(DDASTToICU) icuEquivalentWithManager:]
+-[DDBindableRegexp(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDBasicRegexp(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDDisjunctionRegexp(DDASTToICU) appendToDescription:priority:withManager:]
++[DDConcatenationRegexp(DDASTToICU) appendToDescription:priority:withManager:arguments:]
++[DDConcatenationRegexp(DDASTToICU) appendToDescription:priority:withManager:argument:repeatCount:]
+-[DDConcatenationRegexp(DDASTToICU) appendToDescription:priority:withManager:]
++[DDUnaryOperator(DDASTToICU) appendToDescription:priority:withManager:argument:operatorString:]
+-[DDOneOrMoreExp(DDASTToICU) appendToDescription:priority:withManager:]
++[DDOptionalExp(DDASTToICU) appendToDescription:priority:withManager:argument:]
+-[DDOptionalExp(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDRepeatCount(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDRepeatMax(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDStarExp(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDAtomicRegexp(DDASTToICU) appendToDescription:priority:withManager:]
+-[DDVariable(DDASTToICU) appendToDescription:priority:withManager:]
+_DebugABSLSource
+___DebugABSLSource_block_invoke
+__ZN17dd_icu_3_6__5_0_215RBBIDataWrapper4initEPKNS_16DDRBBIDataHeaderER10UErrorCode
+__ZN17dd_icu_3_6__5_0_215RBBIDataWrapperC1EPKNS_16DDRBBIDataHeaderER10UErrorCode
+__Z16getFoldingOffsetj
+__ZN17dd_icu_3_6__5_0_215RBBIDataWrapperD1Ev
+_ddutrie_open
+_ddutrie_close
+_ddutrie_set32
+_ddutrie_getDataBlock
+_ddutrie_get32
+_ddutrie_setRange32
+_ddutrie_serialize
+_defaultGetFoldedValue
+_ddutrie_compact
+_DDLexemeNumberGetIdentifier
+_DDLexemeNumberCreateWithIdentifier
+_DDProtoLexemeAddLexeme
+_DDProtoLexemeCollectionCreate
+_DDPLCollectionAddPL
+_DDPLCollectionGetProtoLexemeIndexIfPresent
+_DDPLCollectionContainsLexemeIdentifier
+_DDPLCollectionContainsLexeme
+_DDProtoLexemeForLexeme
+_DDPLCollectionGetIdentifierOfProtoLexeme
+_DDPLCollectionSetPLCIdentifierToRegexpDict
+_DDProtoLexemeCollectionCopyProtoLexemeDescription
+_DDPLCollectionCopySerializedPlist
+_mySetIndexForKey
+_DDProtoLexemeCollectionCreateFromPlist
+_myGetIndex
+__DDProtoLexemeCollectionCFInit
+__DDProtoLexemeCollectionCFFinalize
+__DDProtoLexemeCollectionCFEqual
+__DDProtoLexemeCollectionCFHash
+__DDProtoLexemeCollectionCFCopyFormatDescription
+__DDProtoLexemeCollectionCFCopyDebugDescription
+_DDScannerCreateFromUserCachesForContext
+_DDScannerCreateWithTypeAndLocale
+_____DDScannerLoaderInitScannerIdentifierMappings_block_invoke
+_updateAnchorWithURL
+_onBundle
+_DDCacheCreateFromSystemCacheWithLocale
+_DDCacheCreateFromUserCacheWithSuffix
+__pathToUserCacheFile
+_DDCacheCreateFromFileAtPath
+_writeDataAndPad
+_DDCacheRemoveCacheFileIfPresent
+__copyCacheFileBaseName
+__appendLocale
+__createLanguageCodeFromCountryCode
+__DDCacheCFFinalize
+__DDCacheCFEqual
+__DDCacheCFHash
+__DDCacheCFCopyFormatDescription
+__DDCacheCFCopyDebugDescription
+_DDLookupTableCreate
+_DDLookupTableInvalidate
+___DDLookupTableInvalidate_block_invoke
+___DDLookupTableInvalidate_block_invoke_2
+___DDLookupTableInvalidate_block_invoke_3
+___DDLookupTableInvalidate_block_invoke_4
+___DDLookupTableInvalidate_block_invoke_5
+_DDLookupTableGetCache
+_DDLookupApplyPermutationOnDataRepresention
+_DDLookupTableLoadDictionaryWithURL
+_DDLookupTableSetDebugSource
+_DDLookupTableRegisterSpotlightAttributeTypeIfNeeded
+_DDLookupTableSetNERRequest
+_DDLookupTableInjectInsensitivePattern
+___DDLookupTableRefLookupCurrentWord_block_invoke
+___DDLookupTableRefLookupCurrentWord_block_invoke_2
+___DDLookupTableRefLookupCurrentWord_block_invoke_3
+___DDLookupTableRefLookupCurrentWord_block_invoke_4
+___DDLookupTableRefLookupCurrentWord_block_invoke_5
+___copy_helper_block_
+___destroy_helper_block_
+__DDLookupTableCFFinalize
+__DDLookupTableCFEqual
+__DDLookupTableCFHash
+__DDLookupTableCFCopyFormatDescription
+__DDLookupTableCFCopyDebugDescription
+_DDLookupTrieIsEmpty
+_DDLookupTrieDestroy
+__DDTrieDestroy
+_DDStaticLookupCreateWithDynamicTrie
+_visitDynTrie
+_DDStaticLookupGetCache
+_DDStaticLookupDestroy
+_DDStaticTrieApplyTerminalPermutation
+_visitAndApplyPermutation
+_DDLRTableDestroy
+_DDScannerGetStatsBuilder
+__DDScannerCFFinalize
+__DDScannerCFEqual
+__DDScannerCFHash
+__DDScannerCFCopyFormatDescription
+__DDScannerCFCopyDebugDescription
+_computeThingsToVisit
+_DDScanQueryGetOffsetOfAbsolutePosition
+_DDScanQueryCopySubStringFromPos
+__DDScanQueryCFEqual
+__DDScanQueryCFHash
+__DDScanQueryCFCopyFormatDescription
+__DDScanQueryCFCopyDebugDescription
+_DDLRDispatchTableDestroy
+_DDTokenCacheGetSize
+_DDTokenCacheDestroy
+_DDTokenCacheSetLocale
+____FillNextTokenInCache_block_invoke
+_DDLexemCacheDestroy
+_DDLexemCacheItemDestroy
+_DDLexemCacheGetSize
+_DDResultCheckCompletion
+__DDResultGetCountryCodeForSubresult
+__DDGetRelevantResultsForUrlificationRange
+_DDResultSetLocation
+_DDResultGetLocation
+___DDResultGetCategory_block_invoke
+___DDResultGetCategory_block_invoke_2
+___DDResultGetCategory_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___DDResultGetCategory_block_invoke60
+___DDResultGetCategory_block_invoke_264
+___copy_helper_block_65
+___destroy_helper_block_66
+_DDResultSetSymbolId
+_DDResultRangeCompare
+__DDResultAppendXMLTextNode
+__DDResultCreateDescriptionOfXMLNode
+__DDResultCFCopyFormatDescription
+__DDResultCFCopyDebugDescription
+_DDErrorv
+____DDFullLogFunction_block_invoke
+___DDDecomposeAbsoluteTime
+_DDCrashv
+___DDAddressBookAccessAllowed_block_invoke
+__get_bool_entitlement
+___DDCalendarAccessAllowed_block_invoke
+_DDConvertToUTF8
+_DDUtilCopyHumanSizeString
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifierC1EPNS_16DDRBBIDataHeaderER10UErrorCode
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifierD2Ev
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifierD1Ev
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifierD0Ev
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifier8classifyE15__DDQueryOffsetPNS_12__DDRBLexemeEl
+__ZN17dd_icu_3_6__5_0_219RuleBasedClassifier10handleNextEPKNS_16DDRBBIStateTableEPKt15__DDQueryOffsetPNS_12__DDRBLexemeEl
+_dd_uprv_malloc
+_dd_uprv_free
+_dd_uprv_realloc
+_ddutrie_defaultGetFoldingOffset
+__ZNK17dd_icu_3_6__5_0_213ParsePosition17getDynamicClassIDEv
+__ZN17dd_icu_3_6__5_0_213ParsePositionD1Ev
+__ZN17dd_icu_3_6__5_0_213ParsePositionD0Ev
+_DDLRDispatchTableCreateDataRepresentation
+_sortByNumberOfActionsCells
+_cellCompare
+__applyPreviousBlob
+_sortByNumberOfGotoCells
+_computePermutation
+_columnCompare
+_DDLexerDestroy
+___DDCreateTimeZoneValuesFromResultValue_block_invoke
+_createPropertyListForResource
+_DDResultCopyExtractedDateFromReferenceDateRec
+_extractHourFromApproxTime
+_DDCreateTimeZoneWithResult
+_createDetailedDescription
+_DDResultCreateURLForUNC
+_DDResultCopyValueLabelValue
+_DDExtractSimpleInteger
+___DDResultExtractDayAndMonthWithSpecialDayIdentifierInYear_block_invoke
+_DDExtractDayAndMonthFromSpecialDayInYearRec
+_extractDayFromWeekDayRelativeToMonth
+___extractJapaneseYear_block_invoke
+___extractJapaneseYear_block_invoke_2
+___extractJapaneseYear_block_invoke_3
+___copy_helper_block_
+___destroy_helper_block_
+___extractInteger_block_invoke
+___copy_helper_block_151
+___destroy_helper_block_152
+___getLocaleForExtraction_block_invoke
+___DDResultExtractDayMonthYear_block_invoke
+___copy_helper_block_252
+___destroy_helper_block_253
+_DDmunmap
+_DDDFAScannerGenerateResult
+_DDDFAScannerFillInitialContext
+_DDDFAScannerComputeResultsForContextWithRebuffering
+_DDDFAScannerPostprocessResults
+__DDDFAScannerCFInit
+__DDDFAScannerCFFinalize
+__DDDFAScannerCFEqual
+__DDDFAScannerCFHash
+__DDDFAScannerCFCopyFormatDescription
+__DDDFAScannerCFCopyDebugDescription
+__DDDFACacheCFInit
+__DDDFACacheCFFinalize
+__DDDFACacheCFEqual
+__DDDFACacheCFHash
+__DDDFACacheCFCopyFormatDescription
+__DDDFACacheCFCopyDebugDescription
+-[DDRegexpManager(Parsing) errors]
+_DDExtractKanjiNumber
+_DDDefaultFilterBlocks_block_invoke
+_DDDefaultFilterBlocks_block_invoke_2
+_DDDefaultFilterBlocks_block_invoke_3
+_DDDefaultFilterBlocks_block_invoke_4
+_DDDefaultFilterBlocks_block_invoke_5
+_DDDefaultFilterBlocks_block_invoke_6
+_keepOnlyShortPhoneNumbers
+_DDDefaultFilterBlocks_block_invoke_7
+_DDDefaultFilterBlocks_block_invoke_8
+_DDFiltersCreateWithOptions
+_areResultRelatedRec
+_extractDateAndTime
+_assistantAcceptTypeWithTypeOrdered
+_getDateFromDateTime
+_DDABSourceInvalidate
+_DDABSourceDestroy
+___DDABSourceLoadData_block_invoke
+___DDABSourceLoadData_block_invoke_2
+_ABDatabaseChanged
+___ABDatabaseChanged_block_invoke
+___DDABPersonClass_block_invoke
+___DDABAddressBookClass_block_invoke
+___addressBookFrameworkLoaded_block_invoke
+_DDSLSourceInvalidate
+_DDSLSourceDestroy
+_DDSLSourceValidAttribute
+___DDSLSourceEvaluateQueries_block_invoke
+___DDSLSourceEvaluateQueries_block_invoke_2
+___handleResults_block_invoke
+___handleResults_block_invoke_2
+___handleResults_block_invoke_3
+___handleResults_block_invoke_4
+___handleResults_block_invoke_5
+___applicationServicesLoaded_block_invoke
+_yypact
+_yytranslate
+_yycheck
+_yytable
+_yydefact
+_yyr2
+_yyr1
+_yypgoto
+_yydefgoto
+_yysyntax_error.yyunexpected
+_yysyntax_error.yyexpecting
+_yysyntax_error.yyor
+__ZL12UNESCAPE_MAP
+_yy_ec
+_yy_accept
+_yy_base
+_yy_chk
+_yy_def
+_yy_meta
+_yy_nxt
+__ZL6PRIMES
+__ZZN17dd_icu_3_6__5_0_214RBBISetBuilder5buildEvE10eofUString
+__ZZN17dd_icu_3_6__5_0_214RBBISetBuilder5buildEvE10bofUString
+__ZL26gRuleSet_rule_char_pattern
+__ZL26gRuleSet_name_char_pattern
+__ZL32gRuleSet_name_start_char_pattern
+__ZL27gRuleSet_digit_char_pattern
+__ZL4kAny
+__ZN17dd_icu_3_6__5_0_2L20gRuleParseStateTableE
+_writeDataAndPad.paddingData
+_zeroMem
+_lastDayOfMonthLeapYear
+_lastDayOfMonth
+_DataDetectorsCoreVersionString
+_DataDetectorsCoreVersionNumber
+GCC_except_table53
+GCC_except_table34
+GCC_except_table0
+GCC_except_table6
+GCC_except_table1
+_yytname
+__ZTVN17dd_icu_3_6__5_0_213UnicodeStringE
+___block_descriptor_tmp
+___block_descriptor_tmp30
+__ZTVN17dd_icu_3_6__5_0_215RBBIRuleBuilderE
+__ZTVN17dd_icu_3_6__5_0_215RBBIRuleScannerE
+__ZTVN17dd_icu_3_6__5_0_27UVectorE
+__ZTVN17dd_icu_3_6__5_0_215RBBISymbolTableE
+_DebugABSLSource.array
+_DebugABSLSource.array7
+_DebugABSLSource.array18
+_DebugABSLSource.array27
+_DebugABSLSource.array38
+_DebugABSLSource.array47
+_DebugABSLSource.array60
+_DebugABSLSource.array71
+_DebugABSLSource.array78
+___block_descriptor_tmp
+_kDDProtoLexemeCollectionContextClass
+___block_descriptor_tmp
+___block_literal_global
+_DDStampContextFillInWithTypeString.langs
+_kDDCacheContextClass
+_DDLookupTableMetaDataAddressBookUIDKey
+___block_descriptor_tmp
+___block_descriptor_tmp22
+___block_descriptor_tmp23
+___block_descriptor_tmp24
+___block_descriptor_tmp25
+___block_descriptor_tmp48
+___block_literal_global
+___block_descriptor_tmp52
+___block_literal_global53
+___block_descriptor_tmp57
+___block_literal_global58
+___block_descriptor_tmp62
+___block_literal_global63
+___block_descriptor_tmp64
+_kDDLookupTableContextClass
+_kDDScannerContextClass
+_kDDScanQueryContextClass
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp55
+___block_literal_global56
+___block_descriptor_tmp57
+___block_descriptor_tmp62
+___block_literal_global63
+___block_descriptor_tmp67
+_kDDResultContextClass
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp2
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp12
+___block_literal_global13
+__ZTVN17dd_icu_3_6__5_0_219RuleBasedClassifierE
+__ZTVN17dd_icu_3_6__5_0_213ParsePositionE
+_DDBinderCountryCodeKey
+_DDBinderAmbiguousDateKey
+_DDBinderMonthNumberKey
+_DDBinderDayNumberKey
+_DDBinderDayOfWeekKey
+_DDBinderSpecialDayKey
+_DDBinderSpecialDayIdentiferKey
+_DDBinderSpecialDayCalendarKey
+_DDBinderYearNumberKey
+_DDBinderJapaneseYearNumberKey
+_DDBinderJapaneseEraKey
+_DDBinderJapaneseYearKey
+_DDBinderMinguoYearKey
+_DDBinderThaiYearKey
+_DDBinderMonthKey
+_DDBinderWeekKey
+_DDBinderDayKey
+_DDBinderHourKey
+_DDBinderMinutesKey
+_DDBinderMinutesBeforeKey
+_DDBinderSecondsKey
+_DDBinderMeridianKey
+_DDBinderTimeZoneKey
+_DDBinderOlsonTimeZoneKey
+_DDBinderSignKey
+_DDBinderAbsoluteDateKey
+_DDBinderPartialDateKey
+_DDBinderRelativeDayKey
+_DDBinderRelativeDayOfWeekKey
+_DDBinderDayOfThisWeekKey
+_DDBinderDayOfPreviousWeekKey
+_DDBinderDayOfNextWeekKey
+_DDBinderDayOfNextNextWeekKey
+_DDBinderDayToComeKey
+_DDBinderDayToComeWeekAfterKey
+_DDBinderDayToCome2WeeksAfterKey
+_DDBinderPreviousDay
+_DDBinderBeginTimeKey
+_DDBinderEndTimeKey
+_DDBinderBeginHourKey
+_DDBinderEndHourKey
+_DDBinderDayIntervalKey
+_DDBinderBeginDayKey
+_DDBinderEndDayKey
+_DDBinderBeginDateKey
+_DDBinderEndDateKey
+_DDBinderWinRemoteFileURLKey
+_DDBinderDirtyFileURLKey
+_DDBinderIPAddressKey
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp37
+___block_literal_global38
+___block_descriptor_tmp130
+___block_literal_global131
+___block_descriptor_tmp134
+___block_literal_global135
+___block_descriptor_tmp138
+___block_descriptor_tmp145
+___block_literal_global146
+___block_descriptor_tmp149
+___block_literal_global150
+___block_descriptor_tmp153
+___block_descriptor_tmp156
+___block_literal_global157
+___block_descriptor_tmp250
+___block_literal_global251
+___block_descriptor_tmp254
+_kDDDFAScannerContextClass
+_kDDDFACacheContextClass
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp1
+___block_literal_global2
+___block_descriptor_tmp3
+___block_literal_global4
+___block_descriptor_tmp5
+___block_literal_global6
+___block_descriptor_tmp7
+___block_literal_global8
+___block_descriptor_tmp9
+___block_literal_global10
+___block_descriptor_tmp11
+___block_literal_global12
+___block_descriptor_tmp13
+___block_literal_global14
+___block_descriptor_tmp
+___block_descriptor_tmp68
+___block_descriptor_tmp88
+___block_descriptor_tmp99
+___block_literal_global
+___block_descriptor_tmp124
+___block_literal_global125
+___block_descriptor_tmp130
+___block_literal_global131
+___block_descriptor_tmp
+___block_descriptor_tmp56
+___block_descriptor_tmp69
+___block_descriptor_tmp77
+___block_descriptor_tmp81
+___block_descriptor_tmp87
+___block_descriptor_tmp105
+___block_descriptor_tmp126
+___block_literal_global
+_spotlightAttributeForType.sDDAttributeKeys
+_OBJC_IVAR_$_DDBindableRegexp._nonSkippable
+_OBJC_IVAR_$_DDBindableRegexp._coreRegexp
+_OBJC_IVAR_$_DDBindableRegexp._binderInfo
+_OBJC_IVAR_$_DDBindableRegexp._location
+_OBJC_IVAR_$_DDBasicRegexp._humanReadableName
+_OBJC_IVAR_$_DDVariable._name
+_OBJC_IVAR_$_DDUnaryOperator._subPattern
+_OBJC_IVAR_$_DDRepeatCount._count
+_OBJC_IVAR_$_DDRepeatMax._max
+_OBJC_IVAR_$_DDAtomicRegexp._type
+_OBJC_IVAR_$_DDAtomicRegexp.u
+_OBJC_IVAR_$_DDAtomicRegexp._caseInsensitive
+_OBJC_IVAR_$_DDAtomicRegexp._displayName
+_OBJC_IVAR_$_DDLookupRegexp._tokenId
+_OBJC_IVAR_$_DDLookupRegexp._name
+_OBJC_IVAR_$_DDVariableNotFoundError._name
+_OBJC_IVAR_$_DDBinderInfo._name
+_OBJC_IVAR_$_DDBinderInfo._valueType
+_OBJC_IVAR_$_DDBinderInfo._score
+_OBJC_IVAR_$_DDBinderInfo._value
+_OBJC_IVAR_$_DDBinderInfo._NLPToken
+_OBJC_IVAR_$_DDBinderInfo._topLevel
+_OBJC_IVAR_$_DDRegexpManager._regExpesByName
+_OBJC_IVAR_$_DDRegexpManager._topRegexes
+_OBJC_IVAR_$_DDRegexpManager._lookupTable
+_OBJC_IVAR_$_DDRegexpManager._maxTokenId
+_OBJC_IVAR_$_DDRegexpManager._errors
+_OBJC_IVAR_$_DDRegexpManager._lastMod
+_OBJC_IVAR_$_DDRegexpManager._signature
+_OBJC_IVAR_$_DDRegexpManager._regexpToIdent
+_OBJC_IVAR_$_DDRegexpManager._icuPrelude
+_OBJC_IVAR_$_DDRegexpManager._icuVariables
+_OBJC_IVAR_$_DDRegexpManager._allowsRedefinition
+_OBJC_IVAR_$_DDRegexpManager._typeCheckingMethod
+_OBJC_IVAR_$_DDRegexpManager._defaultSentinelsEnabled
+_OBJC_IVAR_$_DDRegexpManager._seenXMLFiles
+_OBJC_IVAR_$_DDRegexpManager._ruleAcceptancePredicates
+_OBJC_IVAR_$_DDRegexpManager._typeByName
+_OBJC_IVAR_$_DDRegexpManager._level1Regexs
+_OBJC_IVAR_$_DDRegexpManager._alreadyLoadedFiles
+_OBJC_IVAR_$_DDRegexpManager._searchPaths
+_OBJC_IVAR_$_DDRegexpManager._fileNamesStack
+_OBJC_IVAR_$_DDRegexpManager._loadPaths
+_OBJC_IVAR_$_DDScannerResult._coreResult
+_OBJC_IVAR_$_DDScannerResult._subResultsCache
+_OBJC_IVAR_$_DDGrammar._nonTerminals
+_OBJC_IVAR_$_DDGrammar._terminalById
+_OBJC_IVAR_$_DDGrammar._nextNonTerminalId
+_OBJC_IVAR_$_DDGrammar._nonTerminalByVariable
+_OBJC_IVAR_$_DDGrammar._allProductionsCache
+_OBJC_IVAR_$_DDGrammar._allNames
+_OBJC_IVAR_$_DDGrammar._start
+_OBJC_IVAR_$_DDGrammar._plCollection
+_OBJC_IVAR_$_DDGrammar._tokenGen
+_OBJC_IVAR_$_DDSymbol._type
+_OBJC_IVAR_$_DDSymbol.u
+_OBJC_IVAR_$_DDSymbol._displayName
+_OBJC_IVAR_$_DDNonTerminal._name
+_OBJC_IVAR_$_DDNonTerminal._nonTerminalID
+_OBJC_IVAR_$_DDNonTerminal._grammar
+_OBJC_IVAR_$_DDNonTerminal._productions
+_OBJC_IVAR_$_DDNonTerminal._info
+_OBJC_IVAR_$_DDNonTerminal._followSet
+_OBJC_IVAR_$_DDNonTerminal._matchesEpsilon
+_OBJC_IVAR_$_DDNonTerminal._skippable
+_OBJC_IVAR_$_DDNonTerminal._forceNonSkippable
+_OBJC_IVAR_$_DDProduction._nonTerminal
+_OBJC_IVAR_$_DDProduction._items
+_OBJC_IVAR_$_DDProduction._index
+_OBJC_IVAR_$_DDProduction._location
+_OBJC_IVAR_$_DDProduction._numberOfDottedProductions
+_OBJC_IVAR_$_DDProduction._graphOfWeakNT
+_OBJC_IVAR_$_DDProduction._dottedProductions
+_OBJC_IVAR_$_DDLocation._fileName
+_OBJC_IVAR_$_DDLocation._firstLine
+_OBJC_IVAR_$_DDLocation._firstColumn
+_OBJC_IVAR_$_DDLocation._lastLine
+_OBJC_IVAR_$_DDLocation._lastColumn
+_OBJC_IVAR_$_DDCompilationNote._message
+_OBJC_IVAR_$_DDCompilationNote._level
+_OBJC_IVAR_$_DDParserState._stateIndex
+_OBJC_IVAR_$_DDParserState._children
+_OBJC_IVAR_$_DDParserState._numberOfSamples
+_OBJC_IVAR_$_DDParserState._weightFromChild
+_OBJC_IVAR_$_DDParserState._isRootState
+_OBJC_IVAR_$_DDParserState._totalNumberOfSamples
+_OBJC_IVAR_$_DDStatsBuilder._knownParserStates
+_OBJC_IVAR_$_DDCompilerState._grammar
+_OBJC_IVAR_$_DDCompilerState._states
+_OBJC_IVAR_$_DDCompilerState._dotedProduction
+_OBJC_IVAR_$_DDCompilerState._numberOfDotedProduction
+_OBJC_IVAR_$_DDCompilerState._plCollection
+_OBJC_IVAR_$_DDCompilerState._ExternalTerminalToInternalTerminal
+_OBJC_IVAR_$_DDCompilerState._InternalTerminalToTerminalExternal
+_OBJC_IVAR_$_DDCompilerState._ExternalNonTerminalToInternalNonTerminal
+_OBJC_IVAR_$_DDCompilerState._InternalNonTerminalToTerminalNonExternal
+_OBJC_IVAR_$_DDLRItem._production
+_OBJC_IVAR_$_DDLRItem._pos
+_OBJC_IVAR_$_DDLRItem._dotedProductionIndex
+_OBJC_IVAR_$_DDLRItem._weight
+_OBJC_IVAR_$_DDAbstractType._name
+_OBJC_IVAR_$_DDAbstractType._arguments
+_OBJC_IVAR_$_DDAbstractType._kind
+_OBJC_IVAR_$_DDAbstractType._location
+_OBJC_IVAR_$_DDTypeInhabitant._names
+_OBJC_IVAR_$_DDTypeInhabitant._hash
+_OBJC_IVAR_$_DDTypeChecker._collection
+_OBJC_IVAR_$_DDTypeChecker._cache
+_OBJC_IVAR_$_DDTypeChecker._delegate
+_OBJC_CLASS_$_DDVariableNotFoundError
+_OBJC_CLASS_$_DDEmptyPatternError
+_OBJC_CLASS_$_DDInvalidRangeError
+_OBJC_CLASS_$_DDDictionaryError
+_OBJC_CLASS_$_DDUnaryOperator
+_OBJC_METACLASS_$_DDUnaryOperator
+_OBJC_METACLASS_$_DDRepeatMinMax
+_OBJC_CLASS_$_DDRepeatMinMax
+_OBJC_CLASS_$_DDLookupRegexp
+_OBJC_METACLASS_$_DDLookupRegexp
+_OBJC_METACLASS_$_DDErrorRegexp
+_OBJC_CLASS_$_DDErrorRegexp
+_OBJC_METACLASS_$_DDVariableNotFoundError
+_OBJC_METACLASS_$_DDEmptyPatternError
+_OBJC_METACLASS_$_DDInvalidRangeError
+_OBJC_METACLASS_$_DDDictionaryError
+_OBJC_CLASS_$_DDBinderInfo
+_OBJC_METACLASS_$_DDBinderInfo
+_OBJC_CLASS_$_DDGrammar
+_OBJC_CLASS_$_DDNonTerminal
+_OBJC_CLASS_$_DDSymbol
+_OBJC_METACLASS_$_DDGrammar
+_OBJC_METACLASS_$_DDSymbol
+_OBJC_CLASS_$_DDProduction
+_OBJC_METACLASS_$_DDNonTerminal
+_OBJC_METACLASS_$_DDProduction
+_OBJC_CLASS_$_DDParserState
+_OBJC_METACLASS_$_DDParserState
+_OBJC_CLASS_$_DDCompilerState
+_OBJC_METACLASS_$_DDCompilerState
+_OBJC_CLASS_$_DDAbstractType
+_OBJC_METACLASS_$_DDAbstractType
+_OBJC_CLASS_$_DDTypeInhabitant
+_OBJC_METACLASS_$_DDTypeInhabitant
+_OBJC_CLASS_$_DDTypeChecker
+_OBJC_METACLASS_$_DDTypeChecker
+__ZL11globalMutex
+_kDataDetectorsErrorDomain
+_DDDottedProductionSetCallBacks
+_indexSetCallBacks
+___DDScannerLoaderInitScannerIdentifierMappings.keys
+_sCrashHandler
+_DDTypeRegister.lock
+_DDResultExtractDayMonthYear.actualFirstWeekDay
+_handleResults.keys
++[DDBasicRegexp epsilon].epsilon
+__ZZN17dd_icu_3_6__5_0_213UnicodeString16getStaticClassIDEvE7classID
+_sDisableInternalPatterns
++[DDRegexpManager(Private) _frameworkBundle]._sDDFrameworkBundle
+_beginStrLocation
+__DDLRTableCreateDataRepresentation.alreadyLogged
+__ZZN17dd_icu_3_6__5_0_27UVector16getStaticClassIDEvE7classID
+_DDProtoLexemeCollectionGetTypeID.typeID
+_scannerTypesToScannerIdentifiers
+_scannerIdentifiersToScannerTypes
+___DDScannerLoaderInitScannerIdentifierMappings.sOnce
+_DDScannerCreateWithTypeAndLocale.alreadyLogged
+_sDDCacheDirectoryURL
+_DDCacheWriteAtPath.alreadyLogged
+_DDCacheWriteAtPath.alreadyLogged31
+_DDCacheGetTypeID.typeID
+_sDebugSource
+_DDLookupTableRefLookupCurrentWord.sQuickCheckNormalizerNFKC
+_DDLookupTableRefLookupCurrentWord.sOnce
+_DDLookupTableRefLookupCurrentWord.sOnce49
+_DDLookupTableRefLookupCurrentWord.sOnce54
+_DDLookupTableRefLookupCurrentWord.sOnce59
+_DDLookupTableGetTypeID.typeID
+_DDTrieLookup.alreadyLogged
+_DDLookupTrieGetDataExtra.alreadyLogged
+_DDLookupTrieGetDataExtra.alreadyLogged20
+_DDLookupTrieGetDataExtra.alreadyLogged24
+_DDLookupTrieGetDataExtra.alreadyLogged28
+_DDLookupTrieGetDataExtra.alreadyLogged34
+__DDMakeExtraData.alreadyLogged
+__DDMakeExtraData.alreadyLogged38
+__DDLookupTrieInsertDataInTrie.alreadyLogged44
+__DDLookupTrieInsertDataInTrie.alreadyLogged45
+__DDLookupTrieInsertDataInTrie.alreadyLogged49
+__DDLookupTrieInsertDataInTrie.alreadyLogged50
+__DDLookupTrieInsertDataInTrie.alreadyLogged53
+__DDLookupTrieInsertDataInTrie.alreadyLogged56
+_DDTrieInsertKey.alreadyLogged
+_DDTrieInsertKey.alreadyLogged67
+__DDTrieLookupChar.alreadyLogged
+__DDTrieLookupChar.alreadyLogged76
+__DDTrieLookupChar.alreadyLogged80
+_DDScannerGetTypeID.typeID
+_DDScanQueryGetTypeID.typeID
+_DDTokenCacheMoveStreamOffset.alreadyLogged
+_DDTokenCacheMoveStreamOffset.alreadyLogged7
+__FillNextTokenInCache.sOnce
+_DDTokenCacheItemSet.alreadyLogged
+_DDTokenCacheGetItemAtIndexCreateIfNeeded.alreadyLogged
+_DDTokenCacheGetItemAtIndexCreateIfNeeded.alreadyLogged18
+_DDTokenCacheGetItemAtIndexCreateIfNeeded.alreadyLogged22
+_DDResultGetCategory.eventSet
+_DDResultGetCategory.urlSet
+_DDResultGetCategory.sOnce
+_DDResultGetCategory.sOnce53
+_DDResultGetCategory.sQueue
+_DDResultGetCategory.sOnce58
+_DDResultGetCategory.sQueue59
+_DDResultGetTypeID.typeID
+_logInitialized
+_shouldLog
+__DDFullLogFunction.sOnce
+__DDFullLogFunction.sQueue
+__DDSetupDecalog.didSetup
+_logStreamHandle
+_sCrashHandlerData
+_DDInitialSetup.setupDone
+_DDAddressBookAccessAllowed.sandbox_result
+_DDAddressBookAccessAllowed.sOnce
+_DDCalendarAccessAllowed.sandbox_result
+_DDCalendarAccessAllowed.sOnce
+__ZZN17dd_icu_3_6__5_0_213ParsePosition16getStaticClassIDEvE7classID
+_sForce24HrsFormat
+_DDCreateTimeZoneValuesFromResultValue._sTimeZonesPlist
+_DDCreateTimeZoneValuesFromResultValue.sOnce
+__sLocaleForExtraction
+_DDResultExtractDayAndMonthWithSpecialDayIdentifierInYear._sVacationsInfoPlist
+_DDResultExtractDayAndMonthWithSpecialDayIdentifierInYear.sOnce
+_extractJapaneseYear.japaneseYearFormatter
+_extractJapaneseYear.sOnce
+_extractJapaneseYear.sOnce132
+_extractJapaneseYear.sQueue
+_extractInteger.numberParser
+_extractInteger.sOnce
+_extractInteger.sOnce147
+_extractInteger.sQueue
+_getLocaleForExtraction.sOnce
+_DDResultExtractDayMonthYear.firstWeekDayLocale
+_DDResultExtractDayMonthYear.sOnce
+_DDResultExtractDayMonthYear.sQueue
+_DDDFAScannerGetTypeID.typeID
+_DDDFACacheGetTypeID.typeID
+_DDLazy_kABPersonFlags.symbolPtr
+_DDLazy_kABPersonFlags.symbolInited
+__addressBookFrameworkHandle
+_DDABPersonClass.sDDABPersonClass
+_DDABPersonClass.sOnce
+_DDLazy_kABInsertedRecords.symbolPtr
+_DDLazy_kABInsertedRecords.symbolInited
+_DDLazy_kABLastNameProperty.symbolPtr
+_DDLazy_kABLastNameProperty.symbolInited
+_DDLazy_kABFirstNameProperty.symbolPtr
+_DDLazy_kABFirstNameProperty.symbolInited
+_DDLazy_kABJobTitleProperty.symbolPtr
+_DDLazy_kABJobTitleProperty.symbolInited
+_DDLazy_kABOrganizationProperty.symbolPtr
+_DDLazy_kABOrganizationProperty.symbolInited
+_DDLazy_kABNicknameProperty.symbolPtr
+_DDLazy_kABNicknameProperty.symbolInited
+_DDLazy_kABDatabaseChangedExternallyNotification.symbolPtr
+_DDLazy_kABDatabaseChangedExternallyNotification.symbolInited
+_DDLazy_kABDatabaseChangedNotification.symbolPtr
+_DDLazy_kABDatabaseChangedNotification.symbolInited
+_DDABAddressBookClass.sDDABAddressBookClass
+_DDABAddressBookClass.sOnce
+_addressBookFrameworkLoaded.once
+_addressBookFrameworkSuccessfullyLoaded
+_DDABAddRecord.alreadyLogged
+_DDMDQueryStop
+_DDMDQueryCreate
+_DDMDQuerySetDispatchQueue
+_DDMDQueryExecute
+_DDMDQueryDisableUpdates
+_DDMDQueryCopySortingAttributes
+_handleResults.sOnce
+_DDMDQueryGetResultCount
+_handleResults.sOnce74
+_handleResults.sOnce78
+_DDMDQueryGetAttributeValueOfResultAtIndex
+_handleResults.sOnce84
+_handleResults.values
+_handleResults.sOnce102
+_DDMDQueryEnableUpdates
+_DDkMDQueryProgressNotification.symbolPtr
+_DDkMDQueryProgressNotification.symbolInited
+__applicationServicesFrameworkHandle
+_applicationServicesLoaded.once
+_applicationServicesSuccessfullyLoaded
+_DDkMDQueryDidUpdateNotification.symbolPtr
+_DDkMDQueryDidUpdateNotification.symbolInited
+_DDkMDItemCoverage.symbolPtr
+_DDkMDItemCoverage.symbolInited
+_DDkMDItemCity.symbolPtr
+_DDkMDItemCity.symbolInited
+_sScannerShouldLoadDebugInformation
+_DDAddressBookAccessAllowed
+_DDAddressResultCanBeMergedWith
+_DDApplyOptions
+_DDBinderAIMOrEmailKey
+_DDBinderAddressBookContactNameKey
+_DDBinderAirlineCodeKey
+_DDBinderApproxTimeKey
+_DDBinderBonjourAddressKey
+_DDBinderCityKey
+_DDBinderCompanyNameKey
+_DDBinderContactFirstNameKey
+_DDBinderContactKey
+_DDBinderContactLastNameKey
+_DDBinderContactMiddleNameKey
+_DDBinderContactNameKey
+_DDBinderContactNameSuffixKey
+_DDBinderContactTitleKey
+_DDBinderCountryKey
+_DDBinderDateDurationKey
+_DDBinderDateKey
+_DDBinderDateTimeKey
+_DDBinderDurationKey
+_DDBinderEmailKey
+_DDBinderExtensionKey
+_DDBinderFileURLKey
+_DDBinderFlightInformationKey
+_DDBinderFlightNumberKey
+_DDBinderFullAddressKey
+_DDBinderGenericURLKey
+_DDBinderHttpURLKey
+_DDBinderIMScreenNameKey
+_DDBinderItemNumberKey
+_DDBinderJabberOrEmailKey
+_DDBinderJobTitleKey
+_DDBinderLabelKey
+_DDBinderLocationKey
+_DDBinderMailURLKey
+_DDBinderMapsURLKey
+_DDBinderMoneyKey
+_DDBinderNoResultKey
+_DDBinderPOBoxKey
+_DDBinderPhoneNumberKey
+_DDBinderQuotedShortPhoneNumberKey
+_DDBinderSignatureBlockKey
+_DDBinderSpecialDateTimeKey
+_DDBinderStateKey
+_DDBinderStreetKey
+_DDBinderStreetNameKey
+_DDBinderStreetNumberKey
+_DDBinderTimeDurationKey
+_DDBinderTimeKey
+_DDBinderTimeOffsetKey
+_DDBinderTimestampKey
+_DDBinderTrackingNumberKey
+_DDBinderUnquotedShortPhoneNumberKey
+_DDBinderValueKey
+_DDBinderWebURLKey
+_DDBinderZipCodeKey
+_DDCacheCopyStatsDescription
+_DDCacheCreateWithSubTable
+_DDCacheSetTemporaryDirectory
+_DDCacheWriteAtPath
+_DDCacheWriteWithSuffix
+_DDCalendarAccessAllowed
+_DDCrash
+_DDCreateDataFromFileAtPath
+_DDCreateDataFromFileAtUrl
+_DDCreateRelatedResultsArray
+_DDCreateTimeZoneValuesFromResultValue
+_DDDFACacheCreateFromBundle
+_DDDFACacheCreateFromFramework
+_DDDFAScannerCopyResults
+_DDDFAScannerCreateFromCache
+_DDDFAScannerEmitResult
+_DDDFAScannerFirstResultInUnicharArray
+_DDDFAScannerGetCFTypeID
+_DDDFAScannerReset
+_DDDFAScannerScanQuery
+_DDDFAScannerScanString
+_DDDFAScannerScanStringWithRange
+_DDDFAScannerScanUnicharArray
+_DDDFAScannerScanUnicharArrayFragment
+_DDDFAScannerSimulateState
+_DDDataDetectorBuilderSetup
+_DDDataDetectorSetUsesDebugSource
+_DDError
+_DDFastIntegerExtraction
+_DDForce24HrsFormatProcessWideForExtraction
+_DDFullLogFunction
+_DDInitialSetup
+_DDLog
+_DDLogAssertionFailure
+_DDLogErrD
+_DDLogWarnD
+_DDLogv
+_DDPatternLoaderCopyEnabledCategories
+_DDPatternLoaderCopyLoadedFileURLs
+_DDPatternLoaderCreateAndLoadAllFrameworkPatterns
+_DDPatternLoaderCreateCache
+_DDPatternLoaderCreateFromPaths
+_DDPatternLoaderCreateFromPathsWithOptions
+_DDPatternLoaderCreateScanner
+_DDResultAddSubresult
+_DDResultAttributeName
+_DDResultCopyExtractedDateFromReferenceDate
+_DDResultCopyExtractedDateFromReferenceDateWithLocale
+_DDResultCopyExtractedStartDateEndDate
+_DDResultCopyExtractedStartDateEndDateWithLocale
+_DDResultCopyExtractedURL
+_DDResultCopyExtractedURLWithOptions
+_DDResultCopyFullAddressComponents
+_DDResultCopyIMScreenNameValue
+_DDResultCopyMailValue
+_DDResultCopyPhoneValue
+_DDResultCreate
+_DDResultCreateCopy
+_DDResultCreateEmpty
+_DDResultCreateFromDateTimeResults
+_DDResultCreateFromXMLNode
+_DDResultCreateVerboseXMLDescription
+_DDResultCreateVerboseXMLDescriptionFromResults
+_DDResultCreateVerboseXMLRepresentation
+_DDResultCreateXMLRepresentation
+_DDResultExtractDayAndMonthWithSpecialDayIdentifierInYear
+_DDResultExtractHourMinuteSecondCopyTimeZone
+_DDResultGetCategory
+_DDResultGetContextualData
+_DDResultGetCountryCode
+_DDResultGetDuration
+_DDResultGetMatchedString
+_DDResultGetQueryRange
+_DDResultGetQueryRangeForURLification
+_DDResultGetRange
+_DDResultGetRangeForURLification
+_DDResultGetRawValue
+_DDResultGetScore
+_DDResultGetSubResults
+_DDResultGetSubresultWithType
+_DDResultGetTimeOffset
+_DDResultGetType
+_DDResultGetValue
+_DDResultIsEqualToUnitTestResult
+_DDResultIsPastDate
+_DDResultIsPastDateWithLocale
+_DDResultProximitySort
+_DDResultSetAbsoluteRange
+_DDResultSetContent
+_DDResultSetContextualData
+_DDResultSetLocaleForExtraction
+_DDResultSetMatchedString
+_DDResultSetScore
+_DDResultSetSubResults
+_DDResultSetType
+_DDResultSetValue
+_DDSLSetupHandler
+_DDSLSourceCreate
+_DDSLSourceEvaluateQueries
+_DDSLSourceLoadTable
+_DDScanQueryAddLineBreak
+_DDScanQueryAddSeparator
+_DDScanQueryAddTextFragment
+_DDScanQueryCopyRange
+_DDScanQueryCreate
+_DDScanQueryCreateFromString
+_DDScanQueryGetFragmentMetaData
+_DDScanQueryGetFragmentRange
+_DDScanQueryGetNumberOfFragments
+_DDScanQueryHasNoLetterBeforeNextLine
+_DDScanQuerySetMetadataReleaseCallback
+_DDScannerCancelScanning
+_DDScannerCopyItemSetForStateAtIndex
+_DDScannerCopyResults
+_DDScannerCopyResultsCheckOverlap
+_DDScannerCopyResultsWithOptions
+_DDScannerCreate
+_DDScannerCreateFromCache
+_DDScannerCreateWithCacheFile
+_DDScannerCreateWithFileURL
+_DDScannerCreateWithLocale
+_DDScannerCreateWithType
+_DDScannerGetCache
+_DDScannerGetExtendedResults
+_DDScannerGetMemoryUsed
+_DDScannerGetOptions
+_DDScannerHasCapabilities
+_DDScannerLoadAddressBookData
+_DDScannerLoaderGetIdentifierStringForScannerType
+_DDScannerLoaderScannerGetTypeWithIdentifierString
+_DDScannerLoaderSetUseAgent
+_DDScannerPurgeCaches
+_DDScannerReset
+_DDScannerResultCreateXMLDescription
+_DDScannerScanQuery
+_DDScannerScanString
+_DDScannerScanStringWithRange
+_DDScannerSetLocale
+_DDScannerSetOptions
+_DDScannerSetProgressReportingBlock
+_DDScannerSetStatsBuilder
+_DDSetCrashHandler
+_DDStampContextDestroy
+_DDStampContextFillInWithTypeString
+_DDSuffixCreateForString
+_DDWriteFileAtPath
+_DataDetectorsProximitySort
+_OBJC_CLASS_$_DDAtomicRegexp
+_OBJC_CLASS_$_DDBasicRegexp
+_OBJC_CLASS_$_DDBindableRegexp
+_OBJC_CLASS_$_DDCompilationNote
+_OBJC_CLASS_$_DDConcatenationRegexp
+_OBJC_CLASS_$_DDDisjunctionRegexp
+_OBJC_CLASS_$_DDLRItem
+_OBJC_CLASS_$_DDLocation
+_OBJC_CLASS_$_DDOneOrMoreExp
+_OBJC_CLASS_$_DDOperatorRegexp
+_OBJC_CLASS_$_DDOptionalExp
+_OBJC_CLASS_$_DDRegexpManager
+_OBJC_CLASS_$_DDRepeatCount
+_OBJC_CLASS_$_DDRepeatMax
+_OBJC_CLASS_$_DDScannerResult
+_OBJC_CLASS_$_DDStarExp
+_OBJC_CLASS_$_DDStatsBuilder
+_OBJC_CLASS_$_DDTokenRegexp
+_OBJC_CLASS_$_DDVariable
+_OBJC_IVAR_$_DDOperatorRegexp._subMatchers
+_OBJC_METACLASS_$_DDAtomicRegexp
+_OBJC_METACLASS_$_DDBasicRegexp
+_OBJC_METACLASS_$_DDBindableRegexp
+_OBJC_METACLASS_$_DDCompilationNote
+_OBJC_METACLASS_$_DDConcatenationRegexp
+_OBJC_METACLASS_$_DDDisjunctionRegexp
+_OBJC_METACLASS_$_DDLRItem
+_OBJC_METACLASS_$_DDLocation
+_OBJC_METACLASS_$_DDOneOrMoreExp
+_OBJC_METACLASS_$_DDOperatorRegexp
+_OBJC_METACLASS_$_DDOptionalExp
+_OBJC_METACLASS_$_DDRegexpManager
+_OBJC_METACLASS_$_DDRepeatCount
+_OBJC_METACLASS_$_DDRepeatMax
+_OBJC_METACLASS_$_DDScannerResult
+_OBJC_METACLASS_$_DDStarExp
+_OBJC_METACLASS_$_DDStatsBuilder
+_OBJC_METACLASS_$_DDTokenRegexp
+_OBJC_METACLASS_$_DDVariable
+__ZN17dd_icu_3_6__5_0_2eqERKNS_11StringPieceES2_
+_decalogEnable
+_kDDHomeFAXLabel
+_kDDHomeLabel
+_kDDInstantMessageServiceAIM
+_kDDInstantMessageServiceFacebook
+_kDDInstantMessageServiceGaduGadu
+_kDDInstantMessageServiceGoogleTalk
+_kDDInstantMessageServiceICQ
+_kDDInstantMessageServiceJabber
+_kDDInstantMessageServiceMSN
+_kDDInstantMessageServiceQQ
+_kDDInstantMessageServiceSkype
+_kDDInstantMessageServiceYahoo
+_kDDMainLabel
+_kDDMobileLabel
+_kDDOtherLabel
+_kDDPagerLabel
+_kDDWorkFAXLabel
+_kDDWorkLabel
+_kDDiPhoneLabel
+_u_countChar32
+_u_memchr
+_u_memchr32
+_u_memcmp
+_u_memcmpCodePointOrder
+_u_memcpy
+_u_memmove
+_u_memrchr
+_u_memrchr32
+_u_memset
+_u_setAtomicIncDecFunctions
+_u_setMutexFunctions
+_u_strCompare
+_u_strCompareIter
+_u_strFindFirst
+_u_strFindLast
+_u_strHasMoreChar32Than
+_u_strcat
+_u_strchr
+_u_strchr32
+_u_strcmp
+_u_strcmpCodePointOrder
+_u_strcpy
+_u_strcspn
+_u_strlen
+_u_strncat
+_u_strncmp
+_u_strncmpCodePointOrder
+_u_strncpy
+_u_strpbrk
+_u_strrchr
+_u_strrchr32
+_u_strrstr
+_u_strspn
+_u_strstr
+_u_strtok_r
+_u_terminateChars
+_u_terminateUChar32s
+_u_terminateUChars
+_u_terminateWChars
+_u_unescape
+_u_unescapeAt
+_umtx_atomic_dec
+_umtx_atomic_inc
+_umtx_lock
+_umtx_unlock
+_ustr_hashCharsN
+_ustr_hashICharsN
+_ustr_hashUCharsN
+_CC_MD2
+_CFAbsoluteTimeAddGregorianUnits
+_CFAbsoluteTimeGetCurrent
+_CFAbsoluteTimeGetDayOfWeek
+_CFAbsoluteTimeGetGregorianDate
+_CFArrayAppendArray
+_CFArrayAppendValue
+_CFArrayApplyFunction
+_CFArrayContainsValue
+_CFArrayCreate
+_CFArrayCreateCopy
+_CFArrayCreateMutable
+_CFArrayCreateMutableCopy
+_CFArrayExchangeValuesAtIndices
+_CFArrayGetCount
+_CFArrayGetFirstIndexOfValue
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFArrayInsertValueAtIndex
+_CFArrayRemoveAllValues
+_CFArrayRemoveValueAtIndex
+_CFArrayReplaceValues
+_CFArraySetValueAtIndex
+_CFArraySortValues
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFBundleCopyBuiltInPlugInsURL
+_CFBundleCopyBundleURL
+_CFBundleCopyResourceURL
+_CFBundleCopyResourceURLForLocalization
+_CFBundleCopyResourceURLsOfTypeForLocalization
+_CFBundleCreate
+_CFBundleCreateBundlesFromDirectory
+_CFBundleGetBundleWithIdentifier
+_CFBundleGetFunctionPointerForName
+_CFBundleGetIdentifier
+_CFBundleGetMainBundle
+_CFBundleGetValueForInfoDictionaryKey
+_CFCalendarAddComponents
+_CFCalendarComposeAbsoluteTime
+_CFCalendarCopyCurrent
+_CFCalendarCreateWithIdentifier
+_CFCalendarDecomposeAbsoluteTime
+_CFCalendarGetFirstWeekday
+_CFCalendarGetRangeOfUnit
+_CFCalendarSetLocale
+_CFCalendarSetTimeZone
+_CFCharacterSetGetPredefined
+_CFCopyHomeDirectoryURLForUser
+_CFCopySearchPathForDirectoriesInDomains
+_CFCopyTypeIDDescription
+_CFDataAppendBytes
+_CFDataCreate
+_CFDataCreateCopy
+_CFDataCreateMutable
+_CFDataCreateWithBytesNoCopy
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFDataGetMutableBytePtr
+_CFDataIncreaseLength
+_CFDataReplaceBytes
+_CFDataSetLength
+_CFDateCompare
+_CFDateCreate
+_CFDateFormatterCreate
+_CFDateFormatterGetAbsoluteTimeFromString
+_CFDateFormatterGetFormat
+_CFDateFormatterSetFormat
+_CFDateFormatterSetProperty
+_CFDateGetAbsoluteTime
+_CFDictionaryAddValue
+_CFDictionaryApplyFunction
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryGetCount
+_CFDictionaryGetCountOfKey
+_CFDictionaryGetCountOfValue
+_CFDictionaryGetKeysAndValues
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFDictionaryGetValueIfPresent
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFEqual
+_CFErrorCreate
+_CFGetTypeID
+_CFGregorianDateGetAbsoluteTime
+_CFHash
+_CFLocaleCopyCurrent
+_CFLocaleCopyPreferredLanguages
+_CFLocaleCreate
+_CFLocaleGetIdentifier
+_CFLocaleGetSystem
+_CFLocaleGetValue
+_CFLog
+_CFMakeCollectable
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetLocalCenter
+_CFNotificationCenterRemoveObserver
+_CFNumberCompare
+_CFNumberCreate
+_CFNumberFormatterCreate
+_CFNumberFormatterGetValueFromString
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPreferencesGetAppBooleanValue
+_CFPropertyListCreateWithData
+_CFPropertyListCreateWithStream
+_CFReadStreamClose
+_CFReadStreamCreateWithFile
+_CFReadStreamOpen
+_CFRelease
+_CFRetain
+_CFSetAddValue
+_CFSetApplyFunction
+_CFSetContainsValue
+_CFSetCreate
+_CFSetCreateMutable
+_CFSetGetCount
+_CFSetGetCountOfValue
+_CFSetGetValues
+_CFSetRemoveAllValues
+_CFStringAppend
+_CFStringAppendCString
+_CFStringAppendCharacters
+_CFStringAppendFormat
+_CFStringCompare
+_CFStringCreateArrayBySeparatingStrings
+_CFStringCreateCopy
+_CFStringCreateExternalRepresentation
+_CFStringCreateFromExternalRepresentation
+_CFStringCreateMutable
+_CFStringCreateMutableCopy
+_CFStringCreateMutableWithExternalCharactersNoCopy
+_CFStringCreateWithBytes
+_CFStringCreateWithBytesNoCopy
+_CFStringCreateWithCString
+_CFStringCreateWithCharacters
+_CFStringCreateWithFileSystemRepresentation
+_CFStringCreateWithFormat
+_CFStringCreateWithFormatAndArguments
+_CFStringCreateWithPascalString
+_CFStringCreateWithPascalStringNoCopy
+_CFStringCreateWithSubstring
+_CFStringFind
+_CFStringFindAndReplace
+_CFStringFindCharacterFromSet
+_CFStringFold
+_CFStringGetBytes
+_CFStringGetCString
+_CFStringGetCharacterAtIndex
+_CFStringGetCharacters
+_CFStringGetCharactersPtr
+_CFStringGetFileSystemRepresentation
+_CFStringGetLength
+_CFStringGetLineBounds
+_CFStringGetMaximumSizeForEncoding
+_CFStringGetMaximumSizeOfFileSystemRepresentation
+_CFStringGetPascalString
+_CFStringGetTypeID
+_CFStringHasPrefix
+_CFStringNormalize
+_CFStringOpenUText
+_CFStringSetExternalCharactersNoCopy
+_CFStringTokenizerAdvanceToNextToken
+_CFStringTokenizerCreate
+_CFStringTokenizerGetCurrentSubTokens
+_CFStringTokenizerGetCurrentTokenRange
+_CFStringTokenizerSetStringWithOptions
+_CFStringTrimWhitespace
+_CFStringUppercase
+_CFTimeZoneCopyDefault
+_CFTimeZoneCopySystem
+_CFTimeZoneCreateWithName
+_CFTimeZoneCreateWithTimeIntervalFromGMT
+_CFURLCopyAbsoluteURL
+_CFURLCopyFileSystemPath
+_CFURLCreateCopyAppendingPathComponent
+_CFURLCreateCopyDeletingLastPathComponent
+_CFURLCreateFromFileSystemRepresentation
+_CFURLCreateWithFileSystemPath
+_CFURLGetFileSystemRepresentation
+_CFURLHasDirectoryPath
+_CFWriteStreamClose
+_CFWriteStreamCreateWithFile
+_CFWriteStreamOpen
+_CFWriteStreamWrite
+_NSAllocateCollectable
+_NSClassFromString
+_NSCocoaErrorDomain
+_NSInternalInconsistencyException
+_NSLocalizedDescriptionKey
+_NSLog
+_NSPOSIXErrorDomain
+_NSStringFromRange
+_NSStringFromSelector
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMapTable
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableAttributedString
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSXMLDocument
+_OBJC_CLASS_$_NSXMLElement
+_OBJC_CLASS_$_NSXMLNode
+_OBJC_EHTYPE_$_NSException
+_OBJC_EHTYPE_id
+_OBJC_METACLASS_$_NSObject
+_OSAtomicAdd32Barrier
+_SecTaskCopyValueForEntitlement
+_SecTaskCreateFromSelf
+_TCCAccessPreflight
+__Block_copy
+__Block_object_assign
+__Block_object_dispose
+__Block_release
+__CFGetProgname
+__CFRuntimeCreateInstance
+__CFRuntimeRegisterClass
+__CFXPCCreateCFObjectFromXPCMessage
+__DefaultRuneLocale
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+__ZdlPv
+__Znwm
+___CFConstantStringClassReference
+___assert_rtn
+___bzero
+___error
+___maskrune
+___memcpy_chk
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdinp
+___stdoutp
+___tolower
+___toupper
+__objc_empty_cache
+__xpc_runtime_is_app_sandboxed
+__xpc_type_dictionary
+__xpc_type_error
+_abort
+_access
+_atof
+_atoi
+_calloc
+_clearerr
+_close
+_confstr
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_group_async
+_dispatch_group_create
+_dispatch_group_notify
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_sync
+_dlopen
+_dlsym
+_exit
+_fclose
+_ferror
+_fileno
+_floor
+_fopen
+_fprintf
+_fread
+_free
+_fstat$INODE64
+_funopen
+_fwrite
+_getc
+_isatty
+_kCFAbsoluteTimeIntervalSince1970
+_kCFAllocatorDefault
+_kCFAllocatorMalloc
+_kCFAllocatorNull
+_kCFBooleanTrue
+_kCFBundleVersionKey
+_kCFCopyStringDictionaryKeyCallBacks
+_kCFDateFormatterTimeZone
+_kCFErrorDomainPOSIX
+_kCFGregorianCalendar
+_kCFLocaleCountryCode
+_kCFLocaleLanguageCode
+_kCFPreferencesCurrentApplication
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCFTypeSetCallBacks
+_kTCCServiceAddressBook
+_kTCCServiceCalendar
+_madvise
+_malloc
+_malloc_default_purgeable_zone
+_malloc_make_nonpurgeable
+_malloc_make_purgeable
+_malloc_zone_free
+_malloc_zone_malloc
+_memcmp
+_memcpy
+_memmove
+_memset
+_mkdir
+_mmap
+_munmap
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_assign_weak
+_objc_begin_catch
+_objc_collectingEnabled
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_rethrow
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_read_weak
+_objc_setProperty
+_objc_terminate
+_open
+_printf
+_pthread_mutex_lock
+_pthread_mutex_unlock
+_qsort
+_realloc
+_realpath$DARWIN_EXTSN
+_sscanf
+_stat$INODE64
+_strchr
+_strcmp
+_strdup
+_strerror
+_strlen
+_u_charDigitValue
+_u_charsToUChars
+_u_errorName
+_u_getIntPropertyValue
+_u_isIDPart
+_u_isIDStart
+_u_isISOControl
+_u_strFoldCase
+_uiter_setString
+_unlink
+_unorm2_getInstance
+_unorm2_quickCheck
+_unorm_next
+_uset_add
+_uset_addRange
+_uset_applyPattern
+_uset_clone
+_uset_close
+_uset_contains
+_uset_containsString
+_uset_getItem
+_uset_getItemCount
+_uset_isEmpty
+_uset_open
+_uset_openEmpty
+_uset_openPattern
+_utext_close
+_utext_current32
+_utext_moveIndex32
+_utext_next32
+_utext_setNativeIndex
+_utf8_appendCharSafeBody
+_xmlAddChild
+_xmlBufferContent
+_xmlBufferCreate
+_xmlBufferFree
+_xmlFree
+_xmlFreeNode
+_xmlGetProp
+_xmlHasProp
+_xmlNewNode
+_xmlNewProp
+_xmlNewText
+_xmlNodeDump
+_xpc_connection_cancel
+_xpc_connection_create
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_dictionary_set_uint64
+_xpc_dictionary_set_value
+_xpc_get_type
+_xpc_release
+_xpc_uint64_create
+dyld_stub_binder

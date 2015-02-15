@@ -1,0 +1,12 @@
+radr://5614542
+_boot_multidimensional
+_PL_thr_key
+_Perl_call_list
+_Perl_croak_nocontext
+_Perl_get_sv
+_Perl_hv_common
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+_hook_op_check
+_pthread_getspecific
+dyld_stub_binder

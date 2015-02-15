@@ -1,0 +1,10 @@
+_CGPointMake
+_CGRectMake
+_CGSizeMake
+_CGVectorMake
+___CGAffineTransformMake
+___CGPointApplyAffineTransform
+___CGPointEqualToPoint
+___CGSizeApplyAffineTransform
+___CGSizeEqualToSize
+dyld_stub_binder

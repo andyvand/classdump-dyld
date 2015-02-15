@@ -1,0 +1,12 @@
+radr://5614542
+_boot_File__DosGlob
+_Perl_call_list
+_Perl_get_hv
+_Perl_hv_common_key_len
+_Perl_my_cxt_init
+_Perl_newSVpvn
+_Perl_newXS
+_Perl_sv_2mortal
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+dyld_stub_binder

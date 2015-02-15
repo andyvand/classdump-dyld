@@ -1,0 +1,1 @@
+#import <jhat/JavaLaunchHelper.h>

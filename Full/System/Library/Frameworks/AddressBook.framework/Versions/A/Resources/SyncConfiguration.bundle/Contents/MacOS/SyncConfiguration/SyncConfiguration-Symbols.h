@@ -1,0 +1,14 @@
+radr://5614542
+_NSLog
+_OBJC_CLASS_$_ABSyncManager
+_OBJC_CLASS_$_ISyncManager
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSTask
+_OBJC_EHTYPE_$_NSException
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+_objc_begin_catch
+_objc_end_catch
+_objc_msgSend
+dyld_stub_binder

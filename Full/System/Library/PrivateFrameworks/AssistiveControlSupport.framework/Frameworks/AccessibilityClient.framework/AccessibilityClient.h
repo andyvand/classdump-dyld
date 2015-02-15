@@ -1,0 +1,17 @@
+#import <AccessibilityClient/NSAXComposedCharacter.h>
+#import <AccessibilityClient/NSAXComposedCharEnumerator.h>
+#import <AccessibilityClient/NSAXApplication.h>
+#import <AccessibilityClient/NSAXApplicationManager.h>
+#import <AccessibilityClient/NSAXElement.h>
+#import <AccessibilityClient/NSAXNotificationInfo.h>
+#import <AccessibilityClient/NSAXTextPosition.h>
+#import <AccessibilityClient/NSAXTextPositionIndex.h>
+#import <AccessibilityClient/NSAXTextPositionMarker.h>
+#import <AccessibilityClient/NSAXTextRange.h>
+#import <AccessibilityClient/NSAXTextRangeIndex.h>
+#import <AccessibilityClient/NSAXTextRangeMarker.h>
+#import <AccessibilityClient/NSAXUIElement.h>
+#import <AccessibilityClient/NSAXMockUIElement.h>
+#import <AccessibilityClient/NSAXMouse.h>
+#import <AccessibilityClient/NSAXRemoteSearchManager.h>
+#import <AccessibilityClient/NSAXTargetSelector.h>

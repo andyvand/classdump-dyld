@@ -1,0 +1,203 @@
+-[NSApplicationAWT usingDefaultNib]
+-[NSApplicationAWT postDummyEvent]
+-[NSApplicationAWT waitForDummyEvent]
+-[NSApplicationAWT init]
++[NSApplicationAWT runAWTLoopWithApp:]
+-[NSApplicationAWT sendEvent:]
+-[NSApplicationAWT nextEventMatchingMask:untilDate:inMode:dequeue:]
+-[NSApplicationAWT orderFrontStandardAboutPanelWithOptions:]
+-[NSApplicationAWT setDockIconWithEnv:]
+-[NSApplicationAWT registerWithProcessManager]
+-[NSApplicationAWT finishLaunching]
+-[NSApplicationAWT dealloc]
+___-[NSApplicationAWT registerWithProcessManager]_block_invoke_1
+-[NSBundle(EAWTOverrides) _hasEAWTOverride:]
+-[QueuingApplicationDelegate _handleOpenURLEvent:withReplyEvent:]
+___-[QueuingApplicationDelegate _handleOpenURLEvent:withReplyEvent:]_block_invoke_1
+___copy_helper_block_1
+___destroy_helper_block_1
+-[QueuingApplicationDelegate application:openFiles:]
+___-[QueuingApplicationDelegate application:openFiles:]_block_invoke_1
+___copy_helper_block_2
+___destroy_helper_block_2
+-[QueuingApplicationDelegate application:printFiles:withSettings:showPrintPanels:]
+___-[QueuingApplicationDelegate application:printFiles:withSettings:showPrintPanels:]_block_invoke_1
+___copy_helper_block_3
+___destroy_helper_block_3
+-[QueuingApplicationDelegate _willFinishLaunching]
+___-[QueuingApplicationDelegate _willFinishLaunching]_block_invoke_1
+___copy_helper_block_4
+___destroy_helper_block_4
+-[QueuingApplicationDelegate applicationShouldHandleReopen:hasVisibleWindows:]
+___-[QueuingApplicationDelegate applicationShouldHandleReopen:hasVisibleWindows:]_block_invoke_1
+___copy_helper_block_5
+___destroy_helper_block_5
+-[QueuingApplicationDelegate applicationShouldTerminate:]
+___-[QueuingApplicationDelegate applicationShouldTerminate:]_block_invoke_1
+___copy_helper_block_6
+___destroy_helper_block_6
+-[QueuingApplicationDelegate _systemWillPowerOff]
+___-[QueuingApplicationDelegate _systemWillPowerOff]_block_invoke_1
+___copy_helper_block_7
+___destroy_helper_block_7
+-[QueuingApplicationDelegate _appDidActivate]
+___-[QueuingApplicationDelegate _appDidActivate]_block_invoke_1
+___copy_helper_block_8
+___destroy_helper_block_8
+-[QueuingApplicationDelegate _appDidDeactivate]
+___-[QueuingApplicationDelegate _appDidDeactivate]_block_invoke_1
+___copy_helper_block_9
+___destroy_helper_block_9
+-[QueuingApplicationDelegate _appDidHide]
+___-[QueuingApplicationDelegate _appDidHide]_block_invoke_1
+___copy_helper_block_10
+___destroy_helper_block_10
+-[QueuingApplicationDelegate _appDidUnhide]
+___-[QueuingApplicationDelegate _appDidUnhide]_block_invoke_1
+___copy_helper_block_11
+___destroy_helper_block_11
+-[QueuingApplicationDelegate processQueuedEventsWithTargetDelegate:]
++[QueuingApplicationDelegate sharedDelegate]
+-[QueuingApplicationDelegate setRealDelegate:]
+-[QueuingApplicationDelegate realDelegate]
+-[QueuingApplicationDelegate setQueue:]
+-[QueuingApplicationDelegate queue]
+-[QueuingApplicationDelegate dealloc]
+-[QueuingApplicationDelegate init]
++[PropertiesUtilities javaSystemPropertyForKey:withEnv:]
++[ThreadUtilities getJNIEnvUncached]
+-[CPerformer initWithTarget:selector:arg:]
++[ThreadUtilities initialize]
++[ThreadUtilities performOnMainThread:onObject:withObject:waitUntilDone:awtMode:]
+-[CPerformer _performCompatible:]
+-[CPerformer performCompatible]
+-[CPerformer perform]
+-[CPerformer dealloc]
+-[CPerformer initWithTarget:selector:arg:wait:]
++[ThreadUtilities getJNIEnv]
+GCC_except_table6
+GCC_except_table6
+GCC_except_table8
+_sAWTIconData
+___block_descriptor_tmp_1.179
+___block_descriptor_tmp_1.183
+___block_descriptor_tmp_2.195
+___block_descriptor_tmp_3.207
+___block_descriptor_tmp_4.221
+___block_descriptor_tmp_5.234
+___block_descriptor_tmp_6.246
+___block_descriptor_tmp_7.258
+___block_descriptor_tmp_8.271
+___block_descriptor_tmp_9.284
+___block_descriptor_tmp_10.297
+___block_descriptor_tmp_11.310
+__jm_getProperty.98872
+_jc_System.98871
+___block_holder_tmp_1.178
+_sUsingDefaultNIB.b
+_applicationDelegate
+_qad
+_qad.97302
+_sPerformModes
+_sAWTPerformModes
+_appKitEnv
+_OBJC_CLASS_$_CPerformer
+_OBJC_CLASS_$_NSApplicationAWT
+_OBJC_CLASS_$_PropertiesUtilities
+_OBJC_CLASS_$_QueuingApplicationDelegate
+_OBJC_CLASS_$_ThreadUtilities
+_OBJC_IVAR_$_CPerformer.fArg
+_OBJC_IVAR_$_CPerformer.fSelector
+_OBJC_IVAR_$_CPerformer.fTarget
+_OBJC_IVAR_$_CPerformer.fWait
+_OBJC_IVAR_$_NSApplicationAWT.dummyEventTimestamp
+_OBJC_IVAR_$_NSApplicationAWT.eventTransparentWindow
+_OBJC_IVAR_$_NSApplicationAWT.fApplicationName
+_OBJC_IVAR_$_NSApplicationAWT.seenDummyEventLock
+_OBJC_IVAR_$_QueuingApplicationDelegate.fHandlesDocumentTypes
+_OBJC_IVAR_$_QueuingApplicationDelegate.fHandlesURLTypes
+_OBJC_IVAR_$_QueuingApplicationDelegate.queue
+_OBJC_IVAR_$_QueuingApplicationDelegate.realDelegate
+_OBJC_METACLASS_$_CPerformer
+_OBJC_METACLASS_$_NSApplicationAWT
+_OBJC_METACLASS_$_PropertiesUtilities
+_OBJC_METACLASS_$_QueuingApplicationDelegate
+_OBJC_METACLASS_$_ThreadUtilities
+_OSXAPP_SetApplicationDelegate
+_OSXAPP_SetJavaVM
+_jvm
+_postEventDuringEventSynthesis
+_sInPerformFromJava
+_sPerformCount
+_GetCurrentProcess
+_JNFCallStaticObjectMethod
+_JNFJavaToNSString
+_JNFNSToJavaString
+_JNFRunLoopDidStartNotification
+_NSApp
+_NSApplicationDidBecomeActiveNotification
+_NSApplicationDidHideNotification
+_NSApplicationDidResignActiveNotification
+_NSApplicationDidUnhideNotification
+_NSApplicationWillFinishLaunchingNotification
+_NSDefaultRunLoopMode
+_NSEventTrackingRunLoopMode
+_NSLog
+_NSModalPanelRunLoopMode
+_NSStringFromSelector
+_NSWorkspaceWillPowerOffNotification
+_OBJC_CLASS_$_JNFRunLoop
+_OBJC_CLASS_$_NSAppleEventManager
+_OBJC_CLASS_$_NSApplication
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSConditionLock
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSEvent
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPort
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSApplication
+_OBJC_METACLASS_$_NSObject
+_TransformProcessType
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume_or_Rethrow
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__objc_empty_vtable
+_getenv
+_getpid
+_kCFBundleExecutableKey
+_kCFBundleNameKey
+_kCFRunLoopDefaultMode
+_objc_begin_catch
+_objc_end_catch
+_objc_getClass
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_objc_setProperty
+_pthread_main_np
+_snprintf
+_unsetenv
+dyld_stub_binder

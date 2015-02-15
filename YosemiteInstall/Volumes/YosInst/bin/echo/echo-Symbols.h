@@ -1,0 +1,11 @@
+radr://5614542
+__mh_execute_header
+___error
+_exit
+_malloc
+_strcmp
+_strerror
+_strlen
+_write
+_writev
+dyld_stub_binder

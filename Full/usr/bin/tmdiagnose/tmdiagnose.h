@@ -1,0 +1,12 @@
+#import <tmdiagnose/HostInfo.h>
+#import <tmdiagnose/TMDiagnostic.h>
+#import <tmdiagnose/BackupDestinationManager.h>
+#import <tmdiagnose/NSRStopwatch.h>
+#import <tmdiagnose/NetServiceRecorder.h>
+#import <tmdiagnose/ImpatientExecutor.h>
+#import <tmdiagnose/TMTaskAuthority.h>
+#import <tmdiagnose/TMBackupHarvester.h>
+#import <tmdiagnose/BackupDestination.h>
+#import <tmdiagnose/IOStreamAccumulator.h>
+#import <tmdiagnose/BackupServer.h>
+#import <tmdiagnose/TMDiagnosticContainer.h>

@@ -1,0 +1,11 @@
+radr://5614542
+__mh_execute_header
+_CallComponentDispatch
+_OpenDefaultComponent
+__NSGetExecutablePath
+___stack_chk_fail
+___stack_chk_guard
+_execv
+_getenv
+_setenv
+dyld_stub_binder

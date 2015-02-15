@@ -1,0 +1,12 @@
+#import <avbdiagnose/AAADBaseObject.h>
+#import <avbdiagnose/AAADPlugin.h>
+#import <avbdiagnose/AAADEntity.h>
+#import <avbdiagnose/AAADControl.h>
+#import <avbdiagnose/AAADLevelControl.h>
+#import <avbdiagnose/AAADStream.h>
+#import <avbdiagnose/AAADDevice.h>
+#import <avbdiagnose/AAADCoreAudio.h>
+#import <avbdiagnose/AAADAppleAVBAudioPlugin.h>
+#import <avbdiagnose/AAADSelectorControl.h>
+#import <avbdiagnose/AAADBooleanControl.h>
+#import <avbdiagnose/AAADBox.h>

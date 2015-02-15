@@ -1,0 +1,17 @@
+_register_hooks
+_authz_owner_get_file_group
+_fileowner_check_authorization
+_authz_owner_cmds
+_authz_fileowner_provider
+_aplog_module_index
+_authz_owner_module
+_ap_log_rerror_
+_ap_register_auth_provider
+_apr_dynamic_fn_register
+_apr_gid_name_get
+_apr_psprintf
+_apr_pstrcat
+_apr_stat$INODE64
+_apr_uid_name_get
+_strcmp
+dyld_stub_binder

@@ -1,0 +1,15 @@
+radr://5614542
+_boot_bareword__filehandles
+_PL_op_desc
+_PL_thr_key
+_Perl_call_list
+_Perl_croak_nocontext
+_Perl_custom_op_xop
+_Perl_gv_fetchpv
+_Perl_gv_fetchsv
+_Perl_hv_common
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+_hook_op_check
+_pthread_getspecific
+dyld_stub_binder

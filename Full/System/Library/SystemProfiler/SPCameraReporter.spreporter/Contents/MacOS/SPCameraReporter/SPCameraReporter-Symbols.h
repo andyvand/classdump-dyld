@@ -1,0 +1,14 @@
+radr://5614542
+_OBJC_CLASS_$_SPCameraReporter
+_OBJC_METACLASS_$_SPCameraReporter
+_AVMediaTypeVideo
+_OBJC_CLASS_$_AVCaptureDevice
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_SPReporter
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_SPReporter
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

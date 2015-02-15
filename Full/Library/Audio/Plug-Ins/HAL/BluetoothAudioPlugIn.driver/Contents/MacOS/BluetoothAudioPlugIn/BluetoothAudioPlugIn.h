@@ -1,0 +1,10 @@
+#import <BluetoothAudioPlugIn/IOBluetoothAudioDevice.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioObject.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioStream.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioPlugIn.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioControl.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioVolumeControl.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioMuteControl.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioFormatControl.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioDeviceOutput.h>
+#import <BluetoothAudioPlugIn/IOBluetoothAudioDeviceInput.h>

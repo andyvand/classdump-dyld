@@ -1,0 +1,15 @@
+radr://5614542
+_boot_Internals
+_PL_thr_key
+_Perl_call_list
+_Perl_croak_nocontext
+_Perl_croak_xs_usage
+_Perl_newSViv
+_Perl_newXS
+_Perl_sv_2iv_flags
+_Perl_sv_2mortal
+_Perl_sv_mortalcopy_flags
+_Perl_xs_apiversion_bootcheck
+_Perl_xs_version_bootcheck
+_pthread_getspecific
+dyld_stub_binder

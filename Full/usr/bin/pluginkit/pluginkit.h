@@ -1,0 +1,10 @@
+#import <pluginkit/PKHostPlugIn.h>
+#import <pluginkit/PKSandboxExtension.h>
+#import <pluginkit/PKDaemonClient.h>
+#import <pluginkit/PKDiscoveryDriver.h>
+#import <pluginkit/PKPlugInCore.h>
+#import <pluginkit/PKBundle.h>
+#import <pluginkit/PKManager.h>
+#import <pluginkit/PKHost.h>
+#import <pluginkit/PKHostDefaults.h>
+#import <pluginkit/PKServiceDefaults.h>

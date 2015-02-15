@@ -1,0 +1,7 @@
+_CU_ETID_MacCompatibility
+__mh_execute_header
+_main
+_pMacCompatibilityTable
+_dlopen
+_dlsym
+dyld_stub_binder

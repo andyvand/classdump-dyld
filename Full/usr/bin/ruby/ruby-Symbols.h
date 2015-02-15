@@ -1,0 +1,15 @@
+radr://5614542
+__mh_execute_header
+_main
+_mt_log_BSDServices_ScriptingLanguageUse
+_asl_free
+_asl_log
+_asl_new
+_asl_set
+_ruby_init
+_ruby_init_stack
+_ruby_options
+_ruby_run_node
+_ruby_sysinit
+_setlocale
+dyld_stub_binder

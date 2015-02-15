@@ -1,0 +1,15 @@
+radr://5614542
+__mh_execute_header
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdoutp
+_fprintf
+_fwrite
+_getenv
+_strcmp
+_strtoul_l
+_uuid_generate
+_uuid_generate_time
+_uuid_unparse_upper
+dyld_stub_binder

@@ -1,0 +1,423 @@
+_calc_yyparse
+_calc_parser_read_buffer
+-[CurrencyCache init]
+-[CurrencyCache dealloc]
++[CurrencyCache shared]
+___23+[CurrencyCache shared]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CurrencyCache refresh]
+-[CurrencyCache refreshWithTimeOut:]
+___36-[CurrencyCache refreshWithTimeOut:]_block_invoke
+___copy_helper_block_103
+___destroy_helper_block_104
+-[CurrencyCache _persistCurrencyCache]
+-[CurrencyCache _loadPersistedCurrencyCache]
+-[CurrencyCache uuid]
+-[CurrencyCache lastRefreshDate]
+-[CurrencyCache setLastRefreshDate:]
+-[CurrencyCache currencyData]
+-[CurrencyCache setCurrencyData:]
+_SetPreferredType
+_SetPrecision
+_DecimalString
+_ThousandsSeparator
+_newConstantNode
+_functionConstant
+_newTreeObject
+_displayNode
+_CountLeadingZeros
+_evaluateTree
+_freeTree
+_requireDouble
+_functionCastIntegerToDouble
+_functionCastDecimalToDouble
+_requireInteger
+_functionCastDoubleToInteger
+_functionCastDecimalToInteger
+_requireDecimal
+_functionCastIntegerToDecimal
+_functionCastDoubleToDecimal
+_newTreeArithmeticFunction
+_functionAddDouble
+_errorCheck
+_functionSubtractDouble
+_functionMultiplyDouble
+_functionDivideDouble
+_functionNegateDouble
+_functionAddDecimal
+_functionSubtractDecimal
+_functionMultiplyDecimal
+_CountDecimalPlaces
+_functionDivideDecimal
+_functionNegateDecimal
+_functionAddInteger
+_functionSubtractInteger
+_functionMultiplyInteger
+_functionDivideInteger
+_functionNegateInteger
+_functionSqrRootDouble
+_functionCubeRootDouble
+_functionExpDouble
+_functionLnDouble
+_functionLogDouble
+_functionSineDouble
+_functionCosDouble
+_functionTanDouble
+_functionASinDouble
+_functionACosDouble
+_functionATanDouble
+_functionSinDDouble
+_functionCosDDouble
+_functionTanDDouble
+_functionASinDDouble
+_functionACosDDouble
+_functionATanDDouble
+_functionSinHDouble
+_functionCosHDouble
+_functionTanHDouble
+_functionASinHDouble
+_functionACosHDouble
+_functionATanHDouble
+_functionCeilDouble
+_functionFloorDouble
+_functionFabsDouble
+_functionJ0Double
+_functionJ1Double
+_functionY0Double
+_functionY1Double
+_functionRIntDouble
+_functionLGammaDouble
+_functionERFDouble
+_functionERFCDouble
+_functionFactorialDecimal
+_functionFactorialDouble
+_functionPowDecimal
+_functionPowDouble
+_functionRootDecimal
+_functionRootDouble
+_functionFModDouble
+_functionHypotDouble
+_functionRemDouble
+_functionAND
+_functionOR
+_functionNOR
+_functionXOR
+_functionLeftShift
+_functionRightShift
+_calc_yylex
+_calc_yyensure_buffer_stack
+_calc_yy_create_buffer
+_yy_get_previous_state
+_yy_fatal_error
+_calc_yyrestart
+_calc_yy_init_buffer
+_calc_yy_switch_to_buffer
+_calc_yyalloc
+_calc_yy_delete_buffer
+_calc_yyfree
+_calc_yy_flush_buffer
+_calc_yypush_buffer_state
+_calc_yypop_buffer_state
+_calc_yy_scan_buffer
+_calc_yy_scan_string
+_calc_yy_scan_bytes
+_calc_yyget_lineno
+_calc_yyget_in
+_calc_yyget_out
+_calc_yyget_leng
+_calc_yyget_text
+_calc_yyset_lineno
+_calc_yyset_in
+_calc_yyset_out
+_calc_yyget_debug
+_calc_yyset_debug
+_calc_yylex_destroy
+_calc_yyrealloc
+_yyerror
+-[Converter initWithInput:]
+-[Converter dealloc]
+-[Converter processConversionWithCompletion:]
+___45-[Converter processConversionWithCompletion:]_block_invoke
+___45-[Converter processConversionWithCompletion:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_117
+___destroy_helper_block_118
+-[Converter _parseInputQuery]
+___29-[Converter _parseInputQuery]_block_invoke
+___copy_helper_block_168
+___destroy_helper_block_169
+-[Converter _updateInputValueFromMatch:]
+___40-[Converter _updateInputValueFromMatch:]_block_invoke
+-[Converter _unitsInfo]
+___23-[Converter _unitsInfo]_block_invoke
+___copy_helper_block_218
+___destroy_helper_block_219
+-[Converter _normalizedUnitNamesForName:]
+___41-[Converter _normalizedUnitNamesForName:]_block_invoke
+___copy_helper_block_238
+___destroy_helper_block_239
+-[Converter _standardizeInputAndOutputUnits]
+-[Converter _unitInfoForNormalizedName:]
+-[Converter similarUnitsForNormalizedName:]
+-[Converter _performUnitPluralization]
+-[Converter _operateConversionForOutputUnit:]
+-[Converter _doubleWithoutUnrelevantDecimalsForNumber:]
+-[Converter _localizedPluralizedStringsforNumber:unit:]
++[Converter currencyCacheLastRefreshDate]
++[Converter refreshCurrencyCache]
+-[Converter inputString]
+-[Converter setInputString:]
+-[Converter inputUnit]
+-[Converter setInputUnit:]
+-[Converter inputValue]
+-[Converter setInputValue:]
+-[Converter outputUnit]
+-[Converter setOutputUnit:]
+-[Converter outputValue]
+-[Converter setOutputValue:]
+-[Converter localizedInputValueAndUnit]
+-[Converter setLocalizedInputValueAndUnit:]
+-[Converter localizedOutputValue]
+-[Converter setLocalizedOutputValue:]
+-[Converter localizedOutputUnit]
+-[Converter setLocalizedOutputUnit:]
+-[Converter isCurrency]
+-[Converter currencyUpdateTimeOut]
+-[Converter setCurrencyUpdateTimeOut:]
+-[Converter additionalResults]
+-[Converter setAdditionalResults:]
+-[Converter conversionType]
+-[Converter setConversionType:]
+-[Converter localizedOutputValueAndUnit]
+-[Converter setLocalizedOutputValueAndUnit:]
+_yypact
+_yytranslate
+_yycheck
+_yytable
+_yydefact
+_yyr2
+_yyr1
+_yystos
+_yydefgoto
+_yy_ec
+_yy_accept
+_yy_base
+_yy_chk
+_yy_def
+_yy_nxt
+_yypgoto
+GCC_except_table9
+GCC_except_table29
+GCC_except_table31
+GCC_except_table74
+___block_descriptor_tmp
+___block_descriptor_tmp105
+_CalculateExpressionError.multiParamFunctionNames
+___block_descriptor_tmp
+___block_descriptor_tmp120
+___block_descriptor_tmp170
+___block_descriptor_tmp188
+___block_literal_global
+___block_descriptor_tmp220
+___block_descriptor_tmp240
+_calc_yylineno
+_calc_yyin
+_calc_yyout
+_calc_yy_flex_debug
+_yychar
+_yylval
+_yynerrs
+_g_BufferLen
+_g_ErrorCode
+_g_Precision
+_g_PreferredType
+_g_ResultBuffer
+_pool
+_calc_yyleng
+_calc_yytext
+_gDecimalMode
++[CurrencyCache shared].shared
++[CurrencyCache shared].onceToken
+_DecimalString.decimalSeparator
+_ThousandsSeparator.initialized
+_ThousandsSeparator.thousandsSeparator
+_ThousandsSeparator.separatorLen
+_yy_init
+_yy_start
+_yy_buffer_stack
+_yy_buffer_stack_top
+_yy_c_buf_p
+_yy_hold_char
+_yy_last_accepting_state
+_yy_last_accepting_cpos
+_yy_n_chars
+_yy_buffer_stack_max
+_sCalculateLock
+-[Converter _parseInputQuery].conversionRegExp
+-[Converter _parseInputQuery].implicitConversionRegExp
+-[Converter _parseInputQuery].outputUnitIndex
+-[Converter _parseInputQuery].inputUnitIndex1
+-[Converter _parseInputQuery].inputUnitIndex2
+-[Converter _parseInputQuery].inputValueIndex
+-[Converter _parseInputQuery].onceToken
+-[Converter _updateInputValueFromMatch:].feetInchRegexp
+-[Converter _updateInputValueFromMatch:].onceToken
+-[Converter _unitsInfo].unitsInfo
+-[Converter _unitsInfo].onceToken
+-[Converter _normalizedUnitNamesForName:].normalizationCache
+-[Converter _normalizedUnitNamesForName:].onceToken
+_CalculateExpression
+_CalculateExpressionError
+_CalculateInternationalExpression
+_CalculatePerformExpression
+_OBJC_CLASS_$_Converter
+_OBJC_CLASS_$_CurrencyCache
+_OBJC_IVAR_$_Converter._additionalResults
+_OBJC_IVAR_$_Converter._conversionType
+_OBJC_IVAR_$_Converter._currencyUpdateTimeOut
+_OBJC_IVAR_$_Converter._inputString
+_OBJC_IVAR_$_Converter._inputUnit
+_OBJC_IVAR_$_Converter._inputValue
+_OBJC_IVAR_$_Converter._isCurrency
+_OBJC_IVAR_$_Converter._localizedInputValueAndUnit
+_OBJC_IVAR_$_Converter._localizedOutputUnit
+_OBJC_IVAR_$_Converter._localizedOutputValue
+_OBJC_IVAR_$_Converter._localizedOutputValueAndUnit
+_OBJC_IVAR_$_Converter._outputUnit
+_OBJC_IVAR_$_Converter._outputValue
+_OBJC_IVAR_$_CurrencyCache._currencyData
+_OBJC_IVAR_$_CurrencyCache._lastRefreshDate
+_OBJC_IVAR_$_CurrencyCache._uuid
+_OBJC_METACLASS_$_Converter
+_OBJC_METACLASS_$_CurrencyCache
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyAppValue
+_CFPreferencesSetAppValue
+_CFRelease
+_NSDecimalNumberDivideByZeroException
+_NSDecimalNumberOverflowException
+_NSDecimalNumberUnderflowException
+_NSLocaleCurrencyCode
+_NSLocaleGroupingSeparator
+_NSLog
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDecimalNumber
+_OBJC_CLASS_$_NSDecimalNumberHandler
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSRegularExpression
+_OBJC_CLASS_$_NSScanner
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLConnection
+_OBJC_CLASS_$_NSXMLDocument
+_OBJC_EHTYPE_$_NSException
+_OBJC_EHTYPE_id
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___error
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdinp
+___stdoutp
+___strlcpy_chk
+__objc_empty_cache
+_acos
+_acosh
+_asin
+_asinh
+_atan
+_atanh
+_cbrt
+_ceil
+_clearerr
+_cos
+_cosh
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_release
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+_erf
+_erfc
+_exit
+_exp
+_ferror
+_fflush
+_floor
+_floorf
+_fmod
+_fprintf
+_fread
+_free
+_fwrite
+_getc
+_hypot
+_j0
+_j1
+_lgamma
+_llrint
+_log
+_log10
+_malloc
+_memcpy
+_modf
+_objc_atomicCompareAndSwapGlobalBarrier
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty_atomic
+_objc_setProperty_nonatomic
+_pow
+_printf
+_puts
+_realloc
+_remainder
+_rint
+_round
+_roundf
+_sin
+_sinh
+_strlen
+_strncpy
+_strnstr
+_strtod
+_strtold
+_strtoull
+_syslog
+_tan
+_tanh
+_tgamma
+_u_charDigitValue
+_u_isdigit
+_y0
+_y1
+dyld_stub_binder

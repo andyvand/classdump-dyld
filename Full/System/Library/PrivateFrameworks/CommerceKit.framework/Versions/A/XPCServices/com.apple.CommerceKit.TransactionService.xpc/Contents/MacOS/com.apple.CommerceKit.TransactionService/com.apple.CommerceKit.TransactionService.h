@@ -1,0 +1,17 @@
+#import <com.apple.CommerceKit.TransactionService/StorePurchaseOperation.h>
+#import <com.apple.CommerceKit.TransactionService/SafariRecoveryUtility.h>
+#import <com.apple.CommerceKit.TransactionService/StorePurchaseBatchOperation.h>
+#import <com.apple.CommerceKit.TransactionService/LegacyAppGratisOperation.h>
+#import <com.apple.CommerceKit.TransactionService/ISStoreAuthenticateOperation.h>
+#import <com.apple.CommerceKit.TransactionService/AskToBuyPermissionRequestOperation.h>
+#import <com.apple.CommerceKit.TransactionService/TransactionServiceDelegate.h>
+#import <com.apple.CommerceKit.TransactionService/PurchaseOperation.h>
+#import <com.apple.CommerceKit.TransactionService/PurchaseResponseInfo.h>
+#import <com.apple.CommerceKit.TransactionService/SAPSession.h>
+#import <com.apple.CommerceKit.TransactionService/PurchaseController.h>
+#import <com.apple.CommerceKit.TransactionService/TransactionServiceInterface.h>
+#import <com.apple.CommerceKit.TransactionService/ISRetryDialogOperation.h>
+#import <com.apple.CommerceKit.TransactionService/StorePlatformOperation.h>
+#import <com.apple.CommerceKit.TransactionService/AuthenticateOperation.h>
+#import <com.apple.CommerceKit.TransactionService/ISAuthenticationChallengeOperation.h>
+#import <com.apple.CommerceKit.TransactionService/FairPlayHelper.h>

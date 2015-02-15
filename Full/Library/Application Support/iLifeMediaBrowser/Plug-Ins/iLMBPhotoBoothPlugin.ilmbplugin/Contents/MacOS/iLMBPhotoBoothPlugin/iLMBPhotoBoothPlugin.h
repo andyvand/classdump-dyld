@@ -1,0 +1,1 @@
+#import <iLMBPhotoBoothPlugin/ILPhotoBoothPlugin.h>

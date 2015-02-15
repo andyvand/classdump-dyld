@@ -1,0 +1,12 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_close
+_exit
+_fwrite
+_ioctl
+_open
+_perror
+_stat$INODE64
+_strcmp
+dyld_stub_binder

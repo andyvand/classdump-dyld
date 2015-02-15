@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_compat_mode
+_errx
+_exit
+_fwrite
+_getmode
+_getopt
+_mkfifo
+_optarg
+_optind
+_setlocale
+_setmode
+_umask
+_warn
+dyld_stub_binder

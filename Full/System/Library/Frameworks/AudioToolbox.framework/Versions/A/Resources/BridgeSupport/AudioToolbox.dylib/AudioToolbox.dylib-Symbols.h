@@ -1,0 +1,3 @@
+_MusicSequenceGetSMPTEResolution
+_MusicSequenceSetSMPTEResolution
+dyld_stub_binder

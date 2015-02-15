@@ -1,0 +1,1198 @@
++[OSIConvertToCS shouldConvertToCS:]
+-[OSIConvertToCS runReturningError:]
+___36-[OSIConvertToCS runReturningError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___36-[OSIConvertToCS runReturningError:]_block_invoke74
+___36-[OSIConvertToCS runReturningError:]_block_invoke_2
+___copy_helper_block_77
+___destroy_helper_block_78
+___copy_helper_block_81
+___destroy_helper_block_82
+___36-[OSIConvertToCS runReturningError:]_block_invoke85
+___copy_helper_block_93
+___destroy_helper_block_94
+-[OSIConvertToCS operationName]
+-[OSIConvertToCS estimatedTimeToComplete]
++[OSIAIPostInstall shouldBeRun]
++[OSIAIPostInstall extrasDirectory]
+-[OSIAIPostInstall runReturningError:]
+-[OSIAIPostInstall operationName]
+-[OSIAIPostInstall estimatedTimeToComplete]
++[OSProductManager defaultProductManager]
+-[OSProductManager init]
+-[OSProductManager dealloc]
+-[OSProductManager description]
+-[OSProductManager sourceManager]
+-[OSProductManager mutableProduct]
+-[OSProductManager maximumValidInstallDistance]
+-[OSProductManager setMaximumValidInstallDistance:]
+-[OSProductManager productIdentifier]
+-[OSProductManager productVersion]
+-[OSProductManager _checkAndSetProductVersioning:]
+-[OSProductManager addProduct:distance:]
+-[OSProductManager setMutableProductPath:error:]
+-[OSProductManager automationFilePathIfSafe]
+-[OSProductManager removeMutableProduct]
+-[OSProductManager downloadPackagesToMutableProduct:withDelegate:]
+-[OSProductManager observeValueForKeyPath:ofObject:change:context:]
+-[OSProductManager pauseDownload]
+-[OSProductManager resumeDownload]
+-[OSProductManager _startDownloadingNeededPackagesAndNotify:]
+-[OSProductManager downloadSizeForPackageReferences:allRemoteURLs:]
+-[OSProductManager _tryAlternateSourceInvalidatingPackageReference:reason:error:]
+-[OSProductManager _requiredPackageReferencesFromIdentifiersAndVersions:clearingInvalidation:missingPackages:]
+-[OSProductManager requiredPackageReferencesFromIdentifiersAndVersions:]
+-[OSProductManager requiredPackageReferencesFromIdentifiersAndVersions:missingPackages:]
+-[OSProductManager packageReferenceHasValidInstallDistance:]
+-[OSProductManager attributesDictionary]
+-[OSProductManager flushAttributesDictionary]
+-[OSProductManager estimatedInstallTimeFromNow]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:didFailOnPackageReference:withError:]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:didDownloadInvalidDataForPackageReference:]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:didReceiveAuthenticationChallenge:]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:didCancelAuthenticationChallenge:]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:didFinishPackageReference:localPackageReference:]
+-[OSProductManager(PKDownloaderDelegate) packageDownloader:shouldRetryFailedPackageReference:previousError:]
+-[OSProductManager(ODSDelegate) remoteDiscDidAskToUse:]
+-[OSProductManager(ODSDelegate) remoteDiscRequestDenied:]
+-[OSProductManager(ODSDelegate) remoteDiscIsMounting:]
+-[OSProductManager(ODSDelegate) remoteDisc:didConnectWithMountPoint:]
+-[OSProductManager(ODSDelegate) remoteDiscMountFailed:]
+-[OSInstallOptions initWithFile:]
+-[OSInstallOptions initWithDefaultSettings]
+-[OSInstallOptions dealloc]
+-[OSInstallOptions alternateBlessTarget]
+-[OSInstallOptions _resolveTargetWithPath:name:orUUID:]
++[OSInstallOptions isBeingInstalledInternally]
+-[OSInstallOptions distributionPath]
+-[OSInstallOptions setDistributionPath:]
+-[OSInstallOptions choiceChangesPath]
+-[OSInstallOptions setChoiceChangesPath:]
+-[OSInstallOptions recoverySystemPath]
+-[OSInstallOptions setRecoverySystemPath:]
+-[OSInstallOptions target]
+-[OSInstallOptions setTarget:]
+-[OSInstallOptions isAutomated]
+-[OSInstallOptions setIsAutomated:]
+-[OSInstallOptions isEraseInstall]
+-[OSInstallOptions setIsEraseInstall:]
+-[OSInstallOptions isUpgrade]
+-[OSInstallOptions setIsUpgrade:]
+-[OSInstallOptions hadToMountBaseSystemDMG]
+-[OSInstallOptions setHadToMountBaseSystemDMG:]
+-[OSInstallOptions needsLongInstallSizeCheck]
+-[OSInstallOptions setNeedsLongInstallSizeCheck:]
+-[OSInstallController initWithDistributionPath:considerAutomation:]
+-[OSInstallController dealloc]
+-[OSInstallController hasCustomizationOptions]
+-[OSInstallController _invalidateCustomization]
+___47-[OSInstallController _invalidateCustomization]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[OSInstallController options]
+-[OSInstallController observeValueForKeyPath:ofObject:change:context:]
+-[OSInstallController customizationOptions]
+-[OSInstallController updateCustomizationState]
+-[OSInstallController _recursivelyUpdateStateForItem:]
+-[OSInstallController bytesRequiredToInstall]
+-[OSInstallController startInstall]
+___35-[OSInstallController startInstall]_block_invoke
+___35-[OSInstallController startInstall]_block_invoke_2
+___copy_helper_block_293
+___destroy_helper_block_294
+___35-[OSInstallController startInstall]_block_invoke304
+___copy_helper_block_307
+___destroy_helper_block_308
+___35-[OSInstallController startInstall]_block_invoke310
+___copy_helper_block_313
+___destroy_helper_block_314
+___35-[OSInstallController startInstall]_block_invoke334
+___copy_helper_block_337
+___destroy_helper_block_338
+___35-[OSInstallController startInstall]_block_invoke347
+___copy_helper_block_388
+___destroy_helper_block_389
+-[OSInstallController prepareForReboot]
+-[OSInstallController licenseAgreement]
+-[OSInstallController localizedProductName]
+-[OSInstallController _startTargetEvaulationQueue]
+___50-[OSInstallController _startTargetEvaulationQueue]_block_invoke
+___copy_helper_block_420
+___destroy_helper_block_421
+-[OSInstallController disksAppeared:]
+-[OSInstallController disksChanged:]
+___36-[OSInstallController disksChanged:]_block_invoke
+___copy_helper_block_433
+___destroy_helper_block_434
+-[OSInstallController disksDisappeared:]
+___40-[OSInstallController disksDisappeared:]_block_invoke
+___copy_helper_block_436
+___destroy_helper_block_437
+-[OSInstallController visibleDiskRoles]
+-[OSInstallController initialPopulateComplete]
+-[OSInstallController setTarget:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___39-[OSInstallController setTarget:error:]_block_invoke
+___copy_helper_block_448
+___destroy_helper_block_449
+-[OSInstallController target]
+-[OSInstallController _removeDisksFromHandledTargets:]
+-[OSInstallController _evaluateDisks:]
+-[OSInstallController _logSystemInfo]
+-[OSInstallController _isOSInstallFromXML:]
+-[OSInstallController _baseSystemMountPathFromXML:]
+-[OSInstallController _mountDiskImageWithPath:]
+-[OSInstallController _disableSystemSleep]
+-[OSInstallController _enableSystemSleep]
+-[OSInstallController _isRecoverySupportedForTarget:]
+-[OSInstallController _isValidCompatibilityUpdatePackage:]
+-[OSInstallController stopProgressTimer]
+___40-[OSInstallController stopProgressTimer]_block_invoke
+___copy_helper_block_634
+___destroy_helper_block_635
+-[OSInstallController timeRemainingAfter:]
+-[OSInstallController smoothTimeRemaining:]
+-[OSInstallController operation:timeRemaining:]
+___47-[OSInstallController operation:timeRemaining:]_block_invoke
+___copy_helper_block_643
+___destroy_helper_block_644
+-[OSInstallController isCollectionInstall]
+-[OSInstallController setIsCollectionInstall:]
+-[OSInstallController isCurrentlyInstalling]
+-[OSInstallController setIsCurrentlyInstalling:]
+-[OSInstallController hasEvaluatedInstallability]
+-[OSInstallController setHasEvaluatedInstallability:]
+-[OSInstallController installCheckFailureReason]
+-[OSInstallController setInstallCheckFailureReason:]
+-[OSInstallController delegate]
+-[OSInstallController setDelegate:]
+-[OSInstallController installFailureReason]
+-[OSInstallController setInstallFailureReason:]
+-[OSInstallController installationCompletedSuccessfully]
+-[OSInstallController setInstallationCompletedSuccessfully:]
+-[OSIRepairDiskElement dealloc]
+-[OSIRepairDiskElement runReturningError:]
+-[OSIRepairDiskElement operationName]
+-[OSIRepairDiskElement _promoteImgsrcDisk:]
+-[OSIRepairDiskElement _attemptRepair]
+___38-[OSIRepairDiskElement _attemptRepair]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___38-[OSIRepairDiskElement _attemptRepair]_block_invoke79
+___copy_helper_block_80
+___destroy_helper_block_81
+-[OSIRepairDiskElement _isKextCacheRunning]
+-[OSIRepairDiskElement estimatedTimeToComplete]
+-[OSIInstallRecoverySystemElement initWithOptions:distPath:]
+-[OSIInstallRecoverySystemElement dealloc]
+-[OSIInstallRecoverySystemElement runReturningError:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___53-[OSIInstallRecoverySystemElement runReturningError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___53-[OSIInstallRecoverySystemElement runReturningError:]_block_invoke52
+___copy_helper_block_53
+___destroy_helper_block_54
+-[OSIInstallRecoverySystemElement operationName]
+-[OSIInstallRecoverySystemElement estimatedTimeToComplete]
+-[OSIInstallRecoverySystemElement distPath]
+-[OSIInstallRecoverySystemElement setDistPath:]
+-[OSIRunSMCUpdaterTool runReturningError:]
+-[OSIRunSMCUpdaterTool operationName]
+-[OSIRunSMCUpdaterTool estimatedTimeToComplete]
+-[OSIAttachLoggingElement dealloc]
+-[OSIAttachLoggingElement runReturningError:]
+-[OSIAttachLoggingElement operationName]
+-[OSIAttachLoggingElement _attachLog]
+-[OSIAttachLoggingElement estimatedTimeToComplete]
+-[OSIEraseDiskElement dealloc]
+-[OSIEraseDiskElement runReturningError:]
+___41-[OSIEraseDiskElement runReturningError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___41-[OSIEraseDiskElement runReturningError:]_block_invoke13
+___copy_helper_block_18
+___destroy_helper_block_19
+-[OSIEraseDiskElement operationName]
+-[OSIEraseDiskElement estimatedTimeToComplete]
+-[OSIPreSizingElement initWithOptions:requiredSpaceToInstall:]
+-[OSIPreSizingElement runReturningError:]
+___41-[OSIPreSizingElement runReturningError:]_block_invoke
+___41-[OSIPreSizingElement runReturningError:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_26
+___destroy_helper_block_27
+-[OSIPreSizingElement operationName]
+-[OSIPreSizingElement estimatedTimeToComplete]
+-[OSIPreSizingElement _updateProgressTimer:]
+-[OSIInstallElement initWithOptions:packageSpecifiers:isOSInstall:]
+-[OSIInstallElement dealloc]
+-[OSIInstallElement runReturningError:]
+-[OSIInstallElement operationName]
+-[OSIInstallElement setExternalRootMountPoint:]
+-[OSIInstallElement installClientDidBegin:]
+-[OSIInstallElement installClient:currentState:package:progress:timeRemaining:]
+-[OSIInstallElement installClient:didFailWithError:]
+-[OSIInstallElement installClientDidFinish:]
+-[OSIInstallElement estimatedTimeToComplete]
+-[OSIInstallElement isOSInstall]
+-[OSIInstallElement setIsOSInstall:]
++[OSIMessageTracer sharedInstance]
+___34+[OSIMessageTracer sharedInstance]_block_invoke
+-[OSIMessageTracer init]
+-[OSIMessageTracer targetPath]
+-[OSIMessageTracer setTargetPath:]
+-[OSIMessageTracer writeMessageWithDomain:fields:]
+-[OSIMessageTracer _filePath]
+-[OSIMessageTracer writeToTarget]
+-[OSIMessageTracer publish]
+-[OSIRunEFIUpdaterTool runReturningError:]
+-[OSIRunEFIUpdaterTool operationName]
+-[OSIRunEFIUpdaterTool estimatedTimeToComplete]
+-[OSIRunEFIUpdaterTool performRTCStashCommitSwap]
+-[OSICleanUpElement dealloc]
+-[OSICleanUpElement runReturningError:]
+___39-[OSICleanUpElement runReturningError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___39-[OSICleanUpElement runReturningError:]_block_invoke98
+___copy_helper_block_99
+___destroy_helper_block_100
+___39-[OSICleanUpElement runReturningError:]_block_invoke109
+___copy_helper_block_112
+___destroy_helper_block_113
+___39-[OSICleanUpElement runReturningError:]_block_invoke116
+___copy_helper_block_117
+___destroy_helper_block_118
+___39-[OSICleanUpElement runReturningError:]_block_invoke124
+___copy_helper_block_125
+___destroy_helper_block_126
+-[OSICleanUpElement operationName]
+-[OSICleanUpElement estimatedTimeToComplete]
+-[OSICleanUpElement _writeAutoLanguageChooserCookie]
+-[OSICleanUpElement _addRunningLanguageAndDirToGlobalPreferences]
+-[OSICleanUpElement _writeInstallResultsCookieForSpotlight]
+-[OSICleanUpElement _writeInstallTypeCookieForServerAndMacBuddy]
+-[OSICleanUpElement _writeTALRestoreApps]
+-[OSICleanUpElement _muteBootChimeForNextReboot]
+-[OSISyntheticChoice initWithChoiceItems:title:identifier:canBeDisabled:]
+-[OSISyntheticChoice dealloc]
+-[OSISyntheticChoice choice]
+-[OSISyntheticChoice setEnabled:]
+-[OSISyntheticChoice enabled]
+-[OSISyntheticChoice canBeDisabled]
+-[OSISyntheticChoice setState:]
+-[OSISyntheticChoice state]
+-[OSISyntheticChoice packageReferencesToInstall]
+-[OSISyntheticChoice packageReferencesToInstallIgnoringChildren]
+-[OSISyntheticChoice visibleChildren]
+-[OSISyntheticChoice startSelected]
+-[OSISyntheticChoice visible]
+-[OSISyntheticChoice identifier]
+-[OSIMigrateElement initWithOptions:isServer:]
+-[OSIMigrateElement dealloc]
++[OSIMigrateElement setupMigrationWithOptions:]
+-[OSIMigrateElement runReturningError:]
+-[OSIMigrateElement operationName]
+-[OSIMigrateElement estimatedTimeToComplete]
+-[OSIMigrateElement _mergeInstallHistory]
+-[OSIMigrateElement _saveReaperCacheForDebugging]
+-[OSIMigrateElement _deleteRegistrationCookie]
+-[OSIMigrateElement _createMacBuddyCookie]
+-[OSIMigrateElement _doCleanupOnArchiveReturningError:forServer:onSystem:]
+-[OSIMigrateElement _cleanupPath:preservePaths:saveAllFiles:onSystem:error:server:]
+-[OSIMigrateElement engineStarted]
+-[OSIMigrateElement engineProcessingText:]
+-[OSIMigrateElement enginePercentDone:]
+-[OSIMigrateElement engineMinutesRemaining:]
+-[OSIMigrateElement engineCompletedWithErrorsAndWarnings:]
+-[OSIReapPreviousSystem initWithOptions:requiredSpaceToInstall:]
+-[OSIReapPreviousSystem runReturningError:]
+___43-[OSIReapPreviousSystem runReturningError:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[OSIReapPreviousSystem operationName]
+-[OSIReapPreviousSystem estimatedTimeToComplete]
+-[OSIReapPreviousSystem _archiveLogs]
+-[OSIReapPreviousSystem _preserveLionCoreLocationPref]
+-[OSIReapPreviousSystem _pathsToBackup]
+-[OSIReapPreviousSystem createRecoveredItems]
+___45-[OSIReapPreviousSystem createRecoveredItems]_block_invoke
+___copy_helper_block_281
+___destroy_helper_block_282
+-[OSIReapPreviousSystem _saveReaperPaths]
+-[OSIReapPreviousSystem cleanupPartialInstall]
+-[OSIReapPreviousSystem _pullFakeProgressTimer:]
+-[OSIReapPreviousSystem _recreateFSFPath]
++[OSIReapableSpaceChecker initialize]
+-[OSIReapableSpaceChecker initWithDisk:]
+-[OSIReapableSpaceChecker dealloc]
+-[OSIReapableSpaceChecker willBlock]
+-[OSIReapableSpaceChecker _calculateSystemPathsAndSize]
+-[OSIReapableSpaceChecker reapableSpace]
+-[OSIReapableSpaceChecker reapableFiles]
+-[OSIPrepareVolumeElement dealloc]
+-[OSIPrepareVolumeElement runReturningError:]
+-[OSIPrepareVolumeElement operationName]
+-[OSIPrepareVolumeElement _fixUpACLs]
+-[OSIPrepareVolumeElement _enablePermissions]
+___45-[OSIPrepareVolumeElement _enablePermissions]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[OSIPrepareVolumeElement _enableJournalingOnDiskIfDiskAllowsJournaling]
+___72-[OSIPrepareVolumeElement _enableJournalingOnDiskIfDiskAllowsJournaling]_block_invoke
+___copy_helper_block_42
+___destroy_helper_block_43
+-[OSIPrepareVolumeElement _cleanUpOSInstallSandbox]
+-[OSIPrepareVolumeElement _activateVMOnDiskWithMountPoint:]
+-[OSIPrepareVolumeElement _enableCoreDumps]
+-[OSIPrepareVolumeElement _setSyrahBlackIfAppropriate]
+-[OSIPrepareVolumeElement _getBoardID]
+-[OSIPrepareVolumeElement estimatedTimeToComplete]
+-[OSIInstallQueueElement runReturningError:]
+-[OSIInstallQueueElement operationName]
+-[OSIInstallQueueElement estimatedTimeToComplete]
+-[OSIInstallQueueElement postTimeRemaining:]
+___44-[OSIInstallQueueElement postTimeRemaining:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[OSIInstallQueueElement initWithOptions:]
+-[OSIInstallQueueElement packagesDirectory]
+-[OSIInstallQueueElement delegate]
+-[OSIInstallQueueElement setDelegate:]
+-[OSIInstallQueueElement options]
+-[OSIInstallQueueElement setOptions:]
+-[OSIInstallQueueElement initialEstimate]
+-[OSIInstallQueueElement setInitialEstimate:]
+-[OSIInstallQueueElement totalProgressPercentage]
+-[OSIInstallQueueElement setTotalProgressPercentage:]
++[OSISystemProfiler sharedProfiler]
+___35+[OSISystemProfiler sharedProfiler]_block_invoke
+-[OSISystemProfiler initWithDisk:]
+-[OSISystemProfiler setTarget:]
+-[OSISystemProfiler modelName]
+-[OSISystemProfiler populateStats]
+-[OSISystemProfiler dumpFinalStats]
+-[OSISystemProfiler extractorSpeed]
+-[OSISystemProfiler setExtractorSpeed:]
+-[OSISystemProfiler deletionSpeed]
+-[OSISystemProfiler setDeletionSpeed:]
+-[OSISystemProfiler migrationTime]
+-[OSISystemProfiler setMigrationTime:]
+-[OSISystemProfiler userMachineDictionary]
+-[OSISystemProfiler setUserMachineDictionary:]
+-[OSISystemProfiler isSSD]
+-[OSISystemProfiler setIsSSD:]
+_BLGetVolumeFinderInfo
+_BLSetVolumeFinderInfo
+_BLGenerateLabelData
+_makeLabelOfSize
+_refitToWidth
+_BLGenerateOFLabel
+_contextprintf
+_blostype2string
+_blsustatfs
+_BLCreateEFIXMLRepresentationForPath
+_addMatchingInfoForBSDName
+_BLPreserveBootArgs
+_BLCreateEFIXMLRepresentationForDevice
+_BLCopyEFINVRAMVariableAsString
+_BLCreateEFIXMLRepresentationForLegacyDevice
+_BLSupportsLegacyMode
+_BLCreateBooterInformationDictionary
+_addRAIDInfo
+_addDataPartitionInfo
+_isPreferredSystemPartition
+__isPreferredSystemPartition
+_BLGetCStringDescription
+_initkey
+_releasestorage
+_BLSetEFIBootDevice
+_setefidevice
+_BLSetEFIBootDeviceOnce
+_BLSetEFIBootFileOnce
+_setefifilepath
+_setit
+__forwardNVRAM
+_efinvramcleanup
+_setefinetworkpath
+_setefibootargs
+_isDVDWithElToritoWithUEFIBootableOS
+_contextprintfhexdump16bytes
+_BLCreateEFIXMLRepresentationForElToritoEntry
+_copy_dict_from_fd
+_ensureCacheDirs
+_updateStamp
+_removeTrailingSlashes
+__sutimes
+_get_locres_info
+_MAKE_CACHEDPATH
+_spolicy
+_initContext
+_addHostVolInfo
+_updateBootHelpers
+_releaseContext
+_mountBoot
+_sBLSetBootFinderInfo
+_nukeBRLabels
+_FindRPSDir
+_eraseRPS
+_unmountBoot
+_activateBooters
+_activateMisc
+__writeFDEPropsToHelper
+_addDictOverride
+GCC_except_table1
+GCC_except_table2
+GCC_except_table2
+GCC_except_table49
+GCC_except_table1
+GCC_except_table8
+GCC_except_table2
+GCC_except_table1
+GCC_except_table3
+GCC_except_table4
+GCC_except_table6
+GCC_except_table4
+GCC_except_table8
+_clut
+_makeLabelOfSize.components
+___block_descriptor_tmp
+___block_descriptor_tmp80
+___block_descriptor_tmp84
+___block_descriptor_tmp96
+___block_descriptor_tmp
+___block_descriptor_tmp295
+___block_descriptor_tmp309
+___block_descriptor_tmp315
+___block_descriptor_tmp339
+___block_descriptor_tmp350
+___block_literal_global
+___block_descriptor_tmp390
+___block_descriptor_tmp422
+___block_descriptor_tmp435
+___block_descriptor_tmp438
+___block_descriptor_tmp450
+___block_descriptor_tmp636
+___block_descriptor_tmp645
+___block_descriptor_tmp
+___block_descriptor_tmp83
+___block_descriptor_tmp
+___block_descriptor_tmp56
+___block_descriptor_tmp
+___block_descriptor_tmp21
+___block_descriptor_tmp
+___block_descriptor_tmp28
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_descriptor_tmp102
+___block_descriptor_tmp114
+___block_descriptor_tmp119
+___block_descriptor_tmp127
+___block_descriptor_tmp
+___block_descriptor_tmp283
+___block_descriptor_tmp
+___block_descriptor_tmp44
+___block_descriptor_tmp
+___block_descriptor_tmp
+___block_literal_global
+_remove_boot_args
+_OBJC_IVAR_$_OSInstallOptions._distributionPath
+_OBJC_IVAR_$_OSInstallOptions._choiceChangesPath
+_OBJC_IVAR_$_OSInstallOptions._isAutomated
+_OBJC_IVAR_$_OSInstallOptions._isEraseInstall
+_OBJC_IVAR_$_OSInstallOptions._recoverySystemPath
+_OBJC_IVAR_$_OSInstallOptions._target
+_OBJC_IVAR_$_OSInstallOptions._isUpgrade
+_OBJC_IVAR_$_OSInstallOptions._hadToMountBaseSystemDMG
+_OBJC_IVAR_$_OSInstallOptions._needsLongInstallSizeCheck
+_OBJC_IVAR_$_OSInstallController._delegate
+_OBJC_IVAR_$_OSInstallController._isCollectionInstall
+_OBJC_IVAR_$_OSInstallController._isCurrentlyInstalling
+_OBJC_IVAR_$_OSInstallController._hasEvaluatedInstallability
+_OBJC_IVAR_$_OSInstallController._installCheckFailureReason
+_OBJC_IVAR_$_OSInstallController._installFailureReason
+_OBJC_IVAR_$_OSInstallController._installationCompletedSuccessfully
+_OBJC_IVAR_$_OSIInstallRecoverySystemElement._distPath
+_OBJC_IVAR_$_OSIInstallQueueElement._delegate
+_OBJC_IVAR_$_OSIInstallQueueElement._options
+_OBJC_IVAR_$_OSIInstallQueueElement._initialEstimate
+_OBJC_IVAR_$_OSIInstallQueueElement._totalProgressPercentage
+_OBJC_IVAR_$_OSISystemProfiler._extractorSpeed
+_OBJC_IVAR_$_OSISystemProfiler._deletionSpeed
+_OBJC_IVAR_$_OSISystemProfiler._migrationTime
+_OBJC_IVAR_$_OSISystemProfiler._userMachineDictionary
+_OBJC_IVAR_$_OSISystemProfiler._isSSD
+-[OSInstallController smoothTimeRemaining:].lastTimeRemainingReported
+_blcstr_once_control
++[OSProductManager defaultProductManager].sManager
++[OSInstallOptions isBeingInstalledInternally].hasCheckedForInternalIP
++[OSInstallOptions isBeingInstalledInternally].isInternalIP
+-[OSInstallController timeRemainingAfter:].timeRemaining
+-[OSInstallController timeRemainingAfter:].lastRebuildTime
+-[OSInstallController timeRemainingAfter:].lastElement
+-[OSInstallController smoothTimeRemaining:].extraTimeBank
+-[OSInstallController smoothTimeRemaining:].lastTimeReportedTime
+-[OSIRepairDiskElement _attemptRepair].isFirstAttempt
+-[OSIPreSizingElement _updateProgressTimer:].timeSinceStart
++[OSIMessageTracer sharedInstance].onceToken
+_gSharedInstance
+_sOSReapSpaceCheckerCache
++[OSISystemProfiler sharedProfiler].oneInit
+_sSystemProfiler
+_blcstr_key
+_isDebugSetInBootargs.didOnce
+_isDebugSetInBootargs.result
+_sBRUptLock
+_sKextdPort
+_s_vol_uuid
+_BRBLLogFunc
+_BRCopyActiveBootPartitions
+_BRCopyBootFiles
+_BRCopyBootFilesToDir
+_BREraseBootFiles
+_BRUpdateBootFiles
+_OBJC_CLASS_$_OSIAIPostInstall
+_OBJC_CLASS_$_OSIAttachLoggingElement
+_OBJC_CLASS_$_OSICleanUpElement
+_OBJC_CLASS_$_OSIConvertToCS
+_OBJC_CLASS_$_OSIEraseDiskElement
+_OBJC_CLASS_$_OSIInstallElement
+_OBJC_CLASS_$_OSIInstallQueueElement
+_OBJC_CLASS_$_OSIInstallRecoverySystemElement
+_OBJC_CLASS_$_OSIMessageTracer
+_OBJC_CLASS_$_OSIMigrateElement
+_OBJC_CLASS_$_OSIPreSizingElement
+_OBJC_CLASS_$_OSIPrepareVolumeElement
+_OBJC_CLASS_$_OSIReapPreviousSystem
+_OBJC_CLASS_$_OSIReapableSpaceChecker
+_OBJC_CLASS_$_OSIRepairDiskElement
+_OBJC_CLASS_$_OSIRunEFIUpdaterTool
+_OBJC_CLASS_$_OSIRunSMCUpdaterTool
+_OBJC_CLASS_$_OSISyntheticChoice
+_OBJC_CLASS_$_OSISystemProfiler
+_OBJC_CLASS_$_OSInstallController
+_OBJC_CLASS_$_OSInstallOptions
+_OBJC_CLASS_$_OSProductManager
+_OBJC_IVAR_$_OSICleanUpElement._alternateBlessTarget
+_OBJC_IVAR_$_OSICleanUpElement._done
+_OBJC_IVAR_$_OSICleanUpElement._error
+_OBJC_IVAR_$_OSIEraseDiskElement._done
+_OBJC_IVAR_$_OSIEraseDiskElement._error
+_OBJC_IVAR_$_OSIEraseDiskElement._targetDisk
+_OBJC_IVAR_$_OSIInstallElement._done
+_OBJC_IVAR_$_OSIInstallElement._error
+_OBJC_IVAR_$_OSIInstallElement._isOSInstall
+_OBJC_IVAR_$_OSIInstallElement._packages
+_OBJC_IVAR_$_OSIInstallElement._totalEstimatedTime
+_OBJC_IVAR_$_OSIInstallElement._waitUntilDone
+_OBJC_IVAR_$_OSIMessageTracer._targetPath
+_OBJC_IVAR_$_OSIMessageTracer.messages
+_OBJC_IVAR_$_OSIMessageTracer.version
+_OBJC_IVAR_$_OSIMigrateElement._archiveRoot
+_OBJC_IVAR_$_OSIMigrateElement._engineFatalError
+_OBJC_IVAR_$_OSIMigrateElement._engineFileWarnings
+_OBJC_IVAR_$_OSIMigrateElement._engineIsRunning
+_OBJC_IVAR_$_OSIMigrateElement._hasStartedMigration
+_OBJC_IVAR_$_OSIMigrateElement._ignoredFilesInPreviousSystem
+_OBJC_IVAR_$_OSIMigrateElement._isServerDisk
+_OBJC_IVAR_$_OSIMigrateElement._leftOversPath
+_OBJC_IVAR_$_OSIMigrateElement._systemRoot
+_OBJC_IVAR_$_OSIPreSizingElement._spaceNeededToInstall
+_OBJC_IVAR_$_OSIReapPreviousSystem._checker
+_OBJC_IVAR_$_OSIReapPreviousSystem._spaceNeededToInstall
+_OBJC_IVAR_$_OSIReapPreviousSystem._timeSoFar
+_OBJC_IVAR_$_OSIReapPreviousSystem._timeToComplete
+_OBJC_IVAR_$_OSIReapableSpaceChecker._disk
+_OBJC_IVAR_$_OSIRepairDiskElement._error
+_OBJC_IVAR_$_OSIRepairDiskElement._repairCompleted
+_OBJC_IVAR_$_OSISyntheticChoice._canBeDisabled
+_OBJC_IVAR_$_OSISyntheticChoice._cellState
+_OBJC_IVAR_$_OSISyntheticChoice._enabled
+_OBJC_IVAR_$_OSISyntheticChoice._identifier
+_OBJC_IVAR_$_OSInstallController._customizationOptions
+_OBJC_IVAR_$_OSInstallController._distControllers
+_OBJC_IVAR_$_OSInstallController._initialTimeRemaining
+_OBJC_IVAR_$_OSInstallController._installOperations
+_OBJC_IVAR_$_OSInstallController._invalidTargetsWithErrors
+_OBJC_IVAR_$_OSInstallController._lastProgress
+_OBJC_IVAR_$_OSInstallController._lastTimeRemaining
+_OBJC_IVAR_$_OSInstallController._options
+_OBJC_IVAR_$_OSInstallController._products
+_OBJC_IVAR_$_OSInstallController._progressCompleted
+_OBJC_IVAR_$_OSInstallController._shouldProcessTimeRemaining
+_OBJC_IVAR_$_OSInstallController._systemSleepAssertion
+_OBJC_IVAR_$_OSInstallController._targetEvaluationQueue
+_OBJC_IVAR_$_OSInstallController._totalNonRunningTimeRemaining
+_OBJC_IVAR_$_OSInstallController._validTargets
+_OBJC_IVAR_$_OSInstallOptions._alternateBlessVolumePath
+_OBJC_IVAR_$_OSProductManager._allProducts
+_OBJC_IVAR_$_OSProductManager._attributes
+_OBJC_IVAR_$_OSProductManager._downloader
+_OBJC_IVAR_$_OSProductManager._downloaderDelegate
+_OBJC_IVAR_$_OSProductManager._downloaderPackages
+_OBJC_IVAR_$_OSProductManager._maxValidInstallDistance
+_OBJC_IVAR_$_OSProductManager._mutableProduct
+_OBJC_IVAR_$_OSProductManager._odsConnectDelegate
+_OBJC_IVAR_$_OSProductManager._odsConnector
+_OBJC_IVAR_$_OSProductManager._retryCountByPackageRef
+_OBJC_IVAR_$_OSProductManager._sourceManager
+_OBJC_METACLASS_$_OSIAIPostInstall
+_OBJC_METACLASS_$_OSIAttachLoggingElement
+_OBJC_METACLASS_$_OSICleanUpElement
+_OBJC_METACLASS_$_OSIConvertToCS
+_OBJC_METACLASS_$_OSIEraseDiskElement
+_OBJC_METACLASS_$_OSIInstallElement
+_OBJC_METACLASS_$_OSIInstallQueueElement
+_OBJC_METACLASS_$_OSIInstallRecoverySystemElement
+_OBJC_METACLASS_$_OSIMessageTracer
+_OBJC_METACLASS_$_OSIMigrateElement
+_OBJC_METACLASS_$_OSIPreSizingElement
+_OBJC_METACLASS_$_OSIPrepareVolumeElement
+_OBJC_METACLASS_$_OSIReapPreviousSystem
+_OBJC_METACLASS_$_OSIReapableSpaceChecker
+_OBJC_METACLASS_$_OSIRepairDiskElement
+_OBJC_METACLASS_$_OSIRunEFIUpdaterTool
+_OBJC_METACLASS_$_OSIRunSMCUpdaterTool
+_OBJC_METACLASS_$_OSISyntheticChoice
+_OBJC_METACLASS_$_OSISystemProfiler
+_OBJC_METACLASS_$_OSInstallController
+_OBJC_METACLASS_$_OSInstallOptions
+_OBJC_METACLASS_$_OSProductManager
+_OSIMTDomainKey
+_OSIMTFieldsKey
+_OSProductManagerAutomationFile
+_OSProductManagerCompatUpdateIdentifier
+_OSProductManagerIAEndDate
+_OSProductManagerIAEndProgressPercentage
+_OSProductManagerIAEndTimeEstimate
+_OSProductManagerIALogFile
+_OSProductManagerMutableProductName
+_OSProductManagerNetworkName
+_OSProductManagerODSDiscName
+_OSProductManagerODSDiscURL
+_OSProductManagerODSShareName
+_OSProductManagerProductCookieFileName
+_OSProductManagerProductCookieURLKey
+_OSProductManagerProductNVRAMVariable
+__daDone
+__sLogSpecsForVerboseLevels
+__writeResource
+_addKextToAlertDict
+_addToArrayIfAbsent
+_beQuiet
+_bootReversionsStrings
+_checkPath
+_checkRebuildAllCaches
+_checkUpdateCachesAndBoots
+_check_csfde
+_check_kext_boot_cache_file
+_check_loccache
+_copyBootCachesDictForURL
+_copyCSFDEInfo
+_copyKextPath
+_copyVolumeInfo
+_createCFDataFromFile
+_createCFMutableArray
+_createCFMutableDictionary
+_createCFMutableSet
+_createDiskForMount
+_createUTF8CStringForCFString
+_destroyCaches
+_fork_program
+_gASLClientHandle
+_gASLMessage
+_g_log_stream
+_getFilePathTimes
+_getKernelPathForURL
+_getLatestTimesFromCFURLArray
+_getLatestTimesFromDirPath
+_getLatestTimesFromDirURL
+_getParentPathTimes
+_getPathExtension
+_hasBootRootBoots
+_isDebugSetInBootargs
+_kDefaultChoiceChangesPath
+_kPreviousSystemPath
+_kRecoveredItemsPath
+_kRunEFIToolNVRAMKey
+_kRunSMCToolNVRAMKey
+_kValidTargetsDidUpdateNotificationName
+_launch_rebuild_all
+_log_CFError
+_markNotBRDefault
+_needUpdates
+_needsUpdate
+_notBRDefault
+_nullNotifyCallback
+_plistCachesNeedRebuild
+_postNoteAboutKextLoadsMT
+_postNoteAboutKexts
+_putVolumeForPath
+_readBootCaches
+_readBootCachesForDADisk
+_readSystemKextPropertyValues
+_rebuild_csfde_cache
+_rebuild_kext_boot_cache_file
+_rebuild_loccache
+_restoredir
+_safe_mach_error_string
+_saveFile
+_schdir
+_schdirparent
+_scopyitem
+_sdeepmkdir
+_sdeepunlink
+_setLogFilterForOpt
+_smkdir
+_sopen
+_srename
+_srmdir
+_statParentPath
+_statPath
+_statURL
+_sunlink
+_szerofile
+_taintDefaultStamps
+_takeVolumeForPath
+_tool_log
+_tool_openlog
+_updateMount
+_updateStamps
+_useDevelopmentKernel
+_user_approve
+_user_input
+_writeCSFDEProps
+_writeToFile
+_CFAllocatorAllocate
+_CFAllocatorDeallocate
+_CFArrayAppendValue
+_CFArrayApplyFunction
+_CFArrayContainsValue
+_CFArrayCreate
+_CFArrayCreateCopy
+_CFArrayCreateMutable
+_CFArrayExchangeValuesAtIndices
+_CFArrayGetCount
+_CFArrayGetFirstIndexOfValue
+_CFArrayGetTypeID
+_CFArrayGetValueAtIndex
+_CFArrayInsertValueAtIndex
+_CFAttributedStringCreate
+_CFBooleanGetTypeID
+_CFCopyDescription
+_CFDataCreate
+_CFDataCreateWithBytesNoCopy
+_CFDataGetBytePtr
+_CFDataGetLength
+_CFDataGetTypeID
+_CFDictionaryAddValue
+_CFDictionaryApplyFunction
+_CFDictionaryContainsKey
+_CFDictionaryContainsValue
+_CFDictionaryCreate
+_CFDictionaryCreateMutable
+_CFDictionaryGetCount
+_CFDictionaryGetTypeID
+_CFDictionaryGetValue
+_CFDictionaryRemoveValue
+_CFDictionarySetValue
+_CFEqual
+_CFErrorCopyDescription
+_CFErrorCopyFailureReason
+_CFGetTypeID
+_CFLocaleCreateCanonicalLanguageIdentifierFromString
+_CFNotificationCenterGetDistributedCenter
+_CFNotificationCenterPostNotificationWithOptions
+_CFNumberCreate
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPropertyListCreateData
+_CFPropertyListCreateWithData
+_CFPropertyListCreateWithStream
+_CFReadStreamClose
+_CFReadStreamCreateWithFile
+_CFReadStreamOpen
+_CFRelease
+_CFRetain
+_CFRunLoopGetCurrent
+_CFRunLoopRun
+_CFRunLoopRunInMode
+_CFRunLoopStop
+_CFSetCreateMutable
+_CFStringCompare
+_CFStringCreateArrayBySeparatingStrings
+_CFStringCreateArrayWithFindResults
+_CFStringCreateFromExternalRepresentation
+_CFStringCreateWithCString
+_CFStringCreateWithFileSystemRepresentation
+_CFStringCreateWithFormat
+_CFStringCreateWithSubstring
+_CFStringFind
+_CFStringGetCString
+_CFStringGetFileSystemRepresentation
+_CFStringGetLength
+_CFStringGetMaximumSizeForEncoding
+_CFStringGetMaximumSizeOfFileSystemRepresentation
+_CFStringGetTypeID
+_CFStringHasPrefix
+_CFStringHasSuffix
+_CFURLCopyAbsoluteURL
+_CFURLCopyFileSystemPath
+_CFURLCopyLastPathComponent
+_CFURLCopyPathExtension
+_CFURLCreateCopyAppendingPathComponent
+_CFURLCreateCopyDeletingLastPathComponent
+_CFURLCreateFromFileSystemRepresentation
+_CFURLCreateWithFileSystemPath
+_CFURLEnumeratorCreateForDirectoryURL
+_CFURLEnumeratorGetNextURL
+_CFURLGetFileSystemRepresentation
+_CFURLGetTypeID
+_CFURLResourceIsReachable
+_CFUUIDCreateString
+_CGBitmapContextCreate
+_CGColorCreate
+_CGColorSpaceCreateDeviceGray
+_CGColorSpaceRelease
+_CGContextFlush
+_CGContextRelease
+_CGContextSetTextPosition
+_CSFDEInitPropertyCache
+_CSFDEWritePropertyCacheToFD
+_CTFontCreateWithName
+_CTLineCreateWithAttributedString
+_CTLineDraw
+_CTLineGetImageBounds
+_CoreStorageCopyFamilyProperties
+_CoreStorageCopyPVWipeKeyUUID
+_DADiskCopyDescription
+_DADiskCreateFromBSDName
+_DADiskCreateFromIOMedia
+_DADiskCreateFromVolumePath
+_DADiskMountWithArguments
+_DADiskUnmount
+_DADissenterGetStatus
+_DASessionCreate
+_DASessionScheduleWithRunLoop
+_DASessionUnscheduleFromRunLoop
+_DIHLDiskImageAttach
+_EFILoginCopyInterfaceGraphics
+_IARCommitLoginCredentialsFinalized
+_IASAttachLoggingToFile
+_IASLoggingDaemonIsActive
+_IASWaitOnDispatchSemaphore
+_IOBSDNameMatching
+_IOCFSerialize
+_IOConnectCallMethod
+_IOIteratorNext
+_IOMasterPort
+_IOObjectConformsTo
+_IOObjectIsEqualTo
+_IOObjectRelease
+_IOPMAssertionCreateWithName
+_IOPMAssertionRelease
+_IORegistryEntryCreateCFProperty
+_IORegistryEntryCreateIterator
+_IORegistryEntryFromPath
+_IORegistryEntryGetChildIterator
+_IORegistryEntryGetNameInPlane
+_IORegistryEntryGetParentEntry
+_IORegistryEntryGetPath
+_IORegistryEntryGetRegistryEntryID
+_IORegistryEntryIDMatching
+_IORegistryEntrySearchCFProperty
+_IORegistryEntrySetCFProperty
+_IOServiceClose
+_IOServiceGetMatchingService
+_IOServiceGetMatchingServices
+_IOServiceMatching
+_IOServiceOpen
+_NSCocoaErrorDomain
+_NSFileGroupOwnerAccountID
+_NSFileGroupOwnerAccountName
+_NSFileImmutable
+_NSFileOwnerAccountID
+_NSFileOwnerAccountName
+_NSFilePosixPermissions
+_NSFileType
+_NSFileTypeDirectory
+_NSFileTypeRegular
+_NSFileTypeSymbolicLink
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSLocalizedFileSizeDescription
+_NSOSStatusErrorDomain
+_NSPOSIXErrorDomain
+_NSStringFromClass
+_OBJC_CLASS_$_IASSystemInformation
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAttributedString
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSFileHandle
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTask
+_OBJC_CLASS_$_NSThread
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSXMLDocument
+_OBJC_CLASS_$_PKDistributionChoiceItem
+_OBJC_CLASS_$_PKDistributionController
+_OBJC_CLASS_$_PKDownloader
+_OBJC_CLASS_$_PKInstallClient
+_OBJC_CLASS_$_PKInstallRequest
+_OBJC_CLASS_$_PKMutableProduct
+_OBJC_CLASS_$_PKPackage
+_OBJC_CLASS_$_PKPackageSourceManager
+_OBJC_CLASS_$_PKPackageSpecifier
+_OBJC_CLASS_$_PKProduct
+_OBJC_CLASS_$_SKManager
+_OBJC_CLASS_$_SMArchiver
+_OBJC_CLASS_$_SMConfMigrator
+_OBJC_CLASS_$_SMCopyEngineUtilities
+_OBJC_CLASS_$_SMManager
+_OBJC_CLASS_$_SMMigrationRequest
+_OBJC_CLASS_$_SMPathAnalyzer
+_OBJC_CLASS_$_SMSystem
+_OBJC_CLASS_$_SMSystem_Daemon
+_OBJC_EHTYPE_$_NSException
+_OBJC_IVAR_$_PKDistributionChoiceItem._childItems
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_PKDistributionChoiceItem
+_OSKextCreateKextsFromURLs
+_OSKextGetActualSafeBoot
+_OSKextGetIdentifier
+_OSKextGetSimulatedSafeBoot
+_OSKextGetSystemExtensionsFolderURLs
+_OSKextGetURL
+_OSKextGetUsesCaches
+_OSKextGetValueForInfoDictionaryKey
+_OSKextIsLoadableInSafeBoot
+_OSKextLog
+_OSKextLogCFString
+_OSKextSetLogFilter
+_PKDistributionLicense
+_PKPackageInfoExternalPayloadPath
+_PKProductSecureNetEnabledType
+_SIIsOSXServerVolumeConfigured
+_SMMigrationInFlightLocation
+__Block_object_assign
+__Block_object_dispose
+__CFCopySystemVersionDictionary
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__NSGetEnviron
+__OSKextReadCache
+__OSKextWriteCache
+__Unwind_Resume
+___CFConstantStringClassReference
+___bzero
+___error
+___memcpy_chk
+___memmove_chk
+___objc_personality_v0
+___snprintf_chk
+___sprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___stdinp
+___stdoutp
+___strncat_chk
+___tolower
+___vsnprintf_chk
+__dispatch_main_q
+__objc_empty_cache
+_access
+_acl_free
+_acl_init
+_acl_set_file
+_asl_new
+_asl_open
+_asl_set
+_asl_vlog
+_asprintf
+_atoi
+_basename
+_bcopy
+_bootstrap_look_up
+_bootstrap_port
+_bzero
+_calloc
+_chflags
+_chmod
+_close
+_closedir
+_devname
+_dirname
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_fchdir
+_fchmod
+_fchown
+_fclose
+_fcntl
+_fflush
+_fgetc
+_fprintf
+_fputc
+_free
+_freeifaddrs
+_fsetxattr
+_fstat$INODE64
+_fstatfs$INODE64
+_fsync
+_ftruncate
+_fts_close$INODE64
+_fts_open$INODE64
+_fts_read$INODE64
+_futimes
+_fwrite
+_getattrlist
+_getenv
+_geteuid
+_getfsstat$INODE64
+_getifaddrs
+_getiopolicy_np
+_getrlimit
+_getuid
+_kCFAllocatorDefault
+_kCFAllocatorMalloc
+_kCFAllocatorNull
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFBundleIdentifierKey
+_kCFBundleVersionKey
+_kCFCopyStringDictionaryKeyCallBacks
+_kCFNull
+_kCFRunLoopDefaultMode
+_kCFTypeArrayCallBacks
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_kCTFontAttributeName
+_kCTForegroundColorAttributeName
+_kDADiskDescriptionVolumePathKey
+_kDADiskDescriptionVolumeUUIDKey
+_kEFILoginDataKey
+_kEFILoginFileNameKey
+_kIOMasterPortDefault
+_kSKDiskRoleLegacyMacData
+_kSKDiskRoleLegacyMacSystem
+_kSKDiskRoleMacData
+_kSKDiskRoleMacSystem
+_kSKDiskRoleWindowsData
+_kSKDiskRoleWindowsSystem
+_kSKDiskTypeCSLV
+_kextmanager_lock_volume
+_kextmanager_unlock_volume
+_mach_error_string
+_mach_port_allocate
+_mach_port_mod_refs
+_mach_task_self_
+_malloc
+_memcmp
+_memcpy
+_mkdir
+_mkdtemp
+_mount
+_msgtracer_domain_free
+_msgtracer_domain_new
+_msgtracer_log
+_msgtracer_msg_free
+_msgtracer_msg_new
+_msgtracer_set
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_sync_enter
+_objc_sync_exit
+_open
+_opendir$INODE64
+_optarg
+_optind
+_posix_spawn
+_pread
+_proc_listallpids
+_proc_pidpath
+_pthread_getspecific
+_pthread_key_create
+_pthread_once
+_pthread_setspecific
+_read
+_readdir_r$INODE64
+_realloc
+_reallocf
+_realpath$DARWIN_EXTSN
+_rename
+_rindex
+_rmdir
+_roundf
+_setattrlist
+_setenv
+_setiopolicy_np
+_setrlimit
+_sleep
+_stat$INODE64
+_statfs$INODE64
+_strcmp
+_strdup
+_strerror
+_strlcat
+_strlcpy
+_strlen
+_strncmp
+_strncpy
+_strrchr
+_strsep
+_strstr
+_strtoul
+_sysctl
+_sysctlbyname
+_syslog
+_unlink
+_unmount
+_uuid_unparse_upper
+_vasprintf
+_vfprintf
+_waitpid
+_write
+dyld_stub_binder

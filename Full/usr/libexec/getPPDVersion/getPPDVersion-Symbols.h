@@ -1,0 +1,17 @@
+radr://5614542
+__mh_execute_header
+_OBJC_CLASS_$_NSAutoreleasePool
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSString
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+_objc_enumerationMutation
+_objc_msgSend
+_ppdFindAttr
+_ppdOpenFile
+_printf
+_strcmp
+dyld_stub_binder

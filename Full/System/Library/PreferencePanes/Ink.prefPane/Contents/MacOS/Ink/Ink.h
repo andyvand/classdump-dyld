@@ -1,0 +1,14 @@
+#import <Ink/GesturesTabController.h>
+#import <Ink/SettingsTabController.h>
+#import <Ink/WordListTabController.h>
+#import <Ink/GestureListItem.h>
+#import <Ink/GestureView.h>
+#import <Ink/InkPref.h>
+#import <Ink/WordListEntryField.h>
+#import <Ink/LanguageTabController.h>
+#import <Ink/InkLanguageController.h>
+#import <Ink/InkSharedPrefsBasicController.h>
+#import <Ink/InkSharedPrefsDetailsController.h>
+#import <Ink/InkSharedPrefsLoggingController.h>
+#import <Ink/InkSharedPrefsServerPrefsController.h>
+#import <Ink/InkSharedPrefsUtils.h>

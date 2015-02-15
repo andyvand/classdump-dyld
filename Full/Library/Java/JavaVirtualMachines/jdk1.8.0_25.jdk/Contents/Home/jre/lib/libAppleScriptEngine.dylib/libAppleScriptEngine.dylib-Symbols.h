@@ -1,0 +1,156 @@
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) aeDescriptorValue]
+-[NSObject(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSArray(JavaAppleScriptEngineAdditions) arrayWithAEDesc:]
+-[NSDictionary(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSDictionary(JavaAppleScriptEngineAdditions) dictionaryWithAEDesc:]
+-[NSString(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSString(JavaAppleScriptEngineAdditions) stringWithAEDesc:]
+-[NSNull(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSNull(JavaAppleScriptEngineAdditions) nullWithAEDesc:]
+-[NSNumber(JavaAppleScriptEngineAdditions) jaseDescriptorValueWithFloatP:byteCount:]
+-[NSNumber(JavaAppleScriptEngineAdditions) jaseDescriptorValueWithSignedIntP:byteCount:]
+-[NSNumber(JavaAppleScriptEngineAdditions) jaseDescriptorValueWithUnsignedIntP:byteCount:]
++[NSNumber(JavaAppleScriptEngineAdditions) numberWithAEDesc:]
++[NSNumber(JavaAppleScriptEngineAdditions) jaseNumberWithSignedIntP:byteCount:]
++[NSNumber(JavaAppleScriptEngineAdditions) jaseNumberWithUnsignedIntP:byteCount:]
++[NSNumber(JavaAppleScriptEngineAdditions) jaseNumberWithFloatP:byteCount:]
+-[NSImage(JavaAppleScriptEngineAdditions) aeDescriptorValue]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) int16Value]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) unsignedInt32Value]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) float32Value]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) float64Value]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) longDateTimeValue]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) descriptorWithInt16:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) descriptorWithUnsignedInt32:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) descriptorWithFloat32:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) descriptorWithFloat64:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) descriptorWithLongDateTime:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) jaseSetUpHandlerDict]
++[NSString(JavaAppleScriptEngineAdditions) versionWithAEDesc:]
+-[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) objCObjectValue]
+-[NSDate(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSDate(JavaAppleScriptEngineAdditions) dateWithAEDesc:]
+-[NSNumber(JavaAppleScriptEngineAdditions) aeDescriptorValue]
+-[NSValue(JavaAppleScriptEngineAdditions) aeDescriptorValue]
++[NSImage(JavaAppleScriptEngineAdditions) imageWithAEDesc:]
++[NSAppleEventDescriptor(JavaAppleScriptEngineAdditions) registerConversionHandler:selector:forDescriptorTypes:]
+-[AppleScriptExecutionContext returnValue]
+-[AppleScriptExecutionContext error]
+-[AppleScriptExecutionContext context]
+-[AppleScriptExecutionContext source]
+-[AppleScriptExecutionContext init:context:]
+-[AppleScriptExecutionContext setSource:]
+-[AppleScriptExecutionContext setContext:]
+-[AppleScriptExecutionContext setError:]
+-[AppleScriptExecutionContext setReturnValue:]
+-[AppleScriptExecutionContext invokeWithEnv:]
+-[AppleScriptExecutionContext invoke]
+-[AppleScriptExecutionContext functionInvocationEvent]
+-[AppleScriptExecutionContext scriptFromSource]
+-[AppleScriptExecutionContext scriptFromURL]
+-[AppleScriptExecutionContext dealloc]
+-[AppleScriptExecutionContext initWithFile:context:]
+-[AppleScriptExecutionContext initWithSource:context:]
+-[JavaAppleScriptVersionConverter coerceJavaObject:withEnv:usingCoercer:]
+-[JavaAppleScriptNullConverter coerceNSObject:withEnv:usingCoercer:]
+-[JavaAppleScriptNullConverter coerceJavaObject:withEnv:usingCoercer:]
++[JavaAppleScriptEngineCoercion coercer]
+-[JavaAppleScriptImageConverter coerceJavaObject:withEnv:usingCoercer:]
+-[JavaAppleScriptImageConverter coerceNSObject:withEnv:usingCoercer:]
+-[JavaAppleScriptVersionConverter coerceNSObject:withEnv:usingCoercer:]
+-[JavaAppleScriptBaseConverter coerceNSObject:withEnv:usingCoercer:]
+-[JavaAppleScriptBaseConverter coerceJavaObject:withEnv:usingCoercer:]
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table6
+GCC_except_table7
+__jm_CImage_getCreator
+_jc_CImage
+__jm_CImage_Generator_createImageFromPtr
+_jc_CImage_Generator
+__jm_CImage_Generator_createImageFromImg
+__jm_CImage_getNSImage
+_handlerDict
+_appleScriptCoercer
+_Java_apple_applescript_AppleScriptEngineFactory_initNative
+_Java_apple_applescript_AppleScriptEngine_createContextFrom
+_Java_apple_applescript_AppleScriptEngine_createObjectFrom
+_Java_apple_applescript_AppleScriptEngine_disposeContext
+_Java_apple_applescript_AppleScriptEngine_evalScript
+_Java_apple_applescript_AppleScriptEngine_evalScriptFromURL
+_Java_apple_applescript_AppleScriptEngine_initNative
+_OBJC_CLASS_$_AppleScriptExecutionContext
+_OBJC_CLASS_$_JavaAppleScriptBaseConverter
+_OBJC_CLASS_$_JavaAppleScriptEngineCoercion
+_OBJC_CLASS_$_JavaAppleScriptImageConverter
+_OBJC_CLASS_$_JavaAppleScriptNullConverter
+_OBJC_CLASS_$_JavaAppleScriptVersionConverter
+_OBJC_IVAR_$_AppleScriptExecutionContext.context
+_OBJC_IVAR_$_AppleScriptExecutionContext.error
+_OBJC_IVAR_$_AppleScriptExecutionContext.isFile
+_OBJC_IVAR_$_AppleScriptExecutionContext.returnValue
+_OBJC_IVAR_$_AppleScriptExecutionContext.source
+_OBJC_METACLASS_$_AppleScriptExecutionContext
+_OBJC_METACLASS_$_JavaAppleScriptBaseConverter
+_OBJC_METACLASS_$_JavaAppleScriptEngineCoercion
+_OBJC_METACLASS_$_JavaAppleScriptImageConverter
+_OBJC_METACLASS_$_JavaAppleScriptNullConverter
+_OBJC_METACLASS_$_JavaAppleScriptVersionConverter
+_AEGetDescData
+_AEGetDescDataSize
+_CFDateCreate
+_CFDateGetAbsoluteTime
+_CFRelease
+_CFRetain
+_JNFCallLongMethod
+_JNFCallObjectMethod
+_JNFCallStaticObjectMethod
+_JNFIsInstanceOf
+_JNFJavaToNSString
+_JNFNSToJavaString
+_JNFNativeMethodEnter
+_JNFNativeMethodExit
+_JNFObjectToString
+_NSAppleScriptErrorMessage
+_NSInvalidArgumentException
+_OBJC_CLASS_$_JNFDefaultCoercions
+_OBJC_CLASS_$_JNFException
+_OBJC_CLASS_$_JNFRunLoop
+_OBJC_CLASS_$_NSAppleEventDescriptor
+_OBJC_CLASS_$_NSAppleScript
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSImage
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_UCConvertCFAbsoluteTimeToLongDateTime
+_UCConvertLongDateTimeToCFAbsoluteTime
+__Unwind_Resume_or_Rethrow
+___CFConstantStringClassReference
+___objc_personality_v0
+__objc_empty_cache
+__objc_empty_vtable
+_objc_begin_catch
+_objc_end_catch
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_objc_msgSend_stret
+_objc_setProperty
+_pthread_main_np
+_strcmp
+dyld_stub_binder

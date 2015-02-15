@@ -1,0 +1,16 @@
+radr://5614542
+__mh_execute_header
+___stderrp
+_exit
+_fprintf
+_fwrite
+_getopt
+_optarg
+_optind
+_printf
+_strcmp
+_strlen
+_yp_get_default_domain
+_yp_match
+_yperr_string
+dyld_stub_binder

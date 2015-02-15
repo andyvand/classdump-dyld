@@ -1,0 +1,15 @@
+#import <TextEdit/Document.h>
+#import <TextEdit/Controller.h>
+#import <TextEdit/ScalingScrollView.h>
+#import <TextEdit/MultiplePageView.h>
+#import <TextEdit/Preferences.h>
+#import <TextEdit/EncodingPopUpButtonCell.h>
+#import <TextEdit/EncodingManager.h>
+#import <TextEdit/OpenSaveAccessoryOwner.h>
+#import <TextEdit/DocumentController.h>
+#import <TextEdit/DocumentWindowController.h>
+#import <TextEdit/LinePanelController.h>
+#import <TextEdit/PrintPanelAccessoryController.h>
+#import <TextEdit/DocumentPropertiesPanelController.h>
+#import <TextEdit/FontNameTransformer.h>
+#import <TextEdit/PrintingTextView.h>
