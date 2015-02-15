@@ -1,0 +1,13 @@
+radr://5614542
+_OBJC_CLASS_$_AMRemoveEmptyPlaylistsAction
+_OBJC_METACLASS_$_AMRemoveEmptyPlaylistsAction
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$__AMiTunes7Application
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_objc_enumerationMutation
+_objc_msgSend
+dyld_stub_binder

@@ -1,0 +1,3 @@
+_CarbonVersionNumber
+_CarbonVersionString
+dyld_stub_binder

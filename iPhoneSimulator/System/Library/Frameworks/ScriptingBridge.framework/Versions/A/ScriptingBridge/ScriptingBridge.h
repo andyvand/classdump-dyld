@@ -1,0 +1,14 @@
+#import <ScriptingBridge/SBApplication.h>
+#import <ScriptingBridge/SBElementArray.h>
+#import <ScriptingBridge/SBObject.h>
+#import <ScriptingBridge/SBProxy.h>
+#import <ScriptingBridge/SBProxyByClass.h>
+#import <ScriptingBridge/SBProxyByCode.h>
+#import <ScriptingBridge/SBRelativePosition.h>
+#import <ScriptingBridge/SBAppLocator.h>
+#import <ScriptingBridge/SBIdentifiedAppLocator.h>
+#import <ScriptingBridge/SBPIDAppLocator.h>
+#import <ScriptingBridge/SBFilePathAppLocator.h>
+#import <ScriptingBridge/SBRemoteURLAppLocator.h>
+#import <ScriptingBridge/SBAppContext.h>
+#import <ScriptingBridge/SdefDocument.h>

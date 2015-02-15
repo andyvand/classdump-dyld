@@ -12,16 +12,43 @@ include $(MAKEFILEPATH)/$(MAKEFILE_SOURCE)/platform-variables.make
 RANLIB=ranlib
 AR=ar
 ARCHS=-arch i386 -arch x86_64
+MACVER=10.10
  CC=gcc
 CXX=g++
 LD=g++
 
 LIBRARY_NAME = libclassdumpdyld
 
-all: $(LIBRARY_NAME).a $(LIBRARY_NAME)
+SIGNID = "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)"
+
+CODESIGN = codesign -s $(SIGNID)
+
+all: $(LIBRARY_NAME).a $(LIBRARY_NAME).dylib $(LIBRARY_NAME).framework $(LIBRARY_NAME).bundle $(LIBRARY_NAME)
+
+$(LIBRARY_NAME).bundle: classdumpdyldlib.o
+	mkdir -p $@/Contents/MacOS
+	mkdir -p $@/Contents/Resources
+	cp -Rf InfoBundle.plist $@/Contents/Info.plist
+	$(CXX) -bundle -dead_strip -interposable -bind_at_load -export_dynamic -dynamic $(ARCHS) $(OTHER_CFLAGS) -o $@/Contents/MacOS/$(LIBRARY_NAME) $^ -framework Foundation -u _libmain -e _libmain
+	$(CODESIGN) $(LIBRARY_NAME).bundle
+
+$(LIBRARY_NAME).framework: classdumpdyldlib.o
+	mkdir -p $@/Versions/A
+	mkdir -p $@/Versions/A/Resources
+	cd $@/Versions && ln -sf A Current && cd ../..
+	ln -sf Versions/A/Resources Resources
+	cp -Rf Version.plist Info.plist $@/Versions/A/Resources
+	$(CXX) -dynamiclib -dead_strip -interposable -bind_at_load -export_dynamic -dynamic $(ARCHS) $(OTHER_CFLAGS) -o $@/Versions/A/$(LIBRARY_NAME) $^ -framework Foundation -u _libmain -e _libmain
+	cd $@ && ln -sf Versions/A/$(LIBRARY_NAME) $(LIBRARY_NAME) && cd ..
+	$(CODESIGN) $@/Versions/A
+
+$(LIBRARY_NAME).dylib: classdumpdyldlib.o
+	$(CXX) -dynamiclib -dead_strip -export_dynamic -init _libmain -bind_at_load -dynamic $(ARCHS) $(OTHER_CFLAGS) -o $@ $^ -framework Foundation -u _libmain -e _libmain
+	$(CODESIGN) $(LIBRARY_NAME).dylib
 
 $(LIBRARY_NAME): classdumpdyldlib.o
-	$(CXX) $(ARCHS) $(OTHER_CFLAGS) -o $@ $^ -framework Foundation -u _libmain -e _libmain
+	$(CXX) -dead_strip $(ARCHS) $(OTHER_CFLAGS) -o $@ $^ -framework Foundation -u _libmain -e _libmain
+	$(CODESIGN) $(LIBRARY_NAME)
 
 $(LIBRARY_NAME).a: classdumpdyldlib.o
 	$(AR) cru $@ $^

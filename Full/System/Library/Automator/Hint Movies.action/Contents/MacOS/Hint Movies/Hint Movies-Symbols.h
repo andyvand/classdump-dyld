@@ -1,0 +1,42 @@
+-[HintMovies timsAwesomeWorkaround]
+-[HintMovies opened]
+-[HintMovies removePreviousHintedTracks:]
+-[HintMovies hintMovie:pathname:]
+-[HintMovies processFile:returnValues:]
+-[HintMovies processFolder:returnValues:]
+-[HintMovies runWithInput:fromAction:error:]
+-[HintMovies initWithDefinition:fromArchive:]
+_OBJC_CLASS_$_HintMovies
+_OBJC_METACLASS_$_HintMovies
+_NSAppleScriptErrorMessage
+_NSAppleScriptErrorNumber
+_NSFileHFSTypeCode
+_NSFileType
+_NSFileTypeDirectory
+_NSFileTypeRegular
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_QTDataReference
+_OBJC_CLASS_$_QTMovie
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+_QTMediaTypeHint
+_QTMovieExport
+_QTMovieExportManufacturer
+_QTMovieExportType
+_QTTrackMediaTypeAttribute
+___CFConstantStringClassReference
+__objc_empty_cache
+__objc_empty_vtable
+_objc_assign_strongCast
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_tmpnam
+dyld_stub_binder

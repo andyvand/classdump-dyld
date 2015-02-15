@@ -1,0 +1,1166 @@
++[AFConnection initialize]
+-[AFConnection init]
+-[AFConnection dealloc]
+-[AFConnection setDelegate:]
+-[AFConnection _checkAndSetIsCapturingSpeech:]
+-[AFConnection _requestWillBeginWithRequestClass:logAggregateData:isSpeechRequest:]
+-[AFConnection _requestDidEnd]
+-[AFConnection _doCommand:reply:]
+-[AFConnection _setShouldSpeak:]
+___32-[AFConnection _setShouldSpeak:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AFConnection _requestReplyContextMayInitiateCall]
+-[AFConnection _speechRecordingDidUpdateAveragePower:peakPower:]
+-[AFConnection _tellDelegateRequestFinished]
+-[AFConnection _tellDelegateRequestFailed:requestClass:]
+-[AFConnection _tellDelegateShouldSpeakChanged:]
+-[AFConnection _tellSpeechDelegateRecordingWillBegin]
+-[AFConnection _tellSpeechDelegateRecordingDidBegin]
+-[AFConnection _tellSpeechDelegateRecordingDidEnd]
+-[AFConnection _tellSpeechDelegateRecordingDidCancel]
+-[AFConnection _tellSpeechDelegateRecordingDidFail:]
+-[AFConnection _tellSpeechDelegateSpeechRecognized:]
+-[AFConnection _tellSpeechDelegateRecognitionDidFail:]
+-[AFConnection _clearConnection]
+-[AFConnection _connection]
+___27-[AFConnection _connection]_block_invoke
+___27-[AFConnection _connection]_block_invoke_2
+___copy_helper_block_83
+___destroy_helper_block_84
+___copy_helper_block_86
+___destroy_helper_block_87
+-[AFConnection _invokeRequestTimeout]
+-[AFConnection _scheduleRequestTimeout:]
+-[AFConnection _cancelRequestTimeout]
+-[AFConnection _requestStateUpdate]
+___35-[AFConnection _requestStateUpdate]_block_invoke
+___35-[AFConnection _requestStateUpdate]_block_invoke_2
+___copy_helper_block_215
+___destroy_helper_block_216
+___copy_helper_block_218
+___destroy_helper_block_219
+-[AFConnection _willStartRequestForSpeech:]
+-[AFConnection _willCancelRequest]
+-[AFConnection _willFailRequestWithError:]
+-[AFConnection _willCompleteRequest]
++[AFConnection assistantIsSupportedForLanguageCode:error:]
++[AFConnection assistantIsSupported]
++[AFConnection beginMonitoringAvailability]
+__reachabilityCallback
++[AFConnection isAvailable]
++[AFConnection stopMonitoringAvailability]
++[AFConnection userDataSyncNeeded]
++[AFConnection currentLanguageCode]
++[AFConnection isReadyForLanguageCode:]
++[AFConnection outputVoice]
+-[AFConnection endSession]
++[AFConnection defrost]
+___23+[AFConnection defrost]_block_invoke
+___23+[AFConnection defrost]_block_invoke_2
+___copy_helper_block_265
+___destroy_helper_block_266
+-[AFConnection preheat]
+-[AFConnection setLanguageCode:error:]
+-[AFConnection checkLanguageReady:completion:]
+-[AFConnection setLockState:screenLocked:]
+-[AFConnection startRequestWithText:timeout:]
+___45-[AFConnection startRequestWithText:timeout:]_block_invoke
+-[AFConnection startDirectActionRequestWithString:forBundleID:timeout:]
+-[AFConnection startRequestWithText:]
+-[AFConnection startSpeechRequestWithOptions:]
+-[AFConnection cancelSpeech]
+-[AFConnection updateSpeechOptions:]
+-[AFConnection stopSpeechWithOptions:]
+-[AFConnection stopSpeech]
+-[AFConnection cancelRequest]
+-[AFConnection rollbackRequest]
+-[AFConnection startRequestWithCorrectedText:forSpeechIdentifier:]
+-[AFConnection isRecording]
+-[AFConnection shouldSpeak]
+-[AFConnection averagePower]
+-[AFConnection peakPower]
+-[AFConnection replyContextMayInitiateCall]
+-[AFConnection sendGenericAceCommand:]
+-[AFConnection sendGenericAceCommand:conflictHandler:]
+___54-[AFConnection sendGenericAceCommand:conflictHandler:]_block_invoke
+___copy_helper_block_306
+___destroy_helper_block_307
+-[AFConnection sendReplyCommand:]
+-[AFConnection clearContext]
+-[AFConnection clearAndSetApplicationContext]
+-[AFConnection clearAndSetApplicationContextWithBulletins:]
+-[AFConnection undoRequest]
+-[AFConnection redoRequest]
+-[AFConnection domainObjectForKey:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[AFConnection domainObjectForKey:]_block_invoke
+___copy_helper_block_320
+___destroy_helper_block_321
+___35-[AFConnection domainObjectForKey:]_block_invoke326
+___copy_helper_block_327
+___destroy_helper_block_328
+-[AFConnection setDomainObject:forKey:]
+-[AFConnection delegate]
+-[AFConnection speechDelegate]
+-[AFConnection setSpeechDelegate:]
+-[AFConnection .cxx_destruct]
+-[AFConnection(Private) startSpeechRequestWithSpeechFileAtURL:]
+-[AFConnection(Private) startSpeechRequestWithSpeechFileAtURL:isNarrowBand:]
+-[AFConnection(Internal) _barrier]
+___34-[AFConnection(Internal) _barrier]_block_invoke
+___copy_helper_block_425
+___destroy_helper_block_426
+___34-[AFConnection(Internal) _barrier]_block_invoke428
+___copy_helper_block_429
+___destroy_helper_block_430
+-[AFConnection(Internal) _clearAssistantInfoForAccountWithIdentifier:]
+-[AFConnection(Internal) _clientService]
+-[AFConnection(Internal) _clientServiceWithErrorHandler:]
+-[AFConnectionClientServiceDelegate initWithConnection:]
+-[AFConnectionClientServiceDelegate _connectionDelegate]
+-[AFConnectionClientServiceDelegate requestDidReceiveCommandData:reply:]
+___72-[AFConnectionClientServiceDelegate requestDidReceiveCommandData:reply:]_block_invoke
+___copy_helper_block_449
+___destroy_helper_block_450
+-[AFConnectionClientServiceDelegate requestDidReceiveCommandInfo:reply:]
+___72-[AFConnectionClientServiceDelegate requestDidReceiveCommandInfo:reply:]_block_invoke
+___copy_helper_block_454
+___destroy_helper_block_455
+-[AFConnectionClientServiceDelegate requestDidFinish]
+___53-[AFConnectionClientServiceDelegate requestDidFinish]_block_invoke
+___copy_helper_block_458
+___destroy_helper_block_459
+-[AFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]
+___67-[AFConnectionClientServiceDelegate requestRequestedOpenURL:reply:]_block_invoke
+___copy_helper_block_467
+___destroy_helper_block_468
+-[AFConnectionClientServiceDelegate requestRequestedDismissAssistant]
+___69-[AFConnectionClientServiceDelegate requestRequestedDismissAssistant]_block_invoke
+___copy_helper_block_474
+___destroy_helper_block_475
+-[AFConnectionClientServiceDelegate requestDidFailWithError:requestClass:]
+___74-[AFConnectionClientServiceDelegate requestDidFailWithError:requestClass:]_block_invoke
+___copy_helper_block_477
+___destroy_helper_block_478
+-[AFConnectionClientServiceDelegate shouldSpeakChanged:]
+___56-[AFConnectionClientServiceDelegate shouldSpeakChanged:]_block_invoke
+___copy_helper_block_480
+___destroy_helper_block_481
+-[AFConnectionClientServiceDelegate requestReplyContextMayInitiateCall]
+___71-[AFConnectionClientServiceDelegate requestReplyContextMayInitiateCall]_block_invoke
+___copy_helper_block_484
+___destroy_helper_block_485
+-[AFConnectionClientServiceDelegate speechRecordingWillBegin]
+___61-[AFConnectionClientServiceDelegate speechRecordingWillBegin]_block_invoke
+___copy_helper_block_488
+___destroy_helper_block_489
+-[AFConnectionClientServiceDelegate speechRecordingDidBegin]
+___60-[AFConnectionClientServiceDelegate speechRecordingDidBegin]_block_invoke
+___copy_helper_block_492
+___destroy_helper_block_493
+-[AFConnectionClientServiceDelegate speechRecordingDidUpdateAveragePower:peakPower:]
+___84-[AFConnectionClientServiceDelegate speechRecordingDidUpdateAveragePower:peakPower:]_block_invoke
+___copy_helper_block_496
+___destroy_helper_block_497
+-[AFConnectionClientServiceDelegate speechRecordingDidEnd]
+___58-[AFConnectionClientServiceDelegate speechRecordingDidEnd]_block_invoke
+___copy_helper_block_500
+___destroy_helper_block_501
+-[AFConnectionClientServiceDelegate speechRecordingDidCancel]
+___61-[AFConnectionClientServiceDelegate speechRecordingDidCancel]_block_invoke
+___copy_helper_block_504
+___destroy_helper_block_505
+-[AFConnectionClientServiceDelegate speechRecordingDidFail:]
+___60-[AFConnectionClientServiceDelegate speechRecordingDidFail:]_block_invoke
+___copy_helper_block_507
+___destroy_helper_block_508
+-[AFConnectionClientServiceDelegate speechRecognized:]
+___54-[AFConnectionClientServiceDelegate speechRecognized:]_block_invoke
+___copy_helper_block_511
+___destroy_helper_block_512
+-[AFConnectionClientServiceDelegate speechRecognitionDidFail:]
+___62-[AFConnectionClientServiceDelegate speechRecognitionDidFail:]_block_invoke
+___copy_helper_block_515
+___destroy_helper_block_516
+-[AFConnectionClientServiceDelegate .cxx_destruct]
+-[AFCommand initWithCommandInfo:context:]
+-[AFCommand initWithData:context:]
+-[AFCommand domain]
+-[AFCommand commandValueForKey:]
+-[AFCommand aceDictionary]
+-[AFCommand needsReply]
+-[AFCommand context]
+-[AFCommand description]
+-[AFCommand name]
+-[AFCommand .cxx_destruct]
+___AFLogInitIfNeeded_block_invoke
++[AFError errorWithCode:description:underlyingError:]
++[AFError errorWithCode:]
+-[AFAccount description]
+-[AFAccount initWithMessageDictionary:]
+-[AFAccount messageDictionary]
+-[AFAccount identifier]
+-[AFAccount setIdentifier:]
+-[AFAccount label]
+-[AFAccount setLabel:]
+-[AFAccount assistantIdentifier]
+-[AFAccount setAssistantIdentifier:]
+-[AFAccount speechIdentifier]
+-[AFAccount setSpeechIdentifier:]
+-[AFAccount hostname]
+-[AFAccount setHostname:]
+-[AFAccount predefinedServer]
+-[AFAccount setPredefinedServer:]
+-[AFAccount aceHost]
+-[AFAccount setAceHost:]
+-[AFAccount group]
+-[AFAccount setGroup:]
+-[AFAccount lastSyncDates]
+-[AFAccount setLastSyncDates:]
+-[AFAccount localeIdentifier]
+-[AFAccount setLocaleIdentifier:]
+-[AFAccount isActive]
+-[AFAccount .cxx_destruct]
+-[AFVoiceInfo initWithLanguageCode:gender:isCustom:]
+-[AFVoiceInfo isEqual:]
+-[AFVoiceInfo hash]
+-[AFVoiceInfo description]
+-[AFVoiceInfo dictionaryRepresentation]
+-[AFVoiceInfo initWithDictionaryRepresentation:]
++[AFVoiceInfo supportsSecureCoding]
+-[AFVoiceInfo encodeWithCoder:]
+-[AFVoiceInfo initWithCoder:]
+-[AFVoiceInfo copyWithZone:]
+-[AFVoiceInfo languageCode]
+-[AFVoiceInfo gender]
+-[AFVoiceInfo isCustom]
+-[AFVoiceInfo .cxx_destruct]
+___AFSupportBaseURL_block_invoke
+-[NSURL(AMOSExtensions) isAMOSIdentifier]
+-[NSURL(AMOSExtensions) isAMOSCommittedIdentifier]
++[AFContextManager defaultContextManager]
+___41+[AFContextManager defaultContextManager]_block_invoke
+-[AFContextManager init]
+-[AFContextManager nothing]
+-[AFContextManager addContextProvider:]
+-[AFContextManager removeContextProvider:]
+-[AFContextManager dealloc]
+-[AFSpeechPhrase description]
++[AFSpeechPhrase supportsSecureCoding]
+-[AFSpeechPhrase encodeWithCoder:]
+-[AFSpeechPhrase initWithCoder:]
+-[AFSpeechPhrase interpretations]
+-[AFSpeechPhrase setInterpretations:]
+-[AFSpeechPhrase isLowConfidence]
+-[AFSpeechPhrase setIsLowConfidence:]
+-[AFSpeechPhrase .cxx_destruct]
+-[AFSpeechInterpretation description]
++[AFSpeechInterpretation supportsSecureCoding]
+-[AFSpeechInterpretation encodeWithCoder:]
+-[AFSpeechInterpretation initWithCoder:]
+-[AFSpeechInterpretation tokens]
+-[AFSpeechInterpretation setTokens:]
+-[AFSpeechInterpretation .cxx_destruct]
+-[AFSpeechToken description]
++[AFSpeechToken supportsSecureCoding]
+-[AFSpeechToken encodeWithCoder:]
+-[AFSpeechToken initWithCoder:]
+-[AFSpeechToken text]
+-[AFSpeechToken setText:]
+-[AFSpeechToken confidenceScore]
+-[AFSpeechToken setConfidenceScore:]
+-[AFSpeechToken startTime]
+-[AFSpeechToken setStartTime:]
+-[AFSpeechToken endTime]
+-[AFSpeechToken setEndTime:]
+-[AFSpeechToken removeSpaceBefore]
+-[AFSpeechToken setRemoveSpaceBefore:]
+-[AFSpeechToken removeSpaceAfter]
+-[AFSpeechToken setRemoveSpaceAfter:]
+-[AFSpeechToken .cxx_destruct]
+-[SASRecognition(AFSpeechTokenAdditions) af_speechPhrases]
+__AFSupportPreferencesValueForKey
+__AFPreferencesBuiltInLanguages
+__AFPreferencesInternalLanguages
++[AFPreferences sharedPreferences]
+___34+[AFPreferences sharedPreferences]_block_invoke
+-[AFPreferences _preferencesDidChangeExternally]
+-[AFPreferences _internalPreferencesDidChangeExternally]
+-[AFPreferences init]
+__AFPreferencesDidChangeCallback
+__AFInternalPreferencesDidChangeCallback
+__AFLanguageDidChangeCallback
+__AFOutputVoiceDidChangeCallback
+-[AFPreferences dealloc]
+-[AFPreferences synchronize]
+-[AFPreferences assistantIsEnabled]
+-[AFPreferences dictationIsEnabled]
+-[AFPreferences _setAssistantIsEnabledLocal:]
+-[AFPreferences _setDictationIsEnabledLocal:]
+-[AFPreferences setAssistantIsEnabled:]
+-[AFPreferences setDictationIsEnabled:]
+-[AFPreferences localDictationIsAvailableForLanguage:]
+_AFPreferencesGetLocalDictationLanguageInfo
+-[AFPreferences getLocalDictationLanguage:modelRootPath:forLanguage:]
+-[AFPreferences setLocalDictationLanguage:modelRootPath:forLanguage:]
+-[AFPreferences debugButtonIsEnabled]
+-[AFPreferences setDebugButtonIsEnabled:]
+-[AFPreferences handsFreeMode]
+-[AFPreferences setHandsFreeMode:]
+-[AFPreferences disableAssistantWhilePasscodeLocked]
+-[AFPreferences setDisableAssistantWhilePasscodeLocked:]
+-[AFPreferences setShowedRateLimitedForLanguageCode:]
+__AFPreferencesSetShowedRateLimitedForLanguageCode
+-[AFPreferences didShowRateLimitedForLanguageCode:]
+__AFPreferencesShowedRateLimitedForLanguageCode
+-[AFPreferences shouldShowReadyForLanguageCode:]
+-[AFPreferences didShowReadyForLanguageCode:]
+__AFPreferencesSetShouldShowReadyForLanguageCode
+-[AFPreferences setShouldShowReadyForLanguageCode:]
+-[AFPreferences languageCode]
+-[AFPreferences setLanguageCode:]
+-[AFPreferences outputVoice]
+-[AFPreferences setOutputVoice:]
+-[AFPreferences _registerForNavStatusIfNeeded]
+___46-[AFPreferences _registerForNavStatusIfNeeded]_block_invoke
+-[AFPreferences valueForSessionContextPreferenceKey:]
+___53-[AFPreferences valueForSessionContextPreferenceKey:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AFPreferences setValue:forSessionContextKey:]
+___47-[AFPreferences setValue:forSessionContextKey:]_block_invoke
+___copy_helper_block_129
+___destroy_helper_block_130
+-[AFPreferences whitelistedLanguages]
+-[AFPreferences birthCertificateDataForLanguageCode:]
+-[AFPreferences setBirthCertificateData:forLanguageCode:]
+-[AFPreferences languagesMissingBirthCertificates]
+-[AFPreferences setFileLoggingIsEnabled:]
+-[AFPreferences fileLoggingIsEnabled]
+-[AFPreferences .cxx_destruct]
+__AFReadyForLanguageCodeKey
+__AFSupportPreferencesSetValueForKey
+__AFRateLimitedForLanguageCodeKey
+____AFPreferencesLanguagePrefixes_block_invoke
+____AFPreferencesLanguagePrefixes_block_invoke_2
+____AFPreferencesInternalLanguages_block_invoke
+____AFPreferencesBuiltInLanguages_block_invoke
+____AFSupportPreferencesDomain_block_invoke
++[AFSpeakableUtteranceParser _shouldAutomaticallyProvideFunctions]
++[AFSpeakableUtteranceParser parseUserGeneratedMessage:]
+-[AFSpeakableUtteranceParser init]
+-[AFSpeakableUtteranceParser registerProvider:forNamespace:]
+-[AFSpeakableUtteranceParser handleTTSCodes]
+-[AFSpeakableUtteranceParser setHandleTTSCodes:]
+-[AFSpeakableUtteranceParser handlesFunctions]
+-[AFSpeakableUtteranceParser setHandlesFunctions:]
+-[AFSpeakableUtteranceParser _handleProviderAtIndex:withBuffer:totalLength:consumedLength:]
+-[AFSpeakableUtteranceParser _handleOptionalAtIndex:withBuffer:totalLength:consumedLength:]
+-[AFSpeakableUtteranceParser _handleControlCodeAtIndex:withBuffer:totalLength:consumedLength:hadEmpties:]
+-[AFSpeakableUtteranceParser parseStringWithFormat:includeControlCharacters:error:hadEmpties:]
+-[AFSpeakableUtteranceParser parseStringWithFormat:error:]
+-[AFSpeakableUtteranceParser parseStringRemovingControlCharacters:error:]
+-[AFSpeakableUtteranceParser .cxx_destruct]
+-[_AFSpeakableUtterancePassThroughProvider stringForExpression:]
++[AFSUPFunctionProvider _shouldAutomaticallyProvideFunctions]
+-[AFSUPFunctionProvider init]
+-[AFSUPFunctionProvider useSpeechMode:]
+-[AFSUPFunctionProvider _dateFormattedWithFormatter:arguments:]
+-[AFSUPFunctionProvider _currentTime:]
+-[AFSUPFunctionProvider _currentLongDate:]
+-[AFSUPFunctionProvider _currentShortDate:]
+-[AFSUPFunctionProvider _currentWeekday:]
+-[AFSUPFunctionProvider _tempInWeatherUnits:]
+-[AFSUPFunctionProvider _lowercaseString:]
+-[AFSUPFunctionProvider _deviceModel]
+-[AFSUPFunctionProvider _callFunction:withArguments:]
+-[AFSUPFunctionProvider stringForExpression:]
+-[AFSUPFunctionProvider .cxx_destruct]
+-[AFDictationConnection dealloc]
+-[AFDictationConnection _checkAndSetIsCapturingSpeech:]
+-[AFDictationConnection _speechRecordingDidUpdateAveragePower:peakPower:]
+-[AFDictationConnection _tellSpeechDelegateRecordingWillBegin]
+-[AFDictationConnection _tellSpeechDelegateRecordingDidBegin]
+-[AFDictationConnection _tellSpeechDelegateRecordingDidEnd]
+-[AFDictationConnection _tellSpeechDelegateRecordingDidCancel]
+-[AFDictationConnection _tellSpeechDelegateRecordingDidFail:]
+-[AFDictationConnection _tellSpeechDelegateDidHypothesizeSpeechPhrases:languageModel:]
+-[AFDictationConnection _tellSpeechDelegateDidRecognizeSpeechPhrases:languageModel:correctionIdentifier:]
+-[AFDictationConnection _tellSpeechDelegateRecognitionDidFail:]
+-[AFDictationConnection _clearConnections]
+-[AFDictationConnection _registerInvalidationHandlerForXPCConnection:]
+___70-[AFDictationConnection _registerInvalidationHandlerForXPCConnection:]_block_invoke
+___70-[AFDictationConnection _registerInvalidationHandlerForXPCConnection:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_62
+___destroy_helper_block_63
+-[AFDictationConnection _assistantConnection]
+-[AFDictationConnection _assistantDictationService]
+-[AFDictationConnection _dictationServiceForLanguage:]
+-[AFDictationConnection _dictationServiceForLastUsedLanguage]
+-[AFDictationConnection _localDictationProxy]
+-[AFDictationConnection _availabilityChanged:]
+-[AFDictationConnection dictationIsAvailableForLanguage:]
+-[AFDictationConnection beginAvailabilityMonitoring]
+-[AFDictationConnection cancelAvailabilityMonitoring]
+-[AFDictationConnection _willStartDictation]
+-[AFDictationConnection _willCancelDictation]
+-[AFDictationConnection _willFailDictationWithError:]
+-[AFDictationConnection _willCompleteDictation]
++[AFDictationConnection dictationIsEnabled]
++[AFDictationConnection dictationIsSupportedForLanguageCode:error:]
++[AFDictationConnection fetchSupportedLanguageCodes:]
+-[AFDictationConnection preheat]
+-[AFDictationConnection preheatWithRecordDeviceIdentifier:]
+-[AFDictationConnection startDictationWithLanguageCode:options:speechOptions:]
+-[AFDictationConnection startDictationWithLanguageCode:options:]
+-[AFDictationConnection cancelSpeech]
+-[AFDictationConnection stopSpeechWithOptions:]
+-[AFDictationConnection stopSpeech]
+-[AFDictationConnection setRecordingAlertRoute:]
+-[AFDictationConnection sendSpeechCorrection:forIdentifier:]
+-[AFDictationConnection averagePower]
+-[AFDictationConnection peakPower]
+-[AFDictationConnection endSession]
+-[AFDictationConnection delegate]
+-[AFDictationConnection setDelegate:]
+-[AFDictationConnection .cxx_destruct]
+-[AFDictationConnection(Private) startDictationWithSpeechFileAtURL:options:forLanguage:]
+-[AFDictationConnection(Private) startDictationWithSpeechFileAtURL:isNarrowBand:options:forLanguage:]
+-[AFDictationConnectionServiceDelegate initWithDictationConnection:]
+-[AFDictationConnectionServiceDelegate speechRecordingWillBegin]
+___64-[AFDictationConnectionServiceDelegate speechRecordingWillBegin]_block_invoke
+___copy_helper_block_267
+___destroy_helper_block_268
+-[AFDictationConnectionServiceDelegate speechRecordingDidBegin]
+___63-[AFDictationConnectionServiceDelegate speechRecordingDidBegin]_block_invoke
+___copy_helper_block_271
+___destroy_helper_block_272
+-[AFDictationConnectionServiceDelegate speechRecordingDidUpdateAveragePower:peakPower:]
+___87-[AFDictationConnectionServiceDelegate speechRecordingDidUpdateAveragePower:peakPower:]_block_invoke
+___copy_helper_block_275
+___destroy_helper_block_276
+-[AFDictationConnectionServiceDelegate speechRecordingDidEnd]
+___61-[AFDictationConnectionServiceDelegate speechRecordingDidEnd]_block_invoke
+___copy_helper_block_279
+___destroy_helper_block_280
+-[AFDictationConnectionServiceDelegate speechRecordingDidCancel]
+___64-[AFDictationConnectionServiceDelegate speechRecordingDidCancel]_block_invoke
+___copy_helper_block_283
+___destroy_helper_block_284
+-[AFDictationConnectionServiceDelegate speechRecordingDidFail:]
+___63-[AFDictationConnectionServiceDelegate speechRecordingDidFail:]_block_invoke
+___copy_helper_block_286
+___destroy_helper_block_287
+-[AFDictationConnectionServiceDelegate speechDidRecognizePhrases:usingSpeechModel:correctionContext:]
+___101-[AFDictationConnectionServiceDelegate speechDidRecognizePhrases:usingSpeechModel:correctionContext:]_block_invoke
+___copy_helper_block_290
+___destroy_helper_block_291
+-[AFDictationConnectionServiceDelegate speechRecognitionDidFail:]
+___65-[AFDictationConnectionServiceDelegate speechRecognitionDidFail:]_block_invoke
+___copy_helper_block_294
+___destroy_helper_block_295
+-[AFDictationConnectionServiceDelegate .cxx_destruct]
++[AFDictationOptions supportsSecureCoding]
+-[AFDictationOptions encodeWithCoder:]
+-[AFDictationOptions initWithCoder:]
+-[AFDictationOptions copyWithZone:]
+-[AFDictationOptions dictationOptionsWithoutTextContext]
+-[AFDictationOptions applicationName]
+-[AFDictationOptions setApplicationName:]
+-[AFDictationOptions applicationVersion]
+-[AFDictationOptions setApplicationVersion:]
+-[AFDictationOptions fieldLabel]
+-[AFDictationOptions setFieldLabel:]
+-[AFDictationOptions fieldIdentifier]
+-[AFDictationOptions setFieldIdentifier:]
+-[AFDictationOptions interactionIdentifier]
+-[AFDictationOptions setInteractionIdentifier:]
+-[AFDictationOptions keyboardType]
+-[AFDictationOptions setKeyboardType:]
+-[AFDictationOptions prefixText]
+-[AFDictationOptions setPrefixText:]
+-[AFDictationOptions postfixText]
+-[AFDictationOptions setPostfixText:]
+-[AFDictationOptions selectedText]
+-[AFDictationOptions setSelectedText:]
+-[AFDictationOptions returnKeyType]
+-[AFDictationOptions setReturnKeyType:]
+-[AFDictationOptions microphoneIdentifier]
+-[AFDictationOptions setMicrophoneIdentifier:]
+-[AFDictationOptions languageCodeOverride]
+-[AFDictationOptions setLanguageCodeOverride:]
+-[AFDictationOptions .cxx_destruct]
++[AFSpeechCorrectionInfo supportsSecureCoding]
+-[AFSpeechCorrectionInfo encodeWithCoder:]
+-[AFSpeechCorrectionInfo initWithCoder:]
+-[AFSpeechCorrectionInfo alternativeSelectionCount]
+-[AFSpeechCorrectionInfo setAlternativeSelectionCount:]
+-[AFSpeechCorrectionInfo characterModificationCount]
+-[AFSpeechCorrectionInfo setCharacterModificationCount:]
+-[AFSettingsConnection init]
+-[AFSettingsConnection dealloc]
+-[AFSettingsConnection _clearConnection]
+-[AFSettingsConnection _connection]
+___35-[AFSettingsConnection _connection]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AFSettingsConnection _settingsService]
+-[AFSettingsConnection _settingsServiceWithErrorHandler:]
+-[AFSettingsConnection fetchSupportedLanguageCodes:]
+-[AFSettingsConnection accounts]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___32-[AFSettingsConnection accounts]_block_invoke
+___copy_helper_block_103
+___destroy_helper_block_104
+___32-[AFSettingsConnection accounts]_block_invoke109
+___copy_helper_block_118
+___destroy_helper_block_119
+-[AFSettingsConnection saveAccount:setActive:]
+-[AFSettingsConnection deleteAccountWithIdentifier:]
+-[AFSettingsConnection setActiveAccountIdentifier:]
+-[AFSettingsConnection setAssistantEnabled:]
+-[AFSettingsConnection setDictationEnabled:]
+-[AFSettingsConnection killDaemon]
+-[AFSettingsConnection barrier]
+___31-[AFSettingsConnection barrier]_block_invoke
+___copy_helper_block_147
+___destroy_helper_block_148
+___31-[AFSettingsConnection barrier]_block_invoke150
+___copy_helper_block_151
+___destroy_helper_block_152
+-[AFSettingsConnection _setVoices:]
+___35-[AFSettingsConnection _setVoices:]_block_invoke
+___copy_helper_block_155
+___destroy_helper_block_156
+-[AFSettingsConnection _voices]
+___31-[AFSettingsConnection _voices]_block_invoke
+___copy_helper_block_158
+___destroy_helper_block_159
+-[AFSettingsConnection _filterVoices:forLanguage:]
+-[AFSettingsConnection _updateVoicesSync]
+___41-[AFSettingsConnection _updateVoicesSync]_block_invoke
+___copy_helper_block_165
+___destroy_helper_block_166
+___41-[AFSettingsConnection _updateVoicesSync]_block_invoke168
+___copy_helper_block_171
+___destroy_helper_block_172
+-[AFSettingsConnection _updateVoicesWithCompletion:]
+___52-[AFSettingsConnection _updateVoicesWithCompletion:]_block_invoke
+___copy_helper_block_174
+___destroy_helper_block_175
+___52-[AFSettingsConnection _updateVoicesWithCompletion:]_block_invoke177
+___copy_helper_block_178
+___destroy_helper_block_179
+-[AFSettingsConnection getAvailableVoicesForRecognitionLanguage:completion:]
+___76-[AFSettingsConnection getAvailableVoicesForRecognitionLanguage:completion:]_block_invoke
+___copy_helper_block_185
+___destroy_helper_block_186
+___76-[AFSettingsConnection getAvailableVoicesForRecognitionLanguage:completion:]_block_invoke188
+___copy_helper_block_189
+___destroy_helper_block_190
+-[AFSettingsConnection setOutputVoice:]
+-[AFSettingsConnection setLanguage:]
+-[AFSettingsConnection .cxx_destruct]
+-[AFSettingsConnection(Internal) _syncDataWithAnchorKeys:forceReset:completion:]
+___80-[AFSettingsConnection(Internal) _syncDataWithAnchorKeys:forceReset:completion:]_block_invoke
+___copy_helper_block_220
+___destroy_helper_block_221
+-[AFSpeechRequestOptions initWithActivationEvent:]
++[AFSpeechRequestOptions supportsSecureCoding]
+-[AFSpeechRequestOptions encodeWithCoder:]
+-[AFSpeechRequestOptions initWithCoder:]
+-[AFSpeechRequestOptions activationEvent]
+-[AFSpeechRequestOptions setActivationEvent:]
+-[AFSpeechRequestOptions btDeviceAddress]
+-[AFSpeechRequestOptions setBtDeviceAddress:]
+-[AFSpeechRequestOptions isEyesFree]
+-[AFSpeechRequestOptions setIsEyesFree:]
+-[AFSpeechRequestOptions .cxx_destruct]
+-[AFBulletin dictionaryRepresentation]
+-[AFBulletin isRead]
+-[AFBulletin setRead:]
+-[AFBulletin bulletin]
+-[AFBulletin setBulletin:]
+-[AFBulletin .cxx_destruct]
+-[AFAggregator recordSuccessForConnectionType:isWarm:forTimeInterval:]
+-[AFAggregator recordFailure:forConnectionType:]
+-[AFAggregator recordSessionRetrySuccess]
+-[AFAggregator connectionDidFail]
+-[AFAggregator connectionDidDrop]
+-[AFAggregator beginSessionRetryPreferringWWAN:]
+-[AFAggregator startWaitingForSpeechResponse]
+-[AFAggregator speechResponseReceived]
+-[AFAggregator speechResponseFailure]
++[AFAggregator logRequestCompletedWithDuration:]
++[AFAggregator missedAppContextForRequest]
++[AFAggregator missedAlertContextForRequest]
++[AFAggregator logRequestCancelAfterSeconds:]
++[AFAggregator logRequestStarted]
++[AFAggregator logRequestFailed]
++[AFAggregator logRequestCompleted]
++[AFAggregator logRequestCancelled]
++[AFAggregator _fullAggDKeyWithPrefix:error:]
++[AFAggregator logAssistantSpeechRequestStarted]
++[AFAggregator logAssistantOtherRequestStarted]
++[AFAggregator logAssistantRequestFailedWithError:]
++[AFAggregator logAssistantRequestSucceeded]
++[AFAggregator logAssistantRequestCancelled]
++[AFAggregator logDictationStarted]
++[AFAggregator logDictationFailedWithError:]
++[AFAggregator logDictationSucceeded]
++[AFAggregator logDictationCancelled]
+-[AFAggregator connectionType]
+-[AFAggregator setConnectionType:]
+-[AFAggregator hasActiveRequest]
+-[AFAggregator setHasActiveRequest:]
+-[SASSpeechRecognized(AssistantAdditions) af_correctionContext]
+-[AFLocalDictationProxy initWithDictationConnection:]
++[AFLocalDictationProxy _phrasesForRecognizedText:]
+-[AFLocalDictationProxy connection]
++[AFLocalDictationProxy localDictationIsAvailableForLanguage:]
+-[AFLocalDictationProxy startDictationWithLanguageCode:options:speechOptions:]
+___78-[AFLocalDictationProxy startDictationWithLanguageCode:options:speechOptions:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___78-[AFLocalDictationProxy startDictationWithLanguageCode:options:speechOptions:]_block_invoke24
+___copy_helper_block_32
+___destroy_helper_block_33
+-[AFLocalDictationProxy cancelSpeech]
+-[AFLocalDictationProxy stopSpeechWithOptions:]
+-[AFLocalDictationProxy updateSpeechOptions:]
+-[AFLocalDictationProxy sendSpeechCorrectionInfo:forCorrectionContext:]
+-[AFLocalDictationProxy preheat]
+-[AFLocalDictationProxy preheatWithRecordDeviceIdentifier:]
+-[AFLocalDictationProxy endSession]
+-[AFLocalDictationProxy _startDictationWithURL:isNarrowBand:language:options:]
+-[AFLocalDictationProxy speechRecognitionServiceHypothesizedText:]
+___66-[AFLocalDictationProxy speechRecognitionServiceHypothesizedText:]_block_invoke
+___copy_helper_block_45
+___destroy_helper_block_46
+-[AFLocalDictationProxy speechRecognitionServiceRecognitionRecognizedText:correctionKey:]
+___89-[AFLocalDictationProxy speechRecognitionServiceRecognitionRecognizedText:correctionKey:]_block_invoke
+___copy_helper_block_50
+___destroy_helper_block_51
+-[AFLocalDictationProxy speechRecognitionServiceComputedLatency:]
+-[AFLocalDictationProxy speechRecognitionServiceUpdatedAveragePower:peakPower:]
+___79-[AFLocalDictationProxy speechRecognitionServiceUpdatedAveragePower:peakPower:]_block_invoke
+___copy_helper_block_57
+___destroy_helper_block_58
+-[AFLocalDictationProxy speechRecognitionServiceRecordingDidBegin]
+___66-[AFLocalDictationProxy speechRecognitionServiceRecordingDidBegin]_block_invoke
+___copy_helper_block_62
+___destroy_helper_block_63
+-[AFLocalDictationProxy speechRecognitionServiceRecordingDidFail:]
+___66-[AFLocalDictationProxy speechRecognitionServiceRecordingDidFail:]_block_invoke
+___copy_helper_block_67
+___destroy_helper_block_68
+-[AFLocalDictationProxy speechRecognitionServiceRecognitionDidBegin]
+-[AFLocalDictationProxy speechRecognitionServiceRecognitionDidFail:]
+___68-[AFLocalDictationProxy speechRecognitionServiceRecognitionDidFail:]_block_invoke
+___copy_helper_block_70
+___destroy_helper_block_71
+-[AFLocalDictationProxy delegate]
+-[AFLocalDictationProxy setDelegate:]
+-[AFLocalDictationProxy .cxx_destruct]
+GCC_except_table25
+GCC_except_table94
+GCC_except_table75
+GCC_except_table12
+GCC_except_table3
+GCC_except_table10
++[AFConnection beginMonitoringAvailability].addr
+___block_descriptor_tmp
+___block_descriptor_tmp85
+___block_descriptor_tmp88
+___block_descriptor_tmp217
+___block_descriptor_tmp221
+___block_descriptor_tmp264
+___block_literal_global
+___block_descriptor_tmp267
+___block_descriptor_tmp285
+___block_literal_global286
+___block_descriptor_tmp308
+___block_descriptor_tmp323
+___block_descriptor_tmp330
+___block_descriptor_tmp427
+___block_descriptor_tmp431
+___block_descriptor_tmp451
+___block_descriptor_tmp456
+___block_descriptor_tmp460
+___block_descriptor_tmp469
+___block_descriptor_tmp476
+___block_descriptor_tmp479
+___block_descriptor_tmp482
+___block_descriptor_tmp486
+___block_descriptor_tmp490
+___block_descriptor_tmp494
+___block_descriptor_tmp498
+___block_descriptor_tmp502
+___block_descriptor_tmp506
+___block_descriptor_tmp509
+___block_descriptor_tmp513
+___block_descriptor_tmp517
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp111
+___block_literal_global112
+___block_descriptor_tmp128
+___block_descriptor_tmp131
+___block_descriptor_tmp232
+___block_literal_global233
+___block_descriptor_tmp236
+___block_literal_global237
+___block_descriptor_tmp242
+___block_literal_global243
+___block_descriptor_tmp291
+___block_literal_global292
+___block_descriptor_tmp293
+___block_literal_global294
+___block_descriptor_tmp
+___block_descriptor_tmp64
+___block_descriptor_tmp269
+___block_descriptor_tmp273
+___block_descriptor_tmp277
+___block_descriptor_tmp281
+___block_descriptor_tmp285
+___block_descriptor_tmp288
+___block_descriptor_tmp292
+___block_descriptor_tmp296
+___block_descriptor_tmp
+___block_descriptor_tmp106
+___block_descriptor_tmp121
+___block_descriptor_tmp149
+___block_descriptor_tmp153
+___block_descriptor_tmp157
+___block_descriptor_tmp160
+___block_descriptor_tmp167
+___block_descriptor_tmp173
+___block_descriptor_tmp176
+___block_descriptor_tmp180
+___block_descriptor_tmp187
+___block_descriptor_tmp191
+___block_descriptor_tmp222
+___block_descriptor_tmp
+___block_descriptor_tmp34
+___block_descriptor_tmp47
+___block_descriptor_tmp52
+___block_descriptor_tmp59
+___block_descriptor_tmp64
+___block_descriptor_tmp69
+___block_descriptor_tmp72
+_OBJC_IVAR_$_AFConnection._shouldSpeak
+_OBJC_IVAR_$_AFConnection._delegate
+_OBJC_IVAR_$_AFConnection._isCapturingSpeech
+_OBJC_IVAR_$_AFConnection._hasOutstandingRequest
+_OBJC_IVAR_$_AFConnection._outstandingRequestClass
+_OBJC_IVAR_$_AFConnection._replyContextMayInitiateCall
+_OBJC_IVAR_$_AFConnection._replyHandlerForAceId
+_OBJC_IVAR_$_AFConnection._averagePower
+_OBJC_IVAR_$_AFConnection._peakPower
+_OBJC_IVAR_$_AFConnection._speechDelegate
+_OBJC_IVAR_$_AFConnection._stateInSync
+_OBJC_IVAR_$_AFConnection._connection
+_OBJC_IVAR_$_AFConnection._hasActiveRequest
+_OBJC_IVAR_$_AFConnectionClientServiceDelegate._connection
+_OBJC_IVAR_$_AFCommand._commandInfo
+_OBJC_IVAR_$_AFCommand._name
+_OBJC_IVAR_$_AFCommand._context
+_OBJC_IVAR_$_AFAccount._identifier
+_OBJC_IVAR_$_AFAccount._assistantIdentifier
+_OBJC_IVAR_$_AFAccount._hostname
+_OBJC_IVAR_$_AFAccount._aceHost
+_OBJC_IVAR_$_AFAccount._group
+_OBJC_IVAR_$_AFAccount._isActive
+_OBJC_IVAR_$_AFAccount._label
+_OBJC_IVAR_$_AFAccount._predefinedServer
+_OBJC_IVAR_$_AFAccount._speechIdentifier
+_OBJC_IVAR_$_AFAccount._localeIdentifier
+_OBJC_IVAR_$_AFAccount._lastSyncDates
+_OBJC_IVAR_$_AFVoiceInfo._languageCode
+_OBJC_IVAR_$_AFVoiceInfo._gender
+_OBJC_IVAR_$_AFVoiceInfo._isCustom
+_OBJC_IVAR_$_AFContextManager._contextProviders
+_OBJC_IVAR_$_AFContextManager._centerRunLoop
+_OBJC_IVAR_$_AFSpeechPhrase._interpretations
+_OBJC_IVAR_$_AFSpeechPhrase._isLowConfidence
+_OBJC_IVAR_$_AFSpeechInterpretation._tokens
+_OBJC_IVAR_$_AFSpeechToken._text
+_OBJC_IVAR_$_AFSpeechToken._confidence
+_OBJC_IVAR_$_AFSpeechToken._startTime
+_OBJC_IVAR_$_AFSpeechToken._endTime
+_OBJC_IVAR_$_AFSpeechToken._removeSpaceBefore
+_OBJC_IVAR_$_AFSpeechToken._removeSpaceAfter
+_OBJC_IVAR_$_AFPreferences._navTokenQueue
+_OBJC_IVAR_$_AFPreferences._shouldSynchronizeInternalDomain
+_OBJC_IVAR_$_AFPreferences._navTokenIsValid
+_OBJC_IVAR_$_AFPreferences._navToken
+_OBJC_IVAR_$_AFSpeakableUtteranceParser._providers
+_OBJC_IVAR_$_AFSpeakableUtteranceParser._functionHandler
+_OBJC_IVAR_$_AFSUPFunctionProvider._ourFormatter
+_OBJC_IVAR_$_AFSUPFunctionProvider._useSpeechMode
+_OBJC_IVAR_$_AFDictationConnection._isCapturingSpeech
+_OBJC_IVAR_$_AFDictationConnection._averagePower
+_OBJC_IVAR_$_AFDictationConnection._peakPower
+_OBJC_IVAR_$_AFDictationConnection._delegate
+_OBJC_IVAR_$_AFDictationConnection._assistantConnection
+_OBJC_IVAR_$_AFDictationConnection._localDictationProxy
+_OBJC_IVAR_$_AFDictationConnection._lastUsedLanguage
+_OBJC_IVAR_$_AFDictationConnection._hasActiveRequest
+_OBJC_IVAR_$_AFDictationConnectionServiceDelegate._dictationConnection
+_OBJC_IVAR_$_AFDictationOptions._applicationName
+_OBJC_IVAR_$_AFDictationOptions._applicationVersion
+_OBJC_IVAR_$_AFDictationOptions._fieldLabel
+_OBJC_IVAR_$_AFDictationOptions._fieldIdentifier
+_OBJC_IVAR_$_AFDictationOptions._interactionIdentifier
+_OBJC_IVAR_$_AFDictationOptions._keyboardType
+_OBJC_IVAR_$_AFDictationOptions._prefixText
+_OBJC_IVAR_$_AFDictationOptions._postfixText
+_OBJC_IVAR_$_AFDictationOptions._selectedText
+_OBJC_IVAR_$_AFDictationOptions._returnKeyType
+_OBJC_IVAR_$_AFDictationOptions._microphoneIdentifier
+_OBJC_IVAR_$_AFDictationOptions._languageCodeOverride
+_OBJC_IVAR_$_AFSpeechCorrectionInfo._alternativeSelectionCount
+_OBJC_IVAR_$_AFSpeechCorrectionInfo._characterModificationCount
+_OBJC_IVAR_$_AFSettingsConnection._voicesQueue
+_OBJC_IVAR_$_AFSettingsConnection._connection
+_OBJC_IVAR_$_AFSettingsConnection._voices
+_OBJC_IVAR_$_AFSettingsConnection._selectedVoice
+_OBJC_IVAR_$_AFSpeechRequestOptions._event
+_OBJC_IVAR_$_AFSpeechRequestOptions._btDeviceAddress
+_OBJC_IVAR_$_AFSpeechRequestOptions._isEyesFree
+_OBJC_IVAR_$_AFBulletin._read
+_OBJC_IVAR_$_AFBulletin._bulletin
+_OBJC_IVAR_$_AFAggregator._hasActiveRequest
+_OBJC_IVAR_$_AFAggregator._sessionIsRetrying
+_OBJC_IVAR_$_AFAggregator._type
+_OBJC_IVAR_$_AFAggregator._retryPrefersWWAN
+_OBJC_IVAR_$_AFAggregator._startTime
+_OBJC_IVAR_$_AFLocalDictationProxy._dictationConnection
+_OBJC_IVAR_$_AFLocalDictationProxy._actualLanguageModel
+_OBJC_IVAR_$_AFLocalDictationProxy._delegate
+_OBJC_IVAR_$_AFLocalDictationProxy._prepared
+_sReachability
+_sAvailabilityKnown
+_sAssistantIsAvailable
+_AFLogInitIfNeeded.once
+_gASLConnection
+_gMaxLogFileLevel
+_gMaxConsoleLevel
+_AFSupportBaseURL.sSupportBaseURL
+_AFSupportBaseURL.once
+___defaultContextManager
++[AFContextManager defaultContextManager].onceToken
++[AFPreferences sharedPreferences].sSharedPreferences
++[AFPreferences sharedPreferences].onceToken
+__AFPreferencesLanguagePrefixes.sLanguagePrefixes
+__AFPreferencesLanguagePrefixes.onceToken
+__AFPreferencesInternalLanguages.sInternalLanguages
+__AFPreferencesInternalLanguages.onceToken
+__AFPreferencesBuiltInLanguages.sStaticLanguages
+__AFPreferencesBuiltInLanguages.onceToken
+__AFSupportPreferencesDomain.sSharedSupportDomain
+__AFSupportPreferencesDomain.onceToken
+-[AFAggregator speechResponseReceived].sIsWarm
+_AFAssistantAceErrorDomain
+_AFAssistantCapable
+_AFAssistantRestricted
+_AFAssistantSpeechErrorDomain
+_AFBackedUpPreferencesSynchronize
+_AFBuildVersion
+_AFClientServiceDelegateXPCInterface
+_AFConnectionHasEntitlement
+_AFCorrectionContextInteractionIdKey
+_AFCorrectionContextSessionIdKey
+_AFDefaultVoiceLanguageForRecognitionLanguage
+_AFDeviceName
+_AFDictationCapable
+_AFDictationRestricted
+_AFDictationServiceDelegateXPCInterface
+_AFHasCellularData
+_AFHasCellularTelephony
+_AFInternalConfigValueForKey
+_AFInternalPreferencesDidChangeDarwinNotification
+_AFInternalPreferencesSynchronize
+_AFIsInternalInstall
+_AFIsSyncNeeded
+_AFLanguageCodeDidChangeDarwinNotification
+_AFLanguageCodeDidChangeNotification
+_AFLanguagePrefixForLanguageCode
+_AFLocalDictationCapable
+_AFLogDirectory
+_AFLogFlush
+_AFLogInitIfNeeded
+_AFLogParsedCommandObject
+_AFLogStartNewLog
+_AFLogWantsToLogForLevel
+_AFLogWantsToLogParsedCommandObjects
+_AFMainScreenScale
+_AFManagedPreferencesDomainForDomain
+_AFOutputLanguageDidChangeDarwinNotification
+_AFOutputVoiceDidChangeNotification
+_AFPreferencesAlwaysEyesFreeEnabled
+_AFPreferencesAssistantAllowed
+_AFPreferencesAssistantEnabled
+_AFPreferencesAudioDuckingAllowed
+_AFPreferencesDictationAllowed
+_AFPreferencesDidChangeNotification
+_AFPreferencesDisableDictationMode
+_AFPreferencesHandsFreeMode
+_AFPreferencesLanguageIsSupported
+_AFPreferencesLanguageIsSupportedForDictation
+_AFPreferencesNavStatusDidChangeNotification
+_AFPreferencesProfanityAllowed
+_AFPreferencesSessionContextNavigationKey
+_AFPreferencesSetAlwaysEyesFreeEnabled
+_AFPreferencesSetHandsFreeMode
+_AFPreferencesSetShouldIgnoreInternalConfig
+_AFPreferencesSetSupportedLanguages
+_AFPreferencesShouldIgnoreInternalConfig
+_AFPreferencesSimulateImmediateSpeechCapture
+_AFPreferencesSupportedLanguages
+_AFProductName
+_AFProductType
+_AFProductVersion
+_AFServicePluginsURL
+_AFSharedResourcesDirectory
+_AFSupportBaseURL
+_AFSupportPreferencesSynchronize
+_AFSystemRootDirectory
+_AFUIBundlesURL
+_OBJC_CLASS_$_AFAccount
+_OBJC_CLASS_$_AFAggregator
+_OBJC_CLASS_$_AFBulletin
+_OBJC_CLASS_$_AFCommand
+_OBJC_CLASS_$_AFConnection
+_OBJC_CLASS_$_AFConnectionClientServiceDelegate
+_OBJC_CLASS_$_AFContextManager
+_OBJC_CLASS_$_AFDictationConnection
+_OBJC_CLASS_$_AFDictationConnectionServiceDelegate
+_OBJC_CLASS_$_AFDictationOptions
+_OBJC_CLASS_$_AFError
+_OBJC_CLASS_$_AFLocalDictationProxy
+_OBJC_CLASS_$_AFPreferences
+_OBJC_CLASS_$_AFSUPFunctionProvider
+_OBJC_CLASS_$_AFSettingsConnection
+_OBJC_CLASS_$_AFSpeakableUtteranceParser
+_OBJC_CLASS_$_AFSpeechCorrectionInfo
+_OBJC_CLASS_$_AFSpeechInterpretation
+_OBJC_CLASS_$_AFSpeechPhrase
+_OBJC_CLASS_$_AFSpeechRequestOptions
+_OBJC_CLASS_$_AFSpeechToken
+_OBJC_CLASS_$_AFVoiceInfo
+_OBJC_CLASS_$__AFSpeakableUtterancePassThroughProvider
+_OBJC_METACLASS_$_AFAccount
+_OBJC_METACLASS_$_AFAggregator
+_OBJC_METACLASS_$_AFBulletin
+_OBJC_METACLASS_$_AFCommand
+_OBJC_METACLASS_$_AFConnection
+_OBJC_METACLASS_$_AFConnectionClientServiceDelegate
+_OBJC_METACLASS_$_AFContextManager
+_OBJC_METACLASS_$_AFDictationConnection
+_OBJC_METACLASS_$_AFDictationConnectionServiceDelegate
+_OBJC_METACLASS_$_AFDictationOptions
+_OBJC_METACLASS_$_AFError
+_OBJC_METACLASS_$_AFLocalDictationProxy
+_OBJC_METACLASS_$_AFPreferences
+_OBJC_METACLASS_$_AFSUPFunctionProvider
+_OBJC_METACLASS_$_AFSettingsConnection
+_OBJC_METACLASS_$_AFSpeakableUtteranceParser
+_OBJC_METACLASS_$_AFSpeechCorrectionInfo
+_OBJC_METACLASS_$_AFSpeechInterpretation
+_OBJC_METACLASS_$_AFSpeechPhrase
+_OBJC_METACLASS_$_AFSpeechRequestOptions
+_OBJC_METACLASS_$_AFSpeechToken
+_OBJC_METACLASS_$_AFVoiceInfo
+_OBJC_METACLASS_$__AFSpeakableUtterancePassThroughProvider
+__AFBackedUpPreferencesSetValueForKey
+__AFBackedUpPreferencesValueForKey
+__AFLogContext
+__AFPreferencesCountryCode
+__AFPreferencesLanguageCode
+__AFPreferencesOutputVoice
+__AFPreferencesSetCountryCode
+__AFPreferencesSetLanguageCode
+__AFPreferencesSetOutputVoice
+__AFPreferencesSetValueForKey
+__AFPreferencesValueForKey
+__AFServiceLog
+_kAFAccountInfoAceHostKey
+_kAFAccountInfoAssistantIdentifierKey
+_kAFAccountInfoGroupKey
+_kAFAccountInfoHostnameKey
+_kAFAccountInfoIdentifierKey
+_kAFAccountInfoIsActiveKey
+_kAFAccountInfoLabelKey
+_kAFAccountInfoLastSyncDatesKey
+_kAFAccountInfoLocaleIdentifierKey
+_kAFAccountInfoNeedsDestructionKey
+_kAFAccountInfoPredefinedServerKey
+_kAFAccountInfoSpeechIdentifierKey
+_kAFAssistantErrorDomain
+_kAFCommandLoggingEnabledKey
+_kAFHandsFreeModeKey
+_kAFLogContextAnalysis
+_kAFLogContextConnection
+_kAFLogContextDaemon
+_kAFLogContextDaemonAce
+_kAFLogContextPerformance
+_kAFLogContextPlugin
+_kAFLogContextService
+_kAFLogContextSession
+_kAFLogContextSpeech
+_kAFLogContextUtility
+_kAFLogFacilityAssistant
+_kAFLogLevelKey
+_kAFLogPreferencesDomain
+_kAFOutputLevelKey
+_kAFPreferencesDidChangeDarwinNotification
+_kAFSyncDidFinishNotification
+_kAssistantClientEntitlement
+_kAssistantClientServiceName
+_kAssistantDictationEntitlementName
+_kAssistantDictationServiceName
+_kAssistantServiceEntitlement
+_kAssistantServiceServiceName
+_kAssistantSettingsEntitlement
+_kAssistantSettingsServiceName
+_AceObjectClassPListKey
+_AceObjectGroupPListKey
+_CFAbsoluteTimeGetCurrent
+_CFArrayCreateMutable
+_CFArrayGetCount
+_CFArrayGetValueAtIndex
+_CFDateFormatterCreate
+_CFDateFormatterCreateStringWithDate
+_CFDateFormatterSetFormat
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFNotificationCenterPostNotification
+_CFNotificationCenterRemoveEveryObserver
+_CFPreferencesAppSynchronize
+_CFPreferencesAppValueIsForced
+_CFPreferencesCopyAppValue
+_CFPreferencesCopyKeyList
+_CFPreferencesCopyValue
+_CFPreferencesGetAppBooleanValue
+_CFPreferencesSetAppValue
+_CFPreferencesSetValue
+_CFRelease
+_CFStringAppendCharacters
+_CFStringGetCStringPtr
+_CFStringGetCharacters
+_CFStringGetCharactersPtr
+_NSHomeDirectory
+_NSLocalizedDescriptionKey
+_NSLog
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSAssertionHandler
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPropertyListSerialization
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSUserDefaults
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_CLASS_$_SASRecognition
+_OBJC_CLASS_$_SASSpeechRecognized
+_OBJC_METACLASS_$_NSObject
+_SABaseClientBoundCommandCallbacksPListKey
+_SASendCommandsClassIdentifier
+_SASendCommandsCommandsPListKey
+_SAStartRequestClassIdentifier
+_SCNetworkReachabilityCreateWithAddress
+_SCNetworkReachabilityGetFlags
+_SCNetworkReachabilitySetCallback
+_SCNetworkReachabilitySetDispatchQueue
+__Block_object_assign
+__Block_object_dispose
+__CFCopySystemVersionDictionary
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___error
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_asl_add_log_file
+_asl_free
+_asl_log
+_asl_new
+_asl_open
+_close
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_once
+_dispatch_queue_create
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_dispatch_time
+_flock
+_kCFAllocatorDefault
+_kCFPreferencesAnyHost
+_kCFPreferencesCurrentUser
+_notify_get_state
+_notify_post
+_notify_register_dispatch
+_notify_set_state
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_getProperty
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_storeWeak
+_open
+_roundf
+_xpc_connection_cancel
+_xpc_connection_create_mach_service
+_xpc_connection_resume
+_xpc_connection_send_message
+_xpc_connection_set_event_handler
+_xpc_dictionary_create
+_xpc_dictionary_set_string
+dyld_stub_binder

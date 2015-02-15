@@ -1,0 +1,12 @@
+#import <Ink/InkRecognizerCharInfo.h>
+#import <Ink/InkRecognizerPhrase.h>
+#import <Ink/InkRecognizerPhraseWord.h>
+#import <Ink/InkRecognizerPoint.h>
+#import <Ink/InkRecognizerStroke.h>
+#import <Ink/InkRecognizerText.h>
+#import <Ink/InkRecognizerBase.h>
+#import <Ink/InkRecognizerGesture.h>
+#import <Ink/InkRecognizerWordGroup.h>
+#import <Ink/InkRecognizerMessageBase.h>
+#import <Ink/InkContext.h>
+#import <Ink/InkClientSideEvent.h>

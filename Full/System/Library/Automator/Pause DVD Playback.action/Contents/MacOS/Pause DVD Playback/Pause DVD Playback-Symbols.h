@@ -1,0 +1,13 @@
+radr://5614542
+_OBJC_CLASS_$_AMPauseDVDPlaybackAction
+_OBJC_METACLASS_$_AMPauseDVDPlaybackAction
+_NSAppleScriptErrorMessage
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$__AMDVDPlayerApplication
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+__objc_empty_cache
+_objc_assign_strongCast
+_objc_msgSend
+dyld_stub_binder

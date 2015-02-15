@@ -1,0 +1,13 @@
+radr://5614542
+_OBJC_CLASS_$_AMConvertAliasObjectToFinderObjectCaction
+_OBJC_METACLASS_$_AMConvertAliasObjectToFinderObjectCaction
+_OBJC_CLASS_$_AMAliasToSBObjectConversionAction
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$__AMFinderApplication
+_OBJC_CLASS_$__AMFinderItem
+_OBJC_METACLASS_$_AMAliasToSBObjectConversionAction
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

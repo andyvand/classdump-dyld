@@ -1,0 +1,729 @@
+-[CDDevice initWithSession:identifier:modelIdentifier:error:]
+-[CDDevice hash]
+-[CDDevice isEqualToDevice:]
+-[CDDevice isEqual:]
+-[CDDevice description]
+-[CDDevice setSystemDataHandlerWithError:handler:]
+___50-[CDDevice setSystemDataHandlerWithError:handler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CDDevice readSystemDataWithError:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___36-[CDDevice readSystemDataWithError:]_block_invoke
+___copy_helper_block_31
+___destroy_helper_block_32
+-[CDDevice requestSystemDataWithError:]
+___39-[CDDevice requestSystemDataWithError:]_block_invoke
+___copy_helper_block_48
+___destroy_helper_block_49
+-[CDDevice setLogDataHandlerWithError:handler:]
+-[CDDevice readLogDataWithError:]
+-[CDDevice requestLogDataWithError:]
+-[CDDevice dealloc]
+-[CDDevice identifier]
+-[CDDevice modelIdentifier]
+-[CDDevice session]
+-[CDDevice .cxx_destruct]
+-[CDTrendLogic initWithSlotCount:cDelta:cLowThreshold:cHighThreshold:cMin:cMax:cEpsilon:iecMinSeconds:iecMaxSeconds:iecDecayMult:iecMinMult:iecAvgMult:iecDiv:timerMinSeconds:timerLeewaySeconds:error:]
+-[CDTrendLogic initWithTrendLogicBand:error:]
+-[CDTrendLogic slotCount]
+-[CDTrendLogic setSlotCount:]
+-[CDTrendLogic cDelta]
+-[CDTrendLogic setCDelta:]
+-[CDTrendLogic cHighThreshold]
+-[CDTrendLogic setCHighThreshold:]
+-[CDTrendLogic cLowThreshold]
+-[CDTrendLogic setCLowThreshold:]
+-[CDTrendLogic cMax]
+-[CDTrendLogic setCMax:]
+-[CDTrendLogic cEpsilon]
+-[CDTrendLogic setCEpsilon:]
+-[CDTrendLogic iecMinSeconds]
+-[CDTrendLogic setIecMinSeconds:]
+-[CDTrendLogic cMin]
+-[CDTrendLogic setCMin:]
+-[CDTrendLogic timerMinSeconds]
+-[CDTrendLogic setTimerMinSeconds:]
+-[CDTrendLogic iecMaxSeconds]
+-[CDTrendLogic setIecMaxSeconds:]
+-[CDTrendLogic iecDecayMult]
+-[CDTrendLogic setIecDecayMult:]
+-[CDTrendLogic iecMinMult]
+-[CDTrendLogic setIecMinMult:]
+-[CDTrendLogic iecAvgMult]
+-[CDTrendLogic setIecAvgMult:]
+-[CDTrendLogic iecDiv]
+-[CDTrendLogic setIecDiv:]
+-[CDTrendLogic timerLeewaySeconds]
+-[CDTrendLogic setTimerLeewaySeconds:]
+-[CDTrigger initTriggerWithAttribute:predicate:error:]
+-[CDTrigger initTriggerWithAttribute:band:error:]
+-[CDSession init]
+-[CDSession initWithClientId:]
+-[CDSession initWithClientId:enableCaching:]
+___44-[CDSession initWithClientId:enableCaching:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CDSession attributeNames]
+-[CDSession attributeNamesWithError:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[CDSession attributeNamesWithError:]_block_invoke
+___copy_helper_block_76
+___destroy_helper_block_77
+___37-[CDSession attributeNamesWithError:]_block_invoke83
+___copy_helper_block_87
+___destroy_helper_block_88
+-[CDSession budgetNamesWithError:]
+___34-[CDSession budgetNamesWithError:]_block_invoke
+___copy_helper_block_91
+___destroy_helper_block_92
+___34-[CDSession budgetNamesWithError:]_block_invoke96
+___copy_helper_block_97
+___destroy_helper_block_98
+-[CDSession attributeForName:type:clientId:error:]
+___50-[CDSession attributeForName:type:clientId:error:]_block_invoke
+___copy_helper_block_111
+___destroy_helper_block_112
+___50-[CDSession attributeForName:type:clientId:error:]_block_invoke117
+___copy_helper_block_119
+___destroy_helper_block_120
+___50-[CDSession attributeForName:type:clientId:error:]_block_invoke125
+___copy_helper_block_128
+___destroy_helper_block_129
+-[CDSession attributeForName:type:error:]
+-[CDSession budgetForName:type:error:]
+___38-[CDSession budgetForName:type:error:]_block_invoke
+___copy_helper_block_134
+___destroy_helper_block_135
+-[CDSession registerAttributeWithName:type:dataProtectionClass:error:]
+___70-[CDSession registerAttributeWithName:type:dataProtectionClass:error:]_block_invoke
+___copy_helper_block_140
+___destroy_helper_block_141
+___70-[CDSession registerAttributeWithName:type:dataProtectionClass:error:]_block_invoke145
+___copy_helper_block_146
+___destroy_helper_block_147
+___70-[CDSession registerAttributeWithName:type:dataProtectionClass:error:]_block_invoke151
+___copy_helper_block_152
+___destroy_helper_block_153
+-[CDSession registerBudgetWithName:value:type:error:]
+___53-[CDSession registerBudgetWithName:value:type:error:]_block_invoke
+___copy_helper_block_157
+___destroy_helper_block_158
+-[CDSession deleteClientDataWithError:]
+___39-[CDSession deleteClientDataWithError:]_block_invoke
+___copy_helper_block_162
+___destroy_helper_block_163
+-[CDSession attributeFromFullname:error:]
+-[CDSession representationStringFromAttribute:value:error:]
+-[CDSession attributeFromRepresentation:error:]
+-[CDSession attributeExtendedComponentsFromRepresentation:error:]
+-[CDSession attributeComponentsFromRepresentation:error:]
+-[CDSession getDevices]
+___23-[CDSession getDevices]_block_invoke
+___copy_helper_block_240
+___destroy_helper_block_241
+___23-[CDSession getDevices]_block_invoke245
+___copy_helper_block_249
+___destroy_helper_block_250
+-[CDSession setDevicesChangedHandlerWithError:handler:]
+___55-[CDSession setDevicesChangedHandlerWithError:handler:]_block_invoke
+___copy_helper_block_256
+___destroy_helper_block_257
+-[CDSession getDeviceFromDescription:error:]
+___44-[CDSession getDeviceFromDescription:error:]_block_invoke
+___copy_helper_block_260
+___destroy_helper_block_261
+-[CDSession broadcastSystemDataWithError:]
+___42-[CDSession broadcastSystemDataWithError:]_block_invoke
+___copy_helper_block_265
+___destroy_helper_block_266
+-[CDSession cddClientConnection]
+-[CDSession clientId]
+-[CDSession setClientId:]
+-[CDSession cachedAttributeIDs]
+-[CDSession setCachedAttributeIDs:]
+-[CDSession cachedBudgets]
+-[CDSession setCachedBudgets:]
+-[CDSession cacheSerializerQ]
+-[CDSession setCacheSerializerQ:]
+-[CDSession verbose]
+-[CDSession setVerbose:]
+-[CDSession enabledCaching]
+-[CDSession setEnabledCaching:]
+-[CDSession .cxx_destruct]
+-[CDAttributeOccurrence initWithValue:date:]
++[CDAttributeOccurrence attributeOccurrenceWithValue:date:]
+-[CDAttributeOccurrence date]
+-[CDAttributeOccurrence value]
+-[CDAttributeOccurrence .cxx_destruct]
+-[CDAttribute initWithSession:name:type:integerId:error:]
+-[CDAttribute attributeIsClientWriteable]
+-[CDAttribute occurredWithValue:cost:onDate:risingEdge:fallingEdge:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___74-[CDAttribute occurredWithValue:cost:onDate:risingEdge:fallingEdge:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CDAttribute occurredWithValue:cost:onDate:risingEdge:fallingEdge:deferredRequest:error:]
+___90-[CDAttribute occurredWithValue:cost:onDate:risingEdge:fallingEdge:deferredRequest:error:]_block_invoke
+___90-[CDAttribute occurredWithValue:cost:onDate:risingEdge:fallingEdge:deferredRequest:error:]_block_invoke_2
+___copy_helper_block_95
+___destroy_helper_block_96
+___copy_helper_block_98
+___destroy_helper_block_99
+-[CDAttribute setCategory:error:]
+___33-[CDAttribute setCategory:error:]_block_invoke
+___copy_helper_block_102
+___destroy_helper_block_103
+-[CDAttribute associateToBudget:error:]
+___39-[CDAttribute associateToBudget:error:]_block_invoke
+___copy_helper_block_107
+___destroy_helper_block_108
+-[CDAttribute associateToAttribute:error:]
+-[CDAttribute disassociateWithError:]
+-[CDAttribute destroyWithError:]
+___32-[CDAttribute destroyWithError:]_block_invoke
+___copy_helper_block_116
+___destroy_helper_block_117
+-[CDAttribute activityStartedWithValue:cost:error:]
+-[CDAttribute activityStartedWithValue:cost:onDate:error:]
+-[CDAttribute activityStoppedWithValue:cost:error:]
+-[CDAttribute activityStoppedWithValue:cost:onDate:error:]
+-[CDAttribute activityWithValue:cost:error:block:]
+___50-[CDAttribute activityWithValue:cost:error:block:]_block_invoke
+___copy_helper_block_125
+___destroy_helper_block_126
+-[CDAttribute occurredWithValue:cost:error:]
+-[CDAttribute occurredWithValue:cost:onDate:error:]
+-[CDAttribute correlationOfValue:toAttribute:withValue:temporalLeeway:error:]
+-[CDAttribute temporalForecastOfValue:forHistoryWindow:forecastLength:forecastGranularity:forecastType:maximumElements:error:]
+-[CDAttribute temporalForecastXPCObjectToArray:attributeValue:forecastType:error:]
+___82-[CDAttribute temporalForecastXPCObjectToArray:attributeValue:forecastType:error:]_block_invoke
+___82-[CDAttribute temporalForecastXPCObjectToArray:attributeValue:forecastType:error:]_block_invoke_2
+___copy_helper_block_154
+___destroy_helper_block_155
+___copy_helper_block_158
+___destroy_helper_block_159
+___82-[CDAttribute temporalForecastXPCObjectToArray:attributeValue:forecastType:error:]_block_invoke161
+___82-[CDAttribute temporalForecastXPCObjectToArray:attributeValue:forecastType:error:]_block_invoke_2166
+___copy_helper_block_167
+___destroy_helper_block_168
+___copy_helper_block_170
+___destroy_helper_block_171
+-[CDAttribute temporalForecastOfValue:forHistoryWindow:forecastType:maximumElements:error:]
+___91-[CDAttribute temporalForecastOfValue:forHistoryWindow:forecastType:maximumElements:error:]_block_invoke
+___copy_helper_block_173
+___destroy_helper_block_174
+-[CDAttribute peerForecastXPCObjectToDictionary:attributeValue:error:]
+___70-[CDAttribute peerForecastXPCObjectToDictionary:attributeValue:error:]_block_invoke
+___copy_helper_block_180
+___destroy_helper_block_181
+___70-[CDAttribute peerForecastXPCObjectToDictionary:attributeValue:error:]_block_invoke183
+___copy_helper_block_184
+___destroy_helper_block_185
+___70-[CDAttribute peerForecastXPCObjectToDictionary:attributeValue:error:]_block_invoke187
+___copy_helper_block_188
+___destroy_helper_block_189
+___70-[CDAttribute peerForecastXPCObjectToDictionary:attributeValue:error:]_block_invoke191
+___copy_helper_block_192
+___destroy_helper_block_193
+-[CDAttribute peerForecastOfValue:forHistoryWindow:forecastType:maximumElements:error:]
+___87-[CDAttribute peerForecastOfValue:forHistoryWindow:forecastType:maximumElements:error:]_block_invoke
+___copy_helper_block_195
+___destroy_helper_block_196
+-[CDAttribute repeatedStatisticXPCObjectToArray:error:]
+___55-[CDAttribute repeatedStatisticXPCObjectToArray:error:]_block_invoke
+___copy_helper_block_204
+___destroy_helper_block_205
+-[CDAttribute repeatedStatistic:forHistoryWindow:error:]
+___56-[CDAttribute repeatedStatistic:forHistoryWindow:error:]_block_invoke
+___copy_helper_block_208
+___destroy_helper_block_209
+-[CDAttribute stuffDictionary:forStatisticType:matchingStatisticType:xpcKey:incomingXpcObject:]
+-[CDAttribute statistic:forHistoryWindow:error:]
+___48-[CDAttribute statistic:forHistoryWindow:error:]_block_invoke
+___copy_helper_block_217
+___destroy_helper_block_218
+-[CDAttribute budgetStatisticsForHistoryWindow:error:]
+-[CDAttribute budgetStatusWithError:]
+-[CDAttribute admissionCheckOfValue:withReason:error:]
+-[CDAttribute admissionCheckOfValue:withReason:error:handler:]
+-[CDAttribute admissionCheckOfValue:andStartedWithValue:cost:error:handler:]
+-[CDAttribute admissionCheckOfValue:andStartedWithValue:cost:type:options:error:handler:]
+___89-[CDAttribute admissionCheckOfValue:andStartedWithValue:cost:type:options:error:handler:]_block_invoke
+___copy_helper_block_266
+___destroy_helper_block_267
+___89-[CDAttribute admissionCheckOfValue:andStartedWithValue:cost:type:options:error:handler:]_block_invoke271
+___copy_helper_block_279
+___destroy_helper_block_280
+___89-[CDAttribute admissionCheckOfValue:andStartedWithValue:cost:type:options:error:handler:]_block_invoke285
+___copy_helper_block_288
+___destroy_helper_block_289
+-[CDAttribute admissionCheckOfValue:andOccurredWithValue:cost:error:handler:]
+-[CDAttribute admissionCheckOfValue:andOccurredWithValue:cost:type:options:error:handler:]
+___90-[CDAttribute admissionCheckOfValue:andOccurredWithValue:cost:type:options:error:handler:]_block_invoke
+___copy_helper_block_293
+___destroy_helper_block_294
+-[CDAttribute admissionCheckOfValue:type:options:error:handler:]
+___64-[CDAttribute admissionCheckOfValue:type:options:error:handler:]_block_invoke
+___copy_helper_block_316
+___destroy_helper_block_317
+___64-[CDAttribute admissionCheckOfValue:type:options:error:handler:]_block_invoke321
+___copy_helper_block_322
+___destroy_helper_block_323
+___64-[CDAttribute admissionCheckOfValue:type:options:error:handler:]_block_invoke325
+___copy_helper_block_326
+___destroy_helper_block_327
+-[CDAttribute setTrendBlockForValue:withConfig:error:handler:]
+-[CDAttribute callListOfCallbacks:token:oneshotCall:]
+___53-[CDAttribute callListOfCallbacks:token:oneshotCall:]_block_invoke
+___copy_helper_block_329
+___destroy_helper_block_330
+-[CDAttribute setResourceDispatch:]
+___35-[CDAttribute setResourceDispatch:]_block_invoke
+___35-[CDAttribute setResourceDispatch:]_block_invoke_2
+___copy_helper_block_340
+___destroy_helper_block_341
+___35-[CDAttribute setResourceDispatch:]_block_invoke345
+___copy_helper_block_350
+___destroy_helper_block_351
+___copy_helper_block_357
+___destroy_helper_block_358
+___35-[CDAttribute setResourceDispatch:]_block_invoke362
+___35-[CDAttribute setResourceDispatch:]_block_invoke_2363
+___copy_helper_block_364
+___destroy_helper_block_365
+___copy_helper_block_375
+___destroy_helper_block_376
+___35-[CDAttribute setResourceDispatch:]_block_invoke379
+___35-[CDAttribute setResourceDispatch:]_block_invoke_2380
+___copy_helper_block_381
+___destroy_helper_block_382
+___copy_helper_block_387
+___destroy_helper_block_388
+-[CDAttribute setResourceAvailabilityBlockWithError:handler:]
+___61-[CDAttribute setResourceAvailabilityBlockWithError:handler:]_block_invoke
+___copy_helper_block_394
+___destroy_helper_block_395
+-[CDAttribute fullNameFromString:clientId:error:]
+-[CDAttribute meteringStartedWithValue:costDictionary:onDate:error:]
+___68-[CDAttribute meteringStartedWithValue:costDictionary:onDate:error:]_block_invoke
+___copy_helper_block_403
+___destroy_helper_block_404
+-[CDAttribute meteringStoppedWithValue:costDictionary:onDate:meteringToken:error:]
+___82-[CDAttribute meteringStoppedWithValue:costDictionary:onDate:meteringToken:error:]_block_invoke
+___copy_helper_block_409
+___destroy_helper_block_410
+-[CDAttribute meteringUpdateWithValue:costDictionary:onDate:meteringToken:error:]
+___81-[CDAttribute meteringUpdateWithValue:costDictionary:onDate:meteringToken:error:]_block_invoke
+___copy_helper_block_412
+___destroy_helper_block_413
+-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]
+___113-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke
+___copy_helper_block_415
+___destroy_helper_block_416
+___113-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke420
+___113-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke_2
+___copy_helper_block_431
+___destroy_helper_block_432
+___copy_helper_block_434
+___destroy_helper_block_435
+___113-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke437
+___113-[CDAttribute temporalForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke_2438
+___copy_helper_block_439
+___destroy_helper_block_440
+___copy_helper_block_442
+___destroy_helper_block_443
+-[CDAttribute peerForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]
+___109-[CDAttribute peerForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke
+___copy_helper_block_445
+___destroy_helper_block_446
+___109-[CDAttribute peerForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke448
+___copy_helper_block_449
+___destroy_helper_block_450
+___109-[CDAttribute peerForecastOfValue:forHistoryWindow:device:forecastType:temporalLeeway:maximumElements:error:]_block_invoke452
+___copy_helper_block_453
+___destroy_helper_block_454
+-[CDAttribute statistic:forHistoryWindow:device:error:]
+-[CDAttribute repeatedStatistic:forHistoryWindow:device:error:]
+___63-[CDAttribute repeatedStatistic:forHistoryWindow:device:error:]_block_invoke
+___copy_helper_block_456
+___destroy_helper_block_457
+___63-[CDAttribute repeatedStatistic:forHistoryWindow:device:error:]_block_invoke461
+___copy_helper_block_462
+___destroy_helper_block_463
+-[CDAttribute historyOfValue:forWindow:filter:maximumElements:error:]
+___69-[CDAttribute historyOfValue:forWindow:filter:maximumElements:error:]_block_invoke
+___copy_helper_block_465
+___destroy_helper_block_466
+-[CDAttribute reset:error:]
+___27-[CDAttribute reset:error:]_block_invoke
+___copy_helper_block_477
+___destroy_helper_block_478
+-[CDAttribute temporalForecastOfValue:forHistoryWindow:deviceDescription:forecastType:temporalLeeway:maximumElements:error:]
+-[CDAttribute peerForecastOfValue:forHistoryWindow:deviceDescription:forecastType:temporalLeeway:maximumElements:error:]
+-[CDAttribute statistic:forHistoryWindow:deviceDescription:error:]
+-[CDAttribute repeatedStatistic:forHistoryWindow:deviceDescription:error:]
+-[CDAttribute setAdmissionBitMask:error:]
+___41-[CDAttribute setAdmissionBitMask:error:]_block_invoke
+___copy_helper_block_482
+___destroy_helper_block_483
+-[CDAttribute resetAdmissionBitMask:error:]
+___43-[CDAttribute resetAdmissionBitMask:error:]_block_invoke
+___copy_helper_block_487
+___destroy_helper_block_488
+-[CDAttribute requestTemporalForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]
+___103-[CDAttribute requestTemporalForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke
+___copy_helper_block_494
+___destroy_helper_block_495
+___103-[CDAttribute requestTemporalForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke501
+___103-[CDAttribute requestTemporalForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke_2
+___copy_helper_block_502
+___destroy_helper_block_503
+___copy_helper_block_507
+___destroy_helper_block_508
+-[CDAttribute requestPeerForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]
+___99-[CDAttribute requestPeerForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke
+___copy_helper_block_512
+___destroy_helper_block_513
+___99-[CDAttribute requestPeerForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke515
+___99-[CDAttribute requestPeerForecastFromDevice:withValue:forHistoryWindow:forecastType:error:handler:]_block_invoke_2
+___copy_helper_block_516
+___destroy_helper_block_517
+___copy_helper_block_519
+___destroy_helper_block_520
+-[CDAttribute requestStatisticFromDevice:statistic:forHistoryWindow:error:handler:]
+___83-[CDAttribute requestStatisticFromDevice:statistic:forHistoryWindow:error:handler:]_block_invoke
+___copy_helper_block_524
+___destroy_helper_block_525
+___83-[CDAttribute requestStatisticFromDevice:statistic:forHistoryWindow:error:handler:]_block_invoke529
+___83-[CDAttribute requestStatisticFromDevice:statistic:forHistoryWindow:error:handler:]_block_invoke_2
+___copy_helper_block_530
+___destroy_helper_block_531
+___copy_helper_block_533
+___destroy_helper_block_534
+-[CDAttribute setAdmissionManualType:error:]
+___44-[CDAttribute setAdmissionManualType:error:]_block_invoke
+___copy_helper_block_536
+___destroy_helper_block_537
+-[CDAttribute dealloc]
+-[CDAttribute name]
+-[CDAttribute fullName]
+-[CDAttribute type]
+-[CDAttribute integerId]
+-[CDAttribute session]
+-[CDAttribute deferredRequestsQ]
+-[CDAttribute .cxx_destruct]
+-[CDBudget initWithSession:name:type:integerId:error:]
+-[CDBudget incrementByValue:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[CDBudget incrementByValue:error:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CDBudget decrementByValue:error:]
+___35-[CDBudget decrementByValue:error:]_block_invoke
+___copy_helper_block_11
+___destroy_helper_block_12
+-[CDBudget compareValueTo:swapOnMatchWithValue:error:]
+___54-[CDBudget compareValueTo:swapOnMatchWithValue:error:]_block_invoke
+___copy_helper_block_16
+___destroy_helper_block_17
+-[CDBudget creditsRemainingWithError:]
+___38-[CDBudget creditsRemainingWithError:]_block_invoke
+___copy_helper_block_21
+___destroy_helper_block_22
+-[CDBudget deleteWithError:]
+___28-[CDBudget deleteWithError:]_block_invoke
+___copy_helper_block_27
+___destroy_helper_block_28
+-[CDBudget childBudgetWithName:maxFraction:type:error:]
+___55-[CDBudget childBudgetWithName:maxFraction:type:error:]_block_invoke
+___copy_helper_block_32
+___destroy_helper_block_33
+-[CDBudget forecastEffectiveOnDate:error:]
+-[CDBudget name]
+-[CDBudget type]
+-[CDBudget integerId]
+-[CDBudget session]
+-[CDBudget .cxx_destruct]
+GCC_except_table9
+GCC_except_table15
+GCC_except_table7
+GCC_except_table16
+GCC_except_table23
+GCC_except_table24
+GCC_except_table33
+GCC_except_table34
+GCC_except_table38
+GCC_except_table39
+GCC_except_table48
+GCC_except_table52
+GCC_except_table57
+GCC_except_table59
+GCC_except_table60
+GCC_except_table62
+GCC_except_table73
+GCC_except_table7
+GCC_except_table14
+GCC_except_table20
+GCC_except_table24
+GCC_except_table30
+GCC_except_table46
+GCC_except_table59
+GCC_except_table76
+GCC_except_table84
+GCC_except_table89
+GCC_except_table98
+GCC_except_table109
+GCC_except_table113
+GCC_except_table128
+GCC_except_table129
+GCC_except_table138
+GCC_except_table144
+GCC_except_table155
+GCC_except_table159
+GCC_except_table163
+GCC_except_table167
+GCC_except_table183
+GCC_except_table194
+GCC_except_table201
+GCC_except_table205
+GCC_except_table213
+GCC_except_table217
+GCC_except_table221
+GCC_except_table225
+GCC_except_table231
+GCC_except_table235
+GCC_except_table241
+GCC_except_table245
+GCC_except_table251
+GCC_except_table1
+GCC_except_table7
+GCC_except_table11
+GCC_except_table15
+GCC_except_table19
+GCC_except_table23
+___block_descriptor_tmp
+___block_descriptor_tmp34
+___block_descriptor_tmp50
+___block_descriptor_tmp
+___block_descriptor_tmp79
+___block_descriptor_tmp90
+___block_descriptor_tmp93
+___block_descriptor_tmp99
+___block_descriptor_tmp114
+___block_descriptor_tmp121
+___block_descriptor_tmp130
+___block_descriptor_tmp136
+___block_descriptor_tmp142
+___block_descriptor_tmp148
+___block_descriptor_tmp154
+___block_descriptor_tmp159
+___block_descriptor_tmp164
+___block_descriptor_tmp242
+___block_descriptor_tmp252
+___block_descriptor_tmp259
+___block_descriptor_tmp262
+___block_descriptor_tmp267
+___block_descriptor_tmp
+___block_descriptor_tmp97
+___block_descriptor_tmp101
+___block_descriptor_tmp104
+___block_descriptor_tmp109
+___block_descriptor_tmp118
+___block_descriptor_tmp127
+___block_descriptor_tmp157
+___block_descriptor_tmp160
+___block_descriptor_tmp169
+___block_descriptor_tmp172
+___block_descriptor_tmp175
+___block_descriptor_tmp182
+___block_descriptor_tmp186
+___block_descriptor_tmp190
+___block_descriptor_tmp194
+___block_descriptor_tmp197
+___block_descriptor_tmp207
+___block_descriptor_tmp210
+_CDAttributeStatisticsKeyMapper
+___block_descriptor_tmp219
+___block_descriptor_tmp268
+___block_descriptor_tmp281
+___block_descriptor_tmp290
+___block_descriptor_tmp296
+___block_descriptor_tmp318
+___block_descriptor_tmp324
+___block_descriptor_tmp328
+___block_descriptor_tmp332
+___block_descriptor_tmp342
+___block_descriptor_tmp352
+___block_descriptor_tmp360
+___block_descriptor_tmp366
+___block_descriptor_tmp377
+___block_descriptor_tmp383
+___block_descriptor_tmp389
+___block_descriptor_tmp396
+___block_descriptor_tmp405
+___block_descriptor_tmp411
+___block_descriptor_tmp414
+___block_descriptor_tmp417
+___block_descriptor_tmp433
+___block_descriptor_tmp436
+___block_descriptor_tmp441
+___block_descriptor_tmp444
+___block_descriptor_tmp447
+___block_descriptor_tmp451
+___block_descriptor_tmp455
+___block_descriptor_tmp458
+___block_descriptor_tmp464
+___block_descriptor_tmp467
+___block_descriptor_tmp479
+___block_descriptor_tmp484
+___block_descriptor_tmp489
+___block_descriptor_tmp496
+___block_descriptor_tmp504
+___block_descriptor_tmp509
+___block_descriptor_tmp514
+___block_descriptor_tmp518
+___block_descriptor_tmp521
+___block_descriptor_tmp526
+___block_descriptor_tmp532
+___block_descriptor_tmp535
+___block_descriptor_tmp538
+___block_descriptor_tmp
+___block_descriptor_tmp13
+___block_descriptor_tmp18
+___block_descriptor_tmp23
+___block_descriptor_tmp29
+___block_descriptor_tmp34
+_OBJC_IVAR_$_CDDevice._session
+_OBJC_IVAR_$_CDDevice._identifier
+_OBJC_IVAR_$_CDDevice._modelIdentifier
+_OBJC_IVAR_$_CDDevice.remoteDataNotificationToken
+_OBJC_IVAR_$_CDTrendLogic._slotCount
+_OBJC_IVAR_$_CDTrendLogic._cDelta
+_OBJC_IVAR_$_CDTrendLogic._cLowThreshold
+_OBJC_IVAR_$_CDTrendLogic._cHighThreshold
+_OBJC_IVAR_$_CDTrendLogic._cMin
+_OBJC_IVAR_$_CDTrendLogic._cMax
+_OBJC_IVAR_$_CDTrendLogic._cEpsilon
+_OBJC_IVAR_$_CDTrendLogic._iecMinSeconds
+_OBJC_IVAR_$_CDTrendLogic._iecMaxSeconds
+_OBJC_IVAR_$_CDTrendLogic._iecDecayMult
+_OBJC_IVAR_$_CDTrendLogic._iecMinMult
+_OBJC_IVAR_$_CDTrendLogic._iecAvgMult
+_OBJC_IVAR_$_CDTrendLogic._iecDiv
+_OBJC_IVAR_$_CDTrendLogic._timerMinSeconds
+_OBJC_IVAR_$_CDTrendLogic._timerLeewaySeconds
+_OBJC_IVAR_$_CDSession._clientId
+_OBJC_IVAR_$_CDSession._verbose
+_OBJC_IVAR_$_CDSession._cddClientConnection
+_OBJC_IVAR_$_CDSession._cacheSerializerQ
+_OBJC_IVAR_$_CDSession._cachedAttributeIDs
+_OBJC_IVAR_$_CDSession._cachedBudgets
+_OBJC_IVAR_$_CDSession._enabledCaching
+_OBJC_IVAR_$_CDAttributeOccurrence._value
+_OBJC_IVAR_$_CDAttributeOccurrence._date
+_OBJC_IVAR_$_CDAttribute._session
+_OBJC_IVAR_$_CDAttribute._name
+_OBJC_IVAR_$_CDAttribute._type
+_OBJC_IVAR_$_CDAttribute._integerId
+_OBJC_IVAR_$_CDAttribute._admissionMask
+_OBJC_IVAR_$_CDAttribute._deferredRequestsQ
+_OBJC_IVAR_$_CDAttribute._fullName
+_OBJC_IVAR_$_CDAttribute.resourceCallbackList
+_OBJC_IVAR_$_CDAttribute.resourceCallbackQueue
+_OBJC_IVAR_$_CDAttribute.resourceCallToken
+_OBJC_IVAR_$_CDAttribute.focalAppToken
+_OBJC_IVAR_$_CDAttribute.conditionChangeToken
+_OBJC_IVAR_$_CDBudget._session
+_OBJC_IVAR_$_CDBudget._name
+_OBJC_IVAR_$_CDBudget._type
+_OBJC_IVAR_$_CDBudget._integerId
+_CDDIsValidResponse
+_OBJC_CLASS_$_CDAttribute
+_OBJC_CLASS_$_CDAttributeOccurrence
+_OBJC_CLASS_$_CDBudget
+_OBJC_CLASS_$_CDDevice
+_OBJC_CLASS_$_CDSession
+_OBJC_CLASS_$_CDTrendLogic
+_OBJC_CLASS_$_CDTrigger
+_OBJC_METACLASS_$_CDAttribute
+_OBJC_METACLASS_$_CDAttributeOccurrence
+_OBJC_METACLASS_$_CDBudget
+_OBJC_METACLASS_$_CDDevice
+_OBJC_METACLASS_$_CDSession
+_OBJC_METACLASS_$_CDTrendLogic
+_OBJC_METACLASS_$_CDTrigger
+_CDDSetError
+_NSLog
+_OBJC_CLASS_$_CDDClientConnection
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___assert_rtn
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__xpc_error_connection_invalid
+__xpc_type_array
+__xpc_type_double
+__xpc_type_error
+__xpc_type_int64
+__xpc_type_string
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_queue_create
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_dispatch_time
+_notify_cancel
+_notify_get_state
+_notify_register_dispatch
+_objc_autoreleaseReturnValue
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_storeStrong
+_random
+_srandomdev
+_strcmp
+_xpc_array_apply
+_xpc_array_get_count
+_xpc_array_get_value
+_xpc_bool_get_value
+_xpc_dictionary_apply
+_xpc_dictionary_get_double
+_xpc_dictionary_get_int64
+_xpc_dictionary_get_string
+_xpc_dictionary_get_uint64
+_xpc_dictionary_get_value
+_xpc_double_get_value
+_xpc_get_type
+_xpc_int64_get_value
+_xpc_string_get_string_ptr
+_xpc_uint64_get_value
+dyld_stub_binder

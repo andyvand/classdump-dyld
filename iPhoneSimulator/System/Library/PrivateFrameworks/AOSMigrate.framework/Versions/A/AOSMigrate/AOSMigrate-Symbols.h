@@ -1,0 +1,14 @@
+_AOSMigrateAccountWithAppleID
+_CFDictionaryCreate
+_CFMessagePortCreateRemote
+_CFMessagePortSendRequest
+_CFPropertyListCreateData
+_CFRelease
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+_kCFAllocatorDefault
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_syslog
+dyld_stub_binder

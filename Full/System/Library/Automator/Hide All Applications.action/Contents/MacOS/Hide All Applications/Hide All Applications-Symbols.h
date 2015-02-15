@@ -1,0 +1,10 @@
+radr://5614542
+_OBJC_CLASS_$_Hide_Applications
+_OBJC_METACLASS_$_Hide_Applications
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$_NSWorkspace
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

@@ -10,13 +10,17 @@
     GNU General Public License for more details.
 */
 
-static BOOL inDebug=NO;
 #define CDLog(...) if (inDebug)NSLog(@"classdump-dyld : %@", [NSString stringWithFormat:__VA_ARGS__] )
 
 #define RESET   "\033[0m"
 #define BOLDWHITE   "\033[1m\033[37m"  
 #define CLEARSCREEN "\e[1;1H\e[2J"
 
+#include <objc/objc.h>
+#include <stdint.h>
+#include <sys/types.h>
+#include <CoreFoundation/CoreFoundation.h>
+#include <Foundation/Foundation.h>
 #include <stdio.h>
 #include <dlfcn.h>
 #include <dirent.h>
@@ -40,6 +44,7 @@ static NSMutableArray *classesInStructs=nil;
 static NSMutableArray *classesInClass=nil;
 static NSMutableArray *processedImages=nil;
 static NSMutableArray *allImagesProcessed;
+static BOOL inDebug = NO;
 
 const struct dyld_all_image_infos *dyld_all_image_infos;
 extern "C" struct dyld_all_image_infos* _dyld_get_all_image_infos();

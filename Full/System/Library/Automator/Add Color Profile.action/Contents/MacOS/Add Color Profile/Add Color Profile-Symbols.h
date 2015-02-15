@@ -1,0 +1,58 @@
+-[AddColorProfile timsAwesomeWorkaround]
+-[AddColorProfile internalInit]
+-[AddColorProfile opened]
+-[AddColorProfile isRGBBasedCodec:]
+-[AddColorProfile setProfile:pathname:]
+-[AddColorProfile processFile:returnValues:]
+-[AddColorProfile processFolder:returnValues:]
+-[AddColorProfile runWithInput:fromAction:error:]
+-[AddColorProfile takeProfileFrom:]
+-[AddColorProfile takeExportedFrom:]
+-[AddColorProfile updateParameters]
+-[AddColorProfile parametersUpdated]
+-[AddColorProfile writeToDictionary:]
+-[AddColorProfile privateUpdateParametersWithDictionary:]
+-[AddColorProfile updateParametersWithDictionary:]
+-[AddColorProfile initWithDefinition:fromArchive:]
+-[AddColorProfile validateUserInterfaceItem:]
+_OBJC_CLASS_$_AddColorProfile
+_OBJC_IVAR_$_AddColorProfile._exportSelection
+_OBJC_IVAR_$_AddColorProfile._profileSelection
+_OBJC_IVAR_$_AddColorProfile.exportMenu
+_OBJC_IVAR_$_AddColorProfile.profileMenu
+_OBJC_METACLASS_$_AddColorProfile
+_NSAppleScriptErrorMessage
+_NSAppleScriptErrorNumber
+_NSFileHFSTypeCode
+_NSFileType
+_NSFileTypeDirectory
+_NSFileTypeRegular
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_QTMovie
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+_QTErrorFromOSStatus
+_QTMediaTypeVideo
+_QTMovieFlatten
+_QTOSTypeForString
+_QTTrackMediaSubTypeAttribute
+___CFConstantStringClassReference
+___stderrp
+__objc_empty_cache
+__objc_empty_vtable
+_fprintf
+_objc_assign_strongCast
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_tmpnam
+dyld_stub_binder

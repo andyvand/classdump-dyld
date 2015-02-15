@@ -1,0 +1,9 @@
+#import <Metadata/MDSPathFilter.h>
+#import <Metadata/_MDItem.h>
+#import <Metadata/_MDPlistBytes.h>
+#import <Metadata/_MDMutablePlistBytes.h>
+#import <Metadata/_MDLabel.h>
+#import <Metadata/_MDLabelRegistry.h>
+#import <Metadata/MsgList.h>
+#import <Metadata/RecvList.h>
+#import <Metadata/_MDServiceConnection.h>

@@ -1,0 +1,17 @@
+radr://5614542
+_OBJC_CLASS_$_GetSelectedItemsAction
+_OBJC_METACLASS_$_GetSelectedItemsAction
+_OBJC_CLASS_$_AMApplicationRegistry
+_OBJC_CLASS_$_AMGenericAction
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_OSAScript
+_OBJC_METACLASS_$_AMGenericAction
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_assign_global
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

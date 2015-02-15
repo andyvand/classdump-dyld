@@ -1,0 +1,12 @@
+radr://5614542
+_OBJC_CLASS_$_LogOutputAction
+_OBJC_IVAR_$_LogOutputAction._outputTextView
+_OBJC_METACLASS_$_LogOutputAction
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+_objc_msgSendSuper2
+dyld_stub_binder

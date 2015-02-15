@@ -1,0 +1,465 @@
++[FMDFMMManager sharedInstance]
+___31+[FMDFMMManager sharedInstance]_block_invoke
+-[FMDFMMManager init]
+___21-[FMDFMMManager init]_block_invoke
+-[FMDFMMManager dealloc]
+-[FMDFMMManager currentXPCConnection]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[FMDFMMManager currentXPCConnection]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___37-[FMDFMMManager currentXPCConnection]_block_invoke27
+___copy_helper_block_30
+___destroy_helper_block_31
+___37-[FMDFMMManager currentXPCConnection]_block_invoke34
+___copy_helper_block_105
+___destroy_helper_block_106
+-[FMDFMMManager _destroyXPCConnection]
+-[FMDFMMManager addFMMAccount:withCompletion:]
+___46-[FMDFMMManager addFMMAccount:withCompletion:]_block_invoke
+___copy_helper_block_129
+___destroy_helper_block_130
+___46-[FMDFMMManager addFMMAccount:withCompletion:]_block_invoke136
+___copy_helper_block_141
+___destroy_helper_block_142
+-[FMDFMMManager removeFMMAccountWithUsername:completion:]
+___57-[FMDFMMManager removeFMMAccountWithUsername:completion:]_block_invoke
+___copy_helper_block_160
+___destroy_helper_block_161
+___57-[FMDFMMManager removeFMMAccountWithUsername:completion:]_block_invoke164
+___copy_helper_block_169
+___destroy_helper_block_170
+-[FMDFMMManager removeFMMAccountWithUsername:authRight:completion:]
+___67-[FMDFMMManager removeFMMAccountWithUsername:authRight:completion:]_block_invoke
+___copy_helper_block_176
+___destroy_helper_block_177
+___67-[FMDFMMManager removeFMMAccountWithUsername:authRight:completion:]_block_invoke180
+___copy_helper_block_181
+___destroy_helper_block_182
+-[FMDFMMManager retrieveFMMAccountWithCompletion:]
+___50-[FMDFMMManager retrieveFMMAccountWithCompletion:]_block_invoke
+___copy_helper_block_187
+___destroy_helper_block_188
+___50-[FMDFMMManager retrieveFMMAccountWithCompletion:]_block_invoke191
+___copy_helper_block_196
+___destroy_helper_block_197
+-[FMDFMMManager isFMMEnabled]
+-[FMDFMMManager addFMMAccount:]
+___31-[FMDFMMManager addFMMAccount:]_block_invoke
+___copy_helper_block_213
+___destroy_helper_block_214
+-[FMDFMMManager removeFMMAccountWithUsername:]
+___46-[FMDFMMManager removeFMMAccountWithUsername:]_block_invoke
+___copy_helper_block_228
+___destroy_helper_block_229
+-[FMDFMMManager removeFMMAccountWithUsername:authRight:]
+___56-[FMDFMMManager removeFMMAccountWithUsername:authRight:]_block_invoke
+___copy_helper_block_236
+___destroy_helper_block_237
+-[FMDFMMManager retrieveFMMAccount:]
+___36-[FMDFMMManager retrieveFMMAccount:]_block_invoke
+___copy_helper_block_244
+___destroy_helper_block_245
+-[FMDFMMManager newErrorForCode:message:]
+-[FMDFMMManager _createAuthRight]
+-[FMDFMMManager _adminAuthDataForRight:]
+-[FMDFMMManager xpcConnection]
+-[FMDFMMManager setXpcConnection:]
+-[FMDFMMManager authRef]
+-[FMDFMMManager setAuthRef:]
+-[FMDSynchronizer initWithDescription:andTimeout:]
+-[FMDSynchronizer dealloc]
+-[FMDSynchronizer signal]
+-[FMDSynchronizer wait]
+-[FMDSynchronizer loggingID]
+-[FMDSynchronizer timeoutOccurred]
+-[FMDSynchronizer setTimeoutOccurred:]
+-[FMDSynchronizer timeout]
+-[FMDSynchronizer setTimeout:]
+-[FMDSynchronizer sem]
+-[FMDSynchronizer setSem:]
+-[FMDSynchronizer info]
+-[FMDSynchronizer setInfo:]
++[FMDLogger sharedInstance]
+___27+[FMDLogger sharedInstance]_block_invoke
+-[FMDLogger init]
+__FMDLoggerPreferencesDidChange
+-[FMDLogger logSettingsDidChange]
+-[FMDLogger logAtLevel:facility:filename:lineNumber:function:message:]
+___70-[FMDLogger logAtLevel:facility:filename:lineNumber:function:message:]_block_invoke
+-[FMDLogger maxOutLogging]
+-[FMDLogger logLevelsMaxedOut]
+-[FMDLogger setLogLevelsMaxedOut:]
+-[FMDLogger logLocationIndicatorSent]
+-[FMDLogger setLogLocationIndicatorSent:]
+-[FMDLogger isInternalBuild]
+-[FMDLogger setIsInternalBuild:]
+-[FMDFMMAccountInfo dealloc]
+-[FMDFMMAccountInfo initWithCoder:]
+-[FMDFMMAccountInfo encodeWithCoder:]
++[FMDFMMAccountInfo supportsSecureCoding]
+-[FMDFMMAccountInfo hasMandatoryInfo]
+-[FMDFMMAccountInfo description]
+-[FMDFMMAccountInfo dsid]
+-[FMDFMMAccountInfo setDsid:]
+-[FMDFMMAccountInfo username]
+-[FMDFMMAccountInfo setUsername:]
+-[FMDFMMAccountInfo fmmAuthToken]
+-[FMDFMMAccountInfo setFmmAuthToken:]
+-[FMDFMMAccountInfo additionalInfo]
+-[FMDFMMAccountInfo setAdditionalInfo:]
+-[FMDFMMAccountInfo fmdServerHost]
+-[FMDFMMAccountInfo setFmdServerHost:]
+-[FMDFMMAccountInfo fmdServerProtocolScheme]
+-[FMDFMMAccountInfo setFmdServerProtocolScheme:]
+-[FMDFMMAccountInfo fmdAPSEnvironment]
+-[FMDFMMAccountInfo setFmdAPSEnvironment:]
+-[FMDFMMAccountInfo uid]
+-[FMDFMMAccountInfo setUid:]
++[FMDPreferencesUtil synchronizeDomain:]
++[FMDPreferencesUtil synchronizeDomain:user:]
++[FMDPreferencesUtil removeKey:inDomain:]
++[FMDPreferencesUtil boolForKey:inDomain:]
++[FMDPreferencesUtil boolForKey:inDomain:user:]
++[FMDPreferencesUtil setBool:forKey:inDomain:]
++[FMDPreferencesUtil integerForKey:inDomain:]
++[FMDPreferencesUtil integerForKey:inDomain:user:]
++[FMDPreferencesUtil setInteger:forKey:inDomain:]
++[FMDPreferencesUtil stringForKey:inDomain:]
++[FMDPreferencesUtil stringForKey:inDomain:user:]
++[FMDPreferencesUtil setString:forKey:inDomain:]
++[FMDPreferencesUtil dateForKey:inDomain:]
++[FMDPreferencesUtil dateForKey:inDomain:user:]
++[FMDPreferencesUtil setDate:forKey:inDomain:]
++[FMDPreferencesUtil dictionaryForKey:inDomain:]
++[FMDPreferencesUtil dictionaryForKey:inDomain:user:]
++[FMDPreferencesUtil setDictionary:forKey:inDomain:]
++[FMDPreferencesUtil arrayForKey:inDomain:]
++[FMDPreferencesUtil arrayForKey:inDomain:user:]
++[FMDPreferencesUtil setArray:forKey:inDomain:]
++[FMDPreferencesUtil dataForKey:inDomain:]
++[FMDPreferencesUtil dataForKey:inDomain:user:]
++[FMDPreferencesUtil setData:forKey:inDomain:]
++[FMDPreferencesUtil objectForKey:inDomain:]
++[FMDPreferencesUtil objectForKey:inDomain:user:]
++[FMDPreferencesUtil setObject:forKey:inDomain:]
+GCC_except_table5
+GCC_except_table47
+GCC_except_table51
+GCC_except_table55
+GCC_except_table59
+_kFMDFMIPOSUserid
+_kFMDFMMOSUserid
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp11
+___block_literal_global12
+___block_descriptor_tmp26
+___block_descriptor_tmp33
+___block_descriptor_tmp108
+___block_descriptor_tmp133
+___block_descriptor_tmp144
+___block_descriptor_tmp163
+___block_descriptor_tmp172
+___block_descriptor_tmp179
+___block_descriptor_tmp184
+___block_descriptor_tmp190
+___block_descriptor_tmp200
+___block_descriptor_tmp216
+___block_descriptor_tmp231
+___block_descriptor_tmp239
+___block_descriptor_tmp247
+_kFMDLogPrefsChangedDarwinNotification
+___block_descriptor_tmp
+___block_literal_global
+__aslLogLevel
+___block_descriptor_tmp54
+_FMDUSR1SignalNotification
+_FMDUSR2SignalNotification
+_kFMDLocalNetworkStatusChangedNotification
+_kFMDLocalNetworkStatusKey
+_kFMDiCloudAccountMayHaveChangedNotification
+_kFMDDeviceNameMayHaveChangedNotification
+_kFMDDevicePasscodeMayHaveChangedNotification
+_kFMDDeviceTimezoneMayHaveChangedNotification
+_kFMDDeviceLocaleMayHaveChangedNotification
+_kFMDAppInstallChangedNotification
+_kFMDSystemShutdownSoonNotification
+_fmipLostModeInfoPrefKey
+_clientLostModeInfoPrefKey
+_fmipWipeLostModeInfoPrefKey
+_kFMDPurpleBuddySetupDoneDarwinNotification
+_kFMDPurpleBuddySetupDoneLocalNotification
+_kCommandIdKey
+_kCommandTypeKey
+_kCmdStatusMessageKey
+_kLocateStatusKey
+_kLocateTimestampKey
+_kLocateLatitudeKey
+_kLocateLongitudeKey
+_kLocateHorizAccuracyKey
+_kLocateVertAccuracyKey
+_kLocateAltitudeKey
+_kLocateSpeedKey
+_kLocateCourseKey
+_kLocateFinishedKey
+_kLocatePositionTypeKey
+_kLocateTrackedLocationTypeKey
+_kLostModeInfoChangedLocalNotification
+_kLostModeDisabledLocalNotification
+_lostModeEnabledPrefKey
+_lostModeMessagePrefKey
+_lostModeOwnerNumberPrefKey
+_kPowerAssertWiping
+_kPowerAssertLocking
+_kPowerAssertMessaging
+_kPowerAssertLocating
+_kPowerAssertWipeVerify
+_kPowerAssertQueueCheck
+_kPowerAssertRegister
+_kPowerAssertUnregister
+_kPowerAssertAck
+_kWipeInfoCommandParamsKey
+_kWipeInfoWipePinKey
+_kWipeInfoWipeMessageKey
+_kWipeInfoWipeModeKey
+_kWipeInfoAPSTokenKey
+_kWipeInfoAuthIdKey
+_kFMDDataclassDeviceLocator
+_kFMDAccountDataclassPropHostnameKey
+_kFMDAccountDataclassPropAPSEnvKey
+_kFMDCacheDirectory
+_kAOSClientAccessEntitlement
+_kFMDClientAccessEntitlement
+_kDeviceInfoProductTypeKey
+_kDeviceInfoDeviceNameKey
+_kDeviceInfoBuildVersionKey
+_kDeviceInfoRecoveryBuildVersionKey
+_kDeviceInfoRecoveryProductVersionKey
+_kDeviceInfoProductVersionKey
+_kDeviceInfoSerialNumberKey
+_kDeviceInfoPlatformKey
+_kDeviceInfoLocServiceEnabledKey
+_kDeviceInfoLocServicesCapableKey
+_kDeviceInfoActivationLockKey
+_kDeviceInfoFMiPEnabledKey
+_kDeviceInfoFMIPVersionKey
+_kDeviceInfoFMIPBuildVersionKey
+_kDeviceInfoTrackingStatusKey
+_kDeviceInfoTrackNotifyEnabledKey
+_kDeviceInfoFMFEnabledKey
+_kDeviceInfoFMFVersionKey
+_kDeviceInfoFMFBuildVersionKey
+_kDeviceInfoFMFRestrictionKey
+_kDeviceInfoPushFMFAppNotificationsKey
+_kDeviceInfoAccountAddTimeKey
+_kDeviceInfoShareLocationKey
+_kDeviceInfoPasscodeConstraintKey
+_kDeviceInfoPasscodeIsSetKey
+_kDeviceInfoDeviceClassKey
+_kDeviceInfoUDIDKey
+_kDeviceInfoTimezoneKey
+_kDeviceInfoLocaleKey
+_kDeviceInfoAPSToken
+_kDeviceInfoUnregisterANSKey
+_kDeviceInfoRunningInRecoveryPartition
+_kDeviceInfoDeviceColorKey
+_kDeviceInfoDeviceEnclosureColorKey
+_kDeviceInfoBootState
+_kDeviceInfoFenceMonitoringCapableKey
+_kDeviceInfoFenceVersionKey
+_kDeviceInfoMachineIdKey
+_kDeviceInfoGlobalBackgroundAppRefreshKey
+_kDeviceInfoFmfBackgroundAppRefreshKey
+_kDeviceInfoIsInternalKey
+_kDeviceInfoVersionHistoryKey
+_kDeviceInfoBatteryLevel
+_kDeviceInfoBatteryStatus
+_kDeviceInfoIsChargerConnected
+_kDeviceContextTimestampKey
+_kDeviceContextCmdIDKey
+_kBatteryStatusCharging
+_kBatteryStatusNotCharging
+_kBatteryStatusUnknown
+_kRequestType_CurrentLocation
+_kRequestType_QueueCheck
+_kRequestType_Register
+_kRequestType_Identity
+_kRequestType_Unregister
+_kRequestType_Ack
+_kRequestType_TrackedLocations
+_kRequestType_LostModeExitAuth
+_kCommandType_Locate
+_kCommandType_Lock
+_kCommandType_Message
+_kCommandType_Register
+_kCommandType_Identity
+_kCommandType_Wipe
+_kCommandType_LostMode
+_kCommandType_Test
+_kCommandType_Invite
+_kCommandType_Settings
+_kCommandType_Fence
+_kCommandType_Track
+_kCommandType_iMessage
+_kMessageBodyDeviceContextKey
+_kMessageBodyServerContextKey
+_kMessageBodyDeviceInfoKey
+_kQCBodyShutdownActivityPendingKey
+_kServiceNameFindMyFriends
+_kServiceNameFindMyiOS
+_kServiceNameFindMyMac
+_accountsFilePath
+_accountsNotBackedUpFilePath
+_kFMDFMIPNeedsLostModeExitAuth
+_kFMDFMIPOSUsername
+_kFMDFMMOSUsername
+_OBJC_IVAR_$_FMDFMMManager._authRef
+_OBJC_IVAR_$_FMDFMMManager._xpcConnection
+_OBJC_IVAR_$_FMDSynchronizer._info
+_OBJC_IVAR_$_FMDSynchronizer._timeout
+_OBJC_IVAR_$_FMDSynchronizer._sem
+_OBJC_IVAR_$_FMDSynchronizer._timeoutOccurred
+_OBJC_IVAR_$_FMDLogger._logLevelsMaxedOut
+_OBJC_IVAR_$_FMDLogger._logLocationIndicatorSent
+_OBJC_IVAR_$_FMDLogger._isInternalBuild
+_OBJC_IVAR_$_FMDFMMAccountInfo._dsid
+_OBJC_IVAR_$_FMDFMMAccountInfo._username
+_OBJC_IVAR_$_FMDFMMAccountInfo._fmmAuthToken
+_OBJC_IVAR_$_FMDFMMAccountInfo._additionalInfo
+_OBJC_IVAR_$_FMDFMMAccountInfo._fmdServerHost
+_OBJC_IVAR_$_FMDFMMAccountInfo._fmdServerProtocolScheme
+_OBJC_IVAR_$_FMDFMMAccountInfo._fmdAPSEnvironment
+_OBJC_IVAR_$_FMDFMMAccountInfo._uid
+_OBJC_CLASS_$_FMDSynchronizer
+_OBJC_METACLASS_$_FMDSynchronizer
+_OBJC_METACLASS_$_FMDLogger
+_OBJC_METACLASS_$_FMDPreferencesUtil
+_kFMDSyncXPCTimeout
+_kFMDXPCServiceName
+_kRemoteLockStatus_FailedPasscodeConstraint
+_kRemoteLockStatus_FailedLockNoPasscode
+_kRemoteLockStatus_FailedCouldNotSet
+_kRemoteLockStatus_LockedAndSet
+_kRemoteLockStatus_LockedOnly
+_kRemoteLockStatus_LockedNewPasscodeIgnored
+_kLocatorStatus_AlreadyLocating
+_kLocatorStatus_OK
+_kLocatorStatus_LocationServicesNotCapable
+_kLocatorStatus_LocationServicesNotEnabled
+_kLocatorStatus_FMIPNotEnabled
+_kLocatorStatus_ShareLocationNotEnabled
+_kLocatorStatus_TimedOut
++[FMDFMMManager sharedInstance]._instance
++[FMDFMMManager sharedInstance].onceToken
+-[FMDFMMManager init].onceToken
+_xpcConnectionCreationQueue
++[FMDLogger sharedInstance].onceToken
+__fmd_logQueue
+__fmd_aslClient
+___fmdLogger
+_kRemoteLockStatus_NONE
+_FMDLogFacilityDefault
+_FMDLogFacilityLocation
+_FMDLogFacilitySyslog
+_FMDLogFacilityTraffic
+_OBJC_CLASS_$_FMDFMMAccountInfo
+_OBJC_CLASS_$_FMDFMMManager
+_OBJC_CLASS_$_FMDLogger
+_OBJC_CLASS_$_FMDPreferencesUtil
+_OBJC_METACLASS_$_FMDFMMAccountInfo
+_OBJC_METACLASS_$_FMDFMMManager
+___fmdLogLevel
+___fmdLogLocations
+___fmdLogNetworkTraffic
+_fmdFMMLastOperationResult
+_kFMDErrorDomain
+_kFMDNotBackedUpPrefDomain
+_kFMDPostWipePrefDomain
+_kFMDPrefDomain
+_kFMDPublicNotBackedUpPrefDomain
+_kFMMAuthRight
+_kFMMEnabledPrefDomain
+_kFMMEnabledPrefKey
+_kFMMRemoveAuthRight
+_AuthorizationCopyRights
+_AuthorizationCreate
+_AuthorizationFree
+_AuthorizationMakeExternalForm
+_CFArrayGetTypeID
+_CFBooleanGetTypeID
+_CFBooleanGetValue
+_CFDataGetTypeID
+_CFDateGetTypeID
+_CFDictionaryGetTypeID
+_CFGetTypeID
+_CFNotificationCenterAddObserver
+_CFNotificationCenterGetDarwinNotifyCenter
+_CFNotificationCenterGetLocalCenter
+_CFNumberGetTypeID
+_CFNumberGetValue
+_CFPreferencesAppSynchronize
+_CFPreferencesCopyAppValue
+_CFPreferencesCopyValue
+_CFPreferencesGetAppBooleanValue
+_CFPreferencesGetAppIntegerValue
+_CFPreferencesSetAppValue
+_CFPreferencesSynchronize
+_CFRelease
+_CFStringGetTypeID
+_NSLocalizedFailureReasonErrorKey
+_NSStringFromSelector
+_NSUserDefaultsDidChangeNotification
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSXPCConnection
+_OBJC_CLASS_$_NSXPCInterface
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___snprintf_chk
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_asl_free
+_asl_new
+_asl_open
+_asl_send
+_asl_set
+_asl_set_filter
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_release
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_sync
+_dispatch_time
+_getuid
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFPreferencesAnyHost
+_mach_port_deallocate
+_mach_task_self_
+_mach_thread_self
+_objc_assign_global
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_setProperty
+dyld_stub_binder

@@ -1,0 +1,12 @@
+radr://5614542
+_OBJC_CLASS_$_AMConvertMailboxObjectToMessageObjectCaction
+_OBJC_METACLASS_$_AMConvertMailboxObjectToMessageObjectCaction
+_OBJC_CLASS_$_AMSBObjectToSBObjectConversionAction
+_OBJC_CLASS_$__AMMailApplication
+_OBJC_CLASS_$__AMMailMailbox
+_OBJC_METACLASS_$_AMSBObjectToSBObjectConversionAction
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

@@ -1,0 +1,53 @@
+_main
+-[AMRunnerDelegate awakeFromNib]
+-[AMRunnerDelegate dealloc]
+-[AMRunnerDelegate delegateConnection]
+-[AMRunnerDelegate setDelegateConnection:]
+-[AMRunnerDelegate processArguments]
+-[AMRunnerDelegate handleAppleEvent:withReplyEvent:]
+-[AMRunnerDelegate application:openFile:]
+-[AMRunnerDelegate applicationDidFinishLaunching:]
+-[AMRunnerDelegate workflowRunnerDidFinish:]
+-[AMRunnerDelegate workflowRunner:didError:]
+-[AMRunnerDelegate connectionDidDie:]
+-[AMRunnerDelegate writeCacheIfNeeded]
+-[AMRunnerDelegate delayedExit]
+_mt_log_automation_app_launched
+GCC_except_table4
+_OBJC_IVAR_$_AMRunnerDelegate._delegateConnection
+_OBJC_CLASS_$_AMRunnerDelegate
+_OBJC_METACLASS_$_AMRunnerDelegate
+__mh_execute_header
+_NSApp
+_NSApplicationMain
+_NSConnectionDidDieNotification
+_NSLog
+_OBJC_CLASS_$_AMActionRegistry
+_OBJC_CLASS_$_AMApplicationStub
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSAppleEventManager
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSConnection
+_OBJC_CLASS_$_NSDocumentController
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSURL
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_AMApplicationStub
+_OBJC_METACLASS_$_NSObject
+__NSObjectByConvertingAEDescriptorToTypeInSuite
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+__objc_empty_cache
+_exit
+_msgtracer_log_with_keys
+_objc_begin_catch
+_objc_end_catch
+_objc_msgSend
+_objc_msgSendSuper2
+_sleep
+dyld_stub_binder

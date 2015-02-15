@@ -1,0 +1,14 @@
+radr://5614542
+_OBJC_CLASS_$_AMConvertiTunesObjectToAliasObjectCaction
+_OBJC_METACLASS_$_AMConvertiTunesObjectToAliasObjectCaction
+_OBJC_CLASS_$_AMSBObjectToAliasConversionAction
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$__AMiTunes7Application
+_OBJC_CLASS_$__AMiTunes7FileTrack
+_OBJC_CLASS_$__AMiTunes7Track
+_OBJC_METACLASS_$_AMSBObjectToAliasConversionAction
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_msgSend
+dyld_stub_binder

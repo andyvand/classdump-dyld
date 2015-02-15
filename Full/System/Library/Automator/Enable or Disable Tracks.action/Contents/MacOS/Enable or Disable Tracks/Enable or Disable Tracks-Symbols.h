@@ -1,0 +1,51 @@
+-[EnableOrDisableTracks timsAwesomeWorkaround]
+-[EnableOrDisableTracks internalInit]
+-[EnableOrDisableTracks opened]
+-[EnableOrDisableTracks closed]
+-[EnableOrDisableTracks enableDisable:pathname:]
+-[EnableOrDisableTracks processFile:returnValues:]
+-[EnableOrDisableTracks processFolder:returnValues:]
+-[EnableOrDisableTracks runWithInput:fromAction:error:]
+-[EnableOrDisableTracks updateParameters]
+-[EnableOrDisableTracks parametersUpdated]
+-[EnableOrDisableTracks writeToDictionary:]
+-[EnableOrDisableTracks initWithDefinition:fromArchive:]
+-[EnableOrDisableTracks numberOfRowsInTableView:]
+-[EnableOrDisableTracks tableView:objectValueForTableColumn:row:]
+-[EnableOrDisableTracks tableView:setObjectValue:forTableColumn:row:]
+_OBJC_CLASS_$_EnableOrDisableTracks
+_OBJC_IVAR_$_EnableOrDisableTracks._qtMovie
+_OBJC_IVAR_$_EnableOrDisableTracks.trackTable
+_OBJC_IVAR_$_EnableOrDisableTracks.trackTypes
+_OBJC_METACLASS_$_EnableOrDisableTracks
+_NSAppleScriptErrorMessage
+_NSFileHFSTypeCode
+_NSFileType
+_NSFileTypeDirectory
+_NSFileTypeRegular
+_OBJC_CLASS_$_AMBundleAction
+_OBJC_CLASS_$_NSAlert
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_QTMovie
+_OBJC_METACLASS_$_AMBundleAction
+_OBJC_METACLASS_$_NSObject
+_QTMediaTypeSound
+_QTMediaTypeVideo
+_QTMovieFlatten
+_QTTrackEnabledAttribute
+___CFConstantStringClassReference
+__objc_empty_cache
+__objc_empty_vtable
+_objc_assign_ivar
+_objc_assign_strongCast
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_msgSend_fixup
+_tmpnam
+dyld_stub_binder
